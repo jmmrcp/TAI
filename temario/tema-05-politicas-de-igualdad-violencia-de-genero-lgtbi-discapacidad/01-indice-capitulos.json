@@ -1,0 +1,3386 @@
+{
+  "tema": "tema-05-politicas-de-igualdad-violencia-de-genero-lgtbi-discapacidad",
+  "n_entradas": 338,
+  "entradas": [
+    {
+      "id": "art-1",
+      "tipo": "articulo",
+      "titulo": "Artículo 1.  Objeto de la Ley.",
+      "capitulo": "",
+      "rango_lineas": [
+        252,
+        263
+      ]
+    },
+    {
+      "id": "art-2",
+      "tipo": "articulo",
+      "titulo": "Artículo 2.  Ámbito de aplicación.",
+      "capitulo": "",
+      "rango_lineas": [
+        264,
+        271
+      ]
+    },
+    {
+      "id": "art-3",
+      "tipo": "articulo",
+      "titulo": "Artículo 3.  El principio de igualdad de trato entre mujeres y hombres.",
+      "capitulo": "",
+      "rango_lineas": [
+        272,
+        275
+      ]
+    },
+    {
+      "id": "art-4",
+      "tipo": "articulo",
+      "titulo": "Artículo 4.  Integración del principio de igualdad en la interpretación y aplicación de las",
+      "capitulo": "",
+      "rango_lineas": [
+        276,
+        280
+      ]
+    },
+    {
+      "id": "art-5",
+      "tipo": "articulo",
+      "titulo": "Artículo 5.  Igualdad de trato y de oportunidades en el acceso al empleo, en la formación y",
+      "capitulo": "",
+      "rango_lineas": [
+        281,
+        294
+      ]
+    },
+    {
+      "id": "art-6",
+      "tipo": "articulo",
+      "titulo": "Artículo 6.  Discriminación directa e indirecta.",
+      "capitulo": "",
+      "rango_lineas": [
+        295,
+        305
+      ]
+    },
+    {
+      "id": "art-7",
+      "tipo": "articulo",
+      "titulo": "Artículo 7.  Acoso sexual y acoso por razón de sexo.",
+      "capitulo": "",
+      "rango_lineas": [
+        306,
+        318
+      ]
+    },
+    {
+      "id": "art-8",
+      "tipo": "articulo",
+      "titulo": "Artículo 8.  Discriminación por embarazo o maternidad.",
+      "capitulo": "",
+      "rango_lineas": [
+        319,
+        321
+      ]
+    },
+    {
+      "id": "art-9",
+      "tipo": "articulo",
+      "titulo": "Artículo 9.  Indemnidad frente a represalias.",
+      "capitulo": "",
+      "rango_lineas": [
+        322,
+        327
+      ]
+    },
+    {
+      "id": "art-10",
+      "tipo": "articulo",
+      "titulo": "Artículo 10.  Consecuencias jurídicas de las conductas discriminatorias.",
+      "capitulo": "",
+      "rango_lineas": [
+        328,
+        333
+      ]
+    },
+    {
+      "id": "art-11",
+      "tipo": "articulo",
+      "titulo": "Artículo 11.  Acciones positivas.",
+      "capitulo": "",
+      "rango_lineas": [
+        334,
+        341
+      ]
+    },
+    {
+      "id": "art-12",
+      "tipo": "articulo",
+      "titulo": "Artículo 12.  Tutela judicial efectiva.",
+      "capitulo": "",
+      "rango_lineas": [
+        342,
+        352
+      ]
+    },
+    {
+      "id": "art-13",
+      "tipo": "articulo",
+      "titulo": "Artículo 13.  Prueba.",
+      "capitulo": "",
+      "rango_lineas": [
+        353,
+        365
+      ]
+    },
+    {
+      "id": "art-14",
+      "tipo": "articulo",
+      "titulo": "Artículo 14.  Criterios generales de actuación de los Poderes Públicos.",
+      "capitulo": "",
+      "rango_lineas": [
+        366,
+        398
+      ]
+    },
+    {
+      "id": "art-15",
+      "tipo": "articulo",
+      "titulo": "Artículo 15.  Transversalidad del principio de igualdad de trato entre mujeres y hombres.",
+      "capitulo": "",
+      "rango_lineas": [
+        399,
+        404
+      ]
+    },
+    {
+      "id": "art-16",
+      "tipo": "articulo",
+      "titulo": "Artículo 16.  Nombramientos realizados por los Poderes Públicos.",
+      "capitulo": "",
+      "rango_lineas": [
+        405,
+        408
+      ]
+    },
+    {
+      "id": "art-17",
+      "tipo": "articulo",
+      "titulo": "Artículo 17.  Plan Estratégico de Igualdad de Oportunidades.",
+      "capitulo": "",
+      "rango_lineas": [
+        409,
+        413
+      ]
+    },
+    {
+      "id": "art-18",
+      "tipo": "articulo",
+      "titulo": "Artículo 18.  Informe periódico.",
+      "capitulo": "",
+      "rango_lineas": [
+        414,
+        418
+      ]
+    },
+    {
+      "id": "art-19",
+      "tipo": "articulo",
+      "titulo": "Artículo 19.  Informes de impacto de género.",
+      "capitulo": "",
+      "rango_lineas": [
+        419,
+        422
+      ]
+    },
+    {
+      "id": "art-20",
+      "tipo": "articulo",
+      "titulo": "Artículo 20.  Adecuación de las estadísticas y estudios.",
+      "capitulo": "",
+      "rango_lineas": [
+        423,
+        446
+      ]
+    },
+    {
+      "id": "art-21",
+      "tipo": "articulo",
+      "titulo": "Artículo 21.  Colaboración entre las Administraciones públicas.",
+      "capitulo": "",
+      "rango_lineas": [
+        447,
+        454
+      ]
+    },
+    {
+      "id": "art-22",
+      "tipo": "articulo",
+      "titulo": "Artículo 22.  Acciones de planificación equitativa de los tiempos.",
+      "capitulo": "",
+      "rango_lineas": [
+        455,
+        461
+      ]
+    },
+    {
+      "id": "art-23",
+      "tipo": "articulo",
+      "titulo": "Artículo 23.  La educación para la igualdad de mujeres y hombres.",
+      "capitulo": "",
+      "rango_lineas": [
+        462,
+        468
+      ]
+    },
+    {
+      "id": "art-24",
+      "tipo": "articulo",
+      "titulo": "Artículo 24.  Integración del principio de igualdad en la política de educación.",
+      "capitulo": "",
+      "rango_lineas": [
+        469,
+        491
+      ]
+    },
+    {
+      "id": "art-25",
+      "tipo": "articulo",
+      "titulo": "Artículo 25.  La igualdad en el ámbito de la educación superior.",
+      "capitulo": "",
+      "rango_lineas": [
+        492,
+        500
+      ]
+    },
+    {
+      "id": "art-26",
+      "tipo": "articulo",
+      "titulo": "Artículo 26.  La igualdad en el ámbito de la creación y producción artística e intelectual.",
+      "capitulo": "",
+      "rango_lineas": [
+        501,
+        522
+      ]
+    },
+    {
+      "id": "art-27",
+      "tipo": "articulo",
+      "titulo": "Artículo 27.  Integración del principio de igualdad en la política de salud.",
+      "capitulo": "",
+      "rango_lineas": [
+        523,
+        551
+      ]
+    },
+    {
+      "id": "art-28",
+      "tipo": "articulo",
+      "titulo": "Artículo 28.  Sociedad de la Información.",
+      "capitulo": "",
+      "rango_lineas": [
+        552,
+        564
+      ]
+    },
+    {
+      "id": "art-29",
+      "tipo": "articulo",
+      "titulo": "Artículo 29.  Deportes.",
+      "capitulo": "",
+      "rango_lineas": [
+        565,
+        571
+      ]
+    },
+    {
+      "id": "art-30",
+      "tipo": "articulo",
+      "titulo": "Artículo 30.  Desarrollo rural.",
+      "capitulo": "",
+      "rango_lineas": [
+        572,
+        590
+      ]
+    },
+    {
+      "id": "art-31",
+      "tipo": "articulo",
+      "titulo": "Artículo 31.  Políticas urbanas, de ordenación territorial y vivienda.",
+      "capitulo": "",
+      "rango_lineas": [
+        591,
+        606
+      ]
+    },
+    {
+      "id": "art-32",
+      "tipo": "articulo",
+      "titulo": "Artículo 32.  Política española de cooperación para el desarrollo.",
+      "capitulo": "",
+      "rango_lineas": [
+        607,
+        625
+      ]
+    },
+    {
+      "id": "art-33",
+      "tipo": "articulo",
+      "titulo": "Artículo 33.  Contratos de las Administraciones públicas.",
+      "capitulo": "",
+      "rango_lineas": [
+        626,
+        631
+      ]
+    },
+    {
+      "id": "art-34",
+      "tipo": "articulo",
+      "titulo": "Artículo 34.  Contratos de la Administración General del Estado.",
+      "capitulo": "",
+      "rango_lineas": [
+        632,
+        650
+      ]
+    },
+    {
+      "id": "art-35",
+      "tipo": "articulo",
+      "titulo": "Artículo 35.  Subvenciones públicas.",
+      "capitulo": "",
+      "rango_lineas": [
+        651,
+        662
+      ]
+    },
+    {
+      "id": "art-36",
+      "tipo": "articulo",
+      "titulo": "Artículo 36.  La igualdad en los medios de comunicación social de titularidad pública.",
+      "capitulo": "",
+      "rango_lineas": [
+        663,
+        666
+      ]
+    },
+    {
+      "id": "art-37",
+      "tipo": "articulo",
+      "titulo": "Artículo 37.  Corporación RTVE.",
+      "capitulo": "",
+      "rango_lineas": [
+        667,
+        681
+      ]
+    },
+    {
+      "id": "art-38",
+      "tipo": "articulo",
+      "titulo": "Artículo 38.  Agencia EFE.",
+      "capitulo": "",
+      "rango_lineas": [
+        682,
+        696
+      ]
+    },
+    {
+      "id": "art-39",
+      "tipo": "articulo",
+      "titulo": "Artículo 39.  La igualdad en los medios de comunicación social de titularidad privada.",
+      "capitulo": "",
+      "rango_lineas": [
+        697,
+        703
+      ]
+    },
+    {
+      "id": "art-40",
+      "tipo": "articulo",
+      "titulo": "Artículo 40.  Autoridad audiovisual.",
+      "capitulo": "",
+      "rango_lineas": [
+        704,
+        708
+      ]
+    },
+    {
+      "id": "art-41",
+      "tipo": "articulo",
+      "titulo": "Artículo 41.  Igualdad y publicidad.",
+      "capitulo": "",
+      "rango_lineas": [
+        709,
+        716
+      ]
+    },
+    {
+      "id": "art-42",
+      "tipo": "articulo",
+      "titulo": "Artículo 42.  Programas de mejora de la empleabilidad de las mujeres.",
+      "capitulo": "",
+      "rango_lineas": [
+        717,
+        726
+      ]
+    },
+    {
+      "id": "art-43",
+      "tipo": "articulo",
+      "titulo": "Artículo 43.  Promoción de la igualdad en la negociación colectiva.",
+      "capitulo": "",
+      "rango_lineas": [
+        727,
+        733
+      ]
+    },
+    {
+      "id": "art-44",
+      "tipo": "articulo",
+      "titulo": "Artículo 44.  Los derechos de conciliación de la vida personal, familiar y laboral.",
+      "capitulo": "",
+      "rango_lineas": [
+        734,
+        745
+      ]
+    },
+    {
+      "id": "art-45",
+      "tipo": "articulo",
+      "titulo": "Artículo 45.  Elaboración y aplicación de los planes de igualdad.",
+      "capitulo": "",
+      "rango_lineas": [
+        746,
+        765
+      ]
+    },
+    {
+      "id": "art-46",
+      "tipo": "articulo",
+      "titulo": "Artículo 46.  Concepto y contenido de los planes de igualdad de las empresas.",
+      "capitulo": "",
+      "rango_lineas": [
+        766,
+        804
+      ]
+    },
+    {
+      "id": "art-47",
+      "tipo": "articulo",
+      "titulo": "Artículo 47.  Transparencia en la implantación del plan de igualdad.",
+      "capitulo": "",
+      "rango_lineas": [
+        805,
+        811
+      ]
+    },
+    {
+      "id": "art-48",
+      "tipo": "articulo",
+      "titulo": "Artículo 48.  Medidas específicas para prevenir la comisión de delitos y otras conductas",
+      "capitulo": "",
+      "rango_lineas": [
+        812,
+        826
+      ]
+    },
+    {
+      "id": "art-49",
+      "tipo": "articulo",
+      "titulo": "Artículo 49.  Apoyo para la implantación voluntaria de planes de igualdad.",
+      "capitulo": "",
+      "rango_lineas": [
+        827,
+        832
+      ]
+    },
+    {
+      "id": "art-50",
+      "tipo": "articulo",
+      "titulo": "Artículo 50.  Distintivo para las empresas en materia de igualdad.",
+      "capitulo": "",
+      "rango_lineas": [
+        833,
+        858
+      ]
+    },
+    {
+      "id": "art-51",
+      "tipo": "articulo",
+      "titulo": "Artículo 51.  Criterios de actuación de las Administraciones públicas.",
+      "capitulo": "",
+      "rango_lineas": [
+        859,
+        879
+      ]
+    },
+    {
+      "id": "art-52",
+      "tipo": "articulo",
+      "titulo": "Artículo 52.  Titulares de órganos directivos.",
+      "capitulo": "",
+      "rango_lineas": [
+        880,
+        884
+      ]
+    },
+    {
+      "id": "art-53",
+      "tipo": "articulo",
+      "titulo": "Artículo 53.  Órganos de selección y Comisiones de valoración.",
+      "capitulo": "",
+      "rango_lineas": [
+        885,
+        893
+      ]
+    },
+    {
+      "id": "art-54",
+      "tipo": "articulo",
+      "titulo": "Artículo 54.  Designación de representantes de la Administración General del Estado.",
+      "capitulo": "",
+      "rango_lineas": [
+        894,
+        906
+      ]
+    },
+    {
+      "id": "art-55",
+      "tipo": "articulo",
+      "titulo": "Artículo 55.  Informe de impacto de género en las pruebas de acceso al empleo público.",
+      "capitulo": "",
+      "rango_lineas": [
+        907,
+        910
+      ]
+    },
+    {
+      "id": "art-56",
+      "tipo": "articulo",
+      "titulo": "Artículo 56.  Permisos y beneficios de protección a la maternidad y la conciliación de la vida",
+      "capitulo": "",
+      "rango_lineas": [
+        911,
+        919
+      ]
+    },
+    {
+      "id": "art-57",
+      "tipo": "articulo",
+      "titulo": "Artículo 57.  Conciliación y provisión de puestos de trabajo.",
+      "capitulo": "",
+      "rango_lineas": [
+        920,
+        924
+      ]
+    },
+    {
+      "id": "art-58",
+      "tipo": "articulo",
+      "titulo": "Artículo 58.  Licencia por riesgo durante el embarazo y lactancia.",
+      "capitulo": "",
+      "rango_lineas": [
+        925,
+        933
+      ]
+    },
+    {
+      "id": "art-59",
+      "tipo": "articulo",
+      "titulo": "Artículo 59.  Vacaciones.",
+      "capitulo": "",
+      "rango_lineas": [
+        934,
+        942
+      ]
+    },
+    {
+      "id": "art-60",
+      "tipo": "articulo",
+      "titulo": "Artículo 60.  Acciones positivas en las actividades de formación.",
+      "capitulo": "",
+      "rango_lineas": [
+        943,
+        954
+      ]
+    },
+    {
+      "id": "art-61",
+      "tipo": "articulo",
+      "titulo": "Artículo 61.  Formación para la igualdad.",
+      "capitulo": "",
+      "rango_lineas": [
+        955,
+        963
+      ]
+    },
+    {
+      "id": "art-62",
+      "tipo": "articulo",
+      "titulo": "Artículo 62.  Protocolo de actuación frente al acoso sexual y al acoso por razón de sexo.",
+      "capitulo": "",
+      "rango_lineas": [
+        964,
+        977
+      ]
+    },
+    {
+      "id": "art-63",
+      "tipo": "articulo",
+      "titulo": "Artículo 63.  Evaluación sobre la igualdad en el empleo público.",
+      "capitulo": "",
+      "rango_lineas": [
+        978,
+        984
+      ]
+    },
+    {
+      "id": "art-64",
+      "tipo": "articulo",
+      "titulo": "Artículo 64.  Plan de Igualdad en la Administración General del Estado y en los organismos",
+      "capitulo": "",
+      "rango_lineas": [
+        985,
+        996
+      ]
+    },
+    {
+      "id": "art-65",
+      "tipo": "articulo",
+      "titulo": "Artículo 65.  Respeto del principio de igualdad.",
+      "capitulo": "",
+      "rango_lineas": [
+        997,
+        1000
+      ]
+    },
+    {
+      "id": "art-66",
+      "tipo": "articulo",
+      "titulo": "Artículo 66.  Aplicación en las Fuerzas Armadas de las normas referidas al personal de las",
+      "capitulo": "",
+      "rango_lineas": [
+        1001,
+        1009
+      ]
+    },
+    {
+      "id": "art-67",
+      "tipo": "articulo",
+      "titulo": "Artículo 67.  Respeto del principio de igualdad.",
+      "capitulo": "",
+      "rango_lineas": [
+        1010,
+        1014
+      ]
+    },
+    {
+      "id": "art-68",
+      "tipo": "articulo",
+      "titulo": "Artículo 68.  Aplicación de las normas referidas al personal de las administraciones públicas",
+      "capitulo": "",
+      "rango_lineas": [
+        1015,
+        1023
+      ]
+    },
+    {
+      "id": "art-69",
+      "tipo": "articulo",
+      "titulo": "Artículo 69.  Igualdad de trato en el acceso a bienes y servicios.",
+      "capitulo": "",
+      "rango_lineas": [
+        1024,
+        1035
+      ]
+    },
+    {
+      "id": "art-70",
+      "tipo": "articulo",
+      "titulo": "Artículo 70.  Protección en situación de embarazo.",
+      "capitulo": "",
+      "rango_lineas": [
+        1036,
+        1039
+      ]
+    },
+    {
+      "id": "art-71",
+      "tipo": "articulo",
+      "titulo": "Artículo 71.  Factores actuariales.",
+      "capitulo": "",
+      "rango_lineas": [
+        1040,
+        1046
+      ]
+    },
+    {
+      "id": "art-72",
+      "tipo": "articulo",
+      "titulo": "Artículo 72.  Consecuencias del incumplimiento de las prohibiciones.",
+      "capitulo": "",
+      "rango_lineas": [
+        1047,
+        1057
+      ]
+    },
+    {
+      "id": "art-73",
+      "tipo": "articulo",
+      "titulo": "Artículo 73.  Acciones de responsabilidad social de las empresas en materia de igualdad.",
+      "capitulo": "",
+      "rango_lineas": [
+        1058,
+        1070
+      ]
+    },
+    {
+      "id": "art-74",
+      "tipo": "articulo",
+      "titulo": "Artículo 74.  Publicidad de las acciones de responsabilidad social en materia de igualdad.",
+      "capitulo": "",
+      "rango_lineas": [
+        1071,
+        1077
+      ]
+    },
+    {
+      "id": "art-75",
+      "tipo": "articulo",
+      "titulo": "Artículo 75.  Participación de las mujeres en los Consejos de administración de las",
+      "capitulo": "",
+      "rango_lineas": [
+        1078,
+        1088
+      ]
+    },
+    {
+      "id": "art-76",
+      "tipo": "articulo",
+      "titulo": "Artículo 76.  Comisión Interministerial de Igualdad entre mujeres y hombres.",
+      "capitulo": "",
+      "rango_lineas": [
+        1089,
+        1094
+      ]
+    },
+    {
+      "id": "art-77",
+      "tipo": "articulo",
+      "titulo": "Artículo 77.  Las Unidades de Igualdad.",
+      "capitulo": "",
+      "rango_lineas": [
+        1095,
+        1108
+      ]
+    },
+    {
+      "id": "art-78",
+      "tipo": "articulo",
+      "titulo": "Artículo 78.  Consejo de Participación de la Mujer.",
+      "capitulo": "",
+      "rango_lineas": [
+        1109,
+        2285
+      ]
+    },
+    {
+      "id": "art-79",
+      "tipo": "articulo",
+      "titulo": "Artículo 135.  Prestación económica.",
+      "capitulo": "",
+      "rango_lineas": [
+        2286,
+        3256
+      ]
+    },
+    {
+      "id": "art-80",
+      "tipo": "articulo",
+      "titulo": "Artículo 1.  Objeto de la Ley.",
+      "capitulo": "",
+      "rango_lineas": [
+        3257,
+        3271
+      ]
+    },
+    {
+      "id": "art-81",
+      "tipo": "articulo",
+      "titulo": "Artículo 2.  Principios rectores.",
+      "capitulo": "",
+      "rango_lineas": [
+        3272,
+        3308
+      ]
+    },
+    {
+      "id": "art-82",
+      "tipo": "articulo",
+      "titulo": "Artículo 3.  Planes de sensibilización.",
+      "capitulo": "",
+      "rango_lineas": [
+        3309,
+        3336
+      ]
+    },
+    {
+      "id": "art-83",
+      "tipo": "articulo",
+      "titulo": "Artículo 4.  Principios y valores del sistema educativo.",
+      "capitulo": "",
+      "rango_lineas": [
+        3337,
+        3362
+      ]
+    },
+    {
+      "id": "art-84",
+      "tipo": "articulo",
+      "titulo": "Artículo 5.  Escolarización inmediata en caso de violencia de género.",
+      "capitulo": "",
+      "rango_lineas": [
+        3363,
+        3366
+      ]
+    },
+    {
+      "id": "art-85",
+      "tipo": "articulo",
+      "titulo": "Artículo 6.  Fomento de la igualdad.",
+      "capitulo": "",
+      "rango_lineas": [
+        3367,
+        3371
+      ]
+    },
+    {
+      "id": "art-86",
+      "tipo": "articulo",
+      "titulo": "Artículo 7.  Formación inicial y permanente del profesorado.",
+      "capitulo": "",
+      "rango_lineas": [
+        3372,
+        3386
+      ]
+    },
+    {
+      "id": "art-87",
+      "tipo": "articulo",
+      "titulo": "Artículo 8.  Participación en los Consejos Escolares.",
+      "capitulo": "",
+      "rango_lineas": [
+        3387,
+        3392
+      ]
+    },
+    {
+      "id": "art-88",
+      "tipo": "articulo",
+      "titulo": "Artículo 9.  Actuación de la inspección educativa.",
+      "capitulo": "",
+      "rango_lineas": [
+        3393,
+        3398
+      ]
+    },
+    {
+      "id": "art-89",
+      "tipo": "articulo",
+      "titulo": "Artículo 10.  Publicidad ilícita.",
+      "capitulo": "",
+      "rango_lineas": [
+        3399,
+        3402
+      ]
+    },
+    {
+      "id": "art-90",
+      "tipo": "articulo",
+      "titulo": "Artículo 11.",
+      "capitulo": "",
+      "rango_lineas": [
+        3403,
+        3407
+      ]
+    },
+    {
+      "id": "art-91",
+      "tipo": "articulo",
+      "titulo": "Artículo 12.  Titulares de la acción de cesación y rectificación.",
+      "capitulo": "",
+      "rango_lineas": [
+        3408,
+        3414
+      ]
+    },
+    {
+      "id": "art-92",
+      "tipo": "articulo",
+      "titulo": "Artículo 13.  Medios de comunicación.",
+      "capitulo": "",
+      "rango_lineas": [
+        3415,
+        3422
+      ]
+    },
+    {
+      "id": "art-93",
+      "tipo": "articulo",
+      "titulo": "Artículo 14.",
+      "capitulo": "",
+      "rango_lineas": [
+        3423,
+        3431
+      ]
+    },
+    {
+      "id": "art-94",
+      "tipo": "articulo",
+      "titulo": "Artículo 15.  Sensibilización y formación.",
+      "capitulo": "",
+      "rango_lineas": [
+        3432,
+        3447
+      ]
+    },
+    {
+      "id": "art-95",
+      "tipo": "articulo",
+      "titulo": "Artículo 16.  Consejo Interterritorial del Sistema Nacional de Salud.",
+      "capitulo": "",
+      "rango_lineas": [
+        3448,
+        3464
+      ]
+    },
+    {
+      "id": "art-96",
+      "tipo": "articulo",
+      "titulo": "Artículo 17.  Garantía de los derechos de las víctimas.",
+      "capitulo": "",
+      "rango_lineas": [
+        3465,
+        3483
+      ]
+    },
+    {
+      "id": "art-97",
+      "tipo": "articulo",
+      "titulo": "Artículo 18.  Derecho a la información.",
+      "capitulo": "",
+      "rango_lineas": [
+        3484,
+        3503
+      ]
+    },
+    {
+      "id": "art-98",
+      "tipo": "articulo",
+      "titulo": "Artículo 19.  Derecho a la atención integral.",
+      "capitulo": "",
+      "rango_lineas": [
+        3504,
+        3560
+      ]
+    },
+    {
+      "id": "art-99",
+      "tipo": "articulo",
+      "titulo": "Artículo 20.  Asistencia jurídica.",
+      "capitulo": "",
+      "rango_lineas": [
+        3561,
+        3594
+      ]
+    },
+    {
+      "id": "art-100",
+      "tipo": "articulo",
+      "titulo": "Artículo 21.  Derechos laborales y de Seguridad Social.",
+      "capitulo": "",
+      "rango_lineas": [
+        3595,
+        3632
+      ]
+    },
+    {
+      "id": "art-101",
+      "tipo": "articulo",
+      "titulo": "Artículo 22.  Programa específico de empleo.",
+      "capitulo": "",
+      "rango_lineas": [
+        3633,
+        3639
+      ]
+    },
+    {
+      "id": "art-102",
+      "tipo": "articulo",
+      "titulo": "Artículo 23.  Acreditación de situaciones de violencia de género.",
+      "capitulo": "",
+      "rango_lineas": [
+        3640,
+        3658
+      ]
+    },
+    {
+      "id": "art-103",
+      "tipo": "articulo",
+      "titulo": "Artículo 24.  Ámbito de los derechos.",
+      "capitulo": "",
+      "rango_lineas": [
+        3659,
+        3662
+      ]
+    },
+    {
+      "id": "art-104",
+      "tipo": "articulo",
+      "titulo": "Artículo 25.  Justificación de las faltas de asistencia.",
+      "capitulo": "",
+      "rango_lineas": [
+        3663,
+        3666
+      ]
+    },
+    {
+      "id": "art-105",
+      "tipo": "articulo",
+      "titulo": "Artículo 26.  Acreditación de las situaciones de violencia de género ejercida sobre las",
+      "capitulo": "",
+      "rango_lineas": [
+        3667,
+        3673
+      ]
+    },
+    {
+      "id": "art-106",
+      "tipo": "articulo",
+      "titulo": "Artículo 27.  Ayudas sociales.",
+      "capitulo": "",
+      "rango_lineas": [
+        3674,
+        3702
+      ]
+    },
+    {
+      "id": "art-107",
+      "tipo": "articulo",
+      "titulo": "Artículo 28.  Acceso a la vivienda y residencias públicas para mayores.",
+      "capitulo": "",
+      "rango_lineas": [
+        3703,
+        3749
+      ]
+    },
+    {
+      "id": "art-108",
+      "tipo": "articulo",
+      "titulo": "Artículo 29.  La Delegación del Gobierno contra la Violencia de Género.",
+      "capitulo": "",
+      "rango_lineas": [
+        3750,
+        3762
+      ]
+    },
+    {
+      "id": "art-109",
+      "tipo": "articulo",
+      "titulo": "Artículo 30.  Observatorio Estatal de Violencia sobre la Mujer.",
+      "capitulo": "",
+      "rango_lineas": [
+        3763,
+        3783
+      ]
+    },
+    {
+      "id": "art-110",
+      "tipo": "articulo",
+      "titulo": "Artículo 31.  Fuerzas y Cuerpos de Seguridad.",
+      "capitulo": "",
+      "rango_lineas": [
+        3784,
+        3802
+      ]
+    },
+    {
+      "id": "art-111",
+      "tipo": "articulo",
+      "titulo": "Artículo 32.  Planes de colaboración.",
+      "capitulo": "",
+      "rango_lineas": [
+        3803,
+        3830
+      ]
+    },
+    {
+      "id": "art-112",
+      "tipo": "articulo",
+      "titulo": "Artículo 33.  Suspensión de penas.",
+      "capitulo": "",
+      "rango_lineas": [
+        3831,
+        3836
+      ]
+    },
+    {
+      "id": "art-113",
+      "tipo": "articulo",
+      "titulo": "Artículo 34.  Comisión de delitos durante el período de suspensión de la pena.",
+      "capitulo": "",
+      "rango_lineas": [
+        3837,
+        3843
+      ]
+    },
+    {
+      "id": "art-114",
+      "tipo": "articulo",
+      "titulo": "Artículo 35.  Sustitución de penas.",
+      "capitulo": "",
+      "rango_lineas": [
+        3844,
+        3852
+      ]
+    },
+    {
+      "id": "art-115",
+      "tipo": "articulo",
+      "titulo": "Artículo 36.  Protección contra las lesiones.",
+      "capitulo": "",
+      "rango_lineas": [
+        3853,
+        3866
+      ]
+    },
+    {
+      "id": "art-116",
+      "tipo": "articulo",
+      "titulo": "Artículo 37.  Protección contra los malos tratos.",
+      "capitulo": "",
+      "rango_lineas": [
+        3867,
+        3895
+      ]
+    },
+    {
+      "id": "art-117",
+      "tipo": "articulo",
+      "titulo": "Artículo 38.  Protección contra las amenazas.",
+      "capitulo": "",
+      "rango_lineas": [
+        3896,
+        3925
+      ]
+    },
+    {
+      "id": "art-118",
+      "tipo": "articulo",
+      "titulo": "Artículo 39.  Protección contra las coacciones.",
+      "capitulo": "",
+      "rango_lineas": [
+        3926,
+        3946
+      ]
+    },
+    {
+      "id": "art-119",
+      "tipo": "articulo",
+      "titulo": "Artículo 40.  Quebrantamiento de condena.",
+      "capitulo": "",
+      "rango_lineas": [
+        3947,
+        3957
+      ]
+    },
+    {
+      "id": "art-120",
+      "tipo": "articulo",
+      "titulo": "Artículo 41.  Protección contra las vejaciones leves.",
+      "capitulo": "",
+      "rango_lineas": [
+        3958,
+        3973
+      ]
+    },
+    {
+      "id": "art-121",
+      "tipo": "articulo",
+      "titulo": "Artículo 42.  Administración penitenciaria.",
+      "capitulo": "",
+      "rango_lineas": [
+        3974,
+        3983
+      ]
+    },
+    {
+      "id": "art-122",
+      "tipo": "articulo",
+      "titulo": "Artículo 43.  Organización territorial.",
+      "capitulo": "",
+      "rango_lineas": [
+        3984,
+        4002
+      ]
+    },
+    {
+      "id": "art-123",
+      "tipo": "articulo",
+      "titulo": "Artículo 44.  Competencia.",
+      "capitulo": "",
+      "rango_lineas": [
+        4003,
+        4058
+      ]
+    },
+    {
+      "id": "art-124",
+      "tipo": "articulo",
+      "titulo": "Artículo 45.  Recursos en materia penal.",
+      "capitulo": "",
+      "rango_lineas": [
+        4059,
+        4069
+      ]
+    },
+    {
+      "id": "art-125",
+      "tipo": "articulo",
+      "titulo": "Artículo 46.  Recursos en materia civil.",
+      "capitulo": "",
+      "rango_lineas": [
+        4070,
+        4078
+      ]
+    },
+    {
+      "id": "art-126",
+      "tipo": "articulo",
+      "titulo": "Artículo 47.  Formación.",
+      "capitulo": "",
+      "rango_lineas": [
+        4079,
+        4086
+      ]
+    },
+    {
+      "id": "art-127",
+      "tipo": "articulo",
+      "titulo": "Artículo 48.  Jurisdicción de los Juzgados.",
+      "capitulo": "",
+      "rango_lineas": [
+        4087,
+        4094
+      ]
+    },
+    {
+      "id": "art-128",
+      "tipo": "articulo",
+      "titulo": "Artículo 49.  Sede de los Juzgados.",
+      "capitulo": "",
+      "rango_lineas": [
+        4095,
+        4099
+      ]
+    },
+    {
+      "id": "art-129",
+      "tipo": "articulo",
+      "titulo": "Artículo 50.  Planta de los Juzgados de Violencia sobre la Mujer.",
+      "capitulo": "",
+      "rango_lineas": [
+        4100,
+        4123
+      ]
+    },
+    {
+      "id": "art-130",
+      "tipo": "articulo",
+      "titulo": "Artículo 51.  Plazas servidas por Magistrados.",
+      "capitulo": "",
+      "rango_lineas": [
+        4124,
+        4132
+      ]
+    },
+    {
+      "id": "art-131",
+      "tipo": "articulo",
+      "titulo": "Artículo 52.  Constitución de los Juzgados.",
+      "capitulo": "",
+      "rango_lineas": [
+        4133,
+        4144
+      ]
+    },
+    {
+      "id": "art-132",
+      "tipo": "articulo",
+      "titulo": "Artículo 53.  Notificación de las sentencias dictadas por Tribunales.",
+      "capitulo": "",
+      "rango_lineas": [
+        4145,
+        4150
+      ]
+    },
+    {
+      "id": "art-133",
+      "tipo": "articulo",
+      "titulo": "Artículo 54.  Especialidades en el supuesto de juicios rápidos.",
+      "capitulo": "",
+      "rango_lineas": [
+        4151,
+        4168
+      ]
+    },
+    {
+      "id": "art-134",
+      "tipo": "articulo",
+      "titulo": "Artículo 55.  Notificación de las sentencias dictadas por Juzgado de lo Penal.",
+      "capitulo": "",
+      "rango_lineas": [
+        4169,
+        4176
+      ]
+    },
+    {
+      "id": "art-135",
+      "tipo": "articulo",
+      "titulo": "Artículo 56.  Especialidades en el supuesto de juicios rápidos en materia de faltas.",
+      "capitulo": "",
+      "rango_lineas": [
+        4177,
+        4189
+      ]
+    },
+    {
+      "id": "art-136",
+      "tipo": "articulo",
+      "titulo": "Artículo 57.  Pérdida de la competencia objetiva cuando se produzcan actos de violencia",
+      "capitulo": "",
+      "rango_lineas": [
+        4190,
+        4241
+      ]
+    },
+    {
+      "id": "art-137",
+      "tipo": "articulo",
+      "titulo": "Artículo 58.  Competencias en el orden penal.",
+      "capitulo": "",
+      "rango_lineas": [
+        4242,
+        4302
+      ]
+    },
+    {
+      "id": "art-138",
+      "tipo": "articulo",
+      "titulo": "Artículo 59.  Competencia territorial.",
+      "capitulo": "",
+      "rango_lineas": [
+        4303,
+        4310
+      ]
+    },
+    {
+      "id": "art-139",
+      "tipo": "articulo",
+      "titulo": "Artículo 60.  Competencia por conexión.",
+      "capitulo": "",
+      "rango_lineas": [
+        4311,
+        4319
+      ]
+    },
+    {
+      "id": "art-140",
+      "tipo": "articulo",
+      "titulo": "Artículo 61.  Disposiciones generales.",
+      "capitulo": "",
+      "rango_lineas": [
+        4320,
+        4331
+      ]
+    },
+    {
+      "id": "art-141",
+      "tipo": "articulo",
+      "titulo": "Artículo 62.  De la orden de protección.",
+      "capitulo": "",
+      "rango_lineas": [
+        4332,
+        4335
+      ]
+    },
+    {
+      "id": "art-142",
+      "tipo": "articulo",
+      "titulo": "Artículo 63.  De la protección de datos y las limitaciones a la publicidad.",
+      "capitulo": "",
+      "rango_lineas": [
+        4336,
+        4341
+      ]
+    },
+    {
+      "id": "art-143",
+      "tipo": "articulo",
+      "titulo": "Artículo 64.  De las medidas de salida del domicilio, alejamiento o suspensión de las",
+      "capitulo": "",
+      "rango_lineas": [
+        4342,
+        4365
+      ]
+    },
+    {
+      "id": "art-144",
+      "tipo": "articulo",
+      "titulo": "Artículo 65.  De las medidas de suspensión de la patria potestad o la custodia de menores.",
+      "capitulo": "",
+      "rango_lineas": [
+        4366,
+        4374
+      ]
+    },
+    {
+      "id": "art-145",
+      "tipo": "articulo",
+      "titulo": "Artículo 66.  De la medida de suspensión del régimen de visitas, estancia, relación o",
+      "capitulo": "",
+      "rango_lineas": [
+        4375,
+        4384
+      ]
+    },
+    {
+      "id": "art-146",
+      "tipo": "articulo",
+      "titulo": "Artículo 67.  De la medida de suspensión del derecho a la tenencia, porte y uso de armas.",
+      "capitulo": "",
+      "rango_lineas": [
+        4385,
+        4389
+      ]
+    },
+    {
+      "id": "art-147",
+      "tipo": "articulo",
+      "titulo": "Artículo 68.  Garantías para la adopción de las medidas.",
+      "capitulo": "",
+      "rango_lineas": [
+        4390,
+        4394
+      ]
+    },
+    {
+      "id": "art-148",
+      "tipo": "articulo",
+      "titulo": "Artículo 69.  Mantenimiento de las medidas de protección y seguridad.",
+      "capitulo": "",
+      "rango_lineas": [
+        4395,
+        4400
+      ]
+    },
+    {
+      "id": "art-149",
+      "tipo": "articulo",
+      "titulo": "Artículo 70.  Funciones del Fiscal contra la Violencia sobre la Mujer.",
+      "capitulo": "",
+      "rango_lineas": [
+        4401,
+        4425
+      ]
+    },
+    {
+      "id": "art-150",
+      "tipo": "articulo",
+      "titulo": "Artículo 71.  Secciones contra la violencia sobre la mujer.",
+      "capitulo": "",
+      "rango_lineas": [
+        4426,
+        4453
+      ]
+    },
+    {
+      "id": "art-151",
+      "tipo": "articulo",
+      "titulo": "Artículo 72.  Delegados de la Jefatura de la Fiscalía.",
+      "capitulo": "",
+      "rango_lineas": [
+        4454,
+        5949
+      ]
+    },
+    {
+      "id": "art-152",
+      "tipo": "articulo",
+      "titulo": "Artículo 1.  Objeto.",
+      "capitulo": "",
+      "rango_lineas": [
+        5950,
+        5962
+      ]
+    },
+    {
+      "id": "art-153",
+      "tipo": "articulo",
+      "titulo": "Artículo 2.  Ámbito de aplicación.",
+      "capitulo": "",
+      "rango_lineas": [
+        5963,
+        5968
+      ]
+    },
+    {
+      "id": "art-154",
+      "tipo": "articulo",
+      "titulo": "Artículo 3.  Definiciones.",
+      "capitulo": "",
+      "rango_lineas": [
+        5969,
+        6053
+      ]
+    },
+    {
+      "id": "art-155",
+      "tipo": "articulo",
+      "titulo": "Artículo 4.  Deber de protección.",
+      "capitulo": "",
+      "rango_lineas": [
+        6054,
+        6058
+      ]
+    },
+    {
+      "id": "art-156",
+      "tipo": "articulo",
+      "titulo": "Artículo 5.  Reconocimiento y apoyo institucional.",
+      "capitulo": "",
+      "rango_lineas": [
+        6059,
+        6065
+      ]
+    },
+    {
+      "id": "art-157",
+      "tipo": "articulo",
+      "titulo": "Artículo 6.  Divulgación y sensibilización.",
+      "capitulo": "",
+      "rango_lineas": [
+        6066,
+        6071
+      ]
+    },
+    {
+      "id": "art-158",
+      "tipo": "articulo",
+      "titulo": "Artículo 7.  Estadísticas y estudios.",
+      "capitulo": "",
+      "rango_lineas": [
+        6072,
+        6092
+      ]
+    },
+    {
+      "id": "art-159",
+      "tipo": "articulo",
+      "titulo": "Artículo 8.  Colaboración entre Administraciones públicas.",
+      "capitulo": "",
+      "rango_lineas": [
+        6093,
+        6100
+      ]
+    },
+    {
+      "id": "art-160",
+      "tipo": "articulo",
+      "titulo": "Artículo 9.  Consejo de Participación de las Personas LGTBI.",
+      "capitulo": "",
+      "rango_lineas": [
+        6101,
+        6122
+      ]
+    },
+    {
+      "id": "art-161",
+      "tipo": "articulo",
+      "titulo": "Artículo 10.  Estrategia estatal para la igualdad de trato y no discriminación de las personas",
+      "capitulo": "",
+      "rango_lineas": [
+        6123,
+        6163
+      ]
+    },
+    {
+      "id": "art-162",
+      "tipo": "articulo",
+      "titulo": "Artículo 11.  Empleo público.",
+      "capitulo": "",
+      "rango_lineas": [
+        6164,
+        6169
+      ]
+    },
+    {
+      "id": "art-163",
+      "tipo": "articulo",
+      "titulo": "Artículo 12.  Formación del personal al servicio de las Administraciones públicas.",
+      "capitulo": "",
+      "rango_lineas": [
+        6170,
+        6182
+      ]
+    },
+    {
+      "id": "art-164",
+      "tipo": "articulo",
+      "titulo": "Artículo 13.  Documentación administrativa.",
+      "capitulo": "",
+      "rango_lineas": [
+        6183,
+        6188
+      ]
+    },
+    {
+      "id": "art-165",
+      "tipo": "articulo",
+      "titulo": "Artículo 14.  Igualdad de trato y de oportunidades de las personas LGTBI en el ámbito",
+      "capitulo": "",
+      "rango_lineas": [
+        6189,
+        6226
+      ]
+    },
+    {
+      "id": "art-166",
+      "tipo": "articulo",
+      "titulo": "Artículo 15.  Igualdad y no discriminación LGTBI en las empresas.",
+      "capitulo": "",
+      "rango_lineas": [
+        6227,
+        6239
+      ]
+    },
+    {
+      "id": "art-167",
+      "tipo": "articulo",
+      "titulo": "Artículo 16.  Protección y promoción de la salud de las personas LGTBI.",
+      "capitulo": "",
+      "rango_lineas": [
+        6240,
+        6266
+      ]
+    },
+    {
+      "id": "art-168",
+      "tipo": "articulo",
+      "titulo": "Artículo 17.  Prohibición de terapias de conversión.",
+      "capitulo": "",
+      "rango_lineas": [
+        6267,
+        6271
+      ]
+    },
+    {
+      "id": "art-169",
+      "tipo": "articulo",
+      "titulo": "Artículo 18.  Educación sexual y reproductiva.",
+      "capitulo": "",
+      "rango_lineas": [
+        6272,
+        6281
+      ]
+    },
+    {
+      "id": "art-170",
+      "tipo": "articulo",
+      "titulo": "Artículo 19.  Atención a la salud integral de las personas intersexuales.",
+      "capitulo": "",
+      "rango_lineas": [
+        6282,
+        6307
+      ]
+    },
+    {
+      "id": "art-171",
+      "tipo": "articulo",
+      "titulo": "Artículo 20.  Diversidad LGTBI en el ámbito educativo.",
+      "capitulo": "",
+      "rango_lineas": [
+        6308,
+        6330
+      ]
+    },
+    {
+      "id": "art-172",
+      "tipo": "articulo",
+      "titulo": "Artículo 21.  Deberes de las Administraciones educativas.",
+      "capitulo": "",
+      "rango_lineas": [
+        6331,
+        6343
+      ]
+    },
+    {
+      "id": "art-173",
+      "tipo": "articulo",
+      "titulo": "Artículo 22.  Formación en el ámbito docente y educativo.",
+      "capitulo": "",
+      "rango_lineas": [
+        6344,
+        6359
+      ]
+    },
+    {
+      "id": "art-174",
+      "tipo": "articulo",
+      "titulo": "Artículo 23.  Material didáctico respetuoso con la diversidad LGTBI.",
+      "capitulo": "",
+      "rango_lineas": [
+        6360,
+        6365
+      ]
+    },
+    {
+      "id": "art-175",
+      "tipo": "articulo",
+      "titulo": "Artículo 24.  Programas de información en el ámbito educativo.",
+      "capitulo": "",
+      "rango_lineas": [
+        6366,
+        6376
+      ]
+    },
+    {
+      "id": "art-176",
+      "tipo": "articulo",
+      "titulo": "Artículo 25.  Medidas en el ámbito de la cultura y el ocio.",
+      "capitulo": "",
+      "rango_lineas": [
+        6377,
+        6393
+      ]
+    },
+    {
+      "id": "art-177",
+      "tipo": "articulo",
+      "titulo": "Artículo 26.  Deporte, actividad física y educación deportiva.",
+      "capitulo": "",
+      "rango_lineas": [
+        6394,
+        6428
+      ]
+    },
+    {
+      "id": "art-178",
+      "tipo": "articulo",
+      "titulo": "Artículo 27.  Igualdad de trato y no discriminación en la publicidad y en los medios de",
+      "capitulo": "",
+      "rango_lineas": [
+        6429,
+        6440
+      ]
+    },
+    {
+      "id": "art-179",
+      "tipo": "articulo",
+      "titulo": "Artículo 28.  Promoción de la adopción de acuerdos de autorregulación.",
+      "capitulo": "",
+      "rango_lineas": [
+        6441,
+        6446
+      ]
+    },
+    {
+      "id": "art-180",
+      "tipo": "articulo",
+      "titulo": "Artículo 29.  Medidas de protección contra el ciberacoso.",
+      "capitulo": "",
+      "rango_lineas": [
+        6447,
+        6458
+      ]
+    },
+    {
+      "id": "art-181",
+      "tipo": "articulo",
+      "titulo": "Artículo 30.  Protección frente a la discriminación de las familias LGTBI.",
+      "capitulo": "",
+      "rango_lineas": [
+        6459,
+        6463
+      ]
+    },
+    {
+      "id": "art-182",
+      "tipo": "articulo",
+      "titulo": "Artículo 31.  Personas menores de edad en familias LGTBI.",
+      "capitulo": "",
+      "rango_lineas": [
+        6464,
+        6475
+      ]
+    },
+    {
+      "id": "art-183",
+      "tipo": "articulo",
+      "titulo": "Artículo 32.  Integración familiar y social de personas menores de edad y jóvenes LGTBI.",
+      "capitulo": "",
+      "rango_lineas": [
+        6476,
+        6480
+      ]
+    },
+    {
+      "id": "art-184",
+      "tipo": "articulo",
+      "titulo": "Artículo 33.  Formación, información, asesoramiento y apoyo.",
+      "capitulo": "",
+      "rango_lineas": [
+        6481,
+        6489
+      ]
+    },
+    {
+      "id": "art-185",
+      "tipo": "articulo",
+      "titulo": "Artículo 34.  Instituto de la Juventud O.A.",
+      "capitulo": "",
+      "rango_lineas": [
+        6490,
+        6504
+      ]
+    },
+    {
+      "id": "art-186",
+      "tipo": "articulo",
+      "titulo": "Artículo 35.  Adopción y acogimiento familiar.",
+      "capitulo": "",
+      "rango_lineas": [
+        6505,
+        6513
+      ]
+    },
+    {
+      "id": "art-187",
+      "tipo": "articulo",
+      "titulo": "Artículo 36.  Acción exterior.",
+      "capitulo": "",
+      "rango_lineas": [
+        6514,
+        6533
+      ]
+    },
+    {
+      "id": "art-188",
+      "tipo": "articulo",
+      "titulo": "Artículo 37.  Familias del personal LGTBI del servicio exterior.",
+      "capitulo": "",
+      "rango_lineas": [
+        6534,
+        6546
+      ]
+    },
+    {
+      "id": "art-189",
+      "tipo": "articulo",
+      "titulo": "Artículo 38.  Protección internacional.",
+      "capitulo": "",
+      "rango_lineas": [
+        6547,
+        6575
+      ]
+    },
+    {
+      "id": "art-190",
+      "tipo": "articulo",
+      "titulo": "Artículo 39.  Igualdad de derechos y oportunidades de las personas LGTBI en el medio",
+      "capitulo": "",
+      "rango_lineas": [
+        6576,
+        6592
+      ]
+    },
+    {
+      "id": "art-191",
+      "tipo": "articulo",
+      "titulo": "Artículo 40.  Cooperación entre administraciones.",
+      "capitulo": "",
+      "rango_lineas": [
+        6593,
+        6602
+      ]
+    },
+    {
+      "id": "art-192",
+      "tipo": "articulo",
+      "titulo": "Artículo 41.  Visibilización de las personas LGTBI en el medio rural.",
+      "capitulo": "",
+      "rango_lineas": [
+        6603,
+        6608
+      ]
+    },
+    {
+      "id": "art-193",
+      "tipo": "articulo",
+      "titulo": "Artículo 42.  Promoción del turismo LGTBI.",
+      "capitulo": "",
+      "rango_lineas": [
+        6609,
+        6623
+      ]
+    },
+    {
+      "id": "art-194",
+      "tipo": "articulo",
+      "titulo": "Artículo 43.  Legitimación.",
+      "capitulo": "",
+      "rango_lineas": [
+        6624,
+        6636
+      ]
+    },
+    {
+      "id": "art-195",
+      "tipo": "articulo",
+      "titulo": "Artículo 44.  Procedimiento para la rectificación registral de la mención relativa al sexo.",
+      "capitulo": "",
+      "rango_lineas": [
+        6637,
+        6692
+      ]
+    },
+    {
+      "id": "art-196",
+      "tipo": "articulo",
+      "titulo": "Artículo 45.  Autoridad competente.",
+      "capitulo": "",
+      "rango_lineas": [
+        6693,
+        6696
+      ]
+    },
+    {
+      "id": "art-197",
+      "tipo": "articulo",
+      "titulo": "Artículo 46.  Efectos.",
+      "capitulo": "",
+      "rango_lineas": [
+        6697,
+        6717
+      ]
+    },
+    {
+      "id": "art-198",
+      "tipo": "articulo",
+      "titulo": "Artículo 47.  Reversibilidad de la rectificación de la mención registral relativa al sexo de las",
+      "capitulo": "",
+      "rango_lineas": [
+        6718,
+        6727
+      ]
+    },
+    {
+      "id": "art-199",
+      "tipo": "articulo",
+      "titulo": "Artículo 48.  Cambio de nombre en el Registro Civil de personas menores de edad.",
+      "capitulo": "",
+      "rango_lineas": [
+        6728,
+        6732
+      ]
+    },
+    {
+      "id": "art-200",
+      "tipo": "articulo",
+      "titulo": "Artículo 49.  Adecuación de documentos a la mención registral relativa al sexo.",
+      "capitulo": "",
+      "rango_lineas": [
+        6733,
+        6757
+      ]
+    },
+    {
+      "id": "art-201",
+      "tipo": "articulo",
+      "titulo": "Artículo 50.  Adecuación de los documentos expedidos a personas extranjeras.",
+      "capitulo": "",
+      "rango_lineas": [
+        6758,
+        6773
+      ]
+    },
+    {
+      "id": "art-202",
+      "tipo": "articulo",
+      "titulo": "Artículo 51.  Adecuación de documentos al cambio de nombre en el Registro Civil de",
+      "capitulo": "",
+      "rango_lineas": [
+        6774,
+        6796
+      ]
+    },
+    {
+      "id": "art-203",
+      "tipo": "articulo",
+      "titulo": "Artículo 52.  Estrategia estatal para la inclusión social de las personas trans.",
+      "capitulo": "",
+      "rango_lineas": [
+        6797,
+        6818
+      ]
+    },
+    {
+      "id": "art-204",
+      "tipo": "articulo",
+      "titulo": "Artículo 53.  Participación de las personas trans.",
+      "capitulo": "",
+      "rango_lineas": [
+        6819,
+        6828
+      ]
+    },
+    {
+      "id": "art-205",
+      "tipo": "articulo",
+      "titulo": "Artículo 54.  Fomento del empleo de las personas trans.",
+      "capitulo": "",
+      "rango_lineas": [
+        6829,
+        6834
+      ]
+    },
+    {
+      "id": "art-206",
+      "tipo": "articulo",
+      "titulo": "Artículo 55.  Integración sociolaboral de las personas trans.",
+      "capitulo": "",
+      "rango_lineas": [
+        6835,
+        6851
+      ]
+    },
+    {
+      "id": "art-207",
+      "tipo": "articulo",
+      "titulo": "Artículo 56.  Atención sanitaria integral a personas trans.",
+      "capitulo": "",
+      "rango_lineas": [
+        6852,
+        6858
+      ]
+    },
+    {
+      "id": "art-208",
+      "tipo": "articulo",
+      "titulo": "Artículo 57.  Consentimiento informado.",
+      "capitulo": "",
+      "rango_lineas": [
+        6859,
+        6862
+      ]
+    },
+    {
+      "id": "art-209",
+      "tipo": "articulo",
+      "titulo": "Artículo 58.  Formación del personal sanitario, investigación y seguimiento.",
+      "capitulo": "",
+      "rango_lineas": [
+        6863,
+        6873
+      ]
+    },
+    {
+      "id": "art-210",
+      "tipo": "articulo",
+      "titulo": "Artículo 59.  Protocolos de actuación en el ámbito de la salud y servicios especializados.",
+      "capitulo": "",
+      "rango_lineas": [
+        6874,
+        6890
+      ]
+    },
+    {
+      "id": "art-211",
+      "tipo": "articulo",
+      "titulo": "Artículo 60.  Tratamiento del alumnado menor de edad conforme al nombre registral.",
+      "capitulo": "",
+      "rango_lineas": [
+        6891,
+        6895
+      ]
+    },
+    {
+      "id": "art-212",
+      "tipo": "articulo",
+      "titulo": "Artículo 61.  Protocolos de atención al alumnado trans y contra el acoso transfóbico.",
+      "capitulo": "",
+      "rango_lineas": [
+        6896,
+        6904
+      ]
+    },
+    {
+      "id": "art-213",
+      "tipo": "articulo",
+      "titulo": "Artículo 62.  Medidas de protección frente a la discriminación y la violencia.",
+      "capitulo": "",
+      "rango_lineas": [
+        6905,
+        6920
+      ]
+    },
+    {
+      "id": "art-214",
+      "tipo": "articulo",
+      "titulo": "Artículo 63.  Actuación administrativa contra la discriminación.",
+      "capitulo": "",
+      "rango_lineas": [
+        6921,
+        6945
+      ]
+    },
+    {
+      "id": "art-215",
+      "tipo": "articulo",
+      "titulo": "Artículo 64.  Nulidad de los contratos y negocios jurídicos discriminatorios.",
+      "capitulo": "",
+      "rango_lineas": [
+        6946,
+        6949
+      ]
+    },
+    {
+      "id": "art-216",
+      "tipo": "articulo",
+      "titulo": "Artículo 65.  Legitimación para la defensa del derecho a la igualdad de trato y no",
+      "capitulo": "",
+      "rango_lineas": [
+        6950,
+        6961
+      ]
+    },
+    {
+      "id": "art-217",
+      "tipo": "articulo",
+      "titulo": "Artículo 66.  Reglas relativas a la carga de la prueba.",
+      "capitulo": "",
+      "rango_lineas": [
+        6962,
+        6973
+      ]
+    },
+    {
+      "id": "art-218",
+      "tipo": "articulo",
+      "titulo": "Artículo 67.  Derecho a la atención y al asesoramiento jurídico.",
+      "capitulo": "",
+      "rango_lineas": [
+        6974,
+        6985
+      ]
+    },
+    {
+      "id": "art-219",
+      "tipo": "articulo",
+      "titulo": "Artículo 68.  Derecho de las víctimas de violencia a la asistencia integral y especializada.",
+      "capitulo": "",
+      "rango_lineas": [
+        6986,
+        6999
+      ]
+    },
+    {
+      "id": "art-220",
+      "tipo": "articulo",
+      "titulo": "Artículo 69.  Medidas de protección frente a la violencia en el ámbito familiar.",
+      "capitulo": "",
+      "rango_lineas": [
+        7000,
+        7013
+      ]
+    },
+    {
+      "id": "art-221",
+      "tipo": "articulo",
+      "titulo": "Artículo 70.  Personas LGTBI menores de edad.",
+      "capitulo": "",
+      "rango_lineas": [
+        7014,
+        7043
+      ]
+    },
+    {
+      "id": "art-222",
+      "tipo": "articulo",
+      "titulo": "Artículo 71.  Personas LGTBI con discapacidad o en situación de dependencia.",
+      "capitulo": "",
+      "rango_lineas": [
+        7044,
+        7061
+      ]
+    },
+    {
+      "id": "art-223",
+      "tipo": "articulo",
+      "titulo": "Artículo 72.  Personas extranjeras LGTBI.",
+      "capitulo": "",
+      "rango_lineas": [
+        7062,
+        7070
+      ]
+    },
+    {
+      "id": "art-224",
+      "tipo": "articulo",
+      "titulo": "Artículo 73.  Personas mayores LGTBI.",
+      "capitulo": "",
+      "rango_lineas": [
+        7071,
+        7090
+      ]
+    },
+    {
+      "id": "art-225",
+      "tipo": "articulo",
+      "titulo": "Artículo 74.  Personas intersexuales.",
+      "capitulo": "",
+      "rango_lineas": [
+        7091,
+        7102
+      ]
+    },
+    {
+      "id": "art-226",
+      "tipo": "articulo",
+      "titulo": "Artículo 75.  Personas LGTBI en situación de sinhogarismo.",
+      "capitulo": "",
+      "rango_lineas": [
+        7103,
+        7125
+      ]
+    },
+    {
+      "id": "art-227",
+      "tipo": "articulo",
+      "titulo": "Artículo 76.  Objeto y ámbito de aplicación de este título.",
+      "capitulo": "",
+      "rango_lineas": [
+        7126,
+        7155
+      ]
+    },
+    {
+      "id": "art-228",
+      "tipo": "articulo",
+      "titulo": "Artículo 77.  Competencia.",
+      "capitulo": "",
+      "rango_lineas": [
+        7156,
+        7174
+      ]
+    },
+    {
+      "id": "art-229",
+      "tipo": "articulo",
+      "titulo": "Artículo 78.  Plazo de resolución.",
+      "capitulo": "",
+      "rango_lineas": [
+        7175,
+        7177
+      ]
+    },
+    {
+      "id": "art-230",
+      "tipo": "articulo",
+      "titulo": "Artículo 79.  Infracciones.",
+      "capitulo": "",
+      "rango_lineas": [
+        7178,
+        7238
+      ]
+    },
+    {
+      "id": "art-231",
+      "tipo": "articulo",
+      "titulo": "Artículo 80.  Sanciones y criterios de graduación.",
+      "capitulo": "",
+      "rango_lineas": [
+        7239,
+        7301
+      ]
+    },
+    {
+      "id": "art-232",
+      "tipo": "articulo",
+      "titulo": "Artículo 81.  Prescripción de las infracciones y de las sanciones.",
+      "capitulo": "",
+      "rango_lineas": [
+        7302,
+        7306
+      ]
+    },
+    {
+      "id": "art-233",
+      "tipo": "articulo",
+      "titulo": "Artículo 82.  Prohibición de ayudas a asociaciones que cometan, inciten o promocionen",
+      "capitulo": "",
+      "rango_lineas": [
+        7307,
+        8532
+      ]
+    },
+    {
+      "id": "art-234",
+      "tipo": "articulo",
+      "titulo": "Artículo 1.  Objeto de esta ley.",
+      "capitulo": "",
+      "rango_lineas": [
+        8533,
+        8545
+      ]
+    },
+    {
+      "id": "art-235",
+      "tipo": "articulo",
+      "titulo": "Artículo 2.  Definiciones.",
+      "capitulo": "",
+      "rango_lineas": [
+        8546,
+        8660
+      ]
+    },
+    {
+      "id": "art-236",
+      "tipo": "articulo",
+      "titulo": "Artículo 3.  Principios.",
+      "capitulo": "",
+      "rango_lineas": [
+        8661,
+        8680
+      ]
+    },
+    {
+      "id": "art-237",
+      "tipo": "articulo",
+      "titulo": "Artículo 4.  Titulares de los derechos.",
+      "capitulo": "",
+      "rango_lineas": [
+        8681,
+        8725
+      ]
+    },
+    {
+      "id": "art-238",
+      "tipo": "articulo",
+      "titulo": "Artículo 5.  Ámbito de aplicación en materia de igualdad de oportunidades, no",
+      "capitulo": "",
+      "rango_lineas": [
+        8726,
+        8745
+      ]
+    },
+    {
+      "id": "art-239",
+      "tipo": "articulo",
+      "titulo": "Artículo 6.  Respeto a la autonomía de las personas con discapacidad.",
+      "capitulo": "",
+      "rango_lineas": [
+        8746,
+        8783
+      ]
+    },
+    {
+      "id": "art-240",
+      "tipo": "articulo",
+      "titulo": "Artículo 7.  Derecho a la igualdad.",
+      "capitulo": "",
+      "rango_lineas": [
+        8784,
+        8918
+      ]
+    },
+    {
+      "id": "art-241",
+      "tipo": "articulo",
+      "titulo": "Artículo 8.  Sistema especial de prestaciones sociales y económicas para las personas con",
+      "capitulo": "",
+      "rango_lineas": [
+        8919,
+        8933
+      ]
+    },
+    {
+      "id": "art-242",
+      "tipo": "articulo",
+      "titulo": "Artículo 9.  Prestación farmacéutica del sistema especial de prestaciones sociales y",
+      "capitulo": "",
+      "rango_lineas": [
+        8934,
+        8940
+      ]
+    },
+    {
+      "id": "art-243",
+      "tipo": "articulo",
+      "titulo": "Artículo 10.  Derecho a la protección de la salud.",
+      "capitulo": "",
+      "rango_lineas": [
+        8941,
+        8962
+      ]
+    },
+    {
+      "id": "art-244",
+      "tipo": "articulo",
+      "titulo": "Artículo 11.  Prevención de deficiencias y de intensificación de discapacidades.",
+      "capitulo": "",
+      "rango_lineas": [
+        8963,
+        8980
+      ]
+    },
+    {
+      "id": "art-245",
+      "tipo": "articulo",
+      "titulo": "Artículo 12.  Equipos multiprofesionales de atención a la discapacidad.",
+      "capitulo": "",
+      "rango_lineas": [
+        8981,
+        9012
+      ]
+    },
+    {
+      "id": "art-246",
+      "tipo": "articulo",
+      "titulo": "Artículo 13.  Atención integral.",
+      "capitulo": "",
+      "rango_lineas": [
+        9013,
+        9079
+      ]
+    },
+    {
+      "id": "art-247",
+      "tipo": "articulo",
+      "titulo": "Artículo 14.  Habilitación y rehabilitación.",
+      "capitulo": "",
+      "rango_lineas": [
+        9080,
+        9089
+      ]
+    },
+    {
+      "id": "art-248",
+      "tipo": "articulo",
+      "titulo": "Artículo 15.  Atención, tratamiento y orientación psicológica.",
+      "capitulo": "",
+      "rango_lineas": [
+        9090,
+        9105
+      ]
+    },
+    {
+      "id": "art-249",
+      "tipo": "articulo",
+      "titulo": "Artículo 16.  Educación.",
+      "capitulo": "",
+      "rango_lineas": [
+        9106,
+        9109
+      ]
+    },
+    {
+      "id": "art-250",
+      "tipo": "articulo",
+      "titulo": "Artículo 17.  Apoyo para la actividad profesional.",
+      "capitulo": "",
+      "rango_lineas": [
+        9110,
+        9147
+      ]
+    },
+    {
+      "id": "art-251",
+      "tipo": "articulo",
+      "titulo": "Artículo 18.  Contenido del derecho.",
+      "capitulo": "",
+      "rango_lineas": [
+        9148,
+        9175
+      ]
+    },
+    {
+      "id": "art-252",
+      "tipo": "articulo",
+      "titulo": "Artículo 19.  Gratuidad de la enseñanza.",
+      "capitulo": "",
+      "rango_lineas": [
+        9176,
+        9179
+      ]
+    },
+    {
+      "id": "art-253",
+      "tipo": "articulo",
+      "titulo": "Artículo 20.  Garantías adicionales.",
+      "capitulo": "",
+      "rango_lineas": [
+        9180,
+        9205
+      ]
+    },
+    {
+      "id": "art-254",
+      "tipo": "articulo",
+      "titulo": "Artículo 21.  Valoración de las necesidades educativas.",
+      "capitulo": "",
+      "rango_lineas": [
+        9206,
+        9224
+      ]
+    },
+    {
+      "id": "art-255",
+      "tipo": "articulo",
+      "titulo": "Artículo 22.  Derecho a la Accesibilidad Universal.",
+      "capitulo": "",
+      "rango_lineas": [
+        9225,
+        9238
+      ]
+    },
+    {
+      "id": "art-256",
+      "tipo": "articulo",
+      "titulo": "Artículo 23.  Condiciones básicas de accesibilidad y no discriminación.",
+      "capitulo": "",
+      "rango_lineas": [
+        9239,
+        9276
+      ]
+    },
+    {
+      "id": "art-257",
+      "tipo": "articulo",
+      "titulo": "Artículo 24.  Condiciones básicas de accesibilidad y no discriminación en el ámbito de los",
+      "capitulo": "",
+      "rango_lineas": [
+        9277,
+        9290
+      ]
+    },
+    {
+      "id": "art-258",
+      "tipo": "articulo",
+      "titulo": "Artículo 25.  Condiciones básicas de accesibilidad y no discriminación en el ámbito de los",
+      "capitulo": "",
+      "rango_lineas": [
+        9291,
+        9302
+      ]
+    },
+    {
+      "id": "art-259",
+      "tipo": "articulo",
+      "titulo": "Artículo 26.  Normativa técnica de edificación.",
+      "capitulo": "",
+      "rango_lineas": [
+        9303,
+        9310
+      ]
+    },
+    {
+      "id": "art-260",
+      "tipo": "articulo",
+      "titulo": "Artículo 27.  Condiciones básicas de accesibilidad y no discriminación en el ámbito de los",
+      "capitulo": "",
+      "rango_lineas": [
+        9311,
+        9330
+      ]
+    },
+    {
+      "id": "art-261",
+      "tipo": "articulo",
+      "titulo": "Artículo 28.  Condiciones básicas de accesibilidad y no discriminación en el ámbito de las",
+      "capitulo": "",
+      "rango_lineas": [
+        9331,
+        9345
+      ]
+    },
+    {
+      "id": "art-262",
+      "tipo": "articulo",
+      "titulo": "Artículo 29.  Condiciones básicas de accesibilidad y no discriminación para el acceso y",
+      "capitulo": "",
+      "rango_lineas": [
+        9346,
+        9384
+      ]
+    },
+    {
+      "id": "art-263",
+      "tipo": "articulo",
+      "titulo": "Artículo 30.  Medidas para facilitar el estacionamiento de vehículos.",
+      "capitulo": "",
+      "rango_lineas": [
+        9385,
+        9388
+      ]
+    },
+    {
+      "id": "art-264",
+      "tipo": "articulo",
+      "titulo": "Artículo 31.  Subsidio de movilidad y compensación por gastos de transporte.",
+      "capitulo": "",
+      "rango_lineas": [
+        9389,
+        9393
+      ]
+    },
+    {
+      "id": "art-265",
+      "tipo": "articulo",
+      "titulo": "Artículo 32.  Reserva de viviendas para personas con discapacidad y condiciones de",
+      "capitulo": "",
+      "rango_lineas": [
+        9394,
+        9420
+      ]
+    },
+    {
+      "id": "art-266",
+      "tipo": "articulo",
+      "titulo": "Artículo 33.  Concepto de rehabilitación de la vivienda.",
+      "capitulo": "",
+      "rango_lineas": [
+        9421,
+        9425
+      ]
+    },
+    {
+      "id": "art-267",
+      "tipo": "articulo",
+      "titulo": "Artículo 34.  Otras medidas públicas de accesibilidad.",
+      "capitulo": "",
+      "rango_lineas": [
+        9426,
+        9439
+      ]
+    },
+    {
+      "id": "art-268",
+      "tipo": "articulo",
+      "titulo": "Artículo 35.  Garantías del derecho al trabajo.",
+      "capitulo": "",
+      "rango_lineas": [
+        9440,
+        9477
+      ]
+    },
+    {
+      "id": "art-269",
+      "tipo": "articulo",
+      "titulo": "Artículo 36.  Igualdad de trato.",
+      "capitulo": "",
+      "rango_lineas": [
+        9478,
+        9481
+      ]
+    },
+    {
+      "id": "art-270",
+      "tipo": "articulo",
+      "titulo": "Artículo 37.  Tipos de empleo de las personas con discapacidad.",
+      "capitulo": "",
+      "rango_lineas": [
+        9482,
+        9499
+      ]
+    },
+    {
+      "id": "art-271",
+      "tipo": "articulo",
+      "titulo": "Artículo 38.  Orientación, colocación y registro de trabajadores con discapacidad para su",
+      "capitulo": "",
+      "rango_lineas": [
+        9500,
+        9521
+      ]
+    },
+    {
+      "id": "art-272",
+      "tipo": "articulo",
+      "titulo": "Artículo 39.  Ayudas a la generación de empleo de las personas con discapacidad.",
+      "capitulo": "",
+      "rango_lineas": [
+        9522,
+        9532
+      ]
+    },
+    {
+      "id": "art-273",
+      "tipo": "articulo",
+      "titulo": "Artículo 40.  Adopción de medidas para prevenir o compensar las desventajas ocasionadas",
+      "capitulo": "",
+      "rango_lineas": [
+        9533,
+        9548
+      ]
+    },
+    {
+      "id": "art-274",
+      "tipo": "articulo",
+      "titulo": "Artículo 41.  Servicios de empleo con apoyo y empleo personalizado.",
+      "capitulo": "",
+      "rango_lineas": [
+        9549,
+        9558
+      ]
+    },
+    {
+      "id": "art-275",
+      "tipo": "articulo",
+      "titulo": "Artículo 42.  Cuota de reserva de puestos de trabajo para personas con discapacidad.",
+      "capitulo": "",
+      "rango_lineas": [
+        9559,
+        9579
+      ]
+    },
+    {
+      "id": "art-276",
+      "tipo": "articulo",
+      "titulo": "Artículo 43.  Empresas para la inclusión laboral de las personas con discapacidad.",
+      "capitulo": "",
+      "rango_lineas": [
+        9580,
+        9626
+      ]
+    },
+    {
+      "id": "art-277",
+      "tipo": "articulo",
+      "titulo": "Artículo 44.  Compensación económica para las empresas para la inclusión laboral de las",
+      "capitulo": "",
+      "rango_lineas": [
+        9627,
+        9636
+      ]
+    },
+    {
+      "id": "art-278",
+      "tipo": "articulo",
+      "titulo": "Artículo 45.  Creación de empresas para la inclusión laboral de las personas con",
+      "capitulo": "",
+      "rango_lineas": [
+        9637,
+        9656
+      ]
+    },
+    {
+      "id": "art-279",
+      "tipo": "articulo",
+      "titulo": "Artículo 46.  Enclaves laborales.",
+      "capitulo": "",
+      "rango_lineas": [
+        9657,
+        9661
+      ]
+    },
+    {
+      "id": "art-280",
+      "tipo": "articulo",
+      "titulo": "Artículo 47.  Empleo autónomo.",
+      "capitulo": "",
+      "rango_lineas": [
+        9662,
+        9668
+      ]
+    },
+    {
+      "id": "art-281",
+      "tipo": "articulo",
+      "titulo": "Artículo 48.  Derecho a la protección social.",
+      "capitulo": "",
+      "rango_lineas": [
+        9669,
+        9673
+      ]
+    },
+    {
+      "id": "art-282",
+      "tipo": "articulo",
+      "titulo": "Artículo 49.  Criterios de aplicación de la protección social.",
+      "capitulo": "",
+      "rango_lineas": [
+        9674,
+        9685
+      ]
+    },
+    {
+      "id": "art-283",
+      "tipo": "articulo",
+      "titulo": "Artículo 50.  Contenido del derecho a la protección social.",
+      "capitulo": "",
+      "rango_lineas": [
+        9686,
+        9695
+      ]
+    },
+    {
+      "id": "art-284",
+      "tipo": "articulo",
+      "titulo": "Artículo 51.  Clases de servicios sociales.",
+      "capitulo": "",
+      "rango_lineas": [
+        9696,
+        9743
+      ]
+    },
+    {
+      "id": "art-285",
+      "tipo": "articulo",
+      "titulo": "Artículo 52.  Centros ocupacionales.",
+      "capitulo": "",
+      "rango_lineas": [
+        9744,
+        9761
+      ]
+    },
+    {
+      "id": "art-286",
+      "tipo": "articulo",
+      "titulo": "Artículo 53.  Derecho de participación en la vida política.",
+      "capitulo": "",
+      "rango_lineas": [
+        9762,
+        9766
+      ]
+    },
+    {
+      "id": "art-287",
+      "tipo": "articulo",
+      "titulo": "Artículo 54.  Derecho de participación en la vida pública.",
+      "capitulo": "",
+      "rango_lineas": [
+        9767,
+        9784
+      ]
+    },
+    {
+      "id": "art-288",
+      "tipo": "articulo",
+      "titulo": "Artículo 55.  Consejo Nacional de la Discapacidad.",
+      "capitulo": "",
+      "rango_lineas": [
+        9785,
+        9793
+      ]
+    },
+    {
+      "id": "art-289",
+      "tipo": "articulo",
+      "titulo": "Artículo 56.  Oficina de Atención a la Discapacidad.",
+      "capitulo": "",
+      "rango_lineas": [
+        9794,
+        9804
+      ]
+    },
+    {
+      "id": "art-290",
+      "tipo": "articulo",
+      "titulo": "Artículo 57.  Prestación de servicios.",
+      "capitulo": "",
+      "rango_lineas": [
+        9805,
+        9812
+      ]
+    },
+    {
+      "id": "art-291",
+      "tipo": "articulo",
+      "titulo": "Artículo 58.  Financiación.",
+      "capitulo": "",
+      "rango_lineas": [
+        9813,
+        9818
+      ]
+    },
+    {
+      "id": "art-292",
+      "tipo": "articulo",
+      "titulo": "Artículo 59.  Toma de conciencia social.",
+      "capitulo": "",
+      "rango_lineas": [
+        9819,
+        9834
+      ]
+    },
+    {
+      "id": "art-293",
+      "tipo": "articulo",
+      "titulo": "Artículo 60.  Personal especializado.",
+      "capitulo": "",
+      "rango_lineas": [
+        9835,
+        9841
+      ]
+    },
+    {
+      "id": "art-294",
+      "tipo": "articulo",
+      "titulo": "Artículo 61.  Formación del personal.",
+      "capitulo": "",
+      "rango_lineas": [
+        9842,
+        9854
+      ]
+    },
+    {
+      "id": "art-295",
+      "tipo": "articulo",
+      "titulo": "Artículo 62.  Voluntariado.",
+      "capitulo": "",
+      "rango_lineas": [
+        9855,
+        9866
+      ]
+    },
+    {
+      "id": "art-296",
+      "tipo": "articulo",
+      "titulo": "Artículo 63.  Vulneración del derecho a la igualdad de oportunidades.",
+      "capitulo": "",
+      "rango_lineas": [
+        9867,
+        9873
+      ]
+    },
+    {
+      "id": "art-297",
+      "tipo": "articulo",
+      "titulo": "Artículo 64.  Garantías del derecho a la igualdad de oportunidades.",
+      "capitulo": "",
+      "rango_lineas": [
+        9874,
+        9885
+      ]
+    },
+    {
+      "id": "art-298",
+      "tipo": "articulo",
+      "titulo": "Artículo 65.  Medidas contra la discriminación.",
+      "capitulo": "",
+      "rango_lineas": [
+        9886,
+        9890
+      ]
+    },
+    {
+      "id": "art-299",
+      "tipo": "articulo",
+      "titulo": "Artículo 66.  Contenido de las medidas contra la discriminación.",
+      "capitulo": "",
+      "rango_lineas": [
+        9891,
+        9909
+      ]
+    },
+    {
+      "id": "art-300",
+      "tipo": "articulo",
+      "titulo": "Artículo 67.  Medidas de acción positiva.",
+      "capitulo": "",
+      "rango_lineas": [
+        9910,
+        9930
+      ]
+    },
+    {
+      "id": "art-301",
+      "tipo": "articulo",
+      "titulo": "Artículo 68.  Contenido de las medidas de acción positiva y medidas de igualdad de",
+      "capitulo": "",
+      "rango_lineas": [
+        9931,
+        9944
+      ]
+    },
+    {
+      "id": "art-302",
+      "tipo": "articulo",
+      "titulo": "Artículo 69.  Medidas de fomento y defensa.",
+      "capitulo": "",
+      "rango_lineas": [
+        9945,
+        9952
+      ]
+    },
+    {
+      "id": "art-303",
+      "tipo": "articulo",
+      "titulo": "Artículo 70.  Medidas para fomentar la calidad.",
+      "capitulo": "",
+      "rango_lineas": [
+        9953,
+        9957
+      ]
+    },
+    {
+      "id": "art-304",
+      "tipo": "articulo",
+      "titulo": "Artículo 71.  Medidas de innovación y desarrollo de normas técnicas.",
+      "capitulo": "",
+      "rango_lineas": [
+        9958,
+        9968
+      ]
+    },
+    {
+      "id": "art-305",
+      "tipo": "articulo",
+      "titulo": "Artículo 72.  Iniciativa privada.",
+      "capitulo": "",
+      "rango_lineas": [
+        9969,
+        9982
+      ]
+    },
+    {
+      "id": "art-306",
+      "tipo": "articulo",
+      "titulo": "Artículo 73.  Observatorio Estatal de la Discapacidad.",
+      "capitulo": "",
+      "rango_lineas": [
+        9983,
+        10000
+      ]
+    },
+    {
+      "id": "art-307",
+      "tipo": "articulo",
+      "titulo": "Artículo 74.  Arbitraje.",
+      "capitulo": "",
+      "rango_lineas": [
+        10001,
+        10012
+      ]
+    },
+    {
+      "id": "art-308",
+      "tipo": "articulo",
+      "titulo": "Artículo 75.  Tutela judicial y protección contra las represalias.",
+      "capitulo": "",
+      "rango_lineas": [
+        10013,
+        10025
+      ]
+    },
+    {
+      "id": "art-309",
+      "tipo": "articulo",
+      "titulo": "Artículo 76.  Legitimación.",
+      "capitulo": "",
+      "rango_lineas": [
+        10026,
+        10032
+      ]
+    },
+    {
+      "id": "art-310",
+      "tipo": "articulo",
+      "titulo": "Artículo 77.  Criterios especiales sobre la prueba de hechos relevantes.",
+      "capitulo": "",
+      "rango_lineas": [
+        10033,
+        10048
+      ]
+    },
+    {
+      "id": "art-311",
+      "tipo": "articulo",
+      "titulo": "Artículo 78.  Ámbito.",
+      "capitulo": "",
+      "rango_lineas": [
+        10049,
+        10057
+      ]
+    },
+    {
+      "id": "art-312",
+      "tipo": "articulo",
+      "titulo": "Artículo 79.  Sujetos.",
+      "capitulo": "",
+      "rango_lineas": [
+        10058,
+        10068
+      ]
+    },
+    {
+      "id": "art-313",
+      "tipo": "articulo",
+      "titulo": "Artículo 80.  Objeto de las infracciones.",
+      "capitulo": "",
+      "rango_lineas": [
+        10069,
+        10076
+      ]
+    },
+    {
+      "id": "art-314",
+      "tipo": "articulo",
+      "titulo": "Artículo 81.  Infracciones.",
+      "capitulo": "",
+      "rango_lineas": [
+        10077,
+        10110
+      ]
+    },
+    {
+      "id": "art-315",
+      "tipo": "articulo",
+      "titulo": "Artículo 82.  Prescripción de las infracciones.",
+      "capitulo": "",
+      "rango_lineas": [
+        10111,
+        10115
+      ]
+    },
+    {
+      "id": "art-316",
+      "tipo": "articulo",
+      "titulo": "Artículo 83.  Sanciones.",
+      "capitulo": "",
+      "rango_lineas": [
+        10116,
+        10122
+      ]
+    },
+    {
+      "id": "art-317",
+      "tipo": "articulo",
+      "titulo": "Artículo 84.  Criterios de graduación de las sanciones.",
+      "capitulo": "",
+      "rango_lineas": [
+        10123,
+        10143
+      ]
+    },
+    {
+      "id": "art-318",
+      "tipo": "articulo",
+      "titulo": "Artículo 85.  Sanciones accesorias.",
+      "capitulo": "",
+      "rango_lineas": [
+        10144,
+        10157
+      ]
+    },
+    {
+      "id": "art-319",
+      "tipo": "articulo",
+      "titulo": "Artículo 86.  Consecuencias del incumplimiento en materia de acceso a bienes y servicios.",
+      "capitulo": "",
+      "rango_lineas": [
+        10158,
+        10162
+      ]
+    },
+    {
+      "id": "art-320",
+      "tipo": "articulo",
+      "titulo": "Artículo 87.  Prescripción de las sanciones.",
+      "capitulo": "",
+      "rango_lineas": [
+        10163,
+        10165
+      ]
+    },
+    {
+      "id": "art-321",
+      "tipo": "articulo",
+      "titulo": "Artículo 88.  Cumplimiento de las obligaciones establecidas en esta ley y en la legislación",
+      "capitulo": "",
+      "rango_lineas": [
+        10166,
+        10172
+      ]
+    },
+    {
+      "id": "art-322",
+      "tipo": "articulo",
+      "titulo": "Artículo 89.  Legitimación.",
+      "capitulo": "",
+      "rango_lineas": [
+        10173,
+        10186
+      ]
+    },
+    {
+      "id": "art-323",
+      "tipo": "articulo",
+      "titulo": "Artículo 90.  Garantía de accesibilidad de los procedimientos.",
+      "capitulo": "",
+      "rango_lineas": [
+        10187,
+        10191
+      ]
+    },
+    {
+      "id": "art-324",
+      "tipo": "articulo",
+      "titulo": "Artículo 91.  Instrucción.",
+      "capitulo": "",
+      "rango_lineas": [
+        10192,
+        10199
+      ]
+    },
+    {
+      "id": "art-325",
+      "tipo": "articulo",
+      "titulo": "Artículo 92.  Publicidad de las resoluciones sancionadoras.",
+      "capitulo": "",
+      "rango_lineas": [
+        10200,
+        10210
+      ]
+    },
+    {
+      "id": "art-326",
+      "tipo": "articulo",
+      "titulo": "Artículo 93.  Deber de colaboración.",
+      "capitulo": "",
+      "rango_lineas": [
+        10211,
+        10220
+      ]
+    },
+    {
+      "id": "art-327",
+      "tipo": "articulo",
+      "titulo": "Artículo 94.  Competencia de la Administración General del Estado.",
+      "capitulo": "",
+      "rango_lineas": [
+        10221,
+        10225
+      ]
+    },
+    {
+      "id": "art-328",
+      "tipo": "articulo",
+      "titulo": "Artículo 95.  Infracciones.",
+      "capitulo": "",
+      "rango_lineas": [
+        10226,
+        10291
+      ]
+    },
+    {
+      "id": "art-329",
+      "tipo": "articulo",
+      "titulo": "Artículo 96.  Sanciones.",
+      "capitulo": "",
+      "rango_lineas": [
+        10292,
+        10301
+      ]
+    },
+    {
+      "id": "art-330",
+      "tipo": "articulo",
+      "titulo": "Artículo 97.  Cómputo del plazo de prescripción de las infracciones.",
+      "capitulo": "",
+      "rango_lineas": [
+        10302,
+        10308
+      ]
+    },
+    {
+      "id": "art-331",
+      "tipo": "articulo",
+      "titulo": "Artículo 98.  Cómputo del plazo de prescripción de las sanciones.",
+      "capitulo": "",
+      "rango_lineas": [
+        10309,
+        10315
+      ]
+    },
+    {
+      "id": "art-332",
+      "tipo": "articulo",
+      "titulo": "Artículo 99.  Normativa de aplicación.",
+      "capitulo": "",
+      "rango_lineas": [
+        10316,
+        10321
+      ]
+    },
+    {
+      "id": "art-333",
+      "tipo": "articulo",
+      "titulo": "Artículo 100.  Actuaciones previas.",
+      "capitulo": "",
+      "rango_lineas": [
+        10322,
+        10329
+      ]
+    },
+    {
+      "id": "art-334",
+      "tipo": "articulo",
+      "titulo": "Artículo 101.  Iniciación y plazo de resolución.",
+      "capitulo": "",
+      "rango_lineas": [
+        10330,
+        10334
+      ]
+    },
+    {
+      "id": "art-335",
+      "tipo": "articulo",
+      "titulo": "Artículo 102.  Medidas cautelares.",
+      "capitulo": "",
+      "rango_lineas": [
+        10335,
+        10341
+      ]
+    },
+    {
+      "id": "art-336",
+      "tipo": "articulo",
+      "titulo": "Artículo 103.  Efectividad de la sanción.",
+      "capitulo": "",
+      "rango_lineas": [
+        10342,
+        10346
+      ]
+    },
+    {
+      "id": "art-337",
+      "tipo": "articulo",
+      "titulo": "Artículo 104.  Información a otros órganos.",
+      "capitulo": "",
+      "rango_lineas": [
+        10347,
+        10360
+      ]
+    },
+    {
+      "id": "art-338",
+      "tipo": "articulo",
+      "titulo": "Artículo 105.  Autoridades competentes.",
+      "capitulo": "",
+      "rango_lineas": [
+        10361,
+        10703
+      ]
+    }
+  ]
+}

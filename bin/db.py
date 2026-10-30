@@ -702,7 +702,7 @@ def buscar_o_crear_concepto(
         return row[0], False
 
     # Crear nuevo
-    concepto_id = f"c-{hashlib.sha1(nombre_norm.encode()).hexdigest()[:12]}"
+    concepto_id = f"c-{hashlib.sha1((nombre_norm + '|' + valor_norm).encode()).hexdigest()[:12]}"
     conn.execute("""
         INSERT INTO conceptos (
             id, nombre, tipo, valor, norma, articulo, tags, verificado, es_semilla
