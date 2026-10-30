@@ -1,0 +1,1406 @@
+{
+  "tema": "tema-04-el-trebep-y-demas-normativa-transparencia-agenda-2030-y-ods",
+  "n_entradas": 140,
+  "entradas": [
+    {
+      "id": "art-1",
+      "tipo": "articulo",
+      "titulo": "Artículo 1.  Objeto.",
+      "capitulo": "",
+      "rango_lineas": [
+        117,
+        137
+      ]
+    },
+    {
+      "id": "art-2",
+      "tipo": "articulo",
+      "titulo": "Artículo 2.  Ámbito de aplicación.",
+      "capitulo": "",
+      "rango_lineas": [
+        138,
+        158
+      ]
+    },
+    {
+      "id": "art-3",
+      "tipo": "articulo",
+      "titulo": "Artículo 3.  Personal funcionario de las Entidades Locales.",
+      "capitulo": "",
+      "rango_lineas": [
+        159,
+        165
+      ]
+    },
+    {
+      "id": "art-4",
+      "tipo": "articulo",
+      "titulo": "Artículo 4.  Personal con legislación específica propia.",
+      "capitulo": "",
+      "rango_lineas": [
+        166,
+        180
+      ]
+    },
+    {
+      "id": "art-5",
+      "tipo": "articulo",
+      "titulo": "Artículo 5.  Personal de la Sociedad Estatal Correos y Telégrafos.",
+      "capitulo": "",
+      "rango_lineas": [
+        181,
+        185
+      ]
+    },
+    {
+      "id": "art-6",
+      "tipo": "articulo",
+      "titulo": "Artículo 6.  Leyes de Función Pública.",
+      "capitulo": "",
+      "rango_lineas": [
+        186,
+        190
+      ]
+    },
+    {
+      "id": "art-7",
+      "tipo": "articulo",
+      "titulo": "Artículo 7.  Normativa aplicable al personal laboral.",
+      "capitulo": "",
+      "rango_lineas": [
+        191,
+        204
+      ]
+    },
+    {
+      "id": "art-8",
+      "tipo": "articulo",
+      "titulo": "Artículo 8.  Concepto y clases de empleados públicos.",
+      "capitulo": "",
+      "rango_lineas": [
+        205,
+        212
+      ]
+    },
+    {
+      "id": "art-9",
+      "tipo": "articulo",
+      "titulo": "Artículo 9.  Funcionarios de carrera.",
+      "capitulo": "",
+      "rango_lineas": [
+        213,
+        222
+      ]
+    },
+    {
+      "id": "art-10",
+      "tipo": "articulo",
+      "titulo": "Artículo 10.  Funcionarios interinos.",
+      "capitulo": "",
+      "rango_lineas": [
+        223,
+        267
+      ]
+    },
+    {
+      "id": "art-11",
+      "tipo": "articulo",
+      "titulo": "Artículo 11.  Personal laboral.",
+      "capitulo": "",
+      "rango_lineas": [
+        268,
+        280
+      ]
+    },
+    {
+      "id": "art-12",
+      "tipo": "articulo",
+      "titulo": "Artículo 12.  Personal eventual.",
+      "capitulo": "",
+      "rango_lineas": [
+        281,
+        297
+      ]
+    },
+    {
+      "id": "art-13",
+      "tipo": "articulo",
+      "titulo": "Artículo 13.  Personal directivo profesional.",
+      "capitulo": "",
+      "rango_lineas": [
+        298,
+        318
+      ]
+    },
+    {
+      "id": "art-14",
+      "tipo": "articulo",
+      "titulo": "Artículo 14.  Derechos individuales.",
+      "capitulo": "",
+      "rango_lineas": [
+        319,
+        358
+      ]
+    },
+    {
+      "id": "art-15",
+      "tipo": "articulo",
+      "titulo": "Artículo 15.  Derechos individuales ejercidos colectivamente.",
+      "capitulo": "",
+      "rango_lineas": [
+        359,
+        372
+      ]
+    },
+    {
+      "id": "art-16",
+      "tipo": "articulo",
+      "titulo": "Artículo 16.  Concepto, principios y modalidades de la carrera profesional de los",
+      "capitulo": "",
+      "rango_lineas": [
+        373,
+        396
+      ]
+    },
+    {
+      "id": "art-17",
+      "tipo": "articulo",
+      "titulo": "Artículo 17.  Carrera horizontal de los funcionarios de carrera.",
+      "capitulo": "",
+      "rango_lineas": [
+        397,
+        407
+      ]
+    },
+    {
+      "id": "art-18",
+      "tipo": "articulo",
+      "titulo": "Artículo 18.  Promoción interna de los funcionarios de carrera.",
+      "capitulo": "",
+      "rango_lineas": [
+        408,
+        425
+      ]
+    },
+    {
+      "id": "art-19",
+      "tipo": "articulo",
+      "titulo": "Artículo 19.  Carrera profesional y promoción del personal laboral.",
+      "capitulo": "",
+      "rango_lineas": [
+        426,
+        430
+      ]
+    },
+    {
+      "id": "art-20",
+      "tipo": "articulo",
+      "titulo": "Artículo 20.  La evaluación del desempeño.",
+      "capitulo": "",
+      "rango_lineas": [
+        431,
+        452
+      ]
+    },
+    {
+      "id": "art-21",
+      "tipo": "articulo",
+      "titulo": "Artículo 21.  Determinación de las cuantías y de los incrementos retributivos.",
+      "capitulo": "",
+      "rango_lineas": [
+        453,
+        460
+      ]
+    },
+    {
+      "id": "art-22",
+      "tipo": "articulo",
+      "titulo": "Artículo 22.  Retribuciones de los funcionarios.",
+      "capitulo": "",
+      "rango_lineas": [
+        461,
+        477
+      ]
+    },
+    {
+      "id": "art-23",
+      "tipo": "articulo",
+      "titulo": "Artículo 23.  Retribuciones básicas.",
+      "capitulo": "",
+      "rango_lineas": [
+        478,
+        485
+      ]
+    },
+    {
+      "id": "art-24",
+      "tipo": "articulo",
+      "titulo": "Artículo 24.  Retribuciones complementarias.",
+      "capitulo": "",
+      "rango_lineas": [
+        486,
+        497
+      ]
+    },
+    {
+      "id": "art-25",
+      "tipo": "articulo",
+      "titulo": "Artículo 25.  Retribuciones de los funcionarios interinos.",
+      "capitulo": "",
+      "rango_lineas": [
+        498,
+        506
+      ]
+    },
+    {
+      "id": "art-26",
+      "tipo": "articulo",
+      "titulo": "Artículo 26.  Retribuciones de los funcionarios en prácticas.",
+      "capitulo": "",
+      "rango_lineas": [
+        507,
+        510
+      ]
+    },
+    {
+      "id": "art-27",
+      "tipo": "articulo",
+      "titulo": "Artículo 27.  Retribuciones del personal laboral.",
+      "capitulo": "",
+      "rango_lineas": [
+        511,
+        514
+      ]
+    },
+    {
+      "id": "art-28",
+      "tipo": "articulo",
+      "titulo": "Artículo 28.  Indemnizaciones.",
+      "capitulo": "",
+      "rango_lineas": [
+        515,
+        516
+      ]
+    },
+    {
+      "id": "art-29",
+      "tipo": "articulo",
+      "titulo": "Artículo 29.  Retribuciones diferidas.",
+      "capitulo": "",
+      "rango_lineas": [
+        517,
+        525
+      ]
+    },
+    {
+      "id": "art-30",
+      "tipo": "articulo",
+      "titulo": "Artículo 30.  Deducción de retribuciones.",
+      "capitulo": "",
+      "rango_lineas": [
+        526,
+        536
+      ]
+    },
+    {
+      "id": "art-31",
+      "tipo": "articulo",
+      "titulo": "Artículo 31.  Principios generales.",
+      "capitulo": "",
+      "rango_lineas": [
+        537,
+        559
+      ]
+    },
+    {
+      "id": "art-32",
+      "tipo": "articulo",
+      "titulo": "Artículo 32.  Negociación colectiva, representación y participación del personal laboral.",
+      "capitulo": "",
+      "rango_lineas": [
+        560,
+        571
+      ]
+    },
+    {
+      "id": "art-33",
+      "tipo": "articulo",
+      "titulo": "Artículo 33.  Negociación colectiva.",
+      "capitulo": "",
+      "rango_lineas": [
+        572,
+        589
+      ]
+    },
+    {
+      "id": "art-34",
+      "tipo": "articulo",
+      "titulo": "Artículo 34.  Mesas de Negociación.",
+      "capitulo": "",
+      "rango_lineas": [
+        590,
+        617
+      ]
+    },
+    {
+      "id": "art-35",
+      "tipo": "articulo",
+      "titulo": "Artículo 35.  Constitución y composición de las Mesas de Negociación.",
+      "capitulo": "",
+      "rango_lineas": [
+        618,
+        635
+      ]
+    },
+    {
+      "id": "art-36",
+      "tipo": "articulo",
+      "titulo": "Artículo 36.  Mesas Generales de Negociación.",
+      "capitulo": "",
+      "rango_lineas": [
+        636,
+        668
+      ]
+    },
+    {
+      "id": "art-37",
+      "tipo": "articulo",
+      "titulo": "Artículo 37.  Materias objeto de negociación.",
+      "capitulo": "",
+      "rango_lineas": [
+        669,
+        710
+      ]
+    },
+    {
+      "id": "art-38",
+      "tipo": "articulo",
+      "titulo": "Artículo 38.  Pactos y Acuerdos.",
+      "capitulo": "",
+      "rango_lineas": [
+        711,
+        773
+      ]
+    },
+    {
+      "id": "art-39",
+      "tipo": "articulo",
+      "titulo": "Artículo 39.  Órganos de representación.",
+      "capitulo": "",
+      "rango_lineas": [
+        774,
+        804
+      ]
+    },
+    {
+      "id": "art-40",
+      "tipo": "articulo",
+      "titulo": "Artículo 40.  Funciones y legitimación de los órganos de representación.",
+      "capitulo": "",
+      "rango_lineas": [
+        805,
+        825
+      ]
+    },
+    {
+      "id": "art-41",
+      "tipo": "articulo",
+      "titulo": "Artículo 41.  Garantías de la función representativa del personal.",
+      "capitulo": "",
+      "rango_lineas": [
+        826,
+        861
+      ]
+    },
+    {
+      "id": "art-42",
+      "tipo": "articulo",
+      "titulo": "Artículo 42.  Duración de la representación.",
+      "capitulo": "",
+      "rango_lineas": [
+        862,
+        867
+      ]
+    },
+    {
+      "id": "art-43",
+      "tipo": "articulo",
+      "titulo": "Artículo 43.  Promoción de elecciones a Delegados y Juntas de Personal.",
+      "capitulo": "",
+      "rango_lineas": [
+        868,
+        883
+      ]
+    },
+    {
+      "id": "art-44",
+      "tipo": "articulo",
+      "titulo": "Artículo 44.  Procedimiento electoral.",
+      "capitulo": "",
+      "rango_lineas": [
+        884,
+        905
+      ]
+    },
+    {
+      "id": "art-45",
+      "tipo": "articulo",
+      "titulo": "Artículo 45.  Solución extrajudicial de conflictos colectivos.",
+      "capitulo": "",
+      "rango_lineas": [
+        906,
+        935
+      ]
+    },
+    {
+      "id": "art-46",
+      "tipo": "articulo",
+      "titulo": "Artículo 46.  Derecho de reunión.",
+      "capitulo": "",
+      "rango_lineas": [
+        936,
+        950
+      ]
+    },
+    {
+      "id": "art-47",
+      "tipo": "articulo",
+      "titulo": "Artículo 47.  Jornada de trabajo de los funcionarios públicos.",
+      "capitulo": "",
+      "rango_lineas": [
+        951,
+        983
+      ]
+    },
+    {
+      "id": "art-48",
+      "tipo": "articulo",
+      "titulo": "Artículo 48.  Permisos de los funcionarios públicos.",
+      "capitulo": "",
+      "rango_lineas": [
+        984,
+        1053
+      ]
+    },
+    {
+      "id": "art-49",
+      "tipo": "articulo",
+      "titulo": "Artículo 49.  Permisos por motivos de conciliación de la vida personal, familiar y laboral, por",
+      "capitulo": "",
+      "rango_lineas": [
+        1054,
+        1328
+      ]
+    },
+    {
+      "id": "art-50",
+      "tipo": "articulo",
+      "titulo": "Artículo 50.  Vacaciones de los funcionarios públicos.",
+      "capitulo": "",
+      "rango_lineas": [
+        1329,
+        1349
+      ]
+    },
+    {
+      "id": "art-51",
+      "tipo": "articulo",
+      "titulo": "Artículo 51.  Jornada de trabajo, permisos y vacaciones del personal laboral.",
+      "capitulo": "",
+      "rango_lineas": [
+        1350,
+        1354
+      ]
+    },
+    {
+      "id": "art-52",
+      "tipo": "articulo",
+      "titulo": "Artículo 52.  Deberes de los empleados públicos. Código de Conducta.",
+      "capitulo": "",
+      "rango_lineas": [
+        1355,
+        1365
+      ]
+    },
+    {
+      "id": "art-53",
+      "tipo": "articulo",
+      "titulo": "Artículo 53.  Principios éticos.",
+      "capitulo": "",
+      "rango_lineas": [
+        1366,
+        1403
+      ]
+    },
+    {
+      "id": "art-54",
+      "tipo": "articulo",
+      "titulo": "Artículo 54.  Principios de conducta.",
+      "capitulo": "",
+      "rango_lineas": [
+        1404,
+        1434
+      ]
+    },
+    {
+      "id": "art-55",
+      "tipo": "articulo",
+      "titulo": "Artículo 55.  Principios rectores.",
+      "capitulo": "",
+      "rango_lineas": [
+        1435,
+        1449
+      ]
+    },
+    {
+      "id": "art-56",
+      "tipo": "articulo",
+      "titulo": "Artículo 56.  Requisitos generales.",
+      "capitulo": "",
+      "rango_lineas": [
+        1450,
+        1473
+      ]
+    },
+    {
+      "id": "art-57",
+      "tipo": "articulo",
+      "titulo": "Artículo 57.  Acceso al empleo público de nacionales de otros Estados.",
+      "capitulo": "",
+      "rango_lineas": [
+        1474,
+        1497
+      ]
+    },
+    {
+      "id": "art-58",
+      "tipo": "articulo",
+      "titulo": "Artículo 58.  Acceso al empleo público de funcionarios españoles de Organismos",
+      "capitulo": "",
+      "rango_lineas": [
+        1498,
+        1505
+      ]
+    },
+    {
+      "id": "art-59",
+      "tipo": "articulo",
+      "titulo": "Artículo 59.  Personas con discapacidad.",
+      "capitulo": "",
+      "rango_lineas": [
+        1506,
+        1522
+      ]
+    },
+    {
+      "id": "art-60",
+      "tipo": "articulo",
+      "titulo": "Artículo 60.  Órganos de selección.",
+      "capitulo": "",
+      "rango_lineas": [
+        1523,
+        1530
+      ]
+    },
+    {
+      "id": "art-61",
+      "tipo": "articulo",
+      "titulo": "Artículo 61.  Sistemas selectivos.",
+      "capitulo": "",
+      "rango_lineas": [
+        1531,
+        1574
+      ]
+    },
+    {
+      "id": "art-62",
+      "tipo": "articulo",
+      "titulo": "Artículo 62.  Adquisición de la condición de funcionario de carrera.",
+      "capitulo": "",
+      "rango_lineas": [
+        1575,
+        1588
+      ]
+    },
+    {
+      "id": "art-63",
+      "tipo": "articulo",
+      "titulo": "Artículo 63.  Causas de pérdida de la condición de funcionario de carrera.",
+      "capitulo": "",
+      "rango_lineas": [
+        1589,
+        1596
+      ]
+    },
+    {
+      "id": "art-64",
+      "tipo": "articulo",
+      "titulo": "Artículo 64.  Renuncia.",
+      "capitulo": "",
+      "rango_lineas": [
+        1597,
+        1605
+      ]
+    },
+    {
+      "id": "art-65",
+      "tipo": "articulo",
+      "titulo": "Artículo 65.  Pérdida de la nacionalidad.",
+      "capitulo": "",
+      "rango_lineas": [
+        1606,
+        1612
+      ]
+    },
+    {
+      "id": "art-66",
+      "tipo": "articulo",
+      "titulo": "Artículo 66.  Pena principal o accesoria de inhabilitación absoluta o especial para cargo",
+      "capitulo": "",
+      "rango_lineas": [
+        1613,
+        1620
+      ]
+    },
+    {
+      "id": "art-67",
+      "tipo": "articulo",
+      "titulo": "Artículo 67.  Jubilación.",
+      "capitulo": "",
+      "rango_lineas": [
+        1621,
+        1645
+      ]
+    },
+    {
+      "id": "art-68",
+      "tipo": "articulo",
+      "titulo": "Artículo 68.  Rehabilitación de la condición de funcionario.",
+      "capitulo": "",
+      "rango_lineas": [
+        1646,
+        1660
+      ]
+    },
+    {
+      "id": "art-69",
+      "tipo": "articulo",
+      "titulo": "Artículo 69.  Objetivos e instrumentos de la planificación.",
+      "capitulo": "",
+      "rango_lineas": [
+        1661,
+        1682
+      ]
+    },
+    {
+      "id": "art-70",
+      "tipo": "articulo",
+      "titulo": "Artículo 70.  Oferta de empleo público.",
+      "capitulo": "",
+      "rango_lineas": [
+        1683,
+        1696
+      ]
+    },
+    {
+      "id": "art-71",
+      "tipo": "articulo",
+      "titulo": "Artículo 71.  Registros de personal y Gestión integrada de recursos humanos.",
+      "capitulo": "",
+      "rango_lineas": [
+        1697,
+        1712
+      ]
+    },
+    {
+      "id": "art-72",
+      "tipo": "articulo",
+      "titulo": "Artículo 72.  Estructuración de los recursos humanos.",
+      "capitulo": "",
+      "rango_lineas": [
+        1713,
+        1717
+      ]
+    },
+    {
+      "id": "art-73",
+      "tipo": "articulo",
+      "titulo": "Artículo 73.  Desempeño y agrupación de puestos de trabajo.",
+      "capitulo": "",
+      "rango_lineas": [
+        1718,
+        1727
+      ]
+    },
+    {
+      "id": "art-74",
+      "tipo": "articulo",
+      "titulo": "Artículo 74.  Ordenación de los puestos de trabajo.",
+      "capitulo": "",
+      "rango_lineas": [
+        1728,
+        1733
+      ]
+    },
+    {
+      "id": "art-75",
+      "tipo": "articulo",
+      "titulo": "Artículo 75.  Cuerpos y escalas.",
+      "capitulo": "",
+      "rango_lineas": [
+        1734,
+        1741
+      ]
+    },
+    {
+      "id": "art-76",
+      "tipo": "articulo",
+      "titulo": "Artículo 76.  Grupos de clasificación profesional del personal funcionario de carrera.",
+      "capitulo": "",
+      "rango_lineas": [
+        1742,
+        1756
+      ]
+    },
+    {
+      "id": "art-77",
+      "tipo": "articulo",
+      "titulo": "Artículo 77.  Clasificación del personal laboral.",
+      "capitulo": "",
+      "rango_lineas": [
+        1757,
+        1760
+      ]
+    },
+    {
+      "id": "art-78",
+      "tipo": "articulo",
+      "titulo": "Artículo 78.  Principios y procedimientos de provisión de puestos de trabajo del personal",
+      "capitulo": "",
+      "rango_lineas": [
+        1761,
+        1771
+      ]
+    },
+    {
+      "id": "art-79",
+      "tipo": "articulo",
+      "titulo": "Artículo 79.  Concurso de provisión de los puestos de trabajo del personal funcionario de",
+      "capitulo": "",
+      "rango_lineas": [
+        1772,
+        1796
+      ]
+    },
+    {
+      "id": "art-80",
+      "tipo": "articulo",
+      "titulo": "Artículo 80.  Libre designación con convocatoria pública del personal funcionario de carrera.",
+      "capitulo": "",
+      "rango_lineas": [
+        1797,
+        1810
+      ]
+    },
+    {
+      "id": "art-81",
+      "tipo": "articulo",
+      "titulo": "Artículo 81.  Movilidad del personal funcionario de carrera.",
+      "capitulo": "",
+      "rango_lineas": [
+        1811,
+        1827
+      ]
+    },
+    {
+      "id": "art-82",
+      "tipo": "articulo",
+      "titulo": "Artículo 82.  Movilidad por razón de violencia de género, violencia sexual y violencia",
+      "capitulo": "",
+      "rango_lineas": [
+        1828,
+        1862
+      ]
+    },
+    {
+      "id": "art-83",
+      "tipo": "articulo",
+      "titulo": "Artículo 83.  Provisión de puestos y movilidad del personal laboral.",
+      "capitulo": "",
+      "rango_lineas": [
+        1863,
+        1866
+      ]
+    },
+    {
+      "id": "art-84",
+      "tipo": "articulo",
+      "titulo": "Artículo 84.  La movilidad voluntaria entre Administraciones Públicas.",
+      "capitulo": "",
+      "rango_lineas": [
+        1867,
+        1897
+      ]
+    },
+    {
+      "id": "art-85",
+      "tipo": "articulo",
+      "titulo": "Artículo 85.  Situaciones administrativas de los funcionarios de carrera.",
+      "capitulo": "",
+      "rango_lineas": [
+        1898,
+        1918
+      ]
+    },
+    {
+      "id": "art-86",
+      "tipo": "articulo",
+      "titulo": "Artículo 86.  Servicio activo.",
+      "capitulo": "",
+      "rango_lineas": [
+        1919,
+        1927
+      ]
+    },
+    {
+      "id": "art-87",
+      "tipo": "articulo",
+      "titulo": "Artículo 87.  Servicios especiales.",
+      "capitulo": "",
+      "rango_lineas": [
+        1928,
+        1996
+      ]
+    },
+    {
+      "id": "art-88",
+      "tipo": "articulo",
+      "titulo": "Artículo 88.  Servicio en otras Administraciones Públicas.",
+      "capitulo": "",
+      "rango_lineas": [
+        1997,
+        2030
+      ]
+    },
+    {
+      "id": "art-89",
+      "tipo": "articulo",
+      "titulo": "Artículo 89.  Excedencia.",
+      "capitulo": "",
+      "rango_lineas": [
+        2031,
+        2112
+      ]
+    },
+    {
+      "id": "art-90",
+      "tipo": "articulo",
+      "titulo": "Artículo 90.  Suspensión de funciones.",
+      "capitulo": "",
+      "rango_lineas": [
+        2113,
+        2127
+      ]
+    },
+    {
+      "id": "art-91",
+      "tipo": "articulo",
+      "titulo": "Artículo 91.  Reingreso al servicio activo.",
+      "capitulo": "",
+      "rango_lineas": [
+        2128,
+        2132
+      ]
+    },
+    {
+      "id": "art-92",
+      "tipo": "articulo",
+      "titulo": "Artículo 92.  Situaciones del personal laboral.",
+      "capitulo": "",
+      "rango_lineas": [
+        2133,
+        2140
+      ]
+    },
+    {
+      "id": "art-93",
+      "tipo": "articulo",
+      "titulo": "Artículo 93.  Responsabilidad disciplinaria.",
+      "capitulo": "",
+      "rango_lineas": [
+        2141,
+        2152
+      ]
+    },
+    {
+      "id": "art-94",
+      "tipo": "articulo",
+      "titulo": "Artículo 94.  Ejercicio de la potestad disciplinaria.",
+      "capitulo": "",
+      "rango_lineas": [
+        2153,
+        2171
+      ]
+    },
+    {
+      "id": "art-95",
+      "tipo": "articulo",
+      "titulo": "Artículo 95.  Faltas disciplinarias.",
+      "capitulo": "",
+      "rango_lineas": [
+        2172,
+        2222
+      ]
+    },
+    {
+      "id": "art-96",
+      "tipo": "articulo",
+      "titulo": "Artículo 96.  Sanciones.",
+      "capitulo": "",
+      "rango_lineas": [
+        2223,
+        2244
+      ]
+    },
+    {
+      "id": "art-97",
+      "tipo": "articulo",
+      "titulo": "Artículo 97.  Prescripción de las faltas y sanciones.",
+      "capitulo": "",
+      "rango_lineas": [
+        2245,
+        2252
+      ]
+    },
+    {
+      "id": "art-98",
+      "tipo": "articulo",
+      "titulo": "Artículo 98.  Procedimiento disciplinario y medidas provisionales.",
+      "capitulo": "",
+      "rango_lineas": [
+        2253,
+        2287
+      ]
+    },
+    {
+      "id": "art-99",
+      "tipo": "articulo",
+      "titulo": "Artículo 99.  Relaciones de cooperación entre las Administraciones Públicas.",
+      "capitulo": "",
+      "rango_lineas": [
+        2288,
+        2291
+      ]
+    },
+    {
+      "id": "art-100",
+      "tipo": "articulo",
+      "titulo": "Artículo 100.  Órganos de cooperación.",
+      "capitulo": "",
+      "rango_lineas": [
+        2292,
+        2926
+      ]
+    },
+    {
+      "id": "art-101",
+      "tipo": "articulo",
+      "titulo": "Artículo 1.  Objeto.",
+      "capitulo": "",
+      "rango_lineas": [
+        2927,
+        2935
+      ]
+    },
+    {
+      "id": "art-102",
+      "tipo": "articulo",
+      "titulo": "Artículo 2.  Ámbito subjetivo de aplicación.",
+      "capitulo": "",
+      "rango_lineas": [
+        2936,
+        2971
+      ]
+    },
+    {
+      "id": "art-103",
+      "tipo": "articulo",
+      "titulo": "Artículo 3.  Otros sujetos obligados.",
+      "capitulo": "",
+      "rango_lineas": [
+        2972,
+        2978
+      ]
+    },
+    {
+      "id": "art-104",
+      "tipo": "articulo",
+      "titulo": "Artículo 4.  Obligación de suministrar información.",
+      "capitulo": "",
+      "rango_lineas": [
+        2979,
+        2988
+      ]
+    },
+    {
+      "id": "art-105",
+      "tipo": "articulo",
+      "titulo": "Artículo 5.  Principios generales.",
+      "capitulo": "",
+      "rango_lineas": [
+        2989,
+        3014
+      ]
+    },
+    {
+      "id": "art-106",
+      "tipo": "articulo",
+      "titulo": "Artículo 6.  Información institucional, organizativa y de planificación.",
+      "capitulo": "",
+      "rango_lineas": [
+        3015,
+        3031
+      ]
+    },
+    {
+      "id": "art-107",
+      "tipo": "articulo",
+      "titulo": "Artículo 7.  Información de relevancia jurídica.",
+      "capitulo": "",
+      "rango_lineas": [
+        3032,
+        3049
+      ]
+    },
+    {
+      "id": "art-108",
+      "tipo": "articulo",
+      "titulo": "Artículo 8.  Información económica, presupuestaria y estadística.",
+      "capitulo": "",
+      "rango_lineas": [
+        3050,
+        3109
+      ]
+    },
+    {
+      "id": "art-109",
+      "tipo": "articulo",
+      "titulo": "Artículo 9.  Control.",
+      "capitulo": "",
+      "rango_lineas": [
+        3110,
+        3121
+      ]
+    },
+    {
+      "id": "art-110",
+      "tipo": "articulo",
+      "titulo": "Artículo 10.  Portal de la Transparencia.",
+      "capitulo": "",
+      "rango_lineas": [
+        3122,
+        3133
+      ]
+    },
+    {
+      "id": "art-111",
+      "tipo": "articulo",
+      "titulo": "Artículo 11.  Principios técnicos.",
+      "capitulo": "",
+      "rango_lineas": [
+        3134,
+        3148
+      ]
+    },
+    {
+      "id": "art-112",
+      "tipo": "articulo",
+      "titulo": "Artículo 12.  Derecho de acceso a la información pública.",
+      "capitulo": "",
+      "rango_lineas": [
+        3149,
+        3153
+      ]
+    },
+    {
+      "id": "art-113",
+      "tipo": "articulo",
+      "titulo": "Artículo 13.  Información pública.",
+      "capitulo": "",
+      "rango_lineas": [
+        3154,
+        3158
+      ]
+    },
+    {
+      "id": "art-114",
+      "tipo": "articulo",
+      "titulo": "Artículo 14.  Límites al derecho de acceso.",
+      "capitulo": "",
+      "rango_lineas": [
+        3159,
+        3182
+      ]
+    },
+    {
+      "id": "art-115",
+      "tipo": "articulo",
+      "titulo": "Artículo 15.  Protección de datos personales.",
+      "capitulo": "",
+      "rango_lineas": [
+        3183,
+        3221
+      ]
+    },
+    {
+      "id": "art-116",
+      "tipo": "articulo",
+      "titulo": "Artículo 16.  Acceso parcial.",
+      "capitulo": "",
+      "rango_lineas": [
+        3222,
+        3228
+      ]
+    },
+    {
+      "id": "art-117",
+      "tipo": "articulo",
+      "titulo": "Artículo 17.  Solicitud de acceso a la información.",
+      "capitulo": "",
+      "rango_lineas": [
+        3229,
+        3247
+      ]
+    },
+    {
+      "id": "art-118",
+      "tipo": "articulo",
+      "titulo": "Artículo 18.  Causas de inadmisión.",
+      "capitulo": "",
+      "rango_lineas": [
+        3248,
+        3263
+      ]
+    },
+    {
+      "id": "art-119",
+      "tipo": "articulo",
+      "titulo": "Artículo 19.  Tramitación.",
+      "capitulo": "",
+      "rango_lineas": [
+        3264,
+        3279
+      ]
+    },
+    {
+      "id": "art-120",
+      "tipo": "articulo",
+      "titulo": "Artículo 20.  Resolución.",
+      "capitulo": "",
+      "rango_lineas": [
+        3280,
+        3301
+      ]
+    },
+    {
+      "id": "art-121",
+      "tipo": "articulo",
+      "titulo": "Artículo 21.  Unidades de información.",
+      "capitulo": "",
+      "rango_lineas": [
+        3302,
+        3322
+      ]
+    },
+    {
+      "id": "art-122",
+      "tipo": "articulo",
+      "titulo": "Artículo 22.  Formalización del acceso.",
+      "capitulo": "",
+      "rango_lineas": [
+        3323,
+        3338
+      ]
+    },
+    {
+      "id": "art-123",
+      "tipo": "articulo",
+      "titulo": "Artículo 23.  Recursos.",
+      "capitulo": "",
+      "rango_lineas": [
+        3339,
+        3346
+      ]
+    },
+    {
+      "id": "art-124",
+      "tipo": "articulo",
+      "titulo": "Artículo 24.  Reclamación ante el Consejo de Transparencia y Buen Gobierno.",
+      "capitulo": "",
+      "rango_lineas": [
+        3347,
+        3374
+      ]
+    },
+    {
+      "id": "art-125",
+      "tipo": "articulo",
+      "titulo": "Artículo 25.  Ámbito de aplicación.",
+      "capitulo": "",
+      "rango_lineas": [
+        3375,
+        3387
+      ]
+    },
+    {
+      "id": "art-126",
+      "tipo": "articulo",
+      "titulo": "Artículo 26.  Principios de buen gobierno.",
+      "capitulo": "",
+      "rango_lineas": [
+        3388,
+        3433
+      ]
+    },
+    {
+      "id": "art-127",
+      "tipo": "articulo",
+      "titulo": "Artículo 27.  Infracciones y sanciones en materia de conflicto de intereses.",
+      "capitulo": "",
+      "rango_lineas": [
+        3434,
+        3439
+      ]
+    },
+    {
+      "id": "art-128",
+      "tipo": "articulo",
+      "titulo": "Artículo 28.  Infracciones en materia de gestión económico-presupuestaria.",
+      "capitulo": "",
+      "rango_lineas": [
+        3440,
+        3501
+      ]
+    },
+    {
+      "id": "art-129",
+      "tipo": "articulo",
+      "titulo": "Artículo 29.  Infracciones disciplinarias.",
+      "capitulo": "",
+      "rango_lineas": [
+        3502,
+        3550
+      ]
+    },
+    {
+      "id": "art-130",
+      "tipo": "articulo",
+      "titulo": "Artículo 30.  Sanciones.",
+      "capitulo": "",
+      "rango_lineas": [
+        3551,
+        3596
+      ]
+    },
+    {
+      "id": "art-131",
+      "tipo": "articulo",
+      "titulo": "Artículo 31.  Órgano competente y procedimiento.",
+      "capitulo": "",
+      "rango_lineas": [
+        3597,
+        3633
+      ]
+    },
+    {
+      "id": "art-132",
+      "tipo": "articulo",
+      "titulo": "Artículo 32.  Prescripción.",
+      "capitulo": "",
+      "rango_lineas": [
+        3634,
+        3645
+      ]
+    },
+    {
+      "id": "art-133",
+      "tipo": "articulo",
+      "titulo": "Artículo 33.  Consejo de Transparencia y Buen Gobierno.",
+      "capitulo": "",
+      "rango_lineas": [
+        3646,
+        3653
+      ]
+    },
+    {
+      "id": "art-134",
+      "tipo": "articulo",
+      "titulo": "Artículo 34.  Fines.",
+      "capitulo": "",
+      "rango_lineas": [
+        3654,
+        3658
+      ]
+    },
+    {
+      "id": "art-135",
+      "tipo": "articulo",
+      "titulo": "Artículo 35.  Composición.",
+      "capitulo": "",
+      "rango_lineas": [
+        3659,
+        3664
+      ]
+    },
+    {
+      "id": "art-136",
+      "tipo": "articulo",
+      "titulo": "Artículo 36.  Comisión de Transparencia y Buen Gobierno.",
+      "capitulo": "",
+      "rango_lineas": [
+        3665,
+        3684
+      ]
+    },
+    {
+      "id": "art-137",
+      "tipo": "articulo",
+      "titulo": "Artículo 37.  Presidente del Consejo de Transparencia y Buen Gobierno.",
+      "capitulo": "",
+      "rango_lineas": [
+        3685,
+        3703
+      ]
+    },
+    {
+      "id": "art-138",
+      "tipo": "articulo",
+      "titulo": "Artículo 38.  Funciones.",
+      "capitulo": "",
+      "rango_lineas": [
+        3704,
+        3736
+      ]
+    },
+    {
+      "id": "art-139",
+      "tipo": "articulo",
+      "titulo": "Artículo 39.  Régimen jurídico.",
+      "capitulo": "",
+      "rango_lineas": [
+        3737,
+        3773
+      ]
+    },
+    {
+      "id": "art-140",
+      "tipo": "articulo",
+      "titulo": "Artículo 40.  Relaciones con las Cortes Generales.",
+      "capitulo": "",
+      "rango_lineas": [
+        3774,
+        4150
+      ]
+    }
+  ]
+}
