@@ -1,0 +1,2 @@
+# Dependencias Python del sistema TAI Oposición
+streamlit>=1.30
