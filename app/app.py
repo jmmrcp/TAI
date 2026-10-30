@@ -21,18 +21,12 @@ from pathlib import Path
 
 import streamlit as st
 
-<<<<<<< HEAD
 # ============================================================
 # CONFIGURACIÓN
 # ============================================================
-=======
-ROOT = Path(__file__).resolve().parent.parent
-DB_PATH = ROOT / "oposicion.db"
-TEMARIO_DIR = ROOT / "temario"
->>>>>>> 3de9b13 (Hacer ROOT portable en app Streamlit)
-
 ROOT = Path(__file__).resolve().parent.parent
 DB_PATH = Path(os.environ.get("OPOSICION_DB", ROOT / "oposicion.db"))
+TEMARIO_DIR = ROOT / "temario"
 
 # Constantes SM-2 (duplicadas de srs.py)
 INTERVALOS_HUMANOS = [1, 2, 3, 5, 7, 10, 14, 21, 30, 45, 60, 90, 120, 180, 270, 365]
