@@ -1,11 +1,9 @@
 # ============================================================
 # SQLite (binario, regenerable)
 # ============================================================
-oposicion.db
 oposicion.db-wal
 oposicion.db-shm
 oposicion.db-journal
-*.db
 *.db-wal
 *.db-shm
 
