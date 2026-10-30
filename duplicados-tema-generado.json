@@ -1,0 +1,356 @@
+[
+  {
+    "clave": [
+      "c-02a0c21b66b6",
+      "18 años"
+    ],
+    "grupo": [
+      {
+        "id": "p-00015",
+        "enunciado": "¿A qué edad se alcanza la mayoría de edad según el art. 12?",
+        "respuesta": "18 años"
+      },
+      {
+        "id": "p-00088",
+        "enunciado": "La mayoría de edad se alcanza a los:",
+        "respuesta": "18 años"
+      }
+    ]
+  },
+  {
+    "clave": [
+      "c-0574eee75104",
+      "derecho a la vida y a la integridad física y moral"
+    ],
+    "grupo": [
+      {
+        "id": "p-00016",
+        "enunciado": "¿Qué derecho reconoce el art. 15?",
+        "respuesta": "Derecho a la vida y a la integridad física y moral"
+      },
+      {
+        "id": "p-00089",
+        "enunciado": "El art. 15 reconoce:",
+        "respuesta": "Derecho a la vida y a la integridad física y moral"
+      }
+    ]
+  },
+  {
+    "clave": [
+      "c-1e9b94ba76d5",
+      "libertad ideológica, religiosa y de culto"
+    ],
+    "grupo": [
+      {
+        "id": "p-00017",
+        "enunciado": "¿Qué garantiza el art. 16.1?",
+        "respuesta": "Libertad ideológica, religiosa y de culto"
+      },
+      {
+        "id": "p-00090",
+        "enunciado": "El art. 16.1 garantiza:",
+        "respuesta": "Libertad ideológica, religiosa y de culto"
+      }
+    ]
+  },
+  {
+    "clave": [
+      "c-2020ca22c1b0",
+      "derecho al trabajo y deber de trabajar"
+    ],
+    "grupo": [
+      {
+        "id": "p-00037",
+        "enunciado": "¿Qué establece el art. 35?",
+        "respuesta": "Derecho al trabajo y deber de trabajar"
+      },
+      {
+        "id": "p-00095",
+        "enunciado": "El art. 35 establece:",
+        "respuesta": "Derecho al trabajo y deber de trabajar"
+      }
+    ]
+  },
+  {
+    "clave": [
+      "c-29e788da39fe",
+      "las cortes generales"
+    ],
+    "grupo": [
+      {
+        "id": "p-00107",
+        "enunciado": "El Defensor del Pueblo es designado por:",
+        "respuesta": "Las Cortes Generales"
+      },
+      {
+        "id": "p-00108",
+        "enunciado": "El Tribunal de Cuentas depende de:",
+        "respuesta": "Las Cortes Generales"
+      }
+    ]
+  },
+  {
+    "clave": [
+      "c-4b10b9bec62d",
+      "derecho a la educación"
+    ],
+    "grupo": [
+      {
+        "id": "p-00031",
+        "enunciado": "¿Qué reconoce el art. 27?",
+        "respuesta": "Derecho a la educación"
+      },
+      {
+        "id": "p-00094",
+        "enunciado": "El art. 27 reconoce:",
+        "respuesta": "Derecho a la educación"
+      }
+    ]
+  },
+  {
+    "clave": [
+      "c-520f3b987a14",
+      "verdadero"
+    ],
+    "grupo": [
+      {
+        "id": "p-00134",
+        "enunciado": "El Gobierno cesa tras la celebracion de elecciones generales:",
+        "respuesta": "Verdadero"
+      },
+      {
+        "id": "p-00135",
+        "enunciado": "Los miembros del Gobierno son responsables penalmente por los delitos cometidos en el ejercicio de sus cargos:",
+        "respuesta": "Verdadero"
+      }
+    ]
+  },
+  {
+    "clave": [
+      "c-6859eff57f18",
+      "el rey a propuesta del presidente"
+    ],
+    "grupo": [
+      {
+        "id": "p-00067",
+        "enunciado": "¿Quién nombra y cesa a los Ministros?",
+        "respuesta": "El Rey a propuesta del Presidente"
+      },
+      {
+        "id": "p-00115",
+        "enunciado": "Los ministros son nombrados y cesados por:",
+        "respuesta": "El Rey a propuesta del Presidente"
+      }
+    ]
+  },
+  {
+    "clave": [
+      "c-69f43cfda04d",
+      "tutela judicial efectiva"
+    ],
+    "grupo": [
+      {
+        "id": "p-00028",
+        "enunciado": "¿Qué garantiza el art. 24?",
+        "respuesta": "Tutela judicial efectiva"
+      },
+      {
+        "id": "p-00093",
+        "enunciado": "El art. 24 garantiza:",
+        "respuesta": "Tutela judicial efectiva"
+      }
+    ]
+  },
+  {
+    "clave": [
+      "c-80cb87821290",
+      "madrid"
+    ],
+    "grupo": [
+      {
+        "id": "p-00009",
+        "enunciado": "¿Cuál es la capital del Estado?",
+        "respuesta": "Madrid"
+      },
+      {
+        "id": "p-00083",
+        "enunciado": "La capital del Estado es:",
+        "respuesta": "Madrid"
+      }
+    ]
+  },
+  {
+    "clave": [
+      "c-903f4acb8b06",
+      "verdadero"
+    ],
+    "grupo": [
+      {
+        "id": "p-00130",
+        "enunciado": "El Tribunal Constitucional es el interprete supremo de la Constitucion:",
+        "respuesta": "Verdadero"
+      },
+      {
+        "id": "p-00151",
+        "enunciado": "El TC conoce de los recursos de amparo:",
+        "respuesta": "Verdadero"
+      }
+    ]
+  },
+  {
+    "clave": [
+      "c-918571c284a8",
+      "el castellano"
+    ],
+    "grupo": [
+      {
+        "id": "p-00006",
+        "enunciado": "¿Cuál es la lengua oficial del Estado según el art. 3?",
+        "respuesta": "El castellano"
+      },
+      {
+        "id": "p-00081",
+        "enunciado": "La lengua oficial del Estado es:",
+        "respuesta": "El castellano"
+      }
+    ]
+  },
+  {
+    "clave": [
+      "c-a84a3b74c822",
+      "roja, amarilla y roja con el escudo"
+    ],
+    "grupo": [
+      {
+        "id": "p-00008",
+        "enunciado": "¿Cómo es la bandera de España según el art. 4?",
+        "respuesta": "Roja, amarilla y roja con el escudo"
+      },
+      {
+        "id": "p-00082",
+        "enunciado": "La bandera de España es:",
+        "respuesta": "Roja, amarilla y roja con el escudo"
+      }
+    ]
+  },
+  {
+    "clave": [
+      "c-bbbe196c1082",
+      "principio de legalidad y seguridad jurídica"
+    ],
+    "grupo": [
+      {
+        "id": "p-00012",
+        "enunciado": "¿Qué principio proclama el art. 9.3?",
+        "respuesta": "Principio de legalidad y seguridad jurídica"
+      },
+      {
+        "id": "p-00085",
+        "enunciado": "El art. 9.3 garantiza:",
+        "respuesta": "Principio de legalidad y seguridad jurídica"
+      }
+    ]
+  },
+  {
+    "clave": [
+      "c-d09c5c023e95",
+      "verdadero"
+    ],
+    "grupo": [
+      {
+        "id": "p-00127",
+        "enunciado": "El Senado es la camara de representacion territorial:",
+        "respuesta": "Verdadero"
+      },
+      {
+        "id": "p-00129",
+        "enunciado": "El Estado garantiza la solidaridad entre Comunidades Autonomas:",
+        "respuesta": "Verdadero"
+      },
+      {
+        "id": "p-00144",
+        "enunciado": "Los Estatutos de Autonomia son la norma institucional basica de cada Comunidad:",
+        "respuesta": "Verdadero"
+      },
+      {
+        "id": "p-00146",
+        "enunciado": "El Estado puede crear comunidades autonomas de ambito no provincial:",
+        "respuesta": "Verdadero"
+      },
+      {
+        "id": "p-00148",
+        "enunciado": "El Estado garantiza la realizacion efectiva del principio de solidaridad:",
+        "respuesta": "Verdadero"
+      },
+      {
+        "id": "p-00152",
+        "enunciado": "La reforma constitucional agravada requiere disolucion y referendum:",
+        "respuesta": "Verdadero"
+      },
+      {
+        "id": "p-00154",
+        "enunciado": "Las Comunidades Autonomas pueden celebrar convenios con el Estado:",
+        "respuesta": "Verdadero"
+      },
+      {
+        "id": "p-00155",
+        "enunciado": "El Senado puede adoptar medidas para armonizar las disposiciones de las Comunidades Autonomas:",
+        "respuesta": "Verdadero"
+      }
+    ]
+  },
+  {
+    "clave": [
+      "c-d71b5b434553",
+      "la dignidad de la persona y los derechos inviolables inherentes"
+    ],
+    "grupo": [
+      {
+        "id": "p-00013",
+        "enunciado": "¿Qué reconoce el art. 10.1?",
+        "respuesta": "La dignidad de la persona y los derechos inviolables inherentes"
+      },
+      {
+        "id": "p-00086",
+        "enunciado": "El art. 10.1 proclama:",
+        "respuesta": "La dignidad de la persona y los derechos inviolables inherentes"
+      }
+    ]
+  },
+  {
+    "clave": [
+      "c-e221a775610b",
+      "el rey"
+    ],
+    "grupo": [
+      {
+        "id": "p-00065",
+        "enunciado": "¿Quién nombra al Presidente del Gobierno?",
+        "respuesta": "El Rey"
+      },
+      {
+        "id": "p-00113",
+        "enunciado": "El Presidente del Gobierno es nombrado por:",
+        "respuesta": "El Rey"
+      }
+    ]
+  },
+  {
+    "clave": [
+      "c-f7661ffe9dec",
+      "verdadero"
+    ],
+    "grupo": [
+      {
+        "id": "p-00139",
+        "enunciado": "La riqueza del pais en sus diversas formas esta subordinada al interes general:",
+        "respuesta": "Verdadero"
+      },
+      {
+        "id": "p-00140",
+        "enunciado": "El servicio publico esencial puede ser prestado directamente por el Estado:",
+        "respuesta": "Verdadero"
+      }
+    ]
+  }
+]
