@@ -335,6 +335,45 @@ def seleccionar_para_bloque(
 # GENERACIÓN
 # ============================================================
 
+def generar_test_examen(conn, examen_id: str, n: int = 80) -> tuple[list[dict], dict]:
+    """Genera un test a partir de las preguntas teóricas de un examen oficial."""
+    cur = conn.execute("""
+        SELECT ep.numero, ep.respuesta_oficial, p.id, p.enunciado, p.opciones,
+               p.correcta, p.explicacion, p.referencia, p.dificultad,
+               p.concepto_id, p.tema_id
+        FROM examen_preguntas ep
+        JOIN preguntas p ON p.id = ep.pregunta_id
+        WHERE ep.examen_id = ? AND ep.seccion = 'teorica'
+        ORDER BY ep.numero
+    """, (examen_id,))
+
+    mapa = {'a': 0, 'b': 1, 'c': 2, 'd': 3}
+    preguntas = []
+    for row in cur.fetchall():
+        opciones = json.loads(row["opciones"]) if row["opciones"] else []
+        correcta = row["correcta"]
+        if (correcta is None or correcta == 0) and row["respuesta_oficial"]:
+            correcta = mapa.get(str(row["respuesta_oficial"]).strip().lower(), correcta)
+        preguntas.append({
+            "id": row["id"],
+            "enunciado": row["enunciado"],
+            "opciones": opciones,
+            "correcta": correcta,
+            "explicacion": row["explicacion"],
+            "referencia": row["referencia"],
+            "dificultad": row["dificultad"] or "media",
+            "concepto_id": row["concepto_id"],
+            "tema_id": row["tema_id"],
+        })
+
+    if n and len(preguntas) > n:
+        preguntas = preguntas[:n]
+
+    random.shuffle(preguntas)
+    cuotas = {examen_id: len(preguntas)}
+    return preguntas, cuotas
+
+
 def generar_test_general(conn, n: int = 80) -> tuple[list[dict], dict]:
     """Genera las 80 preguntas del test general con cuotas por bloque."""
     preguntas = []
@@ -449,7 +488,12 @@ def cmd_generar(args) -> int:
         tipo_real = args.tipo
 
         if args.tipo in ("global", "solo-test"):
-            preguntas, cuotas = generar_test_general(conn, args.n or 80)
+            if args.scope and str(args.scope).startswith("examen-"):
+                preguntas, cuotas = generar_test_examen(
+                    conn, args.scope, args.n or 80
+                )
+            else:
+                preguntas, cuotas = generar_test_general(conn, args.n or 80)
 
         elif args.tipo == "bloque":
             if not args.scope:
