@@ -1,0 +1,406 @@
+{
+  "tema": "tema-03-el-gobierno",
+  "n_entradas": 40,
+  "entradas": [
+    {
+      "id": "art-1",
+      "tipo": "articulo",
+      "titulo": "Artículo 1.  Del Gobierno.",
+      "capitulo": "TÍTULO I / CAPÍTULO I",
+      "rango_lineas": [
+        128,
+        135
+      ]
+    },
+    {
+      "id": "art-2",
+      "tipo": "articulo",
+      "titulo": "Artículo 2.  Del Presidente del Gobierno.",
+      "capitulo": "TÍTULO I / CAPÍTULO I",
+      "rango_lineas": [
+        136,
+        166
+      ]
+    },
+    {
+      "id": "art-3",
+      "tipo": "articulo",
+      "titulo": "Artículo 3.  Del Vicepresidente o Vicepresidentes del Gobierno.",
+      "capitulo": "TÍTULO I / CAPÍTULO I",
+      "rango_lineas": [
+        167,
+        171
+      ]
+    },
+    {
+      "id": "art-4",
+      "tipo": "articulo",
+      "titulo": "Artículo 4.  De los Ministros.",
+      "capitulo": "TÍTULO I / CAPÍTULO I",
+      "rango_lineas": [
+        172,
+        187
+      ]
+    },
+    {
+      "id": "art-5",
+      "tipo": "articulo",
+      "titulo": "Artículo 5.  Del Consejo de Ministros.",
+      "capitulo": "TÍTULO I / CAPÍTULO I",
+      "rango_lineas": [
+        188,
+        213
+      ]
+    },
+    {
+      "id": "art-6",
+      "tipo": "articulo",
+      "titulo": "Artículo 6.  De las Comisiones Delegadas del Gobierno.",
+      "capitulo": "TÍTULO I / CAPÍTULO I",
+      "rango_lineas": [
+        214,
+        239
+      ]
+    },
+    {
+      "id": "art-7",
+      "tipo": "articulo",
+      "titulo": "Artículo 7.  De los Secretarios de Estado.",
+      "capitulo": "TÍTULO I / CAPÍTULO II",
+      "rango_lineas": [
+        240,
+        247
+      ]
+    },
+    {
+      "id": "art-8",
+      "tipo": "articulo",
+      "titulo": "Artículo 8.  De la Comisión General de Secretarios de Estado y Subsecretarios.",
+      "capitulo": "TÍTULO I / CAPÍTULO II",
+      "rango_lineas": [
+        248,
+        282
+      ]
+    },
+    {
+      "id": "art-9",
+      "tipo": "articulo",
+      "titulo": "Artículo 9.  Del Secretariado del Gobierno.",
+      "capitulo": "TÍTULO I / CAPÍTULO II",
+      "rango_lineas": [
+        283,
+        317
+      ]
+    },
+    {
+      "id": "art-10",
+      "tipo": "articulo",
+      "titulo": "Artículo 10.  De los Gabinetes.",
+      "capitulo": "TÍTULO I / CAPÍTULO II",
+      "rango_lineas": [
+        318,
+        344
+      ]
+    },
+    {
+      "id": "art-11",
+      "tipo": "articulo",
+      "titulo": "Artículo 11.  De los requisitos de acceso al cargo.",
+      "capitulo": "TÍTULO II / CAPÍTULO I",
+      "rango_lineas": [
+        345,
+        350
+      ]
+    },
+    {
+      "id": "art-12",
+      "tipo": "articulo",
+      "titulo": "Artículo 12.  Del nombramiento y cese.",
+      "capitulo": "TÍTULO II / CAPÍTULO I",
+      "rango_lineas": [
+        351,
+        369
+      ]
+    },
+    {
+      "id": "art-13",
+      "tipo": "articulo",
+      "titulo": "Artículo 13.  De la suplencia.",
+      "capitulo": "TÍTULO II / CAPÍTULO I",
+      "rango_lineas": [
+        370,
+        382
+      ]
+    },
+    {
+      "id": "art-14",
+      "tipo": "articulo",
+      "titulo": "Artículo 14.  Del régimen de incompatibilidades de los miembros del Gobierno.",
+      "capitulo": "TÍTULO II / CAPÍTULO I",
+      "rango_lineas": [
+        383,
+        390
+      ]
+    },
+    {
+      "id": "art-15",
+      "tipo": "articulo",
+      "titulo": "Artículo 15.  Del nombramiento, cese, suplencia e incompatibilidades de los Secretarios de",
+      "capitulo": "TÍTULO II / CAPÍTULO II",
+      "rango_lineas": [
+        391,
+        405
+      ]
+    },
+    {
+      "id": "art-16",
+      "tipo": "articulo",
+      "titulo": "Artículo 16.  Del nombramiento y cese de los Directores de los Gabinetes.",
+      "capitulo": "TÍTULO II / CAPÍTULO III",
+      "rango_lineas": [
+        406,
+        423
+      ]
+    },
+    {
+      "id": "art-17",
+      "tipo": "articulo",
+      "titulo": "Artículo 17.  De las normas aplicables al funcionamiento del Gobierno.",
+      "capitulo": "TÍTULO III / CAPÍTULO III",
+      "rango_lineas": [
+        424,
+        429
+      ]
+    },
+    {
+      "id": "art-18",
+      "tipo": "articulo",
+      "titulo": "Artículo 18.  Del funcionamiento del Consejo de Ministros.",
+      "capitulo": "TÍTULO III / CAPÍTULO III",
+      "rango_lineas": [
+        430,
+        438
+      ]
+    },
+    {
+      "id": "art-19",
+      "tipo": "articulo",
+      "titulo": "Artículo 19.  De las actas de las Comisiones Delegadas del Gobierno y de la Comisión",
+      "capitulo": "TÍTULO III / CAPÍTULO III",
+      "rango_lineas": [
+        439,
+        443
+      ]
+    },
+    {
+      "id": "art-20",
+      "tipo": "articulo",
+      "titulo": "Artículo 20.  Delegación y avocación de competencias.",
+      "capitulo": "TÍTULO III / CAPÍTULO III",
+      "rango_lineas": [
+        444,
+        468
+      ]
+    },
+    {
+      "id": "art-21",
+      "tipo": "articulo",
+      "titulo": "Artículo 21.  Del Gobierno en funciones.",
+      "capitulo": "TÍTULO IV / CAPÍTULO III",
+      "rango_lineas": [
+        469,
+        491
+      ]
+    },
+    {
+      "id": "art-22",
+      "tipo": "articulo",
+      "titulo": "Artículo 22.  Del ejercicio de la iniciativa legislativa y la potestad reglamentaria del Gobierno.",
+      "capitulo": "TÍTULO V / CAPÍTULO III",
+      "rango_lineas": [
+        492,
+        496
+      ]
+    },
+    {
+      "id": "art-23",
+      "tipo": "articulo",
+      "titulo": "Artículo 23.  Disposiciones de entrada en vigor.",
+      "capitulo": "TÍTULO V / CAPÍTULO III",
+      "rango_lineas": [
+        497,
+        507
+      ]
+    },
+    {
+      "id": "art-24",
+      "tipo": "articulo",
+      "titulo": "Artículo 24.  De la forma y jerarquía de las disposiciones y resoluciones del Gobierno de la",
+      "capitulo": "TÍTULO V / CAPÍTULO III",
+      "rango_lineas": [
+        508,
+        531
+      ]
+    },
+    {
+      "id": "art-25",
+      "tipo": "articulo",
+      "titulo": "Artículo 25.  Plan Anual Normativo.",
+      "capitulo": "TÍTULO V / CAPÍTULO III",
+      "rango_lineas": [
+        532,
+        550
+      ]
+    },
+    {
+      "id": "art-26",
+      "tipo": "articulo",
+      "titulo": "Artículo 26.  Procedimiento de elaboración de normas con rango de Ley y reglamentos.",
+      "capitulo": "TÍTULO V / CAPÍTULO III",
+      "rango_lineas": [
+        551,
+        698
+      ]
+    },
+    {
+      "id": "art-27",
+      "tipo": "articulo",
+      "titulo": "Artículo 27.  Tramitación urgente de iniciativas normativas en el ámbito de la Administración",
+      "capitulo": "TÍTULO V / CAPÍTULO III",
+      "rango_lineas": [
+        699,
+        725
+      ]
+    },
+    {
+      "id": "art-28",
+      "tipo": "articulo",
+      "titulo": "Artículo 28.  Informe anual de evaluación.",
+      "capitulo": "TÍTULO V / CAPÍTULO III",
+      "rango_lineas": [
+        726,
+        746
+      ]
+    },
+    {
+      "id": "art-29",
+      "tipo": "articulo",
+      "titulo": "Artículo 29.  Del control de los actos del Gobierno.",
+      "capitulo": "TÍTULO VI / CAPÍTULO III",
+      "rango_lineas": [
+        747,
+        757
+      ]
+    },
+    {
+      "id": "art-97",
+      "tipo": "articulo",
+      "titulo": "Artículo 97.",
+      "capitulo": "TÍTULO VI / CAPÍTULO III",
+      "rango_lineas": [
+        813,
+        817
+      ]
+    },
+    {
+      "id": "art-98",
+      "tipo": "articulo",
+      "titulo": "Artículo 98.",
+      "capitulo": "TÍTULO VI / CAPÍTULO III",
+      "rango_lineas": [
+        818,
+        828
+      ]
+    },
+    {
+      "id": "art-99",
+      "tipo": "articulo",
+      "titulo": "Artículo 99.",
+      "capitulo": "TÍTULO VI / CAPÍTULO III",
+      "rango_lineas": [
+        829,
+        848
+      ]
+    },
+    {
+      "id": "art-100",
+      "tipo": "articulo",
+      "titulo": "Artículo 100.",
+      "capitulo": "TÍTULO VI / CAPÍTULO III",
+      "rango_lineas": [
+        849,
+        852
+      ]
+    },
+    {
+      "id": "art-101",
+      "tipo": "articulo",
+      "titulo": "Artículo 101.",
+      "capitulo": "TÍTULO VI / CAPÍTULO III",
+      "rango_lineas": [
+        853,
+        859
+      ]
+    },
+    {
+      "id": "art-102",
+      "tipo": "articulo",
+      "titulo": "Artículo 102.",
+      "capitulo": "TÍTULO VI / CAPÍTULO III",
+      "rango_lineas": [
+        860,
+        868
+      ]
+    },
+    {
+      "id": "art-103",
+      "tipo": "articulo",
+      "titulo": "Artículo 103.",
+      "capitulo": "TÍTULO VI / CAPÍTULO III",
+      "rango_lineas": [
+        869,
+        879
+      ]
+    },
+    {
+      "id": "art-104",
+      "tipo": "articulo",
+      "titulo": "Artículo 104.",
+      "capitulo": "TÍTULO VI / CAPÍTULO III",
+      "rango_lineas": [
+        880,
+        886
+      ]
+    },
+    {
+      "id": "art-105",
+      "tipo": "articulo",
+      "titulo": "Artículo 105.",
+      "capitulo": "TÍTULO VI / CAPÍTULO III",
+      "rango_lineas": [
+        887,
+        899
+      ]
+    },
+    {
+      "id": "art-106",
+      "tipo": "articulo",
+      "titulo": "Artículo 106.",
+      "capitulo": "TÍTULO VI / CAPÍTULO III",
+      "rango_lineas": [
+        900,
+        907
+      ]
+    },
+    {
+      "id": "art-107",
+      "tipo": "articulo",
+      "titulo": "Artículo 107.",
+      "capitulo": "TÍTULO VI / CAPÍTULO III",
+      "rango_lineas": [
+        908,
+        910
+      ]
+    }
+  ]
+}
