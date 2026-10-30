@@ -1832,6 +1832,275 @@ def importar_cuadro(conn: sqlite3.Connection, archivo: Path,
     return stats
 
 
+# ============================================================
+# IMPORTACIÓN DE SUPUESTOS
+# ============================================================
+
+def importar_supuesto(
+    conn: sqlite3.Connection,
+    supuesto: dict,
+    update: bool = False,
+) -> dict:
+    """
+    Importa un supuesto (JSON de Fase 3) a SQLite.
+    """
+    stats = {
+        "supuesto_id": supuesto.get("id"),
+        "accion": "skip",
+        "preguntas_nuevas": 0,
+        "preguntas_reutilizadas": 0,
+        "preguntas_dup_conceptual": 0,
+        "temas_vinculados": 0,
+        "artefactos": 0,
+        "errores": [],
+    }
+
+    sup_id = supuesto.get("id")
+    if not sup_id:
+        stats["errores"].append("Falta el campo 'id' del supuesto")
+        return stats
+
+    bloque_id = supuesto.get("bloque_id")
+    if bloque_id:
+        cur = conn.execute(
+            "SELECT id, tiene_supuestos FROM bloques WHERE id = ?",
+            (bloque_id,)
+        )
+        row = cur.fetchone()
+        if not row:
+            stats["errores"].append(f"Bloque no existe: {bloque_id}")
+            return stats
+        if not row[1]:
+            stats["errores"].append(
+                f"El bloque {bloque_id} no admite supuestos (tiene_supuestos=0)"
+            )
+            return stats
+
+    cur = conn.execute("SELECT id FROM supuestos WHERE id = ?", (sup_id,))
+    existe = cur.fetchone() is not None
+
+    if existe and not update:
+        stats["accion"] = "ya_existe"
+        return stats
+
+    contexto_json_str = json.dumps(
+        supuesto.get("contexto_json", {}), ensure_ascii=False
+    )
+
+    if existe:
+        conn.execute("""
+            UPDATE supuestos SET
+                examen_id = ?, bloque_id = ?, numero = ?, titulo = ?,
+                tipo = ?, origen = ?, contexto_texto = ?, contexto_json = ?,
+                verificado = ?
+            WHERE id = ?
+        """, (
+            supuesto.get("examen_id"),
+            bloque_id,
+            supuesto.get("numero"),
+            supuesto.get("titulo"),
+            supuesto.get("tipo"),
+            supuesto.get("origen", "real"),
+            supuesto.get("contexto_texto"),
+            contexto_json_str,
+            int(supuesto.get("verificado", False)),
+            sup_id,
+        ))
+        stats["accion"] = "actualizado"
+    else:
+        conn.execute("""
+            INSERT INTO supuestos (
+                id, examen_id, bloque_id, numero, titulo, tipo, origen,
+                contexto_texto, contexto_json, verificado
+            ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+        """, (
+            sup_id,
+            supuesto.get("examen_id"),
+            bloque_id,
+            supuesto.get("numero"),
+            supuesto.get("titulo"),
+            supuesto.get("tipo"),
+            supuesto.get("origen", "real"),
+            supuesto.get("contexto_texto"),
+            contexto_json_str,
+            int(supuesto.get("verificado", False)),
+        ))
+        stats["accion"] = "nuevo"
+
+    for p in supuesto.get("preguntas", []):
+        numero = p.get("numero_en_supuesto")
+        if not numero:
+            stats["errores"].append("Pregunta sin numero_en_supuesto")
+            continue
+
+        enunciado = p.get("enunciado", "").strip()
+        opciones = p.get("opciones", [])
+        correcta = p.get("correcta", 0)
+        concepto_id = p.get("concepto_id")
+        tema_id = p.get("tema_id")
+
+        if not enunciado or len(opciones) < 2:
+            stats["errores"].append(
+                f"Pregunta {numero}: enunciado u opciones incompletas"
+            )
+            continue
+
+        pid = p.get("pregunta_id")
+        if pid:
+            cur = conn.execute(
+                "SELECT id FROM preguntas WHERE id = ?", (pid,)
+            )
+            if not cur.fetchone():
+                pid = None
+
+        if not pid:
+            pid_dup, motivo = buscar_pregunta_duplicada(
+                conn, enunciado, opciones, correcta, concepto_id, p.get("tipo")
+            )
+            if pid_dup:
+                pid = pid_dup
+                if motivo == "exacta":
+                    stats["preguntas_reutilizadas"] += 1
+                else:
+                    stats["preguntas_dup_conceptual"] += 1
+
+        if not pid:
+            h_exacto = sha256_exacto(enunciado, *opciones, str(correcta))
+            h_norm = normalizar_texto(enunciado)
+            pid = f"p-{hashlib.sha1(h_exacto.encode()).hexdigest()[:10]}"
+
+            conn.execute("""
+                INSERT INTO preguntas (
+                    id, tema_id, concepto_id, tipo, dificultad, origen,
+                    enunciado, opciones, correcta, explicacion, referencia,
+                    verificado, hash_exacto, hash_normalizado, fecha_alta
+                ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+            """, (
+                pid,
+                tema_id,
+                concepto_id,
+                p.get("tipo", "definicion"),
+                p.get("dificultad", "media"),
+                f"supuesto:{sup_id}",
+                enunciado,
+                json.dumps(opciones, ensure_ascii=False),
+                correcta,
+                p.get("explicacion"),
+                p.get("referencia"),
+                int(p.get("verificado", False)),
+                h_exacto,
+                h_norm,
+                date.today().isoformat(),
+            ))
+            stats["preguntas_nuevas"] += 1
+
+        conn.execute("""
+            INSERT OR REPLACE INTO supuesto_preguntas (
+                supuesto_id, pregunta_id, numero_en_supuesto, es_reserva
+            ) VALUES (?, ?, ?, ?)
+        """, (
+            sup_id, pid, numero, int(p.get("es_reserva", False)),
+        ))
+
+    for t in supuesto.get("temas_implicados", []):
+        tema_id = t.get("tema_id")
+        if not tema_id:
+            continue
+        cur = conn.execute("SELECT id FROM temas WHERE id = ?", (tema_id,))
+        if not cur.fetchone():
+            stats["errores"].append(f"Tema no existe: {tema_id}")
+            continue
+
+        conn.execute("""
+            INSERT OR REPLACE INTO supuesto_temas (
+                supuesto_id, tema_id, n_preguntas
+            ) VALUES (?, ?, ?)
+        """, (sup_id, tema_id, t.get("n_preguntas", 0)))
+        stats["temas_vinculados"] += 1
+
+    for i, art in enumerate(supuesto.get("artefactos", []), 1):
+        art_id = art.get("id") or f"art-{sup_id}-{i}"
+        conn.execute("""
+            INSERT OR REPLACE INTO supuesto_artefactos (
+                id, supuesto_id, tipo, titulo, contenido, orden
+            ) VALUES (?, ?, ?, ?, ?, ?)
+        """, (
+            art_id,
+            sup_id,
+            art.get("tipo", "texto"),
+            art.get("titulo", ""),
+            art.get("contenido", ""),
+            art.get("orden", i),
+        ))
+        stats["artefactos"] += 1
+
+    return stats
+
+
+def cmd_importar_supuesto(args) -> int:
+    """Comando: importar un JSON de supuesto a SQLite."""
+    root = Path(args.root).expanduser().resolve()
+    conn = conectar(root / "oposicion.db")
+
+    try:
+        archivo = Path(args.archivo).expanduser().resolve()
+        if not archivo.exists():
+            print(f"[error] No existe el archivo: {archivo}")
+            return 1
+
+        with archivo.open(encoding="utf-8") as f:
+            supuesto = json.load(f)
+
+        print(f"[importar-supuesto] {archivo.name}")
+        print(f"[importar-supuesto] ID: {supuesto.get('id')}")
+        print(f"[importar-supuesto] Modo: {'UPDATE' if args.update else 'SKIP duplicados'}")
+        print()
+
+        stats = importar_supuesto(conn, supuesto, update=args.update)
+
+        if stats["errores"]:
+            print("⚠️  Errores detectados:")
+            for err in stats["errores"]:
+                print(f"   - {err}")
+            print()
+
+        if stats["accion"] == "ya_existe":
+            print(f"ℹ️  El supuesto ya existe. Usa --update para sobreescribir.")
+            return 0
+
+        if args.dry_run:
+            conn.rollback()
+            print("[importar-supuesto] DRY-RUN: cambios revertidos")
+        else:
+            conn.commit()
+            print("[importar-supuesto] ✅ Cambios confirmados")
+
+        print()
+        print("=" * 60)
+        print(f"  Acción:                {stats['accion']}")
+        print(f"  Preguntas nuevas:      {stats['preguntas_nuevas']}")
+        print(f"  Preguntas reutilizadas:{stats['preguntas_reutilizadas']}")
+        print(f"  Dup conceptual:        {stats['preguntas_dup_conceptual']}")
+        print(f"  Temas vinculados:      {stats['temas_vinculados']}")
+        print(f"  Artefactos:            {stats['artefactos']}")
+        print("=" * 60)
+
+        if not args.dry_run and not stats["errores"]:
+            print()
+            print("💡 Siguiente paso: reconciliar el SRS")
+            print(f"   make reconciliar")
+
+        return 0 if not stats["errores"] else 1
+
+    except Exception as e:
+        conn.rollback()
+        print(f"[error] {e}")
+        import traceback
+        traceback.print_exc()
+        return 1
+    finally:
+        conn.close()
+
 def cmd_importar(args) -> int:
     """Comando: importar un JSON a SQLite."""
     root = Path(args.root).expanduser().resolve()
@@ -2037,6 +2306,16 @@ def main() -> int:
     p_imp.add_argument("--from-export",
                        help="Restaurar todo desde una carpeta export/")
     p_imp.set_defaults(func=cmd_importar)
+
+    # importar-supuesto
+    p_imp_sup = sub.add_parser("importar-supuesto",
+                               help="Importar un JSON de supuesto práctico a SQLite")
+    p_imp_sup.add_argument("--root", default="~/oposicion")
+    p_imp_sup.add_argument("--archivo", required=True, help="Ruta al JSON del supuesto")
+    p_imp_sup.add_argument("--update", action="store_true",
+                           help="Actualizar existente en lugar de saltar")
+    p_imp_sup.add_argument("--dry-run", action="store_true")
+    p_imp_sup.set_defaults(func=cmd_importar_supuesto)
 
     args = parser.parse_args()
     return args.func(args)
