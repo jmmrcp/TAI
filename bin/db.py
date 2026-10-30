@@ -23,56 +23,61 @@ from pathlib import Path
 TEMAS_TAI = {
     "bloque-i": [
         (1,  "La Constitución Española de 1978"),
-        (2,  "La Corona"),
-        (3,  "Las Cortes Generales"),
-        (4,  "El Gobierno y la Administración"),
-        (5,  "El Poder Judicial"),
-        (6,  "El Tribunal Constitucional"),
-        (7,  "La organización territorial del Estado"),
-        (8,  "La Unión Europea"),
+        (2,  "La Corona. Las Cortes Generales"),
+        (3,  "El Gobierno y la Administración. El Poder Judicial"),
+        (4,  "La organización territorial del Estado. La Unión Europea"),
+        (5,  "El Estatuto Básico del Empleado Público"),
+        (6,  "La Ley 39/2015 del Procedimiento Administrativo Común"),
+        (7,  "La Ley 40/2015 de Régimen Jurídico del Sector Público"),
+        (8,  "La Ley 19/2013 de Transparencia y Buen Gobierno"),
+        (9,  "Protección de datos. Igualdad. Discapacidad. Violencia de género"),
     ],
     "bloque-ii": [
-        (9,  "El Estatuto Básico del Empleado Público"),
-        (10, "La Ley 39/2015 del Procedimiento Administrativo Común"),
-        (11, "La Ley 40/2015 de Régimen Jurídico del Sector Público"),
-        (12, "La Ley 19/2013 de Transparencia y Buen Gobierno"),
-        (13, "Contratos del Sector Público"),
-        (14, "Presupuestos Generales del Estado"),
+        (10, "Hardware y software. Sistemas operativos"),
+        (11, "Redes de área local. Internet"),
+        (12, "Seguridad informática"),
+        (13, "Ofimática. Herramientas de productividad"),
+        (14, "Administración electrónica. Servicios digitales"),
     ],
     "bloque-iii": [
-        (15, "Modelado de datos, metodologías y reglas"),
-        (16, "Bases de datos relacionales: SQL"),
-        (17, "Bases de datos NoSQL y Big Data"),
-        (18, "Metodologías de desarrollo"),
-        (19, "Lenguajes de programación"),
-        (20, "Arquitectura de aplicaciones"),
-        (21, "Servicios web y APIs"),
-        (22, "Pruebas de software"),
-        (23, "Accesibilidad y usabilidad"),
-        (24, "Seguridad en aplicaciones"),
+        (15, "Modelado de datos. Diseño de bases de datos"),
+        (16, "Bases de datos relacionales. SQL"),
+        (17, "Bases de datos NoSQL. Big Data"),
+        (18, "Metodologías de desarrollo. Ciclo de vida del software"),
+        (19, "Lenguajes de programación. Java y .NET"),
+        (20, "Desarrollo web. HTML, CSS, JavaScript"),
+        (21, "Servicios web. APIs REST. Microservicios"),
+        (22, "Pruebas de software. Calidad y accesibilidad"),
+        (23, "Seguridad en aplicaciones. OWASP"),
     ],
     "bloque-iv": [
-        (25, "Redes de comunicaciones"),
-        (26, "Protocolos TCP/IP"),
-        (27, "Seguridad en redes"),
-        (28, "Sistemas operativos"),
-        (29, "Virtualización y contenedores"),
-        (30, "Almacenamiento y backup"),
-        (31, "Centros de procesamiento de datos"),
+        (24, "Redes de comunicaciones. Modelo OSI y TCP/IP"),
+        (25, "Direccionamiento IP. Subnetting"),
+        (26, "Protocolos de aplicación. DNS, DHCP, HTTP"),
+        (27, "Sistemas operativos: Linux"),
+        (28, "Sistemas operativos: Windows Server. Active Directory"),
+        (29, "Virtualización y contenedores. Docker y Kubernetes"),
+        (30, "Almacenamiento. RAID. Backup"),
+        (31, "Centros de procesamiento de datos (CPD)"),
         (32, "Cloud computing"),
-        (33, "Gestión de incidentes y continuidad"),
+        (33, "Seguridad en redes. ENS. CCN-CERT"),
     ],
 }
 
 BLOQUES = [
-    ("bloque-i", 1, "Organización del Estado y Administración electrónica",
-     "Constitución, Corona, Cortes, Gobierno, Poder Judicial, TC, organización territorial, UE", 0),
-    ("bloque-ii", 2, "Administración Pública",
-     "Empleado público, procedimiento administrativo, transparencia, contratos, presupuestos", 0),
-    ("bloque-iii", 3, "Informática básica",
-     "Modelado de datos, bases de datos, desarrollo de software, testing, accesibilidad", 1),
-    ("bloque-iv", 4, "Sistemas y comunicaciones",
-     "Redes, protocolos, seguridad, sistemas operativos, virtualización, cloud, CPD", 1),
+    ("bloque-i", 1, "Organización del Estado y Administración Electrónica",
+     "Constitución, Corona, Cortes, Gobierno, Poder Judicial, TC, organización "
+     "territorial, UE, TREBEP, Ley 39/2015, Ley 40/2015, Transparencia, "
+     "Protección de datos, Igualdad", 0),
+    ("bloque-ii", 2, "Tecnología Básica",
+     "Hardware, software, sistemas operativos, redes locales, seguridad "
+     "informática, ofimática, administración electrónica", 0),
+    ("bloque-iii", 3, "Desarrollo de Sistemas",
+     "Modelado de datos, bases de datos, NoSQL, metodologías, lenguajes, "
+     "desarrollo web, APIs, testing, accesibilidad, seguridad en aplicaciones", 1),
+    ("bloque-iv", 4, "Sistemas y Comunicaciones",
+     "Redes, TCP/IP, subnetting, protocolos, Linux, Windows Server, "
+     "virtualización, almacenamiento, CPD, cloud, seguridad en redes", 1),
 ]
 
 
@@ -2256,6 +2261,90 @@ def importar_desde_export(conn: sqlite3.Connection, export_dir: Path,
     return 0
 
 
+
+def cmd_migrar_estructura(args) -> int:
+    """Comando: migrar estructura de temas preservando completos."""
+    root = Path(args.root).expanduser().resolve()
+    conn = conectar(root / "oposicion.db")
+
+    try:
+        # 1. Backup automático
+        backup_path = root / "backups" / f"pre-migracion-{date.today().isoformat()}.db"
+        backup_path.parent.mkdir(exist_ok=True)
+        conn.execute(f"VACUUM INTO '{backup_path}'")
+        print(f"[migrar-estructura] Backup: {backup_path}")
+
+        # 2. Detectar temas completos (se preservan)
+        cur = conn.execute(
+            "SELECT id FROM temas WHERE estado_ingesta = 'completo'"
+        )
+        completos = {row[0] for row in cur.fetchall()}
+        print(f"[migrar-estructura] Temas completos a preservar: {len(completos)}")
+        for t in completos:
+            print(f"    - {t}")
+
+        # 3. Borrar temas pendientes
+        cur = conn.execute(
+            "SELECT COUNT(*) FROM temas WHERE estado_ingesta = 'pendiente'"
+        )
+        n_pendientes = cur.fetchone()[0]
+        conn.execute("DELETE FROM temas WHERE estado_ingesta = 'pendiente'")
+        print(f"[migrar-estructura] {n_pendientes} temas pendientes borrados")
+
+        # 4. Borrar temas que no están en la nueva estructura
+        nuevos_ids = set()
+        for bloque_id, temas in TEMAS_TAI.items():
+            for numero, titulo in temas:
+                tema_id = f"tema-{numero:02d}-{slugify(titulo)}"
+                nuevos_ids.add(tema_id)
+
+        cur = conn.execute("SELECT id FROM temas")
+        existentes = {row[0] for row in cur.fetchall()}
+        sobrantes = existentes - nuevos_ids - completos
+        for t in sobrantes:
+            conn.execute("DELETE FROM temas WHERE id = ?", (t,))
+        print(f"[migrar-estructura] {len(sobrantes)} temas sobrantes borrados")
+
+        # 5. Reinsertar los temas que faltan
+        insertados = 0
+        for bloque_id, temas in TEMAS_TAI.items():
+            tipo = "tecnico" if bloque_id in ("bloque-iii", "bloque-iv") else "juridico"
+            for numero, titulo in temas:
+                tema_id = f"tema-{numero:02d}-{slugify(titulo)}"
+                if tema_id in completos:
+                    continue  # ya existe, no tocar
+                conn.execute("""
+                    INSERT OR IGNORE INTO temas
+                    (id, numero, titulo, bloque_id, tipo, estado_ingesta)
+                    VALUES (?, ?, ?, ?, ?, 'pendiente')
+                """, (tema_id, numero, titulo, bloque_id, tipo))
+                insertados += 1
+
+        conn.commit()
+        print(f"[migrar-estructura] {insertados} temas nuevos insertados")
+        print()
+        print("=" * 60)
+        print("  ✅ Migración completada")
+        print("=" * 60)
+
+        # Verificación
+        cur = conn.execute(
+            "SELECT bloque_id, COUNT(*) FROM temas GROUP BY bloque_id ORDER BY bloque_id"
+        )
+        print("  Distribución por bloque:")
+        for b, n in cur.fetchall():
+            print(f"    {b}: {n} temas")
+
+        return 0
+    except Exception as e:
+        conn.rollback()
+        print(f"[error] {e}")
+        import traceback
+        traceback.print_exc()
+        return 1
+    finally:
+        conn.close()
+
 def main() -> int:
     parser = argparse.ArgumentParser(
         description="Gestor de la base de datos TAI Oposición",
@@ -2316,6 +2405,12 @@ def main() -> int:
                            help="Actualizar existente en lugar de saltar")
     p_imp_sup.add_argument("--dry-run", action="store_true")
     p_imp_sup.set_defaults(func=cmd_importar_supuesto)
+
+    # migrar-estructura
+    p_migest = sub.add_parser("migrar-estructura",
+                              help="Migrar estructura de temas preservando completos")
+    p_migest.add_argument("--root", default="~/oposicion")
+    p_migest.set_defaults(func=cmd_migrar_estructura)
 
     args = parser.parse_args()
     return args.func(args)

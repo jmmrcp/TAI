@@ -28,12 +28,16 @@ from pathlib import Path
 # Réplica del examen real TAI (verificado con 2024/2025)
 # ============================================================
 
+# Cuotas basadas en el examen real TAI 2026 (80 preguntas):
+#   Bloque I:  9 temas → ~25 preguntas (31%)
+#   Bloque II: 5 temas → ~12 preguntas (15%)
+#   Bloque III: 9 temas → ~22 preguntas (28%)
+#   Bloque IV: 10 temas → ~21 preguntas (26%)
 CUOTAS_GLOBAL = {
-    "bloque-i":   {"pct": 0.125,  "n": 10},   # 12.5 %
-    "bloque-ii":  {"pct": 0.125,  "n": 10},   # 12.5 %
-    "bloque-iii": {"pct": 0.3125, "n": 25},   # 31.25 %
-    "bloque-iv":  {"pct": 0.3125, "n": 25},   # 31.25 %
-    "transversal": {"pct": 0.125, "n": 10},   # 12.5 %
+    "bloque-i":   {"n": 25},
+    "bloque-ii":  {"n": 12},
+    "bloque-iii": {"n": 22},
+    "bloque-iv":  {"n": 21},
 }
 
 # Distribución de dificultad (30 % baja, 50 % media, 20 % alta)
@@ -237,26 +241,10 @@ def generar_simulacro_global(
 
     for bloque_id, cuota in CUOTAS_GLOBAL.items():
         n_bloque = cuota["n"]
-
-        if bloque_id == "transversal":
-            # "Transversal" = preguntas jurídicas de bloques I y II
-            # (no verificamos bloque, sino mezcla)
-            n_mitad = n_bloque // 2
-            p1 = seleccionar_para_bloque(
-                conn, "bloque-i", n_mitad, ids_usados
-            )
-            ids_usados.update(p["id"] for p in p1)
-            p2 = seleccionar_para_bloque(
-                conn, "bloque-ii", n_bloque - n_mitad, ids_usados
-            )
-            ids_usados.update(p["id"] for p in p2)
-            preguntas.extend(p1 + p2)
-            cuotas_aplicadas["transversal"] = len(p1) + len(p2)
-        else:
-            p = seleccionar_para_bloque(conn, bloque_id, n_bloque, ids_usados)
-            ids_usados.update(x["id"] for x in p)
-            preguntas.extend(p)
-            cuotas_aplicadas[bloque_id] = len(p)
+        p = seleccionar_para_bloque(conn, bloque_id, n_bloque, ids_usados)
+        ids_usados.update(x["id"] for x in p)
+        preguntas.extend(p)
+        cuotas_aplicadas[bloque_id] = len(p)
 
     return preguntas, cuotas_aplicadas
 
