@@ -108,6 +108,13 @@ exportar:
 .PHONY: backup
 backup: exportar
 	@echo ""
+	@echo "📦 Backup a GitHub..."
+	@bash /root/.dsh/bin/backup-github.sh
+
+.PHONY: backup-github
+backup-github:
+	@bash /root/.dsh/bin/backup-github.sh
+	@echo ""
 	@echo "📦 Haciendo backup en git..."
 	@cd $(ROOT) && \
 		git add export/ 2>/dev/null && \
