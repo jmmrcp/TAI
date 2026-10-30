@@ -800,6 +800,7 @@ def migrar_tema(
         "preguntas_nuevas": 0,
         "preguntas_dup_exacta": 0,
         "preguntas_dup_conceptual": 0,
+        "preguntas_rebalanceadas": 0,
         "flashcards_nuevas": 0,
         "flashcards_dup": 0,
         "cuadros_nuevos": 0,
@@ -1022,7 +1023,14 @@ def migrar_tema(
                 ))
             resultado["esquemas_nuevos"] += 1
 
-    # 7. Actualizar estado del tema
+    # 7. Rebalancear opciones ANTES de marcar como completo
+    if not dry_run and resultado["preguntas_nuevas"] > 0:
+        rebalanceadas = _rebalancear_opciones_tema(conn, tema_id)
+        resultado["preguntas_rebalanceadas"] = rebalanceadas
+    else:
+        resultado["preguntas_rebalanceadas"] = 0
+
+    # 8. Actualizar estado del tema
     if not dry_run and not resultado["errores"]:
         conn.execute("""
             UPDATE temas
@@ -1031,6 +1039,58 @@ def migrar_tema(
         """, (date.today().isoformat(), tema_id))
 
     return resultado
+
+
+def _rebalancear_opciones_tema(conn: sqlite3.Connection, tema_id: str) -> int:
+    """
+    Rebalancea las opciones de las preguntas de un tema para evitar
+    el sesgo del LLM (respuestas siempre en 'a').
+
+    Excluye las preguntas vinculadas a exámenes oficiales.
+    Devuelve el número de preguntas rebalanceadas.
+    """
+    import random
+
+    cur = conn.execute("""
+        SELECT p.id, p.opciones, p.correcta
+        FROM preguntas p
+        WHERE p.tema_id = ?
+          AND p.verificado = 1
+          AND p.id NOT IN (
+              SELECT pregunta_id FROM examen_preguntas
+              WHERE pregunta_id NOT LIKE 'pendiente-%'
+          )
+    """, (tema_id,))
+
+    actualizadas = 0
+    for row in cur.fetchall():
+        try:
+            opciones = json.loads(row["opciones"]) if row["opciones"] else []
+            if len(opciones) < 2:
+                continue
+
+            correcta_idx = row["correcta"]
+            if correcta_idx < 0 or correcta_idx >= len(opciones):
+                continue
+
+            pares = [(op, i == correcta_idx) for i, op in enumerate(opciones)]
+            random.shuffle(pares)
+            nuevas_opciones = [p[0] for p in pares]
+            nuevo_idx = next(i for i, p in enumerate(pares) if p[1])
+
+            if nuevo_idx != correcta_idx:
+                conn.execute("""
+                    UPDATE preguntas SET opciones = ?, correcta = ? WHERE id = ?
+                """, (
+                    json.dumps(nuevas_opciones, ensure_ascii=False),
+                    nuevo_idx,
+                    row["id"],
+                ))
+                actualizadas += 1
+        except Exception:
+            continue
+
+    return actualizadas
 
 
 def cmd_migrar(args) -> int:
@@ -1087,6 +1147,9 @@ def cmd_migrar(args) -> int:
             print(f"  Preguntas:    +{resultado['preguntas_nuevas']} nuevas, "
                   f"{resultado['preguntas_dup_exacta']} dup exactas, "
                   f"{resultado['preguntas_dup_conceptual']} dup conceptuales")
+            if resultado.get("preguntas_rebalanceadas", 0) > 0:
+                print(f"  Rebalanceo:   {resultado['preguntas_rebalanceadas']} preguntas "
+                      f"con opciones barajadas")
             print(f"  Flashcards:   +{resultado['flashcards_nuevas']} nuevas, "
                   f"{resultado['flashcards_dup']} duplicadas")
             print(f"  Cuadros:      +{resultado['cuadros_nuevos']} nuevos "
@@ -1112,6 +1175,7 @@ def cmd_migrar(args) -> int:
             "preguntas_nuevas": sum(r["preguntas_nuevas"] for r in resultados),
             "preguntas_dup_exacta": sum(r["preguntas_dup_exacta"] for r in resultados),
             "preguntas_dup_conceptual": sum(r["preguntas_dup_conceptual"] for r in resultados),
+            "preguntas_rebalanceadas": sum(r.get("preguntas_rebalanceadas", 0) for r in resultados),
             "flashcards_nuevas": sum(r["flashcards_nuevas"] for r in resultados),
             "flashcards_dup": sum(r["flashcards_dup"] for r in resultados),
             "cuadros_nuevos": sum(r["cuadros_nuevos"] for r in resultados),
