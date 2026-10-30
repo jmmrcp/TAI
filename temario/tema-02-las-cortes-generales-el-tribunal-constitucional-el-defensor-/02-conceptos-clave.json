@@ -1,0 +1,886 @@
+{
+  "tema": "tema-02-las-cortes-generales-el-tribunal-constitucional-el-defensor-",
+  "n_conceptos": 60,
+  "conceptos": [
+    {
+      "id": "c-001",
+      "tipo": "definicion",
+      "articulo": "art. 54",
+      "titulo": "TÍTULO I",
+      "tags": [
+        "organos",
+        "derechos"
+      ],
+      "verificado": false,
+      "nombre": "Defensor del Pueblo: institución regulada por ley orgánica",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "es_principal": true
+    },
+    {
+      "id": "c-002",
+      "tipo": "organo",
+      "articulo": "art. 54",
+      "titulo": "TÍTULO I",
+      "tags": [
+        "organos"
+      ],
+      "verificado": false,
+      "nombre": "Defensor del Pueblo como alto comisionado de las Cortes Generales",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "es_principal": true
+    },
+    {
+      "id": "c-003",
+      "tipo": "procedimiento",
+      "articulo": "art. 54",
+      "titulo": "TÍTULO I",
+      "tags": [
+        "procedimientos",
+        "organos"
+      ],
+      "verificado": false,
+      "nombre": "Designación del Defensor del Pueblo por las Cortes Generales",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "es_principal": true
+    },
+    {
+      "id": "c-004",
+      "tipo": "competencia",
+      "articulo": "art. 54",
+      "titulo": "TÍTULO I",
+      "tags": [
+        "competencias",
+        "derechos"
+      ],
+      "verificado": false,
+      "nombre": "Defensa de los derechos del Título I y supervisión de la Administración",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "es_principal": true
+    },
+    {
+      "id": "c-005",
+      "tipo": "definicion",
+      "articulo": "art. 66",
+      "titulo": "TÍTULO III / CAPÍTULO PRIMERO",
+      "tags": [
+        "organos"
+      ],
+      "verificado": false,
+      "nombre": "Las Cortes Generales representan al pueblo español",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "es_principal": true
+    },
+    {
+      "id": "c-006",
+      "tipo": "organo",
+      "articulo": "art. 66",
+      "titulo": "TÍTULO III / CAPÍTULO PRIMERO",
+      "tags": [
+        "organos"
+      ],
+      "verificado": false,
+      "nombre": "Las Cortes Generales se componen del Congreso y el Senado",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "es_principal": true
+    },
+    {
+      "id": "c-007",
+      "tipo": "competencia",
+      "articulo": "art. 66",
+      "titulo": "TÍTULO III / CAPÍTULO PRIMERO",
+      "tags": [
+        "competencias"
+      ],
+      "verificado": false,
+      "nombre": "Potestad legislativa, aprobación de Presupuestos y control del Gobierno",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "es_principal": true
+    },
+    {
+      "id": "c-008",
+      "tipo": "derecho",
+      "articulo": "art. 66",
+      "titulo": "TÍTULO III / CAPÍTULO PRIMERO",
+      "tags": [
+        "garantias",
+        "derechos"
+      ],
+      "verificado": false,
+      "nombre": "Inviolabilidad de las Cortes Generales",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "es_principal": true
+    },
+    {
+      "id": "c-009",
+      "tipo": "procedimiento",
+      "articulo": "art. 67",
+      "titulo": "TÍTULO III / CAPÍTULO PRIMERO",
+      "tags": [
+        "situaciones",
+        "organos"
+      ],
+      "verificado": false,
+      "nombre": "Incompatibilidad de acumular mandatos en ambas Cámaras y Asambleas autonómicas",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "es_principal": true
+    },
+    {
+      "id": "c-010",
+      "tipo": "derecho",
+      "articulo": "art. 67",
+      "titulo": "TÍTULO III / CAPÍTULO PRIMERO",
+      "tags": [
+        "derechos"
+      ],
+      "verificado": false,
+      "nombre": "Ausencia de mandato imperativo de los parlamentarios",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "es_principal": true
+    },
+    {
+      "id": "c-011",
+      "tipo": "cifra",
+      "articulo": "art. 68",
+      "titulo": "TÍTULO III / CAPÍTULO PRIMERO",
+      "tags": [
+        "cifras",
+        "organos"
+      ],
+      "verificado": false,
+      "nombre": "Número de Diputados: mínimo 300 y máximo 400",
+      "valor": "mín. 300, máx. 400",
+      "norma": "Constitución Española de 1978",
+      "es_principal": true
+    },
+    {
+      "id": "c-012",
+      "tipo": "procedimiento",
+      "articulo": "art. 68",
+      "titulo": "TÍTULO III / CAPÍTULO PRIMERO",
+      "tags": [
+        "procedimientos",
+        "derechos"
+      ],
+      "verificado": false,
+      "nombre": "Elección por sufragio universal, libre, igual, directo y secreto en circunscripción provincial",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "es_principal": true
+    },
+    {
+      "id": "c-013",
+      "tipo": "procedimiento",
+      "articulo": "art. 68",
+      "titulo": "TÍTULO III / CAPÍTULO PRIMERO",
+      "tags": [
+        "procedimientos"
+      ],
+      "verificado": false,
+      "nombre": "Distribución de Diputados por población y representación proporcional",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "es_principal": true
+    },
+    {
+      "id": "c-014",
+      "tipo": "mandato",
+      "articulo": "art. 68",
+      "titulo": "TÍTULO III / CAPÍTULO PRIMERO",
+      "tags": [
+        "mandato",
+        "plazos"
+      ],
+      "verificado": false,
+      "nombre": "Mandato del Congreso de cuatro años",
+      "valor": "4 años",
+      "norma": "Constitución Española de 1978",
+      "es_principal": true
+    },
+    {
+      "id": "c-015",
+      "tipo": "plazo",
+      "articulo": "art. 68",
+      "titulo": "TÍTULO III / CAPÍTULO PRIMERO",
+      "tags": [
+        "plazos"
+      ],
+      "verificado": false,
+      "nombre": "Plazos electorales: elecciones entre 30 y 60 días y convocatoria en 25 días",
+      "valor": "30-60 días; 25 días",
+      "norma": "Constitución Española de 1978",
+      "es_principal": true
+    },
+    {
+      "id": "c-016",
+      "tipo": "definicion",
+      "articulo": "art. 69",
+      "titulo": "TÍTULO III / CAPÍTULO PRIMERO",
+      "tags": [
+        "organos"
+      ],
+      "verificado": false,
+      "nombre": "Senado como Cámara de representación territorial",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "es_principal": true
+    },
+    {
+      "id": "c-017",
+      "tipo": "cifra",
+      "articulo": "art. 69",
+      "titulo": "TÍTULO III / CAPÍTULO PRIMERO",
+      "tags": [
+        "cifras",
+        "organos"
+      ],
+      "verificado": false,
+      "nombre": "Senadores: 4 por provincia y 2 en Ceuta y Melilla",
+      "valor": "4 por provincia; 2 Ceuta/Melilla",
+      "norma": "Constitución Española de 1978",
+      "es_principal": true
+    },
+    {
+      "id": "c-018",
+      "tipo": "procedimiento",
+      "articulo": "art. 69",
+      "titulo": "TÍTULO III / CAPÍTULO PRIMERO",
+      "tags": [
+        "procedimientos",
+        "organos"
+      ],
+      "verificado": false,
+      "nombre": "Senadores por provincias insulares y designación por CC.AA. (1 + 1 por millón de habitantes)",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "es_principal": true
+    },
+    {
+      "id": "c-019",
+      "tipo": "mandato",
+      "articulo": "art. 69",
+      "titulo": "TÍTULO III / CAPÍTULO PRIMERO",
+      "tags": [
+        "mandato",
+        "plazos"
+      ],
+      "verificado": false,
+      "nombre": "Mandato del Senado de cuatro años",
+      "valor": "4 años",
+      "norma": "Constitución Española de 1978",
+      "es_principal": true
+    },
+    {
+      "id": "c-020",
+      "tipo": "procedimiento",
+      "articulo": "art. 70",
+      "titulo": "TÍTULO III / CAPÍTULO PRIMERO",
+      "tags": [
+        "procedimientos",
+        "situaciones"
+      ],
+      "verificado": false,
+      "nombre": "La ley electoral determina causas de inelegibilidad e incompatibilidad",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "es_principal": true
+    },
+    {
+      "id": "c-021",
+      "tipo": "procedimiento",
+      "articulo": "art. 70",
+      "titulo": "TÍTULO III / CAPÍTULO PRIMERO",
+      "tags": [
+        "situaciones",
+        "organos"
+      ],
+      "verificado": false,
+      "nombre": "Causas incluidas en todo caso: TC, altos cargos, Defensor del Pueblo, jueces/fiscales, militares y FCS, Juntas Electorales",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "es_principal": true
+    },
+    {
+      "id": "c-022",
+      "tipo": "derecho",
+      "articulo": "art. 71",
+      "titulo": "TÍTULO III / CAPÍTULO PRIMERO",
+      "tags": [
+        "garantias",
+        "derechos"
+      ],
+      "verificado": false,
+      "nombre": "Inviolabilidad de Diputados y Senadores por sus opiniones",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "es_principal": true
+    },
+    {
+      "id": "c-023",
+      "tipo": "derecho",
+      "articulo": "art. 71",
+      "titulo": "TÍTULO III / CAPÍTULO PRIMERO",
+      "tags": [
+        "garantias",
+        "derechos"
+      ],
+      "verificado": false,
+      "nombre": "Inmunidad parlamentaria y detención solo en caso de flagrante delito",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "es_principal": true
+    },
+    {
+      "id": "c-024",
+      "tipo": "procedimiento",
+      "articulo": "art. 71",
+      "titulo": "TÍTULO III / CAPÍTULO PRIMERO",
+      "tags": [
+        "procedimientos"
+      ],
+      "verificado": false,
+      "nombre": "Autorización de la Cámara para inculpar o procesar a un parlamentario",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "es_principal": true
+    },
+    {
+      "id": "c-025",
+      "tipo": "competencia",
+      "articulo": "art. 71",
+      "titulo": "TÍTULO III / CAPÍTULO PRIMERO",
+      "tags": [
+        "competencias",
+        "organos"
+      ],
+      "verificado": false,
+      "nombre": "Sala de lo Penal del Tribunal Supremo competente en causas contra parlamentarios",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "es_principal": true
+    },
+    {
+      "id": "c-026",
+      "tipo": "procedimiento",
+      "articulo": "art. 72",
+      "titulo": "TÍTULO III / CAPÍTULO PRIMERO",
+      "tags": [
+        "procedimientos",
+        "organos"
+      ],
+      "verificado": false,
+      "nombre": "Cámaras establecen Reglamentos, aprueban presupuestos y regulan el Estatuto del Personal",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "es_principal": true
+    },
+    {
+      "id": "c-027",
+      "tipo": "mayoria",
+      "articulo": "art. 72",
+      "titulo": "TÍTULO III / CAPÍTULO PRIMERO",
+      "tags": [
+        "mayorias"
+      ],
+      "verificado": false,
+      "nombre": "Reglamentos y su reforma requieren mayoría absoluta en votación final sobre la totalidad",
+      "valor": "mayoría absoluta",
+      "norma": "Constitución Española de 1978",
+      "es_principal": true
+    },
+    {
+      "id": "c-028",
+      "tipo": "procedimiento",
+      "articulo": "art. 72",
+      "titulo": "TÍTULO III / CAPÍTULO PRIMERO",
+      "tags": [
+        "procedimientos",
+        "organos"
+      ],
+      "verificado": false,
+      "nombre": "Elección de Presidentes y Mesas; sesiones conjuntas presididas por el Presidente del Congreso",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "es_principal": true
+    },
+    {
+      "id": "c-029",
+      "tipo": "procedimiento",
+      "articulo": "art. 73",
+      "titulo": "TÍTULO III / CAPÍTULO PRIMERO",
+      "tags": [
+        "plazos",
+        "procedimientos"
+      ],
+      "verificado": false,
+      "nombre": "Dos períodos ordinarios de sesiones: septiembre-diciembre y febrero-junio",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "es_principal": true
+    },
+    {
+      "id": "c-030",
+      "tipo": "procedimiento",
+      "articulo": "art. 73",
+      "titulo": "TÍTULO III / CAPÍTULO PRIMERO",
+      "tags": [
+        "procedimientos"
+      ],
+      "verificado": false,
+      "nombre": "Sesiones extraordinarias a petición y con orden del día determinado",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "es_principal": true
+    },
+    {
+      "id": "c-031",
+      "tipo": "procedimiento",
+      "articulo": "art. 74",
+      "titulo": "TÍTULO III / CAPÍTULO PRIMERO",
+      "tags": [
+        "procedimientos"
+      ],
+      "verificado": false,
+      "nombre": "Sesiones conjuntas para competencias no legislativas atribuidas a las Cortes Generales",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "es_principal": true
+    },
+    {
+      "id": "c-032",
+      "tipo": "mayoria",
+      "articulo": "art. 74",
+      "titulo": "TÍTULO III / CAPÍTULO PRIMERO",
+      "tags": [
+        "mayorias"
+      ],
+      "verificado": false,
+      "nombre": "Decisiones de los arts. 94.1, 145.2 y 158.2 por mayoría de cada Cámara",
+      "valor": "mayoría de cada Cámara",
+      "norma": "Constitución Española de 1978",
+      "es_principal": true
+    },
+    {
+      "id": "c-033",
+      "tipo": "procedimiento",
+      "articulo": "art. 74",
+      "titulo": "TÍTULO III / CAPÍTULO PRIMERO",
+      "tags": [
+        "procedimientos",
+        "mayorias"
+      ],
+      "verificado": false,
+      "nombre": "Comisión Mixta y decisión final del Congreso por mayoría absoluta",
+      "valor": "mayoría absoluta (Congreso)",
+      "norma": "Constitución Española de 1978",
+      "es_principal": true
+    },
+    {
+      "id": "c-034",
+      "tipo": "procedimiento",
+      "articulo": "art. 75",
+      "titulo": "TÍTULO III / CAPÍTULO PRIMERO",
+      "tags": [
+        "procedimientos"
+      ],
+      "verificado": false,
+      "nombre": "Funcionamiento en Pleno y por Comisiones; delegación legislativa en Comisiones",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "es_principal": true
+    },
+    {
+      "id": "c-035",
+      "tipo": "procedimiento",
+      "articulo": "art. 75",
+      "titulo": "TÍTULO III / CAPÍTULO PRIMERO",
+      "tags": [
+        "procedimientos"
+      ],
+      "verificado": false,
+      "nombre": "Excepciones a la delegación: reforma constitucional, internacionales, LO, bases y PGE",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "es_principal": true
+    },
+    {
+      "id": "c-036",
+      "tipo": "competencia",
+      "articulo": "art. 76",
+      "titulo": "TÍTULO III / CAPÍTULO PRIMERO",
+      "tags": [
+        "competencias"
+      ],
+      "verificado": false,
+      "nombre": "Comisiones de investigación sobre asuntos de interés público",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "es_principal": true
+    },
+    {
+      "id": "c-037",
+      "tipo": "procedimiento",
+      "articulo": "art. 76",
+      "titulo": "TÍTULO III / CAPÍTULO PRIMERO",
+      "tags": [
+        "sanciones",
+        "procedimientos"
+      ],
+      "verificado": false,
+      "nombre": "Comparecencia obligatoria y sanciones; conclusiones no vinculantes para tribunales",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "es_principal": true
+    },
+    {
+      "id": "c-038",
+      "tipo": "derecho",
+      "articulo": "art. 77",
+      "titulo": "TÍTULO III / CAPÍTULO PRIMERO",
+      "tags": [
+        "derechos",
+        "procedimientos"
+      ],
+      "verificado": false,
+      "nombre": "Derecho de petición individual y colectiva por escrito",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "es_principal": true
+    },
+    {
+      "id": "c-039",
+      "tipo": "procedimiento",
+      "articulo": "art. 77",
+      "titulo": "TÍTULO III / CAPÍTULO PRIMERO",
+      "tags": [
+        "procedimientos"
+      ],
+      "verificado": false,
+      "nombre": "Remisión de peticiones al Gobierno y obligación de explicarse",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "es_principal": true
+    },
+    {
+      "id": "c-040",
+      "tipo": "organo",
+      "articulo": "art. 78",
+      "titulo": "TÍTULO III / CAPÍTULO PRIMERO",
+      "tags": [
+        "organos",
+        "cifras"
+      ],
+      "verificado": false,
+      "nombre": "Diputación Permanente: mínimo 21 miembros representando grupos parlamentarios",
+      "valor": "mín. 21",
+      "norma": "Constitución Española de 1978",
+      "es_principal": true
+    },
+    {
+      "id": "c-041",
+      "tipo": "procedimiento",
+      "articulo": "art. 78",
+      "titulo": "TÍTULO III / CAPÍTULO PRIMERO",
+      "tags": [
+        "procedimientos",
+        "competencias"
+      ],
+      "verificado": false,
+      "nombre": "Funciones de la Diputación Permanente (arts. 73, 86 y 116)",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "es_principal": true
+    },
+    {
+      "id": "c-042",
+      "tipo": "mayoria",
+      "articulo": "art. 79",
+      "titulo": "TÍTULO III / CAPÍTULO PRIMERO",
+      "tags": [
+        "mayorias",
+        "procedimientos"
+      ],
+      "verificado": false,
+      "nombre": "Acuerdos requieren reunión reglamentaria y mayoría de los miembros presentes",
+      "valor": "mayoría de presentes",
+      "norma": "Constitución Española de 1978",
+      "es_principal": true
+    },
+    {
+      "id": "c-043",
+      "tipo": "procedimiento",
+      "articulo": "art. 79",
+      "titulo": "TÍTULO III / CAPÍTULO PRIMERO",
+      "tags": [
+        "derechos"
+      ],
+      "verificado": false,
+      "nombre": "Voto personal e indelegable de los parlamentarios",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "es_principal": true
+    },
+    {
+      "id": "c-044",
+      "tipo": "procedimiento",
+      "articulo": "art. 80",
+      "titulo": "TÍTULO III / CAPÍTULO PRIMERO",
+      "tags": [
+        "procedimientos",
+        "mayorias"
+      ],
+      "verificado": false,
+      "nombre": "Sesiones plenarias públicas salvo acuerdo en contrario por mayoría absoluta",
+      "valor": "mayoría absoluta",
+      "norma": "Constitución Española de 1978",
+      "es_principal": true
+    },
+    {
+      "id": "c-045",
+      "tipo": "cifra",
+      "articulo": "art. 159",
+      "titulo": "TÍTULO IX / CAPÍTULO PRIMERO",
+      "tags": [
+        "cifras",
+        "organos"
+      ],
+      "verificado": false,
+      "nombre": "Tribunal Constitucional compuesto por 12 miembros nombrados por el Rey",
+      "valor": "12",
+      "norma": "Constitución Española de 1978",
+      "es_principal": true
+    },
+    {
+      "id": "c-046",
+      "tipo": "procedimiento",
+      "articulo": "art. 159",
+      "titulo": "TÍTULO IX / CAPÍTULO PRIMERO",
+      "tags": [
+        "procedimientos",
+        "mayorias",
+        "organos"
+      ],
+      "verificado": false,
+      "nombre": "Nombramiento: 4 Congreso, 4 Senado (3/5), 2 Gobierno, 2 CGPJ",
+      "valor": "4+4+2+2; 3/5",
+      "norma": "Constitución Española de 1978",
+      "es_principal": true
+    },
+    {
+      "id": "c-047",
+      "tipo": "procedimiento",
+      "articulo": "art. 159",
+      "titulo": "TÍTULO IX / CAPÍTULO PRIMERO",
+      "tags": [
+        "procedimientos"
+      ],
+      "verificado": false,
+      "nombre": "Requisitos de los miembros: juristas de reconocida competencia con más de 15 años de ejercicio",
+      "valor": ">15 años",
+      "norma": "Constitución Española de 1978",
+      "es_principal": true
+    },
+    {
+      "id": "c-048",
+      "tipo": "mandato",
+      "articulo": "art. 159",
+      "titulo": "TÍTULO IX / CAPÍTULO PRIMERO",
+      "tags": [
+        "mandato",
+        "plazos"
+      ],
+      "verificado": false,
+      "nombre": "Mandato de 9 años con renovación por terceras partes cada 3 años",
+      "valor": "9 años; renovación cada 3",
+      "norma": "Constitución Española de 1978",
+      "es_principal": true
+    },
+    {
+      "id": "c-049",
+      "tipo": "procedimiento",
+      "articulo": "art. 159",
+      "titulo": "TÍTULO IX / CAPÍTULO PRIMERO",
+      "tags": [
+        "situaciones",
+        "derechos"
+      ],
+      "verificado": false,
+      "nombre": "Incompatibilidades e independencia e inamovilidad de los miembros",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "es_principal": true
+    },
+    {
+      "id": "c-050",
+      "tipo": "procedimiento",
+      "articulo": "art. 160",
+      "titulo": "TÍTULO IX / CAPÍTULO PRIMERO",
+      "tags": [
+        "organos",
+        "mandato"
+      ],
+      "verificado": false,
+      "nombre": "Presidente del TC nombrado por el Rey a propuesta del Pleno por 3 años",
+      "valor": "3 años",
+      "norma": "Constitución Española de 1978",
+      "es_principal": true
+    },
+    {
+      "id": "c-051",
+      "tipo": "procedimiento",
+      "articulo": "art. 161",
+      "titulo": "TÍTULO IX / CAPÍTULO PRIMERO",
+      "tags": [
+        "recursos",
+        "competencias"
+      ],
+      "verificado": false,
+      "nombre": "Recurso de inconstitucionalidad contra leyes y disposiciones con fuerza de ley",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "es_principal": true
+    },
+    {
+      "id": "c-052",
+      "tipo": "procedimiento",
+      "articulo": "art. 161",
+      "titulo": "TÍTULO IX / CAPÍTULO PRIMERO",
+      "tags": [
+        "recursos",
+        "derechos"
+      ],
+      "verificado": false,
+      "nombre": "Recurso de amparo por violación de derechos y libertades del art. 53.2",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "es_principal": true
+    },
+    {
+      "id": "c-053",
+      "tipo": "competencia",
+      "articulo": "art. 161",
+      "titulo": "TÍTULO IX / CAPÍTULO PRIMERO",
+      "tags": [
+        "competencias"
+      ],
+      "verificado": false,
+      "nombre": "Conflictos de competencia entre el Estado y las CC.AA. o entre ellas",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "es_principal": true
+    },
+    {
+      "id": "c-054",
+      "tipo": "procedimiento",
+      "articulo": "art. 161",
+      "titulo": "TÍTULO IX / CAPÍTULO PRIMERO",
+      "tags": [
+        "procedimientos",
+        "plazos",
+        "recursos"
+      ],
+      "verificado": false,
+      "nombre": "Impugnación gubernamental de disposiciones autonómicas: suspensión y ratificación o levantamiento en 5 meses",
+      "valor": "5 meses",
+      "norma": "Constitución Española de 1978",
+      "es_principal": true
+    },
+    {
+      "id": "c-055",
+      "tipo": "procedimiento",
+      "articulo": "art. 162",
+      "titulo": "TÍTULO IX / CAPÍTULO PRIMERO",
+      "tags": [
+        "recursos",
+        "procedimientos"
+      ],
+      "verificado": false,
+      "nombre": "Legitimados para interponer el recurso de inconstitucionalidad",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "es_principal": true
+    },
+    {
+      "id": "c-056",
+      "tipo": "procedimiento",
+      "articulo": "art. 162",
+      "titulo": "TÍTULO IX / CAPÍTULO PRIMERO",
+      "tags": [
+        "recursos",
+        "procedimientos"
+      ],
+      "verificado": false,
+      "nombre": "Legitimados para interponer el recurso de amparo",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "es_principal": true
+    },
+    {
+      "id": "c-057",
+      "tipo": "procedimiento",
+      "articulo": "art. 163",
+      "titulo": "TÍTULO IX / CAPÍTULO PRIMERO",
+      "tags": [
+        "recursos",
+        "procedimientos"
+      ],
+      "verificado": false,
+      "nombre": "Cuestión de inconstitucionalidad planteada por órgano judicial, de efectos no suspensivos",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "es_principal": true
+    },
+    {
+      "id": "c-058",
+      "tipo": "procedimiento",
+      "articulo": "art. 164",
+      "titulo": "TÍTULO IX / CAPÍTULO PRIMERO",
+      "tags": [
+        "procedimientos"
+      ],
+      "verificado": false,
+      "nombre": "Publicación de sentencias del TC en el BOE con votos particulares",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "es_principal": true
+    },
+    {
+      "id": "c-059",
+      "tipo": "procedimiento",
+      "articulo": "art. 164",
+      "titulo": "TÍTULO IX / CAPÍTULO PRIMERO",
+      "tags": [
+        "procedimientos",
+        "garantias"
+      ],
+      "verificado": false,
+      "nombre": "Cosa juzgada desde el día siguiente a la publicación y sin recurso alguno",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "es_principal": true
+    },
+    {
+      "id": "c-060",
+      "tipo": "procedimiento",
+      "articulo": "art. 165",
+      "titulo": "TÍTULO IX / CAPÍTULO PRIMERO",
+      "tags": [
+        "procedimientos"
+      ],
+      "verificado": false,
+      "nombre": "Ley orgánica regulará funcionamiento, estatuto y procedimiento del TC",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "es_principal": true
+    }
+  ]
+}

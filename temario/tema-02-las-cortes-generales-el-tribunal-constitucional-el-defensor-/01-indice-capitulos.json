@@ -1,0 +1,236 @@
+{
+  "tema": "tema-02-las-cortes-generales-el-tribunal-constitucional-el-defensor-",
+  "n_entradas": 23,
+  "entradas": [
+    {
+      "id": "art-54",
+      "tipo": "articulo",
+      "titulo": "Artículo 54.",
+      "capitulo": "TÍTULO I",
+      "rango_lineas": [
+        11,
+        16
+      ]
+    },
+    {
+      "id": "art-66",
+      "tipo": "articulo",
+      "titulo": "Artículo 66.",
+      "capitulo": "TÍTULO III / CAPÍTULO PRIMERO",
+      "rango_lineas": [
+        22,
+        29
+      ]
+    },
+    {
+      "id": "art-67",
+      "tipo": "articulo",
+      "titulo": "Artículo 67.",
+      "capitulo": "TÍTULO III / CAPÍTULO PRIMERO",
+      "rango_lineas": [
+        30,
+        36
+      ]
+    },
+    {
+      "id": "art-68",
+      "tipo": "articulo",
+      "titulo": "Artículo 68.",
+      "capitulo": "TÍTULO III / CAPÍTULO PRIMERO",
+      "rango_lineas": [
+        37,
+        56
+      ]
+    },
+    {
+      "id": "art-69",
+      "tipo": "articulo",
+      "titulo": "Artículo 69.",
+      "capitulo": "TÍTULO III / CAPÍTULO PRIMERO",
+      "rango_lineas": [
+        57,
+        74
+      ]
+    },
+    {
+      "id": "art-70",
+      "tipo": "articulo",
+      "titulo": "Artículo 70.",
+      "capitulo": "TÍTULO III / CAPÍTULO PRIMERO",
+      "rango_lineas": [
+        75,
+        86
+      ]
+    },
+    {
+      "id": "art-71",
+      "tipo": "articulo",
+      "titulo": "Artículo 71.",
+      "capitulo": "TÍTULO III / CAPÍTULO PRIMERO",
+      "rango_lineas": [
+        87,
+        97
+      ]
+    },
+    {
+      "id": "art-72",
+      "tipo": "articulo",
+      "titulo": "Artículo 72.",
+      "capitulo": "TÍTULO III / CAPÍTULO PRIMERO",
+      "rango_lineas": [
+        98,
+        109
+      ]
+    },
+    {
+      "id": "art-73",
+      "tipo": "articulo",
+      "titulo": "Artículo 73.",
+      "capitulo": "TÍTULO III / CAPÍTULO PRIMERO",
+      "rango_lineas": [
+        110,
+        117
+      ]
+    },
+    {
+      "id": "art-74",
+      "tipo": "articulo",
+      "titulo": "Artículo 74.",
+      "capitulo": "TÍTULO III / CAPÍTULO PRIMERO",
+      "rango_lineas": [
+        118,
+        128
+      ]
+    },
+    {
+      "id": "art-75",
+      "tipo": "articulo",
+      "titulo": "Artículo 75.",
+      "capitulo": "TÍTULO III / CAPÍTULO PRIMERO",
+      "rango_lineas": [
+        129,
+        138
+      ]
+    },
+    {
+      "id": "art-76",
+      "tipo": "articulo",
+      "titulo": "Artículo 76.",
+      "capitulo": "TÍTULO III / CAPÍTULO PRIMERO",
+      "rango_lineas": [
+        139,
+        147
+      ]
+    },
+    {
+      "id": "art-77",
+      "tipo": "articulo",
+      "titulo": "Artículo 77.",
+      "capitulo": "TÍTULO III / CAPÍTULO PRIMERO",
+      "rango_lineas": [
+        148,
+        153
+      ]
+    },
+    {
+      "id": "art-78",
+      "tipo": "articulo",
+      "titulo": "Artículo 78.",
+      "capitulo": "TÍTULO III / CAPÍTULO PRIMERO",
+      "rango_lineas": [
+        154,
+        167
+      ]
+    },
+    {
+      "id": "art-79",
+      "tipo": "articulo",
+      "titulo": "Artículo 79.",
+      "capitulo": "TÍTULO III / CAPÍTULO PRIMERO",
+      "rango_lineas": [
+        168,
+        176
+      ]
+    },
+    {
+      "id": "art-80",
+      "tipo": "articulo",
+      "titulo": "Artículo 80.",
+      "capitulo": "TÍTULO III / CAPÍTULO PRIMERO",
+      "rango_lineas": [
+        177,
+        180
+      ]
+    },
+    {
+      "id": "art-159",
+      "tipo": "articulo",
+      "titulo": "Artículo 159.",
+      "capitulo": "TÍTULO IX / CAPÍTULO PRIMERO",
+      "rango_lineas": [
+        184,
+        203
+      ]
+    },
+    {
+      "id": "art-160",
+      "tipo": "articulo",
+      "titulo": "Artículo 160.",
+      "capitulo": "TÍTULO IX / CAPÍTULO PRIMERO",
+      "rango_lineas": [
+        204,
+        207
+      ]
+    },
+    {
+      "id": "art-161",
+      "tipo": "articulo",
+      "titulo": "Artículo 161.",
+      "capitulo": "TÍTULO IX / CAPÍTULO PRIMERO",
+      "rango_lineas": [
+        208,
+        224
+      ]
+    },
+    {
+      "id": "art-162",
+      "tipo": "articulo",
+      "titulo": "Artículo 162.",
+      "capitulo": "TÍTULO IX / CAPÍTULO PRIMERO",
+      "rango_lineas": [
+        225,
+        233
+      ]
+    },
+    {
+      "id": "art-163",
+      "tipo": "articulo",
+      "titulo": "Artículo 163.",
+      "capitulo": "TÍTULO IX / CAPÍTULO PRIMERO",
+      "rango_lineas": [
+        234,
+        239
+      ]
+    },
+    {
+      "id": "art-164",
+      "tipo": "articulo",
+      "titulo": "Artículo 164.",
+      "capitulo": "TÍTULO IX / CAPÍTULO PRIMERO",
+      "rango_lineas": [
+        240,
+        248
+      ]
+    },
+    {
+      "id": "art-165",
+      "tipo": "articulo",
+      "titulo": "Artículo 165.",
+      "capitulo": "TÍTULO IX / CAPÍTULO PRIMERO",
+      "rango_lineas": [
+        249,
+        252
+      ]
+    }
+  ]
+}
