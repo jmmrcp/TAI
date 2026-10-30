@@ -118,21 +118,21 @@ backup: exportar
 .PHONY: reconciliar
 reconciliar:
 	@echo "🔄 Reconciliando SRS con contenido..."
-	$(PY) $(ROOT)/bin/srs.py reconciliar --root $(ROOT) --verbose
+	$(PY) $(ROOT)/bin/srs.py --root $(ROOT) reconciliar --verbose
 
 .PHONY: hoy
 hoy:
-	@$(PY) $(ROOT)/bin/srs.py hoy --root $(ROOT)
+	@$(PY) $(ROOT)/bin/srs.py --root $(ROOT) hoy
 
 .PHONY: estado
 estado:
 	@if [ -z "$(T)" ]; then echo "❌ Falta T=<tema_id>"; exit 1; fi
-	$(PY) $(ROOT)/bin/srs.py estado $(T) --root $(ROOT)
+	$(PY) $(ROOT)/bin/srs.py --root $(ROOT) estado $(T)
 
 .PHONY: bloque
 bloque:
 	@if [ -z "$(B)" ]; then echo "❌ Falta B=<bloque_id>"; exit 1; fi
-	$(PY) $(ROOT)/bin/srs.py bloque $(B) --root $(ROOT)
+	$(PY) $(ROOT)/bin/srs.py --root $(ROOT) bloque $(B)
 
 .PHONY: simulacro
 simulacro:
@@ -154,7 +154,7 @@ test-tema:
 
 .PHONY: problematicos
 problematicos:
-	@$(PY) $(ROOT)/bin/srs.py problematicos --root $(ROOT)
+	@$(PY) $(ROOT)/bin/srs.py --root $(ROOT) problematicos
 
 .PHONY: stats
 stats:
