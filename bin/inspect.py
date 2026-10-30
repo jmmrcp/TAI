@@ -13,7 +13,7 @@ import argparse
 import json
 from pathlib import Path
 
-ROOT = Path("/root/.dsh/oposicion")
+ROOT = Path("/root/oposicion")
 
 
 def cargar(ruta: Path):

@@ -4,7 +4,7 @@
 # Uso: make <comando>
 # ============================================================
 
-ROOT := /root/.dsh/oposicion
+ROOT := /root/oposicion
 PY := python3
 DB := $(ROOT)/oposicion.db
 EXPORT_DIR := $(ROOT)/export

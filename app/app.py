@@ -17,7 +17,7 @@ from pathlib import Path
 
 import streamlit as st
 
-ROOT = Path("/root/.dsh/oposicion")
+ROOT = Path("/root/oposicion")
 DB_PATH = ROOT / "oposicion.db"
 TEMARIO_DIR = ROOT / "temario"
 
