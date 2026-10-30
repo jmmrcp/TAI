@@ -19,7 +19,7 @@
       "correcta": 1,
       "explicacion": "El art. 1.3 establece que la forma política del Estado español es la Monarquía parlamentaria.",
       "referencia": "art. 1.3",
-      "verificado": false,
+      "verificado": true,
       "fecha_alta": "2026-10-30"
     },
     {
@@ -39,7 +39,7 @@
       "correcta": 0,
       "explicacion": "El art. 1.1 enumera como valores superiores la libertad, la justicia, la igualdad y el pluralismo político.",
       "referencia": "art. 1.1",
-      "verificado": false,
+      "verificado": true,
       "fecha_alta": "2026-10-30"
     },
     {
@@ -59,7 +59,7 @@
       "correcta": 2,
       "explicacion": "El art. 1.2 declara que la soberanía nacional reside en el pueblo español.",
       "referencia": "art. 1.2",
-      "verificado": false,
+      "verificado": true,
       "fecha_alta": "2026-10-30"
     },
     {
@@ -79,7 +79,7 @@
       "correcta": 1,
       "explicacion": "El art. 2 proclama la indisoluble unidad de la Nación española, fundamento de la Constitución.",
       "referencia": "art. 2",
-      "verificado": false,
+      "verificado": true,
       "fecha_alta": "2026-10-30"
     },
     {
@@ -99,7 +99,7 @@
       "correcta": 1,
       "explicacion": "El art. 2 reconoce el derecho a la autonomía de las nacionalidades y regiones.",
       "referencia": "art. 2",
-      "verificado": false,
+      "verificado": true,
       "fecha_alta": "2026-10-30"
     },
     {
@@ -119,7 +119,7 @@
       "correcta": 1,
       "explicacion": "El art. 3.1 declara que el castellano es la lengua española oficial del Estado.",
       "referencia": "art. 3.1",
-      "verificado": false,
+      "verificado": true,
       "fecha_alta": "2026-10-30"
     },
     {
@@ -139,7 +139,7 @@
       "correcta": 1,
       "explicacion": "El art. 3.2 señala que las demás lenguas españolas serán también oficiales en las respectivas Comunidades Autónomas.",
       "referencia": "art. 3.2",
-      "verificado": false,
+      "verificado": true,
       "fecha_alta": "2026-10-30"
     },
     {
@@ -159,7 +159,7 @@
       "correcta": 0,
       "explicacion": "El art. 4.1 describe la bandera de España como roja, amarilla y roja, con el escudo.",
       "referencia": "art. 4.1",
-      "verificado": false,
+      "verificado": true,
       "fecha_alta": "2026-10-30"
     },
     {
@@ -179,7 +179,7 @@
       "correcta": 2,
       "explicacion": "El art. 5 establece que la capital del Estado es la ciudad de Madrid.",
       "referencia": "art. 5",
-      "verificado": false,
+      "verificado": true,
       "fecha_alta": "2026-10-30"
     },
     {
@@ -199,7 +199,7 @@
       "correcta": 1,
       "explicacion": "El art. 6 atribuye a los partidos la expresión del pluralismo político y la participación en la formación de la voluntad política.",
       "referencia": "art. 6",
-      "verificado": false,
+      "verificado": true,
       "fecha_alta": "2026-10-30"
     },
     {
@@ -219,7 +219,7 @@
       "correcta": 0,
       "explicacion": "El art. 8.1 establece esas misiones para las Fuerzas Armadas.",
       "referencia": "art. 8.1",
-      "verificado": false,
+      "verificado": true,
       "fecha_alta": "2026-10-30"
     },
     {
@@ -239,7 +239,7 @@
       "correcta": 0,
       "explicacion": "El art. 9.3 garantiza el principio de legalidad, la jerarquía normativa, la publicidad, la irretroactividad, la seguridad jurídica, la responsabilidad y la interdicción de la arbitrariedad.",
       "referencia": "art. 9.3",
-      "verificado": false,
+      "verificado": true,
       "fecha_alta": "2026-10-30"
     },
     {
@@ -259,7 +259,7 @@
       "correcta": 0,
       "explicacion": "El art. 10.1 proclama la dignidad de la persona y los derechos inviolables inherentes.",
       "referencia": "art. 10.1",
-      "verificado": false,
+      "verificado": true,
       "fecha_alta": "2026-10-30"
     },
     {
@@ -279,7 +279,7 @@
       "correcta": 1,
       "explicacion": "El art. 11.1 establece que la nacionalidad española se adquiere y pierde conforme a lo establecido por la ley.",
       "referencia": "art. 11.1",
-      "verificado": false,
+      "verificado": true,
       "fecha_alta": "2026-10-30"
     },
     {
@@ -299,7 +299,7 @@
       "correcta": 1,
       "explicacion": "El art. 12 fija la mayoría de edad en los dieciocho años.",
       "referencia": "art. 12",
-      "verificado": false,
+      "verificado": true,
       "fecha_alta": "2026-10-30"
     },
     {
@@ -319,7 +319,7 @@
       "correcta": 0,
       "explicacion": "El art. 15 reconoce el derecho a la vida y a la integridad física y moral.",
       "referencia": "art. 15",
-      "verificado": false,
+      "verificado": true,
       "fecha_alta": "2026-10-30"
     },
     {
@@ -339,7 +339,7 @@
       "correcta": 0,
       "explicacion": "El art. 16.1 garantiza la libertad ideológica, religiosa y de culto.",
       "referencia": "art. 16.1",
-      "verificado": false,
+      "verificado": true,
       "fecha_alta": "2026-10-30"
     },
     {
@@ -359,7 +359,7 @@
       "correcta": 1,
       "explicacion": "El art. 16.3 establece que no hay religión oficial del Estado.",
       "referencia": "art. 16.3",
-      "verificado": false,
+      "verificado": true,
       "fecha_alta": "2026-10-30"
     },
     {
@@ -379,7 +379,7 @@
       "correcta": 0,
       "explicacion": "El art. 17.1 reconoce el derecho a la libertad y a la seguridad.",
       "referencia": "art. 17.1",
-      "verificado": false,
+      "verificado": true,
       "fecha_alta": "2026-10-30"
     },
     {
@@ -399,7 +399,7 @@
       "correcta": 0,
       "explicacion": "El art. 18.1 reconoce el derecho al honor, a la intimidad personal y familiar y a la propia imagen.",
       "referencia": "art. 18.1",
-      "verificado": false,
+      "verificado": true,
       "fecha_alta": "2026-10-30"
     },
     {
@@ -419,7 +419,7 @@
       "correcta": 0,
       "explicacion": "El art. 18.2 declara la inviolabilidad del domicilio.",
       "referencia": "art. 18.2",
-      "verificado": false,
+      "verificado": true,
       "fecha_alta": "2026-10-30"
     },
     {
@@ -439,7 +439,7 @@
       "correcta": 0,
       "explicacion": "El art. 18.3 garantiza el secreto de las comunicaciones.",
       "referencia": "art. 18.3",
-      "verificado": false,
+      "verificado": true,
       "fecha_alta": "2026-10-30"
     },
     {
@@ -459,7 +459,7 @@
       "correcta": 0,
       "explicacion": "El art. 19 reconoce la libertad de residencia y circulación.",
       "referencia": "art. 19",
-      "verificado": false,
+      "verificado": true,
       "fecha_alta": "2026-10-30"
     },
     {
@@ -479,7 +479,7 @@
       "correcta": 0,
       "explicacion": "El art. 20.1 reconoce las libertades de expresión e información.",
       "referencia": "art. 20.1",
-      "verificado": false,
+      "verificado": true,
       "fecha_alta": "2026-10-30"
     },
     {
@@ -499,7 +499,7 @@
       "correcta": 0,
       "explicacion": "El art. 21 reconoce el derecho de reunión pacífica y sin armas.",
       "referencia": "art. 21",
-      "verificado": false,
+      "verificado": true,
       "fecha_alta": "2026-10-30"
     },
     {
@@ -519,7 +519,7 @@
       "correcta": 0,
       "explicacion": "El art. 22 reconoce el derecho de asociación.",
       "referencia": "art. 22",
-      "verificado": false,
+      "verificado": true,
       "fecha_alta": "2026-10-30"
     },
     {
@@ -539,7 +539,7 @@
       "correcta": 0,
       "explicacion": "El art. 23 reconoce el derecho a participar en asuntos públicos.",
       "referencia": "art. 23",
-      "verificado": false,
+      "verificado": true,
       "fecha_alta": "2026-10-30"
     },
     {
@@ -559,7 +559,7 @@
       "correcta": 0,
       "explicacion": "El art. 24 garantiza la tutela judicial efectiva.",
       "referencia": "art. 24",
-      "verificado": false,
+      "verificado": true,
       "fecha_alta": "2026-10-30"
     },
     {
@@ -579,7 +579,7 @@
       "correcta": 0,
       "explicacion": "El art. 25.1 establece el principio de legalidad penal.",
       "referencia": "art. 25.1",
-      "verificado": false,
+      "verificado": true,
       "fecha_alta": "2026-10-30"
     },
     {
@@ -599,7 +599,7 @@
       "correcta": 0,
       "explicacion": "El art. 26 prohíbe los tribunales de honor en el ámbito de la Administración civil.",
       "referencia": "art. 26",
-      "verificado": false,
+      "verificado": true,
       "fecha_alta": "2026-10-30"
     },
     {
@@ -619,7 +619,7 @@
       "correcta": 0,
       "explicacion": "El art. 27 reconoce el derecho a la educación.",
       "referencia": "art. 27",
-      "verificado": false,
+      "verificado": true,
       "fecha_alta": "2026-10-30"
     },
     {
@@ -639,7 +639,7 @@
       "correcta": 0,
       "explicacion": "El art. 28 reconoce el derecho de sindicación y de huelga.",
       "referencia": "art. 28",
-      "verificado": false,
+      "verificado": true,
       "fecha_alta": "2026-10-30"
     },
     {
@@ -659,7 +659,7 @@
       "correcta": 0,
       "explicacion": "El art. 29 regula el derecho de petición.",
       "referencia": "art. 29",
-      "verificado": false,
+      "verificado": true,
       "fecha_alta": "2026-10-30"
     },
     {
@@ -679,7 +679,7 @@
       "correcta": 0,
       "explicacion": "El art. 30.1 reconoce el derecho y deber de defender a España.",
       "referencia": "art. 30.1",
-      "verificado": false,
+      "verificado": true,
       "fecha_alta": "2026-10-30"
     },
     {
@@ -699,7 +699,7 @@
       "correcta": 0,
       "explicacion": "El art. 31 señala que el sistema tributario será justo inspirado en los principios de igualdad y progresividad.",
       "referencia": "art. 31",
-      "verificado": false,
+      "verificado": true,
       "fecha_alta": "2026-10-30"
     },
     {
@@ -719,7 +719,7 @@
       "correcta": 0,
       "explicacion": "El art. 32 reconoce el derecho al matrimonio.",
       "referencia": "art. 32",
-      "verificado": false,
+      "verificado": true,
       "fecha_alta": "2026-10-30"
     },
     {
@@ -739,7 +739,7 @@
       "correcta": 0,
       "explicacion": "El art. 35 establece el derecho al trabajo y el deber de trabajar.",
       "referencia": "art. 35",
-      "verificado": false,
+      "verificado": true,
       "fecha_alta": "2026-10-30"
     },
     {
@@ -759,7 +759,7 @@
       "correcta": 0,
       "explicacion": "El art. 38 reconoce la libertad de empresa en el marco de la economía de mercado.",
       "referencia": "art. 38",
-      "verificado": false,
+      "verificado": true,
       "fecha_alta": "2026-10-30"
     },
     {
@@ -779,7 +779,7 @@
       "correcta": 0,
       "explicacion": "El art. 53 regula las garantías de los derechos y libertades, incluido el recurso de amparo.",
       "referencia": "art. 53",
-      "verificado": false,
+      "verificado": true,
       "fecha_alta": "2026-10-30"
     },
     {
@@ -799,7 +799,7 @@
       "correcta": 0,
       "explicacion": "El art. 54 define al Defensor del Pueblo como alto comisionado de las Cortes.",
       "referencia": "art. 54",
-      "verificado": false,
+      "verificado": true,
       "fecha_alta": "2026-10-30"
     },
     {
@@ -819,7 +819,7 @@
       "correcta": 1,
       "explicacion": "El art. 55 prevé la suspensión por el Congreso de los Diputados en los casos y formas que establece.",
       "referencia": "art. 55",
-      "verificado": false,
+      "verificado": true,
       "fecha_alta": "2026-10-30"
     },
     {
@@ -839,7 +839,7 @@
       "correcta": 0,
       "explicacion": "El art. 9.1 establece la sujeción a la Constitución y al ordenamiento jurídico.",
       "referencia": "art. 9.1",
-      "verificado": false,
+      "verificado": true,
       "fecha_alta": "2026-10-30"
     },
     {
@@ -859,7 +859,7 @@
       "correcta": 0,
       "explicacion": "El art. 9.2 encomienda a los poderes públicos promover las condiciones para la igualdad real y efectiva.",
       "referencia": "art. 9.2",
-      "verificado": false,
+      "verificado": true,
       "fecha_alta": "2026-10-30"
     },
     {
@@ -879,7 +879,7 @@
       "correcta": 0,
       "explicacion": "El art. 7 señala esa contribución.",
       "referencia": "art. 7",
-      "verificado": false,
+      "verificado": true,
       "fecha_alta": "2026-10-30"
     },
     {
@@ -899,7 +899,7 @@
       "correcta": 0,
       "explicacion": "El art. 10.2 establece esa interpretación.",
       "referencia": "art. 10.2",
-      "verificado": false,
+      "verificado": true,
       "fecha_alta": "2026-10-30"
     },
     {
@@ -919,7 +919,7 @@
       "correcta": 0,
       "explicacion": "El art. 13.1 reconoce a los extranjeros las libertades públicas en los términos de los tratados.",
       "referencia": "art. 13.1",
-      "verificado": false,
+      "verificado": true,
       "fecha_alta": "2026-10-30"
     },
     {
@@ -939,7 +939,7 @@
       "correcta": 0,
       "explicacion": "El art. 14 proclama la igualdad de los españoles ante la ley.",
       "referencia": "art. 14",
-      "verificado": false,
+      "verificado": true,
       "fecha_alta": "2026-10-30"
     },
     {
@@ -959,7 +959,7 @@
       "correcta": 0,
       "explicacion": "El art. 18.4 prevé esa limitación legal.",
       "referencia": "art. 18.4",
-      "verificado": false,
+      "verificado": true,
       "fecha_alta": "2026-10-30"
     },
     {
@@ -979,7 +979,7 @@
       "correcta": 0,
       "explicacion": "El art. 38 la reconoce en el marco de la economía de mercado.",
       "referencia": "art. 38",
-      "verificado": false,
+      "verificado": true,
       "fecha_alta": "2026-10-30"
     },
     {
@@ -999,7 +999,7 @@
       "correcta": 0,
       "explicacion": "El art. 31.2 señala que el gasto público realizará una asignación equitativa de recursos.",
       "referencia": "art. 31.2",
-      "verificado": false,
+      "verificado": true,
       "fecha_alta": "2026-10-30"
     },
     {
@@ -1019,7 +1019,7 @@
       "correcta": 0,
       "explicacion": "El art. 56 establece que la Corona simboliza la unidad y permanencia del Estado.",
       "referencia": "art. 56",
-      "verificado": false,
+      "verificado": true,
       "fecha_alta": "2026-10-30"
     },
     {
@@ -1039,7 +1039,7 @@
       "correcta": 0,
       "explicacion": "El art. 57 regula la sucesión por primogenitura y representación.",
       "referencia": "art. 57",
-      "verificado": false,
+      "verificado": true,
       "fecha_alta": "2026-10-30"
     },
     {
@@ -1059,7 +1059,7 @@
       "correcta": 3,
       "explicacion": "El art. 62 enumera las funciones del Rey, incluidas sancionar leyes, dirigir política exterior y nombrar Gobierno.",
       "referencia": "art. 62",
-      "verificado": false,
+      "verificado": true,
       "fecha_alta": "2026-10-30"
     },
     {
@@ -1079,7 +1079,7 @@
       "correcta": 0,
       "explicacion": "El art. 63 atribuye al Rey el mando supremo de las Fuerzas Armadas.",
       "referencia": "art. 63",
-      "verificado": false,
+      "verificado": true,
       "fecha_alta": "2026-10-30"
     },
     {
@@ -1099,7 +1099,7 @@
       "correcta": 0,
       "explicacion": "El art. 64 establece el refrendo de los actos del Rey.",
       "referencia": "art. 64",
-      "verificado": false,
+      "verificado": true,
       "fecha_alta": "2026-10-30"
     },
     {
@@ -1119,7 +1119,7 @@
       "correcta": 0,
       "explicacion": "El art. 99.1 establece que el Rey, previa consulta con los representantes designados por los grupos políticos, propone un candidato.",
       "referencia": "art. 99.1",
-      "verificado": false,
+      "verificado": true,
       "fecha_alta": "2026-10-30"
     },
     {
@@ -1139,7 +1139,7 @@
       "correcta": 0,
       "explicacion": "El art. 66.1 establece que las Cortes Generales representan al pueblo español.",
       "referencia": "art. 66.1",
-      "verificado": false,
+      "verificado": true,
       "fecha_alta": "2026-10-30"
     },
     {
@@ -1159,7 +1159,7 @@
       "correcta": 1,
       "explicacion": "El art. 68.1 fija un mínimo de 300 y un máximo de 400 diputados; actualmente 350.",
       "referencia": "art. 68.1",
-      "verificado": false,
+      "verificado": true,
       "fecha_alta": "2026-10-30"
     },
     {
@@ -1179,7 +1179,7 @@
       "correcta": 0,
       "explicacion": "El art. 69.1 define el Senado como cámara de representación territorial.",
       "referencia": "art. 69.1",
-      "verificado": false,
+      "verificado": true,
       "fecha_alta": "2026-10-30"
     },
     {
@@ -1199,7 +1199,7 @@
       "correcta": 0,
       "explicacion": "El art. 81.1 establece la mayoría absoluta del Congreso para las leyes orgánicas.",
       "referencia": "art. 81.1",
-      "verificado": false,
+      "verificado": true,
       "fecha_alta": "2026-10-30"
     },
     {
@@ -1219,7 +1219,7 @@
       "correcta": 0,
       "explicacion": "El art. 87.1 y 87.2 reconocen la iniciativa legislativa al Gobierno, al Congreso, al Senado y a las asambleas autonómicas.",
       "referencia": "art. 87",
-      "verificado": false,
+      "verificado": true,
       "fecha_alta": "2026-10-30"
     },
     {
@@ -1239,7 +1239,7 @@
       "correcta": 0,
       "explicacion": "El art. 68.3 establece un mandato de cuatro años.",
       "referencia": "art. 68.3",
-      "verificado": false,
+      "verificado": true,
       "fecha_alta": "2026-10-30"
     },
     {
@@ -1259,7 +1259,7 @@
       "correcta": 0,
       "explicacion": "El art. 67.2 establece que el mandato de los parlamentarios es imperativo.",
       "referencia": "art. 67.2",
-      "verificado": false,
+      "verificado": true,
       "fecha_alta": "2026-10-30"
     },
     {
@@ -1279,7 +1279,7 @@
       "correcta": 0,
       "explicacion": "El art. 97 establece que el Gobierno dirige la política interior y exterior.",
       "referencia": "art. 97",
-      "verificado": false,
+      "verificado": true,
       "fecha_alta": "2026-10-30"
     },
     {
@@ -1299,7 +1299,7 @@
       "correcta": 0,
       "explicacion": "El art. 98 y 99 atribuyen al Rey el nombramiento previa investidura.",
       "referencia": "art. 98",
-      "verificado": false,
+      "verificado": true,
       "fecha_alta": "2026-10-30"
     },
     {
@@ -1319,7 +1319,7 @@
       "correcta": 0,
       "explicacion": "El art. 99.3 establece que en segunda votación basta mayoría simple.",
       "referencia": "art. 99.3",
-      "verificado": false,
+      "verificado": true,
       "fecha_alta": "2026-10-30"
     },
     {
@@ -1339,7 +1339,7 @@
       "correcta": 0,
       "explicacion": "El art. 100 establece el nombramiento y cese por el Rey a propuesta del Presidente.",
       "referencia": "art. 100",
-      "verificado": false,
+      "verificado": true,
       "fecha_alta": "2026-10-30"
     },
     {
@@ -1359,7 +1359,7 @@
       "correcta": 0,
       "explicacion": "El art. 108 establece la responsabilidad política ante el Congreso.",
       "referencia": "art. 108",
-      "verificado": false,
+      "verificado": true,
       "fecha_alta": "2026-10-30"
     },
     {
@@ -1379,7 +1379,7 @@
       "correcta": 0,
       "explicacion": "El art. 117.1 establece que el poder judicial corresponde exclusivamente a jueces y tribunales.",
       "referencia": "art. 117.1",
-      "verificado": false,
+      "verificado": true,
       "fecha_alta": "2026-10-30"
     },
     {
@@ -1399,7 +1399,7 @@
       "correcta": 0,
       "explicacion": "El art. 122 regula el CGPJ como órgano de gobierno del poder judicial.",
       "referencia": "art. 122",
-      "verificado": false,
+      "verificado": true,
       "fecha_alta": "2026-10-30"
     },
     {
@@ -1419,7 +1419,7 @@
       "correcta": 0,
       "explicacion": "El art. 117.1 proclama la independencia del poder judicial.",
       "referencia": "art. 117.1",
-      "verificado": false,
+      "verificado": true,
       "fecha_alta": "2026-10-30"
     },
     {
@@ -1439,7 +1439,7 @@
       "correcta": 0,
       "explicacion": "El art. 148 enumera las competencias que las Comunidades Autónomas pueden asumir.",
       "referencia": "art. 148",
-      "verificado": false,
+      "verificado": true,
       "fecha_alta": "2026-10-30"
     },
     {
@@ -1459,7 +1459,7 @@
       "correcta": 0,
       "explicacion": "El art. 167 establece la mayoría de tres quintos para la reforma ordinaria.",
       "referencia": "art. 167",
-      "verificado": false,
+      "verificado": true,
       "fecha_alta": "2026-10-30"
     },
     {
@@ -1479,7 +1479,7 @@
       "correcta": 0,
       "explicacion": "El art. 159.1 establece que el TC se compone de 12 magistrados.",
       "referencia": "art. 159.1",
-      "verificado": false,
+      "verificado": true,
       "fecha_alta": "2026-10-30"
     },
     {
@@ -1499,7 +1499,7 @@
       "correcta": 0,
       "explicacion": "La disposición adicional primera establece la protección de los derechos de las nacionalidades y regiones.",
       "referencia": "disp. adic. 1.ª",
-      "verificado": false,
+      "verificado": true,
       "fecha_alta": "2026-10-30"
     },
     {
@@ -1519,7 +1519,7 @@
       "correcta": 0,
       "explicacion": "El art. 1.1 define España como Estado social y democrático de Derecho.",
       "referencia": "art. 1.1",
-      "verificado": false,
+      "verificado": true,
       "fecha_alta": "2026-10-30"
     },
     {
@@ -1539,7 +1539,7 @@
       "correcta": 0,
       "explicacion": "El art. 1.3 establece la Monarquía parlamentaria.",
       "referencia": "art. 1.3",
-      "verificado": false,
+      "verificado": true,
       "fecha_alta": "2026-10-30"
     },
     {
@@ -1559,7 +1559,7 @@
       "correcta": 0,
       "explicacion": "El art. 1.2 declara que la soberanía nacional reside en el pueblo español.",
       "referencia": "art. 1.2",
-      "verificado": false,
+      "verificado": true,
       "fecha_alta": "2026-10-30"
     },
     {
@@ -1579,7 +1579,7 @@
       "correcta": 0,
       "explicacion": "El art. 2 proclama la indisoluble unidad de la Nación española como fundamento de la Constitución.",
       "referencia": "art. 2",
-      "verificado": false,
+      "verificado": true,
       "fecha_alta": "2026-10-30"
     },
     {
@@ -1599,7 +1599,7 @@
       "correcta": 0,
       "explicacion": "El art. 2 reconoce el derecho a la autonomía.",
       "referencia": "art. 2",
-      "verificado": false,
+      "verificado": true,
       "fecha_alta": "2026-10-30"
     },
     {
@@ -1619,7 +1619,7 @@
       "correcta": 0,
       "explicacion": "El art. 3.1 declara el castellano lengua oficial del Estado.",
       "referencia": "art. 3.1",
-      "verificado": false,
+      "verificado": true,
       "fecha_alta": "2026-10-30"
     },
     {
@@ -1639,7 +1639,7 @@
       "correcta": 0,
       "explicacion": "El art. 4.1 describe la bandera.",
       "referencia": "art. 4.1",
-      "verificado": false,
+      "verificado": true,
       "fecha_alta": "2026-10-30"
     },
     {
@@ -1659,7 +1659,7 @@
       "correcta": 0,
       "explicacion": "El art. 5 establece Madrid como capital.",
       "referencia": "art. 5",
-      "verificado": false,
+      "verificado": true,
       "fecha_alta": "2026-10-30"
     },
     {
@@ -1679,7 +1679,7 @@
       "correcta": 0,
       "explicacion": "El art. 8.1 establece esas misiones.",
       "referencia": "art. 8.1",
-      "verificado": false,
+      "verificado": true,
       "fecha_alta": "2026-10-30"
     },
     {
@@ -1699,7 +1699,7 @@
       "correcta": 0,
       "explicacion": "El art. 9.3 garantiza legalidad, jerarquía normativa, publicidad, irretroactividad, seguridad jurídica, responsabilidad e interdicción de arbitrariedad.",
       "referencia": "art. 9.3",
-      "verificado": false,
+      "verificado": true,
       "fecha_alta": "2026-10-30"
     },
     {
@@ -1719,7 +1719,7 @@
       "correcta": 0,
       "explicacion": "El art. 10.1 proclama la dignidad de la persona.",
       "referencia": "art. 10.1",
-      "verificado": false,
+      "verificado": true,
       "fecha_alta": "2026-10-30"
     },
     {
@@ -1739,7 +1739,7 @@
       "correcta": 0,
       "explicacion": "El art. 11.1 remite a la ley.",
       "referencia": "art. 11.1",
-      "verificado": false,
+      "verificado": true,
       "fecha_alta": "2026-10-30"
     },
     {
@@ -1759,7 +1759,7 @@
       "correcta": 0,
       "explicacion": "El art. 12 fija 18 años.",
       "referencia": "art. 12",
-      "verificado": false,
+      "verificado": true,
       "fecha_alta": "2026-10-30"
     },
     {
@@ -1779,7 +1779,7 @@
       "correcta": 0,
       "explicacion": "El art. 15 reconoce el derecho a la vida.",
       "referencia": "art. 15",
-      "verificado": false,
+      "verificado": true,
       "fecha_alta": "2026-10-30"
     },
     {
@@ -1799,7 +1799,7 @@
       "correcta": 0,
       "explicacion": "El art. 16.1 garantiza esa libertad.",
       "referencia": "art. 16.1",
-      "verificado": false,
+      "verificado": true,
       "fecha_alta": "2026-10-30"
     },
     {
@@ -1819,7 +1819,7 @@
       "correcta": 0,
       "explicacion": "El art. 18.2 declara la inviolabilidad del domicilio.",
       "referencia": "art. 18.2",
-      "verificado": false,
+      "verificado": true,
       "fecha_alta": "2026-10-30"
     },
     {
@@ -1839,7 +1839,7 @@
       "correcta": 0,
       "explicacion": "El art. 20.1 reconoce expresión e información.",
       "referencia": "art. 20.1",
-      "verificado": false,
+      "verificado": true,
       "fecha_alta": "2026-10-30"
     },
     {
@@ -1859,7 +1859,7 @@
       "correcta": 0,
       "explicacion": "El art. 24 garantiza la tutela judicial efectiva.",
       "referencia": "art. 24",
-      "verificado": false,
+      "verificado": true,
       "fecha_alta": "2026-10-30"
     },
     {
@@ -1879,7 +1879,7 @@
       "correcta": 0,
       "explicacion": "El art. 27 reconoce el derecho a la educación.",
       "referencia": "art. 27",
-      "verificado": false,
+      "verificado": true,
       "fecha_alta": "2026-10-30"
     },
     {
@@ -1899,7 +1899,7 @@
       "correcta": 0,
       "explicacion": "El art. 35 establece el derecho y deber de trabajar.",
       "referencia": "art. 35",
-      "verificado": false,
+      "verificado": true,
       "fecha_alta": "2026-10-30"
     },
     {
@@ -1919,7 +1919,7 @@
       "correcta": 0,
       "explicacion": "El art. 66.2 establece que las Cortes Generales se componen del Congreso y del Senado.",
       "referencia": "art. 66.2",
-      "verificado": false,
+      "verificado": true,
       "fecha_alta": "2026-10-30"
     },
     {
@@ -1939,7 +1939,7 @@
       "correcta": 0,
       "explicacion": "El art. 68.1 establece la eleccion por sufragio universal.",
       "referencia": "art. 68.1",
-      "verificado": false,
+      "verificado": true,
       "fecha_alta": "2026-10-30"
     },
     {
@@ -1959,7 +1959,7 @@
       "correcta": 0,
       "explicacion": "El art. 69 regula la composicion del Senado.",
       "referencia": "art. 69",
-      "verificado": false,
+      "verificado": true,
       "fecha_alta": "2026-10-30"
     },
     {
@@ -1979,7 +1979,7 @@
       "correcta": 0,
       "explicacion": "El art. 71 regula la inviolabilidad e inmunidad parlamentaria.",
       "referencia": "art. 71",
-      "verificado": false,
+      "verificado": true,
       "fecha_alta": "2026-10-30"
     },
     {
@@ -1999,7 +1999,7 @@
       "correcta": 0,
       "explicacion": "El art. 73 regula las sesiones y legislaturas.",
       "referencia": "art. 73",
-      "verificado": false,
+      "verificado": true,
       "fecha_alta": "2026-10-30"
     },
     {
@@ -2019,7 +2019,7 @@
       "correcta": 0,
       "explicacion": "El art. 72 regula las mesas de las Camaras.",
       "referencia": "art. 72",
-      "verificado": false,
+      "verificado": true,
       "fecha_alta": "2026-10-30"
     },
     {
@@ -2039,7 +2039,7 @@
       "correcta": 0,
       "explicacion": "El art. 81.1 enumera las materias de ley organica.",
       "referencia": "art. 81.1",
-      "verificado": false,
+      "verificado": true,
       "fecha_alta": "2026-10-30"
     },
     {
@@ -2059,7 +2059,7 @@
       "correcta": 0,
       "explicacion": "El art. 87.3 establece la iniciativa legislativa popular con 500.000 firmas.",
       "referencia": "art. 87.3",
-      "verificado": false,
+      "verificado": true,
       "fecha_alta": "2026-10-30"
     },
     {
@@ -2079,7 +2079,7 @@
       "correcta": 0,
       "explicacion": "El art. 88 regula el debate y votacion de totalidad.",
       "referencia": "art. 88",
-      "verificado": false,
+      "verificado": true,
       "fecha_alta": "2026-10-30"
     },
     {
@@ -2099,7 +2099,7 @@
       "correcta": 0,
       "explicacion": "El art. 76 permite crear comisiones de investigación.",
       "referencia": "art. 76",
-      "verificado": false,
+      "verificado": true,
       "fecha_alta": "2026-10-30"
     },
     {
@@ -2119,7 +2119,7 @@
       "correcta": 0,
       "explicacion": "El art. 111 regula preguntas e interpelaciones.",
       "referencia": "art. 111",
-      "verificado": false,
+      "verificado": true,
       "fecha_alta": "2026-10-30"
     },
     {
@@ -2139,7 +2139,7 @@
       "correcta": 0,
       "explicacion": "El art. 54 establece la designacion por las Cortes.",
       "referencia": "art. 54",
-      "verificado": false,
+      "verificado": true,
       "fecha_alta": "2026-10-30"
     },
     {
@@ -2159,7 +2159,7 @@
       "correcta": 0,
       "explicacion": "El art. 136 establece la dependencia de las Cortes.",
       "referencia": "art. 136",
-      "verificado": false,
+      "verificado": true,
       "fecha_alta": "2026-10-30"
     },
     {
@@ -2179,7 +2179,7 @@
       "correcta": 0,
       "explicacion": "El art. 134 establece que los presupuestos se aprueban por ley.",
       "referencia": "art. 134",
-      "verificado": false,
+      "verificado": true,
       "fecha_alta": "2026-10-30"
     },
     {
@@ -2199,7 +2199,7 @@
       "correcta": 0,
       "explicacion": "Los arts. 82 y 85 regulan la delegacion legislativa.",
       "referencia": "art. 82, 85",
-      "verificado": false,
+      "verificado": true,
       "fecha_alta": "2026-10-30"
     },
     {
@@ -2219,7 +2219,7 @@
       "correcta": 0,
       "explicacion": "El art. 86 regula el decreto-ley.",
       "referencia": "art. 86",
-      "verificado": false,
+      "verificado": true,
       "fecha_alta": "2026-10-30"
     },
     {
@@ -2239,7 +2239,7 @@
       "correcta": 0,
       "explicacion": "El art. 98 regula la composicion del Gobierno.",
       "referencia": "art. 98",
-      "verificado": false,
+      "verificado": true,
       "fecha_alta": "2026-10-30"
     },
     {
@@ -2259,7 +2259,7 @@
       "correcta": 0,
       "explicacion": "El art. 99 establece el nombramiento por el Rey.",
       "referencia": "art. 99",
-      "verificado": false,
+      "verificado": true,
       "fecha_alta": "2026-10-30"
     },
     {
@@ -2279,7 +2279,7 @@
       "correcta": 0,
       "explicacion": "El art. 99.2 y 99.3 regulan la segunda votacion.",
       "referencia": "art. 99.2-3",
-      "verificado": false,
+      "verificado": true,
       "fecha_alta": "2026-10-30"
     },
     {
@@ -2299,7 +2299,7 @@
       "correcta": 0,
       "explicacion": "El art. 100 establece el nombramiento por el Rey a propuesta del Presidente.",
       "referencia": "art. 100",
-      "verificado": false,
+      "verificado": true,
       "fecha_alta": "2026-10-30"
     },
     {
@@ -2319,7 +2319,7 @@
       "correcta": 0,
       "explicacion": "El art. 108 establece la responsabilidad ante el Congreso.",
       "referencia": "art. 108",
-      "verificado": false,
+      "verificado": true,
       "fecha_alta": "2026-10-30"
     },
     {
@@ -2339,7 +2339,7 @@
       "correcta": 0,
       "explicacion": "El art. 113 regula la mocion de censura.",
       "referencia": "art. 113",
-      "verificado": false,
+      "verificado": true,
       "fecha_alta": "2026-10-30"
     },
     {
@@ -2359,7 +2359,7 @@
       "correcta": 0,
       "explicacion": "El art. 112 regula la cuestion de confianza.",
       "referencia": "art. 112",
-      "verificado": false,
+      "verificado": true,
       "fecha_alta": "2026-10-30"
     },
     {
@@ -2379,7 +2379,7 @@
       "correcta": 0,
       "explicacion": "El art. 115 regula la disolucion.",
       "referencia": "art. 115",
-      "verificado": false,
+      "verificado": true,
       "fecha_alta": "2026-10-30"
     },
     {
@@ -2399,7 +2399,7 @@
       "correcta": 0,
       "explicacion": "El art. 117.1 proclama la independencia judicial.",
       "referencia": "art. 117.1",
-      "verificado": false,
+      "verificado": true,
       "fecha_alta": "2026-10-30"
     },
     {
@@ -2419,7 +2419,7 @@
       "correcta": 0,
       "explicacion": "El art. 122.2 establece la composicion del CGPJ.",
       "referencia": "art. 122.2",
-      "verificado": false,
+      "verificado": true,
       "fecha_alta": "2026-10-30"
     },
     {
@@ -2439,7 +2439,7 @@
       "correcta": 0,
       "explicacion": "El art. 117.1 establece la inamovilidad.",
       "referencia": "art. 117.1",
-      "verificado": false,
+      "verificado": true,
       "fecha_alta": "2026-10-30"
     },
     {
@@ -2459,7 +2459,7 @@
       "correcta": 0,
       "explicacion": "El art. 117.5 regula la jurisdiccion militar.",
       "referencia": "art. 117.5",
-      "verificado": false,
+      "verificado": true,
       "fecha_alta": "2026-10-30"
     },
     {
@@ -2479,7 +2479,7 @@
       "correcta": 0,
       "explicacion": "El art. 124 establece la dependencia del Gobierno.",
       "referencia": "art. 124",
-      "verificado": false,
+      "verificado": true,
       "fecha_alta": "2026-10-30"
     },
     {
@@ -2499,7 +2499,7 @@
       "correcta": 0,
       "explicacion": "El art. 123 establece esa funcion.",
       "referencia": "art. 123",
-      "verificado": false,
+      "verificado": true,
       "fecha_alta": "2026-10-30"
     },
     {
@@ -2519,7 +2519,7 @@
       "correcta": 0,
       "explicacion": "El art. 137 establece el fundamento de las Comunidades Autonomas.",
       "referencia": "art. 137",
-      "verificado": false,
+      "verificado": true,
       "fecha_alta": "2026-10-30"
     },
     {
@@ -2537,7 +2537,7 @@
       "correcta": 0,
       "explicacion": "El art. 69.1 define al Senado como camara de representacion territorial.",
       "referencia": "art. 69.1",
-      "verificado": false,
+      "verificado": true,
       "fecha_alta": "2026-10-30"
     },
     {
@@ -2557,7 +2557,7 @@
       "correcta": 0,
       "explicacion": "El art. 149.3 establece la competencia residual del Estado.",
       "referencia": "art. 149.3",
-      "verificado": false,
+      "verificado": true,
       "fecha_alta": "2026-10-30"
     },
     {
@@ -2575,7 +2575,7 @@
       "correcta": 0,
       "explicacion": "El art. 138.1 establece la garantia de solidaridad.",
       "referencia": "art. 138.1",
-      "verificado": false,
+      "verificado": true,
       "fecha_alta": "2026-10-30"
     },
     {
@@ -2593,7 +2593,7 @@
       "correcta": 0,
       "explicacion": "El art. 161 establece la funcion del TC.",
       "referencia": "art. 161",
-      "verificado": false,
+      "verificado": true,
       "fecha_alta": "2026-10-30"
     },
     {
@@ -2613,7 +2613,7 @@
       "correcta": 0,
       "explicacion": "El art. 159.1 establece 12 magistrados.",
       "referencia": "art. 159.1",
-      "verificado": false,
+      "verificado": true,
       "fecha_alta": "2026-10-30"
     },
     {
@@ -2633,7 +2633,7 @@
       "correcta": 0,
       "explicacion": "El art. 168 regula la reforma total.",
       "referencia": "art. 168",
-      "verificado": false,
+      "verificado": true,
       "fecha_alta": "2026-10-30"
     },
     {
@@ -2653,7 +2653,7 @@
       "correcta": 0,
       "explicacion": "La disp. transitoria 1.ª regula el regimen provisional.",
       "referencia": "disp. trans. 1.ª",
-      "verificado": false,
+      "verificado": true,
       "fecha_alta": "2026-10-30"
     },
     {
@@ -2671,7 +2671,7 @@
       "correcta": 0,
       "explicacion": "El art. 101.1 establece el cese del Gobierno tras las elecciones.",
       "referencia": "art. 101.1",
-      "verificado": false,
+      "verificado": true,
       "fecha_alta": "2026-10-30"
     },
     {
@@ -2689,7 +2689,7 @@
       "correcta": 0,
       "explicacion": "El art. 102 establece la responsabilidad penal.",
       "referencia": "art. 102",
-      "verificado": false,
+      "verificado": true,
       "fecha_alta": "2026-10-30"
     },
     {
@@ -2709,7 +2709,7 @@
       "correcta": 0,
       "explicacion": "El art. 122.3 establece la renovacion cada 5 años.",
       "referencia": "art. 122.3",
-      "verificado": false,
+      "verificado": true,
       "fecha_alta": "2026-10-30"
     },
     {
@@ -2729,7 +2729,7 @@
       "correcta": 0,
       "explicacion": "El art. 123 y 122 establecen esa funcion.",
       "referencia": "art. 122-123",
-      "verificado": false,
+      "verificado": true,
       "fecha_alta": "2026-10-30"
     },
     {
@@ -2749,7 +2749,7 @@
       "correcta": 0,
       "explicacion": "El art. 122.1 remite a ley organica.",
       "referencia": "art. 122.1",
-      "verificado": false,
+      "verificado": true,
       "fecha_alta": "2026-10-30"
     },
     {
@@ -2767,7 +2767,7 @@
       "correcta": 0,
       "explicacion": "El art. 128.1 establece esa subordinacion.",
       "referencia": "art. 128.1",
-      "verificado": false,
+      "verificado": true,
       "fecha_alta": "2026-10-30"
     },
     {
@@ -2785,7 +2785,7 @@
       "correcta": 0,
       "explicacion": "El art. 128.2 permite la gestion directa.",
       "referencia": "art. 128.2",
-      "verificado": false,
+      "verificado": true,
       "fecha_alta": "2026-10-30"
     },
     {
@@ -2805,7 +2805,7 @@
       "correcta": 0,
       "explicacion": "El art. 133.1 establece ese principio.",
       "referencia": "art. 133.1",
-      "verificado": false,
+      "verificado": true,
       "fecha_alta": "2026-10-30"
     },
     {
@@ -2825,7 +2825,7 @@
       "correcta": 0,
       "explicacion": "El art. 133.2 establece la reserva de ley.",
       "referencia": "art. 133.2",
-      "verificado": false,
+      "verificado": true,
       "fecha_alta": "2026-10-30"
     },
     {
@@ -2845,7 +2845,7 @@
       "correcta": 0,
       "explicacion": "El art. 136 establece la fiscalizacion.",
       "referencia": "art. 136",
-      "verificado": false,
+      "verificado": true,
       "fecha_alta": "2026-10-30"
     },
     {
@@ -2863,7 +2863,7 @@
       "correcta": 0,
       "explicacion": "El art. 147.1 establece esa condicion.",
       "referencia": "art. 147.1",
-      "verificado": false,
+      "verificado": true,
       "fecha_alta": "2026-10-30"
     },
     {
@@ -2883,7 +2883,7 @@
       "correcta": 0,
       "explicacion": "El art. 143.2 regula la iniciativa autonomica.",
       "referencia": "art. 143.2",
-      "verificado": false,
+      "verificado": true,
       "fecha_alta": "2026-10-30"
     },
     {
@@ -2901,7 +2901,7 @@
       "correcta": 0,
       "explicacion": "El art. 144 regula los casos especiales.",
       "referencia": "art. 144",
-      "verificado": false,
+      "verificado": true,
       "fecha_alta": "2026-10-30"
     },
     {
@@ -2921,7 +2921,7 @@
       "correcta": 0,
       "explicacion": "El art. 148 enumera las competencias asumibles.",
       "referencia": "art. 148",
-      "verificado": false,
+      "verificado": true,
       "fecha_alta": "2026-10-30"
     },
     {
@@ -2939,7 +2939,7 @@
       "correcta": 0,
       "explicacion": "El art. 138.1 establece esa garantia.",
       "referencia": "art. 138.1",
-      "verificado": false,
+      "verificado": true,
       "fecha_alta": "2026-10-30"
     },
     {
@@ -2959,7 +2959,7 @@
       "correcta": 0,
       "explicacion": "El art. 159.1 establece el nombramiento.",
       "referencia": "art. 159.1",
-      "verificado": false,
+      "verificado": true,
       "fecha_alta": "2026-10-30"
     },
     {
@@ -2979,7 +2979,7 @@
       "correcta": 0,
       "explicacion": "El art. 159.3 establece el mandato de 9 años.",
       "referencia": "art. 159.3",
-      "verificado": false,
+      "verificado": true,
       "fecha_alta": "2026-10-30"
     },
     {
@@ -2997,7 +2997,7 @@
       "correcta": 0,
       "explicacion": "El art. 161.1.b establece la competencia.",
       "referencia": "art. 161.1.b",
-      "verificado": false,
+      "verificado": true,
       "fecha_alta": "2026-10-30"
     },
     {
@@ -3015,7 +3015,7 @@
       "correcta": 0,
       "explicacion": "El art. 168 establece ese procedimiento.",
       "referencia": "art. 168",
-      "verificado": false,
+      "verificado": true,
       "fecha_alta": "2026-10-30"
     },
     {
@@ -3035,7 +3035,7 @@
       "correcta": 0,
       "explicacion": "La disp. transitoria 4.ª regula el proceso autonomo.",
       "referencia": "disp. trans. 4.ª",
-      "verificado": false,
+      "verificado": true,
       "fecha_alta": "2026-10-30"
     },
     {
@@ -3053,7 +3053,7 @@
       "correcta": 0,
       "explicacion": "El art. 145.2 regula los convenios.",
       "referencia": "art. 145.2",
-      "verificado": false,
+      "verificado": true,
       "fecha_alta": "2026-10-30"
     },
     {
@@ -3071,7 +3071,7 @@
       "correcta": 0,
       "explicacion": "El art. 154 establece esa funcion.",
       "referencia": "art. 154",
-      "verificado": false,
+      "verificado": true,
       "fecha_alta": "2026-10-30"
     }
   ]
