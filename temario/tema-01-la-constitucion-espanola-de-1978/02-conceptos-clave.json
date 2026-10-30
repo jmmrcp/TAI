@@ -1,0 +1,996 @@
+{
+  "tema": "tema-01-la-constitucion",
+  "n_conceptos": 70,
+  "conceptos": [
+    {
+      "id": "c-001",
+      "tipo": "definicion",
+      "articulo": "art. 1",
+      "titulo": "TÍTULO PRELIMINAR",
+      "tags": [
+        "definicion",
+        "garantias"
+      ],
+      "verificado": false,
+      "nombre": "Estado social y democrático de Derecho",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "es_principal": true
+    },
+    {
+      "id": "c-002",
+      "tipo": "definicion",
+      "articulo": "art. 1.1",
+      "titulo": "TÍTULO PRELIMINAR",
+      "tags": [
+        "definicion",
+        "valores"
+      ],
+      "verificado": false,
+      "nombre": "Valores superiores: libertad, justicia, igualdad y pluralismo político",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "es_principal": true
+    },
+    {
+      "id": "c-003",
+      "tipo": "definicion",
+      "articulo": "art. 1.2",
+      "titulo": "TÍTULO PRELIMINAR",
+      "tags": [
+        "soberania"
+      ],
+      "verificado": false,
+      "nombre": "Soberanía nacional reside en el pueblo español",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "es_principal": true
+    },
+    {
+      "id": "c-004",
+      "tipo": "definicion",
+      "articulo": "art. 1.3",
+      "titulo": "TÍTULO PRELIMINAR",
+      "tags": [
+        "forma-politica"
+      ],
+      "verificado": false,
+      "nombre": "Forma política del Estado: Monarquía parlamentaria",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "es_principal": true
+    },
+    {
+      "id": "c-005",
+      "tipo": "definicion",
+      "articulo": "art. 2",
+      "titulo": "TÍTULO PRELIMINAR",
+      "tags": [
+        "nacion",
+        "autonomia"
+      ],
+      "verificado": false,
+      "nombre": "Indisoluble unidad de la Nación española",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "es_principal": true
+    },
+    {
+      "id": "c-006",
+      "tipo": "derecho",
+      "articulo": "art. 2",
+      "titulo": "TÍTULO PRELIMINAR",
+      "tags": [
+        "derechos",
+        "competencias"
+      ],
+      "verificado": false,
+      "nombre": "Derecho a la autonomía de nacionalidades y regiones",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "es_principal": true
+    },
+    {
+      "id": "c-007",
+      "tipo": "definicion",
+      "articulo": "art. 3.1",
+      "titulo": "TÍTULO PRELIMINAR",
+      "tags": [
+        "lengua"
+      ],
+      "verificado": false,
+      "nombre": "Castellano es la lengua española oficial del Estado",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "es_principal": true
+    },
+    {
+      "id": "c-008",
+      "tipo": "definicion",
+      "articulo": "art. 3.2",
+      "titulo": "TÍTULO PRELIMINAR",
+      "tags": [
+        "lengua",
+        "autonomia"
+      ],
+      "verificado": false,
+      "nombre": "Las demás lenguas españolas son también oficiales en sus Comunidades Autónomas",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "es_principal": true
+    },
+    {
+      "id": "c-009",
+      "tipo": "definicion",
+      "articulo": "art. 4.1",
+      "titulo": "TÍTULO PRELIMINAR",
+      "tags": [
+        "simbolos"
+      ],
+      "verificado": false,
+      "nombre": "Bandera de España: roja, amarilla y roja, con el escudo",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "es_principal": true
+    },
+    {
+      "id": "c-010",
+      "tipo": "definicion",
+      "articulo": "art. 5",
+      "titulo": "TÍTULO PRELIMINAR",
+      "tags": [
+        "capital"
+      ],
+      "verificado": false,
+      "nombre": "Capital del Estado es la ciudad de Madrid",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "es_principal": true
+    },
+    {
+      "id": "c-011",
+      "tipo": "definicion",
+      "articulo": "art. 6",
+      "titulo": "TÍTULO PRELIMINAR",
+      "tags": [
+        "partidos"
+      ],
+      "verificado": false,
+      "nombre": "Los partidos políticos expresan el pluralismo político",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "es_principal": true
+    },
+    {
+      "id": "c-012",
+      "tipo": "definicion",
+      "articulo": "art. 7",
+      "titulo": "TÍTULO PRELIMINAR",
+      "tags": [
+        "sindicatos"
+      ],
+      "verificado": false,
+      "nombre": "Los sindicatos de trabajadores y las asociaciones empresariales contribuyen a la defensa de intereses económicos y sociales",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "es_principal": true
+    },
+    {
+      "id": "c-013",
+      "tipo": "definicion",
+      "articulo": "art. 8.1",
+      "titulo": "TÍTULO PRELIMINAR",
+      "tags": [
+        "fuerzas-armadas"
+      ],
+      "verificado": false,
+      "nombre": "Misiones de las Fuerzas Armadas: garantizar la soberanía e independencia y defender la integridad territorial",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "es_principal": true
+    },
+    {
+      "id": "c-014",
+      "tipo": "definicion",
+      "articulo": "art. 9.1",
+      "titulo": "TÍTULO PRELIMINAR",
+      "tags": [
+        "garantias"
+      ],
+      "verificado": false,
+      "nombre": "Los ciudadanos y los poderes públicos están sujetos a la Constitución y al resto del ordenamiento jurídico",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "es_principal": true
+    },
+    {
+      "id": "c-015",
+      "tipo": "definicion",
+      "articulo": "art. 9.2",
+      "titulo": "TÍTULO PRELIMINAR",
+      "tags": [
+        "garantias"
+      ],
+      "verificado": false,
+      "nombre": "Corresponde a los poderes públicos promover las condiciones para que la libertad y la igualdad sean reales y efectivas",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "es_principal": true
+    },
+    {
+      "id": "c-016",
+      "tipo": "definicion",
+      "articulo": "art. 9.3",
+      "titulo": "TÍTULO PRELIMINAR",
+      "tags": [
+        "garantias"
+      ],
+      "verificado": false,
+      "nombre": "La Constitución garantiza el principio de legalidad, la jerarquía normativa, la publicidad de las normas, la irretroactividad, la seguridad jurídica, la responsabilidad y la interdicción de la arbitrariedad",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "es_principal": true
+    },
+    {
+      "id": "c-017",
+      "tipo": "derecho",
+      "articulo": "art. 10.1",
+      "titulo": "TÍTULO I",
+      "tags": [
+        "derechos"
+      ],
+      "verificado": false,
+      "nombre": "Dignidad de la persona, derechos inviolables e inherentes",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "es_principal": true
+    },
+    {
+      "id": "c-018",
+      "tipo": "definicion",
+      "articulo": "art. 10.2",
+      "titulo": "TÍTULO I",
+      "tags": [
+        "derechos",
+        "internacional"
+      ],
+      "verificado": false,
+      "nombre": "Normas sobre derechos fundamentales se interpretan conforme a la Declaración Universal de Derechos Humanos y tratados internacionales",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "es_principal": true
+    },
+    {
+      "id": "c-019",
+      "tipo": "derecho",
+      "articulo": "art. 11",
+      "titulo": "TÍTULO I",
+      "tags": [
+        "nacionalidad"
+      ],
+      "verificado": false,
+      "nombre": "Nacionalidad española: adquisición y pérdida se regulan por ley",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "es_principal": true
+    },
+    {
+      "id": "c-020",
+      "tipo": "derecho",
+      "articulo": "art. 12",
+      "titulo": "TÍTULO I",
+      "tags": [
+        "mayoria-edad"
+      ],
+      "verificado": false,
+      "nombre": "Mayoría de edad a los dieciocho años",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "es_principal": true
+    },
+    {
+      "id": "c-021",
+      "tipo": "derecho",
+      "articulo": "art. 13",
+      "titulo": "TÍTULO I",
+      "tags": [
+        "extranjeros"
+      ],
+      "verificado": false,
+      "nombre": "Extranjeros gozan de las libertades públicas que garantiza el título en los términos de los tratados",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "es_principal": true
+    },
+    {
+      "id": "c-022",
+      "tipo": "derecho",
+      "articulo": "art. 14",
+      "titulo": "TÍTULO I",
+      "tags": [
+        "igualdad"
+      ],
+      "verificado": false,
+      "nombre": "Igualdad ante la ley sin discriminación por nacimiento, raza, sexo, religión, opinión o cualquier otra condición",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "es_principal": true
+    },
+    {
+      "id": "c-023",
+      "tipo": "derecho",
+      "articulo": "art. 15",
+      "titulo": "TÍTULO I",
+      "tags": [
+        "vida"
+      ],
+      "verificado": false,
+      "nombre": "Derecho a la vida y a la integridad física y moral",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "es_principal": true
+    },
+    {
+      "id": "c-024",
+      "tipo": "derecho",
+      "articulo": "art. 16.1",
+      "titulo": "TÍTULO I",
+      "tags": [
+        "religion"
+      ],
+      "verificado": false,
+      "nombre": "Libertad ideológica, religiosa y de culto",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "es_principal": true
+    },
+    {
+      "id": "c-025",
+      "tipo": "derecho",
+      "articulo": "art. 16.3",
+      "titulo": "TÍTULO I",
+      "tags": [
+        "religion"
+      ],
+      "verificado": false,
+      "nombre": "No hay religión oficial del Estado; cooperación con la Iglesia católica y demás confesiones",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "es_principal": true
+    },
+    {
+      "id": "c-026",
+      "tipo": "derecho",
+      "articulo": "art. 17",
+      "titulo": "TÍTULO I",
+      "tags": [
+        "libertad",
+        "seguridad"
+      ],
+      "verificado": false,
+      "nombre": "Derecho a la libertad y a la seguridad; detención con garantías",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "es_principal": true
+    },
+    {
+      "id": "c-027",
+      "tipo": "derecho",
+      "articulo": "art. 18.1",
+      "titulo": "TÍTULO I",
+      "tags": [
+        "honor",
+        "intimidad"
+      ],
+      "verificado": false,
+      "nombre": "Derecho al honor, a la intimidad personal y familiar y a la propia imagen",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "es_principal": true
+    },
+    {
+      "id": "c-028",
+      "tipo": "derecho",
+      "articulo": "art. 18.2",
+      "titulo": "TÍTULO I",
+      "tags": [
+        "domicilio"
+      ],
+      "verificado": false,
+      "nombre": "Inviolabilidad del domicilio",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "es_principal": true
+    },
+    {
+      "id": "c-029",
+      "tipo": "derecho",
+      "articulo": "art. 18.3",
+      "titulo": "TÍTULO I",
+      "tags": [
+        "secreto-comunicaciones"
+      ],
+      "verificado": false,
+      "nombre": "Secreto de las comunicaciones",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "es_principal": true
+    },
+    {
+      "id": "c-030",
+      "tipo": "derecho",
+      "articulo": "art. 18.4",
+      "titulo": "TÍTULO I",
+      "tags": [
+        "proteccion-datos"
+      ],
+      "verificado": false,
+      "nombre": "Límites al uso de la informática para garantizar el honor y la intimidad",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "es_principal": true
+    },
+    {
+      "id": "c-031",
+      "tipo": "derecho",
+      "articulo": "art. 19",
+      "titulo": "TÍTULO I",
+      "tags": [
+        "libertad-circulacion"
+      ],
+      "verificado": false,
+      "nombre": "Libertad de residencia y circulación",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "es_principal": true
+    },
+    {
+      "id": "c-032",
+      "tipo": "derecho",
+      "articulo": "art. 20.1",
+      "titulo": "TÍTULO I",
+      "tags": [
+        "expresion"
+      ],
+      "verificado": false,
+      "nombre": "Libertades de expresión e información",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "es_principal": true
+    },
+    {
+      "id": "c-033",
+      "tipo": "derecho",
+      "articulo": "art. 21",
+      "titulo": "TÍTULO I",
+      "tags": [
+        "reunion"
+      ],
+      "verificado": false,
+      "nombre": "Derecho de reunión pacífica y sin armas",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "es_principal": true
+    },
+    {
+      "id": "c-034",
+      "tipo": "derecho",
+      "articulo": "art. 22",
+      "titulo": "TÍTULO I",
+      "tags": [
+        "asociacion"
+      ],
+      "verificado": false,
+      "nombre": "Derecho de asociación",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "es_principal": true
+    },
+    {
+      "id": "c-035",
+      "tipo": "derecho",
+      "articulo": "art. 23",
+      "titulo": "TÍTULO I",
+      "tags": [
+        "participacion-politica"
+      ],
+      "verificado": false,
+      "nombre": "Derecho a participar en asuntos públicos",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "es_principal": true
+    },
+    {
+      "id": "c-036",
+      "tipo": "derecho",
+      "articulo": "art. 24",
+      "titulo": "TÍTULO I",
+      "tags": [
+        "tutela-judicial"
+      ],
+      "verificado": false,
+      "nombre": "Derecho a la tutela judicial efectiva",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "es_principal": true
+    },
+    {
+      "id": "c-037",
+      "tipo": "derecho",
+      "articulo": "art. 25",
+      "titulo": "TÍTULO I",
+      "tags": [
+        "legalidad-penal"
+      ],
+      "verificado": false,
+      "nombre": "Principio de legalidad penal",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "es_principal": true
+    },
+    {
+      "id": "c-038",
+      "tipo": "derecho",
+      "articulo": "art. 26",
+      "titulo": "TÍTULO I",
+      "tags": [
+        "tribunales-honor"
+      ],
+      "verificado": false,
+      "nombre": "Prohibición de tribunales de honor",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "es_principal": true
+    },
+    {
+      "id": "c-039",
+      "tipo": "derecho",
+      "articulo": "art. 27",
+      "titulo": "TÍTULO I",
+      "tags": [
+        "educacion"
+      ],
+      "verificado": false,
+      "nombre": "Derecho a la educación",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "es_principal": true
+    },
+    {
+      "id": "c-040",
+      "tipo": "derecho",
+      "articulo": "art. 28",
+      "titulo": "TÍTULO I",
+      "tags": [
+        "sindicacion",
+        "huelga"
+      ],
+      "verificado": false,
+      "nombre": "Derecho de sindicación y huelga",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "es_principal": true
+    },
+    {
+      "id": "c-041",
+      "tipo": "derecho",
+      "articulo": "art. 29",
+      "titulo": "TÍTULO I",
+      "tags": [
+        "peticion"
+      ],
+      "verificado": false,
+      "nombre": "Derecho de petición",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "es_principal": true
+    },
+    {
+      "id": "c-042",
+      "tipo": "derecho",
+      "articulo": "art. 30",
+      "titulo": "TÍTULO I",
+      "tags": [
+        "defensa"
+      ],
+      "verificado": false,
+      "nombre": "Derecho y deber de defender a España",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "es_principal": true
+    },
+    {
+      "id": "c-043",
+      "tipo": "derecho",
+      "articulo": "art. 31",
+      "titulo": "TÍTULO I",
+      "tags": [
+        "tributacion"
+      ],
+      "verificado": false,
+      "nombre": "Sistema tributario justo inspirado en principios de igualdad y progresividad",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "es_principal": true
+    },
+    {
+      "id": "c-044",
+      "tipo": "derecho",
+      "articulo": "art. 32",
+      "titulo": "TÍTULO I",
+      "tags": [
+        "matrimonio"
+      ],
+      "verificado": false,
+      "nombre": "Derecho al matrimonio",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "es_principal": true
+    },
+    {
+      "id": "c-045",
+      "tipo": "derecho",
+      "articulo": "art. 35",
+      "titulo": "TÍTULO I",
+      "tags": [
+        "trabajo"
+      ],
+      "verificado": false,
+      "nombre": "Derecho al trabajo y deber de trabajar",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "es_principal": true
+    },
+    {
+      "id": "c-046",
+      "tipo": "derecho",
+      "articulo": "art. 38",
+      "titulo": "TÍTULO I",
+      "tags": [
+        "libre-empresa"
+      ],
+      "verificado": false,
+      "nombre": "Libertad de empresa en el marco de la economía de mercado",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "es_principal": true
+    },
+    {
+      "id": "c-047",
+      "tipo": "procedimiento",
+      "articulo": "art. 53",
+      "titulo": "TÍTULO I",
+      "tags": [
+        "garantias",
+        "recurse"
+      ],
+      "verificado": false,
+      "nombre": "Garantías de los derechos y libertades: recurso de amparo",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "es_principal": true
+    },
+    {
+      "id": "c-048",
+      "tipo": "procedimiento",
+      "articulo": "art. 54",
+      "titulo": "TÍTULO I",
+      "tags": [
+        "defensor-pueblo"
+      ],
+      "verificado": false,
+      "nombre": "Defensor del Pueblo",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "es_principal": true
+    },
+    {
+      "id": "c-049",
+      "tipo": "procedimiento",
+      "articulo": "art. 55",
+      "titulo": "TÍTULO I",
+      "tags": [
+        "suspension"
+      ],
+      "verificado": false,
+      "nombre": "Suspensión de derechos y libertades",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "es_principal": true
+    },
+    {
+      "id": "c-050",
+      "tipo": "organo",
+      "articulo": "art. 56",
+      "titulo": "TÍTULO II",
+      "tags": [
+        "corona"
+      ],
+      "verificado": false,
+      "nombre": "La Corona: símbolo de unidad y permanencia del Estado",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "es_principal": true
+    },
+    {
+      "id": "c-051",
+      "tipo": "organo",
+      "articulo": "art. 57",
+      "titulo": "TÍTULO II",
+      "tags": [
+        "sucesion"
+      ],
+      "verificado": false,
+      "nombre": "Sucesión en la Corona por primogenitura y representación",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "es_principal": true
+    },
+    {
+      "id": "c-052",
+      "tipo": "organo",
+      "articulo": "art. 62",
+      "titulo": "TÍTULO II",
+      "tags": [
+        "funciones-rey"
+      ],
+      "verificado": false,
+      "nombre": "Funciones del Rey",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "es_principal": true
+    },
+    {
+      "id": "c-053",
+      "tipo": "organo",
+      "articulo": "art. 63",
+      "titulo": "TÍTULO II",
+      "tags": [
+        "mando-militar"
+      ],
+      "verificado": false,
+      "nombre": "Mando supremo de las Fuerzas Armadas",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "es_principal": true
+    },
+    {
+      "id": "c-054",
+      "tipo": "organo",
+      "articulo": "art. 64",
+      "titulo": "TÍTULO II",
+      "tags": [
+        "refrendo"
+      ],
+      "verificado": false,
+      "nombre": "Refrendo de los actos del Rey",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "es_principal": true
+    },
+    {
+      "id": "c-055",
+      "tipo": "organo",
+      "articulo": "art. 66",
+      "titulo": "TÍTULO III",
+      "tags": [
+        "cortes"
+      ],
+      "verificado": false,
+      "nombre": "Las Cortes Generales representan al pueblo español",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "es_principal": true
+    },
+    {
+      "id": "c-056",
+      "tipo": "organo",
+      "articulo": "art. 67",
+      "titulo": "TÍTULO III",
+      "tags": [
+        "mandato"
+      ],
+      "verificado": false,
+      "nombre": "Mandato de los parlamentarios",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "es_principal": true
+    },
+    {
+      "id": "c-057",
+      "tipo": "definicion",
+      "articulo": "art. 68",
+      "titulo": "TÍTULO III",
+      "tags": [
+        "congreso"
+      ],
+      "verificado": false,
+      "nombre": "Composición del Congreso de los Diputados",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "es_principal": true
+    },
+    {
+      "id": "c-058",
+      "tipo": "definicion",
+      "articulo": "art. 69",
+      "titulo": "TÍTULO III",
+      "tags": [
+        "senado"
+      ],
+      "verificado": false,
+      "nombre": "Composición del Senado",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "es_principal": true
+    },
+    {
+      "id": "c-059",
+      "tipo": "organo",
+      "articulo": "art. 70",
+      "titulo": "TÍTULO III",
+      "tags": [
+        "incompatibilidades"
+      ],
+      "verificado": false,
+      "nombre": "Incompatibilidades de los parlamentarios",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "es_principal": true
+    },
+    {
+      "id": "c-060",
+      "tipo": "procedimiento",
+      "articulo": "art. 81",
+      "titulo": "TÍTULO III",
+      "tags": [
+        "ley-organica"
+      ],
+      "verificado": false,
+      "nombre": "Ley orgánica: mayoría absoluta del Congreso",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "es_principal": true
+    },
+    {
+      "id": "c-061",
+      "tipo": "procedimiento",
+      "articulo": "art. 87",
+      "titulo": "TÍTULO III",
+      "tags": [
+        "iniciativa-legislativa"
+      ],
+      "verificado": false,
+      "nombre": "Iniciativa legislativa",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "es_principal": true
+    },
+    {
+      "id": "c-062",
+      "tipo": "organo",
+      "articulo": "art. 97",
+      "titulo": "TÍTULO IV",
+      "tags": [
+        "gobierno"
+      ],
+      "verificado": false,
+      "nombre": "El Gobierno dirige la política interior y exterior",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "es_principal": true
+    },
+    {
+      "id": "c-063",
+      "tipo": "organo",
+      "articulo": "art. 98",
+      "titulo": "TÍTULO IV",
+      "tags": [
+        "presidente-gobierno"
+      ],
+      "verificado": false,
+      "nombre": "Nombramiento y cese del Presidente del Gobierno",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "es_principal": true
+    },
+    {
+      "id": "c-064",
+      "tipo": "organo",
+      "articulo": "art. 99",
+      "titulo": "TÍTULO IV",
+      "tags": [
+        "investidura"
+      ],
+      "verificado": false,
+      "nombre": "Investidura del Presidente del Gobierno",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "es_principal": true
+    },
+    {
+      "id": "c-065",
+      "tipo": "organo",
+      "articulo": "art. 100",
+      "titulo": "TÍTULO IV",
+      "tags": [
+        "ministros"
+      ],
+      "verificado": false,
+      "nombre": "Nombramiento y cese de los Ministros",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "es_principal": true
+    },
+    {
+      "id": "c-066",
+      "tipo": "organo",
+      "articulo": "art. 108",
+      "titulo": "TÍTULO V",
+      "tags": [
+        "responsabilidad-gobierno"
+      ],
+      "verificado": false,
+      "nombre": "Responsabilidad política del Gobierno ante el Congreso",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "es_principal": true
+    },
+    {
+      "id": "c-067",
+      "tipo": "organo",
+      "articulo": "art. 117",
+      "titulo": "TÍTULO VI",
+      "tags": [
+        "poder-judicial"
+      ],
+      "verificado": false,
+      "nombre": "Poder judicial: exclusivo de jueces y tribunales",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "es_principal": true
+    },
+    {
+      "id": "c-068",
+      "tipo": "organo",
+      "articulo": "art. 122",
+      "titulo": "TÍTULO VI",
+      "tags": [
+        "cgpj"
+      ],
+      "verificado": false,
+      "nombre": "Consejo General del Poder Judicial",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "es_principal": true
+    },
+    {
+      "id": "c-069",
+      "tipo": "organo",
+      "articulo": "art. 148",
+      "titulo": "TÍTULO VIII",
+      "tags": [
+        "competencias-autonomicas"
+      ],
+      "verificado": false,
+      "nombre": "Competencias de las Comunidades Autónomas",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "es_principal": true
+    },
+    {
+      "id": "c-070",
+      "tipo": "organo",
+      "articulo": "art. 159",
+      "titulo": "TÍTULO IX",
+      "tags": [
+        "tribunal-constitucional"
+      ],
+      "verificado": false,
+      "nombre": "Tribunal Constitucional: composición",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "es_principal": true
+    }
+  ]
+}

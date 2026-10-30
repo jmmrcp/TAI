@@ -1,0 +1,73 @@
+# ============================================================
+# SQLite (binario, regenerable)
+# ============================================================
+oposicion.db
+oposicion.db-wal
+oposicion.db-shm
+oposicion.db-journal
+*.db
+*.db-wal
+*.db-shm
+
+# ============================================================
+# Export (SÍ se versiona, para backup en git)
+# ============================================================
+!export/
+!export/**
+
+# ============================================================
+# Python
+# ============================================================
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+build/
+dist/
+*.egg-info/
+.venv/
+venv/
+env/
+.conda/
+
+# ============================================================
+# Entornos y configuración local
+# ============================================================
+.env
+.env.local
+*.local
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# ============================================================
+# Modelos Whisper (grandes, descargables)
+# ============================================================
+models/
+*.bin
+*.pt
+*.ckpt
+
+# ============================================================
+# Audio/transcripciones pesadas (van aparte)
+# ============================================================
+transcripciones/*.opus
+transcripciones/*.mp3
+transcripciones/*.wav
+transcripciones/*.webm
+transcripciones/*.m4a
+
+# ============================================================
+# Fuentes PDF (por si acaso, según preferencia)
+# ============================================================
+# Descomenta si NO quieres versionar los PDF del BOE
+# temario/*/fuente/*.pdf
+
+# ============================================================
+# Logs y temporales
+# ============================================================
+*.log
+*.tmp
+.cache/

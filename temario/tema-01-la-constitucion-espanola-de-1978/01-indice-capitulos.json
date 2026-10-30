@@ -1,0 +1,1840 @@
+{
+  "tema": "tema-01-la-constitucion-espanola-de-1978",
+  "n_entradas": 185,
+  "entradas": [
+    {
+      "id": "pre-001",
+      "tipo": "preambulo",
+      "titulo": "PREÁMBULO",
+      "rango_lineas": [
+        16,
+        31
+      ]
+    },
+    {
+      "id": "art-1",
+      "tipo": "articulo",
+      "titulo": "Artículo 1.",
+      "capitulo": "TÍTULO PRELIMINAR",
+      "rango_lineas": [
+        33,
+        39
+      ]
+    },
+    {
+      "id": "art-2",
+      "tipo": "articulo",
+      "titulo": "Artículo 2.",
+      "capitulo": "TÍTULO PRELIMINAR",
+      "rango_lineas": [
+        40,
+        43
+      ]
+    },
+    {
+      "id": "art-3",
+      "tipo": "articulo",
+      "titulo": "Artículo 3.",
+      "capitulo": "TÍTULO PRELIMINAR",
+      "rango_lineas": [
+        44,
+        52
+      ]
+    },
+    {
+      "id": "art-4",
+      "tipo": "articulo",
+      "titulo": "Artículo 4.",
+      "capitulo": "TÍTULO PRELIMINAR",
+      "rango_lineas": [
+        53,
+        58
+      ]
+    },
+    {
+      "id": "art-5",
+      "tipo": "articulo",
+      "titulo": "Artículo 5.",
+      "capitulo": "TÍTULO PRELIMINAR",
+      "rango_lineas": [
+        59,
+        60
+      ]
+    },
+    {
+      "id": "art-6",
+      "tipo": "articulo",
+      "titulo": "Artículo 6.",
+      "capitulo": "TÍTULO PRELIMINAR",
+      "rango_lineas": [
+        61,
+        65
+      ]
+    },
+    {
+      "id": "art-7",
+      "tipo": "articulo",
+      "titulo": "Artículo 7.",
+      "capitulo": "TÍTULO PRELIMINAR",
+      "rango_lineas": [
+        66,
+        70
+      ]
+    },
+    {
+      "id": "art-8",
+      "tipo": "articulo",
+      "titulo": "Artículo 8.",
+      "capitulo": "TÍTULO PRELIMINAR",
+      "rango_lineas": [
+        71,
+        76
+      ]
+    },
+    {
+      "id": "art-9",
+      "tipo": "articulo",
+      "titulo": "Artículo 9.",
+      "capitulo": "TÍTULO PRELIMINAR",
+      "rango_lineas": [
+        77,
+        89
+      ]
+    },
+    {
+      "id": "art-10",
+      "tipo": "articulo",
+      "titulo": "Artículo 10.",
+      "capitulo": "TÍTULO I",
+      "rango_lineas": [
+        90,
+        101
+      ]
+    },
+    {
+      "id": "art-11",
+      "tipo": "articulo",
+      "titulo": "Artículo 11.",
+      "capitulo": "TÍTULO I / CAPÍTULO PRIMERO",
+      "rango_lineas": [
+        102,
+        109
+      ]
+    },
+    {
+      "id": "art-12",
+      "tipo": "articulo",
+      "titulo": "Artículo 12.",
+      "capitulo": "TÍTULO I / CAPÍTULO PRIMERO",
+      "rango_lineas": [
+        110,
+        111
+      ]
+    },
+    {
+      "id": "art-13",
+      "tipo": "articulo",
+      "titulo": "Artículo 13.",
+      "capitulo": "TÍTULO I / CAPÍTULO PRIMERO",
+      "rango_lineas": [
+        112,
+        124
+      ]
+    },
+    {
+      "id": "art-14",
+      "tipo": "articulo",
+      "titulo": "Artículo 14.",
+      "capitulo": "TÍTULO I / CAPÍTULO SEGUNDO",
+      "rango_lineas": [
+        125,
+        129
+      ]
+    },
+    {
+      "id": "art-15",
+      "tipo": "articulo",
+      "titulo": "Artículo 15.",
+      "capitulo": "TÍTULO I / CAPÍTULO SEGUNDO / Sección 1.ª De los derechos fundamentales y de las libertades públicas",
+      "rango_lineas": [
+        130,
+        134
+      ]
+    },
+    {
+      "id": "art-16",
+      "tipo": "articulo",
+      "titulo": "Artículo 16.",
+      "capitulo": "TÍTULO I / CAPÍTULO SEGUNDO / Sección 1.ª De los derechos fundamentales y de las libertades públicas",
+      "rango_lineas": [
+        135,
+        144
+      ]
+    },
+    {
+      "id": "art-17",
+      "tipo": "articulo",
+      "titulo": "Artículo 17.",
+      "capitulo": "TÍTULO I / CAPÍTULO SEGUNDO / Sección 1.ª De los derechos fundamentales y de las libertades públicas",
+      "rango_lineas": [
+        145,
+        159
+      ]
+    },
+    {
+      "id": "art-18",
+      "tipo": "articulo",
+      "titulo": "Artículo 18.",
+      "capitulo": "TÍTULO I / CAPÍTULO SEGUNDO / Sección 1.ª De los derechos fundamentales y de las libertades públicas",
+      "rango_lineas": [
+        160,
+        168
+      ]
+    },
+    {
+      "id": "art-19",
+      "tipo": "articulo",
+      "titulo": "Artículo 19.",
+      "capitulo": "TÍTULO I / CAPÍTULO SEGUNDO / Sección 1.ª De los derechos fundamentales y de las libertades públicas",
+      "rango_lineas": [
+        169,
+        173
+      ]
+    },
+    {
+      "id": "art-20",
+      "tipo": "articulo",
+      "titulo": "Artículo 20.",
+      "capitulo": "TÍTULO I / CAPÍTULO SEGUNDO / Sección 1.ª De los derechos fundamentales y de las libertades públicas",
+      "rango_lineas": [
+        174,
+        195
+      ]
+    },
+    {
+      "id": "art-21",
+      "tipo": "articulo",
+      "titulo": "Artículo 21.",
+      "capitulo": "TÍTULO I / CAPÍTULO SEGUNDO / Sección 1.ª De los derechos fundamentales y de las libertades públicas",
+      "rango_lineas": [
+        196,
+        201
+      ]
+    },
+    {
+      "id": "art-22",
+      "tipo": "articulo",
+      "titulo": "Artículo 22.",
+      "capitulo": "TÍTULO I / CAPÍTULO SEGUNDO / Sección 1.ª De los derechos fundamentales y de las libertades públicas",
+      "rango_lineas": [
+        202,
+        210
+      ]
+    },
+    {
+      "id": "art-23",
+      "tipo": "articulo",
+      "titulo": "Artículo 23.",
+      "capitulo": "TÍTULO I / CAPÍTULO SEGUNDO / Sección 1.ª De los derechos fundamentales y de las libertades públicas",
+      "rango_lineas": [
+        211,
+        216
+      ]
+    },
+    {
+      "id": "art-24",
+      "tipo": "articulo",
+      "titulo": "Artículo 24.",
+      "capitulo": "TÍTULO I / CAPÍTULO SEGUNDO / Sección 1.ª De los derechos fundamentales y de las libertades públicas",
+      "rango_lineas": [
+        217,
+        227
+      ]
+    },
+    {
+      "id": "art-25",
+      "tipo": "articulo",
+      "titulo": "Artículo 25.",
+      "capitulo": "TÍTULO I / CAPÍTULO SEGUNDO / Sección 1.ª De los derechos fundamentales y de las libertades públicas",
+      "rango_lineas": [
+        228,
+        240
+      ]
+    },
+    {
+      "id": "art-26",
+      "tipo": "articulo",
+      "titulo": "Artículo 26.",
+      "capitulo": "TÍTULO I / CAPÍTULO SEGUNDO / Sección 1.ª De los derechos fundamentales y de las libertades públicas",
+      "rango_lineas": [
+        241,
+        245
+      ]
+    },
+    {
+      "id": "art-27",
+      "tipo": "articulo",
+      "titulo": "Artículo 27.",
+      "capitulo": "TÍTULO I / CAPÍTULO SEGUNDO / Sección 1.ª De los derechos fundamentales y de las libertades públicas",
+      "rango_lineas": [
+        246,
+        267
+      ]
+    },
+    {
+      "id": "art-28",
+      "tipo": "articulo",
+      "titulo": "Artículo 28.",
+      "capitulo": "TÍTULO I / CAPÍTULO SEGUNDO / Sección 1.ª De los derechos fundamentales y de las libertades públicas",
+      "rango_lineas": [
+        268,
+        278
+      ]
+    },
+    {
+      "id": "art-29",
+      "tipo": "articulo",
+      "titulo": "Artículo 29.",
+      "capitulo": "TÍTULO I / CAPÍTULO SEGUNDO / Sección 1.ª De los derechos fundamentales y de las libertades públicas",
+      "rango_lineas": [
+        279,
+        285
+      ]
+    },
+    {
+      "id": "art-30",
+      "tipo": "articulo",
+      "titulo": "Artículo 30.",
+      "capitulo": "TÍTULO I / CAPÍTULO SEGUNDO / Sección 2.ª De los derechos y deberes de los ciudadanos",
+      "rango_lineas": [
+        286,
+        295
+      ]
+    },
+    {
+      "id": "art-31",
+      "tipo": "articulo",
+      "titulo": "Artículo 31.",
+      "capitulo": "TÍTULO I / CAPÍTULO SEGUNDO / Sección 2.ª De los derechos y deberes de los ciudadanos",
+      "rango_lineas": [
+        296,
+        303
+      ]
+    },
+    {
+      "id": "art-32",
+      "tipo": "articulo",
+      "titulo": "Artículo 32.",
+      "capitulo": "TÍTULO I / CAPÍTULO SEGUNDO / Sección 2.ª De los derechos y deberes de los ciudadanos",
+      "rango_lineas": [
+        304,
+        307
+      ]
+    },
+    {
+      "id": "art-33",
+      "tipo": "articulo",
+      "titulo": "Artículo 33.",
+      "capitulo": "TÍTULO I / CAPÍTULO SEGUNDO / Sección 2.ª De los derechos y deberes de los ciudadanos",
+      "rango_lineas": [
+        308,
+        313
+      ]
+    },
+    {
+      "id": "art-34",
+      "tipo": "articulo",
+      "titulo": "Artículo 34.",
+      "capitulo": "TÍTULO I / CAPÍTULO SEGUNDO / Sección 2.ª De los derechos y deberes de los ciudadanos",
+      "rango_lineas": [
+        314,
+        318
+      ]
+    },
+    {
+      "id": "art-35",
+      "tipo": "articulo",
+      "titulo": "Artículo 35.",
+      "capitulo": "TÍTULO I / CAPÍTULO SEGUNDO / Sección 2.ª De los derechos y deberes de los ciudadanos",
+      "rango_lineas": [
+        319,
+        324
+      ]
+    },
+    {
+      "id": "art-36",
+      "tipo": "articulo",
+      "titulo": "Artículo 36.",
+      "capitulo": "TÍTULO I / CAPÍTULO SEGUNDO / Sección 2.ª De los derechos y deberes de los ciudadanos",
+      "rango_lineas": [
+        325,
+        328
+      ]
+    },
+    {
+      "id": "art-37",
+      "tipo": "articulo",
+      "titulo": "Artículo 37.",
+      "capitulo": "TÍTULO I / CAPÍTULO SEGUNDO / Sección 2.ª De los derechos y deberes de los ciudadanos",
+      "rango_lineas": [
+        329,
+        336
+      ]
+    },
+    {
+      "id": "art-38",
+      "tipo": "articulo",
+      "titulo": "Artículo 38.",
+      "capitulo": "TÍTULO I / CAPÍTULO SEGUNDO / Sección 2.ª De los derechos y deberes de los ciudadanos",
+      "rango_lineas": [
+        337,
+        344
+      ]
+    },
+    {
+      "id": "art-39",
+      "tipo": "articulo",
+      "titulo": "Artículo 39.",
+      "capitulo": "TÍTULO I / CAPÍTULO TERCERO / Sección 2.ª De los derechos y deberes de los ciudadanos",
+      "rango_lineas": [
+        345,
+        354
+      ]
+    },
+    {
+      "id": "art-40",
+      "tipo": "articulo",
+      "titulo": "Artículo 40.",
+      "capitulo": "TÍTULO I / CAPÍTULO TERCERO / Sección 2.ª De los derechos y deberes de los ciudadanos",
+      "rango_lineas": [
+        355,
+        363
+      ]
+    },
+    {
+      "id": "art-41",
+      "tipo": "articulo",
+      "titulo": "Artículo 41.",
+      "capitulo": "TÍTULO I / CAPÍTULO TERCERO / Sección 2.ª De los derechos y deberes de los ciudadanos",
+      "rango_lineas": [
+        364,
+        368
+      ]
+    },
+    {
+      "id": "art-42",
+      "tipo": "articulo",
+      "titulo": "Artículo 42.",
+      "capitulo": "TÍTULO I / CAPÍTULO TERCERO / Sección 2.ª De los derechos y deberes de los ciudadanos",
+      "rango_lineas": [
+        369,
+        372
+      ]
+    },
+    {
+      "id": "art-43",
+      "tipo": "articulo",
+      "titulo": "Artículo 43.",
+      "capitulo": "TÍTULO I / CAPÍTULO TERCERO / Sección 2.ª De los derechos y deberes de los ciudadanos",
+      "rango_lineas": [
+        373,
+        379
+      ]
+    },
+    {
+      "id": "art-44",
+      "tipo": "articulo",
+      "titulo": "Artículo 44.",
+      "capitulo": "TÍTULO I / CAPÍTULO TERCERO / Sección 2.ª De los derechos y deberes de los ciudadanos",
+      "rango_lineas": [
+        380,
+        384
+      ]
+    },
+    {
+      "id": "art-45",
+      "tipo": "articulo",
+      "titulo": "Artículo 45.",
+      "capitulo": "TÍTULO I / CAPÍTULO TERCERO / Sección 2.ª De los derechos y deberes de los ciudadanos",
+      "rango_lineas": [
+        385,
+        395
+      ]
+    },
+    {
+      "id": "art-46",
+      "tipo": "articulo",
+      "titulo": "Artículo 46.",
+      "capitulo": "TÍTULO I / CAPÍTULO TERCERO / Sección 2.ª De los derechos y deberes de los ciudadanos",
+      "rango_lineas": [
+        396,
+        400
+      ]
+    },
+    {
+      "id": "art-47",
+      "tipo": "articulo",
+      "titulo": "Artículo 47.",
+      "capitulo": "TÍTULO I / CAPÍTULO TERCERO / Sección 2.ª De los derechos y deberes de los ciudadanos",
+      "rango_lineas": [
+        401,
+        406
+      ]
+    },
+    {
+      "id": "art-48",
+      "tipo": "articulo",
+      "titulo": "Artículo 48.",
+      "capitulo": "TÍTULO I / CAPÍTULO TERCERO / Sección 2.ª De los derechos y deberes de los ciudadanos",
+      "rango_lineas": [
+        407,
+        409
+      ]
+    },
+    {
+      "id": "art-49",
+      "tipo": "articulo",
+      "titulo": "Artículo 49.",
+      "capitulo": "TÍTULO I / CAPÍTULO TERCERO / Sección 2.ª De los derechos y deberes de los ciudadanos",
+      "rango_lineas": [
+        410,
+        418
+      ]
+    },
+    {
+      "id": "art-50",
+      "tipo": "articulo",
+      "titulo": "Artículo 50.",
+      "capitulo": "TÍTULO I / CAPÍTULO TERCERO / Sección 2.ª De los derechos y deberes de los ciudadanos",
+      "rango_lineas": [
+        419,
+        424
+      ]
+    },
+    {
+      "id": "art-51",
+      "tipo": "articulo",
+      "titulo": "Artículo 51.",
+      "capitulo": "TÍTULO I / CAPÍTULO TERCERO / Sección 2.ª De los derechos y deberes de los ciudadanos",
+      "rango_lineas": [
+        425,
+        433
+      ]
+    },
+    {
+      "id": "art-52",
+      "tipo": "articulo",
+      "titulo": "Artículo 52.",
+      "capitulo": "TÍTULO I / CAPÍTULO TERCERO / Sección 2.ª De los derechos y deberes de los ciudadanos",
+      "rango_lineas": [
+        434,
+        441
+      ]
+    },
+    {
+      "id": "art-53",
+      "tipo": "articulo",
+      "titulo": "Artículo 53.",
+      "capitulo": "TÍTULO I / CAPÍTULO CUARTO / Sección 2.ª De los derechos y deberes de los ciudadanos",
+      "rango_lineas": [
+        442,
+        455
+      ]
+    },
+    {
+      "id": "art-54",
+      "tipo": "articulo",
+      "titulo": "Artículo 54.",
+      "capitulo": "TÍTULO I / CAPÍTULO CUARTO / Sección 2.ª De los derechos y deberes de los ciudadanos",
+      "rango_lineas": [
+        456,
+        462
+      ]
+    },
+    {
+      "id": "art-55",
+      "tipo": "articulo",
+      "titulo": "Artículo 55.",
+      "capitulo": "TÍTULO I / CAPÍTULO QUINTO / Sección 2.ª De los derechos y deberes de los ciudadanos",
+      "rango_lineas": [
+        463,
+        478
+      ]
+    },
+    {
+      "id": "art-56",
+      "tipo": "articulo",
+      "titulo": "Artículo 56.",
+      "capitulo": "TÍTULO II",
+      "rango_lineas": [
+        479,
+        490
+      ]
+    },
+    {
+      "id": "art-57",
+      "tipo": "articulo",
+      "titulo": "Artículo 57.",
+      "capitulo": "TÍTULO II",
+      "rango_lineas": [
+        491,
+        506
+      ]
+    },
+    {
+      "id": "art-58",
+      "tipo": "articulo",
+      "titulo": "Artículo 58.",
+      "capitulo": "TÍTULO II",
+      "rango_lineas": [
+        507,
+        509
+      ]
+    },
+    {
+      "id": "art-59",
+      "tipo": "articulo",
+      "titulo": "Artículo 59.",
+      "capitulo": "TÍTULO II",
+      "rango_lineas": [
+        510,
+        523
+      ]
+    },
+    {
+      "id": "art-60",
+      "tipo": "articulo",
+      "titulo": "Artículo 60.",
+      "capitulo": "TÍTULO II",
+      "rango_lineas": [
+        524,
+        531
+      ]
+    },
+    {
+      "id": "art-61",
+      "tipo": "articulo",
+      "titulo": "Artículo 61.",
+      "capitulo": "TÍTULO II",
+      "rango_lineas": [
+        532,
+        540
+      ]
+    },
+    {
+      "id": "art-62",
+      "tipo": "articulo",
+      "titulo": "Artículo 62.",
+      "capitulo": "TÍTULO II",
+      "rango_lineas": [
+        541,
+        557
+      ]
+    },
+    {
+      "id": "art-63",
+      "tipo": "articulo",
+      "titulo": "Artículo 63.",
+      "capitulo": "TÍTULO II",
+      "rango_lineas": [
+        558,
+        564
+      ]
+    },
+    {
+      "id": "art-64",
+      "tipo": "articulo",
+      "titulo": "Artículo 64.",
+      "capitulo": "TÍTULO II",
+      "rango_lineas": [
+        565,
+        569
+      ]
+    },
+    {
+      "id": "art-65",
+      "tipo": "articulo",
+      "titulo": "Artículo 65.",
+      "capitulo": "TÍTULO II",
+      "rango_lineas": [
+        570,
+        577
+      ]
+    },
+    {
+      "id": "art-66",
+      "tipo": "articulo",
+      "titulo": "Artículo 66.",
+      "capitulo": "TÍTULO III / CAPÍTULO PRIMERO",
+      "rango_lineas": [
+        578,
+        586
+      ]
+    },
+    {
+      "id": "art-67",
+      "tipo": "articulo",
+      "titulo": "Artículo 67.",
+      "capitulo": "TÍTULO III / CAPÍTULO PRIMERO",
+      "rango_lineas": [
+        587,
+        592
+      ]
+    },
+    {
+      "id": "art-68",
+      "tipo": "articulo",
+      "titulo": "Artículo 68.",
+      "capitulo": "TÍTULO III / CAPÍTULO PRIMERO",
+      "rango_lineas": [
+        593,
+        611
+      ]
+    },
+    {
+      "id": "art-69",
+      "tipo": "articulo",
+      "titulo": "Artículo 69.",
+      "capitulo": "TÍTULO III / CAPÍTULO PRIMERO",
+      "rango_lineas": [
+        612,
+        628
+      ]
+    },
+    {
+      "id": "art-70",
+      "tipo": "articulo",
+      "titulo": "Artículo 70.",
+      "capitulo": "TÍTULO III / CAPÍTULO PRIMERO",
+      "rango_lineas": [
+        629,
+        643
+      ]
+    },
+    {
+      "id": "art-71",
+      "tipo": "articulo",
+      "titulo": "Artículo 71.",
+      "capitulo": "TÍTULO III / CAPÍTULO PRIMERO",
+      "rango_lineas": [
+        644,
+        653
+      ]
+    },
+    {
+      "id": "art-72",
+      "tipo": "articulo",
+      "titulo": "Artículo 72.",
+      "capitulo": "TÍTULO III / CAPÍTULO PRIMERO",
+      "rango_lineas": [
+        654,
+        664
+      ]
+    },
+    {
+      "id": "art-73",
+      "tipo": "articulo",
+      "titulo": "Artículo 73.",
+      "capitulo": "TÍTULO III / CAPÍTULO PRIMERO",
+      "rango_lineas": [
+        665,
+        671
+      ]
+    },
+    {
+      "id": "art-74",
+      "tipo": "articulo",
+      "titulo": "Artículo 74.",
+      "capitulo": "TÍTULO III / CAPÍTULO PRIMERO",
+      "rango_lineas": [
+        672,
+        681
+      ]
+    },
+    {
+      "id": "art-75",
+      "tipo": "articulo",
+      "titulo": "Artículo 75.",
+      "capitulo": "TÍTULO III / CAPÍTULO PRIMERO",
+      "rango_lineas": [
+        682,
+        692
+      ]
+    },
+    {
+      "id": "art-76",
+      "tipo": "articulo",
+      "titulo": "Artículo 76.",
+      "capitulo": "TÍTULO III / CAPÍTULO PRIMERO",
+      "rango_lineas": [
+        693,
+        700
+      ]
+    },
+    {
+      "id": "art-77",
+      "tipo": "articulo",
+      "titulo": "Artículo 77.",
+      "capitulo": "TÍTULO III / CAPÍTULO PRIMERO",
+      "rango_lineas": [
+        701,
+        705
+      ]
+    },
+    {
+      "id": "art-78",
+      "tipo": "articulo",
+      "titulo": "Artículo 78.",
+      "capitulo": "TÍTULO III / CAPÍTULO PRIMERO",
+      "rango_lineas": [
+        706,
+        718
+      ]
+    },
+    {
+      "id": "art-79",
+      "tipo": "articulo",
+      "titulo": "Artículo 79.",
+      "capitulo": "TÍTULO III / CAPÍTULO PRIMERO",
+      "rango_lineas": [
+        719,
+        726
+      ]
+    },
+    {
+      "id": "art-80",
+      "tipo": "articulo",
+      "titulo": "Artículo 80.",
+      "capitulo": "TÍTULO III / CAPÍTULO PRIMERO",
+      "rango_lineas": [
+        727,
+        731
+      ]
+    },
+    {
+      "id": "art-81",
+      "tipo": "articulo",
+      "titulo": "Artículo 81.",
+      "capitulo": "TÍTULO III / CAPÍTULO SEGUNDO",
+      "rango_lineas": [
+        732,
+        739
+      ]
+    },
+    {
+      "id": "art-82",
+      "tipo": "articulo",
+      "titulo": "Artículo 82.",
+      "capitulo": "TÍTULO III / CAPÍTULO SEGUNDO",
+      "rango_lineas": [
+        740,
+        758
+      ]
+    },
+    {
+      "id": "art-83",
+      "tipo": "articulo",
+      "titulo": "Artículo 83.",
+      "capitulo": "TÍTULO III / CAPÍTULO SEGUNDO",
+      "rango_lineas": [
+        759,
+        762
+      ]
+    },
+    {
+      "id": "art-84",
+      "tipo": "articulo",
+      "titulo": "Artículo 84.",
+      "capitulo": "TÍTULO III / CAPÍTULO SEGUNDO",
+      "rango_lineas": [
+        763,
+        767
+      ]
+    },
+    {
+      "id": "art-85",
+      "tipo": "articulo",
+      "titulo": "Artículo 85.",
+      "capitulo": "TÍTULO III / CAPÍTULO SEGUNDO",
+      "rango_lineas": [
+        768,
+        770
+      ]
+    },
+    {
+      "id": "art-86",
+      "tipo": "articulo",
+      "titulo": "Artículo 86.",
+      "capitulo": "TÍTULO III / CAPÍTULO SEGUNDO",
+      "rango_lineas": [
+        771,
+        783
+      ]
+    },
+    {
+      "id": "art-87",
+      "tipo": "articulo",
+      "titulo": "Artículo 87.",
+      "capitulo": "TÍTULO III / CAPÍTULO SEGUNDO",
+      "rango_lineas": [
+        784,
+        796
+      ]
+    },
+    {
+      "id": "art-88",
+      "tipo": "articulo",
+      "titulo": "Artículo 88.",
+      "capitulo": "TÍTULO III / CAPÍTULO SEGUNDO",
+      "rango_lineas": [
+        797,
+        800
+      ]
+    },
+    {
+      "id": "art-89",
+      "tipo": "articulo",
+      "titulo": "Artículo 89.",
+      "capitulo": "TÍTULO III / CAPÍTULO SEGUNDO",
+      "rango_lineas": [
+        801,
+        806
+      ]
+    },
+    {
+      "id": "art-90",
+      "tipo": "articulo",
+      "titulo": "Artículo 90.",
+      "capitulo": "TÍTULO III / CAPÍTULO SEGUNDO",
+      "rango_lineas": [
+        807,
+        819
+      ]
+    },
+    {
+      "id": "art-91",
+      "tipo": "articulo",
+      "titulo": "Artículo 91.",
+      "capitulo": "TÍTULO III / CAPÍTULO SEGUNDO",
+      "rango_lineas": [
+        820,
+        822
+      ]
+    },
+    {
+      "id": "art-92",
+      "tipo": "articulo",
+      "titulo": "Artículo 92.",
+      "capitulo": "TÍTULO III / CAPÍTULO SEGUNDO",
+      "rango_lineas": [
+        823,
+        831
+      ]
+    },
+    {
+      "id": "art-93",
+      "tipo": "articulo",
+      "titulo": "Artículo 93.",
+      "capitulo": "TÍTULO III / CAPÍTULO TERCERO",
+      "rango_lineas": [
+        832,
+        839
+      ]
+    },
+    {
+      "id": "art-94",
+      "tipo": "articulo",
+      "titulo": "Artículo 94.",
+      "capitulo": "TÍTULO III / CAPÍTULO TERCERO",
+      "rango_lineas": [
+        840,
+        852
+      ]
+    },
+    {
+      "id": "art-95",
+      "tipo": "articulo",
+      "titulo": "Artículo 95.",
+      "capitulo": "TÍTULO III / CAPÍTULO TERCERO",
+      "rango_lineas": [
+        853,
+        857
+      ]
+    },
+    {
+      "id": "art-96",
+      "tipo": "articulo",
+      "titulo": "Artículo 96.",
+      "capitulo": "TÍTULO III / CAPÍTULO TERCERO",
+      "rango_lineas": [
+        858,
+        866
+      ]
+    },
+    {
+      "id": "art-97",
+      "tipo": "articulo",
+      "titulo": "Artículo 97.",
+      "capitulo": "TÍTULO IV",
+      "rango_lineas": [
+        867,
+        870
+      ]
+    },
+    {
+      "id": "art-98",
+      "tipo": "articulo",
+      "titulo": "Artículo 98.",
+      "capitulo": "TÍTULO IV",
+      "rango_lineas": [
+        871,
+        880
+      ]
+    },
+    {
+      "id": "art-99",
+      "tipo": "articulo",
+      "titulo": "Artículo 99.",
+      "capitulo": "TÍTULO IV",
+      "rango_lineas": [
+        881,
+        899
+      ]
+    },
+    {
+      "id": "art-100",
+      "tipo": "articulo",
+      "titulo": "Artículo 100.",
+      "capitulo": "TÍTULO IV",
+      "rango_lineas": [
+        900,
+        902
+      ]
+    },
+    {
+      "id": "art-101",
+      "tipo": "articulo",
+      "titulo": "Artículo 101.",
+      "capitulo": "TÍTULO IV",
+      "rango_lineas": [
+        903,
+        908
+      ]
+    },
+    {
+      "id": "art-102",
+      "tipo": "articulo",
+      "titulo": "Artículo 102.",
+      "capitulo": "TÍTULO IV",
+      "rango_lineas": [
+        909,
+        916
+      ]
+    },
+    {
+      "id": "art-103",
+      "tipo": "articulo",
+      "titulo": "Artículo 103.",
+      "capitulo": "TÍTULO IV",
+      "rango_lineas": [
+        917,
+        926
+      ]
+    },
+    {
+      "id": "art-104",
+      "tipo": "articulo",
+      "titulo": "Artículo 104.",
+      "capitulo": "TÍTULO IV",
+      "rango_lineas": [
+        927,
+        932
+      ]
+    },
+    {
+      "id": "art-105",
+      "tipo": "articulo",
+      "titulo": "Artículo 105.",
+      "capitulo": "TÍTULO IV",
+      "rango_lineas": [
+        933,
+        944
+      ]
+    },
+    {
+      "id": "art-106",
+      "tipo": "articulo",
+      "titulo": "Artículo 106.",
+      "capitulo": "TÍTULO IV",
+      "rango_lineas": [
+        945,
+        951
+      ]
+    },
+    {
+      "id": "art-107",
+      "tipo": "articulo",
+      "titulo": "Artículo 107.",
+      "capitulo": "TÍTULO IV",
+      "rango_lineas": [
+        952,
+        956
+      ]
+    },
+    {
+      "id": "art-108",
+      "tipo": "articulo",
+      "titulo": "Artículo 108.",
+      "capitulo": "TÍTULO V",
+      "rango_lineas": [
+        957,
+        959
+      ]
+    },
+    {
+      "id": "art-109",
+      "tipo": "articulo",
+      "titulo": "Artículo 109.",
+      "capitulo": "TÍTULO V",
+      "rango_lineas": [
+        960,
+        963
+      ]
+    },
+    {
+      "id": "art-110",
+      "tipo": "articulo",
+      "titulo": "Artículo 110.",
+      "capitulo": "TÍTULO V",
+      "rango_lineas": [
+        964,
+        969
+      ]
+    },
+    {
+      "id": "art-111",
+      "tipo": "articulo",
+      "titulo": "Artículo 111.",
+      "capitulo": "TÍTULO V",
+      "rango_lineas": [
+        970,
+        975
+      ]
+    },
+    {
+      "id": "art-112",
+      "tipo": "articulo",
+      "titulo": "Artículo 112.",
+      "capitulo": "TÍTULO V",
+      "rango_lineas": [
+        976,
+        982
+      ]
+    },
+    {
+      "id": "art-113",
+      "tipo": "articulo",
+      "titulo": "Artículo 113.",
+      "capitulo": "TÍTULO V",
+      "rango_lineas": [
+        983,
+        992
+      ]
+    },
+    {
+      "id": "art-114",
+      "tipo": "articulo",
+      "titulo": "Artículo 114.",
+      "capitulo": "TÍTULO V",
+      "rango_lineas": [
+        993,
+        999
+      ]
+    },
+    {
+      "id": "art-115",
+      "tipo": "articulo",
+      "titulo": "Artículo 115.",
+      "capitulo": "TÍTULO V",
+      "rango_lineas": [
+        1000,
+        1008
+      ]
+    },
+    {
+      "id": "art-116",
+      "tipo": "articulo",
+      "titulo": "Artículo 116.",
+      "capitulo": "TÍTULO V",
+      "rango_lineas": [
+        1009,
+        1039
+      ]
+    },
+    {
+      "id": "art-117",
+      "tipo": "articulo",
+      "titulo": "Artículo 117.",
+      "capitulo": "TÍTULO VI",
+      "rango_lineas": [
+        1040,
+        1057
+      ]
+    },
+    {
+      "id": "art-118",
+      "tipo": "articulo",
+      "titulo": "Artículo 118.",
+      "capitulo": "TÍTULO VI",
+      "rango_lineas": [
+        1058,
+        1061
+      ]
+    },
+    {
+      "id": "art-119",
+      "tipo": "articulo",
+      "titulo": "Artículo 119.",
+      "capitulo": "TÍTULO VI",
+      "rango_lineas": [
+        1062,
+        1064
+      ]
+    },
+    {
+      "id": "art-120",
+      "tipo": "articulo",
+      "titulo": "Artículo 120.",
+      "capitulo": "TÍTULO VI",
+      "rango_lineas": [
+        1065,
+        1069
+      ]
+    },
+    {
+      "id": "art-121",
+      "tipo": "articulo",
+      "titulo": "Artículo 121.",
+      "capitulo": "TÍTULO VI",
+      "rango_lineas": [
+        1070,
+        1073
+      ]
+    },
+    {
+      "id": "art-122",
+      "tipo": "articulo",
+      "titulo": "Artículo 122.",
+      "capitulo": "TÍTULO VI",
+      "rango_lineas": [
+        1074,
+        1091
+      ]
+    },
+    {
+      "id": "art-123",
+      "tipo": "articulo",
+      "titulo": "Artículo 123.",
+      "capitulo": "TÍTULO VI",
+      "rango_lineas": [
+        1092,
+        1096
+      ]
+    },
+    {
+      "id": "art-124",
+      "tipo": "articulo",
+      "titulo": "Artículo 124.",
+      "capitulo": "TÍTULO VI",
+      "rango_lineas": [
+        1097,
+        1108
+      ]
+    },
+    {
+      "id": "art-125",
+      "tipo": "articulo",
+      "titulo": "Artículo 125.",
+      "capitulo": "TÍTULO VI",
+      "rango_lineas": [
+        1109,
+        1112
+      ]
+    },
+    {
+      "id": "art-126",
+      "tipo": "articulo",
+      "titulo": "Artículo 126.",
+      "capitulo": "TÍTULO VI",
+      "rango_lineas": [
+        1113,
+        1116
+      ]
+    },
+    {
+      "id": "art-127",
+      "tipo": "articulo",
+      "titulo": "Artículo 127.",
+      "capitulo": "TÍTULO VI",
+      "rango_lineas": [
+        1117,
+        1125
+      ]
+    },
+    {
+      "id": "art-128",
+      "tipo": "articulo",
+      "titulo": "Artículo 128.",
+      "capitulo": "TÍTULO VII",
+      "rango_lineas": [
+        1126,
+        1134
+      ]
+    },
+    {
+      "id": "art-129",
+      "tipo": "articulo",
+      "titulo": "Artículo 129.",
+      "capitulo": "TÍTULO VII",
+      "rango_lineas": [
+        1135,
+        1142
+      ]
+    },
+    {
+      "id": "art-130",
+      "tipo": "articulo",
+      "titulo": "Artículo 130.",
+      "capitulo": "TÍTULO VII",
+      "rango_lineas": [
+        1143,
+        1147
+      ]
+    },
+    {
+      "id": "art-131",
+      "tipo": "articulo",
+      "titulo": "Artículo 131.",
+      "capitulo": "TÍTULO VII",
+      "rango_lineas": [
+        1148,
+        1156
+      ]
+    },
+    {
+      "id": "art-132",
+      "tipo": "articulo",
+      "titulo": "Artículo 132.",
+      "capitulo": "TÍTULO VII",
+      "rango_lineas": [
+        1157,
+        1165
+      ]
+    },
+    {
+      "id": "art-133",
+      "tipo": "articulo",
+      "titulo": "Artículo 133.",
+      "capitulo": "TÍTULO VII",
+      "rango_lineas": [
+        1166,
+        1174
+      ]
+    },
+    {
+      "id": "art-134",
+      "tipo": "articulo",
+      "titulo": "Artículo 134.",
+      "capitulo": "TÍTULO VII",
+      "rango_lineas": [
+        1175,
+        1194
+      ]
+    },
+    {
+      "id": "art-135",
+      "tipo": "articulo",
+      "titulo": "Artículo 135.",
+      "capitulo": "TÍTULO VII",
+      "rango_lineas": [
+        1195,
+        1230
+      ]
+    },
+    {
+      "id": "art-136",
+      "tipo": "articulo",
+      "titulo": "Artículo 136.",
+      "capitulo": "TÍTULO VII",
+      "rango_lineas": [
+        1231,
+        1250
+      ]
+    },
+    {
+      "id": "art-137",
+      "tipo": "articulo",
+      "titulo": "Artículo 137.",
+      "capitulo": "TÍTULO VIII / CAPÍTULO PRIMERO",
+      "rango_lineas": [
+        1251,
+        1254
+      ]
+    },
+    {
+      "id": "art-138",
+      "tipo": "articulo",
+      "titulo": "Artículo 138.",
+      "capitulo": "TÍTULO VIII / CAPÍTULO PRIMERO",
+      "rango_lineas": [
+        1255,
+        1261
+      ]
+    },
+    {
+      "id": "art-139",
+      "tipo": "articulo",
+      "titulo": "Artículo 139.",
+      "capitulo": "TÍTULO VIII / CAPÍTULO PRIMERO",
+      "rango_lineas": [
+        1262,
+        1269
+      ]
+    },
+    {
+      "id": "art-140",
+      "tipo": "articulo",
+      "titulo": "Artículo 140.",
+      "capitulo": "TÍTULO VIII / CAPÍTULO SEGUNDO",
+      "rango_lineas": [
+        1270,
+        1276
+      ]
+    },
+    {
+      "id": "art-141",
+      "tipo": "articulo",
+      "titulo": "Artículo 141.",
+      "capitulo": "TÍTULO VIII / CAPÍTULO SEGUNDO",
+      "rango_lineas": [
+        1277,
+        1288
+      ]
+    },
+    {
+      "id": "art-142",
+      "tipo": "articulo",
+      "titulo": "Artículo 142.",
+      "capitulo": "TÍTULO VIII / CAPÍTULO SEGUNDO",
+      "rango_lineas": [
+        1289,
+        1295
+      ]
+    },
+    {
+      "id": "art-143",
+      "tipo": "articulo",
+      "titulo": "Artículo 143.",
+      "capitulo": "TÍTULO VIII / CAPÍTULO TERCERO",
+      "rango_lineas": [
+        1296,
+        1307
+      ]
+    },
+    {
+      "id": "art-144",
+      "tipo": "articulo",
+      "titulo": "Artículo 144.",
+      "capitulo": "TÍTULO VIII / CAPÍTULO TERCERO",
+      "rango_lineas": [
+        1308,
+        1315
+      ]
+    },
+    {
+      "id": "art-145",
+      "tipo": "articulo",
+      "titulo": "Artículo 145.",
+      "capitulo": "TÍTULO VIII / CAPÍTULO TERCERO",
+      "rango_lineas": [
+        1316,
+        1323
+      ]
+    },
+    {
+      "id": "art-146",
+      "tipo": "articulo",
+      "titulo": "Artículo 146.",
+      "capitulo": "TÍTULO VIII / CAPÍTULO TERCERO",
+      "rango_lineas": [
+        1324,
+        1328
+      ]
+    },
+    {
+      "id": "art-147",
+      "tipo": "articulo",
+      "titulo": "Artículo 147.",
+      "capitulo": "TÍTULO VIII / CAPÍTULO TERCERO",
+      "rango_lineas": [
+        1329,
+        1342
+      ]
+    },
+    {
+      "id": "art-148",
+      "tipo": "articulo",
+      "titulo": "Artículo 148.",
+      "capitulo": "TÍTULO VIII / CAPÍTULO TERCERO",
+      "rango_lineas": [
+        1343,
+        1381
+      ]
+    },
+    {
+      "id": "art-149",
+      "tipo": "articulo",
+      "titulo": "Artículo 149.",
+      "capitulo": "TÍTULO VIII / CAPÍTULO TERCERO",
+      "rango_lineas": [
+        1382,
+        1469
+      ]
+    },
+    {
+      "id": "art-150",
+      "tipo": "articulo",
+      "titulo": "Artículo 150.",
+      "capitulo": "TÍTULO VIII / CAPÍTULO TERCERO",
+      "rango_lineas": [
+        1470,
+        1486
+      ]
+    },
+    {
+      "id": "art-151",
+      "tipo": "articulo",
+      "titulo": "Artículo 151.",
+      "capitulo": "TÍTULO VIII / CAPÍTULO TERCERO",
+      "rango_lineas": [
+        1487,
+        1524
+      ]
+    },
+    {
+      "id": "art-152",
+      "tipo": "articulo",
+      "titulo": "Artículo 152.",
+      "capitulo": "TÍTULO VIII / CAPÍTULO TERCERO",
+      "rango_lineas": [
+        1525,
+        1548
+      ]
+    },
+    {
+      "id": "art-153",
+      "tipo": "articulo",
+      "titulo": "Artículo 153.",
+      "capitulo": "TÍTULO VIII / CAPÍTULO TERCERO",
+      "rango_lineas": [
+        1549,
+        1559
+      ]
+    },
+    {
+      "id": "art-154",
+      "tipo": "articulo",
+      "titulo": "Artículo 154.",
+      "capitulo": "TÍTULO VIII / CAPÍTULO TERCERO",
+      "rango_lineas": [
+        1560,
+        1563
+      ]
+    },
+    {
+      "id": "art-155",
+      "tipo": "articulo",
+      "titulo": "Artículo 155.",
+      "capitulo": "TÍTULO VIII / CAPÍTULO TERCERO",
+      "rango_lineas": [
+        1564,
+        1572
+      ]
+    },
+    {
+      "id": "art-156",
+      "tipo": "articulo",
+      "titulo": "Artículo 156.",
+      "capitulo": "TÍTULO VIII / CAPÍTULO TERCERO",
+      "rango_lineas": [
+        1573,
+        1579
+      ]
+    },
+    {
+      "id": "art-157",
+      "tipo": "articulo",
+      "titulo": "Artículo 157.",
+      "capitulo": "TÍTULO VIII / CAPÍTULO TERCERO",
+      "rango_lineas": [
+        1580,
+        1595
+      ]
+    },
+    {
+      "id": "art-158",
+      "tipo": "articulo",
+      "titulo": "Artículo 158.",
+      "capitulo": "TÍTULO VIII / CAPÍTULO TERCERO",
+      "rango_lineas": [
+        1596,
+        1608
+      ]
+    },
+    {
+      "id": "art-159",
+      "tipo": "articulo",
+      "titulo": "Artículo 159.",
+      "capitulo": "TÍTULO IX",
+      "rango_lineas": [
+        1609,
+        1627
+      ]
+    },
+    {
+      "id": "art-160",
+      "tipo": "articulo",
+      "titulo": "Artículo 160.",
+      "capitulo": "TÍTULO IX",
+      "rango_lineas": [
+        1628,
+        1630
+      ]
+    },
+    {
+      "id": "art-161",
+      "tipo": "articulo",
+      "titulo": "Artículo 161.",
+      "capitulo": "TÍTULO IX",
+      "rango_lineas": [
+        1631,
+        1646
+      ]
+    },
+    {
+      "id": "art-162",
+      "tipo": "articulo",
+      "titulo": "Artículo 162.",
+      "capitulo": "TÍTULO IX",
+      "rango_lineas": [
+        1647,
+        1656
+      ]
+    },
+    {
+      "id": "art-163",
+      "tipo": "articulo",
+      "titulo": "Artículo 163.",
+      "capitulo": "TÍTULO IX",
+      "rango_lineas": [
+        1657,
+        1661
+      ]
+    },
+    {
+      "id": "art-164",
+      "tipo": "articulo",
+      "titulo": "Artículo 164.",
+      "capitulo": "TÍTULO IX",
+      "rango_lineas": [
+        1662,
+        1669
+      ]
+    },
+    {
+      "id": "art-165",
+      "tipo": "articulo",
+      "titulo": "Artículo 165.",
+      "capitulo": "TÍTULO IX",
+      "rango_lineas": [
+        1670,
+        1675
+      ]
+    },
+    {
+      "id": "art-166",
+      "tipo": "articulo",
+      "titulo": "Artículo 166.",
+      "capitulo": "TÍTULO X",
+      "rango_lineas": [
+        1676,
+        1678
+      ]
+    },
+    {
+      "id": "art-167",
+      "tipo": "articulo",
+      "titulo": "Artículo 167.",
+      "capitulo": "TÍTULO X",
+      "rango_lineas": [
+        1679,
+        1689
+      ]
+    },
+    {
+      "id": "art-168",
+      "tipo": "articulo",
+      "titulo": "Artículo 168.",
+      "capitulo": "TÍTULO X",
+      "rango_lineas": [
+        1690,
+        1699
+      ]
+    },
+    {
+      "id": "art-169",
+      "tipo": "articulo",
+      "titulo": "Artículo 169.",
+      "capitulo": "TÍTULO X",
+      "rango_lineas": [
+        1700,
+        1704
+      ]
+    },
+    {
+      "id": "disp-001",
+      "tipo": "disposicion",
+      "titulo": "Disposición adicional primera.",
+      "rango_lineas": [
+        1705,
+        1708
+      ]
+    },
+    {
+      "id": "disp-002",
+      "tipo": "disposicion",
+      "titulo": "Disposición adicional segunda.",
+      "rango_lineas": [
+        1709,
+        1712
+      ]
+    },
+    {
+      "id": "disp-003",
+      "tipo": "disposicion",
+      "titulo": "Disposición adicional tercera.",
+      "rango_lineas": [
+        1713,
+        1715
+      ]
+    },
+    {
+      "id": "disp-004",
+      "tipo": "disposicion",
+      "titulo": "Disposición adicional cuarta.",
+      "rango_lineas": [
+        1716,
+        1720
+      ]
+    },
+    {
+      "id": "disp-005",
+      "tipo": "disposicion",
+      "titulo": "Disposición transitoria primera.",
+      "rango_lineas": [
+        1721,
+        1725
+      ]
+    },
+    {
+      "id": "disp-006",
+      "tipo": "disposicion",
+      "titulo": "Disposición transitoria segunda.",
+      "rango_lineas": [
+        1726,
+        1733
+      ]
+    },
+    {
+      "id": "disp-007",
+      "tipo": "disposicion",
+      "titulo": "Disposición transitoria tercera.",
+      "rango_lineas": [
+        1734,
+        1738
+      ]
+    },
+    {
+      "id": "disp-008",
+      "tipo": "disposicion",
+      "titulo": "Disposición transitoria cuarta.",
+      "rango_lineas": [
+        1739,
+        1751
+      ]
+    },
+    {
+      "id": "disp-009",
+      "tipo": "disposicion",
+      "titulo": "Disposición transitoria quinta.",
+      "rango_lineas": [
+        1752,
+        1756
+      ]
+    },
+    {
+      "id": "disp-010",
+      "tipo": "disposicion",
+      "titulo": "Disposición transitoria sexta.",
+      "rango_lineas": [
+        1757,
+        1761
+      ]
+    },
+    {
+      "id": "disp-011",
+      "tipo": "disposicion",
+      "titulo": "Disposición transitoria séptima.",
+      "rango_lineas": [
+        1762,
+        1770
+      ]
+    },
+    {
+      "id": "disp-012",
+      "tipo": "disposicion",
+      "titulo": "Disposición transitoria octava.",
+      "rango_lineas": [
+        1771,
+        1790
+      ]
+    },
+    {
+      "id": "disp-013",
+      "tipo": "disposicion",
+      "titulo": "Disposición transitoria novena.",
+      "rango_lineas": [
+        1791,
+        1801
+      ]
+    },
+    {
+      "id": "disp-014",
+      "tipo": "disposicion",
+      "titulo": "Disposición derogatoria.",
+      "rango_lineas": [
+        1802,
+        1816
+      ]
+    },
+    {
+      "id": "disp-015",
+      "tipo": "disposicion",
+      "titulo": "Disposición final.",
+      "rango_lineas": [
+        1817,
+        1835
+      ]
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "id": "cuadro-mayorias",
+  "tema_id": "tema-01-la-constitucion-espanola-de-1978",
+  "tipo_dato": "mayoria",
+  "titulo": "Mayorías constitucionales",
+  "semilla": false,
+  "n_filas": 6,
+  "n_fuentes_distintas": 6,
+  "columnas": [
+    "materia",
+    "mayoria"
+  ],
+  "columna_clave": "materia",
+  "columna_respuesta": "mayoria",
+  "columna_contexto": null,
+  "columna_fuente": "fuente",
+  "filas": [
+    {
+      "id": "m1",
+      "fuente": "art. 81.2",
+      "fuente_tipo": "articulo",
+      "valores": {
+        "materia": "Leyes orgánicas",
+        "mayoria": "Mayoría absoluta del Congreso"
+      },
+      "pasaje_origen": "art. 81.2",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "m2",
+      "fuente": "art. 99.2",
+      "fuente_tipo": "articulo",
+      "valores": {
+        "materia": "Investidura (1.ª votación)",
+        "mayoria": "Mayoría absoluta"
+      },
+      "pasaje_origen": "art. 99.2",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "m3",
+      "fuente": "art. 99.3",
+      "fuente_tipo": "articulo",
+      "valores": {
+        "materia": "Investidura (2.ª votación)",
+        "mayoria": "Mayoría simple"
+      },
+      "pasaje_origen": "art. 99.3",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "m4",
+      "fuente": "art. 113.2",
+      "fuente_tipo": "articulo",
+      "valores": {
+        "materia": "Moción de censura",
+        "mayoria": "Mayoría absoluta"
+      },
+      "pasaje_origen": "art. 113.2",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "m5",
+      "fuente": "art. 167.1",
+      "fuente_tipo": "articulo",
+      "valores": {
+        "materia": "Reforma constitucional ordinaria",
+        "mayoria": "3/5 de cada Cámara"
+      },
+      "pasaje_origen": "art. 167.1",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "m6",
+      "fuente": "art. 168.1",
+      "fuente_tipo": "articulo",
+      "valores": {
+        "materia": "Reforma constitucional agravada",
+        "mayoria": "2/3 de cada Cámara + referéndum"
+      },
+      "pasaje_origen": "art. 168.1",
+      "ubicacion": {},
+      "verificado": false
+    }
+  ],
+  "verificado": false
+}

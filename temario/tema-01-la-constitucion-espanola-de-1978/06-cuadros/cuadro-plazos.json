@@ -1,0 +1,116 @@
+{
+  "id": "cuadro-plazos",
+  "tema_id": "tema-01-la-constitucion-espanola-de-1978",
+  "tipo_dato": "plazo",
+  "titulo": "Plazos constitucionales",
+  "semilla": false,
+  "n_filas": 8,
+  "n_fuentes_distintas": 8,
+  "columnas": [
+    "acto",
+    "plazo"
+  ],
+  "columna_clave": "acto",
+  "columna_respuesta": "plazo",
+  "columna_contexto": null,
+  "columna_fuente": "fuente",
+  "filas": [
+    {
+      "id": "f1",
+      "fuente": "art. 99.2",
+      "fuente_tipo": "articulo",
+      "valores": {
+        "acto": "Segunda votación de investidura",
+        "plazo": "48 horas"
+      },
+      "pasaje_origen": "art. 99.2",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "f2",
+      "fuente": "art. 99.5",
+      "fuente_tipo": "articulo",
+      "valores": {
+        "acto": "Plazo para otorgar confianza tras consultas",
+        "plazo": "2 meses"
+      },
+      "pasaje_origen": "art. 99.5",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "f3",
+      "fuente": "art. 113.3",
+      "fuente_tipo": "articulo",
+      "valores": {
+        "acto": "Debate de moción de censura tras su presentación",
+        "plazo": "5 días"
+      },
+      "pasaje_origen": "art. 113.3",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "f4",
+      "fuente": "art. 115.1",
+      "fuente_tipo": "articulo",
+      "valores": {
+        "acto": "Antes de proponer disolución",
+        "plazo": "1 año desde la anterior"
+      },
+      "pasaje_origen": "art. 115.1",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "f5",
+      "fuente": "art. 115.3",
+      "fuente_tipo": "articulo",
+      "valores": {
+        "acto": "Convocatoria de elecciones tras disolución",
+        "plazo": "60 días"
+      },
+      "pasaje_origen": "art. 115.3",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "f6",
+      "fuente": "art. 134.2",
+      "fuente_tipo": "articulo",
+      "valores": {
+        "acto": "Presentación de Presupuestos Generales del Estado",
+        "plazo": "3 meses antes de expirar el ejercicio"
+      },
+      "pasaje_origen": "art. 134.2",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "f7",
+      "fuente": "art. 159.3",
+      "fuente_tipo": "articulo",
+      "valores": {
+        "acto": "Mandato de magistrados del TC",
+        "plazo": "9 años"
+      },
+      "pasaje_origen": "art. 159.3",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "f8",
+      "fuente": "art. 122.3",
+      "fuente_tipo": "articulo",
+      "valores": {
+        "acto": "Mandato de vocales del CGPJ",
+        "plazo": "5 años"
+      },
+      "pasaje_origen": "art. 122.3",
+      "ubicacion": {},
+      "verificado": false
+    }
+  ],
+  "verificado": false
+}
