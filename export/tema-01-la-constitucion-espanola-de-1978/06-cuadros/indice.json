@@ -1,0 +1,23 @@
+{
+  "tema_id": "tema-01-la-constitucion-espanola-de-1978",
+  "cuadros": [
+    {
+      "id": "cuadro-composicion",
+      "tipo_dato": "composicion",
+      "n_filas": 6,
+      "semilla": false
+    },
+    {
+      "id": "cuadro-mayorias",
+      "tipo_dato": "mayoria",
+      "n_filas": 6,
+      "semilla": false
+    },
+    {
+      "id": "cuadro-plazos",
+      "tipo_dato": "plazo",
+      "n_filas": 8,
+      "semilla": false
+    }
+  ]
+}

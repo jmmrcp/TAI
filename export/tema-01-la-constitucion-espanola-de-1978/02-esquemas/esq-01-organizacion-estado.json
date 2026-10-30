@@ -1,0 +1,11 @@
+{
+  "id": "esq-01-organizacion-estado",
+  "formato": "mindmap",
+  "seleccion": {
+    "modo": "manual",
+    "valor": []
+  },
+  "contenido": "mindmap\n  root((Constitución 1978))\n    Preliminar\n      Forma política\n      Soberanía\n    Título I Derechos\n      Fundamentales\n      Deberes\n    Título II Corona\n      Rey\n    Título III Cortes\n      Congreso\n      Senado\n    Título IV Gobierno\n      Presidente\n      Ministros\n    Título V Relaciones\n      Moción censura\n      Confianza\n    Título VI Judicial\n      Jueces\n      CGPJ\n    Título VII Economía\n      Hacienda\n    Título VIII Territorial\n      CCAA\n      Estatutos\n    Título IX TC\n      Magistrados\n    Título X Reforma\n      Ordinaria\n      Agravada\n    Disposiciones\n      Transitorias\n",
+  "n_nodos": 32,
+  "verificado": false
+}

@@ -1,0 +1,91 @@
+{
+  "id": "cuadro-composicion",
+  "tipo_dato": "composicion",
+  "titulo": "Composición de órganos",
+  "semilla": false,
+  "n_filas": 6,
+  "n_fuentes_distintas": 6,
+  "columnas": [
+    "organo",
+    "composicion"
+  ],
+  "columna_clave": "organo",
+  "columna_respuesta": "composicion",
+  "columna_contexto": null,
+  "columna_fuente": "fuente",
+  "verificado": false,
+  "filas": [
+    {
+      "id": "c1",
+      "fuente": "art. 68.1",
+      "fuente_tipo": "articulo",
+      "valores": {
+        "organo": "Congreso de los Diputados",
+        "composicion": "300-400 diputados"
+      },
+      "pasaje_origen": "art. 68.1",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c2",
+      "fuente": "art. 69",
+      "fuente_tipo": "articulo",
+      "valores": {
+        "organo": "Senado",
+        "composicion": "Representación territorial"
+      },
+      "pasaje_origen": "art. 69",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c3",
+      "fuente": "art. 98",
+      "fuente_tipo": "articulo",
+      "valores": {
+        "organo": "Gobierno",
+        "composicion": "Presidente, vicepresidentes, ministros"
+      },
+      "pasaje_origen": "art. 98",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c4",
+      "fuente": "art. 122.2",
+      "fuente_tipo": "articulo",
+      "valores": {
+        "organo": "CGPJ",
+        "composicion": "Presidente + 20 vocales"
+      },
+      "pasaje_origen": "art. 122.2",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c5",
+      "fuente": "art. 159.1",
+      "fuente_tipo": "articulo",
+      "valores": {
+        "organo": "Tribunal Constitucional",
+        "composicion": "12 magistrados"
+      },
+      "pasaje_origen": "art. 159.1",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c6",
+      "fuente": "art. 123",
+      "fuente_tipo": "articulo",
+      "valores": {
+        "organo": "Tribunal Supremo",
+        "composicion": "Órgano jurisdiccional superior"
+      },
+      "pasaje_origen": "art. 123",
+      "ubicacion": {},
+      "verificado": false
+    }
+  ]
+}

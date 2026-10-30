@@ -1,0 +1,1066 @@
+{
+  "tema_id": "tema-01-la-constitucion-espanola-de-1978",
+  "total": 70,
+  "conceptos": [
+    {
+      "id": "c-02a0c21b66b6",
+      "nombre": "Mayoría de edad a los dieciocho años",
+      "tipo": "derecho",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "articulo": "art. 12",
+      "tags": [
+        "mayoria-edad"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-043ba207084d",
+      "nombre": "Derecho a participar en asuntos públicos",
+      "tipo": "derecho",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "articulo": "art. 23",
+      "tags": [
+        "participacion-politica"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-04caf9facde9",
+      "nombre": "Los ciudadanos y los poderes públicos están sujetos a la Constitución y al resto del ordenamiento jurídico",
+      "tipo": "definicion",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "articulo": "art. 9.1",
+      "tags": [
+        "garantias"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-0574eee75104",
+      "nombre": "Derecho a la vida y a la integridad física y moral",
+      "tipo": "derecho",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "articulo": "art. 15",
+      "tags": [
+        "vida"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-09c86798b878",
+      "nombre": "Derecho de reunión pacífica y sin armas",
+      "tipo": "derecho",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "articulo": "art. 21",
+      "tags": [
+        "reunion"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-1a69908387dd",
+      "nombre": "Garantías de los derechos y libertades: recurso de amparo",
+      "tipo": "procedimiento",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "articulo": "art. 53",
+      "tags": [
+        "garantias",
+        "recurse"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-1baf66f075b1",
+      "nombre": "Suspensión de derechos y libertades",
+      "tipo": "procedimiento",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "articulo": "art. 55",
+      "tags": [
+        "suspension"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-1e9b94ba76d5",
+      "nombre": "Libertad ideológica, religiosa y de culto",
+      "tipo": "derecho",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "articulo": "art. 16.1",
+      "tags": [
+        "religion"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-2020ca22c1b0",
+      "nombre": "Derecho al trabajo y deber de trabajar",
+      "tipo": "derecho",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "articulo": "art. 35",
+      "tags": [
+        "trabajo"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-26fd03790e45",
+      "nombre": "Derecho de asociación",
+      "tipo": "derecho",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "articulo": "art. 22",
+      "tags": [
+        "asociacion"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-29e788da39fe",
+      "nombre": "Las Cortes Generales representan al pueblo español",
+      "tipo": "organo",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "articulo": "art. 66",
+      "tags": [
+        "cortes"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-317e25606fdd",
+      "nombre": "Composición del Congreso de los Diputados",
+      "tipo": "definicion",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "articulo": "art. 68",
+      "tags": [
+        "congreso"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-3727907df758",
+      "nombre": "Incompatibilidades de los parlamentarios",
+      "tipo": "organo",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "articulo": "art. 70",
+      "tags": [
+        "incompatibilidades"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-379bc67ee253",
+      "nombre": "Los sindicatos de trabajadores y las asociaciones empresariales contribuyen a la defensa de intereses económicos y sociales",
+      "tipo": "definicion",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "articulo": "art. 7",
+      "tags": [
+        "sindicatos"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-3d9de4ea0bba",
+      "nombre": "Mando supremo de las Fuerzas Armadas",
+      "tipo": "organo",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "articulo": "art. 63",
+      "tags": [
+        "mando-militar"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-3e3a47a79e45",
+      "nombre": "Iniciativa legislativa",
+      "tipo": "procedimiento",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "articulo": "art. 87",
+      "tags": [
+        "iniciativa-legislativa"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-3fd628d362bb",
+      "nombre": "Libertad de residencia y circulación",
+      "tipo": "derecho",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "articulo": "art. 19",
+      "tags": [
+        "libertad-circulacion"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-40c96c1b3b0f",
+      "nombre": "Derecho a la autonomía de nacionalidades y regiones",
+      "tipo": "derecho",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "articulo": "art. 2",
+      "tags": [
+        "derechos",
+        "competencias"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-43ace3d11663",
+      "nombre": "Sucesión en la Corona por primogenitura y representación",
+      "tipo": "organo",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "articulo": "art. 57",
+      "tags": [
+        "sucesion"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-4b10b9bec62d",
+      "nombre": "Derecho a la educación",
+      "tipo": "derecho",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "articulo": "art. 27",
+      "tags": [
+        "educacion"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-4d16c43c6b5d",
+      "nombre": "No hay religión oficial del Estado; cooperación con la Iglesia católica y demás confesiones",
+      "tipo": "derecho",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "articulo": "art. 16.3",
+      "tags": [
+        "religion"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-50b398ddd0d5",
+      "nombre": "Corresponde a los poderes públicos promover las condiciones para que la libertad y la igualdad sean reales y efectivas",
+      "tipo": "definicion",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "articulo": "art. 9.2",
+      "tags": [
+        "garantias"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-520f3b987a14",
+      "nombre": "Responsabilidad política del Gobierno ante el Congreso",
+      "tipo": "organo",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "articulo": "art. 108",
+      "tags": [
+        "responsabilidad-gobierno"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-525231d7f915",
+      "nombre": "Investidura del Presidente del Gobierno",
+      "tipo": "organo",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "articulo": "art. 99",
+      "tags": [
+        "investidura"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-52d126df0bc3",
+      "nombre": "Sistema tributario justo inspirado en principios de igualdad y progresividad",
+      "tipo": "derecho",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "articulo": "art. 31",
+      "tags": [
+        "tributacion"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-5927637d26ef",
+      "nombre": "Los partidos políticos expresan el pluralismo político",
+      "tipo": "definicion",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "articulo": "art. 6",
+      "tags": [
+        "partidos"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-597cbe4d935c",
+      "nombre": "Refrendo de los actos del Rey",
+      "tipo": "organo",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "articulo": "art. 64",
+      "tags": [
+        "refrendo"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-5f881be943dd",
+      "nombre": "Poder judicial: exclusivo de jueces y tribunales",
+      "tipo": "organo",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "articulo": "art. 117",
+      "tags": [
+        "poder-judicial"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-60777b6ded42",
+      "nombre": "Extranjeros gozan de las libertades públicas que garantiza el título en los términos de los tratados",
+      "tipo": "derecho",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "articulo": "art. 13",
+      "tags": [
+        "extranjeros"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-6859eff57f18",
+      "nombre": "Nombramiento y cese de los Ministros",
+      "tipo": "organo",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "articulo": "art. 100",
+      "tags": [
+        "ministros"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-69f43cfda04d",
+      "nombre": "Derecho a la tutela judicial efectiva",
+      "tipo": "derecho",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "articulo": "art. 24",
+      "tags": [
+        "tutela-judicial"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-6bcc1d9045be",
+      "nombre": "Misiones de las Fuerzas Armadas: garantizar la soberanía e independencia y defender la integridad territorial",
+      "tipo": "definicion",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "articulo": "art. 8.1",
+      "tags": [
+        "fuerzas-armadas"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-7941b8b8fc8a",
+      "nombre": "Nacionalidad española: adquisición y pérdida se regulan por ley",
+      "tipo": "derecho",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "articulo": "art. 11",
+      "tags": [
+        "nacionalidad"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-7b16ef02ba0f",
+      "nombre": "Ley orgánica: mayoría absoluta del Congreso",
+      "tipo": "procedimiento",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "articulo": "art. 81",
+      "tags": [
+        "ley-organica"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-80cb87821290",
+      "nombre": "Capital del Estado es la ciudad de Madrid",
+      "tipo": "definicion",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "articulo": "art. 5",
+      "tags": [
+        "capital"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-82c80712776a",
+      "nombre": "Las demás lenguas españolas son también oficiales en sus Comunidades Autónomas",
+      "tipo": "definicion",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "articulo": "art. 3.2",
+      "tags": [
+        "lengua",
+        "autonomia"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-84b2a7dab69e",
+      "nombre": "Libertades de expresión e información",
+      "tipo": "derecho",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "articulo": "art. 20.1",
+      "tags": [
+        "expresion"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-8ad61f8b93b2",
+      "nombre": "Forma política del Estado: Monarquía parlamentaria",
+      "tipo": "definicion",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "articulo": "art. 1.3",
+      "tags": [
+        "forma-politica"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-903f4acb8b06",
+      "nombre": "Tribunal Constitucional: composición",
+      "tipo": "organo",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "articulo": "art. 159",
+      "tags": [
+        "tribunal-constitucional"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-914e5fdb14ea",
+      "nombre": "Funciones del Rey",
+      "tipo": "organo",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "articulo": "art. 62",
+      "tags": [
+        "funciones-rey"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-918571c284a8",
+      "nombre": "Castellano es la lengua española oficial del Estado",
+      "tipo": "definicion",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "articulo": "art. 3.1",
+      "tags": [
+        "lengua"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-94eef00d0c71",
+      "nombre": "Defensor del Pueblo",
+      "tipo": "procedimiento",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "articulo": "art. 54",
+      "tags": [
+        "defensor-pueblo"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-96dccc6b2f6a",
+      "nombre": "Derecho a la libertad y a la seguridad; detención con garantías",
+      "tipo": "derecho",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "articulo": "art. 17",
+      "tags": [
+        "libertad",
+        "seguridad"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-9ebf5192e65a",
+      "nombre": "Prohibición de tribunales de honor",
+      "tipo": "derecho",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "articulo": "art. 26",
+      "tags": [
+        "tribunales-honor"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-9fb009dd920a",
+      "nombre": "Consejo General del Poder Judicial",
+      "tipo": "organo",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "articulo": "art. 122",
+      "tags": [
+        "cgpj"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-a07a5fd59bb8",
+      "nombre": "El Gobierno dirige la política interior y exterior",
+      "tipo": "organo",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "articulo": "art. 97",
+      "tags": [
+        "gobierno"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-a099a22ea6af",
+      "nombre": "Límites al uso de la informática para garantizar el honor y la intimidad",
+      "tipo": "derecho",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "articulo": "art. 18.4",
+      "tags": [
+        "proteccion-datos"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-a27967c04554",
+      "nombre": "Derecho al honor, a la intimidad personal y familiar y a la propia imagen",
+      "tipo": "derecho",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "articulo": "art. 18.1",
+      "tags": [
+        "honor",
+        "intimidad"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-a382e92fc911",
+      "nombre": "La Corona: símbolo de unidad y permanencia del Estado",
+      "tipo": "organo",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "articulo": "art. 56",
+      "tags": [
+        "corona"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-a84a3b74c822",
+      "nombre": "Bandera de España: roja, amarilla y roja, con el escudo",
+      "tipo": "definicion",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "articulo": "art. 4.1",
+      "tags": [
+        "simbolos"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-a85d54e8221e",
+      "nombre": "Igualdad ante la ley sin discriminación por nacimiento, raza, sexo, religión, opinión o cualquier otra condición",
+      "tipo": "derecho",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "articulo": "art. 14",
+      "tags": [
+        "igualdad"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-a877183079ee",
+      "nombre": "Indisoluble unidad de la Nación española",
+      "tipo": "definicion",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "articulo": "art. 2",
+      "tags": [
+        "nacion",
+        "autonomia"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-abadf1218641",
+      "nombre": "Derecho al matrimonio",
+      "tipo": "derecho",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "articulo": "art. 32",
+      "tags": [
+        "matrimonio"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-abba5f0308e2",
+      "nombre": "Estado social y democrático de Derecho",
+      "tipo": "definicion",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "articulo": "art. 1",
+      "tags": [
+        "definicion",
+        "garantias"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-ad6629117c56",
+      "nombre": "Mandato de los parlamentarios",
+      "tipo": "organo",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "articulo": "art. 67",
+      "tags": [
+        "mandato"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-b4bb4917253b",
+      "nombre": "Derecho de petición",
+      "tipo": "derecho",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "articulo": "art. 29",
+      "tags": [
+        "peticion"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-bbbe196c1082",
+      "nombre": "La Constitución garantiza el principio de legalidad, la jerarquía normativa, la publicidad de las normas, la irretroactividad, la seguridad jurídica, la responsabilidad y la interdicción de la arbitrariedad",
+      "tipo": "definicion",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "articulo": "art. 9.3",
+      "tags": [
+        "garantias"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-c08a99708fe6",
+      "nombre": "Inviolabilidad del domicilio",
+      "tipo": "derecho",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "articulo": "art. 18.2",
+      "tags": [
+        "domicilio"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-c6aaf3e5054a",
+      "nombre": "Composición del Senado",
+      "tipo": "definicion",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "articulo": "art. 69",
+      "tags": [
+        "senado"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-d09c5c023e95",
+      "nombre": "Competencias de las Comunidades Autónomas",
+      "tipo": "organo",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "articulo": "art. 148",
+      "tags": [
+        "competencias-autonomicas"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-d4dd15d3bcac",
+      "nombre": "Soberanía nacional reside en el pueblo español",
+      "tipo": "definicion",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "articulo": "art. 1.2",
+      "tags": [
+        "soberania"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-d71b5b434553",
+      "nombre": "Dignidad de la persona, derechos inviolables e inherentes",
+      "tipo": "derecho",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "articulo": "art. 10.1",
+      "tags": [
+        "derechos"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-e221a775610b",
+      "nombre": "Nombramiento y cese del Presidente del Gobierno",
+      "tipo": "organo",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "articulo": "art. 98",
+      "tags": [
+        "presidente-gobierno"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-eecb9645c43f",
+      "nombre": "Principio de legalidad penal",
+      "tipo": "derecho",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "articulo": "art. 25",
+      "tags": [
+        "legalidad-penal"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-f27dda091bf2",
+      "nombre": "Derecho y deber de defender a España",
+      "tipo": "derecho",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "articulo": "art. 30",
+      "tags": [
+        "defensa"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-f5ef6db5806a",
+      "nombre": "Valores superiores: libertad, justicia, igualdad y pluralismo político",
+      "tipo": "definicion",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "articulo": "art. 1.1",
+      "tags": [
+        "definicion",
+        "valores"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-f75e43ec56fe",
+      "nombre": "Secreto de las comunicaciones",
+      "tipo": "derecho",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "articulo": "art. 18.3",
+      "tags": [
+        "secreto-comunicaciones"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-f7661ffe9dec",
+      "nombre": "Libertad de empresa en el marco de la economía de mercado",
+      "tipo": "derecho",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "articulo": "art. 38",
+      "tags": [
+        "libre-empresa"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-f81a6c5a0090",
+      "nombre": "Derecho de sindicación y huelga",
+      "tipo": "derecho",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "articulo": "art. 28",
+      "tags": [
+        "sindicacion",
+        "huelga"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-fe3b1b157e07",
+      "nombre": "Normas sobre derechos fundamentales se interpretan conforme a la Declaración Universal de Derechos Humanos y tratados internacionales",
+      "tipo": "definicion",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "articulo": "art. 10.2",
+      "tags": [
+        "derechos",
+        "internacional"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    }
+  ]
+}
