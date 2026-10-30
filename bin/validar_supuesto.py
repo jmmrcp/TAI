@@ -1,0 +1,1 @@
+../scripts/validar_supuesto.py
