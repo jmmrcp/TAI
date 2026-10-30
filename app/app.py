@@ -25,7 +25,7 @@ import streamlit as st
 # CONFIGURACIÓN
 # ============================================================
 
-ROOT = Path.home() / "TAI"
+ROOT = Path(__file__).resolve().parent.parent
 DB_PATH = Path(os.environ.get("OPOSICION_DB", ROOT / "oposicion.db"))
 
 # Constantes SM-2 (duplicadas de srs.py)
