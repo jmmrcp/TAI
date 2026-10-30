@@ -114,6 +114,12 @@ backup: exportar
 .PHONY: backup-github
 backup-github:
 	@bash /root/.dsh/bin/backup-github.sh
+
+.PHONY: importar-supuesto
+importar-supuesto:
+	@if [ -z "$(S)" ]; then echo "❌ Falta S=<ruta-al-json>"; exit 1; fi
+	$(PY) $(ROOT)/bin/db.py importar-supuesto \
+		--root $(ROOT) --archivo $(S) --update
 	@echo ""
 	@echo "📦 Haciendo backup en git..."
 	@cd $(ROOT) && \
