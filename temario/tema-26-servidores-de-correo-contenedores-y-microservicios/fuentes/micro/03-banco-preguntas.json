@@ -1,0 +1,289 @@
+{
+  "preguntas": [
+    {
+      "id": "p-micro-001",
+      "concepto_id": "c-microservicios",
+      "capitulo": "src-micro",
+      "tipo": "multiple-choice",
+      "dificultad": "baja",
+      "origen": "ingesta-inicial",
+      "enunciado": "Según el texto, ¿qué significa la 'μ' en microservicios?",
+      "opciones": [
+        "b) Que el tamaño lo dicta el servicio que preste",
+        "a) Que el servicio es muy pequeño en tamaño",
+        "d) Que es un tipo de SOA",
+        "c) Que se ejecuta en un contenedor"
+      ],
+      "correcta": 0,
+      "explicacion": "El texto indica que μ no significa que sea muy pequeño, el tamaño lo dictará el servicio que preste.",
+      "referencia": "línea 3",
+      "verificado": false
+    },
+    {
+      "id": "p-micro-002",
+      "concepto_id": "c-broker-mensajes",
+      "capitulo": "src-micro",
+      "tipo": "multiple-choice",
+      "dificultad": "baja",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Cuál de los siguientes NO es un broker de mensajes mencionado en el texto?",
+      "opciones": [
+        "a) Apache Kafka",
+        "b) RabbitMQ",
+        "d) Apache ZooKeeper",
+        "c) Apache ActiveMQ"
+      ],
+      "correcta": 2,
+      "explicacion": "Los brokers de mensajes citados son Apache Kafka, RabbitMQ, Apache ActiveMQ y Google Cloud Pub/Sub. Apache ZooKeeper no aparece.",
+      "referencia": "línea 29",
+      "verificado": false
+    },
+    {
+      "id": "p-micro-003",
+      "concepto_id": "c-bounded-context",
+      "capitulo": "src-micro",
+      "tipo": "multiple-choice",
+      "dificultad": "baja",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Qué es un Bounded Context?",
+      "opciones": [
+        "a) Un patrón que divide el modelo en submodelos especializados en áreas",
+        "c) Un broker de mensajes",
+        "d) Un modo de despliegue",
+        "b) Un contenedor de aplicaciones"
+      ],
+      "correcta": 0,
+      "explicacion": "Bounded Context es un patrón de diseño que divide el modelo en submodelos especializados en áreas; cada μs tendrá uno asociado.",
+      "referencia": "líneas 12-13",
+      "verificado": false
+    },
+    {
+      "id": "p-micro-004",
+      "concepto_id": "c-modos-despliegue",
+      "capitulo": "src-micro",
+      "tipo": "multiple-choice",
+      "dificultad": "baja",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿En qué modo de despliegue el μs se ejecuta en un contenedor gestionado por un orquestador como Kubernetes?",
+      "opciones": [
+        "a) Máquina física",
+        "d) PaaS",
+        "b) Máquina virtual",
+        "c) Contenedor"
+      ],
+      "correcta": 3,
+      "explicacion": "El modo 'Contenedor' ejecuta el μs en un contenedor separado en un host físico o virtual y puede gestionarse por un orquestador como k8s.",
+      "referencia": "línea 92",
+      "verificado": false
+    },
+    {
+      "id": "p-micro-005",
+      "concepto_id": "c-escalado",
+      "capitulo": "src-micro",
+      "tipo": "multiple-choice",
+      "dificultad": "baja",
+      "origen": "ingesta-inicial",
+      "enunciado": "El escalado vertical consiste en:",
+      "opciones": [
+        "d) Extraer una funcionalidad demandante a otro μs",
+        "c) Particionar por datos usando una dimensión",
+        "b) Mejorar los recursos: más memoria, CPU, almacenamiento y ancho de banda",
+        "a) Crecer en instancias lanzando nuevos pods"
+      ],
+      "correcta": 2,
+      "explicacion": "El escalado vertical trata de mejorar los recursos: más memoria, más CPU, más almacenamiento, más ancho de banda.",
+      "referencia": "línea 126",
+      "verificado": false
+    },
+    {
+      "id": "p-micro-006",
+      "concepto_id": "c-comunicacion-ms",
+      "capitulo": "src-micro",
+      "tipo": "multiple-choice",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Por qué la comunicación síncrona entre microservicios es considerada mala?",
+      "opciones": [
+        "a) Porque genera mayor latencia de red",
+        "d) Porque requiere SOAP",
+        "c) Porque no permite transaccionalidad",
+        "b) Porque dependes del eslabón más débil"
+      ],
+      "correcta": 3,
+      "explicacion": "La comunicación síncrona es mala porque dependes del eslabón más débil.",
+      "referencia": "línea 24",
+      "verificado": false
+    },
+    {
+      "id": "p-micro-007",
+      "concepto_id": "c-service-mesh",
+      "capitulo": "src-micro",
+      "tipo": "multiple-choice",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Qué dos productos componen Service Mesh según el texto?",
+      "opciones": [
+        "a) Zuul y Hystrix",
+        "b) Istio y Envoy",
+        "d) Ribbon y Eureka",
+        "c) Kafka y RabbitMQ"
+      ],
+      "correcta": 1,
+      "explicacion": "Service Mesh = Istio + Envoy (Istio es el producto y Envoy el proxy, implementación del patrón sidecar).",
+      "referencia": "líneas 48-51",
+      "verificado": false
+    },
+    {
+      "id": "p-micro-008",
+      "concepto_id": "c-cqrs",
+      "capitulo": "src-micro",
+      "tipo": "multiple-choice",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "En CQRS, ¿cómo se divide el microservicio?",
+      "opciones": [
+        "c) En master y worker",
+        "a) En lectura (R) y creación/actualización/borrado (CUD)",
+        "b) En productor y consumidor",
+        "d) En abierto y cerrado"
+      ],
+      "correcta": 1,
+      "explicacion": "CQRS divide el μs en 2: R (lectura) y CUD (creación, actualización, borrado), porque la mayor parte de operaciones son de lectura.",
+      "referencia": "líneas 66-68",
+      "verificado": false
+    },
+    {
+      "id": "p-micro-009",
+      "concepto_id": "c-saga",
+      "capitulo": "src-micro",
+      "tipo": "multiple-choice",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "En el patrón SAGA, ¿cómo se gestiona el rollback ante fallos?",
+      "opciones": [
+        "c) Se usa 2PC con fase de Voting",
+        "b) Se guarda una transacción compensatoria y se envía a todos los μs",
+        "a) Se revierten todas las transacciones en todos los μs automáticamente",
+        "d) Se bloquean los recursos hasta recuperar"
+      ],
+      "correcta": 1,
+      "explicacion": "Como es difícil hacer rollback, se guarda una tx compensatoria y, en lugar de hacer rollback en todos los μs, se manda a todos los μs la tx compensatoria.",
+      "referencia": "líneas 72-74",
+      "verificado": false
+    },
+    {
+      "id": "p-micro-010",
+      "concepto_id": "c-api-gateway",
+      "capitulo": "src-micro",
+      "tipo": "multiple-choice",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Qué producto hace de proxy inverso canalizando peticiones y ocultando la complejidad de los μs en API Gateway?",
+      "opciones": [
+        "a) Eureka",
+        "b) Ribbon",
+        "c) Hystrix",
+        "d) Zuul"
+      ],
+      "correcta": 3,
+      "explicacion": "Zuul es el primer producto que hace de proxy inverso, canalizando peticiones y ocultando la complejidad de los μs.",
+      "referencia": "líneas 38-40",
+      "verificado": false
+    },
+    {
+      "id": "p-micro-011",
+      "concepto_id": "c-observabilidad",
+      "capitulo": "src-micro",
+      "tipo": "multiple-choice",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Qué producto se asocia a las métricas en la observabilidad?",
+      "opciones": [
+        "a) elasticsearch",
+        "b) Grafana",
+        "d) Jaeger",
+        "c) Prometheus"
+      ],
+      "correcta": 3,
+      "explicacion": "En observabilidad, Prometheus se asocia a métricas; elasticsearch a logs, Grafana a dashboard y Jaeger a trazas distribuidas.",
+      "referencia": "líneas 57-60",
+      "verificado": false
+    },
+    {
+      "id": "p-micro-012",
+      "concepto_id": "c-resiliencia",
+      "capitulo": "src-micro",
+      "tipo": "multiple-choice",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Qué es la idempotencia?",
+      "opciones": [
+        "d) Política de reintentos con back-off exponencial",
+        "a) Propiedad de realizar una acción varias veces obteniendo el mismo resultado que si se realizase una sola vez",
+        "c) Tiempo permitido hasta que falle una ejecución",
+        "b) Barrera entre componentes que protege recursos"
+      ],
+      "correcta": 1,
+      "explicacion": "La idempotencia es la propiedad de realizar una acción varias veces y conseguir el mismo resultado que se obtendría si se realizase una sola vez.",
+      "referencia": "línea 122",
+      "verificado": false
+    },
+    {
+      "id": "p-micro-013",
+      "concepto_id": "c-2pc",
+      "capitulo": "src-micro",
+      "tipo": "multiple-choice",
+      "dificultad": "alta",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Por qué no suele usarse 2PC (Two-Phase Commits)?",
+      "opciones": [
+        "d) Porque requiere contenedores",
+        "a) Porque no garantiza consistencia",
+        "b) Porque es muy costoso",
+        "c) Porque solo funciona en Java"
+      ],
+      "correcta": 2,
+      "explicacion": "2PC no suele usarse por ser muy costoso.",
+      "referencia": "líneas 69-70",
+      "verificado": false
+    },
+    {
+      "id": "p-micro-014",
+      "concepto_id": "c-circuit-breaker",
+      "capitulo": "src-micro",
+      "tipo": "multiple-choice",
+      "dificultad": "alta",
+      "origen": "ingesta-inicial",
+      "enunciado": "En el estado cerrado del Circuit Breaker:",
+      "opciones": [
+        "b) Se cierra el acceso a un μs caído tras aplicar la política de reintentos, para que los siguientes μs no lo intenten",
+        "c) Se corta permanentemente el acceso sin recuperación",
+        "d) Se activa el patrón sidecar",
+        "a) Se envían peticiones normalmente a todos los μs"
+      ],
+      "correcta": 0,
+      "explicacion": "Cerrado: cierra el acceso a un μs si después de aplicar la política de reintentos se ve que está caído; de este modo los siguientes μs ni lo intentan. También hay una política de recuperación para volver a dejar el acceso en estado abierto.",
+      "referencia": "líneas 117-118",
+      "verificado": false
+    },
+    {
+      "id": "p-micro-015",
+      "concepto_id": "c-orquestacion",
+      "capitulo": "src-micro",
+      "tipo": "multiple-choice",
+      "dificultad": "alta",
+      "origen": "ingesta-inicial",
+      "enunciado": "Según el texto, ¿cuál es el número mínimo de nodos en un clúster?",
+      "opciones": [
+        "a) 1 master y 0 worker",
+        "d) 3 nodos cualesquiera",
+        "b) Al menos 1 master y 1 worker",
+        "c) 2 master y 2 worker"
+      ],
+      "correcta": 2,
+      "explicacion": "El clúster es una agrupación de nodos a orquestar con al menos 1 master y 1 worker.",
+      "referencia": "línea 80",
+      "verificado": false
+    }
+  ]
+}

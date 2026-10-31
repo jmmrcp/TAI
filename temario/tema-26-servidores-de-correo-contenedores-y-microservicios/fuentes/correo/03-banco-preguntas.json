@@ -1,0 +1,251 @@
+{
+  "preguntas": [
+    {
+      "id": "p-correo-001",
+      "concepto_id": "c-pop3",
+      "capitulo": "src-correo",
+      "tipo": "mcq",
+      "dificultad": "baja",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Qué puerto utiliza POP3 sin seguridad?",
+      "opciones": [
+        "b) 143",
+        "c) 25",
+        "d) 995",
+        "a) 110"
+      ],
+      "correcta": 3,
+      "explicacion": "POP3 usa el puerto 110; el puerto 995 es con seguridad.",
+      "referencia": "src-correo",
+      "verificado": false
+    },
+    {
+      "id": "p-correo-002",
+      "concepto_id": "c-smtp",
+      "capitulo": "src-correo",
+      "tipo": "mcq",
+      "dificultad": "baja",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Qué comando SMTP indica el remitente del mensaje?",
+      "opciones": [
+        "d) DATA",
+        "b) RCPT TO",
+        "c) HELO",
+        "a) MAIL FROM"
+      ],
+      "correcta": 3,
+      "explicacion": "MAIL FROM: <carlos@ibm.com> indica el remitente; RCPT TO indica el destinatario.",
+      "referencia": "src-correo",
+      "verificado": false
+    },
+    {
+      "id": "p-correo-003",
+      "concepto_id": "c-dns-mx",
+      "capitulo": "src-correo",
+      "tipo": "mcq",
+      "dificultad": "baja",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Qué registro DNS especifica los MTA a los que deben entregarse los emails?",
+      "opciones": [
+        "a) MX",
+        "c) CNAME",
+        "d) TXT",
+        "b) A"
+      ],
+      "correcta": 0,
+      "explicacion": "Los registros MX especifican a un MTA emisor en qué MTA(s) deberían ser entregados los emails.",
+      "referencia": "src-correo",
+      "verificado": false
+    },
+    {
+      "id": "p-correo-004",
+      "concepto_id": "c-agentes-correo",
+      "capitulo": "src-correo",
+      "tipo": "mcq",
+      "dificultad": "baja",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Qué significa MUA?",
+      "opciones": [
+        "a) Mail User Agent",
+        "c) Mail Delivery Agent",
+        "b) Mail Transfer Agent",
+        "d) Mail Access Agent"
+      ],
+      "correcta": 0,
+      "explicacion": "MUA es Mail User Agent, el cliente de correo del usuario.",
+      "referencia": "src-correo",
+      "verificado": false
+    },
+    {
+      "id": "p-correo-005",
+      "concepto_id": "c-imap",
+      "capitulo": "src-correo",
+      "tipo": "mcq",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Qué protocolo de recepción está orientado a carpetas en el servidor y uso online?",
+      "opciones": [
+        "a) IMAP",
+        "c) SMTP",
+        "b) POP3",
+        "d) ESMTP"
+      ],
+      "correcta": 0,
+      "explicacion": "IMAP está orientado a carpetas en servidor y uso online; POP3 está orientado a descarga.",
+      "referencia": "src-correo",
+      "verificado": false
+    },
+    {
+      "id": "p-correo-006",
+      "concepto_id": "c-esmtp",
+      "capitulo": "src-correo",
+      "tipo": "mcq",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Qué permite STARTTLS en ESMTP?",
+      "opciones": [
+        "c) Enviar ficheros adjuntos",
+        "d) Autenticar con AUTH PLAIN",
+        "a) Pasar de modo no seguro (puerto 25) a modo seguro (puerto 587)",
+        "b) Cifrar credenciales en Base64"
+      ],
+      "correcta": 2,
+      "explicacion": "STARTTLS pasa de modo no seguro (puerto 25) a modo seguro (puerto 587).",
+      "referencia": "src-correo",
+      "verificado": false
+    },
+    {
+      "id": "p-correo-007",
+      "concepto_id": "c-spf",
+      "capitulo": "src-correo",
+      "tipo": "mcq",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "SPF comprueba las IPs autorizadas en qué tipo de registro DNS?",
+      "opciones": [
+        "a) TXT",
+        "c) A",
+        "b) MX",
+        "d) CNAME"
+      ],
+      "correcta": 0,
+      "explicacion": "SPF comprueba las IPs autorizadas en el registro TXT.",
+      "referencia": "src-correo",
+      "verificado": false
+    },
+    {
+      "id": "p-correo-008",
+      "concepto_id": "c-dkim",
+      "capitulo": "src-correo",
+      "tipo": "mcq",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Dónde se registra la clave pública de DKIM?",
+      "opciones": [
+        "b) En un registro MX",
+        "a) En un registro TXT",
+        "c) En un registro TLSA",
+        "d) En un registro CAA"
+      ],
+      "correcta": 1,
+      "explicacion": "La clave pública de DKIM está registrada en un registro TXT.",
+      "referencia": "src-correo",
+      "verificado": false
+    },
+    {
+      "id": "p-correo-009",
+      "concepto_id": "c-dmarc",
+      "capitulo": "src-correo",
+      "tipo": "mcq",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿A qué mecanismos complementa DMARC?",
+      "opciones": [
+        "b) ARC y DANE",
+        "a) SPF y DKIM",
+        "c) POP3 e IMAP",
+        "d) SMTP y ESMTP"
+      ],
+      "correcta": 1,
+      "explicacion": "DMARC complementa a SPF y DKIM.",
+      "referencia": "src-correo",
+      "verificado": false
+    },
+    {
+      "id": "p-correo-010",
+      "concepto_id": "c-dns-resolucion",
+      "capitulo": "src-correo",
+      "tipo": "mcq",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "Si el resolver no tiene cacheado el dominio, ¿a quién pregunta primero?",
+      "opciones": [
+        "c) Al DNS autoritativo",
+        "d) Al registro A",
+        "b) Al servidor TLD",
+        "a) Al Root Server"
+      ],
+      "correcta": 3,
+      "explicacion": "El resolver, si no tiene cacheado el dominio, pregunta al Root Server.",
+      "referencia": "src-correo",
+      "verificado": false
+    },
+    {
+      "id": "p-correo-011",
+      "concepto_id": "c-smtp",
+      "capitulo": "src-correo",
+      "tipo": "mcq",
+      "dificultad": "alta",
+      "origen": "ingesta-inicial",
+      "enunciado": "En SMTP, ¿cuándo finaliza el comando DATA?",
+      "opciones": [
+        "c) Cuando se recibe 250 OK",
+        "d) Cuando se cierra la conexión",
+        "b) Cuando se envía QUIT",
+        "a) Cuando hay una línea con únicamente un punto"
+      ],
+      "correcta": 3,
+      "explicacion": "DATA finaliza cuando hay una línea con únicamente un punto.",
+      "referencia": "src-correo",
+      "verificado": false
+    },
+    {
+      "id": "p-correo-012",
+      "concepto_id": "c-agentes-correo",
+      "capitulo": "src-correo",
+      "tipo": "mcq",
+      "dificultad": "alta",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Qué agente se usa para gobernar el envío en una organización y evitar tumbar las MTAs?",
+      "opciones": [
+        "d) MAA",
+        "c) MDA",
+        "a) MSA",
+        "b) MTA"
+      ],
+      "correcta": 2,
+      "explicacion": "Las MSA se usan para gobernar el envío de mails y distribuir/dividir de forma controlada el envío, sin tumbar las MTAs.",
+      "referencia": "src-correo",
+      "verificado": false
+    },
+    {
+      "id": "p-correo-013",
+      "concepto_id": "c-dane",
+      "capitulo": "src-correo",
+      "tipo": "mcq",
+      "dificultad": "alta",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Qué infraestructura y registros utiliza DANE?",
+      "opciones": [
+        "a) Infraestructura DNSSEC y registros TLSA",
+        "c) Registros CNAME",
+        "d) Registros SOA",
+        "b) Registros MX"
+      ],
+      "correcta": 0,
+      "explicacion": "DANE es infraestructura DNSSEC y usa los registros TLSA.",
+      "referencia": "src-correo",
+      "verificado": false
+    }
+  ]
+}

@@ -1,0 +1,169 @@
+{
+  "conceptos": [
+    {
+      "id": "c-microservicios",
+      "nombre": "Microservicios",
+      "tipo": "definicion",
+      "valor": "Servicios que pueden desplegarse de manera independiente, modelados alrededor de un dominio de negocio. Son cajas negras con funcionalidad definida que producen un resultado; son un tipo de SOA. μ no significa muy pequeño: el tamaño lo dicta el servicio que preste. Muy débilmente acoplados, granularidad fina (poca responsabilidad), se comunican mediante protocolos ligeros (http). Equipos de desarrollo independientes; pueden definirse en diferentes lenguajes y con distintas BD. Cada μs puede tener su propia BD (100% independiente). Resiliencia: si falla un μs no se viene abajo toda la app.",
+      "norma": null,
+      "articulo": null,
+      "tags_transversales": [],
+      "verificado": false,
+      "es_principal": true
+    },
+    {
+      "id": "c-bounded-context",
+      "nombre": "Bounded Context",
+      "tipo": "definicion",
+      "valor": "Patrón de diseño (DDD) que divide el modelo en submodelos especializados en áreas. Cada μs tendrá un Bounded Context asociado, encargado de una funcionalidad del negocio, de un contexto, de un área de negocio. Es mejor segregar. Ej: la clase compra del contexto A tendrá unos atributos diferentes de la del contexto B. SOLID (segregación de interfaces).",
+      "norma": null,
+      "articulo": null,
+      "tags_transversales": [],
+      "verificado": false,
+      "es_principal": true
+    },
+    {
+      "id": "c-comunicacion-ms",
+      "nombre": "Comunicación entre microservicios",
+      "tipo": "clasificacion",
+      "valor": "Síncrona (mala, porque dependes del eslabón más débil) y asíncrona: petición-respuesta (basado en colas, transaccional); dirigido por eventos (genero un evento con info y los suscriptores/Topic lo usan como inicio de su trabajo); datos compartidos (subir fichero a la nube, notificar a interesados; volúmenes de contenedor, NAS/S3 o BBDD con CQRS). También RPC/gRPC (HTTP2, Protocol Buffer), SOAP (muy usado en la AGE por el ENI), RMI (dependiente de Java), GraphQL (agregador de consultas), REST (HTTP 1.1, XML+JSON, OpenAPI/Swagger).",
+      "norma": null,
+      "articulo": null,
+      "tags_transversales": [],
+      "verificado": false,
+      "es_principal": true
+    },
+    {
+      "id": "c-broker-mensajes",
+      "nombre": "Brokers de mensajes",
+      "tipo": "clasificacion",
+      "valor": "Intermediarios entre μs para una comunicación asíncrona (colas de mensajes / topics). Entrega garantizada, confianza, transaccionalidad. Productos: Apache Kafka, RabbitMQ, Apache ActiveMQ, Google Cloud Pub/Sub.",
+      "norma": null,
+      "articulo": null,
+      "tags_transversales": [],
+      "verificado": false,
+      "es_principal": true
+    },
+    {
+      "id": "c-api-gateway",
+      "nombre": "API Gateway (v1.0)",
+      "tipo": "comparativa",
+      "valor": "Puerta de entrada a los μs, aislándolos del exterior. Productos liberados por Netflix. Zuul es el primer producto que hace de proxy inverso, canalizando peticiones y ocultando la complejidad de los μs; se replica muchas veces. Hystrix: librería de errores en cascada usando patrón circuit breaker. Ribbon: librería para balancear peticiones de clientes. Eureka: servidor para registrar μs y sus metadatos. API Gateway centraliza la lógica de acceso a los μs que están detrás; esta versión tiene mucha complejidad para gestionar los μs.",
+      "norma": null,
+      "articulo": null,
+      "tags_transversales": [],
+      "verificado": false,
+      "es_principal": true
+    },
+    {
+      "id": "c-service-mesh",
+      "nombre": "Service Mesh (v2.0)",
+      "tipo": "comparativa",
+      "valor": "Tecnología diseñada para abordar las complejidades de las arquitecturas de μs. Service Mesh = Istio + Envoy (proxy, implementación del patrón sidecar). Istio habla con los Envoy y centraliza las peticiones de los proxys. Service Mesh es como un Framework que hace el trabajo sucio a los μs para preocuparse solo de la lógica de negocio. Plano de control donde se solucionan problemas de chequeo de políticas de seguridad, métricas, etc. Funciones: abstracción (discovery, balanceo de carga, recuperación; Envoy), centralización (Istio, Linkerd), trazabilidad (distributed tracing; Jaeger, Spring Cloud Sleuth), observabilidad (elasticsearch logs, Grafana dashboard, kiali, Prometheus métricas), seguridad (cifrado, autenticación, autorizaciones; keycloak SSO). Es habitual combinar API Gateway y Service Mesh.",
+      "norma": null,
+      "articulo": null,
+      "tags_transversales": [],
+      "verificado": false,
+      "es_principal": true
+    },
+    {
+      "id": "c-circuit-breaker",
+      "nombre": "Circuit Breaker",
+      "tipo": "regla",
+      "valor": "Patrón: cuando un μs llama a otro y éste a otro, si alguno falla no se cae todo. Permite definir política de reintentos y timeout. Corta el acceso al μs erróneo de cara a futuras llamadas por otros μs e implementa una política de restauración. Estados básico: abierto y cerrado. Cerrado: cierra el acceso a un μs si después de aplicar la política de reintentos se ve que está caído, de modo que los siguientes μs ni lo intentan; también hay política de recuperación para volver a dejar el acceso en estado abierto.",
+      "norma": null,
+      "articulo": null,
+      "tags_transversales": [],
+      "verificado": false,
+      "es_principal": true
+    },
+    {
+      "id": "c-cqrs",
+      "nombre": "CQRS",
+      "tipo": "proceso",
+      "valor": "Command and Query Responsibility Segregation. En CRUD la mayor parte de las operaciones son de lectura (R); el resto son creación (C), actualización (U) y borrado (D). Por eso se divide el μs en 2: R y CUD.",
+      "norma": null,
+      "articulo": null,
+      "tags_transversales": [],
+      "verificado": false,
+      "es_principal": true
+    },
+    {
+      "id": "c-saga",
+      "nombre": "SAGA",
+      "tipo": "proceso",
+      "valor": "Algoritmo que coordina múltiples cambios en estados, evitando bloquear recursos por largos periodos de tiempo. Separa una LLT (Long Lived Transaction) en una secuencia de tx independientes. Si hay fallos se puede reintentar o hacer rollback. Se gobierna con Orquestador o Coreógrafo. Como es difícil hacer rollback, se guarda una tx compensatoria y, en lugar de hacer rollback en todos los μs, se manda a todos los μs la tx compensatoria.",
+      "norma": null,
+      "articulo": null,
+      "tags_transversales": [],
+      "verificado": false,
+      "es_principal": true
+    },
+    {
+      "id": "c-2pc",
+      "nombre": "2PC (Two-Phase Commits)",
+      "tipo": "proceso",
+      "valor": "Transacciones distribuidas en dos fases: fase de Voting y fase de Commit. No suele usarse por ser muy costoso.",
+      "norma": null,
+      "articulo": null,
+      "tags_transversales": [],
+      "verificado": false,
+      "es_principal": true
+    },
+    {
+      "id": "c-orquestacion",
+      "nombre": "Orquestación de contenedores",
+      "tipo": "clasificacion",
+      "valor": "Nodo: elemento del clúster que puede albergar pods. Clúster: agrupación de nodos a orquestar, al menos 1 master y 1 worker. Pod: conjunto de uno o más contenedores. Volumen: directorio con datos accesibles a los contenedores del pod. Servicio: conjunto de pods a los que se envía tráfico (ingress). Namespace: clúster virtual o partición del clúster. Productos: Docker Swarm y Kubernetes.",
+      "norma": null,
+      "articulo": null,
+      "tags_transversales": [],
+      "verificado": false,
+      "es_principal": true
+    },
+    {
+      "id": "c-modos-despliegue",
+      "nombre": "Modos de despliegue de microservicios",
+      "tipo": "clasificacion",
+      "valor": "Máquina física (sin virtualización); máquina virtual; contenedor (en host físico o virtual, gestionable por orquestador como k8s); contenedor de aplicaciones (Tomcat, WebLogic); PaaS (Heroku, Google App Engine, AWS Beanstalk); FaaS/serverless (AWS Lambda, Google Cloud Functions, Azure Functions); KaaS (Amazon EKS, Google GKE, Azure AKS, infraestructura administrada por el CSP).",
+      "norma": null,
+      "articulo": null,
+      "tags_transversales": [],
+      "verificado": false,
+      "es_principal": true
+    },
+    {
+      "id": "c-observabilidad",
+      "nombre": "Observabilidad",
+      "tipo": "clasificacion",
+      "valor": "Agregación de logs; agregación de métricas (cpu, ram, peticiones e indicadores de negocio); trazas distribuidas; alertas (incluso emitiendo eventos para modificar la infraestructura; evitar fatiga de alertas); pruebas en producción (transacciones sintéticas, Canary, Tests A/B, ejecuciones paralelas, Chaos Engineering).",
+      "norma": null,
+      "articulo": null,
+      "tags_transversales": [],
+      "verificado": false,
+      "es_principal": true
+    },
+    {
+      "id": "c-resiliencia",
+      "nombre": "Resiliencia",
+      "tipo": "clasificacion",
+      "valor": "Timeouts (tiempo permitido hasta que falle o hasta decidir que ha ido mal); reintentos (no inmediatos, back-off exponencial y número máximo de intentos); circuit breaker (detectar fallo, dejar de enviar peticiones, recuperar y volver a enviar); bulkheads (barreras/protecciones entre componentes; cuotas CPU/RAM/persistencia, cuotas de uso de APIs, rate limit frente a DoS); idempotencia (realizar una acción varias veces con el mismo resultado que una sola vez; relacionado con Event Sourcing; Apache Kafka como gestor de colas para evitar procesar eventos duplicados).",
+      "norma": null,
+      "articulo": null,
+      "tags_transversales": [],
+      "verificado": false,
+      "es_principal": true
+    },
+    {
+      "id": "c-escalado",
+      "nombre": "Escalado",
+      "tipo": "clasificacion",
+      "valor": "Vertical (mejorar recursos: más memoria, CPU, almacenamiento, ancho de banda); horizontal (crecer en instancias, lanzar nuevos pods o servicios a demanda y bajarlos cuando baja la demanda, crecer en workers); particionar por datos (distribuir carga haciendo particiones sobre los datos por dimensión Apellido, Geografía, etc.); descomposición funcional (extraer una funcionalidad muy demandante a otro μs para luego poder escalarlo).",
+      "norma": null,
+      "articulo": null,
+      "tags_transversales": [],
+      "verificado": false,
+      "es_principal": true
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "id": "cuadro-puertos-correo",
+  "tema_id": "tema-26-servidores-de-correo-contenedores-y-microservicios",
+  "tipo_dato": "puertos",
+  "titulo": "Puertos de correo electrónico (estándar vs seguro TLS)",
+  "semilla": false,
+  "n_filas": 4,
+  "n_fuentes_distintas": 1,
+  "columnas": [
+    "protocolo",
+    "puerto_estandar",
+    "puerto_seguro_tls"
+  ],
+  "columna_clave": "protocolo",
+  "columna_respuesta": "puerto_seguro_tls",
+  "columna_contexto": "puerto_estandar",
+  "columna_fuente": "fuente",
+  "filas": [
+    {
+      "id": "c-puertos-1",
+      "fuente": "resumen CPS",
+      "fuente_tipo": "manual",
+      "valores": {
+        "protocolo": "SMTP",
+        "puerto_estandar": "25",
+        "puerto_seguro_tls": "465"
+      },
+      "pasaje_origen": "Tabla de puertos de correo",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-puertos-2",
+      "fuente": "resumen CPS",
+      "fuente_tipo": "manual",
+      "valores": {
+        "protocolo": "POP3",
+        "puerto_estandar": "110",
+        "puerto_seguro_tls": "995"
+      },
+      "pasaje_origen": "Tabla de puertos de correo",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-puertos-3",
+      "fuente": "resumen CPS",
+      "fuente_tipo": "manual",
+      "valores": {
+        "protocolo": "IMAP",
+        "puerto_estandar": "143",
+        "puerto_seguro_tls": "993"
+      },
+      "pasaje_origen": "Tabla de puertos de correo",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-puertos-4",
+      "fuente": "resumen CPS",
+      "fuente_tipo": "manual",
+      "valores": {
+        "protocolo": "qmtp",
+        "puerto_estandar": "209",
+        "puerto_seguro_tls": "—"
+      },
+      "pasaje_origen": "Quick Mail Transfer Protocol",
+      "ubicacion": {},
+      "verificado": false
+    }
+  ],
+  "verificado": false
+}

@@ -1,0 +1,3806 @@
+{
+  "tema_id": "tema-04-el-trebep-y-demas-normativa-transparencia-agenda-2030-y-ods",
+  "total": 190,
+  "preguntas": [
+    {
+      "id": "p-00415",
+      "concepto_id": "c-acfbfaece80e",
+      "capitulo": "cap-01",
+      "tipo": "multiple-choice",
+      "dificultad": "baja",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Qué regula el TREBEP (RDL 5/2015) según su artículo 1?",
+      "opciones": [
+        "La condición de empleado público y las relaciones de empleo en las Administraciones Públicas",
+        "El procedimiento administrativo común",
+        "Los contratos del sector público",
+        "Las haciendas locales"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 1 establece que el Estatuto regula la condición de empleado público y las relaciones de empleo en las Administraciones Públicas.",
+      "referencia": "art. 1",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00416",
+      "concepto_id": "c-983d4bb7f117",
+      "capitulo": "cap-01",
+      "tipo": "multiple-choice",
+      "dificultad": "baja",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿A qué Administraciones se aplica el TREBEP según el art. 2?",
+      "opciones": [
+        "A la Administración General del Estado, a las Comunidades Autónomas y a las Entidades Locales",
+        "Únicamente a la Administración General del Estado",
+        "Solo a las Entidades Locales",
+        "A las Administraciones Públicas y a las empresas privadas"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 2 define el ámbito de aplicación del Estatuto.",
+      "referencia": "art. 2",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00417",
+      "concepto_id": "c-60e3d694bb3e",
+      "capitulo": "cap-01",
+      "tipo": "multiple-choice",
+      "dificultad": "baja",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Qué se entiende por empleado público según el art. 8?",
+      "opciones": [
+        "Quien desempeña funciones retribuidas en las Administraciones Públicas al servicio de los intereses generales",
+        "Quien trabaja en una empresa privada con contrato laboral",
+        "Únicamente los funcionarios de carrera",
+        "Los cargos electos de las Corporaciones Locales"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 8.1 define el concepto de empleado público.",
+      "referencia": "art. 8",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00418",
+      "concepto_id": "c-d31213cf7074",
+      "capitulo": "cap-01",
+      "tipo": "multiple-choice",
+      "dificultad": "baja",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Cuántas clases de empleados públicos establece el art. 8.2?",
+      "opciones": [
+        "Cuatro: funcionarios de carrera, funcionarios interinos, personal laboral y personal eventual",
+        "Tres: funcionarios, laborales y eventuales",
+        "Cinco: carrera, interino, laboral, eventual y directivo",
+        "Dos: funcionarios y laborales"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 8.2 enumera cuatro clases de empleados públicos.",
+      "referencia": "art. 8",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00419",
+      "concepto_id": "c-d31213cf7074",
+      "capitulo": "cap-01",
+      "tipo": "multiple-choice",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Qué caracteriza al funcionario de carrera según el art. 9?",
+      "opciones": [
+        "Vinculación por relación estatutaria regulada por Derecho Administrativo, nombramiento legal y servicios de carácter permanente",
+        "Vinculación por contrato laboral",
+        "Nombramiento libre y cese discrecional",
+        "Designación temporal por necesidades urgentes"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 9 define al funcionario de carrera.",
+      "referencia": "art. 9",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00420",
+      "concepto_id": "c-d31213cf7074",
+      "capitulo": "cap-01",
+      "tipo": "multiple-choice",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿A quién corresponden exclusivamente las funciones que impliquen ejercicio de potestades públicas?",
+      "opciones": [
+        "A los funcionarios públicos",
+        "Al personal laboral fijo",
+        "Al personal eventual",
+        "A cualquier empleado público"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 9.2 reserva las potestades públicas a los funcionarios.",
+      "referencia": "art. 9",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00421",
+      "concepto_id": "c-dfaae9814e18",
+      "capitulo": "cap-01",
+      "tipo": "multiple-choice",
+      "dificultad": "baja",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Cuál es la finalidad del nombramiento de funcionarios interinos?",
+      "opciones": [
+        "Atender necesidades urgentes o sustitución transitoria de titulares",
+        "Cubrir puestos directivos de confianza",
+        "Proveer plazas vacantes de forma definitiva",
+        "Realizar tareas de asesoramiento político"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 10 regula el nombramiento interino.",
+      "referencia": "art. 10",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00422",
+      "concepto_id": "c-dfaae9814e18",
+      "capitulo": "cap-01",
+      "tipo": "multiple-choice",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Cuál es el plazo máximo de nombramiento interino para plazas vacantes?",
+      "opciones": [
+        "Tres años",
+        "Dos años",
+        "Cinco años",
+        "Un año"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 10.1.a limita a tres años el nombramiento para plazas vacantes.",
+      "referencia": "art. 10",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00423",
+      "concepto_id": "c-dfaae9814e18",
+      "capitulo": "cap-01",
+      "tipo": "multiple-choice",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Qué plazo máximo establece el art. 10.1.c para programas temporales?",
+      "opciones": [
+        "Tres años, ampliable doce meses",
+        "Dos años, ampliable seis meses",
+        "Cinco años, ampliable un año",
+        "Un año, sin ampliación"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 10.1.c regula los programas temporales.",
+      "referencia": "art. 10",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00424",
+      "concepto_id": "c-dfaae9814e18",
+      "capitulo": "cap-01",
+      "tipo": "multiple-choice",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Cuál es el plazo máximo del nombramiento interino por exceso de tareas?",
+      "opciones": [
+        "Nueve meses en un periodo de dieciocho meses",
+        "Seis meses en un periodo de un año",
+        "Doce meses ininterrumpidos",
+        "Tres meses renovables"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 10.1.d regula el exceso o acumulación de tareas.",
+      "referencia": "art. 10",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00425",
+      "concepto_id": "c-25f25a45cd79",
+      "capitulo": "cap-01",
+      "tipo": "multiple-choice",
+      "dificultad": "baja",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Qué vinculación jurídica tiene el personal laboral según el art. 11?",
+      "opciones": [
+        "Relación de derecho laboral",
+        "Relación estatutaria de Derecho Administrativo",
+        "Relación mercantil",
+        "Relación civil"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 11 establece la relación laboral del personal laboral.",
+      "referencia": "art. 11",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00426",
+      "concepto_id": "c-0e3714e8be75",
+      "capitulo": "cap-01",
+      "tipo": "multiple-choice",
+      "dificultad": "baja",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Qué caracteriza al personal eventual según el art. 12?",
+      "opciones": [
+        "Nombramiento libre para funciones de confianza o asesoramiento, con cese al cesar la autoridad",
+        "Acceso por oposición y carrera profesional",
+        "Relación laboral indefinida",
+        "Designación para potestades públicas"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 12 regula el personal eventual.",
+      "referencia": "art. 12",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00427",
+      "concepto_id": "c-feeba7fa3560",
+      "capitulo": "cap-01",
+      "tipo": "multiple-choice",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Qué es el personal directivo profesional según el art. 13?",
+      "opciones": [
+        "Funcionarios designados para puestos directivos con responsabilidad en la gestión",
+        "Personal eventual de libre designación",
+        "Laborales fijos de alta dirección",
+        "Cargos electos de la Administración"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 13 regula el personal directivo profesional.",
+      "referencia": "art. 13",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00428",
+      "concepto_id": "c-bf949e6b618c",
+      "capitulo": "cap-01",
+      "tipo": "multiple-choice",
+      "dificultad": "baja",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Dónde se regulan los derechos individuales de los empleados públicos?",
+      "opciones": [
+        "En el art. 14 del TREBEP",
+        "En el art. 52",
+        "En el art. 15",
+        "En el art. 20"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 14 enumera los derechos individuales.",
+      "referencia": "art. 14",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00429",
+      "concepto_id": "c-5e9342adba24",
+      "capitulo": "cap-01",
+      "tipo": "multiple-choice",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Qué derecho reconoce el art. 14 en materia de carrera?",
+      "opciones": [
+        "El derecho a la carrera administrativa y a la promoción profesional",
+        "El derecho a la huelga ilimitada",
+        "El derecho a la propiedad de su puesto",
+        "El derecho a la inamovilidad absoluta"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 14 recoge el derecho a la carrera y promoción.",
+      "referencia": "art. 14",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00430",
+      "concepto_id": "c-343e00f34e9f",
+      "capitulo": "cap-01",
+      "tipo": "multiple-choice",
+      "dificultad": "baja",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Qué derecho individual incluye el art. 14 sobre formación?",
+      "opciones": [
+        "El derecho a la formación continua y al perfeccionamiento profesional",
+        "El derecho a la exención de formación",
+        "El derecho a la formación únicamente inicial",
+        "El derecho a la formación a cargo del empleado"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 14 reconoce el derecho a la formación.",
+      "referencia": "art. 14",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00431",
+      "concepto_id": "c-5707853ef78a",
+      "capitulo": "cap-01",
+      "tipo": "multiple-choice",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Qué derecho individual incluye el art. 14 sobre evaluación?",
+      "opciones": [
+        "El derecho a que se evalúe su desempeño",
+        "El derecho a no ser evaluado",
+        "El derecho a la autoevaluación exclusiva",
+        "El derecho a la evaluación por pares únicamente"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 14 recoge el derecho a la evaluación del desempeño.",
+      "referencia": "art. 14",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00432",
+      "concepto_id": "c-73803caacae0",
+      "capitulo": "cap-01",
+      "tipo": "multiple-choice",
+      "dificultad": "baja",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Qué derecho reconoce el art. 14 en materia de salud laboral?",
+      "opciones": [
+        "El derecho a la protección de la salud en el trabajo",
+        "El derecho a la jornada reducida automática",
+        "El derecho a la exención de riesgos",
+        "El derecho a la indemnización sin causa"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 14 incluye la protección de la salud.",
+      "referencia": "art. 14",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00433",
+      "concepto_id": "c-feeba7fa3560",
+      "capitulo": "cap-01",
+      "tipo": "multiple-choice",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Dónde se regulan los derechos colectivos de los empleados públicos?",
+      "opciones": [
+        "En el art. 15 del TREBEP",
+        "En el art. 40",
+        "En el art. 14",
+        "En el art. 52"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 15 regula los derechos colectivos.",
+      "referencia": "art. 15",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00434",
+      "concepto_id": "c-059284374854",
+      "capitulo": "cap-01",
+      "tipo": "multiple-choice",
+      "dificultad": "baja",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Qué derecho económico incluye el art. 14?",
+      "opciones": [
+        "El derecho a la retribución",
+        "El derecho a la propiedad del puesto",
+        "El derecho a la inamovilidad",
+        "El derecho a la huelga sin límites"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 14 reconoce el derecho a la retribución.",
+      "referencia": "art. 14",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00435",
+      "concepto_id": "c-2919b9e78917",
+      "capitulo": "cap-01",
+      "tipo": "multiple-choice",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Qué son las retribuciones básicas según el art. 22-23?",
+      "opciones": [
+        "El sueldo y los trienios, conforme al grupo y antigüedad",
+        "Los complementos de destino y específico",
+        "Las gratificaciones por servicios extraordinarios",
+        "Las indemnizaciones por razón del servicio"
+      ],
+      "correcta": 0,
+      "explicacion": "Las retribuciones básicas son sueldo y trienios.",
+      "referencia": "art. 23",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00436",
+      "concepto_id": "c-d09b2b16f5a6",
+      "capitulo": "cap-01",
+      "tipo": "multiple-choice",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Qué complementos retributivos enumera el art. 24?",
+      "opciones": [
+        "Destino, específico, productividad y gratificaciones extraordinarias",
+        "Sueldo y trienios",
+        "Vacaciones y permisos",
+        "Indemnizaciones por traslado"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 24 enumera los complementos retributivos.",
+      "referencia": "art. 24",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00437",
+      "concepto_id": "c-bf949e6b618c",
+      "capitulo": "cap-01",
+      "tipo": "multiple-choice",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿El derecho a la carrera incluye la promoción interna?",
+      "opciones": [
+        "Sí, como parte del derecho a la carrera administrativa",
+        "No, la promoción interna está prohibida",
+        "Solo para personal laboral",
+        "Solo por designación directa"
+      ],
+      "correcta": 0,
+      "explicacion": "La carrera incluye la promoción profesional.",
+      "referencia": "art. 14",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00438",
+      "concepto_id": "c-7ac687b607cf",
+      "capitulo": "cap-01",
+      "tipo": "multiple-choice",
+      "dificultad": "baja",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Dónde se regulan los deberes de los empleados públicos y el código de conducta?",
+      "opciones": [
+        "En el art. 52 del TREBEP",
+        "En el art. 14",
+        "En el art. 15",
+        "En el art. 6"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 52 regula los deberes y el código de conducta.",
+      "referencia": "art. 52",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00439",
+      "concepto_id": "c-24a6823e581c",
+      "capitulo": "cap-01",
+      "tipo": "multiple-choice",
+      "dificultad": "baja",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Qué principios éticos incluye el art. 52?",
+      "opciones": [
+        "Objetividad, integridad, neutralidad, responsabilidad, imparcialidad, confidencialidad, entre otros",
+        "Únicamente eficacia y economía",
+        "Solo neutralidad y transparencia",
+        "Únicamente honradez y austeridad"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 52 enumera principios éticos.",
+      "referencia": "art. 52",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00440",
+      "concepto_id": "c-84f425495356",
+      "capitulo": "cap-01",
+      "tipo": "multiple-choice",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Qué principio del art. 52 exige dedicación al servicio público?",
+      "opciones": [
+        "La dedicación al servicio público",
+        "La austeridad",
+        "La accesibilidad",
+        "La eficacia"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 52 incluye la dedicación al servicio público.",
+      "referencia": "art. 52",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00441",
+      "concepto_id": "c-55c0f1f4f2c9",
+      "capitulo": "cap-01",
+      "tipo": "multiple-choice",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Qué obligación de reserva establece el art. 53.12?",
+      "opciones": [
+        "Guardar secreto de materias clasificadas y discreción sobre asuntos del cargo",
+        "Publicar toda la información obtenida",
+        "Comunicar datos a terceros libremente",
+        "Divulgar secretos oficiales con autorización verbal"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 53.12 regula la reserva y sigilo.",
+      "referencia": "art. 53",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00442",
+      "concepto_id": "c-66883f747ba6",
+      "capitulo": "cap-01",
+      "tipo": "multiple-choice",
+      "dificultad": "baja",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Qué deber de atención al ciudadano recoge el art. 54?",
+      "opciones": [
+        "Tratar con atención y respeto a los ciudadanos y facilitar el ejercicio de sus derechos",
+        "Atender únicamente a los superiores",
+        " Derivar toda consulta a terceros",
+        " Atender solo en horario restringido"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 54.1 y 54.4 regulan la atención al ciudadano.",
+      "referencia": "art. 54",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00443",
+      "concepto_id": "c-e6d10972a984",
+      "capitulo": "cap-01",
+      "tipo": "multiple-choice",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Qué establece el art. 53.5 sobre conflictos de intereses?",
+      "opciones": [
+        "Abstenerse en asuntos con interés personal y evitar actividades privadas que generen conflicto",
+        "Participar siempre en asuntos propios",
+        "Aceptar tratos de favor de empresas",
+        "Intervenir en negocios con conflicto"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 53.5 regula la abstención y conflicto de intereses.",
+      "referencia": "art. 53",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00444",
+      "concepto_id": "c-a151c3e299a8",
+      "capitulo": "cap-01",
+      "tipo": "multiple-choice",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Qué principio del art. 53 exige respeto a los derechos fundamentales?",
+      "opciones": [
+        "El principio de respeto de los derechos fundamentales y libertades públicas",
+        "El principio de austeridad",
+        "El principio de eficacia",
+        "El principio de transparencia"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 53.4 establece el respeto a los derechos fundamentales.",
+      "referencia": "art. 53",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00445",
+      "concepto_id": "c-a151c3e299a8",
+      "capitulo": "cap-01",
+      "tipo": "multiple-choice",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Qué establece el art. 54.6 sobre regalos?",
+      "opciones": [
+        "Rechazar regalos, favores o servicios ventajosos más allá de los usos habituales",
+        "Aceptar regalos de cualquier valor",
+        "Solicitar regalos a los administrados",
+        "Intercambiar favores con empresas"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 54.6 regula el rechazo de regalos.",
+      "referencia": "art. 54",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00446",
+      "concepto_id": "c-a151c3e299a8",
+      "capitulo": "cap-01",
+      "tipo": "multiple-choice",
+      "dificultad": "baja",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Qué deber de formación recoge el art. 54.8?",
+      "opciones": [
+        "Mantener actualizada la formación y cualificación",
+        "Eximirse de formación",
+        "Delegar la formación en terceros",
+        "Formarse solo al ingreso"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 54.8 establece el deber de formación.",
+      "referencia": "art. 54",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00447",
+      "concepto_id": "c-a151c3e299a8",
+      "capitulo": "cap-01",
+      "tipo": "multiple-choice",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Qué obligación sobre recursos públicos establece el art. 54.5?",
+      "opciones": [
+        "Administrar los recursos y bienes públicos con austeridad y velar por su conservación",
+        "Utilizar los recursos para fines personales",
+        "Disponer libremente de los bienes públicos",
+        "No rendir cuentas del uso"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 54.5 regula la administración de recursos.",
+      "referencia": "art. 54",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00448",
+      "concepto_id": "c-61e3de0602c8",
+      "capitulo": "cap-01",
+      "tipo": "multiple-choice",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Qué es la carrera horizontal según el art. 16?",
+      "opciones": [
+        "Progresión por grados o niveles dentro del mismo puesto sin cambio de puesto",
+        "Ascenso a un puesto superior",
+        "Cambio de cuerpo o escala",
+        "Movilidad voluntaria a otra Administración"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 16 regula la carrera profesional.",
+      "referencia": "art. 16",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00449",
+      "concepto_id": "c-f402969b0d73",
+      "capitulo": "cap-01",
+      "tipo": "multiple-choice",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Qué es la carrera vertical según el art. 16?",
+      "opciones": [
+        "Promoción a puestos de superior categoría o nivel",
+        "Progresión dentro del mismo puesto",
+        "Cambio de localidad",
+        "Permuta de puestos"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 16 distingue la carrera vertical.",
+      "referencia": "art. 16",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00450",
+      "concepto_id": "c-5e9342adba24",
+      "capitulo": "cap-01",
+      "tipo": "multiple-choice",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Qué requisito de antigüedad exige el art. 18 para la promoción interna?",
+      "opciones": [
+        "Dos años de servicios efectivos en el subgrupo inferior",
+        "Cinco años de servicios",
+        "Un año de servicios",
+        "Diez años de servicios"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 18.2 establece el requisito de antigüedad.",
+      "referencia": "art. 18",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00451",
+      "concepto_id": "c-2acba320964e",
+      "capitulo": "cap-01",
+      "tipo": "multiple-choice",
+      "dificultad": "baja",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Qué mide la evaluación del desempeño según el art. 20?",
+      "opciones": [
+        "El rendimiento, la conducta profesional y el desarrollo de competencias",
+        "Únicamente la antigüedad",
+        "Solo la formación académica",
+        "Exclusivamente el número de horas"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 20 define la evaluación del desempeño.",
+      "referencia": "art. 20",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00452",
+      "concepto_id": "c-2acba320964e",
+      "capitulo": "cap-01",
+      "tipo": "multiple-choice",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Qué principios rigen la evaluación del desempeño según el art. 20.2?",
+      "opciones": [
+        "Transparencia, objetividad, imparcialidad y participación",
+        "Aleatoriedad y secreto",
+        "Discrecionalidad absoluta",
+        "Únicamente antigüedad"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 20.2 establece los principios de la evaluación.",
+      "referencia": "art. 20",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00453",
+      "concepto_id": "c-2acba320964e",
+      "capitulo": "cap-01",
+      "tipo": "multiple-choice",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Qué efectos puede tener la evaluación del desempeño según el art. 20.3?",
+      "opciones": [
+        "Efectos en la carrera, retribuciones y formación",
+        "Únicamente efectos disciplinarios",
+        "Solo efectos salariales indirectos",
+        "Ningún efecto"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 20.3 regula los efectos de la evaluación.",
+      "referencia": "art. 20",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00454",
+      "concepto_id": "c-b8d534249e89",
+      "capitulo": "cap-01",
+      "tipo": "multiple-choice",
+      "dificultad": "baja",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Qué derecho/deber incluye el art. 14 sobre formación y perfeccionamiento?",
+      "opciones": [
+        "El derecho a la formación continua y el deber de mantener la cualificación",
+        "La exención de formación",
+        "La formación únicamente inicial",
+        "La formación a cargo exclusivo del empleado"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 14 y 54.8 regulan formación y perfeccionamiento.",
+      "referencia": "art. 14",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00455",
+      "concepto_id": "c-61e3de0602c8",
+      "capitulo": "cap-01",
+      "tipo": "multiple-choice",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿La carrera profesional puede ser simultáneamente horizontal y vertical?",
+      "opciones": [
+        "Sí, según el sistema de carrera de cada Administración",
+        "No, son excluyentes",
+        "Solo horizontal",
+        " Solo vertical"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 16 permite modalidades de carrera.",
+      "referencia": "art. 16",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00456",
+      "concepto_id": "c-25f25a45cd79",
+      "capitulo": "cap-01",
+      "tipo": "multiple-choice",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Qué normativa regula la carrera del personal laboral?",
+      "opciones": [
+        "El Estatuto de los Trabajadores y los convenios colectivos",
+        "Únicamente el TREBEP",
+        "La Ley de Contratos del Sector Público",
+        "El Código Civil"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 7 y 11 remiten al Estatuto de los Trabajadores.",
+      "referencia": "art. 7",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00457",
+      "concepto_id": "c-5197ab297660",
+      "capitulo": "cap-01",
+      "tipo": "multiple-choice",
+      "dificultad": "baja",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Dónde se regula la planificación de recursos humanos?",
+      "opciones": [
+        "En los arts. 69-74 del TREBEP",
+        "En el art. 14",
+        "En el art. 52",
+        "En el art. 8"
+      ],
+      "correcta": 0,
+      "explicacion": "Los arts. 69-74 regulan la planificación y RPT.",
+      "referencia": "art. 69",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00458",
+      "concepto_id": "c-33cc1116366b",
+      "capitulo": "cap-01",
+      "tipo": "multiple-choice",
+      "dificultad": "baja",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Qué principios rigen la provisión de puestos según el art. 78?",
+      "opciones": [
+        "Igualdad, mérito, capacidad y publicidad",
+        "Antigüedad exclusiva",
+        "Discrecionalidad absoluta",
+        "Sorteo"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 78.1 establece los principios de provisión.",
+      "referencia": "art. 78",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00459",
+      "concepto_id": "c-33cc1116366b",
+      "capitulo": "cap-01",
+      "tipo": "multiple-choice",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Por qué procedimientos se proveen los puestos según el art. 78.2?",
+      "opciones": [
+        "Concurso y libre designación con convocatoria pública",
+        "Oposición y concurso-oposición",
+        "Sorteo y designación directa",
+        "Nombramiento libre sin convocatoria"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 78.2 enumera los procedimientos de provisión.",
+      "referencia": "art. 78",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00460",
+      "concepto_id": "c-30f4a89d1742",
+      "capitulo": "cap-01",
+      "tipo": "multiple-choice",
+      "dificultad": "baja",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Qué es el concurso de provisión según el art. 79?",
+      "opciones": [
+        "Valoración de méritos y capacidades por órganos colegiados técnicos",
+        "Apreciación discrecional de la idoneidad",
+        "Sorteo entre candidatos",
+        "Nombramiento directo"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 79 define el concurso.",
+      "referencia": "art. 79",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00461",
+      "concepto_id": "c-4e70afd0129b",
+      "capitulo": "cap-01",
+      "tipo": "multiple-choice",
+      "dificultad": "baja",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Qué es la libre designación según el art. 80?",
+      "opciones": [
+        "Apreciación discrecional de la idoneidad de los candidatos",
+        "Valoración de méritos por tribunal",
+        "Sorteo público",
+        "Promoción automática"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 80 define la libre designación.",
+      "referencia": "art. 80",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00462",
+      "concepto_id": "c-cd972122cc44",
+      "capitulo": "cap-01",
+      "tipo": "multiple-choice",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Qué es la comisión de servicios?",
+      "opciones": [
+        "Asignación temporal de un puesto por necesidades del servicio",
+        "Nombramiento definitivo",
+        "Movilidad voluntaria permanente",
+        "Cese discrecional"
+      ],
+      "correcta": 0,
+      "explicacion": "La comisión de servicios es asignación temporal (art. 78.3).",
+      "referencia": "art. 78",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00463",
+      "concepto_id": "c-72f193571249",
+      "capitulo": "cap-01",
+      "tipo": "multiple-choice",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Qué es la adscripción provisional?",
+      "opciones": [
+        "Asignación temporal de un puesto hasta la provisión definitiva",
+        "Nombramiento en propiedad",
+        "Movilidad voluntaria",
+        "Cese automático"
+      ],
+      "correcta": 0,
+      "explicacion": "La adscripción provisional es asignación temporal (art. 78.3).",
+      "referencia": "art. 78",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00464",
+      "concepto_id": "c-704da6f50342",
+      "capitulo": "cap-01",
+      "tipo": "multiple-choice",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Qué regula el art. 84 sobre movilidad?",
+      "opciones": [
+        "La movilidad voluntaria entre Administraciones Públicas",
+        "La movilidad forzosa sin consentimiento",
+        "La permuta obligatoria",
+        "El cese automático"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 84 regula la movilidad entre Administraciones.",
+      "referencia": "art. 84",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00465",
+      "concepto_id": "c-5197ab297660",
+      "capitulo": "cap-01",
+      "tipo": "multiple-choice",
+      "dificultad": "baja",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Qué contiene la Relación de Puestos de Trabajo (RPT) según el art. 74?",
+      "opciones": [
+        "Denominación de puestos, grupos, cuerpos, sistemas de provisión y retribuciones",
+        "Únicamente salarios",
+        "Solo vacaciones",
+        "Únicamente organigrama"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 74 regula la RPT.",
+      "referencia": "art. 74",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00466",
+      "concepto_id": "c-5197ab297660",
+      "capitulo": "cap-01",
+      "tipo": "multiple-choice",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿La RPT debe ser pública?",
+      "opciones": [
+        "Sí, es pública y accesible",
+        "No, es secreta",
+        "Solo para sindicatos",
+        "Solo para la Administración"
+      ],
+      "correcta": 0,
+      "explicacion": "La RPT es pública (art. 74).",
+      "referencia": "art. 74",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00467",
+      "concepto_id": "c-50de8e458834",
+      "capitulo": "cap-01",
+      "tipo": "multiple-choice",
+      "dificultad": "baja",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Qué es la oferta de empleo público (OEP) según el art. 70?",
+      "opciones": [
+        "El documento de planificación anual de plazas a cubrir",
+        "El nombramiento directo",
+        "El concurso de traslados",
+        "La RPT"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 70 regula la OEP.",
+      "referencia": "art. 70",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00468",
+      "concepto_id": "c-50de8e458834",
+      "capitulo": "cap-01",
+      "tipo": "multiple-choice",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Con qué periodicidad se aprueba la OEP?",
+      "opciones": [
+        "Anualmente",
+        "Cada cinco años",
+        "Mensualmente",
+        "Cada dos años"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 70 establece la aprobación anual.",
+      "referencia": "art. 70",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00469",
+      "concepto_id": "c-5ecb9351ed66",
+      "capitulo": "cap-01",
+      "tipo": "multiple-choice",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Qué establece el art. 73 sobre el desempeño del puesto?",
+      "opciones": [
+        "Los funcionarios desempeñarán las funciones del puesto asignado",
+        "Pueden desempeñar funciones distintas sin control",
+        " El puesto es inamovible siempre",
+        "No hay obligación de desempeño"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 73 regula el desempeño del puesto.",
+      "referencia": "art. 73",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00470",
+      "concepto_id": "c-30f4a89d1742",
+      "capitulo": "cap-01",
+      "tipo": "multiple-choice",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Quiénes componen los órganos de provisión de concurso?",
+      "opciones": [
+        "Órganos colegiados de carácter técnico con paridad",
+        "Un único funcionario",
+        "Los sindicatos exclusivamente",
+        "Los cargos electos"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 79.1 exige órganos colegiados técnicos.",
+      "referencia": "art. 79",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00471",
+      "concepto_id": "c-4a622f4d41d7",
+      "capitulo": "cap-01",
+      "tipo": "multiple-choice",
+      "dificultad": "baja",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Qué principios rigen el acceso al empleo público según el art. 55?",
+      "opciones": [
+        "Igualdad, mérito y capacidad",
+        "Antigüedad y sorteo",
+        "Designación directa",
+        "Libre elección"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 55.1 establece los principios constitucionales.",
+      "referencia": "art. 55",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00472",
+      "concepto_id": "c-4a622f4d41d7",
+      "capitulo": "cap-01",
+      "tipo": "multiple-choice",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Qué principios adicionales enumera el art. 55.2?",
+      "opciones": [
+        "Publicidad, transparencia, imparcialidad, profesionalidad, independencia, adecuación y agilidad",
+        "Secreto y discrecionalidad",
+        " Sorteo y azar",
+        " Antigüedad exclusiva"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 55.2 enumera principios selectivos.",
+      "referencia": "art. 55",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00473",
+      "concepto_id": "c-4a622f4d41d7",
+      "capitulo": "cap-01",
+      "tipo": "multiple-choice",
+      "dificultad": "baja",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Qué requisito de edad establece el art. 56 para participar?",
+      "opciones": [
+        "Tener cumplidos 16 años y no exceder la edad máxima de jubilación forzosa",
+        "Tener al menos 18 años y menos de 65",
+        "Tener entre 21 y 60 años",
+        "No hay límite de edad"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 56.1.c establece el requisito de edad.",
+      "referencia": "art. 56",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00474",
+      "concepto_id": "c-4a622f4d41d7",
+      "capitulo": "cap-01",
+      "tipo": "multiple-choice",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Qué establece el art. 56 sobre la nacionalidad?",
+      "opciones": [
+        "Tener nacionalidad española, salvo lo dispuesto para nacionales de otros Estados",
+        "Solo nacionalidad española sin excepciones",
+        "Cualquier nacionalidad sin restricción",
+        "Nacionalidad de la UE únicamente"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 56.1.a establece el requisito de nacionalidad.",
+      "referencia": "art. 56",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00475",
+      "concepto_id": "c-4a622f4d41d7",
+      "capitulo": "cap-01",
+      "tipo": "multiple-choice",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Qué establece el art. 56.1.d sobre separación disciplinaria?",
+      "opciones": [
+        "No haber sido separado mediante expediente disciplinario ni estar inhabilitado",
+        "Haber sido sancionado sin importancia",
+        "Estar inhabilitado temporalmente",
+        "Haber sido suspendido"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 56.1.d establece la prohibición.",
+      "referencia": "art. 56",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00476",
+      "concepto_id": "c-4a622f4d41d7",
+      "capitulo": "cap-01",
+      "tipo": "multiple-choice",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Qué establece el art. 57 sobre nacionales de otros Estados de la UE?",
+      "opciones": [
+        "Pueden acceder como funcionarios, salvo puestos que impliquen ejercicio de poder público",
+        "No pueden acceder nunca",
+        "Acceden en igualdad absoluta sin excepciones",
+        "Solo como personal laboral"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 57 regula el acceso de nacionales de la UE.",
+      "referencia": "art. 57",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00477",
+      "concepto_id": "c-7fa1fd059ea0",
+      "capitulo": "cap-01",
+      "tipo": "multiple-choice",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Qué sistemas selectivos establece el art. 61.6 para funcionarios de carrera?",
+      "opciones": [
+        "Oposición y concurso-oposición, que incluyan pruebas de capacidad",
+        "Únicamente concurso",
+        "Sorteo",
+        "Designación directa"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 61.6 establece oposición y concurso-oposición.",
+      "referencia": "art. 61",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00478",
+      "concepto_id": "c-fb91fd37e9b4",
+      "capitulo": "cap-01",
+      "tipo": "multiple-choice",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Qué establece el art. 61.3 sobre la valoración de méritos?",
+      "opciones": [
+        "La valoración de méritos no puede determinar por sí sola el resultado del proceso",
+        "La valoración de méritos determina el resultado",
+        "No se valoran méritos",
+        "Los méritos sustituyen a las pruebas"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 61.3 limita la valoración de méritos.",
+      "referencia": "art. 61",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00479",
+      "concepto_id": "c-12fc2100cdd9",
+      "capitulo": "cap-01",
+      "tipo": "multiple-choice",
+      "dificultad": "baja",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Quiénes no pueden formar parte de los órganos de selección según el art. 60?",
+      "opciones": [
+        "Personal político, interinos y eventual",
+        "Funcionarios de carrera",
+        "Personal laboral fijo",
+        "Tribunales de oposición"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 60 establece las incompatibilidades de los órganos de selección.",
+      "referencia": "art. 60",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00480",
+      "concepto_id": "c-12fc2100cdd9",
+      "capitulo": "cap-01",
+      "tipo": "multiple-choice",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Qué principio de composición rige los órganos de selección según el art. 60?",
+      "opciones": [
+        "Paridad entre mujeres y hombres y profesionalidad",
+        "Unicidad de género",
+        " Designación política",
+        " Sorteo"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 60 regula la composición de los órganos de selección.",
+      "referencia": "art. 60",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00481",
+      "concepto_id": "c-7fa1fd059ea0",
+      "capitulo": "cap-01",
+      "tipo": "multiple-choice",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Qué establece el art. 61.8 sobre aprobados?",
+      "opciones": [
+        "No se puede proponer un número superior de aprobados al de plazas convocadas",
+        "Se pueden proponer ilimitados aprobados",
+        "Se proponen todos los presentados",
+        "No hay límite de plazas"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 61.8 limita los aprobados.",
+      "referencia": "art. 61",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00482",
+      "concepto_id": "c-ee0849576e8c",
+      "capitulo": "cap-01",
+      "tipo": "multiple-choice",
+      "dificultad": "baja",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Qué requisitos exige el art. 62 para adquirir la condición de funcionario de carrera?",
+      "opciones": [
+        "Superar el proceso selectivo, nombramiento, acatamiento y toma de posesión",
+        "Únicamente superar la oposición",
+        "Solo el nombramiento",
+        "Solo la toma de posesión"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 62 enumera los requisitos sucesivos.",
+      "referencia": "art. 62",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00483",
+      "concepto_id": "c-4a622f4d41d7",
+      "capitulo": "cap-01",
+      "tipo": "multiple-choice",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Qué porcentaje de reserva para discapacidad establece el art. 59?",
+      "opciones": [
+        "Al menos un 7% de las plazas convocadas",
+        "Un 5%",
+        "Un 10%",
+        "No hay reserva"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 59 establece la reserva para discapacidad.",
+      "referencia": "art. 59",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00484",
+      "concepto_id": "c-f68c6e253b9d",
+      "capitulo": "cap-01",
+      "tipo": "multiple-choice",
+      "dificultad": "baja",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Qué es la situación de servicio activo según el art. 86?",
+      "opciones": [
+        "Quienes prestan servicios efectivos como funcionarios y no les corresponde otra situación",
+        "Quienes están en excedencia",
+        "Quienes están suspendidos",
+        "Quienes están en servicios especiales"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 86 define el servicio activo.",
+      "referencia": "art. 86",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00485",
+      "concepto_id": "c-89f03c2e0c64",
+      "capitulo": "cap-01",
+      "tipo": "multiple-choice",
+      "dificultad": "baja",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Qué es la situación de servicios especiales según el art. 87?",
+      "opciones": [
+        "Cese temporal con reserva de puesto para cargos electos o de designación",
+        "Excedencia voluntaria",
+        "Suspensión disciplinaria",
+        "Jubilación"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 87 regula los servicios especiales.",
+      "referencia": "art. 87",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00486",
+      "concepto_id": "c-89f03c2e0c64",
+      "capitulo": "cap-01",
+      "tipo": "multiple-choice",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Los servicios especiales computan a efectos de ascensos y trienios?",
+      "opciones": [
+        "Sí, el tiempo se computa a efectos de ascensos y trienios",
+        "No computa en ningún caso",
+        "Solo computa la antigüedad",
+        "Solo computa para vacaciones"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 87.2 establece el cómputo.",
+      "referencia": "art. 87",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00487",
+      "concepto_id": "c-bfd84249fc79",
+      "capitulo": "cap-01",
+      "tipo": "multiple-choice",
+      "dificultad": "baja",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Qué es la excedencia voluntaria por interés particular?",
+      "opciones": [
+        "Abandono temporal con reserva de reingreso tras 5 años de servicios",
+        "Excedencia automática",
+        "Suspensión disciplinaria",
+        "Servicios especiales"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 89.2 regula la excedencia voluntaria.",
+      "referencia": "art. 89",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00488",
+      "concepto_id": "c-bfd84249fc79",
+      "capitulo": "cap-01",
+      "tipo": "multiple-choice",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Qué requisito exige el art. 89.2 para la excedencia voluntaria por interés particular?",
+      "opciones": [
+        "Haber prestado servicios efectivos al menos 5 años",
+        "Un año de servicios",
+        "No se exige requisito",
+        "Diez años de servicios"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 89.2 exige 5 años de servicios.",
+      "referencia": "art. 89",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00489",
+      "concepto_id": "c-e4a26e394a18",
+      "capitulo": "cap-01",
+      "tipo": "multiple-choice",
+      "dificultad": "baja",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Qué es la excedencia forzosa según el art. 89?",
+      "opciones": [
+        "Pase a excedencia por incompatibilidad o sanción, sin retribuciones",
+        "Excedencia voluntaria por interés personal",
+        "Servicios especiales",
+        "Suspensión temporal"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 89 regula la excedencia forzosa.",
+      "referencia": "art. 89",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00490",
+      "concepto_id": "c-18600a181c02",
+      "capitulo": "cap-01",
+      "tipo": "multiple-choice",
+      "dificultad": "baja",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Qué duración tiene la excedencia por cuidado de familiares según el art. 89.4?",
+      "opciones": [
+        "Hasta 3 años por hijo o familiar a cargo",
+        "Un año",
+        "Cinco años",
+        "Sin límite"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 89.4 establece hasta 3 años.",
+      "referencia": "art. 89",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00491",
+      "concepto_id": "c-c373179f210d",
+      "capitulo": "cap-01",
+      "tipo": "multiple-choice",
+      "dificultad": "baja",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Qué es la suspensión de funciones según el art. 89/90?",
+      "opciones": [
+        "Privación temporal del ejercicio de funciones",
+        "Cese definitivo",
+        "Excedencia voluntaria",
+        "Servicios especiales"
+      ],
+      "correcta": 0,
+      "explicacion": "La suspensión es privación temporal de funciones.",
+      "referencia": "art. 89",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00492",
+      "concepto_id": "c-15d41d7858e1",
+      "capitulo": "cap-01",
+      "tipo": "multiple-choice",
+      "dificultad": "baja",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Cuáles son causas de pérdida de la condición de funcionario según el art. 63?",
+      "opciones": [
+        "Renuncia, pérdida de nacionalidad, jubilación, sanción de separación e inhabilitación",
+        "Excedencia voluntaria",
+        "Suspensión temporal",
+        "Traslado"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 63 enumera las causas de pérdida.",
+      "referencia": "art. 63",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00493",
+      "concepto_id": "c-15d41d7858e1",
+      "capitulo": "cap-01",
+      "tipo": "multiple-choice",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿La jubilación por edad es causa de pérdida de la condición de funcionario?",
+      "opciones": [
+        "Sí, la jubilación total",
+        "No, se mantiene la condición",
+        "Solo la jubilación parcial",
+        "Solo por incapacidad"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 63.c incluye la jubilación total.",
+      "referencia": "art. 63",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00494",
+      "concepto_id": "c-89f03c2e0c64",
+      "capitulo": "cap-01",
+      "tipo": "multiple-choice",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Tienen derecho los servicios especiales a reingresar al servicio activo?",
+      "opciones": [
+        "Sí, al menos en la misma localidad con la categoría consolidada",
+        "No tienen derecho a reingreso",
+        "Solo si hay plaza vacante",
+        "Solo tras concurso"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 87.3 reconoce el derecho a reingreso.",
+      "referencia": "art. 87",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00495",
+      "concepto_id": "c-bfd84249fc79",
+      "capitulo": "cap-01",
+      "tipo": "multiple-choice",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Devengan retribuciones quienes están en excedencia voluntaria por interés particular?",
+      "opciones": [
+        "No devengan retribuciones",
+        "Devengan el sueldo completo",
+        "Devengan la mitad",
+        "Devengan solo trienios"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 89.2 establece que no devengan retribuciones.",
+      "referencia": "art. 89",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00496",
+      "concepto_id": "c-18600a181c02",
+      "capitulo": "cap-01",
+      "tipo": "multiple-choice",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿La excedencia por cuidado de familiares es retribuida?",
+      "opciones": [
+        "No, salvo lo que establezca la ley de función pública",
+        "Sí, totalmente",
+        "Sí, la mitad",
+        "Solo el primer mes"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 89.4 no establece retribución.",
+      "referencia": "art. 89",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00497",
+      "concepto_id": "c-f739956a1252",
+      "capitulo": "cap-01",
+      "tipo": "multiple-choice",
+      "dificultad": "baja",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Quién establece la jornada general y las especiales de trabajo según el art. 47?",
+      "opciones": [
+        "Las Administraciones Públicas",
+        "El empleado público",
+        "Los sindicatos exclusivamente",
+        "El Gobierno central únicamente"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 47.1 atribuye a las AP la fijación de la jornada.",
+      "referencia": "art. 47",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00498",
+      "concepto_id": "c-f739956a1252",
+      "capitulo": "cap-01",
+      "tipo": "multiple-choice",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿La jornada de trabajo puede ser a tiempo completo o parcial según el art. 47?",
+      "opciones": [
+        "Sí, puede ser a tiempo completo o a tiempo parcial",
+        "Solo a tiempo completo",
+        "Solo a tiempo parcial",
+        "Depende del convenio únicamente"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 47.1 admite ambas modalidades.",
+      "referencia": "art. 47",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00499",
+      "concepto_id": "c-6cee51f3b4d8",
+      "capitulo": "cap-01",
+      "tipo": "multiple-choice",
+      "dificultad": "baja",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Cuántos días de vacaciones retribuidas establece el art. 50?",
+      "opciones": [
+        "Veintidós días hábiles por año natural",
+        "Treinta días naturales",
+        "Quince días hábiles",
+        "Veinte días naturales"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 50.1 establece 22 días hábiles.",
+      "referencia": "art. 50",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00500",
+      "concepto_id": "c-33a6cd8067b1",
+      "capitulo": "cap-01",
+      "tipo": "multiple-choice",
+      "dificultad": "baja",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Qué permiso establece el art. 48 por matrimonio?",
+      "opciones": [
+        "Quince días",
+        "Diez días",
+        "Veinte días",
+        "Cinco días"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 48.l establece 15 días por matrimonio.",
+      "referencia": "art. 48",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00501",
+      "concepto_id": "c-be15e8b45bda",
+      "capitulo": "cap-01",
+      "tipo": "multiple-choice",
+      "dificultad": "baja",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Cuántos días de asuntos particulares establece el art. 48?",
+      "opciones": [
+        "Seis días al año",
+        "Tres días al año",
+        "Diez días al año",
+        "Doce días al año"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 48.k establece 6 días por asuntos particulares.",
+      "referencia": "art. 48",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00502",
+      "concepto_id": "c-b0647bed4287",
+      "capitulo": "cap-01",
+      "tipo": "multiple-choice",
+      "dificultad": "baja",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Qué permiso establece el art. 48 por lactancia?",
+      "opciones": [
+        "Una hora diaria (o acumulación) para hijo menor de doce meses",
+        "Dos horas diarias",
+        "Treinta minutos",
+        "No hay permiso"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 48.f establece el permiso de lactancia.",
+      "referencia": "art. 48",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00503",
+      "concepto_id": "c-41a4e43e533a",
+      "capitulo": "cap-01",
+      "tipo": "multiple-choice",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Cuál es el descanso mínimo entre jornadas según el art. 47/48?",
+      "opciones": [
+        "Doce horas",
+        "Ocho horas",
+        "Diez horas",
+        "Quince horas"
+      ],
+      "correcta": 0,
+      "explicacion": "El concepto c-048 establece 12 horas de descanso.",
+      "referencia": "art. 47",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00504",
+      "concepto_id": "c-876055c806b2",
+      "capitulo": "cap-01",
+      "tipo": "multiple-choice",
+      "dificultad": "baja",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Qué duración tiene el permiso por nacimiento de la madre biológica según el art. 49?",
+      "opciones": [
+        "Diecinueve semanas",
+        "Dieciséis semanas",
+        "Doce semanas",
+        "Veinticuatro semanas"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 49.a establece 19 semanas.",
+      "referencia": "art. 49",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00505",
+      "concepto_id": "c-876055c806b2",
+      "capitulo": "cap-01",
+      "tipo": "multiple-choice",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Qué duración tiene el permiso por adopción según el art. 49?",
+      "opciones": [
+        "Diecinueve semanas para cada adoptante",
+        "Dieciséis semanas",
+        "Doce semanas",
+        "Ocho semanas"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 49.b establece 19 semanas.",
+      "referencia": "art. 49",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00506",
+      "concepto_id": "c-1336cda49402",
+      "capitulo": "cap-01",
+      "tipo": "multiple-choice",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Qué establece el art. 48 por accidente o enfermedad grave de familiar?",
+      "opciones": [
+        "Cinco días hábiles para cónyuge o parientes de primer grado",
+        "Tres días hábiles",
+        "Dos días hábiles",
+        "Diez días hábiles"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 48.a establece 5 días.",
+      "referencia": "art. 48",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00507",
+      "concepto_id": "c-564969b0360c",
+      "capitulo": "cap-01",
+      "tipo": "multiple-choice",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Qué permiso establece el art. 48 por formación?",
+      "opciones": [
+        "El tiempo indispensable para formación profesional",
+        "Un mes retribuido",
+        "Seis meses",
+        "No hay permiso"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 48 recoge permiso por formación.",
+      "referencia": "art. 48",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00508",
+      "concepto_id": "c-6cee51f3b4d8",
+      "capitulo": "cap-01",
+      "tipo": "multiple-choice",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Pueden sustituirse las vacaciones por compensación económica según el art. 50?",
+      "opciones": [
+        "No, salvo conclusión de la relación por causas ajenas a la voluntad",
+        "Sí, siempre",
+        "Sí, parcialmente",
+        "Sí, a petición del empleado"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 50.3 prohíbe la sustitución, con excepciones.",
+      "referencia": "art. 50",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00509",
+      "concepto_id": "c-51cbb17924cc",
+      "capitulo": "cap-01",
+      "tipo": "multiple-choice",
+      "dificultad": "baja",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Qué regula la disposición final tercera del TREBEP sobre incompatibilidades?",
+      "opciones": [
+        "Modifica el art. 16 de la Ley 53/1984 sobre compatibilidad",
+        "Deroga la Ley 53/1984",
+        "Crea un nuevo régimen de incompatibilidades",
+        "Elimina las incompatibilidades"
+      ],
+      "correcta": 0,
+      "explicacion": "La disposición final tercera modifica la Ley 53/1984.",
+      "referencia": "disp. final 3ª",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00510",
+      "concepto_id": "c-ec223ee7c12d",
+      "capitulo": "cap-01",
+      "tipo": "multiple-choice",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Qué establece el art. 53.5 sobre actividades privadas?",
+      "opciones": [
+        "Evitar actividades privadas que generen conflicto de intereses",
+        "Permitir toda actividad privada",
+        "Permitir actividades lucrativas sin límite",
+        "No regular las actividades privadas"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 53.5 regula el conflicto de intereses.",
+      "referencia": "art. 53",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00511",
+      "concepto_id": "c-7c6d9c9d0046",
+      "capitulo": "cap-01",
+      "tipo": "multiple-choice",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Puede autorizarse la compatibilidad de actividades según el art. 53/56?",
+      "opciones": [
+        "Sí, cuando no haya conflicto de intereses",
+        "Nunca",
+        "Siempre",
+        " Solo para altos cargos"
+      ],
+      "correcta": 0,
+      "explicacion": "El régimen permite autorización de compatibilidad.",
+      "referencia": "art. 53",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00512",
+      "concepto_id": "c-7777adc63ce1",
+      "capitulo": "cap-01",
+      "tipo": "multiple-choice",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Qué actividades están exceptuadas de incompatibilidad según el concepto c-059?",
+      "opciones": [
+        "Cargos electos, docencia, investigación y creación artística",
+        "Actividades lucrativas sin límite",
+        "Comercio privado",
+        "Asesoría externa remunerada"
+      ],
+      "correcta": 0,
+      "explicacion": "El concepto c-059 enumera actividades exceptuadas.",
+      "referencia": "disp. final 3ª",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00513",
+      "concepto_id": "c-51cbb17924cc",
+      "capitulo": "cap-01",
+      "tipo": "multiple-choice",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Qué establece el art. 16 de la Ley 53/1984 modificado?",
+      "opciones": [
+        "No se autorizará compatibilidad si las retribuciones complementarias incluyen factor de incompatibilidad",
+        "Se autoriza siempre",
+        "Se prohíbe toda compatibilidad",
+        "Se autoriza solo a directivos"
+      ],
+      "correcta": 0,
+      "explicacion": "La disposición final tercera modifica el art. 16 de la Ley 53/1984.",
+      "referencia": "disp. final 3ª",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00514",
+      "concepto_id": "c-6bc3b56b0338",
+      "capitulo": "cap-01",
+      "tipo": "multiple-choice",
+      "dificultad": "baja",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Dónde se regula el régimen disciplinario de los empleados públicos?",
+      "opciones": [
+        "En el Título VII del TREBEP (arts. 93-98)",
+        "En el art. 14",
+        "En el art. 52",
+        "En el art. 8"
+      ],
+      "correcta": 0,
+      "explicacion": "El Título VII regula el régimen disciplinario.",
+      "referencia": "art. 93",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00515",
+      "concepto_id": "c-5704a22da0ca",
+      "capitulo": "cap-01",
+      "tipo": "multiple-choice",
+      "dificultad": "baja",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Cómo se clasifican las faltas disciplinarias según el art. 95?",
+      "opciones": [
+        "Leves, graves y muy graves",
+        "Leves y graves únicamente",
+        "Graves y muy graves",
+        "Leves, graves, muy graves y extraordinarias"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 95 clasifica las faltas.",
+      "referencia": "art. 95",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00516",
+      "concepto_id": "c-725913c67e39",
+      "capitulo": "cap-01",
+      "tipo": "multiple-choice",
+      "dificultad": "baja",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Qué sanciones disciplinarias enumera el art. 96?",
+      "opciones": [
+        "Amonestación, suspensión de funciones y separación del servicio",
+        "Multa económica",
+        "Destierro",
+        "Inhabilitación permanente"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 96 enumera las sanciones.",
+      "referencia": "art. 96",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00517",
+      "concepto_id": "c-704da6f50342",
+      "capitulo": "cap-01",
+      "tipo": "multiple-choice",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Qué situación administrativa tienen quienes obtienen destino en otra Administración por movilidad?",
+      "opciones": [
+        "Servicio en otras Administraciones Públicas",
+        "Excedencia voluntaria",
+        "Suspensión",
+        "Servicios especiales"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 88 regula el servicio en otras AP.",
+      "referencia": "art. 88",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00518",
+      "concepto_id": "c-ee0849576e8c",
+      "capitulo": "cap-01",
+      "tipo": "multiple-choice",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Qué ocurre si un aspirante no acredita los requisitos tras superar el proceso selectivo?",
+      "opciones": [
+        "Quedan sin efecto las actuaciones y no puede ser funcionario",
+        "Se le nombra igualmente",
+        "Se le concede un plazo ilimitado",
+        "Se le nomina con reserva"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 62.2 establece la consecuencia.",
+      "referencia": "art. 62",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00519",
+      "concepto_id": "c-4a622f4d41d7",
+      "capitulo": "cap-01",
+      "tipo": "multiple-choice",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Qué establece el art. 56 sobre la capacidad funcional?",
+      "opciones": [
+        "Poseer la capacidad funcional para el desempeño de las tareas",
+        "Poseer capacidad económica",
+        "Poseer capacidad política",
+        "No se exige capacidad"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 56.1.b exige capacidad funcional.",
+      "referencia": "art. 56",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00520",
+      "concepto_id": "c-4a622f4d41d7",
+      "capitulo": "cap-01",
+      "tipo": "multiple-choice",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Qué establece el art. 56 sobre la titulación?",
+      "opciones": [
+        "Poseer la titulación exigida en la convocatoria",
+        "No se exige titulación",
+        "Titulación superior obligatoria",
+        "Titulación a discreción"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 56.1.e exige titulación.",
+      "referencia": "art. 56",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00521",
+      "concepto_id": "c-5197ab297660",
+      "capitulo": "cap-01",
+      "tipo": "multiple-choice",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Qué es el sistema de carrera administrativa?",
+      "opciones": [
+        "Progresión profesional basada en mérito y capacidad",
+        "Ascenso automático por antigüedad",
+        "Designación política",
+        " Sorteo"
+      ],
+      "correcta": 0,
+      "explicacion": "La carrera se basa en mérito y capacidad.",
+      "referencia": "art. 16",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00522",
+      "concepto_id": "c-52b1c68d10eb",
+      "capitulo": "cap-02",
+      "tipo": "multiple-choice",
+      "dificultad": "baja",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Cuál es el objeto de la Ley 19/2013, de transparencia, acceso a la información pública y buen gobierno?",
+      "opciones": [
+        "Ampliar y reforzar la transparencia de la actividad pública, regular y garantizar el derecho de acceso a la información y establecer las obligaciones de buen gobierno y las consecuencias de su incumplimiento",
+        "Regular exclusivamente el régimen disciplinario de los altos cargos",
+        "Crear el Consejo de Transparencia y Buen Gobierno",
+        "Modificar la Ley 30/1992 únicamente"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 1 establece un triple objeto: transparencia, derecho de acceso y buen gobierno con sus consecuencias.",
+      "referencia": "art. 1",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00523",
+      "concepto_id": "c-c2a9a57baf30",
+      "capitulo": "cap-02",
+      "tipo": "multiple-choice",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿A partir de qué porcentaje de participación pública directa o indirecta en el capital social de una sociedad mercantil se aplica el título I de la Ley 19/2013?",
+      "opciones": [
+        "Superior al 50 por 100",
+        "Igual o superior al 40 por 100",
+        "Superior al 25 por 100",
+        "Del 100 por 100"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 2.1.g) exige una participación, directa o indirecta, superior al 50 por 100.",
+      "referencia": "art. 2",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00524",
+      "concepto_id": "c-6ebe3666d670",
+      "capitulo": "cap-02",
+      "tipo": "multiple-choice",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿A qué entidades privadas se aplican las obligaciones de publicidad activa del capítulo II según el art. 3.b de la Ley 19/2013?",
+      "opciones": [
+        "Las que perciban durante un año ayudas o subvenciones públicas superiores a 100.000 euros o cuando al menos el 40 por 100 de sus ingresos anuales tengan tal carácter, siempre que alcancen como mínimo 5.000 euros",
+        "Todas las entidades privadas que reciban cualquier subvención",
+        "Solo las que perciban más de 50.000 euros",
+        "Las que tengan presupuesto inferior a 50.000 euros"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 3.b) establece esos umbrales para las entidades privadas sujetas a publicidad activa.",
+      "referencia": "art. 3",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00525",
+      "concepto_id": "c-e2dd08e11840",
+      "capitulo": "cap-02",
+      "tipo": "multiple-choice",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Quiénes están obligados a suministrar información a la Administración vinculada previo requerimiento?",
+      "opciones": [
+        "Las personas físicas y jurídicas que presten servicios públicos o ejerzan potestades administrativas, incluidos los adjudicatarios de contratos del sector público",
+        "Únicamente los funcionarios públicos",
+        "Los ciudadanos en general",
+        "Las empresas privadas sin vinculación administrativa"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 4 impone esa obligación a quienes presten servicios públicos o ejerzan potestades administrativas, extendiéndola a adjudicatarios de contratos del sector público.",
+      "referencia": "art. 4",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00526",
+      "concepto_id": "c-38ee3ad633c2",
+      "capitulo": "cap-02",
+      "tipo": "multiple-choice",
+      "dificultad": "baja",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Con qué periodicidad y actualización deben publicarse las informaciones relevantes en materia de publicidad activa?",
+      "opciones": [
+        "De forma periódica y actualizada",
+        "Solo una vez al año",
+        "Únicamente cuando lo solicite un ciudadano",
+        "Cada cinco años"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 5.1 exige publicación periódica y actualizada de la información relevante para la transparencia.",
+      "referencia": "art. 5",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00527",
+      "concepto_id": "c-b5e013b44774",
+      "capitulo": "cap-02",
+      "tipo": "multiple-choice",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Qué debe incluir el organigrama publicado como información institucional y organizativa?",
+      "opciones": [
+        "La identificación de los responsables de los diferentes órganos y su perfil y trayectoria profesional",
+        "Solo los nombres y apellidos de los responsables",
+        "Únicamente el organigrama sin datos personales",
+        "El presupuesto de cada órgano"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 6.1 exige un organigrama actualizado que identifique a los responsables y su perfil y trayectoria profesional.",
+      "referencia": "art. 6",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00528",
+      "concepto_id": "c-6e3af69e9813",
+      "capitulo": "cap-02",
+      "tipo": "multiple-choice",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Cuál de los siguientes documentos debe publicarse como información de relevancia jurídica?",
+      "opciones": [
+        "Los proyectos de reglamentos cuya iniciativa corresponda a la Administración",
+        "Las sentencias judiciales firmes",
+        "Las actas de reuniones internas de trabajo",
+        "Los correos electrónicos entre funcionarios"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 7.c) incluye los proyectos de reglamentos cuya iniciativa corresponda a las Administraciones Públicas.",
+      "referencia": "art. 7",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00529",
+      "concepto_id": "c-c949368eb644",
+      "capitulo": "cap-02",
+      "tipo": "multiple-choice",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Con qué periodicidad puede publicarse la información relativa a los contratos menores?",
+      "opciones": [
+        "Trimestralmente",
+        "Semestralmente",
+        "Anualmente",
+        "Mensualmente"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 8.1.a) permite que la publicación de la información relativa a los contratos menores se realice trimestralmente.",
+      "referencia": "art. 8",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00530",
+      "concepto_id": "c-fc7d68abb991",
+      "capitulo": "cap-02",
+      "tipo": "multiple-choice",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Quién controla el cumplimiento por la Administración General del Estado de las obligaciones de publicidad activa?",
+      "opciones": [
+        "El Consejo de Transparencia y Buen Gobierno",
+        "El Tribunal de Cuentas",
+        "La Agencia Española de Protección de Datos",
+        "El Defensor del Pueblo"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 9.1 atribuye ese control al Consejo de Transparencia y Buen Gobierno.",
+      "referencia": "art. 9",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00531",
+      "concepto_id": "c-31714017006d",
+      "capitulo": "cap-02",
+      "tipo": "multiple-choice",
+      "dificultad": "baja",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿De qué Ministerio depende el Portal de la Transparencia desarrollado por la Administración General del Estado?",
+      "opciones": [
+        "Del Ministerio de la Presidencia",
+        "Del Ministerio de Hacienda",
+        "Del Consejo de Transparencia y Buen Gobierno",
+        "Del Congreso de los Diputados"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 10.1 establece que el Portal depende del Ministerio de la Presidencia.",
+      "referencia": "art. 10",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00532",
+      "concepto_id": "c-9481a975b227",
+      "capitulo": "cap-02",
+      "tipo": "multiple-choice",
+      "dificultad": "baja",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Cuáles son los principios técnicos a los que debe adecuarse el Portal de la Transparencia?",
+      "opciones": [
+        "Accesibilidad, interoperabilidad y reutilización",
+        "Seguridad, confidencialidad y anonimato",
+        "Privacidad y secreto",
+        "Jerarquía, eficacia y economía"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 11 enumera los principios de accesibilidad, interoperabilidad y reutilización.",
+      "referencia": "art. 11",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00533",
+      "concepto_id": "c-d72f98a61ebf",
+      "capitulo": "cap-02",
+      "tipo": "multiple-choice",
+      "dificultad": "baja",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Quiénes son titulares del derecho de acceso a la información pública según la Ley 19/2013?",
+      "opciones": [
+        "Todas las personas",
+        "Solo los ciudadanos españoles",
+        "Solo los funcionarios públicos",
+        "Solo los partidos políticos"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 12 reconoce el derecho de acceso a todas las personas.",
+      "referencia": "art. 12",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00534",
+      "concepto_id": "c-2fae09ff4c08",
+      "capitulo": "cap-02",
+      "tipo": "multiple-choice",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Qué se entiende por información pública a efectos de la Ley 19/2013?",
+      "opciones": [
+        "Los contenidos o documentos, cualquiera que sea su formato o soporte, que obren en poder de los sujetos obligados y hayan sido elaborados o adquiridos en el ejercicio de sus funciones",
+        "Solo los documentos publicados en el BOE",
+        "Únicamente los contratos administrativos",
+        "La información contenida en archivos históricos"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 13 define la información pública como contenidos o documentos en poder de los sujetos obligados elaborados o adquiridos en el ejercicio de sus funciones.",
+      "referencia": "art. 13",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00535",
+      "concepto_id": "c-443ade979782",
+      "capitulo": "cap-02",
+      "tipo": "multiple-choice",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Cuál de los siguientes es un límite al derecho de acceso según el art. 14 de la Ley 19/2013?",
+      "opciones": [
+        "La seguridad nacional",
+        "El interés personal del solicitante",
+        "La falta de motivación de la solicitud",
+        "La antigüedad del documento"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 14 enumera límites como la seguridad nacional, la defensa, las relaciones exteriores, la seguridad pública, etc.",
+      "referencia": "art. 14",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00536",
+      "concepto_id": "c-11f87b41071e",
+      "capitulo": "cap-02",
+      "tipo": "multiple-choice",
+      "dificultad": "alta",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿En qué casos se requiere consentimiento expreso y por escrito para acceder a datos personales que revelen ideología, afiliación sindical, religión o creencias?",
+      "opciones": [
+        "Siempre, salvo que el afectado los haya hecho manifiestamente públicos con anterioridad",
+        "Nunca, porque prevalece la transparencia",
+        "Solo si el solicitante es investigador",
+        "Únicamente para altos cargos"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 15.1 exige consentimiento expreso y por escrito, salvo que el afectado haya hecho manifiestamente públicos esos datos.",
+      "referencia": "art. 15",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00537",
+      "concepto_id": "c-a677c1f11cbb",
+      "capitulo": "cap-02",
+      "tipo": "multiple-choice",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿En qué consiste el acceso parcial conforme al art. 16 de la Ley 19/2013?",
+      "opciones": [
+        "En la omisión de la información afectada por el límite, salvo que de ello resulte una información distorsionada o que carezca de sentido",
+        "En la publicación de toda la información con datos anonimizados",
+        "En la denegación total de la solicitud",
+        "En la remisión al órgano competente"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 16 prevé el acceso parcial mediante omisión de la información afectada por el límite.",
+      "referencia": "art. 16",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00538",
+      "concepto_id": "c-fd3c6879e9ea",
+      "capitulo": "cap-02",
+      "tipo": "multiple-choice",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Cuáles son los requisitos mínimos de una solicitud de acceso a la información?",
+      "opciones": [
+        "Identidad del solicitante, información solicitada, dirección de contacto y modalidad preferida",
+        "Solo la identidad del solicitante",
+        "Motivación de la solicitud",
+        "Autorización judicial"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 17.2 enumera esos elementos que deben constar en la solicitud.",
+      "referencia": "art. 17",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00539",
+      "concepto_id": "c-d93a1e787a22",
+      "capitulo": "cap-02",
+      "tipo": "multiple-choice",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Cuál de las siguientes es causa de inadmisión de una solicitud de acceso?",
+      "opciones": [
+        "Que se refiera a información en curso de elaboración o de publicación general",
+        "Información clasificada como secreto",
+        "Información de hace más de cinco años",
+        "Solicitud presentada por correo postal"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 18.1.a) inadmite las solicitudes que se refieran a información en curso de elaboración o publicación general.",
+      "referencia": "art. 18",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00540",
+      "concepto_id": "c-c4bfd07c5193",
+      "capitulo": "cap-02",
+      "tipo": "multiple-choice",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Qué plazo se concede al solicitante para concretar la información cuando la solicitud no la identifica suficientemente?",
+      "opciones": [
+        "Diez días",
+        "Quince días",
+        "Un mes",
+        "Dos meses"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 19.2 concede un plazo de diez días para la concreción, con suspensión del plazo de resolución.",
+      "referencia": "art. 19",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00541",
+      "concepto_id": "c-14f71c87798a",
+      "capitulo": "cap-02",
+      "tipo": "multiple-choice",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Cuál es el plazo máximo para resolver una solicitud de acceso a la información?",
+      "opciones": [
+        "Un mes, ampliable por otro mes en caso de volumen o complejidad",
+        "Dos meses improrrogables",
+        "Tres meses",
+        "Quince días"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 20.1 fija un plazo de un mes, ampliable por otro mes previa notificación al solicitante.",
+      "referencia": "art. 20",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00542",
+      "concepto_id": "c-c489cc70e14f",
+      "capitulo": "cap-02",
+      "tipo": "multiple-choice",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Qué ocurre si transcurrido el plazo máximo para resolver no se dicta ni notifica resolución expresa?",
+      "opciones": [
+        "Se entiende que la solicitud ha sido desestimada",
+        "Se entiende concedida la información",
+        "Se inicia automáticamente una reclamación ante el CTBG",
+        "Se prorroga el plazo un mes más"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 20.4 establece el silencio administrativo desestimatorio.",
+      "referencia": "art. 20",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00543",
+      "concepto_id": "c-698b37904642",
+      "capitulo": "cap-02",
+      "tipo": "multiple-choice",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿En qué plazo máximo debe otorgarse el acceso si no puede darse en el momento de la notificación de la resolución?",
+      "opciones": [
+        "En un plazo no superior a diez días",
+        "En un plazo no superior a quince días",
+        "En un plazo no superior a un mes",
+        "Inmediatamente"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 22.1 fija un plazo no superior a diez días para otorgar el acceso en ese caso.",
+      "referencia": "art. 22",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00544",
+      "concepto_id": "c-e44ab741e9d3",
+      "capitulo": "cap-02",
+      "tipo": "multiple-choice",
+      "dificultad": "baja",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿El acceso a la información pública es gratuito?",
+      "opciones": [
+        "Sí, aunque la expedición de copias o el cambio de formato puede generar tasas",
+        "No, siempre se cobra una tasa",
+        "Solo es gratuito para funcionarios",
+        "Solo es gratuito para ciudadanos españoles"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 22.4 establece la gratuidad del acceso, salvo las exacciones por copias o cambio de formato.",
+      "referencia": "art. 22",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00545",
+      "concepto_id": "c-f5b37270979a",
+      "capitulo": "cap-02",
+      "tipo": "multiple-choice",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿En qué plazo puede interponerse una reclamación ante el Consejo de Transparencia y Buen Gobierno?",
+      "opciones": [
+        "Un mes a contar desde el día siguiente a la notificación del acto o desde los efectos del silencio administrativo",
+        "Dos meses",
+        "Tres meses",
+        "Quince días"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 24.2 fija ese plazo de un mes.",
+      "referencia": "art. 24",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00546",
+      "concepto_id": "c-0312308f7e0f",
+      "capitulo": "cap-02",
+      "tipo": "multiple-choice",
+      "dificultad": "baja",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿A qué Ministerio está adscrito el Consejo de Transparencia y Buen Gobierno?",
+      "opciones": [
+        "Al Ministerio de Hacienda y Administraciones Públicas",
+        "Al Ministerio de la Presidencia",
+        "Al Ministerio de Justicia",
+        "Al Ministerio del Interior"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 33.1 crea el CTBG como organismo público adscrito al Ministerio de Hacienda y Administraciones Públicas.",
+      "referencia": "art. 33",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00547",
+      "concepto_id": "c-fd693f7fe081",
+      "capitulo": "cap-02",
+      "tipo": "multiple-choice",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Cuáles son los fines del Consejo de Transparencia y Buen Gobierno?",
+      "opciones": [
+        "Promover la transparencia de la actividad pública, velar por el cumplimiento de las obligaciones de publicidad, salvaguardar el ejercicio del derecho de acceso y garantizar la observancia de las disposiciones de buen gobierno",
+        "Controlar exclusivamente los presupuestos públicos",
+        "Sancionar únicamente a los altos cargos",
+        "Proteger exclusivamente los datos personales"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 34 enumera esos cuatro fines.",
+      "referencia": "art. 34",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00548",
+      "concepto_id": "c-253982ccde2b",
+      "capitulo": "cap-02",
+      "tipo": "multiple-choice",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Cómo se compone el Consejo de Transparencia y Buen Gobierno?",
+      "opciones": [
+        "Por la Comisión de Transparencia y Buen Gobierno y el Presidente, que lo es también de la Comisión",
+        "Por un Presidente y un Pleno",
+        "Por una Comisión permanente y un Secretario",
+        "Por un Presidente y un Vicepresidente"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 35 establece que el CTBG se compone de la Comisión de Transparencia y Buen Gobierno y del Presidente.",
+      "referencia": "art. 35",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00549",
+      "concepto_id": "c-9d7d7fed9125",
+      "capitulo": "cap-02",
+      "tipo": "multiple-choice",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Cuál es el mandato del Presidente del Consejo de Transparencia y Buen Gobierno?",
+      "opciones": [
+        "Un período no renovable de cinco años",
+        "Un mandato renovable de cuatro años",
+        "Un mandato no renovable de seis años",
+        "Un mandato indefinido"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 37.1 establece un mandato no renovable de cinco años.",
+      "referencia": "art. 37",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00550",
+      "concepto_id": "c-9e31388ab8cc",
+      "capitulo": "cap-02",
+      "tipo": "multiple-choice",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Cuál de las siguientes es una función del Consejo de Transparencia y Buen Gobierno?",
+      "opciones": [
+        "Elaborar anualmente una memoria sobre el grado de aplicación de la Ley para las Cortes Generales",
+        "Imponer sanciones penales",
+        "Nombrar altos cargos",
+        "Aprobar los Presupuestos Generales del Estado"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 38.1.d) incluye la evaluación anual del grado de aplicación de la Ley mediante una memoria ante las Cortes Generales.",
+      "referencia": "art. 38",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00551",
+      "concepto_id": "c-1a8d4b082707",
+      "capitulo": "cap-02",
+      "tipo": "multiple-choice",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿A quiénes se aplican las disposiciones de buen gobierno en el ámbito de la Administración General del Estado?",
+      "opciones": [
+        "A los miembros del Gobierno, a los Secretarios de Estado y al resto de los altos cargos de la AGE y de las entidades del sector público estatal",
+        "A todos los empleados públicos",
+        "Solo a los funcionarios de carrera",
+        "Solo a los miembros del Gobierno"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 25.1 delimita el ámbito de aplicación a los miembros del Gobierno, Secretarios de Estado y resto de altos cargos.",
+      "referencia": "art. 25",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00552",
+      "concepto_id": "c-2a1c90e0a078",
+      "capitulo": "cap-02",
+      "tipo": "multiple-choice",
+      "dificultad": "baja",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Cuál de los siguientes es un principio de buen gobierno conforme al art. 26 de la Ley 19/2013?",
+      "opciones": [
+        "Actuar con transparencia en la gestión de los asuntos públicos",
+        "Ocultar información por razones de seguridad",
+        "Favorecer intereses particulares",
+        "Evitar la responsabilidad de las decisiones"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 26.2.a) 1.º establece el principio de actuar con transparencia en la gestión de los asuntos públicos.",
+      "referencia": "art. 26",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00553",
+      "concepto_id": "c-018ad4808385",
+      "capitulo": "cap-02",
+      "tipo": "multiple-choice",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Cómo se sancionan las infracciones en materia de conflicto de intereses según la Ley 19/2013?",
+      "opciones": [
+        "De conformidad con la normativa en materia de conflictos de intereses de la AGE y, para el resto de Administraciones, según su propia normativa aplicable",
+        "Mediante amonestación únicamente",
+        "Por el CTBG directamente",
+        "No tienen sanción"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 27 remite a la normativa en materia de conflictos de intereses de la AGE y, para el resto, a su propia normativa.",
+      "referencia": "art. 27",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00554",
+      "concepto_id": "c-59c959564aaf",
+      "capitulo": "cap-02",
+      "tipo": "multiple-choice",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Cuál es el plazo de prescripción de las infracciones muy graves en materia de buen gobierno?",
+      "opciones": [
+        "Cinco años",
+        "Tres años",
+        "Un año",
+        "Diez años"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 32.1 fija un plazo de cinco años para las infracciones muy graves.",
+      "referencia": "art. 32",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00555",
+      "concepto_id": "c-3f4d4d4e80bb",
+      "capitulo": "cap-02",
+      "tipo": "multiple-choice",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿En qué formatos debe fomentarse la publicación de la información para su reutilización?",
+      "opciones": [
+        "En formatos que permitan su reutilización, conforme a la Ley 37/2007",
+        "En formatos propietarios cerrados",
+        "Solo en papel",
+        "Únicamente en PDF no reutilizable"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 11.c) fomenta la publicación en formatos reutilizables conforme a la Ley 37/2007.",
+      "referencia": "art. 11",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00556",
+      "concepto_id": "c-c2a9a57baf30",
+      "capitulo": "cap-02",
+      "tipo": "multiple-choice",
+      "dificultad": "alta",
+      "origen": "ingesta-inicial",
+      "enunciado": "A efectos del título I de la Ley 19/2013, ¿qué se entiende por Administraciones Públicas según el art. 2.2?",
+      "opciones": [
+        "Los organismos y entidades incluidos en las letras a) a d) del apartado 1 del artículo 2",
+        "Todas las entidades enumeradas en el artículo 2.1, incluidas las corporaciones de Derecho Público",
+        "Exclusivamente la Administración General del Estado y las Comunidades Autónomas",
+        "La Casa de Su Majestad el Rey y los órganos constitucionales"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 2.2 limita el concepto de Administraciones Públicas, a efectos del título I, a los organismos y entidades de las letras a) a d) del apartado 1.",
+      "referencia": "art. 2",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00557",
+      "concepto_id": "c-443ade979782",
+      "capitulo": "cap-02",
+      "tipo": "multiple-choice",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Cómo debe aplicarse la limitación del derecho de acceso conforme al art. 14?",
+      "opciones": [
+        "De forma justificada y proporcionada, atendiendo a las circunstancias del caso concreto",
+        "Automáticamente para toda información sensible",
+        "A discreción del órgano sin motivación",
+        "Solo cuando lo solicite el afectado"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 14.2 exige una aplicación justificada y proporcionada, atendiendo a las circunstancias del caso concreto.",
+      "referencia": "art. 14",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00558",
+      "concepto_id": "c-fd3c6879e9ea",
+      "capitulo": "cap-02",
+      "tipo": "multiple-choice",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿En qué lenguas puede dirigirse el solicitante a la Administración conforme al art. 17?",
+      "opciones": [
+        "En cualquiera de las lenguas cooficiales del Estado en el territorio donde radique la Administración",
+        "Solo en castellano",
+        "En cualquier idioma oficial de la Unión Europea",
+        "En inglés"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 17.4 permite dirigirse en cualquiera de las lenguas cooficiales del Estado en el territorio correspondiente.",
+      "referencia": "art. 17",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00559",
+      "concepto_id": "c-14f71c87798a",
+      "capitulo": "cap-02",
+      "tipo": "multiple-choice",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Cuándo puede ampliarse el plazo de resolución de una solicitud de acceso por otro mes?",
+      "opciones": [
+        "Cuando el volumen o la complejidad de la información así lo hagan necesario, previa notificación al solicitante",
+        "Siempre que lo solicite el órgano",
+        "Cuando hay oposición de un tercero",
+        "Automáticamente"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 20.1 permite la ampliación por otro mes cuando el volumen o la complejidad lo hagan necesario, previa notificación.",
+      "referencia": "art. 20",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00560",
+      "concepto_id": "c-f5b37270979a",
+      "capitulo": "cap-02",
+      "tipo": "multiple-choice",
+      "dificultad": "alta",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Qué ocurre si la denegación del acceso se fundamente en la protección de derechos o intereses de terceros durante la reclamación?",
+      "opciones": [
+        "Se otorgará trámite de audiencia a las personas que pudieran resultar afectadas",
+        "Se desestimará automáticamente",
+        "Se remitirá al Tribunal Constitucional",
+        "Se suspenderá indefinidamente"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 24.3 prevé trámite de audiencia a los terceros afectados antes de resolver la reclamación.",
+      "referencia": "art. 24",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00561",
+      "concepto_id": "c-9e31388ab8cc",
+      "capitulo": "cap-02",
+      "tipo": "multiple-choice",
+      "dificultad": "alta",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Qué carácter tiene el informe del CTBG sobre los proyectos normativos estatales que desarrollen la Ley 19/2013?",
+      "opciones": [
+        "Preceptivo",
+        "Facultativo",
+        "Potestativo",
+        "Discrecional"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 38.1.c) dispone que el CTBG informará preceptivamente esos proyectos normativos.",
+      "referencia": "art. 38",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00562",
+      "concepto_id": "c-1dbf810bbd34",
+      "capitulo": "cap-03",
+      "tipo": "multiple-choice",
+      "dificultad": "baja",
+      "origen": "ingesta-inicial",
+      "enunciado": "La Agenda 2030 de la ONU se define como un plan de acción a favor de:",
+      "opciones": [
+        "Las personas, el planeta y la prosperidad, fortaleciendo la paz universal y el acceso a la justicia",
+        "El crecimiento económico y la competitividad internacional",
+        "La seguridad militar y el control de fronteras",
+        "La digitalización y la inteligencia artificial"
+      ],
+      "correcta": 0,
+      "explicacion": "La Agenda 2030 es un plan de acción a favor de las personas, el planeta y la prosperidad, que también tiene por objeto fortalecer la paz universal y el acceso a la justicia.",
+      "referencia": "Res. 70/1",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00563",
+      "concepto_id": "c-c19997e4a30c",
+      "capitulo": "cap-03",
+      "tipo": "multiple-choice",
+      "dificultad": "baja",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Cuáles son las 5 P de la Agenda 2030?",
+      "opciones": [
+        "Personas, Planeta, Prosperidad, Paz y Alianzas",
+        "Pobreza, Población, Producción, Paz y Política",
+        "Personas, Planeta, Pobreza, Paz y Progreso",
+        "Prosperidad, Paz, Población, Planeta y Participación"
+      ],
+      "correcta": 0,
+      "explicacion": "La Agenda 2030 se estructura en torno a 5 P: Personas, Planeta, Prosperidad, Paz y Alianzas.",
+      "referencia": "Res. 70/1",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00564",
+      "concepto_id": "c-cdb055fe165a",
+      "capitulo": "cap-03",
+      "tipo": "multiple-choice",
+      "dificultad": "baja",
+      "origen": "ingesta-inicial",
+      "enunciado": "La Agenda 2030 se estructura en torno a:",
+      "opciones": [
+        "17 ODS y 169 metas",
+        "15 ODS y 100 metas",
+        "20 ODS y 200 metas",
+        "12 ODS y 50 metas"
+      ],
+      "correcta": 0,
+      "explicacion": "La Agenda 2030 incluye 17 Objetivos de Desarrollo Sostenible (ODS) con 169 metas.",
+      "referencia": "Res. 70/1",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00565",
+      "concepto_id": "c-196b25c8b5f9",
+      "capitulo": "cap-03",
+      "tipo": "multiple-choice",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Cuál de los siguientes es un principio transversal de la Agenda 2030?",
+      "opciones": [
+        "No dejar a nadie atrás",
+        "Crecimiento del PIB por encima del 3%",
+        "Libre mercado sin regulación",
+        "Soberanía militar"
+      ],
+      "correcta": 0,
+      "explicacion": "Los principios transversales son: no dejar a nadie atrás, universalidad, interdependencia e indivisibilidad de los ODS y enfoque basado en los derechos humanos.",
+      "referencia": "Res. 70/1",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00566",
+      "concepto_id": "c-fdaefb2775ad",
+      "capitulo": "cap-03",
+      "tipo": "multiple-choice",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "En España, la coordinación de la Agenda 2030 recae en:",
+      "opciones": [
+        "Ministerio de Derechos Sociales, Consumo y Agenda 2030",
+        "Ministerio de Defensa",
+        "Ministerio de Hacienda",
+        "Ministerio de Industria"
+      ],
+      "correcta": 0,
+      "explicacion": "En España, la Agenda 2030 se coordina desde el Ministerio de Derechos Sociales, Consumo y Agenda 2030, con una estructura de gobernanza interministerial.",
+      "referencia": "Res. 70/1",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00567",
+      "concepto_id": "c-49678e6b6136",
+      "capitulo": "cap-03",
+      "tipo": "multiple-choice",
+      "dificultad": "baja",
+      "origen": "ingesta-inicial",
+      "enunciado": "El ODS 1 se denomina:",
+      "opciones": [
+        "Fin de la pobreza",
+        "Hambre cero",
+        "Salud y bienestar",
+        "Educación de calidad"
+      ],
+      "correcta": 0,
+      "explicacion": "ODS 1: Fin de la pobreza.",
+      "referencia": "ODS 1 / Res. 70/1",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00568",
+      "concepto_id": "c-2418b7071e0b",
+      "capitulo": "cap-03",
+      "tipo": "multiple-choice",
+      "dificultad": "baja",
+      "origen": "ingesta-inicial",
+      "enunciado": "El ODS 2 se denomina:",
+      "opciones": [
+        "Hambre cero",
+        "Fin de la pobreza",
+        "Salud y bienestar",
+        "Educación de calidad"
+      ],
+      "correcta": 0,
+      "explicacion": "ODS 2: Hambre cero.",
+      "referencia": "ODS 2 / Res. 70/1",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00569",
+      "concepto_id": "c-ded40e6faed1",
+      "capitulo": "cap-03",
+      "tipo": "multiple-choice",
+      "dificultad": "baja",
+      "origen": "ingesta-inicial",
+      "enunciado": "El ODS 3 se denomina:",
+      "opciones": [
+        "Salud y bienestar",
+        "Fin de la pobreza",
+        "Hambre cero",
+        "Educación de calidad"
+      ],
+      "correcta": 0,
+      "explicacion": "ODS 3: Salud y bienestar.",
+      "referencia": "ODS 3 / Res. 70/1",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00570",
+      "concepto_id": "c-81db051b6ad6",
+      "capitulo": "cap-03",
+      "tipo": "multiple-choice",
+      "dificultad": "baja",
+      "origen": "ingesta-inicial",
+      "enunciado": "El ODS 4 se denomina:",
+      "opciones": [
+        "Educación de calidad",
+        "Igualdad de género",
+        "Agua limpia y saneamiento",
+        "Energía asequible y no contaminante"
+      ],
+      "correcta": 0,
+      "explicacion": "ODS 4: Educación de calidad.",
+      "referencia": "ODS 4 / Res. 70/1",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00571",
+      "concepto_id": "c-3fc88bf7b94b",
+      "capitulo": "cap-03",
+      "tipo": "multiple-choice",
+      "dificultad": "baja",
+      "origen": "ingesta-inicial",
+      "enunciado": "El ODS 5 se denomina:",
+      "opciones": [
+        "Igualdad de género",
+        "Educación de calidad",
+        "Agua limpia y saneamiento",
+        "Energía asequible y no contaminante"
+      ],
+      "correcta": 0,
+      "explicacion": "ODS 5: Igualdad de género.",
+      "referencia": "ODS 5 / Res. 70/1",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00572",
+      "concepto_id": "c-ef5f6bc8fec4",
+      "capitulo": "cap-03",
+      "tipo": "multiple-choice",
+      "dificultad": "baja",
+      "origen": "ingesta-inicial",
+      "enunciado": "El ODS 6 se denomina:",
+      "opciones": [
+        "Agua limpia y saneamiento",
+        "Energía asequible y no contaminante",
+        "Trabajo decente y crecimiento económico",
+        "Industria, innovación e infraestructura"
+      ],
+      "correcta": 0,
+      "explicacion": "ODS 6: Agua limpia y saneamiento.",
+      "referencia": "ODS 6 / Res. 70/1",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00573",
+      "concepto_id": "c-992a2c46df08",
+      "capitulo": "cap-03",
+      "tipo": "multiple-choice",
+      "dificultad": "baja",
+      "origen": "ingesta-inicial",
+      "enunciado": "El ODS 7 se denomina:",
+      "opciones": [
+        "Energía asequible y no contaminante",
+        "Agua limpia y saneamiento",
+        "Trabajo decente y crecimiento económico",
+        "Industria, innovación e infraestructura"
+      ],
+      "correcta": 0,
+      "explicacion": "ODS 7: Energía asequible y no contaminante.",
+      "referencia": "ODS 7 / Res. 70/1",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00574",
+      "concepto_id": "c-bfeb78a7279b",
+      "capitulo": "cap-03",
+      "tipo": "multiple-choice",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "El ODS 8 se denomina:",
+      "opciones": [
+        "Trabajo decente y crecimiento económico",
+        "Industria, innovación e infraestructura",
+        "Reducción de las desigualdades",
+        "Ciudades y comunidades sostenibles"
+      ],
+      "correcta": 0,
+      "explicacion": "ODS 8: Trabajo decente y crecimiento económico.",
+      "referencia": "ODS 8 / Res. 70/1",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00575",
+      "concepto_id": "c-dc2b424d6a16",
+      "capitulo": "cap-03",
+      "tipo": "multiple-choice",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "El ODS 9 se denomina:",
+      "opciones": [
+        "Industria, innovación e infraestructura",
+        "Trabajo decente y crecimiento económico",
+        "Reducción de las desigualdades",
+        "Ciudades y comunidades sostenibles"
+      ],
+      "correcta": 0,
+      "explicacion": "ODS 9: Industria, innovación e infraestructura.",
+      "referencia": "ODS 9 / Res. 70/1",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00576",
+      "concepto_id": "c-e660dc12a6cb",
+      "capitulo": "cap-03",
+      "tipo": "multiple-choice",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "El ODS 10 se denomina:",
+      "opciones": [
+        "Reducción de las desigualdades",
+        "Ciudades y comunidades sostenibles",
+        "Producción y consumo responsables",
+        "Acción por el clima"
+      ],
+      "correcta": 0,
+      "explicacion": "ODS 10: Reducción de las desigualdades.",
+      "referencia": "ODS 10 / Res. 70/1",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00577",
+      "concepto_id": "c-22463c0fc208",
+      "capitulo": "cap-03",
+      "tipo": "multiple-choice",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "El ODS 11 se denomina:",
+      "opciones": [
+        "Ciudades y comunidades sostenibles",
+        "Reducción de las desigualdades",
+        "Producción y consumo responsables",
+        "Acción por el clima"
+      ],
+      "correcta": 0,
+      "explicacion": "ODS 11: Ciudades y comunidades sostenibles.",
+      "referencia": "ODS 11 / Res. 70/1",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00578",
+      "concepto_id": "c-2f89fd382ebe",
+      "capitulo": "cap-03",
+      "tipo": "multiple-choice",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "El ODS 12 se denomina:",
+      "opciones": [
+        "Producción y consumo responsables",
+        "Acción por el clima",
+        "Vida submarina",
+        "Vida de ecosistemas terrestres"
+      ],
+      "correcta": 0,
+      "explicacion": "ODS 12: Producción y consumo responsables.",
+      "referencia": "ODS 12 / Res. 70/1",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00579",
+      "concepto_id": "c-a6bf0b1dce46",
+      "capitulo": "cap-03",
+      "tipo": "multiple-choice",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "El ODS 13 se denomina:",
+      "opciones": [
+        "Acción por el clima",
+        "Vida submarina",
+        "Vida de ecosistemas terrestres",
+        "Paz, justicia e instituciones sólidas"
+      ],
+      "correcta": 0,
+      "explicacion": "ODS 13: Acción por el clima.",
+      "referencia": "ODS 13 / Res. 70/1",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00580",
+      "concepto_id": "c-26834a0d7cbc",
+      "capitulo": "cap-03",
+      "tipo": "multiple-choice",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "El ODS 14 se denomina:",
+      "opciones": [
+        "Vida submarina",
+        "Vida de ecosistemas terrestres",
+        "Paz, justicia e instituciones sólidas",
+        "Alianzas para lograr los objetivos"
+      ],
+      "correcta": 0,
+      "explicacion": "ODS 14: Vida submarina.",
+      "referencia": "ODS 14 / Res. 70/1",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00581",
+      "concepto_id": "c-c461579621df",
+      "capitulo": "cap-03",
+      "tipo": "multiple-choice",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "El ODS 15 se denomina:",
+      "opciones": [
+        "Vida de ecosistemas terrestres",
+        "Vida submarina",
+        "Paz, justicia e instituciones sólidas",
+        "Alianzas para lograr los objetivos"
+      ],
+      "correcta": 0,
+      "explicacion": "ODS 15: Vida de ecosistemas terrestres.",
+      "referencia": "ODS 15 / Res. 70/1",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00582",
+      "concepto_id": "c-ad4f6f97e859",
+      "capitulo": "cap-03",
+      "tipo": "multiple-choice",
+      "dificultad": "alta",
+      "origen": "ingesta-inicial",
+      "enunciado": "El ODS 16 se denomina:",
+      "opciones": [
+        "Paz, justicia e instituciones sólidas",
+        "Vida de ecosistemas terrestres",
+        "Alianzas para lograr los objetivos",
+        "Reducción de las desigualdades"
+      ],
+      "correcta": 0,
+      "explicacion": "ODS 16: Paz, justicia e instituciones sólidas.",
+      "referencia": "ODS 16 / Res. 70/1",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00583",
+      "concepto_id": "c-814221dfa46d",
+      "capitulo": "cap-03",
+      "tipo": "multiple-choice",
+      "dificultad": "alta",
+      "origen": "ingesta-inicial",
+      "enunciado": "El ODS 17 se denomina:",
+      "opciones": [
+        "Alianzas para lograr los objetivos",
+        "Paz, justicia e instituciones sólidas",
+        "Vida de ecosistemas terrestres",
+        "Acción por el clima"
+      ],
+      "correcta": 0,
+      "explicacion": "ODS 17: Alianzas para lograr los objetivos.",
+      "referencia": "ODS 17 / Res. 70/1",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "pendiente-examen-tai-2018-t06",
+      "concepto_id": null,
+      "capitulo": null,
+      "tipo": null,
+      "dificultad": null,
+      "origen": null,
+      "enunciado": "¿En qué año se aprobó la Agenda 2030 para el desarrollo sostenible?",
+      "opciones": [
+        "2015",
+        "2016",
+        "2017",
+        "2018"
+      ],
+      "correcta": 0,
+      "explicacion": null,
+      "referencia": null,
+      "verificado": true,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "pendiente-examen-tai-2018-t07",
+      "concepto_id": null,
+      "capitulo": null,
+      "tipo": null,
+      "dificultad": null,
+      "origen": null,
+      "enunciado": "El cumplimiento por la Administración General del Estado de las obligaciones de publicidad activa contenidas en el capítulo II de la Ley 19/2013, de transparencia, acceso a la información pública y buen gobierno, será objeto de control por parte de:",
+      "opciones": [
+        "El Ministerio de Política Territorial y Función Pública.",
+        "La Secretaría de Estado de Función Pública.",
+        "El Consejo de Transparencia y Buen Gobierno.",
+        "La Subdirección General de Transparencia y Atención al Ciudadano."
+      ],
+      "correcta": 2,
+      "explicacion": null,
+      "referencia": null,
+      "verificado": true,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "pendiente-examen-tai-2018-t08",
+      "concepto_id": null,
+      "capitulo": null,
+      "tipo": null,
+      "dificultad": null,
+      "origen": null,
+      "enunciado": "Según la Ley 40/2015, de Régimen Jurídico del Sector Público, ¿cuál de los siguientes NO tiene la condición de alto cargo?",
+      "opciones": [
+        "Un Ministro.",
+        "Un Subdirector general.",
+        "Un Subsecretario.",
+        "Un Secretario general técnico."
+      ],
+      "correcta": 1,
+      "explicacion": null,
+      "referencia": null,
+      "verificado": true,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "pendiente-examen-tai-2018-t09",
+      "concepto_id": null,
+      "capitulo": null,
+      "tipo": null,
+      "dificultad": null,
+      "origen": null,
+      "enunciado": "Conforme a lo establecido en el Texto refundido del Estatuto Básico del Empleado Público, los empleados públicos se clasifican en:",
+      "opciones": [
+        "Funcionarios de carrera, funcionarios interinos, personal laboral - ya sea fijo, por tiempo indefinido o temporal - y personal eventual.",
+        "Funcionarios de carrera, funcionarios interinos y personal laboral fijo o por tiempo indefinido.",
+        "Funcionarios de carrera y personal laboral fijo.",
+        "Funcionarios de carrera, funcionarios interinos y personal eventual."
+      ],
+      "correcta": 0,
+      "explicacion": null,
+      "referencia": null,
+      "verificado": true,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "pendiente-examen-tai-2021-t06",
+      "concepto_id": null,
+      "capitulo": null,
+      "tipo": null,
+      "dificultad": null,
+      "origen": null,
+      "enunciado": "¿Cuál de los siguientes NO es uno de los 17 Objetivos de Desarrollo Sostenibles de la Agenda 2030?",
+      "opciones": [
+        "Hambre cero.",
+        "Educación de calidad.",
+        "Aguas residuales y saneamiento.",
+        "Trabajo decente y crecimiento económico."
+      ],
+      "correcta": 2,
+      "explicacion": null,
+      "referencia": null,
+      "verificado": true,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "pendiente-examen-tai-2021-t07",
+      "concepto_id": null,
+      "capitulo": null,
+      "tipo": null,
+      "dificultad": null,
+      "origen": null,
+      "enunciado": "Según la Ley 19/2013, de transparencia, acceso a la información pública y buen gobierno, ¿cuál de los siguientes NO es miembro de la Comisión de Transparencia y Buen Gobierno?",
+      "opciones": [
+        "Un Diputado.",
+        "Un representante de la Subsecretaria de Estado de Administraciones Públicas.",
+        "Un representante del Defensor del Pueblo.",
+        "Un representante de la Autoridad Independiente de Responsabilidad Fiscal."
+      ],
+      "correcta": 1,
+      "explicacion": null,
+      "referencia": null,
+      "verificado": true,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "pendiente-examen-tai-2023-t06",
+      "concepto_id": null,
+      "capitulo": null,
+      "tipo": null,
+      "dificultad": null,
+      "origen": null,
+      "enunciado": "Según establece el artículo 24 de la Ley 19/2013, de 9 de diciembre, de transparencia, acceso a la información pública y buen gobierno, el plazo máximo para resolver y notificar la resolución de una reclamación ante el Consejo de Transparencia y Buen Gobierno será de:",
+      "opciones": [
+        "Un mes, transcurrido el cual, la reclamación se entenderá estimada.",
+        "Un mes, transcurrido el cual, la reclamación se entenderá desestimada.",
+        "Tres meses, transcurrido el cual, la reclamación se entenderá estimada.",
+        "Tres meses, transcurrido el cual, la reclamación se entenderá desestimada."
+      ],
+      "correcta": 3,
+      "explicacion": null,
+      "referencia": null,
+      "verificado": true,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "pendiente-examen-tai-2023-t07",
+      "concepto_id": null,
+      "capitulo": null,
+      "tipo": null,
+      "dificultad": null,
+      "origen": null,
+      "enunciado": "Señale cuál de los siguientes NO es un compromiso del IV Plan de Gobierno Abierto de España:",
+      "opciones": [
+        "Participación de los jóvenes en políticas públicas.",
+        "Protección de denunciantes.",
+        "Huella normativa.",
+        "Reforma del marco regulatorio."
+      ],
+      "correcta": 0,
+      "explicacion": null,
+      "referencia": null,
+      "verificado": true,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "pendiente-examen-tai-2023-t08",
+      "concepto_id": null,
+      "capitulo": null,
+      "tipo": null,
+      "dificultad": null,
+      "origen": null,
+      "enunciado": "Conforme establece el artículo 18 de la Ley 53/1984, de 26 de diciembre, de Incompatibilidades del personal al servicio de las Administraciones Públicas, todas las resoluciones de compatibilidad para desempeñar un segundo puesto o actividad en el sector público o el ejercicio de actividades privadas se inscribirán:",
+      "opciones": [
+        "En el Registro Central de Personal.",
+        "En la Oficina de Conflicto de Intereses.",
+        "En la Unidad de Personal del Ministerio u Organismo correspondiente.",
+        "En los Registros de Personal correspondientes."
+      ],
+      "correcta": 3,
+      "explicacion": null,
+      "referencia": null,
+      "verificado": true,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "pendiente-examen-tai-2024-modelo-a-t12",
+      "concepto_id": null,
+      "capitulo": null,
+      "tipo": null,
+      "dificultad": null,
+      "origen": null,
+      "enunciado": "Señale la respuesta correcta sobre la solicitud de acceso a la información pública que recoge el artículo 17 de la Ley 19/2013, de 9 de diciembre, de transparencia, acceso a la información pública y buen gobierno:",
+      "opciones": [
+        "Sólo se podrá presentar en castellano.",
+        "Es obligatorio indicar una dirección de contacto electrónica, a efectos de comunicaciones.",
+        "Deberá dirigirse al titular del órgano administrativo o entidad que posea la información.",
+        "Deberá motivarse."
+      ],
+      "correcta": 2,
+      "explicacion": null,
+      "referencia": null,
+      "verificado": true,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "pendiente-examen-tai-2024-modelo-b-t12",
+      "concepto_id": null,
+      "capitulo": null,
+      "tipo": null,
+      "dificultad": null,
+      "origen": null,
+      "enunciado": "Señale la respuesta correcta sobre la solicitud de acceso a la información pública que recoge el artículo 17 de la Ley 19/2013, de 9 de diciembre, de transparencia, acceso a la información pública y buen gobierno:",
+      "opciones": [
+        "Sólo se podrá presentar en castellano.",
+        "Es obligatorio indicar una dirección de contacto electrónica, a efectos de comunicaciones.",
+        "Deberá dirigirse al titular del órgano administrativo o entidad que posea la información.",
+        "Deberá motivarse."
+      ],
+      "correcta": 2,
+      "explicacion": null,
+      "referencia": null,
+      "verificado": true,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "pendiente-examen-tai-2025-modelo-a-t12",
+      "concepto_id": null,
+      "capitulo": null,
+      "tipo": null,
+      "dificultad": null,
+      "origen": null,
+      "enunciado": "Señale la respuesta correcta sobre la solicitud de acceso a la información pública que recoge el artículo 17 de la Ley 19/2013, de 9 de diciembre, de transparencia, acceso a la información pública y buen gobierno:",
+      "opciones": [
+        "Sólo se podrá presentar en castellano.",
+        "Es obligatorio indicar una dirección de contacto electrónica, a efectos de comunicaciones.",
+        "Deberá dirigirse al titular del órgano administrativo o entidad que posea la información.",
+        "Deberá motivarse."
+      ],
+      "correcta": 2,
+      "explicacion": null,
+      "referencia": null,
+      "verificado": true,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "pendiente-examen-tai-2025-modelo-b-t12",
+      "concepto_id": null,
+      "capitulo": null,
+      "tipo": null,
+      "dificultad": null,
+      "origen": null,
+      "enunciado": "Señale la respuesta correcta sobre la solicitud de acceso a la información pública que recoge el artículo 17 de la Ley 19/2013, de 9 de diciembre, de transparencia, acceso a la información pública y buen gobierno:",
+      "opciones": [
+        "Sólo se podrá presentar en castellano.",
+        "Es obligatorio indicar una dirección de contacto electrónica, a efectos de comunicaciones.",
+        "Deberá dirigirse al titular del órgano administrativo o entidad que posea la información.",
+        "Deberá motivarse."
+      ],
+      "correcta": 2,
+      "explicacion": null,
+      "referencia": null,
+      "verificado": true,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "pendiente-examen-tai-2026-modelo-a-t07",
+      "concepto_id": null,
+      "capitulo": null,
+      "tipo": null,
+      "dificultad": null,
+      "origen": null,
+      "enunciado": "Dentro del marco de la Agenda 2030, señale cuál de los siguientes es el Objetivo de Desarrollo Sostenible número 1:",
+      "opciones": [
+        "Lucha contra el hambre.",
+        "Consumo responsable.",
+        "Paz y justicia.",
+        "Erradicación de la pobreza."
+      ],
+      "correcta": 3,
+      "explicacion": null,
+      "referencia": null,
+      "verificado": true,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "pendiente-examen-tai-2026-modelo-a-t08",
+      "concepto_id": null,
+      "capitulo": null,
+      "tipo": null,
+      "dificultad": null,
+      "origen": null,
+      "enunciado": "Según establece el artículo 78 del Real Decreto Legislativo 5/2015, de 30 de octubre, por el que se aprueba el texto refundido de la Ley del Estatuto Básico del Empleado Público, señale cuál de los siguientes NO es uno de los principios de provisión de puestos de trabajo del personal funcionario de carrera:",
+      "opciones": [
+        "Mérito.",
+        "Conocimiento.",
+        "Igualdad.",
+        "Publicidad."
+      ],
+      "correcta": 1,
+      "explicacion": null,
+      "referencia": null,
+      "verificado": true,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "pendiente-examen-tai-2026-modelo-a-t09",
+      "concepto_id": null,
+      "capitulo": null,
+      "tipo": null,
+      "dificultad": null,
+      "origen": null,
+      "enunciado": "Según establece la Ley 19/2013, de 9 de diciembre, de transparencia, acceso a la información pública y buen gobierno, señale cuál de los siguientes es miembro de la Comisión de Transparencia y Buen Gobierno:",
+      "opciones": [
+        "Un representante del Defensor del Pueblo.",
+        "Un representante de la Subsecretaría de Estado del Ministerio de Hacienda.",
+        "Un representante del Tribunal Constitucional.",
+        "Un representante de la Agencia Estatal de Administración Tributaria."
+      ],
+      "correcta": 0,
+      "explicacion": null,
+      "referencia": null,
+      "verificado": true,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "pendiente-examen-tai-2026-modelo-b-t07",
+      "concepto_id": null,
+      "capitulo": null,
+      "tipo": null,
+      "dificultad": null,
+      "origen": null,
+      "enunciado": "Según establece la Ley 19/2013, de 9 de diciembre, de transparencia, acceso a la información pública y buen gobierno, señale cuál de los siguientes es miembro de la Comisión de Transparencia y Buen Gobierno:",
+      "opciones": [
+        "Un representante del Defensor del Pueblo.",
+        "Un representante de la Subsecretaría de Estado del Ministerio de Hacienda.",
+        "Un representante del Tribunal Constitucional.",
+        "Un representante de la Agencia Estatal de Administración Tributaria."
+      ],
+      "correcta": 0,
+      "explicacion": null,
+      "referencia": null,
+      "verificado": true,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "pendiente-examen-tai-2026-modelo-b-t08",
+      "concepto_id": null,
+      "capitulo": null,
+      "tipo": null,
+      "dificultad": null,
+      "origen": null,
+      "enunciado": "Según establece el artículo 78 del Real Decreto Legislativo 5/2015, de 30 de octubre, por el que se aprueba el texto refundido de la Ley del Estatuto Básico del Empleado Público, señale cuál de los siguientes NO es uno de los principios de provisión de puestos de trabajo del personal funcionario de carrera:",
+      "opciones": [
+        "Mérito.",
+        "Conocimiento.",
+        "Igualdad.",
+        "Publicidad."
+      ],
+      "correcta": 1,
+      "explicacion": null,
+      "referencia": null,
+      "verificado": true,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "pendiente-examen-tai-2026-modelo-b-t09",
+      "concepto_id": null,
+      "capitulo": null,
+      "tipo": null,
+      "dificultad": null,
+      "origen": null,
+      "enunciado": "Dentro del marco de la Agenda 2030, señale cuál de los siguientes es el Objetivo de Desarrollo Sostenible número 1:",
+      "opciones": [
+        "Lucha contra el hambre.",
+        "Consumo responsable.",
+        "Paz y justicia.",
+        "Erradicación de la pobreza."
+      ],
+      "correcta": 3,
+      "explicacion": null,
+      "referencia": null,
+      "verificado": true,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "pendiente-examen-tai-2026-modelo-c-t08",
+      "concepto_id": null,
+      "capitulo": null,
+      "tipo": null,
+      "dificultad": null,
+      "origen": null,
+      "enunciado": "De acuerdo con el artículo 17.2 de la Ley 19/2013, de 9 de diciembre, de transparencia, acceso a la información pública y buen gobierno, la solicitud de acceso a la información podrá presentarse por cualquier medio que permita tener constancia de:",
+      "opciones": [
+        "Una dirección de contacto, preferentemente electrónica, a efectos de comunicaciones.",
+        "La identidad del requerido.",
+        "La huella normativa.",
+        "La motivación de la solicitud."
+      ],
+      "correcta": 0,
+      "explicacion": null,
+      "referencia": null,
+      "verificado": true,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "pendiente-examen-tai-2026-modelo-c-t09",
+      "concepto_id": null,
+      "capitulo": null,
+      "tipo": null,
+      "dificultad": null,
+      "origen": null,
+      "enunciado": "Conforme establece el artículo 18 de la Ley 53/1984, de 26 de diciembre, de Incompatibilidades del personal al servicio de las Administraciones Públicas, todas las resoluciones de compatibilidad para desempeñar un segundo puesto o actividad en el sector público o el ejercicio de actividades privadas se inscribirán:",
+      "opciones": [
+        "En el Registro Administrativo de Compatibilidades del organismo (RAC).",
+        "En la Oficina de Conflicto de Intereses.",
+        "En el Registro Común de Actividades del Personal de las Administraciones Públicas (RCAP).",
+        "En los Registros de Personal correspondientes."
+      ],
+      "correcta": 3,
+      "explicacion": null,
+      "referencia": null,
+      "verificado": true,
+      "fecha_alta": "2026-10-30"
+    }
+  ]
+}

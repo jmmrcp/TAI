@@ -1,0 +1,169 @@
+{
+  "conceptos": [
+    {
+      "id": "c-agentes-correo",
+      "nombre": "Agentes de correo electrónico (MUA, MTA, MSA, MDA, MAA)",
+      "tipo": "clasificacion",
+      "valor": "MUA (Mail User Agent): cliente de correo del usuario. MTA (Mail Transfer Agent): transfiere correo entre dominios; hay una MTA por cada dominio. MSA (Mail Submission Agent): gobierna el envío en una organización, distribuyendo y dividiendo de forma controlada el envío para no tumbar las MTAs. MDA (Mail Delivery Agent): entrega en buzones. MAA (Mail Access Agent): acceso al buzón; si incluye webmail (p. ej. OWA) el acceso es por HTTP en lugar de IMAP/POP3. El MUA alcanza su MTA porque antes se configuran el servidor saliente y el entrante.",
+      "norma": null,
+      "articulo": null,
+      "tags_transversales": [],
+      "verificado": false,
+      "es_principal": true
+    },
+    {
+      "id": "c-rfc822",
+      "nombre": "Formato RFC 822",
+      "tipo": "sintaxis",
+      "valor": "RFC 822: solo texto (ASCII 7+1 bits), no permite adjuntos. Cabeceras: From, Date, To, Subject, Message-ID, In-Reply-To, Received, Return-Path, CC, Reply-To, más CRLF y Body. Message-ID lo usa la MTA para agrupar hilos de conversación. Received y Return-Path sirven para la trazabilidad de la MTA.",
+      "norma": null,
+      "articulo": null,
+      "tags_transversales": [],
+      "verificado": false,
+      "es_principal": true
+    },
+    {
+      "id": "c-mime",
+      "nombre": "Extensión MIME",
+      "tipo": "sintaxis",
+      "valor": "Cabeceras MIME-Version y Content-Type (text/plain, multipart/mixed, multipart/alternative, application/pdf, image/gif, video/mpeg) con boundary para separar contenidos; Content-Transfer-Encoding: 7 bit / 8 bit / binary / quoted-printable / base64.",
+      "norma": null,
+      "articulo": null,
+      "tags_transversales": [],
+      "verificado": false,
+      "es_principal": true
+    },
+    {
+      "id": "c-pop3",
+      "nombre": "POP3",
+      "tipo": "definicion",
+      "valor": "Puerto 110; 995 con seguridad. Recepción, orientado a descarga, muy simple. Comandos: USER, PASS, LIST, RETR, DELE, STAT, QUIT. DELE marca para borrado; con QUIT se borra.",
+      "norma": null,
+      "articulo": null,
+      "tags_transversales": [],
+      "verificado": false,
+      "es_principal": true
+    },
+    {
+      "id": "c-imap",
+      "nombre": "IMAP",
+      "tipo": "definicion",
+      "valor": "Puerto 143; 993 con seguridad. Recepción, orientado a carpetas en servidor, uso online. Comandos: LOGIN, LIST, STATUS, SELECT, EXAMINE, FETCH, SEARCH, STORE, EXPUNGE.",
+      "norma": null,
+      "articulo": null,
+      "tags_transversales": [],
+      "verificado": false,
+      "es_principal": true
+    },
+    {
+      "id": "c-smtp",
+      "nombre": "SMTP",
+      "tipo": "definicion",
+      "valor": "Puertos 25 y 2525; 587 con seguridad; 465 obsoleto. Comandos: HELO, MAIL FROM, RCPT TO, DATA (termina con línea con solo punto), QUIT.",
+      "norma": null,
+      "articulo": null,
+      "tags_transversales": [],
+      "verificado": false,
+      "es_principal": true
+    },
+    {
+      "id": "c-esmtp",
+      "nombre": "ESMTP",
+      "tipo": "definicion",
+      "valor": "Versión extendida de SMTP. Usa EHLO. STARTTLS pasa de no seguro (puerto 25) a seguro (puerto 587). AUTH PLAIN (Base64, credenciales sin cifrar en un paso) y AUTH LOGIN (credenciales en dos pasos, texto claro).",
+      "norma": null,
+      "articulo": null,
+      "tags_transversales": [],
+      "verificado": false,
+      "es_principal": true
+    },
+    {
+      "id": "c-spf",
+      "nombre": "SPF",
+      "tipo": "definicion",
+      "valor": "Sender Policy Framework: especifica qué servidores están autorizados a enviar correos en nombre del dominio; se comprueban las IPs autorizadas en el registro TXT.",
+      "norma": null,
+      "articulo": null,
+      "tags_transversales": [],
+      "verificado": false,
+      "es_principal": true
+    },
+    {
+      "id": "c-dkim",
+      "nombre": "DKIM",
+      "tipo": "definicion",
+      "valor": "Domain Keys Identified Mail: agrega firma digital a cada correo enviado desde el dominio; la clave pública está registrada en un registro TXT.",
+      "norma": null,
+      "articulo": null,
+      "tags_transversales": [],
+      "verificado": false,
+      "es_principal": true
+    },
+    {
+      "id": "c-dmarc",
+      "nombre": "DMARC",
+      "tipo": "definicion",
+      "valor": "Domain-based Message Authentication, Reporting & Conformance: complementa a SPF y DKIM; indica qué hacer si los correos no pasan SPF o DKIM.",
+      "norma": null,
+      "articulo": null,
+      "tags_transversales": [],
+      "verificado": false,
+      "es_principal": true
+    },
+    {
+      "id": "c-arc",
+      "nombre": "ARC",
+      "tipo": "definicion",
+      "valor": "Authenticated Received Chain: verifica la autenticación de correo de los mensajes reenviados y los servidores de reenvío; añade cabeceras.",
+      "norma": null,
+      "articulo": null,
+      "tags_transversales": [],
+      "verificado": false,
+      "es_principal": true
+    },
+    {
+      "id": "c-dane",
+      "nombre": "DANE",
+      "tipo": "definicion",
+      "valor": "DNS-Based Authentication of Named Entities: infraestructura DNSSEC, usa registros TLSA, establece canal seguro remitente-destinatario.",
+      "norma": null,
+      "articulo": null,
+      "tags_transversales": [],
+      "verificado": false,
+      "es_principal": true
+    },
+    {
+      "id": "c-dns-mx",
+      "nombre": "Registros MX",
+      "tipo": "regla",
+      "valor": "Especifican a un MTA emisor en qué MTA(s) deben entregarse los emails; incluyen prioridad (ej. 10, 20, 30).",
+      "norma": null,
+      "articulo": null,
+      "tags_transversales": [],
+      "verificado": false,
+      "es_principal": true
+    },
+    {
+      "id": "c-dns-registros",
+      "nombre": "Registros DNS",
+      "tipo": "clasificacion",
+      "valor": "A: IP de dominios/subdominios; PTR: búsqueda inversa. AAAA: IPv6. CNAME: alias/redirecciones. TXT: info del dominio (SPF). SRV: servicios ofrecidos (ej. _submission._tcp para MSA en 587). CAA: entidades que pueden expedir certificados. SOA: inicio de autoridad. TLSA: huellas de certificado TLS. MX: entrega de email.",
+      "norma": null,
+      "articulo": null,
+      "tags_transversales": [],
+      "verificado": false,
+      "es_principal": true
+    },
+    {
+      "id": "c-dns-resolucion",
+      "nombre": "Resolución DNS",
+      "tipo": "proceso",
+      "valor": "1) preguntar al resolver (cache o root); 2) root indica TLD; 3) TLD indica autoritativo; 4) autoritativo da registro A; 5) se obtiene IP.",
+      "norma": null,
+      "articulo": null,
+      "tags_transversales": [],
+      "verificado": false,
+      "es_principal": true
+    }
+  ]
+}

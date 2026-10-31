@@ -1,6 +1,6 @@
 {
   "tema_id": "tema-01-la-constitucion-espanola-de-1978",
-  "total": 155,
+  "total": 178,
   "preguntas": [
     {
       "id": "p-00001",
@@ -11,12 +11,12 @@
       "origen": "ingesta-inicial",
       "enunciado": "Según el art. 1, ¿cuál es la forma política del Estado español?",
       "opciones": [
-        "República parlamentaria",
-        "Monarquía parlamentaria",
+        "República federal",
         "Monarquía absoluta",
-        "República federal"
+        "República parlamentaria",
+        "Monarquía parlamentaria"
       ],
-      "correcta": 1,
+      "correcta": 3,
       "explicacion": "El art. 1.3 establece que la forma política del Estado español es la Monarquía parlamentaria.",
       "referencia": "art. 1.3",
       "verificado": true,
@@ -32,9 +32,9 @@
       "enunciado": "¿Cuáles son los valores superiores del ordenamiento jurídico según el art. 1.1?",
       "opciones": [
         "Libertad, justicia, igualdad y pluralismo político",
+        "Libertad, justicia, solidaridad y pluralismo político",
         "Libertad, seguridad, igualdad y pluralismo político",
-        "Libertad, justicia, igualdad y unidad",
-        "Libertad, justicia, solidaridad y pluralismo político"
+        "Libertad, justicia, igualdad y unidad"
       ],
       "correcta": 0,
       "explicacion": "El art. 1.1 enumera como valores superiores la libertad, la justicia, la igualdad y el pluralismo político.",
@@ -52,11 +52,11 @@
       "enunciado": "¿Dónde reside la soberanía nacional?",
       "opciones": [
         "En el Rey",
-        "En las Cortes Generales",
         "En el pueblo español",
-        "En el Gobierno"
+        "En el Gobierno",
+        "En las Cortes Generales"
       ],
-      "correcta": 2,
+      "correcta": 1,
       "explicacion": "El art. 1.2 declara que la soberanía nacional reside en el pueblo español.",
       "referencia": "art. 1.2",
       "verificado": true,
@@ -71,12 +71,12 @@
       "origen": "ingesta-inicial",
       "enunciado": "¿Qué establece el art. 2 sobre la unidad de la Nación?",
       "opciones": [
-        "La Nación española es divisible en regiones",
         "La indisoluble unidad de la Nación española es fundamento de la Constitución",
+        "La Nación española es divisible en regiones",
         "La Nación se compone de nacionalidades independientes",
         "La unidad nacional es facultativa"
       ],
-      "correcta": 1,
+      "correcta": 0,
       "explicacion": "El art. 2 proclama la indisoluble unidad de la Nación española, fundamento de la Constitución.",
       "referencia": "art. 2",
       "verificado": true,
@@ -93,8 +93,8 @@
       "opciones": [
         "Derecho a la secesión",
         "Derecho a la autonomía",
-        "Derecho a la independencia",
-        "Derecho a la autodeterminación"
+        "Derecho a la autodeterminación",
+        "Derecho a la independencia"
       ],
       "correcta": 1,
       "explicacion": "El art. 2 reconoce el derecho a la autonomía de las nacionalidades y regiones.",
@@ -113,8 +113,8 @@
       "opciones": [
         "El castellano y las lenguas cooficiales",
         "El castellano",
-        "El español y el catalán",
-        "No se establece lengua oficial"
+        "No se establece lengua oficial",
+        "El español y el catalán"
       ],
       "correcta": 1,
       "explicacion": "El art. 3.1 declara que el castellano es la lengua española oficial del Estado.",
@@ -131,10 +131,10 @@
       "origen": "ingesta-inicial",
       "enunciado": "¿Qué ocurre con las demás lenguas españolas en sus Comunidades Autónomas?",
       "opciones": [
-        "Son oficiales solo en el ámbito privado",
+        "Depende de cada Estatuto",
         "Son también oficiales",
         "Son lenguas regionales sin oficialidad",
-        "Depende de cada Estatuto"
+        "Son oficiales solo en el ámbito privado"
       ],
       "correcta": 1,
       "explicacion": "El art. 3.2 señala que las demás lenguas españolas serán también oficiales en las respectivas Comunidades Autónomas.",
@@ -151,12 +151,12 @@
       "origen": "ingesta-inicial",
       "enunciado": "¿Cómo es la bandera de España según el art. 4?",
       "opciones": [
-        "Roja, amarilla y roja con el escudo",
         "Roja y gualda",
+        "Roja, blanca y roja",
         "Amarilla, roja y amarilla",
-        "Roja, blanca y roja"
+        "Roja, amarilla y roja con el escudo"
       ],
-      "correcta": 0,
+      "correcta": 3,
       "explicacion": "El art. 4.1 describe la bandera de España como roja, amarilla y roja, con el escudo.",
       "referencia": "art. 4.1",
       "verificado": true,
@@ -171,12 +171,12 @@
       "origen": "ingesta-inicial",
       "enunciado": "¿Cuál es la capital del Estado?",
       "opciones": [
-        "Barcelona",
-        "Sevilla",
+        "Valencia",
         "Madrid",
-        "Valencia"
+        "Sevilla",
+        "Barcelona"
       ],
-      "correcta": 2,
+      "correcta": 1,
       "explicacion": "El art. 5 establece que la capital del Estado es la ciudad de Madrid.",
       "referencia": "art. 5",
       "verificado": true,
@@ -191,12 +191,12 @@
       "origen": "ingesta-inicial",
       "enunciado": "¿Qué función tienen los partidos políticos según el art. 6?",
       "opciones": [
+        "Controlar al Gobierno",
         "Dirigir la política exterior",
         "Expresar el pluralismo político y participar en la formación de la voluntad política",
-        "Controlar al Gobierno",
         "Legislar"
       ],
-      "correcta": 1,
+      "correcta": 2,
       "explicacion": "El art. 6 atribuye a los partidos la expresión del pluralismo político y la participación en la formación de la voluntad política.",
       "referencia": "art. 6",
       "verificado": true,
@@ -211,12 +211,12 @@
       "origen": "ingesta-inicial",
       "enunciado": "¿Cuál es la misión de las Fuerzas Armadas según el art. 8?",
       "opciones": [
-        "Garantizar la soberanía e independencia y defender la integridad territorial",
-        "Mantener el orden público",
+        "Representar al Estado en el exterior",
         "Ejecutar las leyes",
-        "Representar al Estado en el exterior"
+        "Garantizar la soberanía e independencia y defender la integridad territorial",
+        "Mantener el orden público"
       ],
-      "correcta": 0,
+      "correcta": 2,
       "explicacion": "El art. 8.1 establece esas misiones para las Fuerzas Armadas.",
       "referencia": "art. 8.1",
       "verificado": true,
@@ -232,8 +232,8 @@
       "enunciado": "¿Qué principio proclama el art. 9.3?",
       "opciones": [
         "Principio de legalidad y seguridad jurídica",
-        "Principio de igualdad y progresividad",
         "Principio de jerarquía administrativa",
+        "Principio de igualdad y progresividad",
         "Principio de autonomía local"
       ],
       "correcta": 0,
@@ -251,12 +251,12 @@
       "origen": "ingesta-inicial",
       "enunciado": "¿Qué reconoce el art. 10.1?",
       "opciones": [
-        "La dignidad de la persona y los derechos inviolables inherentes",
         "El derecho a la propiedad privada",
+        "El derecho al trabajo",
         "La libertad de empresa",
-        "El derecho al trabajo"
+        "La dignidad de la persona y los derechos inviolables inherentes"
       ],
-      "correcta": 0,
+      "correcta": 3,
       "explicacion": "El art. 10.1 proclama la dignidad de la persona y los derechos inviolables inherentes.",
       "referencia": "art. 10.1",
       "verificado": true,
@@ -271,12 +271,12 @@
       "origen": "ingesta-inicial",
       "enunciado": "¿Qué establece el art. 11 sobre la nacionalidad española?",
       "opciones": [
-        "Se adquiere solo por nacimiento",
-        "Su adquisición y pérdida se regulan por ley",
         "Es irrevocable",
-        "Se pierde automáticamente al residir fuera"
+        "Se adquiere solo por nacimiento",
+        "Se pierde automáticamente al residir fuera",
+        "Su adquisición y pérdida se regulan por ley"
       ],
-      "correcta": 1,
+      "correcta": 3,
       "explicacion": "El art. 11.1 establece que la nacionalidad española se adquiere y pierde conforme a lo establecido por la ley.",
       "referencia": "art. 11.1",
       "verificado": true,
@@ -291,12 +291,12 @@
       "origen": "ingesta-inicial",
       "enunciado": "¿A qué edad se alcanza la mayoría de edad según el art. 12?",
       "opciones": [
-        "16 años",
         "18 años",
         "21 años",
+        "16 años",
         "14 años"
       ],
-      "correcta": 1,
+      "correcta": 0,
       "explicacion": "El art. 12 fija la mayoría de edad en los dieciocho años.",
       "referencia": "art. 12",
       "verificado": true,
@@ -311,12 +311,12 @@
       "origen": "ingesta-inicial",
       "enunciado": "¿Qué derecho reconoce el art. 15?",
       "opciones": [
-        "Derecho a la vida y a la integridad física y moral",
-        "Derecho a la libertad personal",
         "Derecho al honor",
-        "Derecho a la educación"
+        "Derecho a la educación",
+        "Derecho a la vida y a la integridad física y moral",
+        "Derecho a la libertad personal"
       ],
-      "correcta": 0,
+      "correcta": 2,
       "explicacion": "El art. 15 reconoce el derecho a la vida y a la integridad física y moral.",
       "referencia": "art. 15",
       "verificado": true,
@@ -331,12 +331,12 @@
       "origen": "ingesta-inicial",
       "enunciado": "¿Qué garantiza el art. 16.1?",
       "opciones": [
-        "Libertad ideológica, religiosa y de culto",
         "Libertad de expresión",
-        "Libertad de reunión",
-        "Libertad de asociación"
+        "Libertad ideológica, religiosa y de culto",
+        "Libertad de asociación",
+        "Libertad de reunión"
       ],
-      "correcta": 0,
+      "correcta": 1,
       "explicacion": "El art. 16.1 garantiza la libertad ideológica, religiosa y de culto.",
       "referencia": "art. 16.1",
       "verificado": true,
@@ -351,10 +351,10 @@
       "origen": "ingesta-inicial",
       "enunciado": "¿Existe religión oficial del Estado?",
       "opciones": [
-        "Sí, la católica",
+        "Se decide por ley",
         "No",
         "Sí, la mayoritaria",
-        "Se decide por ley"
+        "Sí, la católica"
       ],
       "correcta": 1,
       "explicacion": "El art. 16.3 establece que no hay religión oficial del Estado.",
@@ -371,12 +371,12 @@
       "origen": "ingesta-inicial",
       "enunciado": "¿Qué garantiza el art. 17.1?",
       "opciones": [
-        "Libertad y seguridad personal",
-        "Libertad de expresión",
         "Derecho a la educación",
-        "Derecho al trabajo"
+        "Libertad de expresión",
+        "Derecho al trabajo",
+        "Libertad y seguridad personal"
       ],
-      "correcta": 0,
+      "correcta": 3,
       "explicacion": "El art. 17.1 reconoce el derecho a la libertad y a la seguridad.",
       "referencia": "art. 17.1",
       "verificado": true,
@@ -391,12 +391,12 @@
       "origen": "ingesta-inicial",
       "enunciado": "¿Qué derecho protege el art. 18.1?",
       "opciones": [
-        "Honor, intimidad personal y familiar y propia imagen",
-        "Libertad de expresión",
+        "Derecho a la propiedad",
         "Derecho a la educación",
-        "Derecho a la propiedad"
+        "Libertad de expresión",
+        "Honor, intimidad personal y familiar y propia imagen"
       ],
-      "correcta": 0,
+      "correcta": 3,
       "explicacion": "El art. 18.1 reconoce el derecho al honor, a la intimidad personal y familiar y a la propia imagen.",
       "referencia": "art. 18.1",
       "verificado": true,
@@ -411,12 +411,12 @@
       "origen": "ingesta-inicial",
       "enunciado": "¿Qué establece el art. 18.2 sobre el domicilio?",
       "opciones": [
-        "El domicilio es inviolable",
+        "No se regula",
         "El domicilio puede registrarse sin orden judicial",
         "El domicilio es público",
-        "No se regula"
+        "El domicilio es inviolable"
       ],
-      "correcta": 0,
+      "correcta": 3,
       "explicacion": "El art. 18.2 declara la inviolabilidad del domicilio.",
       "referencia": "art. 18.2",
       "verificado": true,
@@ -431,12 +431,12 @@
       "origen": "ingesta-inicial",
       "enunciado": "¿Qué protege el art. 18.3?",
       "opciones": [
+        "La libertad de cátedra",
         "El secreto de las comunicaciones",
         "La libertad de prensa",
-        "El derecho a la información",
-        "La libertad de cátedra"
+        "El derecho a la información"
       ],
-      "correcta": 0,
+      "correcta": 1,
       "explicacion": "El art. 18.3 garantiza el secreto de las comunicaciones.",
       "referencia": "art. 18.3",
       "verificado": true,
@@ -451,12 +451,12 @@
       "origen": "ingesta-inicial",
       "enunciado": "¿Qué libertad reconoce el art. 19?",
       "opciones": [
+        "Libertad sindical",
         "Libertad de residencia y circulación",
-        "Libertad de empresa",
         "Libertad de cátedra",
-        "Libertad sindical"
+        "Libertad de empresa"
       ],
-      "correcta": 0,
+      "correcta": 1,
       "explicacion": "El art. 19 reconoce la libertad de residencia y circulación.",
       "referencia": "art. 19",
       "verificado": true,
@@ -471,12 +471,12 @@
       "origen": "ingesta-inicial",
       "enunciado": "¿Qué libertades reconoce el art. 20.1?",
       "opciones": [
-        "Expresión e información",
         "Reunión y asociación",
+        "Educación y trabajo",
         "Circulación y residencia",
-        "Educación y trabajo"
+        "Expresión e información"
       ],
-      "correcta": 0,
+      "correcta": 3,
       "explicacion": "El art. 20.1 reconoce las libertades de expresión e información.",
       "referencia": "art. 20.1",
       "verificado": true,
@@ -491,12 +491,12 @@
       "origen": "ingesta-inicial",
       "enunciado": "¿Qué establece el art. 21 sobre el derecho de reunión?",
       "opciones": [
-        "Derecho de reunión pacífica y sin armas",
         "Derecho de reunión armada",
+        "Derecho de reunión pacífica y sin armas",
         "Reunión solo con autorización previa",
         "No se reconoce"
       ],
-      "correcta": 0,
+      "correcta": 1,
       "explicacion": "El art. 21 reconoce el derecho de reunión pacífica y sin armas.",
       "referencia": "art. 21",
       "verificado": true,
@@ -511,12 +511,12 @@
       "origen": "ingesta-inicial",
       "enunciado": "¿Qué reconoce el art. 22?",
       "opciones": [
+        "Derecho de petición",
         "Derecho de asociación",
         "Derecho de reunión",
-        "Derecho de petición",
         "Derecho de huelga"
       ],
-      "correcta": 0,
+      "correcta": 1,
       "explicacion": "El art. 22 reconoce el derecho de asociación.",
       "referencia": "art. 22",
       "verificado": true,
@@ -531,12 +531,12 @@
       "origen": "ingesta-inicial",
       "enunciado": "¿Qué reconoce el art. 23?",
       "opciones": [
-        "Derecho a participar en asuntos públicos",
         "Derecho al trabajo",
-        "Derecho a la educación",
-        "Derecho a la vivienda"
+        "Derecho a la vivienda",
+        "Derecho a participar en asuntos públicos",
+        "Derecho a la educación"
       ],
-      "correcta": 0,
+      "correcta": 2,
       "explicacion": "El art. 23 reconoce el derecho a participar en asuntos públicos.",
       "referencia": "art. 23",
       "verificado": true,
@@ -551,12 +551,12 @@
       "origen": "ingesta-inicial",
       "enunciado": "¿Qué garantiza el art. 24?",
       "opciones": [
-        "Tutela judicial efectiva",
+        "Derecho al trabajo",
         "Libertad de expresión",
-        "Derecho a la educación",
-        "Derecho al trabajo"
+        "Tutela judicial efectiva",
+        "Derecho a la educación"
       ],
-      "correcta": 0,
+      "correcta": 2,
       "explicacion": "El art. 24 garantiza la tutela judicial efectiva.",
       "referencia": "art. 24",
       "verificado": true,
@@ -591,12 +591,12 @@
       "origen": "ingesta-inicial",
       "enunciado": "¿Qué prohíbe el art. 26?",
       "opciones": [
-        "Los tribunales de honor",
-        "La tortura",
         "La esclavitud",
-        "La censura"
+        "La tortura",
+        "La censura",
+        "Los tribunales de honor"
       ],
-      "correcta": 0,
+      "correcta": 3,
       "explicacion": "El art. 26 prohíbe los tribunales de honor en el ámbito de la Administración civil.",
       "referencia": "art. 26",
       "verificado": true,
@@ -612,9 +612,9 @@
       "enunciado": "¿Qué reconoce el art. 27?",
       "opciones": [
         "Derecho a la educación",
+        "Derecho a la salud",
         "Derecho al trabajo",
-        "Derecho a la vivienda",
-        "Derecho a la salud"
+        "Derecho a la vivienda"
       ],
       "correcta": 0,
       "explicacion": "El art. 27 reconoce el derecho a la educación.",
@@ -631,12 +631,12 @@
       "origen": "ingesta-inicial",
       "enunciado": "¿Qué derechos reconoce el art. 28?",
       "opciones": [
-        "Sindicación y huelga",
         "Reunión y asociación",
+        "Vivienda y salud",
         "Educación y trabajo",
-        "Vivienda y salud"
+        "Sindicación y huelga"
       ],
-      "correcta": 0,
+      "correcta": 3,
       "explicacion": "El art. 28 reconoce el derecho de sindicación y de huelga.",
       "referencia": "art. 28",
       "verificado": true,
@@ -651,12 +651,12 @@
       "origen": "ingesta-inicial",
       "enunciado": "¿Qué derecho regula el art. 29?",
       "opciones": [
-        "Derecho de petición",
+        "Derecho de reunión",
         "Derecho de huelga",
-        "Derecho de asociación",
-        "Derecho de reunión"
+        "Derecho de petición",
+        "Derecho de asociación"
       ],
-      "correcta": 0,
+      "correcta": 2,
       "explicacion": "El art. 29 regula el derecho de petición.",
       "referencia": "art. 29",
       "verificado": true,
@@ -691,12 +691,12 @@
       "origen": "ingesta-inicial",
       "enunciado": "¿Qué inspira el sistema tributario según el art. 31?",
       "opciones": [
+        "Eficiencia y austeridad",
         "Igualdad y progresividad",
-        "Proporcionalidad y uniformidad",
         "Libertad y seguridad",
-        "Eficiencia y austeridad"
+        "Proporcionalidad y uniformidad"
       ],
-      "correcta": 0,
+      "correcta": 1,
       "explicacion": "El art. 31 señala que el sistema tributario será justo inspirado en los principios de igualdad y progresividad.",
       "referencia": "art. 31",
       "verificado": true,
@@ -711,12 +711,12 @@
       "origen": "ingesta-inicial",
       "enunciado": "¿Qué reconoce el art. 32 sobre el matrimonio?",
       "opciones": [
-        "Derecho al matrimonio",
-        "Obligación de casarse",
         "Prohibición del matrimonio civil",
-        "Matrimonio solo religioso"
+        "Matrimonio solo religioso",
+        "Derecho al matrimonio",
+        "Obligación de casarse"
       ],
-      "correcta": 0,
+      "correcta": 2,
       "explicacion": "El art. 32 reconoce el derecho al matrimonio.",
       "referencia": "art. 32",
       "verificado": true,
@@ -731,12 +731,12 @@
       "origen": "ingesta-inicial",
       "enunciado": "¿Qué establece el art. 35?",
       "opciones": [
-        "Derecho al trabajo y deber de trabajar",
         "Derecho a la huelga",
         "Derecho a la educación",
+        "Derecho al trabajo y deber de trabajar",
         "Derecho a la vivienda"
       ],
-      "correcta": 0,
+      "correcta": 2,
       "explicacion": "El art. 35 establece el derecho al trabajo y el deber de trabajar.",
       "referencia": "art. 35",
       "verificado": true,
@@ -752,9 +752,9 @@
       "enunciado": "¿Qué establece el art. 38 sobre la libre empresa?",
       "opciones": [
         "Libertad de empresa en el marco de la economía de mercado",
-        "Prohibición de la iniciativa privada",
+        "Monopolio estatal",
         "Economía planificada",
-        "Monopolio estatal"
+        "Prohibición de la iniciativa privada"
       ],
       "correcta": 0,
       "explicacion": "El art. 38 reconoce la libertad de empresa en el marco de la economía de mercado.",
@@ -771,12 +771,12 @@
       "origen": "ingesta-inicial",
       "enunciado": "¿Qué garantías establece el art. 53 para los derechos y libertades?",
       "opciones": [
-        "Recurso de amparo y garantías procesales",
-        "Suspensión general",
+        "Delegación en el Gobierno",
         "Limitación por ley ordinaria",
-        "Delegación en el Gobierno"
+        "Suspensión general",
+        "Recurso de amparo y garantías procesales"
       ],
-      "correcta": 0,
+      "correcta": 3,
       "explicacion": "El art. 53 regula las garantías de los derechos y libertades, incluido el recurso de amparo.",
       "referencia": "art. 53",
       "verificado": true,
@@ -791,12 +791,12 @@
       "origen": "ingesta-inicial",
       "enunciado": "¿Qué es el Defensor del Pueblo según el art. 54?",
       "opciones": [
-        "Un alto comisionado de las Cortes para la defensa de los derechos del Título I",
         "Un ministro del Gobierno",
+        "Un delegado del Rey",
         "Un juez del Tribunal Supremo",
-        "Un delegado del Rey"
+        "Un alto comisionado de las Cortes para la defensa de los derechos del Título I"
       ],
-      "correcta": 0,
+      "correcta": 3,
       "explicacion": "El art. 54 define al Defensor del Pueblo como alto comisionado de las Cortes.",
       "referencia": "art. 54",
       "verificado": true,
@@ -811,12 +811,12 @@
       "origen": "ingesta-inicial",
       "enunciado": "¿Quién puede suspender derechos y libertades según el art. 55?",
       "opciones": [
-        "El Gobierno mediante decreto",
-        "El Congreso por mayoría absoluta",
+        "El Tribunal Constitucional",
         "El Rey",
-        "El Tribunal Constitucional"
+        "El Congreso por mayoría absoluta",
+        "El Gobierno mediante decreto"
       ],
-      "correcta": 1,
+      "correcta": 2,
       "explicacion": "El art. 55 prevé la suspensión por el Congreso de los Diputados en los casos y formas que establece.",
       "referencia": "art. 55",
       "verificado": true,
@@ -831,12 +831,12 @@
       "origen": "ingesta-inicial",
       "enunciado": "¿Qué establece el art. 9.1?",
       "opciones": [
-        "Los ciudadanos y poderes públicos están sujetos a la Constitución y al ordenamiento jurídico",
-        "El Rey es inviolable",
         "Las Cortes son soberanas",
+        "El Rey es inviolable",
+        "Los ciudadanos y poderes públicos están sujetos a la Constitución y al ordenamiento jurídico",
         "El Gobierno dirige la política"
       ],
-      "correcta": 0,
+      "correcta": 2,
       "explicacion": "El art. 9.1 establece la sujeción a la Constitución y al ordenamiento jurídico.",
       "referencia": "art. 9.1",
       "verificado": true,
@@ -851,12 +851,12 @@
       "origen": "ingesta-inicial",
       "enunciado": "¿Qué deben promover los poderes públicos según el art. 9.2?",
       "opciones": [
-        "Las condiciones para que la libertad y la igualdad sean reales y efectivas",
+        "La Hacienda pública",
         "La defensa nacional",
         "La política exterior",
-        "La Hacienda pública"
+        "Las condiciones para que la libertad y la igualdad sean reales y efectivas"
       ],
-      "correcta": 0,
+      "correcta": 3,
       "explicacion": "El art. 9.2 encomienda a los poderes públicos promover las condiciones para la igualdad real y efectiva.",
       "referencia": "art. 9.2",
       "verificado": true,
@@ -871,12 +871,12 @@
       "origen": "ingesta-inicial",
       "enunciado": "¿Qué función tienen los sindicatos y asociaciones empresariales según el art. 7?",
       "opciones": [
+        "Legislar en materia laboral",
         "Contribuir a la defensa de intereses económicos y sociales",
         "Dirigir la política laboral",
-        "Legislar en materia laboral",
         "Administrar la Seguridad Social"
       ],
-      "correcta": 0,
+      "correcta": 1,
       "explicacion": "El art. 7 señala esa contribución.",
       "referencia": "art. 7",
       "verificado": true,
@@ -891,12 +891,12 @@
       "origen": "ingesta-inicial",
       "enunciado": "¿Cómo se interpretan las normas sobre derechos fundamentales?",
       "opciones": [
-        "Conforme a la Declaración Universal y tratados internacionales",
         "Según la jurisprudencia del Tribunal Supremo",
         "Según la ley orgánica",
+        "Conforme a la Declaración Universal y tratados internacionales",
         "Según el Gobierno"
       ],
-      "correcta": 0,
+      "correcta": 2,
       "explicacion": "El art. 10.2 establece esa interpretación.",
       "referencia": "art. 10.2",
       "verificado": true,
@@ -911,12 +911,12 @@
       "origen": "ingesta-inicial",
       "enunciado": "¿Qué establece el art. 13 sobre los extranjeros?",
       "opciones": [
-        "Gozan de las libertades públicas garantizadas en el título en los términos de los tratados",
-        "No tienen derechos",
         "Tienen los mismos derechos que los españoles en todo",
-        "Solo tienen derechos económicos"
+        "Gozan de las libertades públicas garantizadas en el título en los términos de los tratados",
+        "Solo tienen derechos económicos",
+        "No tienen derechos"
       ],
-      "correcta": 0,
+      "correcta": 1,
       "explicacion": "El art. 13.1 reconoce a los extranjeros las libertades públicas en los términos de los tratados.",
       "referencia": "art. 13.1",
       "verificado": true,
@@ -931,12 +931,12 @@
       "origen": "ingesta-inicial",
       "enunciado": "¿Qué proclama el art. 14?",
       "opciones": [
-        "Igualdad ante la ley sin discriminación",
-        "Libertad de expresión",
         "Derecho al trabajo",
-        "Derecho a la educación"
+        "Igualdad ante la ley sin discriminación",
+        "Derecho a la educación",
+        "Libertad de expresión"
       ],
-      "correcta": 0,
+      "correcta": 1,
       "explicacion": "El art. 14 proclama la igualdad de los españoles ante la ley.",
       "referencia": "art. 14",
       "verificado": true,
@@ -952,8 +952,8 @@
       "enunciado": "¿Qué establece el art. 18.4 sobre la informática?",
       "opciones": [
         "La ley limitará el uso de la informática para garantizar el honor y la intimidad",
-        "La informática es libre",
         "El Estado controla todos los datos",
+        "La informática es libre",
         "No se regula"
       ],
       "correcta": 0,
@@ -991,12 +991,12 @@
       "origen": "ingesta-inicial",
       "enunciado": "¿Qué establece el art. 31.2?",
       "opciones": [
-        "El gasto público atenderá a la igualdad efectiva",
-        "El Estado no puede gastar",
         "La Hacienda será centralizada",
-        "No se regula el gasto"
+        "No se regula el gasto",
+        "El gasto público atenderá a la igualdad efectiva",
+        "El Estado no puede gastar"
       ],
-      "correcta": 0,
+      "correcta": 2,
       "explicacion": "El art. 31.2 señala que el gasto público realizará una asignación equitativa de recursos.",
       "referencia": "art. 31.2",
       "verificado": true,
@@ -1011,12 +1011,12 @@
       "origen": "ingesta-inicial",
       "enunciado": "¿Qué simboliza la Corona según el art. 56?",
       "opciones": [
-        "La unidad y permanencia del Estado",
         "La soberanía popular",
+        "La unidad y permanencia del Estado",
         "La independencia judicial",
         "La Administración pública"
       ],
-      "correcta": 0,
+      "correcta": 1,
       "explicacion": "El art. 56 establece que la Corona simboliza la unidad y permanencia del Estado.",
       "referencia": "art. 56",
       "verificado": true,
@@ -1031,12 +1031,12 @@
       "origen": "ingesta-inicial",
       "enunciado": "¿Cómo se sucede en la Corona?",
       "opciones": [
+        "Por sorteo",
         "Por primogenitura y representación",
         "Por elección",
-        "Por nombramiento del Gobierno",
-        "Por sorteo"
+        "Por nombramiento del Gobierno"
       ],
-      "correcta": 0,
+      "correcta": 1,
       "explicacion": "El art. 57 regula la sucesión por primogenitura y representación.",
       "referencia": "art. 57",
       "verificado": true,
@@ -1051,9 +1051,9 @@
       "origen": "ingesta-inicial",
       "enunciado": "¿Cuál de las siguientes es función del Rey?",
       "opciones": [
-        "Sancionar y promulgar las leyes",
-        "Dirigir la política exterior",
         "Nombrar al Gobierno",
+        "Dirigir la política exterior",
+        "Sancionar y promulgar las leyes",
         "Todas las anteriores"
       ],
       "correcta": 3,
@@ -1071,12 +1071,12 @@
       "origen": "ingesta-inicial",
       "enunciado": "¿Quién tiene el mando supremo de las Fuerzas Armadas?",
       "opciones": [
-        "El Rey",
-        "El Presidente del Gobierno",
         "El Ministro de Defensa",
-        "Las Cortes Generales"
+        "El Presidente del Gobierno",
+        "Las Cortes Generales",
+        "El Rey"
       ],
-      "correcta": 0,
+      "correcta": 3,
       "explicacion": "El art. 63 atribuye al Rey el mando supremo de las Fuerzas Armadas.",
       "referencia": "art. 63",
       "verificado": true,
@@ -1091,12 +1091,12 @@
       "origen": "ingesta-inicial",
       "enunciado": "¿Qué requieren los actos del Rey?",
       "opciones": [
-        "Refrendo",
         "Aprobación judicial",
-        "Ratificación popular",
-        "Aprobación del Senado"
+        "Refrendo",
+        "Aprobación del Senado",
+        "Ratificación popular"
       ],
-      "correcta": 0,
+      "correcta": 1,
       "explicacion": "El art. 64 establece el refrendo de los actos del Rey.",
       "referencia": "art. 64",
       "verificado": true,
@@ -1111,12 +1111,12 @@
       "origen": "ingesta-inicial",
       "enunciado": "¿Quién propone el candidato a Presidente del Gobierno?",
       "opciones": [
-        "El Rey",
         "El Congreso",
         "El Senado",
+        "El Rey",
         "El Gobierno saliente"
       ],
-      "correcta": 0,
+      "correcta": 2,
       "explicacion": "El art. 99.1 establece que el Rey, previa consulta con los representantes designados por los grupos políticos, propone un candidato.",
       "referencia": "art. 99.1",
       "verificado": true,
@@ -1132,8 +1132,8 @@
       "enunciado": "¿Qué representan las Cortes Generales?",
       "opciones": [
         "Al pueblo español",
-        "Al Rey",
         "Al Gobierno",
+        "Al Rey",
         "A las Comunidades Autónomas"
       ],
       "correcta": 0,
@@ -1151,9 +1151,9 @@
       "origen": "ingesta-inicial",
       "enunciado": "¿Cuántos diputados componen como mínimo el Congreso?",
       "opciones": [
-        "300",
-        "350",
         "400",
+        "350",
+        "300",
         "250"
       ],
       "correcta": 1,
@@ -1171,12 +1171,12 @@
       "origen": "ingesta-inicial",
       "enunciado": "¿Qué es el Senado?",
       "opciones": [
-        "Cámara de representación territorial",
+        "Tribunal constitucional",
         "Cámara de representación popular",
         "Órgano del Gobierno",
-        "Tribunal constitucional"
+        "Cámara de representación territorial"
       ],
-      "correcta": 0,
+      "correcta": 3,
       "explicacion": "El art. 69.1 define el Senado como cámara de representación territorial.",
       "referencia": "art. 69.1",
       "verificado": true,
@@ -1191,12 +1191,12 @@
       "origen": "ingesta-inicial",
       "enunciado": "¿Qué mayoría se requiere para aprobar una ley orgánica?",
       "opciones": [
-        "Mayoría absoluta del Congreso",
         "Mayoría simple",
         "Mayoría de dos tercios",
-        "Mayoría cualificada del Senado"
+        "Mayoría cualificada del Senado",
+        "Mayoría absoluta del Congreso"
       ],
-      "correcta": 0,
+      "correcta": 3,
       "explicacion": "El art. 81.1 establece la mayoría absoluta del Congreso para las leyes orgánicas.",
       "referencia": "art. 81.1",
       "verificado": true,
@@ -1211,12 +1211,12 @@
       "origen": "ingesta-inicial",
       "enunciado": "¿Quién tiene iniciativa legislativa?",
       "opciones": [
-        "Gobierno, Congreso, Senado y asambleas autonómicas",
-        "Solo el Gobierno",
         "Solo el Congreso",
-        "El Rey"
+        "Solo el Gobierno",
+        "El Rey",
+        "Gobierno, Congreso, Senado y asambleas autonómicas"
       ],
-      "correcta": 0,
+      "correcta": 3,
       "explicacion": "El art. 87.1 y 87.2 reconocen la iniciativa legislativa al Gobierno, al Congreso, al Senado y a las asambleas autonómicas.",
       "referencia": "art. 87",
       "verificado": true,
@@ -1231,12 +1231,12 @@
       "origen": "ingesta-inicial",
       "enunciado": "¿Cuál es la duración del mandato de los diputados?",
       "opciones": [
-        "4 años",
+        "3 años",
         "5 años",
         "6 años",
-        "3 años"
+        "4 años"
       ],
-      "correcta": 0,
+      "correcta": 3,
       "explicacion": "El art. 68.3 establece un mandato de cuatro años.",
       "referencia": "art. 68.3",
       "verificado": true,
@@ -1252,8 +1252,8 @@
       "enunciado": "¿Son imperativos los mandatos de los parlamentarios?",
       "opciones": [
         "No",
-        "Sí",
         "Solo en el Senado",
+        "Sí",
         "Depende del partido"
       ],
       "correcta": 0,
@@ -1271,12 +1271,12 @@
       "origen": "ingesta-inicial",
       "enunciado": "¿Quién dirige la política interior y exterior?",
       "opciones": [
-        "El Gobierno",
         "El Rey",
+        "El Gobierno",
         "Las Cortes",
         "El Tribunal Constitucional"
       ],
-      "correcta": 0,
+      "correcta": 1,
       "explicacion": "El art. 97 establece que el Gobierno dirige la política interior y exterior.",
       "referencia": "art. 97",
       "verificado": true,
@@ -1291,12 +1291,12 @@
       "origen": "ingesta-inicial",
       "enunciado": "¿Quién nombra al Presidente del Gobierno?",
       "opciones": [
-        "El Rey",
-        "El Congreso",
         "El Senado",
+        "El Congreso",
+        "El Rey",
         "El Gobierno saliente"
       ],
-      "correcta": 0,
+      "correcta": 2,
       "explicacion": "El art. 98 y 99 atribuyen al Rey el nombramiento previa investidura.",
       "referencia": "art. 98",
       "verificado": true,
@@ -1312,9 +1312,9 @@
       "enunciado": "¿Qué mayoría se necesita en segunda votación de investidura?",
       "opciones": [
         "Mayoría simple",
-        "Mayoría absoluta",
+        "Unanimidad",
         "Dos tercios",
-        "Unanimidad"
+        "Mayoría absoluta"
       ],
       "correcta": 0,
       "explicacion": "El art. 99.3 establece que en segunda votación basta mayoría simple.",
@@ -1332,9 +1332,9 @@
       "enunciado": "¿Quién nombra y cesa a los Ministros?",
       "opciones": [
         "El Rey a propuesta del Presidente",
+        "El Presidente del Gobierno directamente",
         "El Congreso",
-        "El Senado",
-        "El Presidente del Gobierno directamente"
+        "El Senado"
       ],
       "correcta": 0,
       "explicacion": "El art. 100 establece el nombramiento y cese por el Rey a propuesta del Presidente.",
@@ -1351,12 +1351,12 @@
       "origen": "ingesta-inicial",
       "enunciado": "¿Ante quién responde políticamente el Gobierno?",
       "opciones": [
-        "Ante el Congreso de los Diputados",
-        "Ante el Senado",
+        "Ante el Tribunal Constitucional",
         "Ante el Rey",
-        "Ante el Tribunal Constitucional"
+        "Ante el Congreso de los Diputados",
+        "Ante el Senado"
       ],
-      "correcta": 0,
+      "correcta": 2,
       "explicacion": "El art. 108 establece la responsabilidad política ante el Congreso.",
       "referencia": "art. 108",
       "verificado": true,
@@ -1371,12 +1371,12 @@
       "origen": "ingesta-inicial",
       "enunciado": "¿Quién ejerce el poder judicial?",
       "opciones": [
-        "Jueces y tribunales",
-        "El Rey",
         "El Gobierno",
-        "Las Cortes"
+        "Jueces y tribunales",
+        "Las Cortes",
+        "El Rey"
       ],
-      "correcta": 0,
+      "correcta": 1,
       "explicacion": "El art. 117.1 establece que el poder judicial corresponde exclusivamente a jueces y tribunales.",
       "referencia": "art. 117.1",
       "verificado": true,
@@ -1391,12 +1391,12 @@
       "origen": "ingesta-inicial",
       "enunciado": "¿Qué es el Consejo General del Poder Judicial?",
       "opciones": [
-        "Órgano de gobierno del poder judicial",
         "Tribunal constitucional",
+        "Órgano de gobierno del poder judicial",
         "Órgano del Gobierno",
         "Comisión del Congreso"
       ],
-      "correcta": 0,
+      "correcta": 1,
       "explicacion": "El art. 122 regula el CGPJ como órgano de gobierno del poder judicial.",
       "referencia": "art. 122",
       "verificado": true,
@@ -1411,12 +1411,12 @@
       "origen": "ingesta-inicial",
       "enunciado": "¿Es independiente el poder judicial?",
       "opciones": [
-        "Sí, conforme al art. 117",
         "No",
+        "Sí, conforme al art. 117",
         "Depende del Gobierno",
         "Depende del Rey"
       ],
-      "correcta": 0,
+      "correcta": 1,
       "explicacion": "El art. 117.1 proclama la independencia del poder judicial.",
       "referencia": "art. 117.1",
       "verificado": true,
@@ -1431,12 +1431,12 @@
       "origen": "ingesta-inicial",
       "enunciado": "¿Qué pueden establecer las Comunidades Autónomas según el art. 148?",
       "opciones": [
-        "Sus competencias en materias no reservadas al Estado",
         "Competencias exclusivas del Estado",
+        "Competencias de política exterior",
         "Competencias de defensa",
-        "Competencias de política exterior"
+        "Sus competencias en materias no reservadas al Estado"
       ],
-      "correcta": 0,
+      "correcta": 3,
       "explicacion": "El art. 148 enumera las competencias que las Comunidades Autónomas pueden asumir.",
       "referencia": "art. 148",
       "verificado": true,
@@ -1452,9 +1452,9 @@
       "enunciado": "¿Qué mayoría se requiere para la reforma constitucional ordinaria?",
       "opciones": [
         "Mayoría de tres quintos de ambas Cámaras",
+        "Unanimidad",
         "Mayoría absoluta",
-        "Mayoría simple",
-        "Unanimidad"
+        "Mayoría simple"
       ],
       "correcta": 0,
       "explicacion": "El art. 167 establece la mayoría de tres quintos para la reforma ordinaria.",
@@ -1471,12 +1471,12 @@
       "origen": "ingesta-inicial",
       "enunciado": "¿Cuántos magistrados componen el Tribunal Constitucional?",
       "opciones": [
-        "12",
-        "9",
         "15",
-        "7"
+        "7",
+        "12",
+        "9"
       ],
-      "correcta": 0,
+      "correcta": 2,
       "explicacion": "El art. 159.1 establece que el TC se compone de 12 magistrados.",
       "referencia": "art. 159.1",
       "verificado": true,
@@ -1491,12 +1491,12 @@
       "origen": "ingesta-inicial",
       "enunciado": "¿Qué establece la disposición adicional primera?",
       "opciones": [
-        "Protección de los derechos de las nacionalidades y regiones",
         "Reforma del Senado",
-        "Reforma del Congreso",
-        "Reforma del Gobierno"
+        "Protección de los derechos de las nacionalidades y regiones",
+        "Reforma del Gobierno",
+        "Reforma del Congreso"
       ],
-      "correcta": 0,
+      "correcta": 1,
       "explicacion": "La disposición adicional primera establece la protección de los derechos de las nacionalidades y regiones.",
       "referencia": "disp. adic. 1.ª",
       "verificado": true,
@@ -1511,12 +1511,12 @@
       "origen": "ingesta-inicial",
       "enunciado": "¿Qué establece el art. 1.1 sobre España?",
       "opciones": [
-        "España se constituye en un Estado social y democrático de Derecho",
         "España es una república",
+        "España es un Estado confederal",
         "España es una federación",
-        "España es un Estado confederal"
+        "España se constituye en un Estado social y democrático de Derecho"
       ],
-      "correcta": 0,
+      "correcta": 3,
       "explicacion": "El art. 1.1 define España como Estado social y democrático de Derecho.",
       "referencia": "art. 1.1",
       "verificado": true,
@@ -1531,12 +1531,12 @@
       "origen": "ingesta-inicial",
       "enunciado": "¿Cuál es la forma política del Estado español?",
       "opciones": [
-        "Monarquía parlamentaria",
-        "República presidencialista",
+        "República parlamentaria",
         "Monarquía absoluta",
-        "República parlamentaria"
+        "República presidencialista",
+        "Monarquía parlamentaria"
       ],
-      "correcta": 0,
+      "correcta": 3,
       "explicacion": "El art. 1.3 establece la Monarquía parlamentaria.",
       "referencia": "art. 1.3",
       "verificado": true,
@@ -1551,12 +1551,12 @@
       "origen": "ingesta-inicial",
       "enunciado": "La soberanía nacional reside en:",
       "opciones": [
-        "El pueblo español",
         "El Rey",
         "Las Cortes",
+        "El pueblo español",
         "El Gobierno"
       ],
-      "correcta": 0,
+      "correcta": 2,
       "explicacion": "El art. 1.2 declara que la soberanía nacional reside en el pueblo español.",
       "referencia": "art. 1.2",
       "verificado": true,
@@ -1571,12 +1571,12 @@
       "origen": "ingesta-inicial",
       "enunciado": "La indisoluble unidad de la Nación española es:",
       "opciones": [
+        "Depende de las Comunidades",
         "Fundamento de la Constitución",
-        "Facultativa",
         "Derogable por ley",
-        "Depende de las Comunidades"
+        "Facultativa"
       ],
-      "correcta": 0,
+      "correcta": 1,
       "explicacion": "El art. 2 proclama la indisoluble unidad de la Nación española como fundamento de la Constitución.",
       "referencia": "art. 2",
       "verificado": true,
@@ -1593,72 +1593,12 @@
       "opciones": [
         "La autonomía",
         "La secesión",
-        "La independencia",
-        "La autodeterminación"
+        "La autodeterminación",
+        "La independencia"
       ],
       "correcta": 0,
       "explicacion": "El art. 2 reconoce el derecho a la autonomía.",
       "referencia": "art. 2",
-      "verificado": true,
-      "fecha_alta": "2026-10-30"
-    },
-    {
-      "id": "p-00081",
-      "concepto_id": "c-918571c284a8",
-      "capitulo": "cap-02",
-      "tipo": "multiple-choice",
-      "dificultad": "baja",
-      "origen": "ingesta-inicial",
-      "enunciado": "La lengua oficial del Estado es:",
-      "opciones": [
-        "El castellano",
-        "El español y el catalán",
-        "Todas las lenguas",
-        "No se establece"
-      ],
-      "correcta": 0,
-      "explicacion": "El art. 3.1 declara el castellano lengua oficial del Estado.",
-      "referencia": "art. 3.1",
-      "verificado": true,
-      "fecha_alta": "2026-10-30"
-    },
-    {
-      "id": "p-00082",
-      "concepto_id": "c-a84a3b74c822",
-      "capitulo": "cap-02",
-      "tipo": "multiple-choice",
-      "dificultad": "baja",
-      "origen": "ingesta-inicial",
-      "enunciado": "La bandera de España es:",
-      "opciones": [
-        "Roja, amarilla y roja con el escudo",
-        "Roja y gualda",
-        "Amarilla, roja y amarilla",
-        "Roja, blanca y roja"
-      ],
-      "correcta": 0,
-      "explicacion": "El art. 4.1 describe la bandera.",
-      "referencia": "art. 4.1",
-      "verificado": true,
-      "fecha_alta": "2026-10-30"
-    },
-    {
-      "id": "p-00083",
-      "concepto_id": "c-80cb87821290",
-      "capitulo": "cap-02",
-      "tipo": "multiple-choice",
-      "dificultad": "baja",
-      "origen": "ingesta-inicial",
-      "enunciado": "La capital del Estado es:",
-      "opciones": [
-        "Madrid",
-        "Barcelona",
-        "Sevilla",
-        "Valencia"
-      ],
-      "correcta": 0,
-      "explicacion": "El art. 5 establece Madrid como capital.",
-      "referencia": "art. 5",
       "verificado": true,
       "fecha_alta": "2026-10-30"
     },
@@ -1671,54 +1611,14 @@
       "origen": "ingesta-inicial",
       "enunciado": "Las Fuerzas Armadas tienen como misión:",
       "opciones": [
-        "Garantizar soberanía e independencia y defender integridad territorial",
-        "Mantener orden público",
         "Ejecutar leyes",
-        "Representar al Estado en el exterior"
+        "Representar al Estado en el exterior",
+        "Mantener orden público",
+        "Garantizar soberanía e independencia y defender integridad territorial"
       ],
-      "correcta": 0,
+      "correcta": 3,
       "explicacion": "El art. 8.1 establece esas misiones.",
       "referencia": "art. 8.1",
-      "verificado": true,
-      "fecha_alta": "2026-10-30"
-    },
-    {
-      "id": "p-00085",
-      "concepto_id": "c-bbbe196c1082",
-      "capitulo": "cap-02",
-      "tipo": "multiple-choice",
-      "dificultad": "alta",
-      "origen": "ingesta-inicial",
-      "enunciado": "El art. 9.3 garantiza:",
-      "opciones": [
-        "Principio de legalidad y seguridad jurídica",
-        "Igualdad y progresividad fiscal",
-        "Autonomía local",
-        "Jerarquía administrativa"
-      ],
-      "correcta": 0,
-      "explicacion": "El art. 9.3 garantiza legalidad, jerarquía normativa, publicidad, irretroactividad, seguridad jurídica, responsabilidad e interdicción de arbitrariedad.",
-      "referencia": "art. 9.3",
-      "verificado": true,
-      "fecha_alta": "2026-10-30"
-    },
-    {
-      "id": "p-00086",
-      "concepto_id": "c-d71b5b434553",
-      "capitulo": "cap-03",
-      "tipo": "multiple-choice",
-      "dificultad": "media",
-      "origen": "ingesta-inicial",
-      "enunciado": "El art. 10.1 proclama:",
-      "opciones": [
-        "La dignidad de la persona y los derechos inviolables inherentes",
-        "El derecho a la propiedad",
-        "La libertad de empresa",
-        "El derecho al trabajo"
-      ],
-      "correcta": 0,
-      "explicacion": "El art. 10.1 proclama la dignidad de la persona.",
-      "referencia": "art. 10.1",
       "verificado": true,
       "fecha_alta": "2026-10-30"
     },
@@ -1731,74 +1631,14 @@
       "origen": "ingesta-inicial",
       "enunciado": "La nacionalidad española se adquiere y pierde:",
       "opciones": [
+        "Por residencia",
         "Conforme a la ley",
         "Solo por nacimiento",
-        "Por residencia",
         "Automáticamente"
       ],
-      "correcta": 0,
+      "correcta": 1,
       "explicacion": "El art. 11.1 remite a la ley.",
       "referencia": "art. 11.1",
-      "verificado": true,
-      "fecha_alta": "2026-10-30"
-    },
-    {
-      "id": "p-00088",
-      "concepto_id": "c-02a0c21b66b6",
-      "capitulo": "cap-03",
-      "tipo": "multiple-choice",
-      "dificultad": "baja",
-      "origen": "ingesta-inicial",
-      "enunciado": "La mayoría de edad se alcanza a los:",
-      "opciones": [
-        "18 años",
-        "16 años",
-        "21 años",
-        "14 años"
-      ],
-      "correcta": 0,
-      "explicacion": "El art. 12 fija 18 años.",
-      "referencia": "art. 12",
-      "verificado": true,
-      "fecha_alta": "2026-10-30"
-    },
-    {
-      "id": "p-00089",
-      "concepto_id": "c-0574eee75104",
-      "capitulo": "cap-06",
-      "tipo": "multiple-choice",
-      "dificultad": "baja",
-      "origen": "ingesta-inicial",
-      "enunciado": "El art. 15 reconoce:",
-      "opciones": [
-        "Derecho a la vida y a la integridad física y moral",
-        "Libertad personal",
-        "Derecho al honor",
-        "Derecho a la educación"
-      ],
-      "correcta": 0,
-      "explicacion": "El art. 15 reconoce el derecho a la vida.",
-      "referencia": "art. 15",
-      "verificado": true,
-      "fecha_alta": "2026-10-30"
-    },
-    {
-      "id": "p-00090",
-      "concepto_id": "c-1e9b94ba76d5",
-      "capitulo": "cap-06",
-      "tipo": "multiple-choice",
-      "dificultad": "media",
-      "origen": "ingesta-inicial",
-      "enunciado": "El art. 16.1 garantiza:",
-      "opciones": [
-        "Libertad ideológica, religiosa y de culto",
-        "Libertad de expresión",
-        "Libertad de reunión",
-        "Libertad de asociación"
-      ],
-      "correcta": 0,
-      "explicacion": "El art. 16.1 garantiza esa libertad.",
-      "referencia": "art. 16.1",
       "verificado": true,
       "fecha_alta": "2026-10-30"
     },
@@ -1811,12 +1651,12 @@
       "origen": "ingesta-inicial",
       "enunciado": "El domicilio es:",
       "opciones": [
-        "Inviolable",
         "Registrable sin orden judicial",
         "Público",
-        "No regulado"
+        "No regulado",
+        "Inviolable"
       ],
-      "correcta": 0,
+      "correcta": 3,
       "explicacion": "El art. 18.2 declara la inviolabilidad del domicilio.",
       "referencia": "art. 18.2",
       "verificado": true,
@@ -1831,74 +1671,14 @@
       "origen": "ingesta-inicial",
       "enunciado": "El art. 20.1 reconoce:",
       "opciones": [
-        "Libertades de expresión e información",
-        "Libertad de reunión",
         "Libertad de asociación",
-        "Libertad de circulación"
+        "Libertades de expresión e información",
+        "Libertad de circulación",
+        "Libertad de reunión"
       ],
-      "correcta": 0,
+      "correcta": 1,
       "explicacion": "El art. 20.1 reconoce expresión e información.",
       "referencia": "art. 20.1",
-      "verificado": true,
-      "fecha_alta": "2026-10-30"
-    },
-    {
-      "id": "p-00093",
-      "concepto_id": "c-69f43cfda04d",
-      "capitulo": "cap-06",
-      "tipo": "multiple-choice",
-      "dificultad": "alta",
-      "origen": "ingesta-inicial",
-      "enunciado": "El art. 24 garantiza:",
-      "opciones": [
-        "Tutela judicial efectiva",
-        "Libertad de expresión",
-        "Derecho a la educación",
-        "Derecho al trabajo"
-      ],
-      "correcta": 0,
-      "explicacion": "El art. 24 garantiza la tutela judicial efectiva.",
-      "referencia": "art. 24",
-      "verificado": true,
-      "fecha_alta": "2026-10-30"
-    },
-    {
-      "id": "p-00094",
-      "concepto_id": "c-4b10b9bec62d",
-      "capitulo": "cap-06",
-      "tipo": "multiple-choice",
-      "dificultad": "media",
-      "origen": "ingesta-inicial",
-      "enunciado": "El art. 27 reconoce:",
-      "opciones": [
-        "Derecho a la educación",
-        "Derecho al trabajo",
-        "Derecho a la vivienda",
-        "Derecho a la salud"
-      ],
-      "correcta": 0,
-      "explicacion": "El art. 27 reconoce el derecho a la educación.",
-      "referencia": "art. 27",
-      "verificado": true,
-      "fecha_alta": "2026-10-30"
-    },
-    {
-      "id": "p-00095",
-      "concepto_id": "c-2020ca22c1b0",
-      "capitulo": "cap-07",
-      "tipo": "multiple-choice",
-      "dificultad": "baja",
-      "origen": "ingesta-inicial",
-      "enunciado": "El art. 35 establece:",
-      "opciones": [
-        "Derecho al trabajo y deber de trabajar",
-        "Derecho a la huelga",
-        "Derecho a la educación",
-        "Derecho a la vivienda"
-      ],
-      "correcta": 0,
-      "explicacion": "El art. 35 establece el derecho y deber de trabajar.",
-      "referencia": "art. 35",
       "verificado": true,
       "fecha_alta": "2026-10-30"
     },
@@ -1912,8 +1692,8 @@
       "enunciado": "Las Cortes Generales se componen de:",
       "opciones": [
         "Congreso y Senado",
-        "Congreso y Gobierno",
         "Senado y Rey",
+        "Congreso y Gobierno",
         "Congreso y Tribunal Constitucional"
       ],
       "correcta": 0,
@@ -1931,12 +1711,12 @@
       "origen": "ingesta-inicial",
       "enunciado": "El Congreso se elige por:",
       "opciones": [
-        "Sufragio universal, libre, igual, directo y secreto",
-        "Designacion real",
         "Sorteo",
-        "Nombramiento por el Gobierno"
+        "Nombramiento por el Gobierno",
+        "Sufragio universal, libre, igual, directo y secreto",
+        "Designacion real"
       ],
-      "correcta": 0,
+      "correcta": 2,
       "explicacion": "El art. 68.1 establece la eleccion por sufragio universal.",
       "referencia": "art. 68.1",
       "verificado": true,
@@ -1951,12 +1731,12 @@
       "origen": "ingesta-inicial",
       "enunciado": "El Senado es elegido por:",
       "opciones": [
-        "Sufragio universal y por designacion autonómica",
-        "Solo por el Rey",
         "Solo por el Gobierno",
-        "Por sorteo"
+        "Solo por el Rey",
+        "Por sorteo",
+        "Sufragio universal y por designacion autonómica"
       ],
-      "correcta": 0,
+      "correcta": 3,
       "explicacion": "El art. 69 regula la composicion del Senado.",
       "referencia": "art. 69",
       "verificado": true,
@@ -1971,12 +1751,12 @@
       "origen": "ingesta-inicial",
       "enunciado": "Los parlamentarios gozan de:",
       "opciones": [
-        "Inviolabilidad e inmunidad",
-        "Inmunidad solo",
         "Inviolabilidad solo",
-        "Ninguna"
+        "Ninguna",
+        "Inviolabilidad e inmunidad",
+        "Inmunidad solo"
       ],
-      "correcta": 0,
+      "correcta": 2,
       "explicacion": "El art. 71 regula la inviolabilidad e inmunidad parlamentaria.",
       "referencia": "art. 71",
       "verificado": true,
@@ -1991,12 +1771,12 @@
       "origen": "ingesta-inicial",
       "enunciado": "Las Camaras se reúnen en:",
       "opciones": [
-        "Legislatura",
+        "Comision",
         "Sesion",
-        "Pleno",
-        "Comision"
+        "Legislatura",
+        "Pleno"
       ],
-      "correcta": 0,
+      "correcta": 2,
       "explicacion": "El art. 73 regula las sesiones y legislaturas.",
       "referencia": "art. 73",
       "verificado": true,
@@ -2031,12 +1811,12 @@
       "origen": "ingesta-inicial",
       "enunciado": "Las leyes orgánicas regulan:",
       "opciones": [
-        "Desarrollo de derechos fundamentales y libertades publicas, Estatutos de Autonomia, regimen electoral general y demás previstos en la Constitucion",
         "Cualquier materia",
-        "Solo Hacienda",
-        "Solo defensa"
+        "Desarrollo de derechos fundamentales y libertades publicas, Estatutos de Autonomia, regimen electoral general y demás previstos en la Constitucion",
+        "Solo defensa",
+        "Solo Hacienda"
       ],
-      "correcta": 0,
+      "correcta": 1,
       "explicacion": "El art. 81.1 enumera las materias de ley organica.",
       "referencia": "art. 81.1",
       "verificado": true,
@@ -2052,9 +1832,9 @@
       "enunciado": "La iniciativa legislativa popular requiere:",
       "opciones": [
         "500.000 firmas",
-        "100.000 firmas",
         "1.000.000 firmas",
-        "10.000 firmas"
+        "10.000 firmas",
+        "100.000 firmas"
       ],
       "correcta": 0,
       "explicacion": "El art. 87.3 establece la iniciativa legislativa popular con 500.000 firmas.",
@@ -2071,12 +1851,12 @@
       "origen": "ingesta-inicial",
       "enunciado": "El debate y votacion de totalidad se aplica a:",
       "opciones": [
-        "Proyectos y proposiciones de ley",
-        "Solo presupuestos",
         "Solo tratados",
-        "Solo reformas"
+        "Solo reformas",
+        "Proyectos y proposiciones de ley",
+        "Solo presupuestos"
       ],
-      "correcta": 0,
+      "correcta": 2,
       "explicacion": "El art. 88 regula el debate y votacion de totalidad.",
       "referencia": "art. 88",
       "verificado": true,
@@ -2091,12 +1871,12 @@
       "origen": "ingesta-inicial",
       "enunciado": "La Comisión de investigación se crea:",
       "opciones": [
-        "Por acuerdo de cualquiera de las Camaras",
+        "Por el Tribunal Constitucional",
         "Por el Gobierno",
-        "Por el Rey",
-        "Por el Tribunal Constitucional"
+        "Por acuerdo de cualquiera de las Camaras",
+        "Por el Rey"
       ],
-      "correcta": 0,
+      "correcta": 2,
       "explicacion": "El art. 76 permite crear comisiones de investigación.",
       "referencia": "art. 76",
       "verificado": true,
@@ -2111,12 +1891,12 @@
       "origen": "ingesta-inicial",
       "enunciado": "Los diputados y senadores pueden formular:",
       "opciones": [
-        "Preguntas e interpelaciones",
-        "Decretos",
         "Leyes directamente",
+        "Decretos",
+        "Preguntas e interpelaciones",
         "Sentencias"
       ],
-      "correcta": 0,
+      "correcta": 2,
       "explicacion": "El art. 111 regula preguntas e interpelaciones.",
       "referencia": "art. 111",
       "verificado": true,
@@ -2132,9 +1912,9 @@
       "enunciado": "El Defensor del Pueblo es designado por:",
       "opciones": [
         "Las Cortes Generales",
-        "El Rey",
         "El Gobierno",
-        "El Tribunal Constitucional"
+        "El Tribunal Constitucional",
+        "El Rey"
       ],
       "correcta": 0,
       "explicacion": "El art. 54 establece la designacion por las Cortes.",
@@ -2151,12 +1931,12 @@
       "origen": "ingesta-inicial",
       "enunciado": "El Tribunal de Cuentas depende de:",
       "opciones": [
-        "Las Cortes Generales",
-        "El Gobierno",
         "El Rey",
+        "El Gobierno",
+        "Las Cortes Generales",
         "El CGPJ"
       ],
-      "correcta": 0,
+      "correcta": 2,
       "explicacion": "El art. 136 establece la dependencia de las Cortes.",
       "referencia": "art. 136",
       "verificado": true,
@@ -2171,12 +1951,12 @@
       "origen": "ingesta-inicial",
       "enunciado": "Los presupuestos se aprueban por:",
       "opciones": [
-        "Ley",
+        "Resolucion",
         "Decreto",
         "Orden ministerial",
-        "Resolucion"
+        "Ley"
       ],
-      "correcta": 0,
+      "correcta": 3,
       "explicacion": "El art. 134 establece que los presupuestos se aprueban por ley.",
       "referencia": "art. 134",
       "verificado": true,
@@ -2191,12 +1971,12 @@
       "origen": "ingesta-inicial",
       "enunciado": "La delegacion legislativa se regula en:",
       "opciones": [
-        "Art. 82 y 85",
-        "Art. 81",
         "Art. 87",
-        "Art. 99"
+        "Art. 82 y 85",
+        "Art. 99",
+        "Art. 81"
       ],
-      "correcta": 0,
+      "correcta": 1,
       "explicacion": "Los arts. 82 y 85 regulan la delegacion legislativa.",
       "referencia": "art. 82, 85",
       "verificado": true,
@@ -2211,12 +1991,12 @@
       "origen": "ingesta-inicial",
       "enunciado": "El decreto-ley se aprueba por:",
       "opciones": [
+        "El Tribunal Constitucional",
         "El Gobierno en caso de extraordinaria y urgente necesidad",
-        "El Rey",
         "Las Cortes",
-        "El Tribunal Constitucional"
+        "El Rey"
       ],
-      "correcta": 0,
+      "correcta": 1,
       "explicacion": "El art. 86 regula el decreto-ley.",
       "referencia": "art. 86",
       "verificado": true,
@@ -2232,33 +2012,13 @@
       "enunciado": "El Gobierno se compone de:",
       "opciones": [
         "Presidente, vicepresidentes, ministros y demás miembros",
-        "Solo el Presidente",
         "Solo los ministros",
+        "Solo el Presidente",
         "El Rey y el Presidente"
       ],
       "correcta": 0,
       "explicacion": "El art. 98 regula la composicion del Gobierno.",
       "referencia": "art. 98",
-      "verificado": true,
-      "fecha_alta": "2026-10-30"
-    },
-    {
-      "id": "p-00113",
-      "concepto_id": "c-e221a775610b",
-      "capitulo": "cap-15",
-      "tipo": "multiple-choice",
-      "dificultad": "media",
-      "origen": "ingesta-inicial",
-      "enunciado": "El Presidente del Gobierno es nombrado por:",
-      "opciones": [
-        "El Rey",
-        "El Congreso",
-        "El Senado",
-        "El Gobierno saliente"
-      ],
-      "correcta": 0,
-      "explicacion": "El art. 99 establece el nombramiento por el Rey.",
-      "referencia": "art. 99",
       "verificado": true,
       "fecha_alta": "2026-10-30"
     },
@@ -2271,34 +2031,14 @@
       "origen": "ingesta-inicial",
       "enunciado": "En la investidura, si no se alcanza mayoria absoluta en primera votacion:",
       "opciones": [
+        "Se repite indefinidamente",
         "Se celebra segunda votacion a las 48 horas",
         "Se disuelven las Cortes",
-        "El Rey nombra al candidato",
-        "Se repite indefinidamente"
+        "El Rey nombra al candidato"
       ],
-      "correcta": 0,
+      "correcta": 1,
       "explicacion": "El art. 99.2 y 99.3 regulan la segunda votacion.",
       "referencia": "art. 99.2-3",
-      "verificado": true,
-      "fecha_alta": "2026-10-30"
-    },
-    {
-      "id": "p-00115",
-      "concepto_id": "c-6859eff57f18",
-      "capitulo": "cap-15",
-      "tipo": "multiple-choice",
-      "dificultad": "media",
-      "origen": "ingesta-inicial",
-      "enunciado": "Los ministros son nombrados y cesados por:",
-      "opciones": [
-        "El Rey a propuesta del Presidente",
-        "El Congreso",
-        "El Senado",
-        "El Presidente directamente"
-      ],
-      "correcta": 0,
-      "explicacion": "El art. 100 establece el nombramiento por el Rey a propuesta del Presidente.",
-      "referencia": "art. 100",
       "verificado": true,
       "fecha_alta": "2026-10-30"
     },
@@ -2311,12 +2051,12 @@
       "origen": "ingesta-inicial",
       "enunciado": "El Gobierno responde solidariamente:",
       "opciones": [
-        "Ante el Congreso",
         "Ante el Senado",
-        "Ante el Rey",
-        "Ante el Tribunal Constitucional"
+        "Ante el Tribunal Constitucional",
+        "Ante el Congreso",
+        "Ante el Rey"
       ],
-      "correcta": 0,
+      "correcta": 2,
       "explicacion": "El art. 108 establece la responsabilidad ante el Congreso.",
       "referencia": "art. 108",
       "verificado": true,
@@ -2331,12 +2071,12 @@
       "origen": "ingesta-inicial",
       "enunciado": "La mocion de censura requiere:",
       "opciones": [
+        "Aprobacion del Rey",
         "Mayoría absoluta y candidato alternativo",
-        "Mayoría simple",
         "Unanimidad",
-        "Aprobacion del Rey"
+        "Mayoría simple"
       ],
-      "correcta": 0,
+      "correcta": 1,
       "explicacion": "El art. 113 regula la mocion de censura.",
       "referencia": "art. 113",
       "verificado": true,
@@ -2351,12 +2091,12 @@
       "origen": "ingesta-inicial",
       "enunciado": "La cuestion de confianza se plantea por:",
       "opciones": [
+        "El Senado",
         "El Presidente del Gobierno",
-        "El Rey",
         "El Congreso",
-        "El Senado"
+        "El Rey"
       ],
-      "correcta": 0,
+      "correcta": 1,
       "explicacion": "El art. 112 regula la cuestion de confianza.",
       "referencia": "art. 112",
       "verificado": true,
@@ -2371,12 +2111,12 @@
       "origen": "ingesta-inicial",
       "enunciado": "El Presidente puede proponer la disolucion de las Cortes:",
       "opciones": [
-        "Con refrendo del Rey",
-        "Por decreto propio",
         "Con aprobacion del Senado",
-        "Con aprobacion del Tribunal Constitucional"
+        "Con refrendo del Rey",
+        "Con aprobacion del Tribunal Constitucional",
+        "Por decreto propio"
       ],
-      "correcta": 0,
+      "correcta": 1,
       "explicacion": "El art. 115 regula la disolucion.",
       "referencia": "art. 115",
       "verificado": true,
@@ -2392,9 +2132,9 @@
       "enunciado": "El poder judicial es:",
       "opciones": [
         "Independiente",
-        "Dependiente del Gobierno",
+        "Dependiente de las Cortes",
         "Dependiente del Rey",
-        "Dependiente de las Cortes"
+        "Dependiente del Gobierno"
       ],
       "correcta": 0,
       "explicacion": "El art. 117.1 proclama la independencia judicial.",
@@ -2411,12 +2151,12 @@
       "origen": "ingesta-inicial",
       "enunciado": "El Consejo General del Poder Judicial se compone de:",
       "opciones": [
-        "Presidente y 20 vocales",
         "Presidente y 12 vocales",
+        "Ministros",
         "Solo vocales",
-        "Ministros"
+        "Presidente y 20 vocales"
       ],
-      "correcta": 0,
+      "correcta": 3,
       "explicacion": "El art. 122.2 establece la composicion del CGPJ.",
       "referencia": "art. 122.2",
       "verificado": true,
@@ -2431,12 +2171,12 @@
       "origen": "ingesta-inicial",
       "enunciado": "Los jueces son inamovibles:",
       "opciones": [
-        "Salvo por las causas y garantias previstas en la ley",
+        "Por decision del Gobierno",
         "Siempre",
-        "Nunca",
-        "Por decision del Gobierno"
+        "Salvo por las causas y garantias previstas en la ley",
+        "Nunca"
       ],
-      "correcta": 0,
+      "correcta": 2,
       "explicacion": "El art. 117.1 establece la inamovilidad.",
       "referencia": "art. 117.1",
       "verificado": true,
@@ -2453,8 +2193,8 @@
       "opciones": [
         "Art. 117.5",
         "Art. 117.1",
-        "Art. 122",
-        "Art. 124"
+        "Art. 124",
+        "Art. 122"
       ],
       "correcta": 0,
       "explicacion": "El art. 117.5 regula la jurisdiccion militar.",
@@ -2471,12 +2211,12 @@
       "origen": "ingesta-inicial",
       "enunciado": "El Ministerio Fiscal depende de:",
       "opciones": [
+        "El CGPJ",
         "El Gobierno",
-        "Las Cortes",
         "El Rey",
-        "El CGPJ"
+        "Las Cortes"
       ],
-      "correcta": 0,
+      "correcta": 1,
       "explicacion": "El art. 124 establece la dependencia del Gobierno.",
       "referencia": "art. 124",
       "verificado": true,
@@ -2511,12 +2251,12 @@
       "origen": "ingesta-inicial",
       "enunciado": "Las Comunidades Autonomas se basan en:",
       "opciones": [
-        "La Constitucion y el respeto a la unidad de la Nacion",
-        "La independencia",
         "La secesion",
-        "La autodeterminacion"
+        "La independencia",
+        "La autodeterminacion",
+        "La Constitucion y el respeto a la unidad de la Nacion"
       ],
-      "correcta": 0,
+      "correcta": 3,
       "explicacion": "El art. 137 establece el fundamento de las Comunidades Autonomas.",
       "referencia": "art. 137",
       "verificado": true,
@@ -2549,12 +2289,12 @@
       "origen": "ingesta-inicial",
       "enunciado": "Las competencias no asumidas por las Comunidades Autonomas corresponden al:",
       "opciones": [
-        "Estado",
-        "Municipio",
         "Provincia",
-        "Senado"
+        "Senado",
+        "Estado",
+        "Municipio"
       ],
-      "correcta": 0,
+      "correcta": 2,
       "explicacion": "El art. 149.3 establece la competencia residual del Estado.",
       "referencia": "art. 149.3",
       "verificado": true,
@@ -2587,10 +2327,10 @@
       "origen": "ingesta-inicial",
       "enunciado": "El Tribunal Constitucional es el interprete supremo de la Constitucion:",
       "opciones": [
-        "Verdadero",
-        "Falso"
+        "Falso",
+        "Verdadero"
       ],
-      "correcta": 0,
+      "correcta": 1,
       "explicacion": "El art. 161 establece la funcion del TC.",
       "referencia": "art. 161",
       "verificado": true,
@@ -2605,12 +2345,12 @@
       "origen": "ingesta-inicial",
       "enunciado": "El TC se compone de:",
       "opciones": [
-        "12 magistrados",
+        "7 magistrados",
         "9 magistrados",
-        "15 magistrados",
-        "7 magistrados"
+        "12 magistrados",
+        "15 magistrados"
       ],
-      "correcta": 0,
+      "correcta": 2,
       "explicacion": "El art. 159.1 establece 12 magistrados.",
       "referencia": "art. 159.1",
       "verificado": true,
@@ -2625,12 +2365,12 @@
       "origen": "ingesta-inicial",
       "enunciado": "La reforma constitucional total requiere:",
       "opciones": [
-        "Aprobacion por referendum",
-        "Solo mayoria parlamentaria",
         "Decreto del Gobierno",
-        "Aprobacion del Rey"
+        "Aprobacion por referendum",
+        "Aprobacion del Rey",
+        "Solo mayoria parlamentaria"
       ],
-      "correcta": 0,
+      "correcta": 1,
       "explicacion": "El art. 168 regula la reforma total.",
       "referencia": "art. 168",
       "verificado": true,
@@ -2645,12 +2385,12 @@
       "origen": "ingesta-inicial",
       "enunciado": "La disposicion transitoria primera regula:",
       "opciones": [
-        "El regimen provisional de las instituciones",
+        "La reforma del Gobierno",
         "La reforma del Senado",
-        "La reforma del Congreso",
-        "La reforma del Gobierno"
+        "El regimen provisional de las instituciones",
+        "La reforma del Congreso"
       ],
-      "correcta": 0,
+      "correcta": 2,
       "explicacion": "La disp. transitoria 1.ª regula el regimen provisional.",
       "referencia": "disp. trans. 1.ª",
       "verificado": true,
@@ -2665,10 +2405,10 @@
       "origen": "ingesta-inicial",
       "enunciado": "El Gobierno cesa tras la celebracion de elecciones generales:",
       "opciones": [
-        "Verdadero",
-        "Falso"
+        "Falso",
+        "Verdadero"
       ],
-      "correcta": 0,
+      "correcta": 1,
       "explicacion": "El art. 101.1 establece el cese del Gobierno tras las elecciones.",
       "referencia": "art. 101.1",
       "verificado": true,
@@ -2701,12 +2441,12 @@
       "origen": "ingesta-inicial",
       "enunciado": "El Consejo General del Poder Judicial es renovado cada:",
       "opciones": [
-        "5 años",
+        "3 años",
         "4 años",
         "6 años",
-        "3 años"
+        "5 años"
       ],
-      "correcta": 0,
+      "correcta": 3,
       "explicacion": "El art. 122.3 establece la renovacion cada 5 años.",
       "referencia": "art. 122.3",
       "verificado": true,
@@ -2721,12 +2461,12 @@
       "origen": "ingesta-inicial",
       "enunciado": "El Presidente del CGPJ es tambien Presidente del:",
       "opciones": [
-        "Tribunal Supremo",
         "Tribunal Constitucional",
+        "Tribunal de Cuentas",
         "Consejo de Estado",
-        "Tribunal de Cuentas"
+        "Tribunal Supremo"
       ],
-      "correcta": 0,
+      "correcta": 3,
       "explicacion": "El art. 123 y 122 establecen esa funcion.",
       "referencia": "art. 122-123",
       "verificado": true,
@@ -2741,12 +2481,12 @@
       "origen": "ingesta-inicial",
       "enunciado": "La ley organica del poder judicial es aprobada por:",
       "opciones": [
-        "Mayoría absoluta del Congreso",
-        "Mayoría simple",
+        "Decreto del Gobierno",
         "Unanimidad",
-        "Decreto del Gobierno"
+        "Mayoría absoluta del Congreso",
+        "Mayoría simple"
       ],
-      "correcta": 0,
+      "correcta": 2,
       "explicacion": "El art. 122.1 remite a ley organica.",
       "referencia": "art. 122.1",
       "verificado": true,
@@ -2761,10 +2501,10 @@
       "origen": "ingesta-inicial",
       "enunciado": "La riqueza del pais en sus diversas formas esta subordinada al interes general:",
       "opciones": [
-        "Verdadero",
-        "Falso"
+        "Falso",
+        "Verdadero"
       ],
-      "correcta": 0,
+      "correcta": 1,
       "explicacion": "El art. 128.1 establece esa subordinacion.",
       "referencia": "art. 128.1",
       "verificado": true,
@@ -2779,10 +2519,10 @@
       "origen": "ingesta-inicial",
       "enunciado": "El servicio publico esencial puede ser prestado directamente por el Estado:",
       "opciones": [
-        "Verdadero",
-        "Falso"
+        "Falso",
+        "Verdadero"
       ],
-      "correcta": 0,
+      "correcta": 1,
       "explicacion": "El art. 128.2 permite la gestion directa.",
       "referencia": "art. 128.2",
       "verificado": true,
@@ -2797,12 +2537,12 @@
       "origen": "ingesta-inicial",
       "enunciado": "La Hacienda Publica se funda en:",
       "opciones": [
+        "Descentralizacion",
         "Justicia y suficiencia economica",
         "Libre mercado",
-        "Austeridad",
-        "Descentralizacion"
+        "Austeridad"
       ],
-      "correcta": 0,
+      "correcta": 1,
       "explicacion": "El art. 133.1 establece ese principio.",
       "referencia": "art. 133.1",
       "verificado": true,
@@ -2817,12 +2557,12 @@
       "origen": "ingesta-inicial",
       "enunciado": "Los tributos solo pueden exigirse conforme a:",
       "opciones": [
-        "Ley",
+        "Resolucion",
         "Decreto",
         "Orden ministerial",
-        "Resolucion"
+        "Ley"
       ],
-      "correcta": 0,
+      "correcta": 3,
       "explicacion": "El art. 133.2 establece la reserva de ley.",
       "referencia": "art. 133.2",
       "verificado": true,
@@ -2839,8 +2579,8 @@
       "opciones": [
         "La gestion economica del Estado y del sector publico",
         "Solo al Gobierno",
-        "Solo a las Comunidades",
-        "Solo a los ayuntamientos"
+        "Solo a los ayuntamientos",
+        "Solo a las Comunidades"
       ],
       "correcta": 0,
       "explicacion": "El art. 136 establece la fiscalizacion.",
@@ -2875,12 +2615,12 @@
       "origen": "ingesta-inicial",
       "enunciado": "La iniciativa de autonomia corresponde a:",
       "opciones": [
-        "Las diputaciones o los organos correspondientes y la mayoria de los municipios",
-        "Solo al Gobierno central",
         "Solo al Rey",
-        "Solo al Senado"
+        "Solo al Senado",
+        "Solo al Gobierno central",
+        "Las diputaciones o los organos correspondientes y la mayoria de los municipios"
       ],
-      "correcta": 0,
+      "correcta": 3,
       "explicacion": "El art. 143.2 regula la iniciativa autonomica.",
       "referencia": "art. 143.2",
       "verificado": true,
@@ -2951,12 +2691,12 @@
       "origen": "ingesta-inicial",
       "enunciado": "Los magistrados del Tribunal Constitucional son nombrados por:",
       "opciones": [
-        "El Rey, a propuesta del Congreso, Senado, Gobierno y CGPJ",
-        "Solo el Rey",
+        "Solo las Cortes",
         "Solo el Gobierno",
-        "Solo las Cortes"
+        "El Rey, a propuesta del Congreso, Senado, Gobierno y CGPJ",
+        "Solo el Rey"
       ],
-      "correcta": 0,
+      "correcta": 2,
       "explicacion": "El art. 159.1 establece el nombramiento.",
       "referencia": "art. 159.1",
       "verificado": true,
@@ -2991,10 +2731,10 @@
       "origen": "ingesta-inicial",
       "enunciado": "El TC conoce de los recursos de amparo:",
       "opciones": [
-        "Verdadero",
-        "Falso"
+        "Falso",
+        "Verdadero"
       ],
-      "correcta": 0,
+      "correcta": 1,
       "explicacion": "El art. 161.1.b establece la competencia.",
       "referencia": "art. 161.1.b",
       "verificado": true,
@@ -3027,12 +2767,12 @@
       "origen": "ingesta-inicial",
       "enunciado": "La disposicion transitoria cuarta regula:",
       "opciones": [
-        "El proceso de autonomia",
-        "La reforma del Senado",
         "La reforma del Congreso",
-        "La reforma del Gobierno"
+        "La reforma del Gobierno",
+        "La reforma del Senado",
+        "El proceso de autonomia"
       ],
-      "correcta": 0,
+      "correcta": 3,
       "explicacion": "La disp. transitoria 4.ª regula el proceso autonomo.",
       "referencia": "disp. trans. 4.ª",
       "verificado": true,
@@ -3047,10 +2787,10 @@
       "origen": "ingesta-inicial",
       "enunciado": "Las Comunidades Autonomas pueden celebrar convenios con el Estado:",
       "opciones": [
-        "Verdadero",
-        "Falso"
+        "Falso",
+        "Verdadero"
       ],
-      "correcta": 0,
+      "correcta": 1,
       "explicacion": "El art. 145.2 regula los convenios.",
       "referencia": "art. 145.2",
       "verificado": true,
@@ -3071,6 +2811,726 @@
       "correcta": 0,
       "explicacion": "El art. 154 establece esa funcion.",
       "referencia": "art. 154",
+      "verificado": true,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "pendiente-examen-tai-2018-r04",
+      "concepto_id": null,
+      "capitulo": null,
+      "tipo": null,
+      "dificultad": null,
+      "origen": null,
+      "enunciado": "El control de la potestad reglamentaria y la legalidad de la actuación administrativa, así como el sometimiento de ésta a los fines que la justifican, corresponde:",
+      "opciones": [
+        "Al Gobierno.",
+        "Al Ministro competente por razón de la materia.",
+        "A los Tribunales.",
+        "A las Cortes Generales."
+      ],
+      "correcta": 2,
+      "explicacion": null,
+      "referencia": null,
+      "verificado": true,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "pendiente-examen-tai-2018-t01",
+      "concepto_id": null,
+      "capitulo": null,
+      "tipo": null,
+      "dificultad": null,
+      "origen": null,
+      "enunciado": "¿Cuál de los siguientes es uno de los derechos fundamentales y libertades públicas de la Sección 1ª del Capítulo II del Título I de la Constitución?",
+      "opciones": [
+        "El derecho de reunión pacífica y sin armas.",
+        "El derecho de defender a España.",
+        "El derecho a la propiedad privada y a la herencia.",
+        "El derecho al trabajo."
+      ],
+      "correcta": 0,
+      "explicacion": null,
+      "referencia": null,
+      "verificado": true,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "pendiente-examen-tai-2018-t02",
+      "concepto_id": null,
+      "capitulo": null,
+      "tipo": null,
+      "dificultad": null,
+      "origen": null,
+      "enunciado": "En relación al artículo 64 de la Constitución, señale la correcta:",
+      "opciones": [
+        "Con carácter general los actos del Rey serán refrendados por el Presidente del Congreso y, en su caso, por los Ministros competentes.",
+        "El Presidente del Gobierno no puede refrendar los actos del Rey.",
+        "La propuesta y nombramiento del Presidente del Gobierno, y la disolución prevista en el artículo 99 serán refrendados por el Presidente del Congreso.",
+        "El Rey será directamente responsable de los actos refrendados."
+      ],
+      "correcta": 2,
+      "explicacion": null,
+      "referencia": null,
+      "verificado": true,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "pendiente-examen-tai-2018-t10",
+      "concepto_id": null,
+      "capitulo": null,
+      "tipo": null,
+      "dificultad": null,
+      "origen": null,
+      "enunciado": "La celebración de un tratado internacional que contenga estipulaciones contrarias a la Constitución:",
+      "opciones": [
+        "Es nula.",
+        "Exigirá la previa revisión constitucional.",
+        "Exigirá al Tribunal Supremo la previa declaración de la contradicción, que será solicitada por el Presidente del Gobierno.",
+        "Exigirá al Tribunal Constitucional la previa declaración de la contradicción, que será solicitada por el Presidente del Gobierno."
+      ],
+      "correcta": 1,
+      "explicacion": null,
+      "referencia": null,
+      "verificado": true,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "pendiente-examen-tai-2018-t11",
+      "concepto_id": null,
+      "capitulo": null,
+      "tipo": null,
+      "dificultad": null,
+      "origen": null,
+      "enunciado": "Conforme a lo establecido en el artículo 81 de la Constitución, la aprobación, modificación o derogación de las leyes orgánicas exigirá:",
+      "opciones": [
+        "Mayoría absoluta del Congreso e igual mayoría del Senado, en una votación final sobre el conjunto de las enmiendas.",
+        "Mayoría absoluta del Congreso, en una votación final sobre el conjunto del proyecto.",
+        "Mayoría absoluta del Congreso únicamente en los casos en que exista veto establecido por mayoría simple del Senado.",
+        "Mayoría simple del Congreso, en una votación final sobre el conjunto del proyecto."
+      ],
+      "correcta": 1,
+      "explicacion": null,
+      "referencia": null,
+      "verificado": true,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "pendiente-examen-tai-2021-t01",
+      "concepto_id": null,
+      "capitulo": null,
+      "tipo": null,
+      "dificultad": null,
+      "origen": null,
+      "enunciado": "En relación a los derechos y deberes de los ciudadanos, el artículo 30 de la Constitución Española indica que:",
+      "opciones": [
+        "Mediante ley podrán ser de obligado cumplimiento los deberes de los ciudadanos en los casos de grave riesgo, catástrofe o calamidad pública.",
+        "Mediante Real Decreto podrán ser de obligado cumplimiento los deberes de los ciudadanos en los casos de grave riesgo, catástrofe o calamidad pública.",
+        "Mediante ley podrán eliminarse los deberes de los ciudadanos en los casos de grave riesgo, catástrofe o calamidad pública.",
+        "Mediante ley podrán regularse los deberes de los ciudadanos en los casos de grave riesgo, catástrofe o calamidad pública."
+      ],
+      "correcta": 3,
+      "explicacion": null,
+      "referencia": null,
+      "verificado": true,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "pendiente-examen-tai-2021-t02",
+      "concepto_id": null,
+      "capitulo": null,
+      "tipo": null,
+      "dificultad": null,
+      "origen": null,
+      "enunciado": "Según el artículo 62 de la Constitución Española, ¿a quién corresponde expedir los decretos acordados en el Consejo de Ministros?",
+      "opciones": [
+        "Al Rey.",
+        "Al Presidente del Gobierno.",
+        "Al titular del Ministerio de la Presidencia.",
+        "Al Presidente de la Mesa del Congreso."
+      ],
+      "correcta": 0,
+      "explicacion": null,
+      "referencia": null,
+      "verificado": true,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "pendiente-examen-tai-2021-t04",
+      "concepto_id": null,
+      "capitulo": null,
+      "tipo": null,
+      "dificultad": null,
+      "origen": null,
+      "enunciado": "Según el artículo 68 de la Constitución Española, indique de cuántos diputados se compone el Congreso:",
+      "opciones": [
+        "De un mínimo de 250 y de un máximo de 350.",
+        "De un mínimo de 300 y de un máximo de 400.",
+        "De un mínimo de 300 y de un máximo de 350.",
+        "De un mínimo de 350 y de un máximo de 400."
+      ],
+      "correcta": 1,
+      "explicacion": null,
+      "referencia": null,
+      "verificado": true,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "pendiente-examen-tai-2021-t08",
+      "concepto_id": null,
+      "capitulo": null,
+      "tipo": null,
+      "dificultad": null,
+      "origen": null,
+      "enunciado": "Indique cuál es el Título de la Constitución Española relativo a la Organización Territorial del Estado:",
+      "opciones": [
+        "Título IV.",
+        "Título VI.",
+        "Título VIII.",
+        "Título X."
+      ],
+      "correcta": 2,
+      "explicacion": null,
+      "referencia": null,
+      "verificado": true,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "pendiente-examen-tai-2021-t09",
+      "concepto_id": null,
+      "capitulo": null,
+      "tipo": null,
+      "dificultad": null,
+      "origen": null,
+      "enunciado": "De acuerdo con el artículo 103.1 de la Constitución Española, la Administración Pública sirve con objetividad los intereses generales y actúa de acuerdo con los principios de:",
+      "opciones": [
+        "Eficacia, eficiencia, descentralización, desconcentración y cooperación, con sometimiento pleno a la Ley y al Derecho.",
+        "Eficacia, jerarquía, descentralización, desconcentración y coordinación, con sometimiento pleno a la ley y al Derecho.",
+        "Eficacia, jerarquía, descentralización, concentración y coordinación, con sometimiento pleno al ordenamiento jurídico.",
+        "Eficacia, jerarquía, descentralización, desconcentración y cooperación, con sometimiento pleno a la Ley y al Derecho."
+      ],
+      "correcta": 1,
+      "explicacion": null,
+      "referencia": null,
+      "verificado": true,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "pendiente-examen-tai-2021-t10",
+      "concepto_id": null,
+      "capitulo": null,
+      "tipo": null,
+      "dificultad": null,
+      "origen": null,
+      "enunciado": "Según lo establecido en el artículo 82 de la Constitución Española, cuando se trate de refundir varios textos legales en uno solo, la delegación legislativa de las Cortes Generales en el Gobierno deberá otorgarse mediante:",
+      "opciones": [
+        "Una Ley de Bases.",
+        "Una Ley Orgánica.",
+        "Una Ley Ordinaria.",
+        "Un Decreto Legislativo."
+      ],
+      "correcta": 2,
+      "explicacion": null,
+      "referencia": null,
+      "verificado": true,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "pendiente-examen-tai-2023-t01",
+      "concepto_id": null,
+      "capitulo": null,
+      "tipo": null,
+      "dificultad": null,
+      "origen": null,
+      "enunciado": "De acuerdo con el artículo 64 de la Constitución Española de 1978 (en adelante CE), los actos del Rey, excepto la propuesta y el nombramiento del Presidente del Gobierno, y la disolución de las Cámaras prevista en el artículo 99, serán refrendados por:",
+      "opciones": [
+        "Los Presidentes del Congreso y el Senado.",
+        "Los Ministros o los Secretarios de Estado en función de la materia.",
+        "El Presidente del Gobierno y, en su caso, por los Presidentes del Congreso y el Senado.",
+        "El Presidente del Gobierno y, en su caso, por los Ministros competentes."
+      ],
+      "correcta": 3,
+      "explicacion": null,
+      "referencia": null,
+      "verificado": true,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "pendiente-examen-tai-2023-t02",
+      "concepto_id": null,
+      "capitulo": null,
+      "tipo": null,
+      "dificultad": null,
+      "origen": null,
+      "enunciado": "La suspensión de los derechos y libertades se encuentra regulada en la CE en:",
+      "opciones": [
+        "En el Capítulo III del Título I.",
+        "En sus artículos 52 y 53.",
+        "En el artículo 58.",
+        "En el Capítulo V del Título I."
+      ],
+      "correcta": 3,
+      "explicacion": null,
+      "referencia": null,
+      "verificado": true,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "pendiente-examen-tai-2023-t03",
+      "concepto_id": null,
+      "capitulo": null,
+      "tipo": null,
+      "dificultad": null,
+      "origen": null,
+      "enunciado": "Según el artículo 68 de la CE, ¿cuál es la circunscripción electoral en nuestro sistema electoral?",
+      "opciones": [
+        "La provincia.",
+        "El municipio.",
+        "La Comunidad Autónoma.",
+        "Distrito Municipal."
+      ],
+      "correcta": 0,
+      "explicacion": null,
+      "referencia": null,
+      "verificado": true,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "pendiente-examen-tai-2024-modelo-a-t01",
+      "concepto_id": null,
+      "capitulo": null,
+      "tipo": null,
+      "dificultad": null,
+      "origen": null,
+      "enunciado": "¿Cuál de los siguientes derechos recogidos en el Capítulo Segundo del Título I de la Constitución Española NO forma parte de los Derechos Fundamentales y Libertades Públicas (Artículos 15 a 29)?",
+      "opciones": [
+        "Derecho a sindicarse libremente.",
+        "Derecho a la propiedad privada.",
+        "Derecho a la producción y creación literaria, artística, científica y técnica.",
+        "Derecho a elegir libremente su residencia."
+      ],
+      "correcta": 1,
+      "explicacion": null,
+      "referencia": null,
+      "verificado": true,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "pendiente-examen-tai-2024-modelo-a-t02",
+      "concepto_id": null,
+      "capitulo": null,
+      "tipo": null,
+      "dificultad": null,
+      "origen": null,
+      "enunciado": "Según el Título I, Capítulo Cuarto, “De las garantías de las libertades y derechos fundamentales” de la Constitución Española de 1978, señale la opción correcta:",
+      "opciones": [
+        "Los derechos y libertades reconocidos no vinculan a todas las Administraciones Públicas.",
+        "Sólo por ley orgánica podrá regularse el ejercicio de tales derechos y libertades.",
+        "Una ley orgánica regulará la institución del Defensor del Pueblo.",
+        "El reconocimiento, el respeto y la protección de los principios reconocidos en el Capítulo tercero, informará la judicialización positiva, la práctica legislativa y la actuación de los poderes públicos."
+      ],
+      "correcta": 2,
+      "explicacion": null,
+      "referencia": null,
+      "verificado": true,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "pendiente-examen-tai-2024-modelo-a-t03",
+      "concepto_id": null,
+      "capitulo": null,
+      "tipo": null,
+      "dificultad": null,
+      "origen": null,
+      "enunciado": "Señale la respuesta INCORRECTA de acuerdo con el Título II, artículo 62 de la Constitución Española de 1978. Corresponde al Rey:",
+      "opciones": [
+        "Convocar a referéndum en los casos previstos en la Constitución, previa autorización de las Cortes Generales.",
+        "Convocar y disolver las Cortes Generales y convocar elecciones en los términos previstos en la Constitución.",
+        "Proponer el candidato a Presidente de Gobierno y, en su caso, nombrarlo, así como poner fin a sus funciones en los términos previstos en la Constitución.",
+        "Nombrar y separar a los miembros del Gobierno, a propuesta de su Presidente."
+      ],
+      "correcta": 0,
+      "explicacion": null,
+      "referencia": null,
+      "verificado": true,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "pendiente-examen-tai-2024-modelo-a-t05",
+      "concepto_id": null,
+      "capitulo": null,
+      "tipo": null,
+      "dificultad": null,
+      "origen": null,
+      "enunciado": "Según el artículo 71 de la Constitución Española de 1978, ¿quién es el competente en las causas contra Diputados y Senadores?",
+      "opciones": [
+        "Sala de lo Penal del Tribunal Constitucional.",
+        "Sala de lo Contencioso Administrativo del Tribunal Supremo.",
+        "Sala de lo Penal del Tribunal Supremo.",
+        "Sala de lo Civil del Tribunal Supremo."
+      ],
+      "correcta": 2,
+      "explicacion": null,
+      "referencia": null,
+      "verificado": true,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "pendiente-examen-tai-2024-modelo-b-t01",
+      "concepto_id": null,
+      "capitulo": null,
+      "tipo": null,
+      "dificultad": null,
+      "origen": null,
+      "enunciado": "Señale la respuesta INCORRECTA de acuerdo con el Título II, artículo 62 de la Constitución Española de 1978. Corresponde al Rey:",
+      "opciones": [
+        "Convocar a referéndum en los casos previstos en la Constitución, previa autorización de las Cortes Generales.",
+        "Convocar y disolver las Cortes Generales y convocar elecciones en los términos previstos en la Constitución.",
+        "Proponer el candidato a Presidente de Gobierno y, en su caso, nombrarlo, así como poner fin a sus funciones en los términos previstos en la Constitución.",
+        "Nombrar y separar a los miembros del Gobierno, a propuesta de su Presidente."
+      ],
+      "correcta": 0,
+      "explicacion": null,
+      "referencia": null,
+      "verificado": true,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "pendiente-examen-tai-2024-modelo-b-t02",
+      "concepto_id": null,
+      "capitulo": null,
+      "tipo": null,
+      "dificultad": null,
+      "origen": null,
+      "enunciado": "Según el Título I, Capítulo Cuarto, “De las garantías de las libertades y derechos fundamentales” de la Constitución Española de 1978, señale la opción correcta:",
+      "opciones": [
+        "Los derechos y libertades reconocidos no vinculan a todas las Administraciones Públicas.",
+        "Sólo por ley orgánica podrá regularse el ejercicio de tales derechos y libertades.",
+        "Una ley orgánica regulará la institución del Defensor del Pueblo.",
+        "El reconocimiento, el respeto y la protección de los principios reconocidos en el Capítulo tercero, informará la judicialización positiva, la práctica legislativa y la actuación de los poderes públicos."
+      ],
+      "correcta": 2,
+      "explicacion": null,
+      "referencia": null,
+      "verificado": true,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "pendiente-examen-tai-2024-modelo-b-t03",
+      "concepto_id": null,
+      "capitulo": null,
+      "tipo": null,
+      "dificultad": null,
+      "origen": null,
+      "enunciado": "¿Cuál de los siguientes derechos recogidos en el Capítulo Segundo del Título I de la Constitución Española NO forma parte de los Derechos Fundamentales y Libertades Públicas (Artículos 15 a 29)?",
+      "opciones": [
+        "Derecho a sindicarse libremente.",
+        "Derecho a la propiedad privada.",
+        "Derecho a la producción y creación literaria, artística, científica y técnica.",
+        "Derecho a elegir libremente su residencia."
+      ],
+      "correcta": 1,
+      "explicacion": null,
+      "referencia": null,
+      "verificado": true,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "pendiente-examen-tai-2024-modelo-b-t06",
+      "concepto_id": null,
+      "capitulo": null,
+      "tipo": null,
+      "dificultad": null,
+      "origen": null,
+      "enunciado": "Según el artículo 71 de la Constitución Española de 1978, ¿quién es el competente en las causas contra Diputados y Senadores?",
+      "opciones": [
+        "Sala de lo Penal del Tribunal Constitucional.",
+        "Sala de lo Contencioso Administrativo del Tribunal Supremo.",
+        "Sala de lo Penal del Tribunal Supremo.",
+        "Sala de lo Civil del Tribunal Supremo."
+      ],
+      "correcta": 2,
+      "explicacion": null,
+      "referencia": null,
+      "verificado": true,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "pendiente-examen-tai-2025-modelo-a-t01",
+      "concepto_id": null,
+      "capitulo": null,
+      "tipo": null,
+      "dificultad": null,
+      "origen": null,
+      "enunciado": "¿Cuál de los siguientes derechos recogidos en el Capítulo Segundo del Título I de la Constitución Española NO forma parte de los Derechos Fundamentales y Libertades Públicas (Artículos 15 a 29)?",
+      "opciones": [
+        "Derecho a sindicarse libremente.",
+        "Derecho a la propiedad privada.",
+        "Derecho a la producción y creación literaria, artística, científica y técnica.",
+        "Derecho a elegir libremente su residencia."
+      ],
+      "correcta": 1,
+      "explicacion": null,
+      "referencia": null,
+      "verificado": true,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "pendiente-examen-tai-2025-modelo-a-t02",
+      "concepto_id": null,
+      "capitulo": null,
+      "tipo": null,
+      "dificultad": null,
+      "origen": null,
+      "enunciado": "Según el Título I, Capítulo Cuarto, “De las garantías de las libertades y derechos fundamentales” de la Constitución Española de 1978, señale la opción correcta:",
+      "opciones": [
+        "Los derechos y libertades reconocidos no vinculan a todas las Administraciones Públicas.",
+        "Sólo por ley orgánica podrá regularse el ejercicio de tales derechos y libertades.",
+        "Una ley orgánica regulará la institución del Defensor del Pueblo.",
+        "El reconocimiento, el respeto y la protección de los principios reconocidos en el Capítulo tercero, informará la judicialización positiva, la práctica legislativa y la actuación de los poderes públicos."
+      ],
+      "correcta": 2,
+      "explicacion": null,
+      "referencia": null,
+      "verificado": true,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "pendiente-examen-tai-2025-modelo-a-t03",
+      "concepto_id": null,
+      "capitulo": null,
+      "tipo": null,
+      "dificultad": null,
+      "origen": null,
+      "enunciado": "Señale la respuesta INCORRECTA de acuerdo con el Título II, artículo 62 de la Constitución Española de 1978. Corresponde al Rey:",
+      "opciones": [
+        "Convocar a referéndum en los casos previstos en la Constitución, previa autorización de las Cortes Generales.",
+        "Convocar y disolver las Cortes Generales y convocar elecciones en los términos previstos en la Constitución.",
+        "Proponer el candidato a Presidente de Gobierno y, en su caso, nombrarlo, así como poner fin a sus funciones en los términos previstos en la Constitución.",
+        "Nombrar y separar a los miembros del Gobierno, a propuesta de su Presidente."
+      ],
+      "correcta": 0,
+      "explicacion": null,
+      "referencia": null,
+      "verificado": true,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "pendiente-examen-tai-2025-modelo-a-t05",
+      "concepto_id": null,
+      "capitulo": null,
+      "tipo": null,
+      "dificultad": null,
+      "origen": null,
+      "enunciado": "Según el artículo 71 de la Constitución Española de 1978, ¿quién es el competente en las causas contra Diputados y Senadores?",
+      "opciones": [
+        "Sala de lo Penal del Tribunal Constitucional.",
+        "Sala de lo Contencioso Administrativo del Tribunal Supremo.",
+        "Sala de lo Penal del Tribunal Supremo.",
+        "Sala de lo Civil del Tribunal Supremo."
+      ],
+      "correcta": 2,
+      "explicacion": null,
+      "referencia": null,
+      "verificado": true,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "pendiente-examen-tai-2025-modelo-b-t01",
+      "concepto_id": null,
+      "capitulo": null,
+      "tipo": null,
+      "dificultad": null,
+      "origen": null,
+      "enunciado": "Señale la respuesta INCORRECTA de acuerdo con el Título II, artículo 62 de la Constitución Española de 1978. Corresponde al Rey:",
+      "opciones": [
+        "Convocar a referéndum en los casos previstos en la Constitución, previa autorización de las Cortes Generales.",
+        "Convocar y disolver las Cortes Generales y convocar elecciones en los términos previstos en la Constitución.",
+        "Proponer el candidato a Presidente de Gobierno y, en su caso, nombrarlo, así como poner fin a sus funciones en los términos previstos en la Constitución.",
+        "Nombrar y separar a los miembros del Gobierno, a propuesta de su Presidente."
+      ],
+      "correcta": 0,
+      "explicacion": null,
+      "referencia": null,
+      "verificado": true,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "pendiente-examen-tai-2025-modelo-b-t02",
+      "concepto_id": null,
+      "capitulo": null,
+      "tipo": null,
+      "dificultad": null,
+      "origen": null,
+      "enunciado": "Según el Título I, Capítulo Cuarto, “De las garantías de las libertades y derechos fundamentales” de la Constitución Española de 1978, señale la opción correcta:",
+      "opciones": [
+        "Los derechos y libertades reconocidos no vinculan a todas las Administraciones Públicas.",
+        "Sólo por ley orgánica podrá regularse el ejercicio de tales derechos y libertades.",
+        "Una ley orgánica regulará la institución del Defensor del Pueblo.",
+        "El reconocimiento, el respeto y la protección de los principios reconocidos en el Capítulo tercero, informará la judicialización positiva, la práctica legislativa y la actuación de los poderes públicos."
+      ],
+      "correcta": 2,
+      "explicacion": null,
+      "referencia": null,
+      "verificado": true,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "pendiente-examen-tai-2025-modelo-b-t03",
+      "concepto_id": null,
+      "capitulo": null,
+      "tipo": null,
+      "dificultad": null,
+      "origen": null,
+      "enunciado": "¿Cuál de los siguientes derechos recogidos en el Capítulo Segundo del Título I de la Constitución Española NO forma parte de los Derechos Fundamentales y Libertades Públicas (Artículos 15 a 29)?",
+      "opciones": [
+        "Derecho a sindicarse libremente.",
+        "Derecho a la propiedad privada.",
+        "Derecho a la producción y creación literaria, artística, científica y técnica.",
+        "Derecho a elegir libremente su residencia."
+      ],
+      "correcta": 1,
+      "explicacion": null,
+      "referencia": null,
+      "verificado": true,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "pendiente-examen-tai-2025-modelo-b-t06",
+      "concepto_id": null,
+      "capitulo": null,
+      "tipo": null,
+      "dificultad": null,
+      "origen": null,
+      "enunciado": "Según el artículo 71 de la Constitución Española de 1978, ¿quién es el competente en las causas contra Diputados y Senadores?",
+      "opciones": [
+        "Sala de lo Penal del Tribunal Constitucional.",
+        "Sala de lo Contencioso Administrativo del Tribunal Supremo.",
+        "Sala de lo Penal del Tribunal Supremo.",
+        "Sala de lo Civil del Tribunal Supremo."
+      ],
+      "correcta": 2,
+      "explicacion": null,
+      "referencia": null,
+      "verificado": true,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "pendiente-examen-tai-2026-modelo-a-t01",
+      "concepto_id": null,
+      "capitulo": null,
+      "tipo": null,
+      "dificultad": null,
+      "origen": null,
+      "enunciado": "En la Constitución Española de 1978, en relación con la sucesión al trono se prefiere siempre:",
+      "opciones": [
+        "En la misma línea, el grado más lejano al más próximo.",
+        "En el mismo grado, la línea anterior a las posteriores.",
+        "En la misma línea, el grado más próximo al más remoto.",
+        "En el mismo grado, la línea posterior a las anteriores."
+      ],
+      "correcta": 2,
+      "explicacion": null,
+      "referencia": null,
+      "verificado": true,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "pendiente-examen-tai-2026-modelo-a-t02",
+      "concepto_id": null,
+      "capitulo": null,
+      "tipo": null,
+      "dificultad": null,
+      "origen": null,
+      "enunciado": "Indique cuál de los siguientes principios se garantiza en el artículo 9 de la Constitución Española de 1978:",
+      "opciones": [
+        "La retroactividad de disposiciones sancionadoras no favorables o restrictivas de derechos individuales.",
+        "La retroactividad de disposiciones sancionadoras favorables.",
+        "La interdicción de la arbitrariedad de los poderes públicos.",
+        "La irretroactividad de disposiciones sancionadoras favorables o restrictivas de derechos colectivos."
+      ],
+      "correcta": 2,
+      "explicacion": null,
+      "referencia": null,
+      "verificado": true,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "pendiente-examen-tai-2026-modelo-b-t01",
+      "concepto_id": null,
+      "capitulo": null,
+      "tipo": null,
+      "dificultad": null,
+      "origen": null,
+      "enunciado": "Indique cuál de los siguientes principios se garantiza en el artículo 9 de la Constitución Española de 1978:",
+      "opciones": [
+        "La retroactividad de disposiciones sancionadoras no favorables o restrictivas de derechos individuales.",
+        "La retroactividad de disposiciones sancionadoras favorables.",
+        "La interdicción de la arbitrariedad de los poderes públicos.",
+        "La irretroactividad de disposiciones sancionadoras favorables o restrictivas de derechos colectivos."
+      ],
+      "correcta": 2,
+      "explicacion": null,
+      "referencia": null,
+      "verificado": true,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "pendiente-examen-tai-2026-modelo-b-t02",
+      "concepto_id": null,
+      "capitulo": null,
+      "tipo": null,
+      "dificultad": null,
+      "origen": null,
+      "enunciado": "En la Constitución Española de 1978, en relación con la sucesión al trono se prefiere siempre:",
+      "opciones": [
+        "En la misma línea, el grado más lejano al más próximo.",
+        "En el mismo grado, la línea anterior a las posteriores.",
+        "En la misma línea, el grado más próximo al más remoto.",
+        "En el mismo grado, la línea posterior a las anteriores."
+      ],
+      "correcta": 2,
+      "explicacion": null,
+      "referencia": null,
+      "verificado": true,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "pendiente-examen-tai-2026-modelo-c-t01",
+      "concepto_id": null,
+      "capitulo": null,
+      "tipo": null,
+      "dificultad": null,
+      "origen": null,
+      "enunciado": "¿Cuántas veces se ha reformado la Constitución Española de 1978 desde su aprobación?",
+      "opciones": [
+        "Una vez.",
+        "Dos veces.",
+        "Tres veces.",
+        "Cuatro veces."
+      ],
+      "correcta": 3,
+      "explicacion": null,
+      "referencia": null,
+      "verificado": true,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "pendiente-examen-tai-2026-modelo-c-t02",
+      "concepto_id": null,
+      "capitulo": null,
+      "tipo": null,
+      "dificultad": null,
+      "origen": null,
+      "enunciado": "Según el artículo 55 de la Constitución Española de 1978, cuando se acuerde declarado el estado de excepción, ¿qué derecho reconocido podrá ser suspendido?",
+      "opciones": [
+        "A comunicar o recibir libremente información veraz por cualquier medio de difusión.",
+        "A la libertad de cátedra.",
+        "A sindicarse libremente.",
+        "A participar en los asuntos públicos."
+      ],
+      "correcta": 0,
+      "explicacion": null,
+      "referencia": null,
       "verificado": true,
       "fecha_alta": "2026-10-30"
     }

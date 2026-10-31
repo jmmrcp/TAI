@@ -1,0 +1,929 @@
+{
+  "clasificacion_supuestos": [
+    {
+      "supuesto_id": "supuesto-1-2018",
+      "examen_id": "examen-tai-2018",
+      "bloque_id": "bloque-iii",
+      "titulo": "Supuesto I",
+      "temas": [
+        {
+          "tema_numero": 14,
+          "tema_titulo": "SGBD relacionales, orientados a objetos y NoSQL",
+          "relevancia": "alta"
+        },
+        {
+          "tema_numero": 15,
+          "tema_titulo": "Modelado de datos. Diseño de BD. Modelo relacional. Normalización",
+          "relevancia": "media"
+        },
+        {
+          "tema_numero": 16,
+          "tema_titulo": "Lenguajes de programación: tipos, operadores, control de flujo, funciones",
+          "relevancia": "alta"
+        },
+        {
+          "tema_numero": 18,
+          "tema_titulo": "Diseño y programación orientada a objetos. Patrones de diseño. UML",
+          "relevancia": "media"
+        },
+        {
+          "tema_numero": 19,
+          "tema_titulo": "Arquitectura Java EE/Jakarta EE y plataforma .NET",
+          "relevancia": "media"
+        },
+        {
+          "tema_numero": 21,
+          "tema_titulo": "Aplicaciones web. HTML, XML. Lenguajes de script. Front-end y back-end",
+          "relevancia": "alta"
+        }
+      ]
+    },
+    {
+      "supuesto_id": "supuesto-1-2021",
+      "examen_id": "examen-tai-2021",
+      "bloque_id": "bloque-iii",
+      "titulo": "Supuesto I",
+      "temas": [
+        {
+          "tema_numero": 14,
+          "tema_titulo": "SGBD relacionales, orientados a objetos y NoSQL",
+          "relevancia": "media"
+        },
+        {
+          "tema_numero": 15,
+          "tema_titulo": "Modelado de datos. Diseño de BD. Modelo relacional. Normalización",
+          "relevancia": "media"
+        },
+        {
+          "tema_numero": 16,
+          "tema_titulo": "Lenguajes de programación: tipos, operadores, control de flujo, funciones",
+          "relevancia": "alta"
+        },
+        {
+          "tema_numero": 17,
+          "tema_titulo": "Lenguajes de interrogación de BD. ANSI SQL. Procedimientos y triggers",
+          "relevancia": "alta"
+        },
+        {
+          "tema_numero": 18,
+          "tema_titulo": "Diseño y programación orientada a objetos. Patrones de diseño. UML",
+          "relevancia": "alta"
+        },
+        {
+          "tema_numero": 19,
+          "tema_titulo": "Arquitectura Java EE/Jakarta EE y plataforma .NET",
+          "relevancia": "alta"
+        },
+        {
+          "tema_numero": 23,
+          "tema_titulo": "Repositorios. Control de versiones. Metodologías. Pruebas de software",
+          "relevancia": "alta"
+        }
+      ]
+    },
+    {
+      "supuesto_id": "supuesto-1-2023",
+      "examen_id": "examen-tai-2023",
+      "bloque_id": "bloque-iii",
+      "titulo": "Supuesto I",
+      "temas": [
+        {
+          "tema_numero": 15,
+          "tema_titulo": "Modelado de datos. Diseño de BD. Modelo relacional. Normalización",
+          "relevancia": "alta"
+        },
+        {
+          "tema_numero": 20,
+          "tema_titulo": "Arquitectura cliente/servidor y multicapas. Servicios web y protocolos",
+          "relevancia": "alta"
+        },
+        {
+          "tema_numero": 21,
+          "tema_titulo": "Aplicaciones web. HTML, XML. Lenguajes de script. Front-end y back-end",
+          "relevancia": "media"
+        },
+        {
+          "tema_numero": 22,
+          "tema_titulo": "Accesibilidad, diseño universal y usabilidad. Seguridad en el desarrollo",
+          "relevancia": "media"
+        }
+      ]
+    },
+    {
+      "supuesto_id": "supuesto-1-a-2024",
+      "examen_id": "examen-tai-2024-modelo-a",
+      "bloque_id": "bloque-iii",
+      "titulo": "Supuesto I - becas",
+      "temas": [
+        {
+          "tema_numero": 15,
+          "tema_titulo": "Modelado de datos. Diseño de BD. Modelo relacional. Normalización",
+          "relevancia": "alta"
+        },
+        {
+          "tema_numero": 16,
+          "tema_titulo": "Lenguajes de programación: tipos, operadores, control de flujo, funciones",
+          "relevancia": "alta"
+        },
+        {
+          "tema_numero": 18,
+          "tema_titulo": "Diseño y programación orientada a objetos. Patrones de diseño. UML",
+          "relevancia": "media"
+        },
+        {
+          "tema_numero": 19,
+          "tema_titulo": "Arquitectura Java EE/Jakarta EE y plataforma .NET",
+          "relevancia": "alta"
+        },
+        {
+          "tema_numero": 20,
+          "tema_titulo": "Arquitectura cliente/servidor y multicapas. Servicios web y protocolos",
+          "relevancia": "alta"
+        },
+        {
+          "tema_numero": 21,
+          "tema_titulo": "Aplicaciones web. HTML, XML. Lenguajes de script. Front-end y back-end",
+          "relevancia": "alta"
+        },
+        {
+          "tema_numero": 22,
+          "tema_titulo": "Accesibilidad, diseño universal y usabilidad. Seguridad en el desarrollo",
+          "relevancia": "media"
+        },
+        {
+          "tema_numero": 23,
+          "tema_titulo": "Repositorios. Control de versiones. Metodologías. Pruebas de software",
+          "relevancia": "alta"
+        }
+      ]
+    },
+    {
+      "supuesto_id": "supuesto-1-a-2025",
+      "examen_id": "examen-tai-2025-modelo-a",
+      "bloque_id": "bloque-iii",
+      "titulo": "Supuesto I - becas",
+      "temas": [
+        {
+          "tema_numero": 15,
+          "tema_titulo": "Modelado de datos. Diseño de BD. Modelo relacional. Normalización",
+          "relevancia": "alta"
+        },
+        {
+          "tema_numero": 16,
+          "tema_titulo": "Lenguajes de programación: tipos, operadores, control de flujo, funciones",
+          "relevancia": "alta"
+        },
+        {
+          "tema_numero": 18,
+          "tema_titulo": "Diseño y programación orientada a objetos. Patrones de diseño. UML",
+          "relevancia": "media"
+        },
+        {
+          "tema_numero": 19,
+          "tema_titulo": "Arquitectura Java EE/Jakarta EE y plataforma .NET",
+          "relevancia": "alta"
+        },
+        {
+          "tema_numero": 20,
+          "tema_titulo": "Arquitectura cliente/servidor y multicapas. Servicios web y protocolos",
+          "relevancia": "alta"
+        },
+        {
+          "tema_numero": 21,
+          "tema_titulo": "Aplicaciones web. HTML, XML. Lenguajes de script. Front-end y back-end",
+          "relevancia": "alta"
+        },
+        {
+          "tema_numero": 22,
+          "tema_titulo": "Accesibilidad, diseño universal y usabilidad. Seguridad en el desarrollo",
+          "relevancia": "media"
+        },
+        {
+          "tema_numero": 23,
+          "tema_titulo": "Repositorios. Control de versiones. Metodologías. Pruebas de software",
+          "relevancia": "alta"
+        }
+      ]
+    },
+    {
+      "supuesto_id": "supuesto-1-a-2026",
+      "examen_id": "examen-tai-2026-modelo-a",
+      "bloque_id": "bloque-iii",
+      "titulo": "Supuesto I - EDUCA-DATA 2030",
+      "temas": [
+        {
+          "tema_numero": 14,
+          "tema_titulo": "SGBD relacionales, orientados a objetos y NoSQL",
+          "relevancia": "alta"
+        },
+        {
+          "tema_numero": 15,
+          "tema_titulo": "Modelado de datos. Diseño de BD. Modelo relacional. Normalización",
+          "relevancia": "media"
+        },
+        {
+          "tema_numero": 16,
+          "tema_titulo": "Lenguajes de programación: tipos, operadores, control de flujo, funciones",
+          "relevancia": "alta"
+        },
+        {
+          "tema_numero": 17,
+          "tema_titulo": "Lenguajes de interrogación de BD. ANSI SQL. Procedimientos y triggers",
+          "relevancia": "media"
+        },
+        {
+          "tema_numero": 18,
+          "tema_titulo": "Diseño y programación orientada a objetos. Patrones de diseño. UML",
+          "relevancia": "alta"
+        },
+        {
+          "tema_numero": 19,
+          "tema_titulo": "Arquitectura Java EE/Jakarta EE y plataforma .NET",
+          "relevancia": "alta"
+        },
+        {
+          "tema_numero": 20,
+          "tema_titulo": "Arquitectura cliente/servidor y multicapas. Servicios web y protocolos",
+          "relevancia": "alta"
+        },
+        {
+          "tema_numero": 21,
+          "tema_titulo": "Aplicaciones web. HTML, XML. Lenguajes de script. Front-end y back-end",
+          "relevancia": "alta"
+        },
+        {
+          "tema_numero": 23,
+          "tema_titulo": "Repositorios. Control de versiones. Metodologías. Pruebas de software",
+          "relevancia": "alta"
+        }
+      ]
+    },
+    {
+      "supuesto_id": "supuesto-1-b-2024",
+      "examen_id": "examen-tai-2024-modelo-b",
+      "bloque_id": "bloque-iii",
+      "titulo": "Supuesto I - becas",
+      "temas": [
+        {
+          "tema_numero": 15,
+          "tema_titulo": "Modelado de datos. Diseño de BD. Modelo relacional. Normalización",
+          "relevancia": "alta"
+        },
+        {
+          "tema_numero": 16,
+          "tema_titulo": "Lenguajes de programación: tipos, operadores, control de flujo, funciones",
+          "relevancia": "alta"
+        },
+        {
+          "tema_numero": 18,
+          "tema_titulo": "Diseño y programación orientada a objetos. Patrones de diseño. UML",
+          "relevancia": "media"
+        },
+        {
+          "tema_numero": 19,
+          "tema_titulo": "Arquitectura Java EE/Jakarta EE y plataforma .NET",
+          "relevancia": "alta"
+        },
+        {
+          "tema_numero": 20,
+          "tema_titulo": "Arquitectura cliente/servidor y multicapas. Servicios web y protocolos",
+          "relevancia": "alta"
+        },
+        {
+          "tema_numero": 21,
+          "tema_titulo": "Aplicaciones web. HTML, XML. Lenguajes de script. Front-end y back-end",
+          "relevancia": "alta"
+        },
+        {
+          "tema_numero": 22,
+          "tema_titulo": "Accesibilidad, diseño universal y usabilidad. Seguridad en el desarrollo",
+          "relevancia": "media"
+        },
+        {
+          "tema_numero": 23,
+          "tema_titulo": "Repositorios. Control de versiones. Metodologías. Pruebas de software",
+          "relevancia": "alta"
+        }
+      ]
+    },
+    {
+      "supuesto_id": "supuesto-1-b-2025",
+      "examen_id": "examen-tai-2025-modelo-b",
+      "bloque_id": "bloque-iii",
+      "titulo": "Supuesto I - becas",
+      "temas": [
+        {
+          "tema_numero": 15,
+          "tema_titulo": "Modelado de datos. Diseño de BD. Modelo relacional. Normalización",
+          "relevancia": "alta"
+        },
+        {
+          "tema_numero": 16,
+          "tema_titulo": "Lenguajes de programación: tipos, operadores, control de flujo, funciones",
+          "relevancia": "alta"
+        },
+        {
+          "tema_numero": 18,
+          "tema_titulo": "Diseño y programación orientada a objetos. Patrones de diseño. UML",
+          "relevancia": "media"
+        },
+        {
+          "tema_numero": 19,
+          "tema_titulo": "Arquitectura Java EE/Jakarta EE y plataforma .NET",
+          "relevancia": "alta"
+        },
+        {
+          "tema_numero": 20,
+          "tema_titulo": "Arquitectura cliente/servidor y multicapas. Servicios web y protocolos",
+          "relevancia": "alta"
+        },
+        {
+          "tema_numero": 21,
+          "tema_titulo": "Aplicaciones web. HTML, XML. Lenguajes de script. Front-end y back-end",
+          "relevancia": "alta"
+        },
+        {
+          "tema_numero": 22,
+          "tema_titulo": "Accesibilidad, diseño universal y usabilidad. Seguridad en el desarrollo",
+          "relevancia": "media"
+        },
+        {
+          "tema_numero": 23,
+          "tema_titulo": "Repositorios. Control de versiones. Metodologías. Pruebas de software",
+          "relevancia": "alta"
+        }
+      ]
+    },
+    {
+      "supuesto_id": "supuesto-1-b-2026",
+      "examen_id": "examen-tai-2026-modelo-b",
+      "bloque_id": "bloque-iii",
+      "titulo": "Supuesto I - EDUCA-DATA 2030",
+      "temas": [
+        {
+          "tema_numero": 14,
+          "tema_titulo": "SGBD relacionales, orientados a objetos y NoSQL",
+          "relevancia": "alta"
+        },
+        {
+          "tema_numero": 15,
+          "tema_titulo": "Modelado de datos. Diseño de BD. Modelo relacional. Normalización",
+          "relevancia": "media"
+        },
+        {
+          "tema_numero": 16,
+          "tema_titulo": "Lenguajes de programación: tipos, operadores, control de flujo, funciones",
+          "relevancia": "alta"
+        },
+        {
+          "tema_numero": 17,
+          "tema_titulo": "Lenguajes de interrogación de BD. ANSI SQL. Procedimientos y triggers",
+          "relevancia": "media"
+        },
+        {
+          "tema_numero": 18,
+          "tema_titulo": "Diseño y programación orientada a objetos. Patrones de diseño. UML",
+          "relevancia": "alta"
+        },
+        {
+          "tema_numero": 19,
+          "tema_titulo": "Arquitectura Java EE/Jakarta EE y plataforma .NET",
+          "relevancia": "alta"
+        },
+        {
+          "tema_numero": 20,
+          "tema_titulo": "Arquitectura cliente/servidor y multicapas. Servicios web y protocolos",
+          "relevancia": "alta"
+        },
+        {
+          "tema_numero": 21,
+          "tema_titulo": "Aplicaciones web. HTML, XML. Lenguajes de script. Front-end y back-end",
+          "relevancia": "alta"
+        },
+        {
+          "tema_numero": 23,
+          "tema_titulo": "Repositorios. Control de versiones. Metodologías. Pruebas de software",
+          "relevancia": "alta"
+        }
+      ]
+    },
+    {
+      "supuesto_id": "supuesto-1-c-2026",
+      "examen_id": "examen-tai-2026-modelo-c",
+      "bloque_id": "bloque-iii",
+      "titulo": "Supuesto I - desarrollo de aplicación en SGTIC",
+      "temas": [
+        {
+          "tema_numero": 14,
+          "tema_titulo": "SGBD relacionales, orientados a objetos y NoSQL",
+          "relevancia": "alta"
+        },
+        {
+          "tema_numero": 15,
+          "tema_titulo": "Modelado de datos. Diseño de BD. Modelo relacional. Normalización",
+          "relevancia": "media"
+        },
+        {
+          "tema_numero": 16,
+          "tema_titulo": "Lenguajes de programación: tipos, operadores, control de flujo, funciones",
+          "relevancia": "alta"
+        },
+        {
+          "tema_numero": 17,
+          "tema_titulo": "Lenguajes de interrogación de BD. ANSI SQL. Procedimientos y triggers",
+          "relevancia": "media"
+        },
+        {
+          "tema_numero": 18,
+          "tema_titulo": "Diseño y programación orientada a objetos. Patrones de diseño. UML",
+          "relevancia": "media"
+        },
+        {
+          "tema_numero": 19,
+          "tema_titulo": "Arquitectura Java EE/Jakarta EE y plataforma .NET",
+          "relevancia": "alta"
+        },
+        {
+          "tema_numero": 20,
+          "tema_titulo": "Arquitectura cliente/servidor y multicapas. Servicios web y protocolos",
+          "relevancia": "alta"
+        },
+        {
+          "tema_numero": 21,
+          "tema_titulo": "Aplicaciones web. HTML, XML. Lenguajes de script. Front-end y back-end",
+          "relevancia": "alta"
+        },
+        {
+          "tema_numero": 23,
+          "tema_titulo": "Repositorios. Control de versiones. Metodologías. Pruebas de software",
+          "relevancia": "alta"
+        }
+      ]
+    },
+    {
+      "supuesto_id": "supuesto-2-2018",
+      "examen_id": "examen-tai-2018",
+      "bloque_id": "bloque-iv",
+      "titulo": "Supuesto II",
+      "temas": [
+        {
+          "tema_numero": 24,
+          "tema_titulo": "Administración del SO y software de base. Actualización y mantenimiento",
+          "relevancia": "alta"
+        },
+        {
+          "tema_numero": 25,
+          "tema_titulo": "Administración de BD. Almacenamiento y virtualización. Backup y recuperación",
+          "relevancia": "media"
+        },
+        {
+          "tema_numero": 26,
+          "tema_titulo": "Servidores de correo. Contenedores y microservicios",
+          "relevancia": "alta"
+        },
+        {
+          "tema_numero": 28,
+          "tema_titulo": "Seguridad de sistemas. Criptografía. Firma digital. CPD. Incidencias",
+          "relevancia": "media"
+        },
+        {
+          "tema_numero": 30,
+          "tema_titulo": "Modelo TCP/IP y OSI. Protocolos TCP/IP",
+          "relevancia": "media"
+        }
+      ]
+    },
+    {
+      "supuesto_id": "supuesto-2-2021",
+      "examen_id": "examen-tai-2021",
+      "bloque_id": "bloque-iv",
+      "titulo": "Supuesto II",
+      "temas": [
+        {
+          "tema_numero": 24,
+          "tema_titulo": "Administración del SO y software de base. Actualización y mantenimiento",
+          "relevancia": "alta"
+        },
+        {
+          "tema_numero": 25,
+          "tema_titulo": "Administración de BD. Almacenamiento y virtualización. Backup y recuperación",
+          "relevancia": "alta"
+        },
+        {
+          "tema_numero": 27,
+          "tema_titulo": "Administración de redes LAN. Gestión de usuarios y dispositivos",
+          "relevancia": "media"
+        },
+        {
+          "tema_numero": 28,
+          "tema_titulo": "Seguridad de sistemas. Criptografía. Firma digital. CPD. Incidencias",
+          "relevancia": "media"
+        },
+        {
+          "tema_numero": 29,
+          "tema_titulo": "Comunicaciones. Medios de transmisión. Redes de conmutación y difusión",
+          "relevancia": "media"
+        }
+      ]
+    },
+    {
+      "supuesto_id": "supuesto-2-2023",
+      "examen_id": "examen-tai-2023",
+      "bloque_id": "bloque-iv",
+      "titulo": "Supuesto II",
+      "temas": [
+        {
+          "tema_numero": 24,
+          "tema_titulo": "Administración del SO y software de base. Actualización y mantenimiento",
+          "relevancia": "media"
+        },
+        {
+          "tema_numero": 25,
+          "tema_titulo": "Administración de BD. Almacenamiento y virtualización. Backup y recuperación",
+          "relevancia": "media"
+        },
+        {
+          "tema_numero": 27,
+          "tema_titulo": "Administración de redes LAN. Gestión de usuarios y dispositivos",
+          "relevancia": "alta"
+        },
+        {
+          "tema_numero": 28,
+          "tema_titulo": "Seguridad de sistemas. Criptografía. Firma digital. CPD. Incidencias",
+          "relevancia": "alta"
+        },
+        {
+          "tema_numero": 30,
+          "tema_titulo": "Modelo TCP/IP y OSI. Protocolos TCP/IP",
+          "relevancia": "alta"
+        },
+        {
+          "tema_numero": 32,
+          "tema_titulo": "Seguridad en redes. Perimetral. VPN. Seguridad en el puesto",
+          "relevancia": "alta"
+        }
+      ]
+    },
+    {
+      "supuesto_id": "supuesto-2-a-2024",
+      "examen_id": "examen-tai-2024-modelo-a",
+      "bloque_id": "bloque-iv",
+      "titulo": "Supuesto II - red AGE",
+      "temas": [
+        {
+          "tema_numero": 24,
+          "tema_titulo": "Administración del SO y software de base. Actualización y mantenimiento",
+          "relevancia": "alta"
+        },
+        {
+          "tema_numero": 25,
+          "tema_titulo": "Administración de BD. Almacenamiento y virtualización. Backup y recuperación",
+          "relevancia": "media"
+        },
+        {
+          "tema_numero": 26,
+          "tema_titulo": "Servidores de correo. Contenedores y microservicios",
+          "relevancia": "alta"
+        },
+        {
+          "tema_numero": 27,
+          "tema_titulo": "Administración de redes LAN. Gestión de usuarios y dispositivos",
+          "relevancia": "alta"
+        },
+        {
+          "tema_numero": 28,
+          "tema_titulo": "Seguridad de sistemas. Criptografía. Firma digital. CPD. Incidencias",
+          "relevancia": "alta"
+        },
+        {
+          "tema_numero": 30,
+          "tema_titulo": "Modelo TCP/IP y OSI. Protocolos TCP/IP",
+          "relevancia": "alta"
+        },
+        {
+          "tema_numero": 31,
+          "tema_titulo": "Internet: arquitectura. Protocolos HTTP, HTTPS y SSL/TLS",
+          "relevancia": "alta"
+        },
+        {
+          "tema_numero": 32,
+          "tema_titulo": "Seguridad en redes. Perimetral. VPN. Seguridad en el puesto",
+          "relevancia": "media"
+        },
+        {
+          "tema_numero": 33,
+          "tema_titulo": "Redes locales. Tipología. Técnicas de transmisión. Dispositivos",
+          "relevancia": "alta"
+        }
+      ]
+    },
+    {
+      "supuesto_id": "supuesto-2-a-2025",
+      "examen_id": "examen-tai-2025-modelo-a",
+      "bloque_id": "bloque-iv",
+      "titulo": "Supuesto II - red AGE",
+      "temas": [
+        {
+          "tema_numero": 24,
+          "tema_titulo": "Administración del SO y software de base. Actualización y mantenimiento",
+          "relevancia": "alta"
+        },
+        {
+          "tema_numero": 25,
+          "tema_titulo": "Administración de BD. Almacenamiento y virtualización. Backup y recuperación",
+          "relevancia": "media"
+        },
+        {
+          "tema_numero": 26,
+          "tema_titulo": "Servidores de correo. Contenedores y microservicios",
+          "relevancia": "alta"
+        },
+        {
+          "tema_numero": 27,
+          "tema_titulo": "Administración de redes LAN. Gestión de usuarios y dispositivos",
+          "relevancia": "alta"
+        },
+        {
+          "tema_numero": 28,
+          "tema_titulo": "Seguridad de sistemas. Criptografía. Firma digital. CPD. Incidencias",
+          "relevancia": "alta"
+        },
+        {
+          "tema_numero": 30,
+          "tema_titulo": "Modelo TCP/IP y OSI. Protocolos TCP/IP",
+          "relevancia": "alta"
+        },
+        {
+          "tema_numero": 31,
+          "tema_titulo": "Internet: arquitectura. Protocolos HTTP, HTTPS y SSL/TLS",
+          "relevancia": "alta"
+        },
+        {
+          "tema_numero": 32,
+          "tema_titulo": "Seguridad en redes. Perimetral. VPN. Seguridad en el puesto",
+          "relevancia": "media"
+        },
+        {
+          "tema_numero": 33,
+          "tema_titulo": "Redes locales. Tipología. Técnicas de transmisión. Dispositivos",
+          "relevancia": "alta"
+        }
+      ]
+    },
+    {
+      "supuesto_id": "supuesto-2-a-2026",
+      "examen_id": "examen-tai-2026-modelo-a",
+      "bloque_id": "bloque-iv",
+      "titulo": "Supuesto II - SGTIC infraestructura de red y sistemas",
+      "temas": [
+        {
+          "tema_numero": 24,
+          "tema_titulo": "Administración del SO y software de base. Actualización y mantenimiento",
+          "relevancia": "alta"
+        },
+        {
+          "tema_numero": 25,
+          "tema_titulo": "Administración de BD. Almacenamiento y virtualización. Backup y recuperación",
+          "relevancia": "media"
+        },
+        {
+          "tema_numero": 26,
+          "tema_titulo": "Servidores de correo. Contenedores y microservicios",
+          "relevancia": "alta"
+        },
+        {
+          "tema_numero": 27,
+          "tema_titulo": "Administración de redes LAN. Gestión de usuarios y dispositivos",
+          "relevancia": "alta"
+        },
+        {
+          "tema_numero": 28,
+          "tema_titulo": "Seguridad de sistemas. Criptografía. Firma digital. CPD. Incidencias",
+          "relevancia": "media"
+        },
+        {
+          "tema_numero": 29,
+          "tema_titulo": "Comunicaciones. Medios de transmisión. Redes de conmutación y difusión",
+          "relevancia": "media"
+        },
+        {
+          "tema_numero": 30,
+          "tema_titulo": "Modelo TCP/IP y OSI. Protocolos TCP/IP",
+          "relevancia": "alta"
+        },
+        {
+          "tema_numero": 32,
+          "tema_titulo": "Seguridad en redes. Perimetral. VPN. Seguridad en el puesto",
+          "relevancia": "alta"
+        },
+        {
+          "tema_numero": 33,
+          "tema_titulo": "Redes locales. Tipología. Técnicas de transmisión. Dispositivos",
+          "relevancia": "alta"
+        }
+      ]
+    },
+    {
+      "supuesto_id": "supuesto-2-b-2024",
+      "examen_id": "examen-tai-2024-modelo-b",
+      "bloque_id": "bloque-iv",
+      "titulo": "Supuesto II - red AGE",
+      "temas": [
+        {
+          "tema_numero": 24,
+          "tema_titulo": "Administración del SO y software de base. Actualización y mantenimiento",
+          "relevancia": "alta"
+        },
+        {
+          "tema_numero": 25,
+          "tema_titulo": "Administración de BD. Almacenamiento y virtualización. Backup y recuperación",
+          "relevancia": "media"
+        },
+        {
+          "tema_numero": 26,
+          "tema_titulo": "Servidores de correo. Contenedores y microservicios",
+          "relevancia": "alta"
+        },
+        {
+          "tema_numero": 27,
+          "tema_titulo": "Administración de redes LAN. Gestión de usuarios y dispositivos",
+          "relevancia": "alta"
+        },
+        {
+          "tema_numero": 28,
+          "tema_titulo": "Seguridad de sistemas. Criptografía. Firma digital. CPD. Incidencias",
+          "relevancia": "alta"
+        },
+        {
+          "tema_numero": 30,
+          "tema_titulo": "Modelo TCP/IP y OSI. Protocolos TCP/IP",
+          "relevancia": "alta"
+        },
+        {
+          "tema_numero": 31,
+          "tema_titulo": "Internet: arquitectura. Protocolos HTTP, HTTPS y SSL/TLS",
+          "relevancia": "alta"
+        },
+        {
+          "tema_numero": 32,
+          "tema_titulo": "Seguridad en redes. Perimetral. VPN. Seguridad en el puesto",
+          "relevancia": "media"
+        },
+        {
+          "tema_numero": 33,
+          "tema_titulo": "Redes locales. Tipología. Técnicas de transmisión. Dispositivos",
+          "relevancia": "alta"
+        }
+      ]
+    },
+    {
+      "supuesto_id": "supuesto-2-b-2025",
+      "examen_id": "examen-tai-2025-modelo-b",
+      "bloque_id": "bloque-iv",
+      "titulo": "Supuesto II - red AGE",
+      "temas": [
+        {
+          "tema_numero": 24,
+          "tema_titulo": "Administración del SO y software de base. Actualización y mantenimiento",
+          "relevancia": "alta"
+        },
+        {
+          "tema_numero": 25,
+          "tema_titulo": "Administración de BD. Almacenamiento y virtualización. Backup y recuperación",
+          "relevancia": "media"
+        },
+        {
+          "tema_numero": 26,
+          "tema_titulo": "Servidores de correo. Contenedores y microservicios",
+          "relevancia": "alta"
+        },
+        {
+          "tema_numero": 27,
+          "tema_titulo": "Administración de redes LAN. Gestión de usuarios y dispositivos",
+          "relevancia": "alta"
+        },
+        {
+          "tema_numero": 28,
+          "tema_titulo": "Seguridad de sistemas. Criptografía. Firma digital. CPD. Incidencias",
+          "relevancia": "alta"
+        },
+        {
+          "tema_numero": 30,
+          "tema_titulo": "Modelo TCP/IP y OSI. Protocolos TCP/IP",
+          "relevancia": "alta"
+        },
+        {
+          "tema_numero": 31,
+          "tema_titulo": "Internet: arquitectura. Protocolos HTTP, HTTPS y SSL/TLS",
+          "relevancia": "alta"
+        },
+        {
+          "tema_numero": 32,
+          "tema_titulo": "Seguridad en redes. Perimetral. VPN. Seguridad en el puesto",
+          "relevancia": "media"
+        },
+        {
+          "tema_numero": 33,
+          "tema_titulo": "Redes locales. Tipología. Técnicas de transmisión. Dispositivos",
+          "relevancia": "alta"
+        }
+      ]
+    },
+    {
+      "supuesto_id": "supuesto-2-b-2026",
+      "examen_id": "examen-tai-2026-modelo-b",
+      "bloque_id": "bloque-iv",
+      "titulo": "Supuesto II - SGTIC infraestructura de red y sistemas",
+      "temas": [
+        {
+          "tema_numero": 24,
+          "tema_titulo": "Administración del SO y software de base. Actualización y mantenimiento",
+          "relevancia": "alta"
+        },
+        {
+          "tema_numero": 25,
+          "tema_titulo": "Administración de BD. Almacenamiento y virtualización. Backup y recuperación",
+          "relevancia": "media"
+        },
+        {
+          "tema_numero": 26,
+          "tema_titulo": "Servidores de correo. Contenedores y microservicios",
+          "relevancia": "alta"
+        },
+        {
+          "tema_numero": 27,
+          "tema_titulo": "Administración de redes LAN. Gestión de usuarios y dispositivos",
+          "relevancia": "alta"
+        },
+        {
+          "tema_numero": 28,
+          "tema_titulo": "Seguridad de sistemas. Criptografía. Firma digital. CPD. Incidencias",
+          "relevancia": "media"
+        },
+        {
+          "tema_numero": 29,
+          "tema_titulo": "Comunicaciones. Medios de transmisión. Redes de conmutación y difusión",
+          "relevancia": "media"
+        },
+        {
+          "tema_numero": 30,
+          "tema_titulo": "Modelo TCP/IP y OSI. Protocolos TCP/IP",
+          "relevancia": "alta"
+        },
+        {
+          "tema_numero": 32,
+          "tema_titulo": "Seguridad en redes. Perimetral. VPN. Seguridad en el puesto",
+          "relevancia": "alta"
+        },
+        {
+          "tema_numero": 33,
+          "tema_titulo": "Redes locales. Tipología. Técnicas de transmisión. Dispositivos",
+          "relevancia": "alta"
+        }
+      ]
+    },
+    {
+      "supuesto_id": "supuesto-2-c-2026",
+      "examen_id": "examen-tai-2026-modelo-c",
+      "bloque_id": "bloque-iv",
+      "titulo": "Supuesto II - infraestructura SGTIC",
+      "temas": [
+        {
+          "tema_numero": 24,
+          "tema_titulo": "Administración del SO y software de base. Actualización y mantenimiento",
+          "relevancia": "alta"
+        },
+        {
+          "tema_numero": 25,
+          "tema_titulo": "Administración de BD. Almacenamiento y virtualización. Backup y recuperación",
+          "relevancia": "alta"
+        },
+        {
+          "tema_numero": 26,
+          "tema_titulo": "Servidores de correo. Contenedores y microservicios",
+          "relevancia": "alta"
+        },
+        {
+          "tema_numero": 27,
+          "tema_titulo": "Administración de redes LAN. Gestión de usuarios y dispositivos",
+          "relevancia": "media"
+        },
+        {
+          "tema_numero": 28,
+          "tema_titulo": "Seguridad de sistemas. Criptografía. Firma digital. CPD. Incidencias",
+          "relevancia": "media"
+        },
+        {
+          "tema_numero": 32,
+          "tema_titulo": "Seguridad en redes. Perimetral. VPN. Seguridad en el puesto",
+          "relevancia": "media"
+        },
+        {
+          "tema_numero": 33,
+          "tema_titulo": "Redes locales. Tipología. Técnicas de transmisión. Dispositivos",
+          "relevancia": "media"
+        }
+      ]
+    }
+  ]
+}

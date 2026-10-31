@@ -1,0 +1,384 @@
+{
+  "preguntas": [
+    {
+      "id": "p-src2-001",
+      "concepto_id": "c-smtp-codigos",
+      "capitulo": "src2",
+      "tipo": "memoria",
+      "dificultad": "baja",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Qué significa el código SMTP 250?",
+      "opciones": [
+        "c) Acción no realizada: el buzón no existe o no está disponible",
+        "d) Transacción fallida (error genérico)",
+        "b) Acción de correo completada con éxito (OK)",
+        "a) Servicio no disponible, el canal de transmisión se cerrará"
+      ],
+      "correcta": 2,
+      "explicacion": "El código 250 indica que la acción de correo se completó con éxito.",
+      "referencia": "src2",
+      "verificado": false
+    },
+    {
+      "id": "p-src2-002",
+      "concepto_id": "c-puertos-correo",
+      "capitulo": "src2",
+      "tipo": "memoria",
+      "dificultad": "baja",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Cuál es el puerto seguro (TLS/SSL) de SMTP?",
+      "opciones": [
+        "c) 465",
+        "a) 25",
+        "b) 110",
+        "d) 993"
+      ],
+      "correcta": 0,
+      "explicacion": "SMTP usa el puerto 25 estándar y el 465 seguro (TLS/SSL).",
+      "referencia": "src2",
+      "verificado": false
+    },
+    {
+      "id": "p-src2-003",
+      "concepto_id": "c-pop3-vs-imap",
+      "capitulo": "src2",
+      "tipo": "memoria",
+      "dificultad": "baja",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Qué comando POP3 se menciona en el texto?",
+      "opciones": [
+        "d) QUIT",
+        "c) RETR",
+        "b) LIST",
+        "a) STAT"
+      ],
+      "correcta": 3,
+      "explicacion": "El comando POP3 mencionado es STAT.",
+      "referencia": "src2",
+      "verificado": false
+    },
+    {
+      "id": "p-src2-004",
+      "concepto_id": "c-formatos-buzon",
+      "capitulo": "src2",
+      "tipo": "memoria",
+      "dificultad": "baja",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Qué formato de buzón guarda cada mensaje en un fichero separado?",
+      "opciones": [
+        "b) maildir",
+        "d) OST",
+        "a) mbox",
+        "c) PST"
+      ],
+      "correcta": 0,
+      "explicacion": "maildir guarda cada mensaje en un fichero separado; mbox guarda todo en un único fichero.",
+      "referencia": "src2",
+      "verificado": false
+    },
+    {
+      "id": "p-src2-005",
+      "concepto_id": "c-docker-persistencia",
+      "capitulo": "src2",
+      "tipo": "memoria",
+      "dificultad": "baja",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Cuál es el mecanismo preferido por Docker para persistir datos?",
+      "opciones": [
+        "a) Bind mounts",
+        "c) tmpfs",
+        "d) Capas de imagen",
+        "b) Volúmenes"
+      ],
+      "correcta": 3,
+      "explicacion": "El mecanismo preferido por los contenedores Docker para persistir los datos son los Volúmenes.",
+      "referencia": "src2",
+      "verificado": false
+    },
+    {
+      "id": "p-src2-006",
+      "concepto_id": "c-k8s-servicios",
+      "capitulo": "src2",
+      "tipo": "memoria",
+      "dificultad": "baja",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Cuál es el tipo de Service de Kubernetes por defecto?",
+      "opciones": [
+        "d) Ingress",
+        "c) ClusterIP",
+        "a) NodePort",
+        "b) LoadBalancer"
+      ],
+      "correcta": 1,
+      "explicacion": "ClusterIP es el tipo por defecto y solo es accesible desde dentro del clúster.",
+      "referencia": "src2",
+      "verificado": false
+    },
+    {
+      "id": "p-src2-007",
+      "concepto_id": "c-pop3-vs-imap",
+      "capitulo": "src2",
+      "tipo": "comprension",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Qué protocolo permite visualizar los correos directamente en el servidor sin descargarlos?",
+      "opciones": [
+        "c) IMAP",
+        "b) SMTP",
+        "a) POP3",
+        "d) X.400"
+      ],
+      "correcta": 0,
+      "explicacion": "IMAP mantiene los mensajes en el buzón central y permite visualizarlos directamente en el servidor sin descargarlos.",
+      "referencia": "src2",
+      "verificado": false
+    },
+    {
+      "id": "p-src2-008",
+      "concepto_id": "c-spf-dkim-dmarc",
+      "capitulo": "src2",
+      "tipo": "comprension",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Qué hace DMARC cuando SPF o DKIM fallan?",
+      "opciones": [
+        "c) Cifra el mensaje con PGP",
+        "b) Indica qué hacer, por ejemplo rechazar el correo o enviarlo a SPAM",
+        "d) Elimina el registro DNS del remitente",
+        "a) Reenvía el correo automáticamente"
+      ],
+      "correcta": 1,
+      "explicacion": "DMARC es la política que dice qué hacer si SPF o DKIM fallan (ej. rechazar el correo o mandarlo a SPAM).",
+      "referencia": "src2",
+      "verificado": false
+    },
+    {
+      "id": "p-src2-009",
+      "concepto_id": "c-cmd-vs-entrypoint",
+      "capitulo": "src2",
+      "tipo": "comprension",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Qué instrucción de Dockerfile proporciona argumentos por defecto que el usuario puede sobrescribir con docker run?",
+      "opciones": [
+        "b) CMD",
+        "c) RUN",
+        "a) ENTRYPOINT",
+        "d) COPY"
+      ],
+      "correcta": 0,
+      "explicacion": "CMD proporciona argumentos por defecto para el ENTRYPOINT o un comando inicial que sí puede ser sobrescrito por el usuario al hacer docker run.",
+      "referencia": "src2",
+      "verificado": false
+    },
+    {
+      "id": "p-src2-010",
+      "concepto_id": "c-etcd-src2",
+      "capitulo": "src2",
+      "tipo": "comprension",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Dónde almacena Kubernetes toda la información relevante de configuración del clúster?",
+      "opciones": [
+        "b) En ETCD",
+        "d) En ConfigMap",
+        "c) En el Scheduler",
+        "a) En el API Server"
+      ],
+      "correcta": 0,
+      "explicacion": "ETCD es la clase de almacenamiento no volátil donde se almacena toda la información relevante a la configuración del clúster de Kubernetes.",
+      "referencia": "src2",
+      "verificado": false
+    },
+    {
+      "id": "p-src2-011",
+      "concepto_id": "c-configmap-secret-src2",
+      "capitulo": "src2",
+      "tipo": "comprension",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Cómo almacena un Secret los datos sensibles en Kubernetes?",
+      "opciones": [
+        "c) En un Volume persistente",
+        "d) En ETCD sin cifrar",
+        "a) En texto plano",
+        "b) Cifrados en base64"
+      ],
+      "correcta": 3,
+      "explicacion": "Secret almacena datos sensibles (contraseñas, tokens) cifrados en base64, mientras ConfigMap guarda datos no confidenciales en texto plano.",
+      "referencia": "src2",
+      "verificado": false
+    },
+    {
+      "id": "p-src2-012",
+      "concepto_id": "c-microservicios-estrategias",
+      "capitulo": "src2",
+      "tipo": "comprension",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Qué estrategia de composición de microservicios es centralizada?",
+      "opciones": [
+        "a) Coreografía",
+        "b) Orquestación",
+        "c) Sidecar",
+        "d) Monolítica"
+      ],
+      "correcta": 1,
+      "explicacion": "Existen dos estrategias: Coreografía (descentralizada) y Orquestación (centralizada).",
+      "referencia": "src2",
+      "verificado": false
+    },
+    {
+      "id": "p-src2-013",
+      "concepto_id": "c-sidecar-src2",
+      "capitulo": "src2",
+      "tipo": "comprension",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "En el patrón Sidecar, ¿qué comparten el contenedor sidecar y el principal?",
+      "opciones": [
+        "d) El namespace de Kubernetes únicamente",
+        "a) Solo el sistema de ficheros",
+        "b) El mismo ciclo de vida y red",
+        "c) La imagen base"
+      ],
+      "correcta": 2,
+      "explicacion": "El sidecar se coloca junto al contenedor principal en el mismo Pod y comparten el mismo ciclo de vida y red.",
+      "referencia": "src2",
+      "verificado": false
+    },
+    {
+      "id": "p-src2-014",
+      "concepto_id": "c-docker-redes",
+      "capitulo": "src2",
+      "tipo": "comprension",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Qué modo de red de Docker comparte la pila de red directamente con el host sin aislamiento?",
+      "opciones": [
+        "a) bridge",
+        "d) overlay",
+        "b) host",
+        "c) none"
+      ],
+      "correcta": 2,
+      "explicacion": "El modo host hace que el contenedor comparta la pila de red directamente con el host (sin aislamiento de red).",
+      "referencia": "src2",
+      "verificado": false
+    },
+    {
+      "id": "p-src2-015",
+      "concepto_id": "c-kubernetes-objetos",
+      "capitulo": "src2",
+      "tipo": "comprension",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿En qué campo de un objeto Kubernetes se incluyen los valores que lo identifican unívocamente?",
+      "opciones": [
+        "a) spec",
+        "d) data",
+        "c) metadata",
+        "b) status"
+      ],
+      "correcta": 2,
+      "explicacion": "El campo Metadata es donde hay que incluir los valores que permiten identificar unívocamente al objeto.",
+      "referencia": "src2",
+      "verificado": false
+    },
+    {
+      "id": "p-src2-016",
+      "concepto_id": "c-k8s-servicios",
+      "capitulo": "src2",
+      "tipo": "comprension",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Qué tipo de Service de Kubernetes crea un equilibrador de carga externo típico de entornos cloud?",
+      "opciones": [
+        "d) Ingress",
+        "c) LoadBalancer",
+        "b) NodePort",
+        "a) ClusterIP"
+      ],
+      "correcta": 1,
+      "explicacion": "LoadBalancer crea un equilibrador de carga externo, típico de entornos cloud como AWS/Azure.",
+      "referencia": "src2",
+      "verificado": false
+    },
+    {
+      "id": "p-src2-017",
+      "concepto_id": "c-open-relay",
+      "capitulo": "src2",
+      "tipo": "aplicacion",
+      "dificultad": "alta",
+      "origen": "ingesta-inicial",
+      "enunciado": "Un servidor de correo que permite enviar mensajes desde cualquier origen a cualquier destino sin autenticación se considera:",
+      "opciones": [
+        "a) Un relay abierto (Open Relay)",
+        "b) Un servidor seguro con STARTTLS",
+        "c) Un servidor con SPF configurado",
+        "d) Un MDA correctamente configurado"
+      ],
+      "correcta": 0,
+      "explicacion": "Esa es la definición de Open Relay, una vulnerabilidad crítica que facilita el spam.",
+      "referencia": "src2",
+      "verificado": false
+    },
+    {
+      "id": "p-src2-018",
+      "concepto_id": "c-dmz-correo",
+      "capitulo": "src2",
+      "tipo": "aplicacion",
+      "dificultad": "alta",
+      "origen": "ingesta-inicial",
+      "enunciado": "Según el CCN-CERT, ¿dónde debe ubicarse el servidor de correo corporativo?",
+      "opciones": [
+        "b) En una zona desmilitarizada (DMZ)",
+        "a) En la red interna (LAN)",
+        "d) En el mismo nodo que la base de datos",
+        "c) En el cloud público directamente"
+      ],
+      "correcta": 0,
+      "explicacion": "Según el CCN-CERT, el servidor de correo corporativo debe estar ubicado en una zona desmilitarizada (DMZ).",
+      "referencia": "src2",
+      "verificado": false
+    },
+    {
+      "id": "p-src2-019",
+      "concepto_id": "c-docker-capas",
+      "capitulo": "src2",
+      "tipo": "aplicacion",
+      "dificultad": "alta",
+      "origen": "ingesta-inicial",
+      "enunciado": "Al ejecutar un contenedor Docker, ¿qué ocurre con las capas de la imagen?",
+      "opciones": [
+        "d) Se crea una copia completa de la imagen en memoria",
+        "a) Se eliminan todas las capas de solo lectura",
+        "c) La imagen pasa a ser de lectura/escritura completa",
+        "b) Se añade una fina capa de lectura/escritura en la parte superior"
+      ],
+      "correcta": 3,
+      "explicacion": "Las imágenes Docker son de solo lectura y se componen de capas; al ejecutar un contenedor se añade una fina capa de lectura/escritura en la parte superior.",
+      "referencia": "src2",
+      "verificado": false
+    },
+    {
+      "id": "p-src2-020",
+      "concepto_id": "c-starttls-src2",
+      "capitulo": "src2",
+      "tipo": "aplicacion",
+      "dificultad": "alta",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Para qué sirve el comando STARTTLS?",
+      "opciones": [
+        "a) Para iniciar la transferencia de correo",
+        "b) Para convertir una conexión insegura en segura en el mismo puerto",
+        "c) Para autenticar el usuario en POP3",
+        "d) Para cifrar el buzón en reposo"
+      ],
+      "correcta": 1,
+      "explicacion": "STARTTLS es el comando para convertir una conexión insegura en segura en el mismo puerto.",
+      "referencia": "src2",
+      "verificado": false
+    }
+  ]
+}

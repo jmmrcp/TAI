@@ -1,0 +1,445 @@
+{
+  "tema_id": "tema-26-servidores-de-correo-contenedores-y-microservicios",
+  "total": 42,
+  "flashcards": [
+    {
+      "concepto_id": "c-7547af1492be",
+      "modo": "anverso-reverso",
+      "anverso": "¿Qué hace POP3 con los mensajes en el servidor?",
+      "reverso": "Descarga los mensajes al cliente y los borra del buzón central (no permanecen en el servidor). Puerto 110 (995 TLS).",
+      "texto": null,
+      "respuestas": [],
+      "tags": [],
+      "verificado": false
+    },
+    {
+      "concepto_id": null,
+      "modo": "anverso-reverso",
+      "anverso": "¿Qué hace IMAP con los mensajes en el servidor?",
+      "reverso": "Los mensajes permanecen en el buzón central; permite visualizar, borrar, mover y responder sin descargarlos. Puertos 143 (993 TLS).",
+      "texto": null,
+      "respuestas": [],
+      "tags": [],
+      "verificado": false
+    },
+    {
+      "concepto_id": null,
+      "modo": "anverso-reverso",
+      "anverso": "¿Para qué sirve SMTP y cuáles son sus códigos clave?",
+      "reverso": "Protocolo de envío de correo (cliente→servidor y servidor→servidor). Códigos: 250 OK, 421 servicio no disponible, 550 buzón no existe, 554 transacción fallida.",
+      "texto": null,
+      "respuestas": [],
+      "tags": [],
+      "verificado": false
+    },
+    {
+      "concepto_id": null,
+      "modo": "anverso-reverso",
+      "anverso": "¿Qué es el MUA y ejemplos?",
+      "reverso": "Mail User Agent: el cliente de correo del usuario (Outlook, Thunderbird). No es un protocolo.",
+      "texto": null,
+      "respuestas": [],
+      "tags": [],
+      "verificado": false
+    },
+    {
+      "concepto_id": null,
+      "modo": "anverso-reverso",
+      "anverso": "¿Qué es el MTA y qué protocolo usa?",
+      "reverso": "Mail Transfer Agent: servidor que envía y recibe correo; usa SMTP. Ejemplos: Postfix, Sendmail.",
+      "texto": null,
+      "respuestas": [],
+      "tags": [],
+      "verificado": false
+    },
+    {
+      "concepto_id": null,
+      "modo": "anverso-reverso",
+      "anverso": "¿Qué es el MDA?",
+      "reverso": "Mail Delivery Agent: deposita el correo en el buzón del usuario para que POP/IMAP lo recojan.",
+      "texto": null,
+      "respuestas": [],
+      "tags": [],
+      "verificado": false
+    },
+    {
+      "concepto_id": "c-102485bb05f4",
+      "modo": "anverso-reverso",
+      "anverso": "¿Qué es Exchange ActiveSync?",
+      "reverso": "Protocolo de sincronización basado en HTTP y XML para que dispositivos móviles accedan a email/calendario de Microsoft Exchange.",
+      "texto": null,
+      "respuestas": [],
+      "tags": [],
+      "verificado": false
+    },
+    {
+      "concepto_id": null,
+      "modo": "anverso-reverso",
+      "anverso": "¿Cuál es el puerto seguro (TLS) de SMTP?",
+      "reverso": "465 (estándar: 25).",
+      "texto": null,
+      "respuestas": [],
+      "tags": [],
+      "verificado": false
+    },
+    {
+      "concepto_id": null,
+      "modo": "anverso-reverso",
+      "anverso": "¿Cuál es el puerto seguro (TLS) de POP3?",
+      "reverso": "995 (estándar: 110).",
+      "texto": null,
+      "respuestas": [],
+      "tags": [],
+      "verificado": false
+    },
+    {
+      "concepto_id": null,
+      "modo": "anverso-reverso",
+      "anverso": "¿Cuál es el puerto seguro (TLS) de IMAP?",
+      "reverso": "993 (estándar: 143).",
+      "texto": null,
+      "respuestas": [],
+      "tags": [],
+      "verificado": false
+    },
+    {
+      "concepto_id": null,
+      "modo": "anverso-reverso",
+      "anverso": "¿Qué es SPF?",
+      "reverso": "Sender Policy Framework: identifica vía DNS los servidores SMTP autorizados a enviar correo para un dominio.",
+      "texto": null,
+      "respuestas": [],
+      "tags": [],
+      "verificado": false
+    },
+    {
+      "concepto_id": null,
+      "modo": "anverso-reverso",
+      "anverso": "¿Qué es DKIM?",
+      "reverso": "DomainKeys Identified Mail: firma digital en las cabeceras del correo para verificar integridad y autenticidad.",
+      "texto": null,
+      "respuestas": [],
+      "tags": [],
+      "verificado": false
+    },
+    {
+      "concepto_id": "c-dc6e2b961c6c",
+      "modo": "anverso-reverso",
+      "anverso": "¿Qué es DMARC?",
+      "reverso": "Domain-based Message Authentication, Reporting and Conformance: política que indica qué hacer si fallan SPF o DKIM (rechazar o marcar spam).",
+      "texto": null,
+      "respuestas": [],
+      "tags": [],
+      "verificado": false
+    },
+    {
+      "concepto_id": "c-fa3a25883c47",
+      "modo": "anverso-reverso",
+      "anverso": "¿Qué es STARTTLS?",
+      "reverso": "Mecanismo para upgrade de una conexión insegura a segura (TLS) en el mismo puerto.",
+      "texto": null,
+      "respuestas": [],
+      "tags": [],
+      "verificado": false
+    },
+    {
+      "concepto_id": null,
+      "modo": "anverso-reverso",
+      "anverso": "¿Qué es un Open Relay?",
+      "reverso": "Servidor de correo que reenvía mensajes sin autenticación; vulnerabilidad crítica usada para spam.",
+      "texto": null,
+      "respuestas": [],
+      "tags": [],
+      "verificado": false
+    },
+    {
+      "concepto_id": null,
+      "modo": "anverso-reverso",
+      "anverso": "¿Qué formatos de buzón existen?",
+      "reverso": "mbox (un único fichero) y maildir (un fichero por mensaje).",
+      "texto": null,
+      "respuestas": [],
+      "tags": [],
+      "verificado": false
+    },
+    {
+      "concepto_id": null,
+      "modo": "anverso-reverso",
+      "anverso": "¿Dónde se ubica el servidor de correo corporativo (CCN-CERT)?",
+      "reverso": "En la DMZ.",
+      "texto": null,
+      "respuestas": [],
+      "tags": [],
+      "verificado": false
+    },
+    {
+      "concepto_id": null,
+      "modo": "anverso-reverso",
+      "anverso": "¿Qué es un DAG en Exchange 2013?",
+      "reverso": "Database Availability Group: grupo de bases de datos con copia activa y pasiva para alta disponibilidad.",
+      "texto": null,
+      "respuestas": [],
+      "tags": [],
+      "verificado": false
+    },
+    {
+      "concepto_id": "c-1f16881069b9",
+      "modo": "anverso-reverso",
+      "anverso": "¿Qué es un Pod en Kubernetes?",
+      "reverso": "Unidad mínima de despliegue; agrupa uno o más contenedores que comparten red y almacenamiento.",
+      "texto": null,
+      "respuestas": [],
+      "tags": [],
+      "verificado": false
+    },
+    {
+      "concepto_id": null,
+      "modo": "anverso-reverso",
+      "anverso": "¿Qué tipos de Service existen en Kubernetes?",
+      "reverso": "ClusterIP (por defecto, solo interno), NodePort (puerto estático en cada nodo), LoadBalancer (equilibrador externo), Ingress (acceso HTTP/HTTPS con rutas).",
+      "texto": null,
+      "respuestas": [],
+      "tags": [],
+      "verificado": false
+    },
+    {
+      "concepto_id": null,
+      "modo": "anverso-reverso",
+      "anverso": "¿Qué es ETCD?",
+      "reverso": "Almacenamiento no volátil donde se guarda toda la configuración del clúster Kubernetes.",
+      "texto": null,
+      "respuestas": [],
+      "tags": [],
+      "verificado": false
+    },
+    {
+      "concepto_id": null,
+      "modo": "anverso-reverso",
+      "anverso": "¿Qué es un ConfigMap?",
+      "reverso": "Objeto para datos de configuración no confidenciales en texto plano.",
+      "texto": null,
+      "respuestas": [],
+      "tags": [],
+      "verificado": false
+    },
+    {
+      "concepto_id": null,
+      "modo": "anverso-reverso",
+      "anverso": "¿Qué es un Secret en Kubernetes?",
+      "reverso": "Objeto para datos sensibles, codificados en base64.",
+      "texto": null,
+      "respuestas": [],
+      "tags": [],
+      "verificado": false
+    },
+    {
+      "concepto_id": null,
+      "modo": "anverso-reverso",
+      "anverso": "¿Qué componentes tiene Kubernetes?",
+      "reverso": "Kubelet, API Server, Scheduler, Controller Manager, Kube-proxy.",
+      "texto": null,
+      "respuestas": [],
+      "tags": [],
+      "verificado": false
+    },
+    {
+      "concepto_id": null,
+      "modo": "anverso-reverso",
+      "anverso": "¿Qué es el Scheduler en K8s?",
+      "reverso": "Componente que asigna Pods a nodos según recursos disponibles.",
+      "texto": null,
+      "respuestas": [],
+      "tags": [],
+      "verificado": false
+    },
+    {
+      "concepto_id": null,
+      "modo": "anverso-reverso",
+      "anverso": "¿Qué es el Kubelet?",
+      "reverso": "Agente por nodo que garantiza que los contenedores estén en ejecución.",
+      "texto": null,
+      "respuestas": [],
+      "tags": [],
+      "verificado": false
+    },
+    {
+      "concepto_id": null,
+      "modo": "anverso-reverso",
+      "anverso": "¿Qué es un Dockerfile?",
+      "reverso": "Fichero de texto con instrucciones para crear una imagen Docker.",
+      "texto": null,
+      "respuestas": [],
+      "tags": [],
+      "verificado": false
+    },
+    {
+      "concepto_id": null,
+      "modo": "anverso-reverso",
+      "anverso": "¿Cómo se persisten datos en Docker (mecanismo preferido)?",
+      "reverso": "Mediante Volúmenes.",
+      "texto": null,
+      "respuestas": [],
+      "tags": [],
+      "verificado": false
+    },
+    {
+      "concepto_id": null,
+      "modo": "anverso-reverso",
+      "anverso": "¿Qué son las capas (layers) de una imagen Docker?",
+      "reverso": "Imagenes de solo lectura compuestas por capas; al ejecutar un contenedor se añade una fina capa R/W superior.",
+      "texto": null,
+      "respuestas": [],
+      "tags": [],
+      "verificado": false
+    },
+    {
+      "concepto_id": null,
+      "modo": "anverso-reverso",
+      "anverso": "¿Diferencia CMD vs ENTRYPOINT en Docker?",
+      "reverso": "CMD proporciona argumentos por defecto (sobrescribibles); ENTRYPOINT es el ejecutable principal que siempre se ejecuta.",
+      "texto": null,
+      "respuestas": [],
+      "tags": [],
+      "verificado": false
+    },
+    {
+      "concepto_id": null,
+      "modo": "anverso-reverso",
+      "anverso": "¿Redes en Docker: bridge vs host?",
+      "reverso": "bridge: red virtual interna por defecto; host: comparte la pila de red con el host.",
+      "texto": null,
+      "respuestas": [],
+      "tags": [],
+      "verificado": false
+    },
+    {
+      "concepto_id": null,
+      "modo": "anverso-reverso",
+      "anverso": "¿Qué es LXC?",
+      "reverso": "Linux Containers: virtualización a nivel de sistema operativo para Linux.",
+      "texto": null,
+      "respuestas": [],
+      "tags": [],
+      "verificado": false
+    },
+    {
+      "concepto_id": null,
+      "modo": "anverso-reverso",
+      "anverso": "Estrategias de gestión de microservicios",
+      "reverso": "Coreografía (descentralizada, por eventos) y Orquestación (centralizada, con orquestador).",
+      "texto": null,
+      "respuestas": [],
+      "tags": [],
+      "verificado": false
+    },
+    {
+      "concepto_id": null,
+      "modo": "anverso-reverso",
+      "anverso": "¿Qué es el patrón Sidecar?",
+      "reverso": "Contenedor secundario junto al principal en el mismo Pod; comparte ciclo de vida y red (logs, proxies, seguridad).",
+      "texto": null,
+      "respuestas": [],
+      "tags": [],
+      "verificado": false
+    },
+    {
+      "concepto_id": null,
+      "modo": "anverso-reverso",
+      "anverso": "Beneficios de los microservicios",
+      "reverso": "Escalado flexible, CI/CD, resistencia a errores (degradación sin bloquear toda la app), tecnologías heterogéneas frente a monolitos.",
+      "texto": null,
+      "respuestas": [],
+      "tags": [],
+      "verificado": false
+    },
+    {
+      "concepto_id": null,
+      "modo": "anverso-reverso",
+      "anverso": "¿Qué es OpenShift?",
+      "reverso": "Plataforma de contenedores basada en Kubernetes (Red Hat).",
+      "texto": null,
+      "respuestas": [],
+      "tags": [],
+      "verificado": false
+    },
+    {
+      "concepto_id": null,
+      "modo": "anverso-reverso",
+      "anverso": "¿Qué protocolos usa un Service de K8s?",
+      "reverso": "SCTP, TCP (por defecto) y UDP.",
+      "texto": null,
+      "respuestas": [],
+      "tags": [],
+      "verificado": false
+    },
+    {
+      "concepto_id": null,
+      "modo": "anverso-reverso",
+      "anverso": "¿Qué identifica unívocamente a un objeto en K8s?",
+      "reverso": "El campo metadata.",
+      "texto": null,
+      "respuestas": [],
+      "tags": [],
+      "verificado": false
+    },
+    {
+      "concepto_id": null,
+      "modo": "cloze",
+      "anverso": null,
+      "reverso": null,
+      "texto": "En Kubernetes, el almacenamiento no volátil donde se guarda toda la configuración del clúster es {{ETCD}}.",
+      "respuestas": [
+        "ETCD"
+      ],
+      "tags": [
+        "kubernetes"
+      ],
+      "verificado": false
+    },
+    {
+      "concepto_id": null,
+      "modo": "cloze",
+      "anverso": null,
+      "reverso": null,
+      "texto": "El puerto seguro (TLS) de SMTP es {{465}}, el de POP3 es {{995}} y el de IMAP es {{993}}.",
+      "respuestas": [
+        "465",
+        "995",
+        "993"
+      ],
+      "tags": [
+        "puertos"
+      ],
+      "verificado": false
+    },
+    {
+      "concepto_id": null,
+      "modo": "cloze",
+      "anverso": null,
+      "reverso": null,
+      "texto": "En Docker, el mecanismo preferido para persistir datos es {{Volúmenes}}.",
+      "respuestas": [
+        "Volúmenes"
+      ],
+      "tags": [
+        "docker"
+      ],
+      "verificado": false
+    },
+    {
+      "concepto_id": null,
+      "modo": "cloze",
+      "anverso": null,
+      "reverso": null,
+      "texto": "Los dos formatos de buzón son {{mbox}} (un único fichero) y {{maildir}} (un fichero por mensaje).",
+      "respuestas": [
+        "mbox",
+        "maildir"
+      ],
+      "tags": [
+        "correo"
+      ],
+      "verificado": false
+    }
+  ]
+}

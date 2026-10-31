@@ -1,0 +1,3424 @@
+{
+  "clasificacion": [
+    {
+      "pregunta_id": "pendiente-supuesto-1-2018-p01",
+      "tema_numero": 21,
+      "tema_titulo": "Aplicaciones web. HTML, XML. Lenguajes de script. Front-end y back-end",
+      "concepto_aproximado": "autofocus HTML5"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-2018-p02",
+      "tema_numero": 21,
+      "tema_titulo": "Aplicaciones web. HTML, XML. Lenguajes de script. Front-end y back-end",
+      "concepto_aproximado": "selector color HTML5"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-2018-p03",
+      "tema_numero": 21,
+      "tema_titulo": "Aplicaciones web. HTML, XML. Lenguajes de script. Front-end y back-end",
+      "concepto_aproximado": "evento change select"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-2018-p04",
+      "tema_numero": 21,
+      "tema_titulo": "Aplicaciones web. HTML, XML. Lenguajes de script. Front-end y back-end",
+      "concepto_aproximado": "etiqueta audio HTML5"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-2018-p05",
+      "tema_numero": 21,
+      "tema_titulo": "Aplicaciones web. HTML, XML. Lenguajes de script. Front-end y back-end",
+      "concepto_aproximado": "list-style-type CSS"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-2018-p06",
+      "tema_numero": 21,
+      "tema_titulo": "Aplicaciones web. HTML, XML. Lenguajes de script. Front-end y back-end",
+      "concepto_aproximado": "novedades HTML5"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-2018-p07",
+      "tema_numero": 15,
+      "tema_titulo": "Modelado de datos. Diseño de BD. Modelo relacional. Normalización",
+      "concepto_aproximado": "modelo físico relacional"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-2018-p08",
+      "tema_numero": 17,
+      "tema_titulo": "Lenguajes de interrogación de BD. ANSI SQL. Procedimientos y triggers",
+      "concepto_aproximado": "consulta SQL anti-join"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-2018-p09",
+      "tema_numero": 17,
+      "tema_titulo": "Lenguajes de interrogación de BD. ANSI SQL. Procedimientos y triggers",
+      "concepto_aproximado": "DDL CREATE TABLE FK"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-2018-p10",
+      "tema_numero": 17,
+      "tema_titulo": "Lenguajes de interrogación de BD. ANSI SQL. Procedimientos y triggers",
+      "concepto_aproximado": "GROUP BY SQL"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-2018-p11",
+      "tema_numero": 17,
+      "tema_titulo": "Lenguajes de interrogación de BD. ANSI SQL. Procedimientos y triggers",
+      "concepto_aproximado": "importación CSV SQL"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-2018-p12",
+      "tema_numero": 17,
+      "tema_titulo": "Lenguajes de interrogación de BD. ANSI SQL. Procedimientos y triggers",
+      "concepto_aproximado": "savepoint transacción"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-2018-p13",
+      "tema_numero": 21,
+      "tema_titulo": "Aplicaciones web. HTML, XML. Lenguajes de script. Front-end y back-end",
+      "concepto_aproximado": "Laravel persistencia datos"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-2018-p14",
+      "tema_numero": 16,
+      "tema_titulo": "Lenguajes de programación: tipos, operadores, control de flujo, funciones",
+      "concepto_aproximado": "funciones cadena PHP"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-2018-p15",
+      "tema_numero": 16,
+      "tema_titulo": "Lenguajes de programación: tipos, operadores, control de flujo, funciones",
+      "concepto_aproximado": "count array PHP"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-2018-p16",
+      "tema_numero": 16,
+      "tema_titulo": "Lenguajes de programación: tipos, operadores, control de flujo, funciones",
+      "concepto_aproximado": "bucle foreach PHP"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-2018-p17",
+      "tema_numero": 16,
+      "tema_titulo": "Lenguajes de programación: tipos, operadores, control de flujo, funciones",
+      "concepto_aproximado": "clase PHP género"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-2018-p18",
+      "tema_numero": 21,
+      "tema_titulo": "Aplicaciones web. HTML, XML. Lenguajes de script. Front-end y back-end",
+      "concepto_aproximado": "frameworks PHP"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-2018-p19",
+      "tema_numero": 16,
+      "tema_titulo": "Lenguajes de programación: tipos, operadores, control de flujo, funciones",
+      "concepto_aproximado": "librería logging Java"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-2018-p20",
+      "tema_numero": 16,
+      "tema_titulo": "Lenguajes de programación: tipos, operadores, control de flujo, funciones",
+      "concepto_aproximado": "jerarquía excepciones Java"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-2018-p21",
+      "tema_numero": 16,
+      "tema_titulo": "Lenguajes de programación: tipos, operadores, control de flujo, funciones",
+      "concepto_aproximado": "recursión Fibonacci"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-2018-p22",
+      "tema_numero": 20,
+      "tema_titulo": "Arquitectura cliente/servidor y multicapas. Servicios web y protocolos",
+      "concepto_aproximado": "código estado HTTP 200"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-2018-p23",
+      "tema_numero": 19,
+      "tema_titulo": "Arquitectura Java EE/Jakarta EE y plataforma .NET",
+      "concepto_aproximado": ".NET acceso datos"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-2018-p24",
+      "tema_numero": 19,
+      "tema_titulo": "Arquitectura Java EE/Jakarta EE y plataforma .NET",
+      "concepto_aproximado": "namespaces .NET"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-2018-p25",
+      "tema_numero": 16,
+      "tema_titulo": "Lenguajes de programación: tipos, operadores, control de flujo, funciones",
+      "concepto_aproximado": "conversión fecha C#"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-2018-p26",
+      "tema_numero": 18,
+      "tema_titulo": "Diseño y programación orientada a objetos. Patrones de diseño. UML",
+      "concepto_aproximado": "programación orientada aspectos"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-2018-p27",
+      "tema_numero": 18,
+      "tema_titulo": "Diseño y programación orientada a objetos. Patrones de diseño. UML",
+      "concepto_aproximado": "frameworks AOP .NET"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-2018-p28",
+      "tema_numero": 18,
+      "tema_titulo": "Diseño y programación orientada a objetos. Patrones de diseño. UML",
+      "concepto_aproximado": "diagrama secuencia UML"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-2018-p29",
+      "tema_numero": 23,
+      "tema_titulo": "Repositorios. Control de versiones. Metodologías. Pruebas de software",
+      "concepto_aproximado": "pruebas aceptación Métrica"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-2018-p30",
+      "tema_numero": 28,
+      "tema_titulo": "Seguridad de sistemas. Criptografía. Firma digital. CPD. Incidencias",
+      "concepto_aproximado": "vulnerabilidad zero-day"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-2018-p31",
+      "tema_numero": 16,
+      "tema_titulo": "Lenguajes de programación: tipos, operadores, control de flujo, funciones",
+      "concepto_aproximado": "clase Object Java"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-2018-p32",
+      "tema_numero": 19,
+      "tema_titulo": "Arquitectura Java EE/Jakarta EE y plataforma .NET",
+      "concepto_aproximado": "IDE Visual Studio"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-2018-p33",
+      "tema_numero": 19,
+      "tema_titulo": "Arquitectura Java EE/Jakarta EE y plataforma .NET",
+      "concepto_aproximado": "lenguajes .NET"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-2018-p34",
+      "tema_numero": 16,
+      "tema_titulo": "Lenguajes de programación: tipos, operadores, control de flujo, funciones",
+      "concepto_aproximado": "expresión regular validación"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-2018-p35",
+      "tema_numero": 21,
+      "tema_titulo": "Aplicaciones web. HTML, XML. Lenguajes de script. Front-end y back-end",
+      "concepto_aproximado": "comando Laravel"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-2021-p01",
+      "tema_numero": 21,
+      "tema_titulo": "Aplicaciones web. HTML, XML. Lenguajes de script. Front-end y back-end",
+      "concepto_aproximado": "etiqueta th tabla"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-2021-p02",
+      "tema_numero": 21,
+      "tema_titulo": "Aplicaciones web. HTML, XML. Lenguajes de script. Front-end y back-end",
+      "concepto_aproximado": "listas anidadas HTML"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-2021-p03",
+      "tema_numero": 21,
+      "tema_titulo": "Aplicaciones web. HTML, XML. Lenguajes de script. Front-end y back-end",
+      "concepto_aproximado": "atributo required"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-2021-p04",
+      "tema_numero": 21,
+      "tema_titulo": "Aplicaciones web. HTML, XML. Lenguajes de script. Front-end y back-end",
+      "concepto_aproximado": "selector CSS hijo"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-2021-p05",
+      "tema_numero": 21,
+      "tema_titulo": "Aplicaciones web. HTML, XML. Lenguajes de script. Front-end y back-end",
+      "concepto_aproximado": "flexbox CSS"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-2021-p06",
+      "tema_numero": 21,
+      "tema_titulo": "Aplicaciones web. HTML, XML. Lenguajes de script. Front-end y back-end",
+      "concepto_aproximado": "XML bien formado"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-2021-p07",
+      "tema_numero": 21,
+      "tema_titulo": "Aplicaciones web. HTML, XML. Lenguajes de script. Front-end y back-end",
+      "concepto_aproximado": "JSON válido"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-2021-p08",
+      "tema_numero": 21,
+      "tema_titulo": "Aplicaciones web. HTML, XML. Lenguajes de script. Front-end y back-end",
+      "concepto_aproximado": "JavaScript bucle"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-2021-p09",
+      "tema_numero": 16,
+      "tema_titulo": "Lenguajes de programación: tipos, operadores, control de flujo, funciones",
+      "concepto_aproximado": "diccionario Python"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-2021-p10",
+      "tema_numero": 16,
+      "tema_titulo": "Lenguajes de programación: tipos, operadores, control de flujo, funciones",
+      "concepto_aproximado": "librerías machine learning"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-2021-p11",
+      "tema_numero": 16,
+      "tema_titulo": "Lenguajes de programación: tipos, operadores, control de flujo, funciones",
+      "concepto_aproximado": "StringBuilder Java"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-2021-p12",
+      "tema_numero": 16,
+      "tema_titulo": "Lenguajes de programación: tipos, operadores, control de flujo, funciones",
+      "concepto_aproximado": "clase final Java"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-2021-p13",
+      "tema_numero": 16,
+      "tema_titulo": "Lenguajes de programación: tipos, operadores, control de flujo, funciones",
+      "concepto_aproximado": "using IDisposable C#"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-2021-p14",
+      "tema_numero": 16,
+      "tema_titulo": "Lenguajes de programación: tipos, operadores, control de flujo, funciones",
+      "concepto_aproximado": "declaración array C#"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-2021-p15",
+      "tema_numero": 15,
+      "tema_titulo": "Modelado de datos. Diseño de BD. Modelo relacional. Normalización",
+      "concepto_aproximado": "formas normales BD"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-2021-p16",
+      "tema_numero": 17,
+      "tema_titulo": "Lenguajes de interrogación de BD. ANSI SQL. Procedimientos y triggers",
+      "concepto_aproximado": "CASE SQL mapping"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-2021-p17",
+      "tema_numero": 17,
+      "tema_titulo": "Lenguajes de interrogación de BD. ANSI SQL. Procedimientos y triggers",
+      "concepto_aproximado": "GROUP BY HAVING SQL"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-2021-p18",
+      "tema_numero": 17,
+      "tema_titulo": "Lenguajes de interrogación de BD. ANSI SQL. Procedimientos y triggers",
+      "concepto_aproximado": "UPDATE SQL"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-2021-p19",
+      "tema_numero": 17,
+      "tema_titulo": "Lenguajes de interrogación de BD. ANSI SQL. Procedimientos y triggers",
+      "concepto_aproximado": "LIKE SQL prefijo"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-2021-p20",
+      "tema_numero": 23,
+      "tema_titulo": "Repositorios. Control de versiones. Metodologías. Pruebas de software",
+      "concepto_aproximado": "git log"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-2021-p21",
+      "tema_numero": 21,
+      "tema_titulo": "Aplicaciones web. HTML, XML. Lenguajes de script. Front-end y back-end",
+      "concepto_aproximado": "JavaScript DOM"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-2021-p22",
+      "tema_numero": 23,
+      "tema_titulo": "Repositorios. Control de versiones. Metodologías. Pruebas de software",
+      "concepto_aproximado": "Jest pruebas JS"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-2021-p23",
+      "tema_numero": 21,
+      "tema_titulo": "Aplicaciones web. HTML, XML. Lenguajes de script. Front-end y back-end",
+      "concepto_aproximado": "frameworks web Python"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-2021-p24",
+      "tema_numero": 21,
+      "tema_titulo": "Aplicaciones web. HTML, XML. Lenguajes de script. Front-end y back-end",
+      "concepto_aproximado": "etiqueta video HTML5"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-2021-p25",
+      "tema_numero": 22,
+      "tema_titulo": "Accesibilidad, diseño universal y usabilidad. Seguridad en el desarrollo",
+      "concepto_aproximado": "inyección SQL"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-2023-p01",
+      "tema_numero": 18,
+      "tema_titulo": "Diseño y programación orientada a objetos. Patrones de diseño. UML",
+      "concepto_aproximado": "multiplicidades UML"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-2023-p02",
+      "tema_numero": 16,
+      "tema_titulo": "Lenguajes de programación: tipos, operadores, control de flujo, funciones",
+      "concepto_aproximado": "modificadores visibilidad Java"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-2023-p03",
+      "tema_numero": 16,
+      "tema_titulo": "Lenguajes de programación: tipos, operadores, control de flujo, funciones",
+      "concepto_aproximado": "colecciones Java Set"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-2023-p04",
+      "tema_numero": 17,
+      "tema_titulo": "Lenguajes de interrogación de BD. ANSI SQL. Procedimientos y triggers",
+      "concepto_aproximado": "DDL CREATE TABLE"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-2023-p05",
+      "tema_numero": 17,
+      "tema_titulo": "Lenguajes de interrogación de BD. ANSI SQL. Procedimientos y triggers",
+      "concepto_aproximado": "PL/SQL Oracle"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-2023-p06",
+      "tema_numero": 18,
+      "tema_titulo": "Diseño y programación orientada a objetos. Patrones de diseño. UML",
+      "concepto_aproximado": "patrón adaptador"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-2023-p07",
+      "tema_numero": 18,
+      "tema_titulo": "Diseño y programación orientada a objetos. Patrones de diseño. UML",
+      "concepto_aproximado": "estándar UML"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-2023-p08",
+      "tema_numero": 18,
+      "tema_titulo": "Diseño y programación orientada a objetos. Patrones de diseño. UML",
+      "concepto_aproximado": "diagrama componentes UML"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-2023-p09",
+      "tema_numero": 19,
+      "tema_titulo": "Arquitectura Java EE/Jakarta EE y plataforma .NET",
+      "concepto_aproximado": "frameworks escritorio .NET"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-2023-p10",
+      "tema_numero": 22,
+      "tema_titulo": "Accesibilidad, diseño universal y usabilidad. Seguridad en el desarrollo",
+      "concepto_aproximado": "normativa accesibilidad web"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-2023-p11",
+      "tema_numero": 19,
+      "tema_titulo": "Arquitectura Java EE/Jakarta EE y plataforma .NET",
+      "concepto_aproximado": "JDBC conexión BD"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-2023-p12",
+      "tema_numero": 26,
+      "tema_titulo": "Servidores de correo. Contenedores y microservicios",
+      "concepto_aproximado": "microservicios Jakarta EE"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-2023-p13",
+      "tema_numero": 23,
+      "tema_titulo": "Repositorios. Control de versiones. Metodologías. Pruebas de software",
+      "concepto_aproximado": "Selenium pruebas web"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-2023-p14",
+      "tema_numero": 22,
+      "tema_titulo": "Accesibilidad, diseño universal y usabilidad. Seguridad en el desarrollo",
+      "concepto_aproximado": "análisis estático código"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-2023-p15",
+      "tema_numero": 31,
+      "tema_titulo": "Internet: arquitectura. Protocolos HTTP, HTTPS y SSL/TLS",
+      "concepto_aproximado": "HTTPS TLS"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-2023-p16",
+      "tema_numero": 20,
+      "tema_titulo": "Arquitectura cliente/servidor y multicapas. Servicios web y protocolos",
+      "concepto_aproximado": "notificaciones push móviles"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-2023-p17",
+      "tema_numero": 21,
+      "tema_titulo": "Aplicaciones web. HTML, XML. Lenguajes de script. Front-end y back-end",
+      "concepto_aproximado": "CSS estilos"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-2023-p18",
+      "tema_numero": 22,
+      "tema_titulo": "Accesibilidad, diseño universal y usabilidad. Seguridad en el desarrollo",
+      "concepto_aproximado": "Material Design Google"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-2023-p19",
+      "tema_numero": 22,
+      "tema_titulo": "Accesibilidad, diseño universal y usabilidad. Seguridad en el desarrollo",
+      "concepto_aproximado": "ataque CSRF"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-2023-p20",
+      "tema_numero": 23,
+      "tema_titulo": "Repositorios. Control de versiones. Metodologías. Pruebas de software",
+      "concepto_aproximado": "CI/CD pipelines"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-2023-p21",
+      "tema_numero": 21,
+      "tema_titulo": "Aplicaciones web. HTML, XML. Lenguajes de script. Front-end y back-end",
+      "concepto_aproximado": "operadores JavaScript"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-2023-p22",
+      "tema_numero": 22,
+      "tema_titulo": "Accesibilidad, diseño universal y usabilidad. Seguridad en el desarrollo",
+      "concepto_aproximado": "atributo SameSite cookie"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-2023-p23",
+      "tema_numero": 21,
+      "tema_titulo": "Aplicaciones web. HTML, XML. Lenguajes de script. Front-end y back-end",
+      "concepto_aproximado": "sesiones PHP"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-2023-p24",
+      "tema_numero": 21,
+      "tema_titulo": "Aplicaciones web. HTML, XML. Lenguajes de script. Front-end y back-end",
+      "concepto_aproximado": "frameworks frontend"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-2023-p25",
+      "tema_numero": 21,
+      "tema_titulo": "Aplicaciones web. HTML, XML. Lenguajes de script. Front-end y back-end",
+      "concepto_aproximado": "JSON.parse JavaScript"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-a-2024-p01",
+      "tema_numero": 21,
+      "tema_titulo": "Aplicaciones web. HTML, XML. Lenguajes de script. Front-end y back-end",
+      "concepto_aproximado": "atributo maxlength"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-a-2024-p02",
+      "tema_numero": 15,
+      "tema_titulo": "Modelado de datos. Diseño de BD. Modelo relacional. Normalización",
+      "concepto_aproximado": "ORM mapeo objeto-relacional"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-a-2024-p03",
+      "tema_numero": 17,
+      "tema_titulo": "Lenguajes de interrogación de BD. ANSI SQL. Procedimientos y triggers",
+      "concepto_aproximado": "INSERT SQL"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-a-2024-p04",
+      "tema_numero": 15,
+      "tema_titulo": "Modelado de datos. Diseño de BD. Modelo relacional. Normalización",
+      "concepto_aproximado": "relación 1:N"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-a-2024-p05",
+      "tema_numero": 22,
+      "tema_titulo": "Accesibilidad, diseño universal y usabilidad. Seguridad en el desarrollo",
+      "concepto_aproximado": "herramientas accesibilidad"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-a-2024-p06",
+      "tema_numero": 21,
+      "tema_titulo": "Aplicaciones web. HTML, XML. Lenguajes de script. Front-end y back-end",
+      "concepto_aproximado": "renderizado servidor SSR"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-a-2024-p07",
+      "tema_numero": 18,
+      "tema_titulo": "Diseño y programación orientada a objetos. Patrones de diseño. UML",
+      "concepto_aproximado": "diagrama actividad UML"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-a-2024-p08",
+      "tema_numero": 20,
+      "tema_titulo": "Arquitectura cliente/servidor y multicapas. Servicios web y protocolos",
+      "concepto_aproximado": "cliente servicios web Java"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-a-2024-p09",
+      "tema_numero": 19,
+      "tema_titulo": "Arquitectura Java EE/Jakarta EE y plataforma .NET",
+      "concepto_aproximado": "JAXB mapeo XML"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-a-2024-p10",
+      "tema_numero": 23,
+      "tema_titulo": "Repositorios. Control de versiones. Metodologías. Pruebas de software",
+      "concepto_aproximado": "herramientas calidad código"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-a-2024-p11",
+      "tema_numero": 16,
+      "tema_titulo": "Lenguajes de programación: tipos, operadores, control de flujo, funciones",
+      "concepto_aproximado": "LocalDateTime Java"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-a-2024-p12",
+      "tema_numero": 20,
+      "tema_titulo": "Arquitectura cliente/servidor y multicapas. Servicios web y protocolos",
+      "concepto_aproximado": "documentación servicios web"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-a-2024-p13",
+      "tema_numero": 17,
+      "tema_titulo": "Lenguajes de interrogación de BD. ANSI SQL. Procedimientos y triggers",
+      "concepto_aproximado": "DDL CREATE TABLE"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-a-2024-p14",
+      "tema_numero": 14,
+      "tema_titulo": "SGBD relacionales, orientados a objetos y NoSQL",
+      "concepto_aproximado": "nivel aislamiento transacciones"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-a-2024-p15",
+      "tema_numero": 28,
+      "tema_titulo": "Seguridad de sistemas. Criptografía. Firma digital. CPD. Incidencias",
+      "concepto_aproximado": "firma digital SOAP"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-a-2024-p16",
+      "tema_numero": 19,
+      "tema_titulo": "Arquitectura Java EE/Jakarta EE y plataforma .NET",
+      "concepto_aproximado": ".NET NuGet iText"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-a-2024-p17",
+      "tema_numero": 25,
+      "tema_titulo": "Administración de BD. Almacenamiento y virtualización. Backup y recuperación",
+      "concepto_aproximado": "optimización modelo físico BD"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-a-2024-p18",
+      "tema_numero": 23,
+      "tema_titulo": "Repositorios. Control de versiones. Metodologías. Pruebas de software",
+      "concepto_aproximado": "retrospectiva SCRUM"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-a-2024-p19",
+      "tema_numero": 20,
+      "tema_titulo": "Arquitectura cliente/servidor y multicapas. Servicios web y protocolos",
+      "concepto_aproximado": "arquitectura SOA"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-a-2024-p20",
+      "tema_numero": 16,
+      "tema_titulo": "Lenguajes de programación: tipos, operadores, control de flujo, funciones",
+      "concepto_aproximado": "tipos nullable C#"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-a-2024-p21",
+      "tema_numero": 21,
+      "tema_titulo": "Aplicaciones web. HTML, XML. Lenguajes de script. Front-end y back-end",
+      "concepto_aproximado": "especificidad CSS"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-a-2024-p22",
+      "tema_numero": 22,
+      "tema_titulo": "Accesibilidad, diseño universal y usabilidad. Seguridad en el desarrollo",
+      "concepto_aproximado": "accesibilidad ARIA"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-a-2024-p23",
+      "tema_numero": 17,
+      "tema_titulo": "Lenguajes de interrogación de BD. ANSI SQL. Procedimientos y triggers",
+      "concepto_aproximado": "consulta SQL filtro"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-a-2024-p24",
+      "tema_numero": 22,
+      "tema_titulo": "Accesibilidad, diseño universal y usabilidad. Seguridad en el desarrollo",
+      "concepto_aproximado": "CORS origen cruzado"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-a-2024-p25",
+      "tema_numero": 23,
+      "tema_titulo": "Repositorios. Control de versiones. Metodologías. Pruebas de software",
+      "concepto_aproximado": "README repositorio"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-a-2025-p01",
+      "tema_numero": 21,
+      "tema_titulo": "Aplicaciones web. HTML, XML. Lenguajes de script. Front-end y back-end",
+      "concepto_aproximado": "atributo maxlength"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-a-2025-p02",
+      "tema_numero": 15,
+      "tema_titulo": "Modelado de datos. Diseño de BD. Modelo relacional. Normalización",
+      "concepto_aproximado": "ORM mapeo objeto-relacional"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-a-2025-p03",
+      "tema_numero": 17,
+      "tema_titulo": "Lenguajes de interrogación de BD. ANSI SQL. Procedimientos y triggers",
+      "concepto_aproximado": "INSERT SQL"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-a-2025-p04",
+      "tema_numero": 15,
+      "tema_titulo": "Modelado de datos. Diseño de BD. Modelo relacional. Normalización",
+      "concepto_aproximado": "relación 1:N"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-a-2025-p05",
+      "tema_numero": 22,
+      "tema_titulo": "Accesibilidad, diseño universal y usabilidad. Seguridad en el desarrollo",
+      "concepto_aproximado": "herramientas accesibilidad"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-a-2025-p06",
+      "tema_numero": 21,
+      "tema_titulo": "Aplicaciones web. HTML, XML. Lenguajes de script. Front-end y back-end",
+      "concepto_aproximado": "renderizado servidor SSR"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-a-2025-p07",
+      "tema_numero": 18,
+      "tema_titulo": "Diseño y programación orientada a objetos. Patrones de diseño. UML",
+      "concepto_aproximado": "diagrama actividad UML"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-a-2025-p08",
+      "tema_numero": 20,
+      "tema_titulo": "Arquitectura cliente/servidor y multicapas. Servicios web y protocolos",
+      "concepto_aproximado": "cliente servicios web Java"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-a-2025-p09",
+      "tema_numero": 19,
+      "tema_titulo": "Arquitectura Java EE/Jakarta EE y plataforma .NET",
+      "concepto_aproximado": "JAXB mapeo XML"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-a-2025-p10",
+      "tema_numero": 23,
+      "tema_titulo": "Repositorios. Control de versiones. Metodologías. Pruebas de software",
+      "concepto_aproximado": "herramientas calidad código"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-a-2025-p11",
+      "tema_numero": 16,
+      "tema_titulo": "Lenguajes de programación: tipos, operadores, control de flujo, funciones",
+      "concepto_aproximado": "LocalDateTime Java"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-a-2025-p12",
+      "tema_numero": 20,
+      "tema_titulo": "Arquitectura cliente/servidor y multicapas. Servicios web y protocolos",
+      "concepto_aproximado": "documentación servicios web"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-a-2025-p13",
+      "tema_numero": 17,
+      "tema_titulo": "Lenguajes de interrogación de BD. ANSI SQL. Procedimientos y triggers",
+      "concepto_aproximado": "DDL CREATE TABLE"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-a-2025-p14",
+      "tema_numero": 14,
+      "tema_titulo": "SGBD relacionales, orientados a objetos y NoSQL",
+      "concepto_aproximado": "nivel aislamiento transacciones"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-a-2025-p15",
+      "tema_numero": 28,
+      "tema_titulo": "Seguridad de sistemas. Criptografía. Firma digital. CPD. Incidencias",
+      "concepto_aproximado": "firma digital SOAP"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-a-2025-p16",
+      "tema_numero": 19,
+      "tema_titulo": "Arquitectura Java EE/Jakarta EE y plataforma .NET",
+      "concepto_aproximado": ".NET NuGet iText"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-a-2025-p17",
+      "tema_numero": 25,
+      "tema_titulo": "Administración de BD. Almacenamiento y virtualización. Backup y recuperación",
+      "concepto_aproximado": "optimización modelo físico BD"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-a-2025-p18",
+      "tema_numero": 23,
+      "tema_titulo": "Repositorios. Control de versiones. Metodologías. Pruebas de software",
+      "concepto_aproximado": "retrospectiva SCRUM"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-a-2025-p19",
+      "tema_numero": 20,
+      "tema_titulo": "Arquitectura cliente/servidor y multicapas. Servicios web y protocolos",
+      "concepto_aproximado": "arquitectura SOA"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-a-2025-p20",
+      "tema_numero": 16,
+      "tema_titulo": "Lenguajes de programación: tipos, operadores, control de flujo, funciones",
+      "concepto_aproximado": "tipos nullable C#"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-a-2025-p21",
+      "tema_numero": 21,
+      "tema_titulo": "Aplicaciones web. HTML, XML. Lenguajes de script. Front-end y back-end",
+      "concepto_aproximado": "especificidad CSS"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-a-2025-p22",
+      "tema_numero": 22,
+      "tema_titulo": "Accesibilidad, diseño universal y usabilidad. Seguridad en el desarrollo",
+      "concepto_aproximado": "accesibilidad ARIA"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-a-2025-p23",
+      "tema_numero": 17,
+      "tema_titulo": "Lenguajes de interrogación de BD. ANSI SQL. Procedimientos y triggers",
+      "concepto_aproximado": "consulta SQL filtro"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-a-2025-p24",
+      "tema_numero": 22,
+      "tema_titulo": "Accesibilidad, diseño universal y usabilidad. Seguridad en el desarrollo",
+      "concepto_aproximado": "CORS origen cruzado"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-a-2025-p25",
+      "tema_numero": 23,
+      "tema_titulo": "Repositorios. Control de versiones. Metodologías. Pruebas de software",
+      "concepto_aproximado": "README repositorio"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-a-2026-p01",
+      "tema_numero": 17,
+      "tema_titulo": "Lenguajes de interrogación de BD. ANSI SQL. Procedimientos y triggers",
+      "concepto_aproximado": "índice único Oracle"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-a-2026-p02",
+      "tema_numero": 17,
+      "tema_titulo": "Lenguajes de interrogación de BD. ANSI SQL. Procedimientos y triggers",
+      "concepto_aproximado": "INNER JOIN SQL"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-a-2026-p03",
+      "tema_numero": 17,
+      "tema_titulo": "Lenguajes de interrogación de BD. ANSI SQL. Procedimientos y triggers",
+      "concepto_aproximado": "GROUP BY SQL"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-a-2026-p04",
+      "tema_numero": 20,
+      "tema_titulo": "Arquitectura cliente/servidor y multicapas. Servicios web y protocolos",
+      "concepto_aproximado": "controlador REST Spring"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-a-2026-p05",
+      "tema_numero": 23,
+      "tema_titulo": "Repositorios. Control de versiones. Metodologías. Pruebas de software",
+      "concepto_aproximado": "pruebas unitarias JUnit"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-a-2026-p06",
+      "tema_numero": 16,
+      "tema_titulo": "Lenguajes de programación: tipos, operadores, control de flujo, funciones",
+      "concepto_aproximado": "autoboxing Java"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-a-2026-p07",
+      "tema_numero": 23,
+      "tema_titulo": "Repositorios. Control de versiones. Metodologías. Pruebas de software",
+      "concepto_aproximado": "Maven Spring Boot"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-a-2026-p08",
+      "tema_numero": 19,
+      "tema_titulo": "Arquitectura Java EE/Jakarta EE y plataforma .NET",
+      "concepto_aproximado": ".NET logging trazas"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-a-2026-p09",
+      "tema_numero": 16,
+      "tema_titulo": "Lenguajes de programación: tipos, operadores, control de flujo, funciones",
+      "concepto_aproximado": "programación asíncrona C#"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-a-2026-p10",
+      "tema_numero": 21,
+      "tema_titulo": "Aplicaciones web. HTML, XML. Lenguajes de script. Front-end y back-end",
+      "concepto_aproximado": "estructura HTML5"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-a-2026-p11",
+      "tema_numero": 21,
+      "tema_titulo": "Aplicaciones web. HTML, XML. Lenguajes de script. Front-end y back-end",
+      "concepto_aproximado": "XML bien formado"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-a-2026-p12",
+      "tema_numero": 21,
+      "tema_titulo": "Aplicaciones web. HTML, XML. Lenguajes de script. Front-end y back-end",
+      "concepto_aproximado": "atributo XML"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-a-2026-p13",
+      "tema_numero": 21,
+      "tema_titulo": "Aplicaciones web. HTML, XML. Lenguajes de script. Front-end y back-end",
+      "concepto_aproximado": "Fetch API JavaScript"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-a-2026-p14",
+      "tema_numero": 16,
+      "tema_titulo": "Lenguajes de programación: tipos, operadores, control de flujo, funciones",
+      "concepto_aproximado": "TensorFlow Python"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-a-2026-p15",
+      "tema_numero": 21,
+      "tema_titulo": "Aplicaciones web. HTML, XML. Lenguajes de script. Front-end y back-end",
+      "concepto_aproximado": "JavaScript navegador"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-a-2026-p16",
+      "tema_numero": 20,
+      "tema_titulo": "Arquitectura cliente/servidor y multicapas. Servicios web y protocolos",
+      "concepto_aproximado": "código HTTP 201"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-a-2026-p17",
+      "tema_numero": 22,
+      "tema_titulo": "Accesibilidad, diseño universal y usabilidad. Seguridad en el desarrollo",
+      "concepto_aproximado": "WCAG contenido principal"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-a-2026-p18",
+      "tema_numero": 22,
+      "tema_titulo": "Accesibilidad, diseño universal y usabilidad. Seguridad en el desarrollo",
+      "concepto_aproximado": "aria-expanded menú"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-a-2026-p19",
+      "tema_numero": 23,
+      "tema_titulo": "Repositorios. Control de versiones. Metodologías. Pruebas de software",
+      "concepto_aproximado": "git fetch"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-a-2026-p20",
+      "tema_numero": 22,
+      "tema_titulo": "Accesibilidad, diseño universal y usabilidad. Seguridad en el desarrollo",
+      "concepto_aproximado": "prevención XSS OWASP"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-a-2026-p21",
+      "tema_numero": 23,
+      "tema_titulo": "Repositorios. Control de versiones. Metodologías. Pruebas de software",
+      "concepto_aproximado": "GitHub Actions workflows"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-a-2026-p22",
+      "tema_numero": 24,
+      "tema_titulo": "Administración del SO y software de base. Actualización y mantenimiento",
+      "concepto_aproximado": "ciclo vida Tomcat"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-a-2026-p23",
+      "tema_numero": 23,
+      "tema_titulo": "Repositorios. Control de versiones. Metodologías. Pruebas de software",
+      "concepto_aproximado": "modelo datos Git"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-a-2026-p24",
+      "tema_numero": 12,
+      "tema_titulo": "Tipos abstractos y estructuras de datos. Algoritmos. Organizaciones de ficheros",
+      "concepto_aproximado": "algoritmo greedy"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-a-2026-p25",
+      "tema_numero": 25,
+      "tema_titulo": "Administración de BD. Almacenamiento y virtualización. Backup y recuperación",
+      "concepto_aproximado": "creación usuario Oracle"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-b-2024-p01",
+      "tema_numero": 16,
+      "tema_titulo": "Lenguajes de programación: tipos, operadores, control de flujo, funciones",
+      "concepto_aproximado": "tipos nullable C#"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-b-2024-p02",
+      "tema_numero": 20,
+      "tema_titulo": "Arquitectura cliente/servidor y multicapas. Servicios web y protocolos",
+      "concepto_aproximado": "arquitectura SOA"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-b-2024-p03",
+      "tema_numero": 23,
+      "tema_titulo": "Repositorios. Control de versiones. Metodologías. Pruebas de software",
+      "concepto_aproximado": "retrospectiva SCRUM"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-b-2024-p04",
+      "tema_numero": 25,
+      "tema_titulo": "Administración de BD. Almacenamiento y virtualización. Backup y recuperación",
+      "concepto_aproximado": "optimización modelo físico BD"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-b-2024-p05",
+      "tema_numero": 19,
+      "tema_titulo": "Arquitectura Java EE/Jakarta EE y plataforma .NET",
+      "concepto_aproximado": ".NET NuGet iText"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-b-2024-p06",
+      "tema_numero": 28,
+      "tema_titulo": "Seguridad de sistemas. Criptografía. Firma digital. CPD. Incidencias",
+      "concepto_aproximado": "firma digital SOAP"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-b-2024-p07",
+      "tema_numero": 14,
+      "tema_titulo": "SGBD relacionales, orientados a objetos y NoSQL",
+      "concepto_aproximado": "nivel aislamiento transacciones"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-b-2024-p08",
+      "tema_numero": 17,
+      "tema_titulo": "Lenguajes de interrogación de BD. ANSI SQL. Procedimientos y triggers",
+      "concepto_aproximado": "DDL CREATE TABLE"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-b-2024-p09",
+      "tema_numero": 20,
+      "tema_titulo": "Arquitectura cliente/servidor y multicapas. Servicios web y protocolos",
+      "concepto_aproximado": "documentación servicios web"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-b-2024-p10",
+      "tema_numero": 16,
+      "tema_titulo": "Lenguajes de programación: tipos, operadores, control de flujo, funciones",
+      "concepto_aproximado": "LocalDateTime Java"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-b-2024-p11",
+      "tema_numero": 23,
+      "tema_titulo": "Repositorios. Control de versiones. Metodologías. Pruebas de software",
+      "concepto_aproximado": "herramientas calidad código"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-b-2024-p12",
+      "tema_numero": 19,
+      "tema_titulo": "Arquitectura Java EE/Jakarta EE y plataforma .NET",
+      "concepto_aproximado": "JAXB mapeo XML"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-b-2024-p13",
+      "tema_numero": 20,
+      "tema_titulo": "Arquitectura cliente/servidor y multicapas. Servicios web y protocolos",
+      "concepto_aproximado": "cliente servicios web Java"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-b-2024-p14",
+      "tema_numero": 18,
+      "tema_titulo": "Diseño y programación orientada a objetos. Patrones de diseño. UML",
+      "concepto_aproximado": "diagrama actividad UML"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-b-2024-p15",
+      "tema_numero": 21,
+      "tema_titulo": "Aplicaciones web. HTML, XML. Lenguajes de script. Front-end y back-end",
+      "concepto_aproximado": "renderizado servidor SSR"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-b-2024-p16",
+      "tema_numero": 22,
+      "tema_titulo": "Accesibilidad, diseño universal y usabilidad. Seguridad en el desarrollo",
+      "concepto_aproximado": "herramientas accesibilidad"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-b-2024-p17",
+      "tema_numero": 15,
+      "tema_titulo": "Modelado de datos. Diseño de BD. Modelo relacional. Normalización",
+      "concepto_aproximado": "relación 1:N"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-b-2024-p18",
+      "tema_numero": 17,
+      "tema_titulo": "Lenguajes de interrogación de BD. ANSI SQL. Procedimientos y triggers",
+      "concepto_aproximado": "INSERT SQL"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-b-2024-p19",
+      "tema_numero": 15,
+      "tema_titulo": "Modelado de datos. Diseño de BD. Modelo relacional. Normalización",
+      "concepto_aproximado": "ORM mapeo objeto-relacional"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-b-2024-p20",
+      "tema_numero": 21,
+      "tema_titulo": "Aplicaciones web. HTML, XML. Lenguajes de script. Front-end y back-end",
+      "concepto_aproximado": "atributo maxlength"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-b-2024-p21",
+      "tema_numero": 21,
+      "tema_titulo": "Aplicaciones web. HTML, XML. Lenguajes de script. Front-end y back-end",
+      "concepto_aproximado": "especificidad CSS"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-b-2024-p22",
+      "tema_numero": 22,
+      "tema_titulo": "Accesibilidad, diseño universal y usabilidad. Seguridad en el desarrollo",
+      "concepto_aproximado": "accesibilidad ARIA"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-b-2024-p23",
+      "tema_numero": 17,
+      "tema_titulo": "Lenguajes de interrogación de BD. ANSI SQL. Procedimientos y triggers",
+      "concepto_aproximado": "consulta SQL filtro"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-b-2024-p24",
+      "tema_numero": 22,
+      "tema_titulo": "Accesibilidad, diseño universal y usabilidad. Seguridad en el desarrollo",
+      "concepto_aproximado": "CORS origen cruzado"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-b-2024-p25",
+      "tema_numero": 23,
+      "tema_titulo": "Repositorios. Control de versiones. Metodologías. Pruebas de software",
+      "concepto_aproximado": "README repositorio"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-b-2025-p01",
+      "tema_numero": 16,
+      "tema_titulo": "Lenguajes de programación: tipos, operadores, control de flujo, funciones",
+      "concepto_aproximado": "tipos nullable C#"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-b-2025-p02",
+      "tema_numero": 20,
+      "tema_titulo": "Arquitectura cliente/servidor y multicapas. Servicios web y protocolos",
+      "concepto_aproximado": "arquitectura SOA"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-b-2025-p03",
+      "tema_numero": 23,
+      "tema_titulo": "Repositorios. Control de versiones. Metodologías. Pruebas de software",
+      "concepto_aproximado": "retrospectiva SCRUM"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-b-2025-p04",
+      "tema_numero": 25,
+      "tema_titulo": "Administración de BD. Almacenamiento y virtualización. Backup y recuperación",
+      "concepto_aproximado": "optimización modelo físico BD"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-b-2025-p05",
+      "tema_numero": 19,
+      "tema_titulo": "Arquitectura Java EE/Jakarta EE y plataforma .NET",
+      "concepto_aproximado": ".NET NuGet iText"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-b-2025-p06",
+      "tema_numero": 28,
+      "tema_titulo": "Seguridad de sistemas. Criptografía. Firma digital. CPD. Incidencias",
+      "concepto_aproximado": "firma digital SOAP"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-b-2025-p07",
+      "tema_numero": 14,
+      "tema_titulo": "SGBD relacionales, orientados a objetos y NoSQL",
+      "concepto_aproximado": "nivel aislamiento transacciones"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-b-2025-p08",
+      "tema_numero": 17,
+      "tema_titulo": "Lenguajes de interrogación de BD. ANSI SQL. Procedimientos y triggers",
+      "concepto_aproximado": "DDL CREATE TABLE"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-b-2025-p09",
+      "tema_numero": 20,
+      "tema_titulo": "Arquitectura cliente/servidor y multicapas. Servicios web y protocolos",
+      "concepto_aproximado": "documentación servicios web"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-b-2025-p10",
+      "tema_numero": 16,
+      "tema_titulo": "Lenguajes de programación: tipos, operadores, control de flujo, funciones",
+      "concepto_aproximado": "LocalDateTime Java"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-b-2025-p11",
+      "tema_numero": 23,
+      "tema_titulo": "Repositorios. Control de versiones. Metodologías. Pruebas de software",
+      "concepto_aproximado": "herramientas calidad código"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-b-2025-p12",
+      "tema_numero": 19,
+      "tema_titulo": "Arquitectura Java EE/Jakarta EE y plataforma .NET",
+      "concepto_aproximado": "JAXB mapeo XML"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-b-2025-p13",
+      "tema_numero": 20,
+      "tema_titulo": "Arquitectura cliente/servidor y multicapas. Servicios web y protocolos",
+      "concepto_aproximado": "cliente servicios web Java"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-b-2025-p14",
+      "tema_numero": 18,
+      "tema_titulo": "Diseño y programación orientada a objetos. Patrones de diseño. UML",
+      "concepto_aproximado": "diagrama actividad UML"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-b-2025-p15",
+      "tema_numero": 21,
+      "tema_titulo": "Aplicaciones web. HTML, XML. Lenguajes de script. Front-end y back-end",
+      "concepto_aproximado": "renderizado servidor SSR"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-b-2025-p16",
+      "tema_numero": 22,
+      "tema_titulo": "Accesibilidad, diseño universal y usabilidad. Seguridad en el desarrollo",
+      "concepto_aproximado": "herramientas accesibilidad"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-b-2025-p17",
+      "tema_numero": 15,
+      "tema_titulo": "Modelado de datos. Diseño de BD. Modelo relacional. Normalización",
+      "concepto_aproximado": "relación 1:N"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-b-2025-p18",
+      "tema_numero": 17,
+      "tema_titulo": "Lenguajes de interrogación de BD. ANSI SQL. Procedimientos y triggers",
+      "concepto_aproximado": "INSERT SQL"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-b-2025-p19",
+      "tema_numero": 15,
+      "tema_titulo": "Modelado de datos. Diseño de BD. Modelo relacional. Normalización",
+      "concepto_aproximado": "ORM mapeo objeto-relacional"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-b-2025-p20",
+      "tema_numero": 21,
+      "tema_titulo": "Aplicaciones web. HTML, XML. Lenguajes de script. Front-end y back-end",
+      "concepto_aproximado": "atributo maxlength"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-b-2025-p21",
+      "tema_numero": 21,
+      "tema_titulo": "Aplicaciones web. HTML, XML. Lenguajes de script. Front-end y back-end",
+      "concepto_aproximado": "especificidad CSS"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-b-2025-p22",
+      "tema_numero": 22,
+      "tema_titulo": "Accesibilidad, diseño universal y usabilidad. Seguridad en el desarrollo",
+      "concepto_aproximado": "accesibilidad ARIA"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-b-2025-p23",
+      "tema_numero": 17,
+      "tema_titulo": "Lenguajes de interrogación de BD. ANSI SQL. Procedimientos y triggers",
+      "concepto_aproximado": "consulta SQL filtro"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-b-2025-p24",
+      "tema_numero": 22,
+      "tema_titulo": "Accesibilidad, diseño universal y usabilidad. Seguridad en el desarrollo",
+      "concepto_aproximado": "CORS origen cruzado"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-b-2025-p25",
+      "tema_numero": 23,
+      "tema_titulo": "Repositorios. Control de versiones. Metodologías. Pruebas de software",
+      "concepto_aproximado": "README repositorio"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-b-2026-p01",
+      "tema_numero": 17,
+      "tema_titulo": "Lenguajes de interrogación de BD. ANSI SQL. Procedimientos y triggers",
+      "concepto_aproximado": "GROUP BY SQL"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-b-2026-p02",
+      "tema_numero": 17,
+      "tema_titulo": "Lenguajes de interrogación de BD. ANSI SQL. Procedimientos y triggers",
+      "concepto_aproximado": "INNER JOIN SQL"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-b-2026-p03",
+      "tema_numero": 17,
+      "tema_titulo": "Lenguajes de interrogación de BD. ANSI SQL. Procedimientos y triggers",
+      "concepto_aproximado": "índice único Oracle"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-b-2026-p04",
+      "tema_numero": 23,
+      "tema_titulo": "Repositorios. Control de versiones. Metodologías. Pruebas de software",
+      "concepto_aproximado": "pruebas unitarias JUnit"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-b-2026-p05",
+      "tema_numero": 20,
+      "tema_titulo": "Arquitectura cliente/servidor y multicapas. Servicios web y protocolos",
+      "concepto_aproximado": "controlador REST Spring"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-b-2026-p06",
+      "tema_numero": 16,
+      "tema_titulo": "Lenguajes de programación: tipos, operadores, control de flujo, funciones",
+      "concepto_aproximado": "autoboxing Java"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-b-2026-p07",
+      "tema_numero": 23,
+      "tema_titulo": "Repositorios. Control de versiones. Metodologías. Pruebas de software",
+      "concepto_aproximado": "Maven Spring Boot"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-b-2026-p08",
+      "tema_numero": 16,
+      "tema_titulo": "Lenguajes de programación: tipos, operadores, control de flujo, funciones",
+      "concepto_aproximado": "programación asíncrona C#"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-b-2026-p09",
+      "tema_numero": 19,
+      "tema_titulo": "Arquitectura Java EE/Jakarta EE y plataforma .NET",
+      "concepto_aproximado": ".NET logging trazas"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-b-2026-p10",
+      "tema_numero": 21,
+      "tema_titulo": "Aplicaciones web. HTML, XML. Lenguajes de script. Front-end y back-end",
+      "concepto_aproximado": "atributo XML"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-b-2026-p11",
+      "tema_numero": 21,
+      "tema_titulo": "Aplicaciones web. HTML, XML. Lenguajes de script. Front-end y back-end",
+      "concepto_aproximado": "XML bien formado"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-b-2026-p12",
+      "tema_numero": 21,
+      "tema_titulo": "Aplicaciones web. HTML, XML. Lenguajes de script. Front-end y back-end",
+      "concepto_aproximado": "estructura HTML5"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-b-2026-p13",
+      "tema_numero": 21,
+      "tema_titulo": "Aplicaciones web. HTML, XML. Lenguajes de script. Front-end y back-end",
+      "concepto_aproximado": "JavaScript navegador"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-b-2026-p14",
+      "tema_numero": 21,
+      "tema_titulo": "Aplicaciones web. HTML, XML. Lenguajes de script. Front-end y back-end",
+      "concepto_aproximado": "Fetch API JavaScript"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-b-2026-p15",
+      "tema_numero": 16,
+      "tema_titulo": "Lenguajes de programación: tipos, operadores, control de flujo, funciones",
+      "concepto_aproximado": "TensorFlow Python"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-b-2026-p16",
+      "tema_numero": 22,
+      "tema_titulo": "Accesibilidad, diseño universal y usabilidad. Seguridad en el desarrollo",
+      "concepto_aproximado": "aria-expanded menú"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-b-2026-p17",
+      "tema_numero": 22,
+      "tema_titulo": "Accesibilidad, diseño universal y usabilidad. Seguridad en el desarrollo",
+      "concepto_aproximado": "WCAG contenido principal"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-b-2026-p18",
+      "tema_numero": 20,
+      "tema_titulo": "Arquitectura cliente/servidor y multicapas. Servicios web y protocolos",
+      "concepto_aproximado": "código HTTP 201"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-b-2026-p19",
+      "tema_numero": 22,
+      "tema_titulo": "Accesibilidad, diseño universal y usabilidad. Seguridad en el desarrollo",
+      "concepto_aproximado": "prevención XSS OWASP"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-b-2026-p20",
+      "tema_numero": 23,
+      "tema_titulo": "Repositorios. Control de versiones. Metodologías. Pruebas de software",
+      "concepto_aproximado": "git fetch"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-b-2026-p21",
+      "tema_numero": 23,
+      "tema_titulo": "Repositorios. Control de versiones. Metodologías. Pruebas de software",
+      "concepto_aproximado": "GitHub Actions workflows"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-b-2026-p22",
+      "tema_numero": 24,
+      "tema_titulo": "Administración del SO y software de base. Actualización y mantenimiento",
+      "concepto_aproximado": "ciclo vida Tomcat"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-b-2026-p23",
+      "tema_numero": 23,
+      "tema_titulo": "Repositorios. Control de versiones. Metodologías. Pruebas de software",
+      "concepto_aproximado": "modelo datos Git"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-b-2026-p24",
+      "tema_numero": 12,
+      "tema_titulo": "Tipos abstractos y estructuras de datos. Algoritmos. Organizaciones de ficheros",
+      "concepto_aproximado": "algoritmo greedy"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-b-2026-p25",
+      "tema_numero": 25,
+      "tema_titulo": "Administración de BD. Almacenamiento y virtualización. Backup y recuperación",
+      "concepto_aproximado": "creación usuario Oracle"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-c-2026-p01",
+      "tema_numero": 21,
+      "tema_titulo": "Aplicaciones web. HTML, XML. Lenguajes de script. Front-end y back-end",
+      "concepto_aproximado": "binding bidireccional Angular"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-c-2026-p02",
+      "tema_numero": 21,
+      "tema_titulo": "Aplicaciones web. HTML, XML. Lenguajes de script. Front-end y back-end",
+      "concepto_aproximado": "pipe fecha Angular"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-c-2026-p03",
+      "tema_numero": 21,
+      "tema_titulo": "Aplicaciones web. HTML, XML. Lenguajes de script. Front-end y back-end",
+      "concepto_aproximado": "estilos CSS div"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-c-2026-p04",
+      "tema_numero": 16,
+      "tema_titulo": "Lenguajes de programación: tipos, operadores, control de flujo, funciones",
+      "concepto_aproximado": "spread operator TypeScript"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-c-2026-p05",
+      "tema_numero": 19,
+      "tema_titulo": "Arquitectura Java EE/Jakarta EE y plataforma .NET",
+      "concepto_aproximado": "Entity Framework .NET"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-c-2026-p06",
+      "tema_numero": 16,
+      "tema_titulo": "Lenguajes de programación: tipos, operadores, control de flujo, funciones",
+      "concepto_aproximado": "LINQ C#"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-c-2026-p07",
+      "tema_numero": 17,
+      "tema_titulo": "Lenguajes de interrogación de BD. ANSI SQL. Procedimientos y triggers",
+      "concepto_aproximado": "agregación SQL"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-c-2026-p08",
+      "tema_numero": 20,
+      "tema_titulo": "Arquitectura cliente/servidor y multicapas. Servicios web y protocolos",
+      "concepto_aproximado": "generación clases WSDL"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-c-2026-p09",
+      "tema_numero": 17,
+      "tema_titulo": "Lenguajes de interrogación de BD. ANSI SQL. Procedimientos y triggers",
+      "concepto_aproximado": "vista SQL Server"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-c-2026-p10",
+      "tema_numero": 17,
+      "tema_titulo": "Lenguajes de interrogación de BD. ANSI SQL. Procedimientos y triggers",
+      "concepto_aproximado": "TOP SQL Server"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-c-2026-p11",
+      "tema_numero": 17,
+      "tema_titulo": "Lenguajes de interrogación de BD. ANSI SQL. Procedimientos y triggers",
+      "concepto_aproximado": "DBCC CHECKIDENT"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-c-2026-p12",
+      "tema_numero": 22,
+      "tema_titulo": "Accesibilidad, diseño universal y usabilidad. Seguridad en el desarrollo",
+      "concepto_aproximado": "cabecera seguridad MIME"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-c-2026-p13",
+      "tema_numero": 28,
+      "tema_titulo": "Seguridad de sistemas. Criptografía. Firma digital. CPD. Incidencias",
+      "concepto_aproximado": "JWT autenticación"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-c-2026-p14",
+      "tema_numero": 22,
+      "tema_titulo": "Accesibilidad, diseño universal y usabilidad. Seguridad en el desarrollo",
+      "concepto_aproximado": "accesibilidad headings"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-c-2026-p15",
+      "tema_numero": 18,
+      "tema_titulo": "Diseño y programación orientada a objetos. Patrones de diseño. UML",
+      "concepto_aproximado": "patrón fachada"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-c-2026-p16",
+      "tema_numero": 23,
+      "tema_titulo": "Repositorios. Control de versiones. Metodologías. Pruebas de software",
+      "concepto_aproximado": "pruebas unitarias NUnit"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-c-2026-p17",
+      "tema_numero": 20,
+      "tema_titulo": "Arquitectura cliente/servidor y multicapas. Servicios web y protocolos",
+      "concepto_aproximado": "Postman pruebas API"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-c-2026-p18",
+      "tema_numero": 23,
+      "tema_titulo": "Repositorios. Control de versiones. Metodologías. Pruebas de software",
+      "concepto_aproximado": "git cherry-pick"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-c-2026-p19",
+      "tema_numero": 20,
+      "tema_titulo": "Arquitectura cliente/servidor y multicapas. Servicios web y protocolos",
+      "concepto_aproximado": "OpenAPI Swagger"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-c-2026-p20",
+      "tema_numero": 22,
+      "tema_titulo": "Accesibilidad, diseño universal y usabilidad. Seguridad en el desarrollo",
+      "concepto_aproximado": "rate limiting HTTP 429"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-c-2026-p21",
+      "tema_numero": 23,
+      "tema_titulo": "Repositorios. Control de versiones. Metodologías. Pruebas de software",
+      "concepto_aproximado": "pruebas frontend"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-c-2026-p22",
+      "tema_numero": 16,
+      "tema_titulo": "Lenguajes de programación: tipos, operadores, control de flujo, funciones",
+      "concepto_aproximado": "expresión regular"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-c-2026-p23",
+      "tema_numero": 23,
+      "tema_titulo": "Repositorios. Control de versiones. Metodologías. Pruebas de software",
+      "concepto_aproximado": "formateo código"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-c-2026-p24",
+      "tema_numero": 23,
+      "tema_titulo": "Repositorios. Control de versiones. Metodologías. Pruebas de software",
+      "concepto_aproximado": "git clone"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-c-2026-p25",
+      "tema_numero": 23,
+      "tema_titulo": "Repositorios. Control de versiones. Metodologías. Pruebas de software",
+      "concepto_aproximado": "Maven pom.xml"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-p01",
+      "tema_numero": 17,
+      "tema_titulo": "Lenguajes de interrogación de BD. ANSI SQL. Procedimientos y triggers",
+      "concepto_aproximado": "índice único Oracle"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-p02",
+      "tema_numero": 17,
+      "tema_titulo": "Lenguajes de interrogación de BD. ANSI SQL. Procedimientos y triggers",
+      "concepto_aproximado": "INNER JOIN SQL"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-p03",
+      "tema_numero": 17,
+      "tema_titulo": "Lenguajes de interrogación de BD. ANSI SQL. Procedimientos y triggers",
+      "concepto_aproximado": "GROUP BY SQL"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-p04",
+      "tema_numero": 20,
+      "tema_titulo": "Arquitectura cliente/servidor y multicapas. Servicios web y protocolos",
+      "concepto_aproximado": "controlador REST Spring"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-p05",
+      "tema_numero": 23,
+      "tema_titulo": "Repositorios. Control de versiones. Metodologías. Pruebas de software",
+      "concepto_aproximado": "pruebas unitarias JUnit"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-p06",
+      "tema_numero": 16,
+      "tema_titulo": "Lenguajes de programación: tipos, operadores, control de flujo, funciones",
+      "concepto_aproximado": "autoboxing Java"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-p07",
+      "tema_numero": 23,
+      "tema_titulo": "Repositorios. Control de versiones. Metodologías. Pruebas de software",
+      "concepto_aproximado": "Maven Spring Boot"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-p08",
+      "tema_numero": 19,
+      "tema_titulo": "Arquitectura Java EE/Jakarta EE y plataforma .NET",
+      "concepto_aproximado": ".NET logging trazas"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-p09",
+      "tema_numero": 16,
+      "tema_titulo": "Lenguajes de programación: tipos, operadores, control de flujo, funciones",
+      "concepto_aproximado": "programación asíncrona C#"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-p10",
+      "tema_numero": 21,
+      "tema_titulo": "Aplicaciones web. HTML, XML. Lenguajes de script. Front-end y back-end",
+      "concepto_aproximado": "estructura HTML5"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-p11",
+      "tema_numero": 21,
+      "tema_titulo": "Aplicaciones web. HTML, XML. Lenguajes de script. Front-end y back-end",
+      "concepto_aproximado": "XML bien formado"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-p12",
+      "tema_numero": 21,
+      "tema_titulo": "Aplicaciones web. HTML, XML. Lenguajes de script. Front-end y back-end",
+      "concepto_aproximado": "atributo XML"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-p13",
+      "tema_numero": 21,
+      "tema_titulo": "Aplicaciones web. HTML, XML. Lenguajes de script. Front-end y back-end",
+      "concepto_aproximado": "Fetch API JavaScript"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-p14",
+      "tema_numero": 16,
+      "tema_titulo": "Lenguajes de programación: tipos, operadores, control de flujo, funciones",
+      "concepto_aproximado": "TensorFlow Python"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-p15",
+      "tema_numero": 21,
+      "tema_titulo": "Aplicaciones web. HTML, XML. Lenguajes de script. Front-end y back-end",
+      "concepto_aproximado": "JavaScript navegador"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-p16",
+      "tema_numero": 20,
+      "tema_titulo": "Arquitectura cliente/servidor y multicapas. Servicios web y protocolos",
+      "concepto_aproximado": "código HTTP 201"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-p17",
+      "tema_numero": 22,
+      "tema_titulo": "Accesibilidad, diseño universal y usabilidad. Seguridad en el desarrollo",
+      "concepto_aproximado": "WCAG contenido principal"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-p18",
+      "tema_numero": 22,
+      "tema_titulo": "Accesibilidad, diseño universal y usabilidad. Seguridad en el desarrollo",
+      "concepto_aproximado": "aria-expanded menú"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-p19",
+      "tema_numero": 23,
+      "tema_titulo": "Repositorios. Control de versiones. Metodologías. Pruebas de software",
+      "concepto_aproximado": "git fetch"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-p20",
+      "tema_numero": 22,
+      "tema_titulo": "Accesibilidad, diseño universal y usabilidad. Seguridad en el desarrollo",
+      "concepto_aproximado": "prevención XSS OWASP"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-p21",
+      "tema_numero": 23,
+      "tema_titulo": "Repositorios. Control de versiones. Metodologías. Pruebas de software",
+      "concepto_aproximado": "GitHub Actions workflows"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-p22",
+      "tema_numero": 24,
+      "tema_titulo": "Administración del SO y software de base. Actualización y mantenimiento",
+      "concepto_aproximado": "ciclo vida Tomcat"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-p23",
+      "tema_numero": 23,
+      "tema_titulo": "Repositorios. Control de versiones. Metodologías. Pruebas de software",
+      "concepto_aproximado": "modelo datos Git"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-p24",
+      "tema_numero": 12,
+      "tema_titulo": "Tipos abstractos y estructuras de datos. Algoritmos. Organizaciones de ficheros",
+      "concepto_aproximado": "algoritmo greedy"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-1-p25",
+      "tema_numero": 25,
+      "tema_titulo": "Administración de BD. Almacenamiento y virtualización. Backup y recuperación",
+      "concepto_aproximado": "creación usuario Oracle"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-2018-p01",
+      "tema_numero": 30,
+      "tema_titulo": "Modelo TCP/IP y OSI. Protocolos TCP/IP",
+      "concepto_aproximado": "clases de red IP"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-2018-p02",
+      "tema_numero": 30,
+      "tema_titulo": "Modelo TCP/IP y OSI. Protocolos TCP/IP",
+      "concepto_aproximado": "cálculo hosts"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-2018-p03",
+      "tema_numero": 30,
+      "tema_titulo": "Modelo TCP/IP y OSI. Protocolos TCP/IP",
+      "concepto_aproximado": "dirección broadcast"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-2018-p04",
+      "tema_numero": 29,
+      "tema_titulo": "Comunicaciones. Medios de transmisión. Redes de conmutación y difusión",
+      "concepto_aproximado": "cableado UTP categoría"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-2018-p05",
+      "tema_numero": 24,
+      "tema_titulo": "Administración del SO y software de base. Actualización y mantenimiento",
+      "concepto_aproximado": "systemd Linux"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-2018-p06",
+      "tema_numero": 24,
+      "tema_titulo": "Administración del SO y software de base. Actualización y mantenimiento",
+      "concepto_aproximado": "comando hostname"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-2018-p07",
+      "tema_numero": 27,
+      "tema_titulo": "Administración de redes LAN. Gestión de usuarios y dispositivos",
+      "concepto_aproximado": "SSH remoto"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-2018-p08",
+      "tema_numero": 24,
+      "tema_titulo": "Administración del SO y software de base. Actualización y mantenimiento",
+      "concepto_aproximado": "comando ip"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-2018-p09",
+      "tema_numero": 24,
+      "tema_titulo": "Administración del SO y software de base. Actualización y mantenimiento",
+      "concepto_aproximado": "gestión paquetes Debian"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-2018-p10",
+      "tema_numero": 24,
+      "tema_titulo": "Administración del SO y software de base. Actualización y mantenimiento",
+      "concepto_aproximado": "apt search"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-2018-p11",
+      "tema_numero": 24,
+      "tema_titulo": "Administración del SO y software de base. Actualización y mantenimiento",
+      "concepto_aproximado": "SaltStack gestión"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-2018-p12",
+      "tema_numero": 24,
+      "tema_titulo": "Administración del SO y software de base. Actualización y mantenimiento",
+      "concepto_aproximado": "SaltStack comandos"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-2018-p13",
+      "tema_numero": 24,
+      "tema_titulo": "Administración del SO y software de base. Actualización y mantenimiento",
+      "concepto_aproximado": "dpkg versión paquete"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-2018-p14",
+      "tema_numero": 24,
+      "tema_titulo": "Administración del SO y software de base. Actualización y mantenimiento",
+      "concepto_aproximado": "gestión usuarios grupos"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-2018-p15",
+      "tema_numero": 26,
+      "tema_titulo": "Servidores de correo. Contenedores y microservicios",
+      "concepto_aproximado": "Docker contenedores"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-2018-p16",
+      "tema_numero": 26,
+      "tema_titulo": "Servidores de correo. Contenedores y microservicios",
+      "concepto_aproximado": "Docker stop"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-2018-p17",
+      "tema_numero": 26,
+      "tema_titulo": "Servidores de correo. Contenedores y microservicios",
+      "concepto_aproximado": "Docker search"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-2018-p18",
+      "tema_numero": 28,
+      "tema_titulo": "Seguridad de sistemas. Criptografía. Firma digital. CPD. Incidencias",
+      "concepto_aproximado": "vulnerabilidades CCN-CERT"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-2018-p19",
+      "tema_numero": 28,
+      "tema_titulo": "Seguridad de sistemas. Criptografía. Firma digital. CPD. Incidencias",
+      "concepto_aproximado": "defacement web"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-2018-p20",
+      "tema_numero": 32,
+      "tema_titulo": "Seguridad en redes. Perimetral. VPN. Seguridad en el puesto",
+      "concepto_aproximado": "VPN confidencialidad"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-2018-p21",
+      "tema_numero": 26,
+      "tema_titulo": "Servidores de correo. Contenedores y microservicios",
+      "concepto_aproximado": "registro MX DNS"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-2018-p22",
+      "tema_numero": 14,
+      "tema_titulo": "SGBD relacionales, orientados a objetos y NoSQL",
+      "concepto_aproximado": "puertos SGBD"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-2018-p23",
+      "tema_numero": 25,
+      "tema_titulo": "Administración de BD. Almacenamiento y virtualización. Backup y recuperación",
+      "concepto_aproximado": "RTO recuperación"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-2018-p24",
+      "tema_numero": 25,
+      "tema_titulo": "Administración de BD. Almacenamiento y virtualización. Backup y recuperación",
+      "concepto_aproximado": "backup VMware"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-2018-p25",
+      "tema_numero": 27,
+      "tema_titulo": "Administración de redes LAN. Gestión de usuarios y dispositivos",
+      "concepto_aproximado": "MDM dispositivos móviles"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-2018-p26",
+      "tema_numero": 24,
+      "tema_titulo": "Administración del SO y software de base. Actualización y mantenimiento",
+      "concepto_aproximado": "PowerShell procesos"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-2018-p27",
+      "tema_numero": 24,
+      "tema_titulo": "Administración del SO y software de base. Actualización y mantenimiento",
+      "concepto_aproximado": "PowerShell copiar"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-2018-p28",
+      "tema_numero": 24,
+      "tema_titulo": "Administración del SO y software de base. Actualización y mantenimiento",
+      "concepto_aproximado": "ren comando Windows"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-2018-p29",
+      "tema_numero": 28,
+      "tema_titulo": "Seguridad de sistemas. Criptografía. Firma digital. CPD. Incidencias",
+      "concepto_aproximado": "cifrado disco macOS"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-2018-p30",
+      "tema_numero": 28,
+      "tema_titulo": "Seguridad de sistemas. Criptografía. Firma digital. CPD. Incidencias",
+      "concepto_aproximado": "validación certificados"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-2018-p31",
+      "tema_numero": 29,
+      "tema_titulo": "Comunicaciones. Medios de transmisión. Redes de conmutación y difusión",
+      "concepto_aproximado": "red SARA"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-2018-p32",
+      "tema_numero": 30,
+      "tema_titulo": "Modelo TCP/IP y OSI. Protocolos TCP/IP",
+      "concepto_aproximado": "primera IP disponible"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-2018-p33",
+      "tema_numero": 26,
+      "tema_titulo": "Servidores de correo. Contenedores y microservicios",
+      "concepto_aproximado": "Docker Hub imágenes"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-2018-p34",
+      "tema_numero": 24,
+      "tema_titulo": "Administración del SO y software de base. Actualización y mantenimiento",
+      "concepto_aproximado": "tasklist Windows"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-2018-p35",
+      "tema_numero": 26,
+      "tema_titulo": "Servidores de correo. Contenedores y microservicios",
+      "concepto_aproximado": "seguridad SMTP"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-2021-p01",
+      "tema_numero": 30,
+      "tema_titulo": "Modelo TCP/IP y OSI. Protocolos TCP/IP",
+      "concepto_aproximado": "máscara de red bits"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-2021-p02",
+      "tema_numero": 30,
+      "tema_titulo": "Modelo TCP/IP y OSI. Protocolos TCP/IP",
+      "concepto_aproximado": "clase de red"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-2021-p03",
+      "tema_numero": 30,
+      "tema_titulo": "Modelo TCP/IP y OSI. Protocolos TCP/IP",
+      "concepto_aproximado": "hosts disponibles"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-2021-p04",
+      "tema_numero": 30,
+      "tema_titulo": "Modelo TCP/IP y OSI. Protocolos TCP/IP",
+      "concepto_aproximado": "rango hosts"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-2021-p05",
+      "tema_numero": 24,
+      "tema_titulo": "Administración del SO y software de base. Actualización y mantenimiento",
+      "concepto_aproximado": "versión RHEL"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-2021-p06",
+      "tema_numero": 27,
+      "tema_titulo": "Administración de redes LAN. Gestión de usuarios y dispositivos",
+      "concepto_aproximado": "ruta persistente Solaris"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-2021-p07",
+      "tema_numero": 28,
+      "tema_titulo": "Seguridad de sistemas. Criptografía. Firma digital. CPD. Incidencias",
+      "concepto_aproximado": "shadow Linux"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-2021-p08",
+      "tema_numero": 14,
+      "tema_titulo": "SGBD relacionales, orientados a objetos y NoSQL",
+      "concepto_aproximado": "versión Oracle"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-2021-p09",
+      "tema_numero": 24,
+      "tema_titulo": "Administración del SO y software de base. Actualización y mantenimiento",
+      "concepto_aproximado": "backup tar gzip"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-2021-p10",
+      "tema_numero": 27,
+      "tema_titulo": "Administración de redes LAN. Gestión de usuarios y dispositivos",
+      "concepto_aproximado": "administradores locales Windows"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-2021-p11",
+      "tema_numero": 27,
+      "tema_titulo": "Administración de redes LAN. Gestión de usuarios y dispositivos",
+      "concepto_aproximado": "políticas contraseñas Windows"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-2021-p12",
+      "tema_numero": 25,
+      "tema_titulo": "Administración de BD. Almacenamiento y virtualización. Backup y recuperación",
+      "concepto_aproximado": "RAID 6 capacidad"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-2021-p13",
+      "tema_numero": 26,
+      "tema_titulo": "Servidores de correo. Contenedores y microservicios",
+      "concepto_aproximado": "Docker run"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-2021-p14",
+      "tema_numero": 26,
+      "tema_titulo": "Servidores de correo. Contenedores y microservicios",
+      "concepto_aproximado": "Docker ps"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-2021-p15",
+      "tema_numero": 27,
+      "tema_titulo": "Administración de redes LAN. Gestión de usuarios y dispositivos",
+      "concepto_aproximado": "Wake on LAN"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-2021-p16",
+      "tema_numero": 29,
+      "tema_titulo": "Comunicaciones. Medios de transmisión. Redes de conmutación y difusión",
+      "concepto_aproximado": "cableado alta velocidad"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-2021-p17",
+      "tema_numero": 32,
+      "tema_titulo": "Seguridad en redes. Perimetral. VPN. Seguridad en el puesto",
+      "concepto_aproximado": "firewall Windows"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-2021-p18",
+      "tema_numero": 32,
+      "tema_titulo": "Seguridad en redes. Perimetral. VPN. Seguridad en el puesto",
+      "concepto_aproximado": "IPS anomalías"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-2021-p19",
+      "tema_numero": 26,
+      "tema_titulo": "Servidores de correo. Contenedores y microservicios",
+      "concepto_aproximado": "SMTPS puerto"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-2021-p20",
+      "tema_numero": 24,
+      "tema_titulo": "Administración del SO y software de base. Actualización y mantenimiento",
+      "concepto_aproximado": "ipconfig flushdns"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-2021-p21",
+      "tema_numero": 32,
+      "tema_titulo": "Seguridad en redes. Perimetral. VPN. Seguridad en el puesto",
+      "concepto_aproximado": "firewall Windows regla"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-2021-p22",
+      "tema_numero": 32,
+      "tema_titulo": "Seguridad en redes. Perimetral. VPN. Seguridad en el puesto",
+      "concepto_aproximado": "prueba conectividad puerto"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-2021-p23",
+      "tema_numero": 28,
+      "tema_titulo": "Seguridad de sistemas. Criptografía. Firma digital. CPD. Incidencias",
+      "concepto_aproximado": "BitLocker recuperación"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-2021-p24",
+      "tema_numero": 25,
+      "tema_titulo": "Administración de BD. Almacenamiento y virtualización. Backup y recuperación",
+      "concepto_aproximado": "RAID 10 discos"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-2021-p25",
+      "tema_numero": 32,
+      "tema_titulo": "Seguridad en redes. Perimetral. VPN. Seguridad en el puesto",
+      "concepto_aproximado": "SSH puerto"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-2023-p01",
+      "tema_numero": 24,
+      "tema_titulo": "Administración del SO y software de base. Actualización y mantenimiento",
+      "concepto_aproximado": "flushdns PowerShell"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-2023-p02",
+      "tema_numero": 27,
+      "tema_titulo": "Administración de redes LAN. Gestión de usuarios y dispositivos",
+      "concepto_aproximado": "net user Windows"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-2023-p03",
+      "tema_numero": 25,
+      "tema_titulo": "Administración de BD. Almacenamiento y virtualización. Backup y recuperación",
+      "concepto_aproximado": "thin provisioning"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-2023-p04",
+      "tema_numero": 24,
+      "tema_titulo": "Administración del SO y software de base. Actualización y mantenimiento",
+      "concepto_aproximado": "monitorización Linux"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-2023-p05",
+      "tema_numero": 30,
+      "tema_titulo": "Modelo TCP/IP y OSI. Protocolos TCP/IP",
+      "concepto_aproximado": "subnetting"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-2023-p06",
+      "tema_numero": 27,
+      "tema_titulo": "Administración de redes LAN. Gestión de usuarios y dispositivos",
+      "concepto_aproximado": "arp caché MAC"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-2023-p07",
+      "tema_numero": 30,
+      "tema_titulo": "Modelo TCP/IP y OSI. Protocolos TCP/IP",
+      "concepto_aproximado": "red broadcast subnet"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-2023-p08",
+      "tema_numero": 26,
+      "tema_titulo": "Servidores de correo. Contenedores y microservicios",
+      "concepto_aproximado": "proxy caché"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-2023-p09",
+      "tema_numero": 28,
+      "tema_titulo": "Seguridad de sistemas. Criptografía. Firma digital. CPD. Incidencias",
+      "concepto_aproximado": "autenticación multifactor"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-2023-p10",
+      "tema_numero": 26,
+      "tema_titulo": "Servidores de correo. Contenedores y microservicios",
+      "concepto_aproximado": "puertos seguros correo"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-2023-p11",
+      "tema_numero": 28,
+      "tema_titulo": "Seguridad de sistemas. Criptografía. Firma digital. CPD. Incidencias",
+      "concepto_aproximado": "algoritmo hash firma"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-2023-p12",
+      "tema_numero": 29,
+      "tema_titulo": "Comunicaciones. Medios de transmisión. Redes de conmutación y difusión",
+      "concepto_aproximado": "estándar WiFi 6E"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-2023-p13",
+      "tema_numero": 32,
+      "tema_titulo": "Seguridad en redes. Perimetral. VPN. Seguridad en el puesto",
+      "concepto_aproximado": "SSH SCP puertos"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-2023-p14",
+      "tema_numero": 24,
+      "tema_titulo": "Administración del SO y software de base. Actualización y mantenimiento",
+      "concepto_aproximado": "IIS reinicio"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-2023-p15",
+      "tema_numero": 27,
+      "tema_titulo": "Administración de redes LAN. Gestión de usuarios y dispositivos",
+      "concepto_aproximado": "captura tráfico tcpdump"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-2023-p16",
+      "tema_numero": 24,
+      "tema_titulo": "Administración del SO y software de base. Actualización y mantenimiento",
+      "concepto_aproximado": "Apache VirtualHost"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-2023-p17",
+      "tema_numero": 27,
+      "tema_titulo": "Administración de redes LAN. Gestión de usuarios y dispositivos",
+      "concepto_aproximado": "VLAN 802.1Q"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-2023-p18",
+      "tema_numero": 28,
+      "tema_titulo": "Seguridad de sistemas. Criptografía. Firma digital. CPD. Incidencias",
+      "concepto_aproximado": "análisis malware CCN"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-2023-p19",
+      "tema_numero": 32,
+      "tema_titulo": "Seguridad en redes. Perimetral. VPN. Seguridad en el puesto",
+      "concepto_aproximado": "WAF firewall web"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-2023-p20",
+      "tema_numero": 27,
+      "tema_titulo": "Administración de redes LAN. Gestión de usuarios y dispositivos",
+      "concepto_aproximado": "route print Windows"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-2023-p21",
+      "tema_numero": 27,
+      "tema_titulo": "Administración de redes LAN. Gestión de usuarios y dispositivos",
+      "concepto_aproximado": "RSoP políticas"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-2023-p22",
+      "tema_numero": 32,
+      "tema_titulo": "Seguridad en redes. Perimetral. VPN. Seguridad en el puesto",
+      "concepto_aproximado": "PPTP VPN"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-2023-p23",
+      "tema_numero": 33,
+      "tema_titulo": "Redes locales. Tipología. Técnicas de transmisión. Dispositivos",
+      "concepto_aproximado": "PoE++ estándar"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-2023-p24",
+      "tema_numero": 25,
+      "tema_titulo": "Administración de BD. Almacenamiento y virtualización. Backup y recuperación",
+      "concepto_aproximado": "backup Oracle RMAN"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-2023-p25",
+      "tema_numero": 30,
+      "tema_titulo": "Modelo TCP/IP y OSI. Protocolos TCP/IP",
+      "concepto_aproximado": "gateway última IP"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-a-2024-p01",
+      "tema_numero": 30,
+      "tema_titulo": "Modelo TCP/IP y OSI. Protocolos TCP/IP",
+      "concepto_aproximado": "hosts disponibles subred"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-a-2024-p02",
+      "tema_numero": 24,
+      "tema_titulo": "Administración del SO y software de base. Actualización y mantenimiento",
+      "concepto_aproximado": "fsck reparación FS"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-a-2024-p03",
+      "tema_numero": 32,
+      "tema_titulo": "Seguridad en redes. Perimetral. VPN. Seguridad en el puesto",
+      "concepto_aproximado": "seguridad puerto 80"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-a-2024-p04",
+      "tema_numero": 28,
+      "tema_titulo": "Seguridad de sistemas. Criptografía. Firma digital. CPD. Incidencias",
+      "concepto_aproximado": "tailgating seguridad física"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-a-2024-p05",
+      "tema_numero": 33,
+      "tema_titulo": "Redes locales. Tipología. Técnicas de transmisión. Dispositivos",
+      "concepto_aproximado": "conversor medios red"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-a-2024-p06",
+      "tema_numero": 30,
+      "tema_titulo": "Modelo TCP/IP y OSI. Protocolos TCP/IP",
+      "concepto_aproximado": "protocolos TCP/IP"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-a-2024-p07",
+      "tema_numero": 27,
+      "tema_titulo": "Administración de redes LAN. Gestión de usuarios y dispositivos",
+      "concepto_aproximado": "VLAN acceso switch"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-a-2024-p08",
+      "tema_numero": 28,
+      "tema_titulo": "Seguridad de sistemas. Criptografía. Firma digital. CPD. Incidencias",
+      "concepto_aproximado": "dimensiones seguridad"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-a-2024-p09",
+      "tema_numero": 33,
+      "tema_titulo": "Redes locales. Tipología. Técnicas de transmisión. Dispositivos",
+      "concepto_aproximado": "indicador enlace Ethernet"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-a-2024-p10",
+      "tema_numero": 24,
+      "tema_titulo": "Administración del SO y software de base. Actualización y mantenimiento",
+      "concepto_aproximado": "kernel Linux versión"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-a-2024-p11",
+      "tema_numero": 32,
+      "tema_titulo": "Seguridad en redes. Perimetral. VPN. Seguridad en el puesto",
+      "concepto_aproximado": "SFTP FTPS"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-a-2024-p12",
+      "tema_numero": 28,
+      "tema_titulo": "Seguridad de sistemas. Criptografía. Firma digital. CPD. Incidencias",
+      "concepto_aproximado": "APT amenaza persistente"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-a-2024-p13",
+      "tema_numero": 26,
+      "tema_titulo": "Servidores de correo. Contenedores y microservicios",
+      "concepto_aproximado": "Kubernetes servicios"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-a-2024-p14",
+      "tema_numero": 27,
+      "tema_titulo": "Administración de redes LAN. Gestión de usuarios y dispositivos",
+      "concepto_aproximado": "enrolamiento MDM"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-a-2024-p15",
+      "tema_numero": 28,
+      "tema_titulo": "Seguridad de sistemas. Criptografía. Firma digital. CPD. Incidencias",
+      "concepto_aproximado": "climatización CPD"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-a-2024-p16",
+      "tema_numero": 28,
+      "tema_titulo": "Seguridad de sistemas. Criptografía. Firma digital. CPD. Incidencias",
+      "concepto_aproximado": "hash integridad"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-a-2024-p17",
+      "tema_numero": 32,
+      "tema_titulo": "Seguridad en redes. Perimetral. VPN. Seguridad en el puesto",
+      "concepto_aproximado": "SIP NAT VoIP"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-a-2024-p18",
+      "tema_numero": 26,
+      "tema_titulo": "Servidores de correo. Contenedores y microservicios",
+      "concepto_aproximado": "POP3 IMAP"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-a-2024-p19",
+      "tema_numero": 25,
+      "tema_titulo": "Administración de BD. Almacenamiento y virtualización. Backup y recuperación",
+      "concepto_aproximado": "auditoría BD usuarios"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-a-2024-p20",
+      "tema_numero": 27,
+      "tema_titulo": "Administración de redes LAN. Gestión de usuarios y dispositivos",
+      "concepto_aproximado": "GPO OU Directorio Activo"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-a-2024-p21",
+      "tema_numero": 26,
+      "tema_titulo": "Servidores de correo. Contenedores y microservicios",
+      "concepto_aproximado": "SMTP HELO"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-a-2024-p22",
+      "tema_numero": 32,
+      "tema_titulo": "Seguridad en redes. Perimetral. VPN. Seguridad en el puesto",
+      "concepto_aproximado": "WPA3 Enterprise"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-a-2024-p23",
+      "tema_numero": 17,
+      "tema_titulo": "Lenguajes de interrogación de BD. ANSI SQL. Procedimientos y triggers",
+      "concepto_aproximado": "CREATE TABLE MySQL"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-a-2024-p24",
+      "tema_numero": 24,
+      "tema_titulo": "Administración del SO y software de base. Actualización y mantenimiento",
+      "concepto_aproximado": "Nagios configuración"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-a-2024-p25",
+      "tema_numero": 31,
+      "tema_titulo": "Internet: arquitectura. Protocolos HTTP, HTTPS y SSL/TLS",
+      "concepto_aproximado": "TLS versión CCN"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-a-2025-p01",
+      "tema_numero": 30,
+      "tema_titulo": "Modelo TCP/IP y OSI. Protocolos TCP/IP",
+      "concepto_aproximado": "hosts disponibles subred"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-a-2025-p02",
+      "tema_numero": 24,
+      "tema_titulo": "Administración del SO y software de base. Actualización y mantenimiento",
+      "concepto_aproximado": "fsck reparación FS"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-a-2025-p03",
+      "tema_numero": 32,
+      "tema_titulo": "Seguridad en redes. Perimetral. VPN. Seguridad en el puesto",
+      "concepto_aproximado": "seguridad puerto 80"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-a-2025-p04",
+      "tema_numero": 28,
+      "tema_titulo": "Seguridad de sistemas. Criptografía. Firma digital. CPD. Incidencias",
+      "concepto_aproximado": "tailgating seguridad física"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-a-2025-p05",
+      "tema_numero": 33,
+      "tema_titulo": "Redes locales. Tipología. Técnicas de transmisión. Dispositivos",
+      "concepto_aproximado": "conversor medios red"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-a-2025-p06",
+      "tema_numero": 30,
+      "tema_titulo": "Modelo TCP/IP y OSI. Protocolos TCP/IP",
+      "concepto_aproximado": "protocolos TCP/IP"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-a-2025-p07",
+      "tema_numero": 27,
+      "tema_titulo": "Administración de redes LAN. Gestión de usuarios y dispositivos",
+      "concepto_aproximado": "VLAN acceso switch"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-a-2025-p08",
+      "tema_numero": 28,
+      "tema_titulo": "Seguridad de sistemas. Criptografía. Firma digital. CPD. Incidencias",
+      "concepto_aproximado": "dimensiones seguridad"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-a-2025-p09",
+      "tema_numero": 33,
+      "tema_titulo": "Redes locales. Tipología. Técnicas de transmisión. Dispositivos",
+      "concepto_aproximado": "indicador enlace Ethernet"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-a-2025-p10",
+      "tema_numero": 24,
+      "tema_titulo": "Administración del SO y software de base. Actualización y mantenimiento",
+      "concepto_aproximado": "kernel Linux versión"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-a-2025-p11",
+      "tema_numero": 32,
+      "tema_titulo": "Seguridad en redes. Perimetral. VPN. Seguridad en el puesto",
+      "concepto_aproximado": "SFTP FTPS"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-a-2025-p12",
+      "tema_numero": 28,
+      "tema_titulo": "Seguridad de sistemas. Criptografía. Firma digital. CPD. Incidencias",
+      "concepto_aproximado": "APT amenaza persistente"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-a-2025-p13",
+      "tema_numero": 26,
+      "tema_titulo": "Servidores de correo. Contenedores y microservicios",
+      "concepto_aproximado": "Kubernetes servicios"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-a-2025-p14",
+      "tema_numero": 27,
+      "tema_titulo": "Administración de redes LAN. Gestión de usuarios y dispositivos",
+      "concepto_aproximado": "enrolamiento MDM"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-a-2025-p15",
+      "tema_numero": 28,
+      "tema_titulo": "Seguridad de sistemas. Criptografía. Firma digital. CPD. Incidencias",
+      "concepto_aproximado": "climatización CPD"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-a-2025-p16",
+      "tema_numero": 28,
+      "tema_titulo": "Seguridad de sistemas. Criptografía. Firma digital. CPD. Incidencias",
+      "concepto_aproximado": "hash integridad"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-a-2025-p17",
+      "tema_numero": 32,
+      "tema_titulo": "Seguridad en redes. Perimetral. VPN. Seguridad en el puesto",
+      "concepto_aproximado": "SIP NAT VoIP"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-a-2025-p18",
+      "tema_numero": 26,
+      "tema_titulo": "Servidores de correo. Contenedores y microservicios",
+      "concepto_aproximado": "POP3 IMAP"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-a-2025-p19",
+      "tema_numero": 25,
+      "tema_titulo": "Administración de BD. Almacenamiento y virtualización. Backup y recuperación",
+      "concepto_aproximado": "auditoría BD usuarios"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-a-2025-p20",
+      "tema_numero": 27,
+      "tema_titulo": "Administración de redes LAN. Gestión de usuarios y dispositivos",
+      "concepto_aproximado": "GPO OU Directorio Activo"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-a-2025-p21",
+      "tema_numero": 26,
+      "tema_titulo": "Servidores de correo. Contenedores y microservicios",
+      "concepto_aproximado": "SMTP HELO"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-a-2025-p22",
+      "tema_numero": 32,
+      "tema_titulo": "Seguridad en redes. Perimetral. VPN. Seguridad en el puesto",
+      "concepto_aproximado": "WPA3 Enterprise"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-a-2025-p23",
+      "tema_numero": 17,
+      "tema_titulo": "Lenguajes de interrogación de BD. ANSI SQL. Procedimientos y triggers",
+      "concepto_aproximado": "CREATE TABLE MySQL"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-a-2025-p24",
+      "tema_numero": 24,
+      "tema_titulo": "Administración del SO y software de base. Actualización y mantenimiento",
+      "concepto_aproximado": "Nagios configuración"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-a-2025-p25",
+      "tema_numero": 31,
+      "tema_titulo": "Internet: arquitectura. Protocolos HTTP, HTTPS y SSL/TLS",
+      "concepto_aproximado": "TLS versión CCN"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-a-2026-p01",
+      "tema_numero": 30,
+      "tema_titulo": "Modelo TCP/IP y OSI. Protocolos TCP/IP",
+      "concepto_aproximado": "subnetting /25"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-a-2026-p02",
+      "tema_numero": 30,
+      "tema_titulo": "Modelo TCP/IP y OSI. Protocolos TCP/IP",
+      "concepto_aproximado": "hosts disponibles"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-a-2026-p03",
+      "tema_numero": 30,
+      "tema_titulo": "Modelo TCP/IP y OSI. Protocolos TCP/IP",
+      "concepto_aproximado": "subnetting"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-a-2026-p04",
+      "tema_numero": 27,
+      "tema_titulo": "Administración de redes LAN. Gestión de usuarios y dispositivos",
+      "concepto_aproximado": "DHCP relay Cisco"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-a-2026-p05",
+      "tema_numero": 24,
+      "tema_titulo": "Administración del SO y software de base. Actualización y mantenimiento",
+      "concepto_aproximado": "route table RHEL"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-a-2026-p06",
+      "tema_numero": 24,
+      "tema_titulo": "Administración del SO y software de base. Actualización y mantenimiento",
+      "concepto_aproximado": "systemctl enable"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-a-2026-p07",
+      "tema_numero": 26,
+      "tema_titulo": "Servidores de correo. Contenedores y microservicios",
+      "concepto_aproximado": "Docker stop"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-a-2026-p08",
+      "tema_numero": 26,
+      "tema_titulo": "Servidores de correo. Contenedores y microservicios",
+      "concepto_aproximado": "Docker rm"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-a-2026-p09",
+      "tema_numero": 26,
+      "tema_titulo": "Servidores de correo. Contenedores y microservicios",
+      "concepto_aproximado": "Docker pull"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-a-2026-p10",
+      "tema_numero": 32,
+      "tema_titulo": "Seguridad en redes. Perimetral. VPN. Seguridad en el puesto",
+      "concepto_aproximado": "firewall-cmd HTTPS"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-a-2026-p11",
+      "tema_numero": 30,
+      "tema_titulo": "Modelo TCP/IP y OSI. Protocolos TCP/IP",
+      "concepto_aproximado": "ip route get"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-a-2026-p12",
+      "tema_numero": 32,
+      "tema_titulo": "Seguridad en redes. Perimetral. VPN. Seguridad en el puesto",
+      "concepto_aproximado": "prueba TCP connect"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-a-2026-p13",
+      "tema_numero": 24,
+      "tema_titulo": "Administración del SO y software de base. Actualización y mantenimiento",
+      "concepto_aproximado": "puertos escucha RHEL"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-a-2026-p14",
+      "tema_numero": 25,
+      "tema_titulo": "Administración de BD. Almacenamiento y virtualización. Backup y recuperación",
+      "concepto_aproximado": "estrategia 3-2-1"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-a-2026-p15",
+      "tema_numero": 24,
+      "tema_titulo": "Administración del SO y software de base. Actualización y mantenimiento",
+      "concepto_aproximado": "tar gzip backup"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-a-2026-p16",
+      "tema_numero": 24,
+      "tema_titulo": "Administración del SO y software de base. Actualización y mantenimiento",
+      "concepto_aproximado": "auditd auditoría"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-a-2026-p17",
+      "tema_numero": 26,
+      "tema_titulo": "Servidores de correo. Contenedores y microservicios",
+      "concepto_aproximado": "IMAPS puerto"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-a-2026-p18",
+      "tema_numero": 27,
+      "tema_titulo": "Administración de redes LAN. Gestión de usuarios y dispositivos",
+      "concepto_aproximado": "Active Directory usuarios"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-a-2026-p19",
+      "tema_numero": 27,
+      "tema_titulo": "Administración de redes LAN. Gestión de usuarios y dispositivos",
+      "concepto_aproximado": "AD DS instalación"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-a-2026-p20",
+      "tema_numero": 24,
+      "tema_titulo": "Administración del SO y software de base. Actualización y mantenimiento",
+      "concepto_aproximado": "Copy-Item PowerShell"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-a-2026-p21",
+      "tema_numero": 32,
+      "tema_titulo": "Seguridad en redes. Perimetral. VPN. Seguridad en el puesto",
+      "concepto_aproximado": "firewall-cmd persistente"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-a-2026-p22",
+      "tema_numero": 32,
+      "tema_titulo": "Seguridad en redes. Perimetral. VPN. Seguridad en el puesto",
+      "concepto_aproximado": "rp_filter anti-spoofing"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-a-2026-p23",
+      "tema_numero": 32,
+      "tema_titulo": "Seguridad en redes. Perimetral. VPN. Seguridad en el puesto",
+      "concepto_aproximado": "firewall Windows regla"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-a-2026-p24",
+      "tema_numero": 27,
+      "tema_titulo": "Administración de redes LAN. Gestión de usuarios y dispositivos",
+      "concepto_aproximado": "replicación AD"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-a-2026-p25",
+      "tema_numero": 25,
+      "tema_titulo": "Administración de BD. Almacenamiento y virtualización. Backup y recuperación",
+      "concepto_aproximado": "LVM ampliación XFS"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-b-2024-p01",
+      "tema_numero": 27,
+      "tema_titulo": "Administración de redes LAN. Gestión de usuarios y dispositivos",
+      "concepto_aproximado": "GPO OU Directorio Activo"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-b-2024-p02",
+      "tema_numero": 25,
+      "tema_titulo": "Administración de BD. Almacenamiento y virtualización. Backup y recuperación",
+      "concepto_aproximado": "auditoría BD usuarios"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-b-2024-p03",
+      "tema_numero": 26,
+      "tema_titulo": "Servidores de correo. Contenedores y microservicios",
+      "concepto_aproximado": "POP3 IMAP"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-b-2024-p04",
+      "tema_numero": 32,
+      "tema_titulo": "Seguridad en redes. Perimetral. VPN. Seguridad en el puesto",
+      "concepto_aproximado": "SIP NAT VoIP"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-b-2024-p05",
+      "tema_numero": 28,
+      "tema_titulo": "Seguridad de sistemas. Criptografía. Firma digital. CPD. Incidencias",
+      "concepto_aproximado": "hash integridad"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-b-2024-p06",
+      "tema_numero": 28,
+      "tema_titulo": "Seguridad de sistemas. Criptografía. Firma digital. CPD. Incidencias",
+      "concepto_aproximado": "climatización CPD"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-b-2024-p07",
+      "tema_numero": 27,
+      "tema_titulo": "Administración de redes LAN. Gestión de usuarios y dispositivos",
+      "concepto_aproximado": "enrolamiento MDM"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-b-2024-p08",
+      "tema_numero": 26,
+      "tema_titulo": "Servidores de correo. Contenedores y microservicios",
+      "concepto_aproximado": "Kubernetes servicios"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-b-2024-p09",
+      "tema_numero": 28,
+      "tema_titulo": "Seguridad de sistemas. Criptografía. Firma digital. CPD. Incidencias",
+      "concepto_aproximado": "APT amenaza persistente"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-b-2024-p10",
+      "tema_numero": 32,
+      "tema_titulo": "Seguridad en redes. Perimetral. VPN. Seguridad en el puesto",
+      "concepto_aproximado": "SFTP FTPS"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-b-2024-p11",
+      "tema_numero": 24,
+      "tema_titulo": "Administración del SO y software de base. Actualización y mantenimiento",
+      "concepto_aproximado": "kernel Linux versión"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-b-2024-p12",
+      "tema_numero": 33,
+      "tema_titulo": "Redes locales. Tipología. Técnicas de transmisión. Dispositivos",
+      "concepto_aproximado": "indicador enlace Ethernet"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-b-2024-p13",
+      "tema_numero": 28,
+      "tema_titulo": "Seguridad de sistemas. Criptografía. Firma digital. CPD. Incidencias",
+      "concepto_aproximado": "dimensiones seguridad"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-b-2024-p14",
+      "tema_numero": 27,
+      "tema_titulo": "Administración de redes LAN. Gestión de usuarios y dispositivos",
+      "concepto_aproximado": "VLAN acceso switch"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-b-2024-p15",
+      "tema_numero": 30,
+      "tema_titulo": "Modelo TCP/IP y OSI. Protocolos TCP/IP",
+      "concepto_aproximado": "protocolos TCP/IP"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-b-2024-p16",
+      "tema_numero": 33,
+      "tema_titulo": "Redes locales. Tipología. Técnicas de transmisión. Dispositivos",
+      "concepto_aproximado": "conversor medios red"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-b-2024-p17",
+      "tema_numero": 28,
+      "tema_titulo": "Seguridad de sistemas. Criptografía. Firma digital. CPD. Incidencias",
+      "concepto_aproximado": "tailgating seguridad física"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-b-2024-p18",
+      "tema_numero": 32,
+      "tema_titulo": "Seguridad en redes. Perimetral. VPN. Seguridad en el puesto",
+      "concepto_aproximado": "seguridad puerto 80"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-b-2024-p19",
+      "tema_numero": 24,
+      "tema_titulo": "Administración del SO y software de base. Actualización y mantenimiento",
+      "concepto_aproximado": "fsck reparación FS"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-b-2024-p20",
+      "tema_numero": 30,
+      "tema_titulo": "Modelo TCP/IP y OSI. Protocolos TCP/IP",
+      "concepto_aproximado": "hosts disponibles subred"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-b-2024-p21",
+      "tema_numero": 26,
+      "tema_titulo": "Servidores de correo. Contenedores y microservicios",
+      "concepto_aproximado": "SMTP HELO"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-b-2024-p22",
+      "tema_numero": 32,
+      "tema_titulo": "Seguridad en redes. Perimetral. VPN. Seguridad en el puesto",
+      "concepto_aproximado": "WPA3 Enterprise"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-b-2024-p23",
+      "tema_numero": 17,
+      "tema_titulo": "Lenguajes de interrogación de BD. ANSI SQL. Procedimientos y triggers",
+      "concepto_aproximado": "CREATE TABLE MySQL"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-b-2024-p24",
+      "tema_numero": 24,
+      "tema_titulo": "Administración del SO y software de base. Actualización y mantenimiento",
+      "concepto_aproximado": "Nagios configuración"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-b-2024-p25",
+      "tema_numero": 31,
+      "tema_titulo": "Internet: arquitectura. Protocolos HTTP, HTTPS y SSL/TLS",
+      "concepto_aproximado": "TLS versión CCN"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-b-2025-p01",
+      "tema_numero": 27,
+      "tema_titulo": "Administración de redes LAN. Gestión de usuarios y dispositivos",
+      "concepto_aproximado": "GPO OU Directorio Activo"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-b-2025-p02",
+      "tema_numero": 25,
+      "tema_titulo": "Administración de BD. Almacenamiento y virtualización. Backup y recuperación",
+      "concepto_aproximado": "auditoría BD usuarios"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-b-2025-p03",
+      "tema_numero": 26,
+      "tema_titulo": "Servidores de correo. Contenedores y microservicios",
+      "concepto_aproximado": "POP3 IMAP"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-b-2025-p04",
+      "tema_numero": 32,
+      "tema_titulo": "Seguridad en redes. Perimetral. VPN. Seguridad en el puesto",
+      "concepto_aproximado": "SIP NAT VoIP"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-b-2025-p05",
+      "tema_numero": 28,
+      "tema_titulo": "Seguridad de sistemas. Criptografía. Firma digital. CPD. Incidencias",
+      "concepto_aproximado": "hash integridad"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-b-2025-p06",
+      "tema_numero": 28,
+      "tema_titulo": "Seguridad de sistemas. Criptografía. Firma digital. CPD. Incidencias",
+      "concepto_aproximado": "climatización CPD"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-b-2025-p07",
+      "tema_numero": 27,
+      "tema_titulo": "Administración de redes LAN. Gestión de usuarios y dispositivos",
+      "concepto_aproximado": "enrolamiento MDM"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-b-2025-p08",
+      "tema_numero": 26,
+      "tema_titulo": "Servidores de correo. Contenedores y microservicios",
+      "concepto_aproximado": "Kubernetes servicios"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-b-2025-p09",
+      "tema_numero": 28,
+      "tema_titulo": "Seguridad de sistemas. Criptografía. Firma digital. CPD. Incidencias",
+      "concepto_aproximado": "APT amenaza persistente"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-b-2025-p10",
+      "tema_numero": 32,
+      "tema_titulo": "Seguridad en redes. Perimetral. VPN. Seguridad en el puesto",
+      "concepto_aproximado": "SFTP FTPS"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-b-2025-p11",
+      "tema_numero": 24,
+      "tema_titulo": "Administración del SO y software de base. Actualización y mantenimiento",
+      "concepto_aproximado": "kernel Linux versión"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-b-2025-p12",
+      "tema_numero": 33,
+      "tema_titulo": "Redes locales. Tipología. Técnicas de transmisión. Dispositivos",
+      "concepto_aproximado": "indicador enlace Ethernet"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-b-2025-p13",
+      "tema_numero": 28,
+      "tema_titulo": "Seguridad de sistemas. Criptografía. Firma digital. CPD. Incidencias",
+      "concepto_aproximado": "dimensiones seguridad"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-b-2025-p14",
+      "tema_numero": 27,
+      "tema_titulo": "Administración de redes LAN. Gestión de usuarios y dispositivos",
+      "concepto_aproximado": "VLAN acceso switch"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-b-2025-p15",
+      "tema_numero": 30,
+      "tema_titulo": "Modelo TCP/IP y OSI. Protocolos TCP/IP",
+      "concepto_aproximado": "protocolos TCP/IP"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-b-2025-p16",
+      "tema_numero": 33,
+      "tema_titulo": "Redes locales. Tipología. Técnicas de transmisión. Dispositivos",
+      "concepto_aproximado": "conversor medios red"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-b-2025-p17",
+      "tema_numero": 28,
+      "tema_titulo": "Seguridad de sistemas. Criptografía. Firma digital. CPD. Incidencias",
+      "concepto_aproximado": "tailgating seguridad física"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-b-2025-p18",
+      "tema_numero": 32,
+      "tema_titulo": "Seguridad en redes. Perimetral. VPN. Seguridad en el puesto",
+      "concepto_aproximado": "seguridad puerto 80"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-b-2025-p19",
+      "tema_numero": 24,
+      "tema_titulo": "Administración del SO y software de base. Actualización y mantenimiento",
+      "concepto_aproximado": "fsck reparación FS"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-b-2025-p20",
+      "tema_numero": 30,
+      "tema_titulo": "Modelo TCP/IP y OSI. Protocolos TCP/IP",
+      "concepto_aproximado": "hosts disponibles subred"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-b-2025-p21",
+      "tema_numero": 26,
+      "tema_titulo": "Servidores de correo. Contenedores y microservicios",
+      "concepto_aproximado": "SMTP HELO"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-b-2025-p22",
+      "tema_numero": 32,
+      "tema_titulo": "Seguridad en redes. Perimetral. VPN. Seguridad en el puesto",
+      "concepto_aproximado": "WPA3 Enterprise"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-b-2025-p23",
+      "tema_numero": 17,
+      "tema_titulo": "Lenguajes de interrogación de BD. ANSI SQL. Procedimientos y triggers",
+      "concepto_aproximado": "CREATE TABLE MySQL"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-b-2025-p24",
+      "tema_numero": 24,
+      "tema_titulo": "Administración del SO y software de base. Actualización y mantenimiento",
+      "concepto_aproximado": "Nagios configuración"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-b-2025-p25",
+      "tema_numero": 31,
+      "tema_titulo": "Internet: arquitectura. Protocolos HTTP, HTTPS y SSL/TLS",
+      "concepto_aproximado": "TLS versión CCN"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-b-2026-p01",
+      "tema_numero": 30,
+      "tema_titulo": "Modelo TCP/IP y OSI. Protocolos TCP/IP",
+      "concepto_aproximado": "subnetting /21"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-b-2026-p02",
+      "tema_numero": 30,
+      "tema_titulo": "Modelo TCP/IP y OSI. Protocolos TCP/IP",
+      "concepto_aproximado": "hosts disponibles"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-b-2026-p03",
+      "tema_numero": 30,
+      "tema_titulo": "Modelo TCP/IP y OSI. Protocolos TCP/IP",
+      "concepto_aproximado": "subnetting /25"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-b-2026-p04",
+      "tema_numero": 27,
+      "tema_titulo": "Administración de redes LAN. Gestión de usuarios y dispositivos",
+      "concepto_aproximado": "DHCP relay Cisco"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-b-2026-p05",
+      "tema_numero": 24,
+      "tema_titulo": "Administración del SO y software de base. Actualización y mantenimiento",
+      "concepto_aproximado": "route table RHEL"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-b-2026-p06",
+      "tema_numero": 24,
+      "tema_titulo": "Administración del SO y software de base. Actualización y mantenimiento",
+      "concepto_aproximado": "systemctl enable"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-b-2026-p07",
+      "tema_numero": 26,
+      "tema_titulo": "Servidores de correo. Contenedores y microservicios",
+      "concepto_aproximado": "Docker stop"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-b-2026-p08",
+      "tema_numero": 26,
+      "tema_titulo": "Servidores de correo. Contenedores y microservicios",
+      "concepto_aproximado": "Docker rm"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-b-2026-p09",
+      "tema_numero": 26,
+      "tema_titulo": "Servidores de correo. Contenedores y microservicios",
+      "concepto_aproximado": "Docker pull"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-b-2026-p10",
+      "tema_numero": 32,
+      "tema_titulo": "Seguridad en redes. Perimetral. VPN. Seguridad en el puesto",
+      "concepto_aproximado": "firewall-cmd HTTPS"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-b-2026-p11",
+      "tema_numero": 30,
+      "tema_titulo": "Modelo TCP/IP y OSI. Protocolos TCP/IP",
+      "concepto_aproximado": "ip route get"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-b-2026-p12",
+      "tema_numero": 32,
+      "tema_titulo": "Seguridad en redes. Perimetral. VPN. Seguridad en el puesto",
+      "concepto_aproximado": "prueba TCP connect"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-b-2026-p13",
+      "tema_numero": 24,
+      "tema_titulo": "Administración del SO y software de base. Actualización y mantenimiento",
+      "concepto_aproximado": "puertos escucha RHEL"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-b-2026-p14",
+      "tema_numero": 25,
+      "tema_titulo": "Administración de BD. Almacenamiento y virtualización. Backup y recuperación",
+      "concepto_aproximado": "estrategia 3-2-1"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-b-2026-p15",
+      "tema_numero": 24,
+      "tema_titulo": "Administración del SO y software de base. Actualización y mantenimiento",
+      "concepto_aproximado": "tar gzip backup"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-b-2026-p16",
+      "tema_numero": 26,
+      "tema_titulo": "Servidores de correo. Contenedores y microservicios",
+      "concepto_aproximado": "IMAPS puerto"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-b-2026-p17",
+      "tema_numero": 24,
+      "tema_titulo": "Administración del SO y software de base. Actualización y mantenimiento",
+      "concepto_aproximado": "auditd auditoría"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-b-2026-p18",
+      "tema_numero": 24,
+      "tema_titulo": "Administración del SO y software de base. Actualización y mantenimiento",
+      "concepto_aproximado": "Copy-Item PowerShell"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-b-2026-p19",
+      "tema_numero": 27,
+      "tema_titulo": "Administración de redes LAN. Gestión de usuarios y dispositivos",
+      "concepto_aproximado": "AD DS instalación"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-b-2026-p20",
+      "tema_numero": 27,
+      "tema_titulo": "Administración de redes LAN. Gestión de usuarios y dispositivos",
+      "concepto_aproximado": "Active Directory usuarios"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-b-2026-p21",
+      "tema_numero": 32,
+      "tema_titulo": "Seguridad en redes. Perimetral. VPN. Seguridad en el puesto",
+      "concepto_aproximado": "firewall-cmd persistente"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-b-2026-p22",
+      "tema_numero": 32,
+      "tema_titulo": "Seguridad en redes. Perimetral. VPN. Seguridad en el puesto",
+      "concepto_aproximado": "rp_filter anti-spoofing"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-b-2026-p23",
+      "tema_numero": 32,
+      "tema_titulo": "Seguridad en redes. Perimetral. VPN. Seguridad en el puesto",
+      "concepto_aproximado": "firewall Windows regla"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-b-2026-p24",
+      "tema_numero": 27,
+      "tema_titulo": "Administración de redes LAN. Gestión de usuarios y dispositivos",
+      "concepto_aproximado": "replicación AD"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-b-2026-p25",
+      "tema_numero": 25,
+      "tema_titulo": "Administración de BD. Almacenamiento y virtualización. Backup y recuperación",
+      "concepto_aproximado": "LVM ampliación XFS"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-c-2026-p01",
+      "tema_numero": 24,
+      "tema_titulo": "Administración del SO y software de base. Actualización y mantenimiento",
+      "concepto_aproximado": "chmod ejecutable"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-c-2026-p02",
+      "tema_numero": 24,
+      "tema_titulo": "Administración del SO y software de base. Actualización y mantenimiento",
+      "concepto_aproximado": "mkdir directorio"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-c-2026-p03",
+      "tema_numero": 24,
+      "tema_titulo": "Administración del SO y software de base. Actualización y mantenimiento",
+      "concepto_aproximado": "hostname FQDN"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-c-2026-p04",
+      "tema_numero": 32,
+      "tema_titulo": "Seguridad en redes. Perimetral. VPN. Seguridad en el puesto",
+      "concepto_aproximado": "netsh firewall estado"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-c-2026-p05",
+      "tema_numero": 32,
+      "tema_titulo": "Seguridad en redes. Perimetral. VPN. Seguridad en el puesto",
+      "concepto_aproximado": "netsh firewall activar"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-c-2026-p06",
+      "tema_numero": 24,
+      "tema_titulo": "Administración del SO y software de base. Actualización y mantenimiento",
+      "concepto_aproximado": "IIS backup AppCmd"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-c-2026-p07",
+      "tema_numero": 24,
+      "tema_titulo": "Administración del SO y software de base. Actualización y mantenimiento",
+      "concepto_aproximado": "IIS listar backups"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-c-2026-p08",
+      "tema_numero": 25,
+      "tema_titulo": "Administración de BD. Almacenamiento y virtualización. Backup y recuperación",
+      "concepto_aproximado": "sistemas backup sin cintas"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-c-2026-p09",
+      "tema_numero": 31,
+      "tema_titulo": "Internet: arquitectura. Protocolos HTTP, HTTPS y SSL/TLS",
+      "concepto_aproximado": "TLS 1.3 handshake"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-c-2026-p10",
+      "tema_numero": 24,
+      "tema_titulo": "Administración del SO y software de base. Actualización y mantenimiento",
+      "concepto_aproximado": "Tomcat reinicio"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-c-2026-p11",
+      "tema_numero": 26,
+      "tema_titulo": "Servidores de correo. Contenedores y microservicios",
+      "concepto_aproximado": "SMTP STARTTLS puerto"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-c-2026-p12",
+      "tema_numero": 24,
+      "tema_titulo": "Administración del SO y software de base. Actualización y mantenimiento",
+      "concepto_aproximado": "IIS sitio PowerShell"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-c-2026-p13",
+      "tema_numero": 27,
+      "tema_titulo": "Administración de redes LAN. Gestión de usuarios y dispositivos",
+      "concepto_aproximado": "VLAN acceso switch"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-c-2026-p14",
+      "tema_numero": 24,
+      "tema_titulo": "Administración del SO y software de base. Actualización y mantenimiento",
+      "concepto_aproximado": "journalctl nginx"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-c-2026-p15",
+      "tema_numero": 24,
+      "tema_titulo": "Administración del SO y software de base. Actualización y mantenimiento",
+      "concepto_aproximado": "SELinux análisis"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-c-2026-p16",
+      "tema_numero": 28,
+      "tema_titulo": "Seguridad de sistemas. Criptografía. Firma digital. CPD. Incidencias",
+      "concepto_aproximado": "sonda SAT INET"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-c-2026-p17",
+      "tema_numero": 30,
+      "tema_titulo": "Modelo TCP/IP y OSI. Protocolos TCP/IP",
+      "concepto_aproximado": "subnetting hosts"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-c-2026-p18",
+      "tema_numero": 30,
+      "tema_titulo": "Modelo TCP/IP y OSI. Protocolos TCP/IP",
+      "concepto_aproximado": "IPv6 multicast"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-c-2026-p19",
+      "tema_numero": 26,
+      "tema_titulo": "Servidores de correo. Contenedores y microservicios",
+      "concepto_aproximado": "Docker ps -a"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-c-2026-p20",
+      "tema_numero": 24,
+      "tema_titulo": "Administración del SO y software de base. Actualización y mantenimiento",
+      "concepto_aproximado": "Get-Service PowerShell"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-c-2026-p21",
+      "tema_numero": 29,
+      "tema_titulo": "Comunicaciones. Medios de transmisión. Redes de conmutación y difusión",
+      "concepto_aproximado": "multiplexación CDMA"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-c-2026-p22",
+      "tema_numero": 29,
+      "tema_titulo": "Comunicaciones. Medios de transmisión. Redes de conmutación y difusión",
+      "concepto_aproximado": "WiFi 6 802.11ax"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-c-2026-p23",
+      "tema_numero": 27,
+      "tema_titulo": "Administración de redes LAN. Gestión de usuarios y dispositivos",
+      "concepto_aproximado": "SNMP MIB"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-c-2026-p24",
+      "tema_numero": 14,
+      "tema_titulo": "SGBD relacionales, orientados a objetos y NoSQL",
+      "concepto_aproximado": "SQL Server puerto"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-c-2026-p25",
+      "tema_numero": 26,
+      "tema_titulo": "Servidores de correo. Contenedores y microservicios",
+      "concepto_aproximado": "registro MX DNS"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-p01",
+      "tema_numero": 30,
+      "tema_titulo": "Modelo TCP/IP y OSI. Protocolos TCP/IP",
+      "concepto_aproximado": "subnetting /25"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-p02",
+      "tema_numero": 30,
+      "tema_titulo": "Modelo TCP/IP y OSI. Protocolos TCP/IP",
+      "concepto_aproximado": "hosts disponibles"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-p03",
+      "tema_numero": 30,
+      "tema_titulo": "Modelo TCP/IP y OSI. Protocolos TCP/IP",
+      "concepto_aproximado": "subnetting /21"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-p04",
+      "tema_numero": 27,
+      "tema_titulo": "Administración de redes LAN. Gestión de usuarios y dispositivos",
+      "concepto_aproximado": "DHCP relay Cisco"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-p05",
+      "tema_numero": 24,
+      "tema_titulo": "Administración del SO y software de base. Actualización y mantenimiento",
+      "concepto_aproximado": "route table RHEL"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-p06",
+      "tema_numero": 24,
+      "tema_titulo": "Administración del SO y software de base. Actualización y mantenimiento",
+      "concepto_aproximado": "systemctl enable"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-p07",
+      "tema_numero": 26,
+      "tema_titulo": "Servidores de correo. Contenedores y microservicios",
+      "concepto_aproximado": "Docker stop"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-p08",
+      "tema_numero": 26,
+      "tema_titulo": "Servidores de correo. Contenedores y microservicios",
+      "concepto_aproximado": "Docker rm"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-p09",
+      "tema_numero": 26,
+      "tema_titulo": "Servidores de correo. Contenedores y microservicios",
+      "concepto_aproximado": "Docker pull"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-p10",
+      "tema_numero": 32,
+      "tema_titulo": "Seguridad en redes. Perimetral. VPN. Seguridad en el puesto",
+      "concepto_aproximado": "firewall-cmd HTTPS"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-p11",
+      "tema_numero": 30,
+      "tema_titulo": "Modelo TCP/IP y OSI. Protocolos TCP/IP",
+      "concepto_aproximado": "ip route get"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-p12",
+      "tema_numero": 32,
+      "tema_titulo": "Seguridad en redes. Perimetral. VPN. Seguridad en el puesto",
+      "concepto_aproximado": "prueba TCP connect"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-p13",
+      "tema_numero": 24,
+      "tema_titulo": "Administración del SO y software de base. Actualización y mantenimiento",
+      "concepto_aproximado": "puertos escucha RHEL"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-p14",
+      "tema_numero": 25,
+      "tema_titulo": "Administración de BD. Almacenamiento y virtualización. Backup y recuperación",
+      "concepto_aproximado": "estrategia 3-2-1"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-p15",
+      "tema_numero": 24,
+      "tema_titulo": "Administración del SO y software de base. Actualización y mantenimiento",
+      "concepto_aproximado": "tar gzip backup"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-p16",
+      "tema_numero": 26,
+      "tema_titulo": "Servidores de correo. Contenedores y microservicios",
+      "concepto_aproximado": "IMAPS puerto"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-p17",
+      "tema_numero": 24,
+      "tema_titulo": "Administración del SO y software de base. Actualización y mantenimiento",
+      "concepto_aproximado": "auditd auditoría"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-p18",
+      "tema_numero": 24,
+      "tema_titulo": "Administración del SO y software de base. Actualización y mantenimiento",
+      "concepto_aproximado": "Copy-Item PowerShell"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-p19",
+      "tema_numero": 27,
+      "tema_titulo": "Administración de redes LAN. Gestión de usuarios y dispositivos",
+      "concepto_aproximado": "AD DS instalación"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-p20",
+      "tema_numero": 27,
+      "tema_titulo": "Administración de redes LAN. Gestión de usuarios y dispositivos",
+      "concepto_aproximado": "Active Directory usuarios"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-p21",
+      "tema_numero": 32,
+      "tema_titulo": "Seguridad en redes. Perimetral. VPN. Seguridad en el puesto",
+      "concepto_aproximado": "firewall-cmd persistente"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-p22",
+      "tema_numero": 32,
+      "tema_titulo": "Seguridad en redes. Perimetral. VPN. Seguridad en el puesto",
+      "concepto_aproximado": "rp_filter anti-spoofing"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-p23",
+      "tema_numero": 32,
+      "tema_titulo": "Seguridad en redes. Perimetral. VPN. Seguridad en el puesto",
+      "concepto_aproximado": "firewall Windows regla"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-p24",
+      "tema_numero": 27,
+      "tema_titulo": "Administración de redes LAN. Gestión de usuarios y dispositivos",
+      "concepto_aproximado": "replicación AD"
+    },
+    {
+      "pregunta_id": "pendiente-supuesto-2-p25",
+      "tema_numero": 25,
+      "tema_titulo": "Administración de BD. Almacenamiento y virtualización. Backup y recuperación",
+      "concepto_aproximado": "LVM ampliación XFS"
+    }
+  ]
+}

@@ -5,442 +5,12 @@
     {
       "id": "fc-00001",
       "concepto_id": "c-abba5f0308e2",
-      "modo": "anverso-reverso",
-      "anverso": "Según el art. 1, ¿cuál es la forma política del Estado español?",
-      "reverso": "Monarquía parlamentaria. El art. 1.3 establece que la forma política del Estado español es la Monarquía parlamentaria. (art. 1.3)",
-      "texto": null,
-      "respuestas": [],
-      "tags": [],
-      "verificado": false
-    },
-    {
-      "id": "fc-00002",
-      "concepto_id": "c-40c96c1b3b0f",
-      "modo": "anverso-reverso",
-      "anverso": "¿Qué derecho reconocen las nacionalidades y regiones según el art. 2?",
-      "reverso": "Derecho a la autonomía. El art. 2 reconoce el derecho a la autonomía de las nacionalidades y regiones. (art. 2)",
-      "texto": null,
-      "respuestas": [],
-      "tags": [],
-      "verificado": false
-    },
-    {
-      "id": "fc-00003",
-      "concepto_id": "c-80cb87821290",
-      "modo": "anverso-reverso",
-      "anverso": "¿Cuál es la capital del Estado?",
-      "reverso": "Madrid. El art. 5 establece que la capital del Estado es la ciudad de Madrid. (art. 5)",
-      "texto": null,
-      "respuestas": [],
-      "tags": [],
-      "verificado": false
-    },
-    {
-      "id": "fc-00004",
-      "concepto_id": "c-d71b5b434553",
-      "modo": "anverso-reverso",
-      "anverso": "¿Qué reconoce el art. 10.1?",
-      "reverso": "La dignidad de la persona y los derechos inviolables inherentes. El art. 10.1 proclama la dignidad de la persona y los derechos inviolables inherentes. (art. 10.1)",
-      "texto": null,
-      "respuestas": [],
-      "tags": [],
-      "verificado": false
-    },
-    {
-      "id": "fc-00005",
-      "concepto_id": "c-1e9b94ba76d5",
-      "modo": "anverso-reverso",
-      "anverso": "¿Qué garantiza el art. 16.1?",
-      "reverso": "Libertad ideológica, religiosa y de culto. El art. 16.1 garantiza la libertad ideológica, religiosa y de culto. (art. 16.1)",
-      "texto": null,
-      "respuestas": [],
-      "tags": [],
-      "verificado": false
-    },
-    {
-      "id": "fc-00006",
-      "concepto_id": "c-c08a99708fe6",
-      "modo": "anverso-reverso",
-      "anverso": "¿Qué establece el art. 18.2 sobre el domicilio?",
-      "reverso": "El domicilio es inviolable. El art. 18.2 declara la inviolabilidad del domicilio. (art. 18.2)",
-      "texto": null,
-      "respuestas": [],
-      "tags": [],
-      "verificado": false
-    },
-    {
-      "id": "fc-00007",
-      "concepto_id": "c-09c86798b878",
-      "modo": "anverso-reverso",
-      "anverso": "¿Qué establece el art. 21 sobre el derecho de reunión?",
-      "reverso": "Derecho de reunión pacífica y sin armas. El art. 21 reconoce el derecho de reunión pacífica y sin armas. (art. 21)",
-      "texto": null,
-      "respuestas": [],
-      "tags": [],
-      "verificado": false
-    },
-    {
-      "id": "fc-00008",
-      "concepto_id": "c-eecb9645c43f",
-      "modo": "anverso-reverso",
-      "anverso": "¿Qué principio proclama el art. 25.1?",
-      "reverso": "Legalidad penal. El art. 25.1 establece el principio de legalidad penal. (art. 25.1)",
-      "texto": null,
-      "respuestas": [],
-      "tags": [],
-      "verificado": false
-    },
-    {
-      "id": "fc-00009",
-      "concepto_id": "c-b4bb4917253b",
-      "modo": "anverso-reverso",
-      "anverso": "¿Qué derecho regula el art. 29?",
-      "reverso": "Derecho de petición. El art. 29 regula el derecho de petición. (art. 29)",
-      "texto": null,
-      "respuestas": [],
-      "tags": [],
-      "verificado": false
-    },
-    {
-      "id": "fc-00010",
-      "concepto_id": "c-2020ca22c1b0",
-      "modo": "anverso-reverso",
-      "anverso": "¿Qué establece el art. 35?",
-      "reverso": "Derecho al trabajo y deber de trabajar. El art. 35 establece el derecho al trabajo y el deber de trabajar. (art. 35)",
-      "texto": null,
-      "respuestas": [],
-      "tags": [],
-      "verificado": false
-    },
-    {
-      "id": "fc-00011",
-      "concepto_id": "c-1baf66f075b1",
-      "modo": "anverso-reverso",
-      "anverso": "¿Quién puede suspender derechos y libertades según el art. 55?",
-      "reverso": "El Congreso por mayoría absoluta. El art. 55 prevé la suspensión por el Congreso de los Diputados en los casos y formas que establece. (art. 55)",
-      "texto": null,
-      "respuestas": [],
-      "tags": [],
-      "verificado": false
-    },
-    {
-      "id": "fc-00012",
-      "concepto_id": "c-fe3b1b157e07",
-      "modo": "anverso-reverso",
-      "anverso": "¿Cómo se interpretan las normas sobre derechos fundamentales?",
-      "reverso": "Conforme a la Declaración Universal y tratados internacionales. El art. 10.2 establece esa interpretación. (art. 10.2)",
-      "texto": null,
-      "respuestas": [],
-      "tags": [],
-      "verificado": false
-    },
-    {
-      "id": "fc-00013",
-      "concepto_id": "c-f7661ffe9dec",
-      "modo": "anverso-reverso",
-      "anverso": "¿En qué marco se reconoce la libertad de empresa?",
-      "reverso": "Economía de mercado. El art. 38 la reconoce en el marco de la economía de mercado. (art. 38)",
-      "texto": null,
-      "respuestas": [],
-      "tags": [],
-      "verificado": false
-    },
-    {
-      "id": "fc-00014",
-      "concepto_id": "c-914e5fdb14ea",
-      "modo": "anverso-reverso",
-      "anverso": "¿Cuál de las siguientes es función del Rey?",
-      "reverso": "Todas las anteriores. El art. 62 enumera las funciones del Rey, incluidas sancionar leyes, dirigir política exterior y nombrar Gobierno. (art. 62)",
-      "texto": null,
-      "respuestas": [],
-      "tags": [],
-      "verificado": false
-    },
-    {
-      "id": "fc-00015",
-      "concepto_id": "c-29e788da39fe",
-      "modo": "anverso-reverso",
-      "anverso": "¿Qué representan las Cortes Generales?",
-      "reverso": "Al pueblo español. El art. 66.1 establece que las Cortes Generales representan al pueblo español. (art. 66.1)",
-      "texto": null,
-      "respuestas": [],
-      "tags": [],
-      "verificado": false
-    },
-    {
-      "id": "fc-00016",
-      "concepto_id": "c-3e3a47a79e45",
-      "modo": "anverso-reverso",
-      "anverso": "¿Quién tiene iniciativa legislativa?",
-      "reverso": "Gobierno, Congreso, Senado y asambleas autonómicas. El art. 87.1 y 87.2 reconocen la iniciativa legislativa al Gobierno, al Congreso, al Senado y a las asambleas autonómicas. (art. 87)",
-      "texto": null,
-      "respuestas": [],
-      "tags": [],
-      "verificado": false
-    },
-    {
-      "id": "fc-00017",
-      "concepto_id": "c-e221a775610b",
-      "modo": "anverso-reverso",
-      "anverso": "¿Quién nombra al Presidente del Gobierno?",
-      "reverso": "El Rey. El art. 98 y 99 atribuyen al Rey el nombramiento previa investidura. (art. 98)",
-      "texto": null,
-      "respuestas": [],
-      "tags": [],
-      "verificado": false
-    },
-    {
-      "id": "fc-00018",
-      "concepto_id": "c-5f881be943dd",
-      "modo": "anverso-reverso",
-      "anverso": "¿Quién ejerce el poder judicial?",
-      "reverso": "Jueces y tribunales. El art. 117.1 establece que el poder judicial corresponde exclusivamente a jueces y tribunales. (art. 117.1)",
-      "texto": null,
-      "respuestas": [],
-      "tags": [],
-      "verificado": false
-    },
-    {
-      "id": "fc-00019",
-      "concepto_id": "c-d09c5c023e95",
-      "modo": "anverso-reverso",
-      "anverso": "¿Qué mayoría se requiere para la reforma constitucional ordinaria?",
-      "reverso": "Mayoría de tres quintos de ambas Cámaras. El art. 167 establece la mayoría de tres quintos para la reforma ordinaria. (art. 167)",
-      "texto": null,
-      "respuestas": [],
-      "tags": [],
-      "verificado": false
-    },
-    {
-      "id": "fc-00020",
-      "concepto_id": "c-8ad61f8b93b2",
-      "modo": "anverso-reverso",
-      "anverso": "¿Cuál es la forma política del Estado español?",
-      "reverso": "Monarquía parlamentaria. El art. 1.3 establece la Monarquía parlamentaria. (art. 1.3)",
-      "texto": null,
-      "respuestas": [],
-      "tags": [],
-      "verificado": false
-    },
-    {
-      "id": "fc-00021",
-      "concepto_id": "c-918571c284a8",
-      "modo": "anverso-reverso",
-      "anverso": "La lengua oficial del Estado es:",
-      "reverso": "El castellano. El art. 3.1 declara el castellano lengua oficial del Estado. (art. 3.1)",
-      "texto": null,
-      "respuestas": [],
-      "tags": [],
-      "verificado": false
-    },
-    {
-      "id": "fc-00022",
-      "concepto_id": "c-bbbe196c1082",
-      "modo": "anverso-reverso",
-      "anverso": "El art. 9.3 garantiza:",
-      "reverso": "Principio de legalidad y seguridad jurídica. El art. 9.3 garantiza legalidad, jerarquía normativa, publicidad, irretroactividad, seguridad jurídica, responsabilidad e interdicción de arbitrariedad. (art. 9.3)",
-      "texto": null,
-      "respuestas": [],
-      "tags": [],
-      "verificado": false
-    },
-    {
-      "id": "fc-00023",
-      "concepto_id": "c-0574eee75104",
-      "modo": "anverso-reverso",
-      "anverso": "El art. 15 reconoce:",
-      "reverso": "Derecho a la vida y a la integridad física y moral. El art. 15 reconoce el derecho a la vida. (art. 15)",
-      "texto": null,
-      "respuestas": [],
-      "tags": [],
-      "verificado": false
-    },
-    {
-      "id": "fc-00024",
-      "concepto_id": "c-69f43cfda04d",
-      "modo": "anverso-reverso",
-      "anverso": "El art. 24 garantiza:",
-      "reverso": "Tutela judicial efectiva. El art. 24 garantiza la tutela judicial efectiva. (art. 24)",
-      "texto": null,
-      "respuestas": [],
-      "tags": [],
-      "verificado": false
-    },
-    {
-      "id": "fc-00025",
-      "concepto_id": "c-317e25606fdd",
-      "modo": "anverso-reverso",
-      "anverso": "El Congreso se elige por:",
-      "reverso": "Sufragio universal, libre, igual, directo y secreto. El art. 68.1 establece la eleccion por sufragio universal. (art. 68.1)",
-      "texto": null,
-      "respuestas": [],
-      "tags": [],
-      "verificado": false
-    },
-    {
-      "id": "fc-00026",
-      "concepto_id": "c-29e788da39fe",
-      "modo": "anverso-reverso",
-      "anverso": "Las mesas de las Camaras se componen de:",
-      "reverso": "Presidente, vicepresidentes y secretarios. El art. 72 regula las mesas de las Camaras. (art. 72)",
-      "texto": null,
-      "respuestas": [],
-      "tags": [],
-      "verificado": false
-    },
-    {
-      "id": "fc-00027",
-      "concepto_id": "c-29e788da39fe",
-      "modo": "anverso-reverso",
-      "anverso": "La Comisión de investigación se crea:",
-      "reverso": "Por acuerdo de cualquiera de las Camaras. El art. 76 permite crear comisiones de investigación. (art. 76)",
-      "texto": null,
-      "respuestas": [],
-      "tags": [],
-      "verificado": false
-    },
-    {
-      "id": "fc-00028",
-      "concepto_id": "c-29e788da39fe",
-      "modo": "anverso-reverso",
-      "anverso": "Los presupuestos se aprueban por:",
-      "reverso": "Ley. El art. 134 establece que los presupuestos se aprueban por ley. (art. 134)",
-      "texto": null,
-      "respuestas": [],
-      "tags": [],
-      "verificado": false
-    },
-    {
-      "id": "fc-00029",
-      "concepto_id": "c-e221a775610b",
-      "modo": "anverso-reverso",
-      "anverso": "El Presidente del Gobierno es nombrado por:",
-      "reverso": "El Rey. El art. 99 establece el nombramiento por el Rey. (art. 99)",
-      "texto": null,
-      "respuestas": [],
-      "tags": [],
-      "verificado": false
-    },
-    {
-      "id": "fc-00030",
-      "concepto_id": "c-520f3b987a14",
-      "modo": "anverso-reverso",
-      "anverso": "La mocion de censura requiere:",
-      "reverso": "Mayoría absoluta y candidato alternativo. El art. 113 regula la mocion de censura. (art. 113)",
-      "texto": null,
-      "respuestas": [],
-      "tags": [],
-      "verificado": false
-    },
-    {
-      "id": "fc-00031",
-      "concepto_id": "c-9fb009dd920a",
-      "modo": "anverso-reverso",
-      "anverso": "El Consejo General del Poder Judicial se compone de:",
-      "reverso": "Presidente y 20 vocales. El art. 122.2 establece la composicion del CGPJ. (art. 122.2)",
-      "texto": null,
-      "respuestas": [],
-      "tags": [],
-      "verificado": false
-    },
-    {
-      "id": "fc-00032",
-      "concepto_id": "c-5f881be943dd",
-      "modo": "anverso-reverso",
-      "anverso": "El Tribunal Supremo es el organo jurisdiccional superior en todos los ordenes:",
-      "reverso": "Salvo en materia de garantias constitucionales. El art. 123 establece esa funcion. (art. 123)",
-      "texto": null,
-      "respuestas": [],
-      "tags": [],
-      "verificado": false
-    },
-    {
-      "id": "fc-00033",
-      "concepto_id": "c-d09c5c023e95",
-      "modo": "anverso-reverso",
-      "anverso": "El Estado garantiza la solidaridad entre Comunidades Autonomas:",
-      "reverso": "Verdadero. El art. 138.1 establece la garantia de solidaridad. (art. 138.1)",
-      "texto": null,
-      "respuestas": [],
-      "tags": [],
-      "verificado": false
-    },
-    {
-      "id": "fc-00034",
-      "concepto_id": "c-a07a5fd59bb8",
-      "modo": "anverso-reverso",
-      "anverso": "La disposicion transitoria primera regula:",
-      "reverso": "El regimen provisional de las instituciones. La disp. transitoria 1.ª regula el regimen provisional. (disp. trans. 1.ª)",
-      "texto": null,
-      "respuestas": [],
-      "tags": [],
-      "verificado": false
-    },
-    {
-      "id": "fc-00035",
-      "concepto_id": "c-9fb009dd920a",
-      "modo": "anverso-reverso",
-      "anverso": "El Presidente del CGPJ es tambien Presidente del:",
-      "reverso": "Tribunal Supremo. El art. 123 y 122 establecen esa funcion. (art. 122-123)",
-      "texto": null,
-      "respuestas": [],
-      "tags": [],
-      "verificado": false
-    },
-    {
-      "id": "fc-00036",
-      "concepto_id": "c-f7661ffe9dec",
-      "modo": "anverso-reverso",
-      "anverso": "La Hacienda Publica se funda en:",
-      "reverso": "Justicia y suficiencia economica. El art. 133.1 establece ese principio. (art. 133.1)",
-      "texto": null,
-      "respuestas": [],
-      "tags": [],
-      "verificado": false
-    },
-    {
-      "id": "fc-00037",
-      "concepto_id": "c-d09c5c023e95",
-      "modo": "anverso-reverso",
-      "anverso": "La iniciativa de autonomia corresponde a:",
-      "reverso": "Las diputaciones o los organos correspondientes y la mayoria de los municipios. El art. 143.2 regula la iniciativa autonomica. (art. 143.2)",
-      "texto": null,
-      "respuestas": [],
-      "tags": [],
-      "verificado": false
-    },
-    {
-      "id": "fc-00038",
-      "concepto_id": "c-903f4acb8b06",
-      "modo": "anverso-reverso",
-      "anverso": "Los magistrados del Tribunal Constitucional son nombrados por:",
-      "reverso": "El Rey, a propuesta del Congreso, Senado, Gobierno y CGPJ. El art. 159.1 establece el nombramiento. (art. 159.1)",
-      "texto": null,
-      "respuestas": [],
-      "tags": [],
-      "verificado": false
-    },
-    {
-      "id": "fc-00039",
-      "concepto_id": "c-a07a5fd59bb8",
-      "modo": "anverso-reverso",
-      "anverso": "La disposicion transitoria cuarta regula:",
-      "reverso": "El proceso de autonomia. La disp. transitoria 4.ª regula el proceso autonomo. (disp. trans. 4.ª)",
-      "texto": null,
-      "respuestas": [],
-      "tags": [],
-      "verificado": false
-    },
-    {
-      "id": "fc-00040",
-      "concepto_id": "c-abba5f0308e2",
       "modo": "cloze",
       "anverso": null,
       "reverso": null,
-      "texto": "Según la Constitución, {c1::Estado social y democrático de Derecho} se regula en {c2::art. 1}.",
+      "texto": "Estado social y democrático de Derecho se reconoce en el artículo {{c1::1}} de la Constitución.",
       "respuestas": [
-        "Estado social y democrático de Derecho",
-        "art. 1"
+        "1"
       ],
       "tags": [
         "definicion",
@@ -449,15 +19,14 @@
       "verificado": false
     },
     {
-      "id": "fc-00041",
+      "id": "fc-00002",
       "concepto_id": "c-f5ef6db5806a",
       "modo": "cloze",
       "anverso": null,
       "reverso": null,
-      "texto": "Según la Constitución, {c1::Valores superiores: libertad, justicia, igualdad y pluralismo político} se regula en {c2::art. 1.1}.",
+      "texto": "Valores superiores: libertad, justicia, igualdad y pluralismo político se reconoce en el artículo {{c1::1.1}} de la Constitución.",
       "respuestas": [
-        "Valores superiores: libertad, justicia, igualdad y pluralismo político",
-        "art. 1.1"
+        "1.1"
       ],
       "tags": [
         "definicion",
@@ -466,15 +35,14 @@
       "verificado": false
     },
     {
-      "id": "fc-00042",
+      "id": "fc-00003",
       "concepto_id": "c-d4dd15d3bcac",
       "modo": "cloze",
       "anverso": null,
       "reverso": null,
-      "texto": "Según la Constitución, {c1::Soberanía nacional reside en el pueblo español} se regula en {c2::art. 1.2}.",
+      "texto": "Soberanía nacional reside en el pueblo español se reconoce en el artículo {{c1::1.2}} de la Constitución.",
       "respuestas": [
-        "Soberanía nacional reside en el pueblo español",
-        "art. 1.2"
+        "1.2"
       ],
       "tags": [
         "soberania"
@@ -482,15 +50,14 @@
       "verificado": false
     },
     {
-      "id": "fc-00043",
+      "id": "fc-00004",
       "concepto_id": "c-8ad61f8b93b2",
       "modo": "cloze",
       "anverso": null,
       "reverso": null,
-      "texto": "Según la Constitución, {c1::Forma política del Estado: Monarquía parlamentaria} se regula en {c2::art. 1.3}.",
+      "texto": "Forma política del Estado: Monarquía parlamentaria se reconoce en el artículo {{c1::1.3}} de la Constitución.",
       "respuestas": [
-        "Forma política del Estado: Monarquía parlamentaria",
-        "art. 1.3"
+        "1.3"
       ],
       "tags": [
         "forma-politica"
@@ -498,15 +65,14 @@
       "verificado": false
     },
     {
-      "id": "fc-00044",
+      "id": "fc-00005",
       "concepto_id": "c-a877183079ee",
       "modo": "cloze",
       "anverso": null,
       "reverso": null,
-      "texto": "Según la Constitución, {c1::Indisoluble unidad de la Nación española} se regula en {c2::art. 2}.",
+      "texto": "Indisoluble unidad de la Nación española se reconoce en el artículo {{c1::2}} de la Constitución.",
       "respuestas": [
-        "Indisoluble unidad de la Nación española",
-        "art. 2"
+        "2"
       ],
       "tags": [
         "nacion",
@@ -515,15 +81,14 @@
       "verificado": false
     },
     {
-      "id": "fc-00045",
+      "id": "fc-00006",
       "concepto_id": "c-40c96c1b3b0f",
       "modo": "cloze",
       "anverso": null,
       "reverso": null,
-      "texto": "Según la Constitución, {c1::Derecho a la autonomía de nacionalidades y regiones} se regula en {c2::art. 2}.",
+      "texto": "Derecho a la autonomía de nacionalidades y regiones se reconoce en el artículo {{c1::2}} de la Constitución.",
       "respuestas": [
-        "Derecho a la autonomía de nacionalidades y regiones",
-        "art. 2"
+        "2"
       ],
       "tags": [
         "derechos",
@@ -532,15 +97,14 @@
       "verificado": false
     },
     {
-      "id": "fc-00046",
+      "id": "fc-00007",
       "concepto_id": "c-918571c284a8",
       "modo": "cloze",
       "anverso": null,
       "reverso": null,
-      "texto": "Según la Constitución, {c1::Castellano es la lengua española oficial del Estado} se regula en {c2::art. 3.1}.",
+      "texto": "Castellano es la lengua española oficial del Estado se reconoce en el artículo {{c1::3.1}} de la Constitución.",
       "respuestas": [
-        "Castellano es la lengua española oficial del Estado",
-        "art. 3.1"
+        "3.1"
       ],
       "tags": [
         "lengua"
@@ -548,15 +112,14 @@
       "verificado": false
     },
     {
-      "id": "fc-00047",
+      "id": "fc-00008",
       "concepto_id": "c-82c80712776a",
       "modo": "cloze",
       "anverso": null,
       "reverso": null,
-      "texto": "Según la Constitución, {c1::Las demás lenguas españolas son también oficiales en sus Comunidades Autónomas} se regula en {c2::art. 3.2}.",
+      "texto": "Las demás lenguas españolas son también oficiales en sus Comunidades Autónomas se reconoce en el artículo {{c1::3.2}} de la Constitución.",
       "respuestas": [
-        "Las demás lenguas españolas son también oficiales en sus Comunidades Autónomas",
-        "art. 3.2"
+        "3.2"
       ],
       "tags": [
         "lengua",
@@ -565,15 +128,14 @@
       "verificado": false
     },
     {
-      "id": "fc-00048",
+      "id": "fc-00009",
       "concepto_id": "c-a84a3b74c822",
       "modo": "cloze",
       "anverso": null,
       "reverso": null,
-      "texto": "Según la Constitución, {c1::Bandera de España: roja, amarilla y roja, con el escudo} se regula en {c2::art. 4.1}.",
+      "texto": "Bandera de España: roja, amarilla y roja, con el escudo se reconoce en el artículo {{c1::4.1}} de la Constitución.",
       "respuestas": [
-        "Bandera de España: roja, amarilla y roja, con el escudo",
-        "art. 4.1"
+        "4.1"
       ],
       "tags": [
         "simbolos"
@@ -581,15 +143,14 @@
       "verificado": false
     },
     {
-      "id": "fc-00049",
+      "id": "fc-00010",
       "concepto_id": "c-80cb87821290",
       "modo": "cloze",
       "anverso": null,
       "reverso": null,
-      "texto": "Según la Constitución, {c1::Capital del Estado es la ciudad de Madrid} se regula en {c2::art. 5}.",
+      "texto": "Capital del Estado es la ciudad de Madrid se reconoce en el artículo {{c1::5}} de la Constitución.",
       "respuestas": [
-        "Capital del Estado es la ciudad de Madrid",
-        "art. 5"
+        "5"
       ],
       "tags": [
         "capital"
@@ -597,15 +158,14 @@
       "verificado": false
     },
     {
-      "id": "fc-00050",
+      "id": "fc-00011",
       "concepto_id": "c-5927637d26ef",
       "modo": "cloze",
       "anverso": null,
       "reverso": null,
-      "texto": "Según la Constitución, {c1::Los partidos políticos expresan el pluralismo político} se regula en {c2::art. 6}.",
+      "texto": "Los partidos políticos expresan el pluralismo político se reconoce en el artículo {{c1::6}} de la Constitución.",
       "respuestas": [
-        "Los partidos políticos expresan el pluralismo político",
-        "art. 6"
+        "6"
       ],
       "tags": [
         "partidos"
@@ -613,15 +173,14 @@
       "verificado": false
     },
     {
-      "id": "fc-00051",
+      "id": "fc-00012",
       "concepto_id": "c-379bc67ee253",
       "modo": "cloze",
       "anverso": null,
       "reverso": null,
-      "texto": "Según la Constitución, {c1::Los sindicatos de trabajadores y las asociaciones empresariales contribuyen a la defensa de intereses económicos y sociales} se regula en {c2::art. 7}.",
+      "texto": "Los sindicatos de trabajadores y las asociaciones empresariales contribuyen a la defensa de intereses económicos y sociales se reconoce en el artículo {{c1::7}} de la Constitución.",
       "respuestas": [
-        "Los sindicatos de trabajadores y las asociaciones empresariales contribuyen a la defensa de intereses económicos y sociales",
-        "art. 7"
+        "7"
       ],
       "tags": [
         "sindicatos"
@@ -629,15 +188,14 @@
       "verificado": false
     },
     {
-      "id": "fc-00052",
+      "id": "fc-00013",
       "concepto_id": "c-6bcc1d9045be",
       "modo": "cloze",
       "anverso": null,
       "reverso": null,
-      "texto": "Según la Constitución, {c1::Misiones de las Fuerzas Armadas: garantizar la soberanía e independencia y defender la integridad territorial} se regula en {c2::art. 8.1}.",
+      "texto": "Misiones de las Fuerzas Armadas: garantizar la soberanía e independencia y defender la integridad territorial se reconoce en el artículo {{c1::8.1}} de la Constitución.",
       "respuestas": [
-        "Misiones de las Fuerzas Armadas: garantizar la soberanía e independencia y defender la integridad territorial",
-        "art. 8.1"
+        "8.1"
       ],
       "tags": [
         "fuerzas-armadas"
@@ -645,15 +203,14 @@
       "verificado": false
     },
     {
-      "id": "fc-00053",
+      "id": "fc-00014",
       "concepto_id": "c-04caf9facde9",
       "modo": "cloze",
       "anverso": null,
       "reverso": null,
-      "texto": "Según la Constitución, {c1::Los ciudadanos y los poderes públicos están sujetos a la Constitución y al resto del ordenamiento jurídico} se regula en {c2::art. 9.1}.",
+      "texto": "Los ciudadanos y los poderes públicos están sujetos a la Constitución y al resto del ordenamiento jurídico se reconoce en el artículo {{c1::9.1}} de la Constitución.",
       "respuestas": [
-        "Los ciudadanos y los poderes públicos están sujetos a la Constitución y al resto del ordenamiento jurídico",
-        "art. 9.1"
+        "9.1"
       ],
       "tags": [
         "garantias"
@@ -661,15 +218,14 @@
       "verificado": false
     },
     {
-      "id": "fc-00054",
+      "id": "fc-00015",
       "concepto_id": "c-50b398ddd0d5",
       "modo": "cloze",
       "anverso": null,
       "reverso": null,
-      "texto": "Según la Constitución, {c1::Corresponde a los poderes públicos promover las condiciones para que la libertad y la igualdad sean reales y efectivas} se regula en {c2::art. 9.2}.",
+      "texto": "Corresponde a los poderes públicos promover las condiciones para que la libertad y la igualdad sean reales y efectivas se reconoce en el artículo {{c1::9.2}} de la Constitución.",
       "respuestas": [
-        "Corresponde a los poderes públicos promover las condiciones para que la libertad y la igualdad sean reales y efectivas",
-        "art. 9.2"
+        "9.2"
       ],
       "tags": [
         "garantias"
@@ -677,15 +233,14 @@
       "verificado": false
     },
     {
-      "id": "fc-00055",
+      "id": "fc-00016",
       "concepto_id": "c-bbbe196c1082",
       "modo": "cloze",
       "anverso": null,
       "reverso": null,
-      "texto": "Según la Constitución, {c1::La Constitución garantiza el principio de legalidad, la jerarquía normativa, la publicidad de las normas, la irretroactividad, la seguridad jurídica, la responsabilidad y la interdicción de la arbitrariedad} se regula en {c2::art. 9.3}.",
+      "texto": "La Constitución garantiza el principio de legalidad, la jerarquía normativa, la publicidad de las normas, la irretroactividad, la seguridad jurídica, la responsabilidad y la interdicción de la arbitrariedad se reconoce en el artículo {{c1::9.3}} de la Constitución.",
       "respuestas": [
-        "La Constitución garantiza el principio de legalidad, la jerarquía normativa, la publicidad de las normas, la irretroactividad, la seguridad jurídica, la responsabilidad y la interdicción de la arbitrariedad",
-        "art. 9.3"
+        "9.3"
       ],
       "tags": [
         "garantias"
@@ -693,15 +248,14 @@
       "verificado": false
     },
     {
-      "id": "fc-00056",
+      "id": "fc-00017",
       "concepto_id": "c-d71b5b434553",
       "modo": "cloze",
       "anverso": null,
       "reverso": null,
-      "texto": "Según la Constitución, {c1::Dignidad de la persona, derechos inviolables e inherentes} se regula en {c2::art. 10.1}.",
+      "texto": "Dignidad de la persona, derechos inviolables e inherentes se reconoce en el artículo {{c1::10.1}} de la Constitución.",
       "respuestas": [
-        "Dignidad de la persona, derechos inviolables e inherentes",
-        "art. 10.1"
+        "10.1"
       ],
       "tags": [
         "derechos"
@@ -709,15 +263,14 @@
       "verificado": false
     },
     {
-      "id": "fc-00057",
+      "id": "fc-00018",
       "concepto_id": "c-fe3b1b157e07",
       "modo": "cloze",
       "anverso": null,
       "reverso": null,
-      "texto": "Según la Constitución, {c1::Normas sobre derechos fundamentales se interpretan conforme a la Declaración Universal de Derechos Humanos y tratados internacionales} se regula en {c2::art. 10.2}.",
+      "texto": "Normas sobre derechos fundamentales se interpretan conforme a la Declaración Universal de Derechos Humanos y tratados internacionales se reconoce en el artículo {{c1::10.2}} de la Constitución.",
       "respuestas": [
-        "Normas sobre derechos fundamentales se interpretan conforme a la Declaración Universal de Derechos Humanos y tratados internacionales",
-        "art. 10.2"
+        "10.2"
       ],
       "tags": [
         "derechos",
@@ -726,15 +279,14 @@
       "verificado": false
     },
     {
-      "id": "fc-00058",
+      "id": "fc-00019",
       "concepto_id": "c-7941b8b8fc8a",
       "modo": "cloze",
       "anverso": null,
       "reverso": null,
-      "texto": "Según la Constitución, {c1::Nacionalidad española: adquisición y pérdida se regulan por ley} se regula en {c2::art. 11}.",
+      "texto": "Nacionalidad española: adquisición y pérdida se regulan por ley se reconoce en el artículo {{c1::11}} de la Constitución.",
       "respuestas": [
-        "Nacionalidad española: adquisición y pérdida se regulan por ley",
-        "art. 11"
+        "11"
       ],
       "tags": [
         "nacionalidad"
@@ -742,15 +294,14 @@
       "verificado": false
     },
     {
-      "id": "fc-00059",
+      "id": "fc-00020",
       "concepto_id": "c-02a0c21b66b6",
       "modo": "cloze",
       "anverso": null,
       "reverso": null,
-      "texto": "Según la Constitución, {c1::Mayoría de edad a los dieciocho años} se regula en {c2::art. 12}.",
+      "texto": "Mayoría de edad a los dieciocho años se reconoce en el artículo {{c1::12}} de la Constitución.",
       "respuestas": [
-        "Mayoría de edad a los dieciocho años",
-        "art. 12"
+        "12"
       ],
       "tags": [
         "mayoria-edad"
@@ -758,15 +309,14 @@
       "verificado": false
     },
     {
-      "id": "fc-00060",
+      "id": "fc-00021",
       "concepto_id": "c-60777b6ded42",
       "modo": "cloze",
       "anverso": null,
       "reverso": null,
-      "texto": "Según la Constitución, {c1::Extranjeros gozan de las libertades públicas que garantiza el título en los términos de los tratados} se regula en {c2::art. 13}.",
+      "texto": "Extranjeros gozan de las libertades públicas que garantiza el título en los términos de los tratados se reconoce en el artículo {{c1::13}} de la Constitución.",
       "respuestas": [
-        "Extranjeros gozan de las libertades públicas que garantiza el título en los términos de los tratados",
-        "art. 13"
+        "13"
       ],
       "tags": [
         "extranjeros"
@@ -774,15 +324,14 @@
       "verificado": false
     },
     {
-      "id": "fc-00061",
+      "id": "fc-00022",
       "concepto_id": "c-a85d54e8221e",
       "modo": "cloze",
       "anverso": null,
       "reverso": null,
-      "texto": "Según la Constitución, {c1::Igualdad ante la ley sin discriminación por nacimiento, raza, sexo, religión, opinión o cualquier otra condición} se regula en {c2::art. 14}.",
+      "texto": "Igualdad ante la ley sin discriminación por nacimiento, raza, sexo, religión, opinión o cualquier otra condición se reconoce en el artículo {{c1::14}} de la Constitución.",
       "respuestas": [
-        "Igualdad ante la ley sin discriminación por nacimiento, raza, sexo, religión, opinión o cualquier otra condición",
-        "art. 14"
+        "14"
       ],
       "tags": [
         "igualdad"
@@ -790,15 +339,14 @@
       "verificado": false
     },
     {
-      "id": "fc-00062",
+      "id": "fc-00023",
       "concepto_id": "c-0574eee75104",
       "modo": "cloze",
       "anverso": null,
       "reverso": null,
-      "texto": "Según la Constitución, {c1::Derecho a la vida y a la integridad física y moral} se regula en {c2::art. 15}.",
+      "texto": "Derecho a la vida y a la integridad física y moral se reconoce en el artículo {{c1::15}} de la Constitución.",
       "respuestas": [
-        "Derecho a la vida y a la integridad física y moral",
-        "art. 15"
+        "15"
       ],
       "tags": [
         "vida"
@@ -806,15 +354,14 @@
       "verificado": false
     },
     {
-      "id": "fc-00063",
+      "id": "fc-00024",
       "concepto_id": "c-1e9b94ba76d5",
       "modo": "cloze",
       "anverso": null,
       "reverso": null,
-      "texto": "Según la Constitución, {c1::Libertad ideológica, religiosa y de culto} se regula en {c2::art. 16.1}.",
+      "texto": "Libertad ideológica, religiosa y de culto se reconoce en el artículo {{c1::16.1}} de la Constitución.",
       "respuestas": [
-        "Libertad ideológica, religiosa y de culto",
-        "art. 16.1"
+        "16.1"
       ],
       "tags": [
         "religion"
@@ -822,15 +369,14 @@
       "verificado": false
     },
     {
-      "id": "fc-00064",
+      "id": "fc-00025",
       "concepto_id": "c-4d16c43c6b5d",
       "modo": "cloze",
       "anverso": null,
       "reverso": null,
-      "texto": "Según la Constitución, {c1::No hay religión oficial del Estado; cooperación con la Iglesia católica y demás confesiones} se regula en {c2::art. 16.3}.",
+      "texto": "No hay religión oficial del Estado; cooperación con la Iglesia católica y demás confesiones se reconoce en el artículo {{c1::16.3}} de la Constitución.",
       "respuestas": [
-        "No hay religión oficial del Estado; cooperación con la Iglesia católica y demás confesiones",
-        "art. 16.3"
+        "16.3"
       ],
       "tags": [
         "religion"
@@ -838,15 +384,14 @@
       "verificado": false
     },
     {
-      "id": "fc-00065",
+      "id": "fc-00026",
       "concepto_id": "c-96dccc6b2f6a",
       "modo": "cloze",
       "anverso": null,
       "reverso": null,
-      "texto": "Según la Constitución, {c1::Derecho a la libertad y a la seguridad; detención con garantías} se regula en {c2::art. 17}.",
+      "texto": "Derecho a la libertad y a la seguridad; detención con garantías se reconoce en el artículo {{c1::17}} de la Constitución.",
       "respuestas": [
-        "Derecho a la libertad y a la seguridad; detención con garantías",
-        "art. 17"
+        "17"
       ],
       "tags": [
         "libertad",
@@ -855,15 +400,14 @@
       "verificado": false
     },
     {
-      "id": "fc-00066",
+      "id": "fc-00027",
       "concepto_id": "c-a27967c04554",
       "modo": "cloze",
       "anverso": null,
       "reverso": null,
-      "texto": "Según la Constitución, {c1::Derecho al honor, a la intimidad personal y familiar y a la propia imagen} se regula en {c2::art. 18.1}.",
+      "texto": "Derecho al honor, a la intimidad personal y familiar y a la propia imagen se reconoce en el artículo {{c1::18.1}} de la Constitución.",
       "respuestas": [
-        "Derecho al honor, a la intimidad personal y familiar y a la propia imagen",
-        "art. 18.1"
+        "18.1"
       ],
       "tags": [
         "honor",
@@ -872,15 +416,14 @@
       "verificado": false
     },
     {
-      "id": "fc-00067",
+      "id": "fc-00028",
       "concepto_id": "c-c08a99708fe6",
       "modo": "cloze",
       "anverso": null,
       "reverso": null,
-      "texto": "Según la Constitución, {c1::Inviolabilidad del domicilio} se regula en {c2::art. 18.2}.",
+      "texto": "Inviolabilidad del domicilio se reconoce en el artículo {{c1::18.2}} de la Constitución.",
       "respuestas": [
-        "Inviolabilidad del domicilio",
-        "art. 18.2"
+        "18.2"
       ],
       "tags": [
         "domicilio"
@@ -888,15 +431,14 @@
       "verificado": false
     },
     {
-      "id": "fc-00068",
+      "id": "fc-00029",
       "concepto_id": "c-f75e43ec56fe",
       "modo": "cloze",
       "anverso": null,
       "reverso": null,
-      "texto": "Según la Constitución, {c1::Secreto de las comunicaciones} se regula en {c2::art. 18.3}.",
+      "texto": "Secreto de las comunicaciones se reconoce en el artículo {{c1::18.3}} de la Constitución.",
       "respuestas": [
-        "Secreto de las comunicaciones",
-        "art. 18.3"
+        "18.3"
       ],
       "tags": [
         "secreto-comunicaciones"
@@ -904,15 +446,14 @@
       "verificado": false
     },
     {
-      "id": "fc-00069",
+      "id": "fc-00030",
       "concepto_id": "c-a099a22ea6af",
       "modo": "cloze",
       "anverso": null,
       "reverso": null,
-      "texto": "Según la Constitución, {c1::Límites al uso de la informática para garantizar el honor y la intimidad} se regula en {c2::art. 18.4}.",
+      "texto": "Límites al uso de la informática para garantizar el honor y la intimidad se reconoce en el artículo {{c1::18.4}} de la Constitución.",
       "respuestas": [
-        "Límites al uso de la informática para garantizar el honor y la intimidad",
-        "art. 18.4"
+        "18.4"
       ],
       "tags": [
         "proteccion-datos"
@@ -920,15 +461,14 @@
       "verificado": false
     },
     {
-      "id": "fc-00070",
+      "id": "fc-00031",
       "concepto_id": "c-3fd628d362bb",
       "modo": "cloze",
       "anverso": null,
       "reverso": null,
-      "texto": "Según la Constitución, {c1::Libertad de residencia y circulación} se regula en {c2::art. 19}.",
+      "texto": "Libertad de residencia y circulación se reconoce en el artículo {{c1::19}} de la Constitución.",
       "respuestas": [
-        "Libertad de residencia y circulación",
-        "art. 19"
+        "19"
       ],
       "tags": [
         "libertad-circulacion"
@@ -936,15 +476,14 @@
       "verificado": false
     },
     {
-      "id": "fc-00071",
+      "id": "fc-00032",
       "concepto_id": "c-84b2a7dab69e",
       "modo": "cloze",
       "anverso": null,
       "reverso": null,
-      "texto": "Según la Constitución, {c1::Libertades de expresión e información} se regula en {c2::art. 20.1}.",
+      "texto": "Libertades de expresión e información se reconoce en el artículo {{c1::20.1}} de la Constitución.",
       "respuestas": [
-        "Libertades de expresión e información",
-        "art. 20.1"
+        "20.1"
       ],
       "tags": [
         "expresion"
@@ -952,15 +491,14 @@
       "verificado": false
     },
     {
-      "id": "fc-00072",
+      "id": "fc-00033",
       "concepto_id": "c-09c86798b878",
       "modo": "cloze",
       "anverso": null,
       "reverso": null,
-      "texto": "Según la Constitución, {c1::Derecho de reunión pacífica y sin armas} se regula en {c2::art. 21}.",
+      "texto": "Derecho de reunión pacífica y sin armas se reconoce en el artículo {{c1::21}} de la Constitución.",
       "respuestas": [
-        "Derecho de reunión pacífica y sin armas",
-        "art. 21"
+        "21"
       ],
       "tags": [
         "reunion"
@@ -968,15 +506,14 @@
       "verificado": false
     },
     {
-      "id": "fc-00073",
+      "id": "fc-00034",
       "concepto_id": "c-26fd03790e45",
       "modo": "cloze",
       "anverso": null,
       "reverso": null,
-      "texto": "Según la Constitución, {c1::Derecho de asociación} se regula en {c2::art. 22}.",
+      "texto": "Derecho de asociación se reconoce en el artículo {{c1::22}} de la Constitución.",
       "respuestas": [
-        "Derecho de asociación",
-        "art. 22"
+        "22"
       ],
       "tags": [
         "asociacion"
@@ -984,15 +521,14 @@
       "verificado": false
     },
     {
-      "id": "fc-00074",
+      "id": "fc-00035",
       "concepto_id": "c-043ba207084d",
       "modo": "cloze",
       "anverso": null,
       "reverso": null,
-      "texto": "Según la Constitución, {c1::Derecho a participar en asuntos públicos} se regula en {c2::art. 23}.",
+      "texto": "Derecho a participar en asuntos públicos se reconoce en el artículo {{c1::23}} de la Constitución.",
       "respuestas": [
-        "Derecho a participar en asuntos públicos",
-        "art. 23"
+        "23"
       ],
       "tags": [
         "participacion-politica"
@@ -1000,15 +536,14 @@
       "verificado": false
     },
     {
-      "id": "fc-00075",
+      "id": "fc-00036",
       "concepto_id": "c-69f43cfda04d",
       "modo": "cloze",
       "anverso": null,
       "reverso": null,
-      "texto": "Según la Constitución, {c1::Derecho a la tutela judicial efectiva} se regula en {c2::art. 24}.",
+      "texto": "Derecho a la tutela judicial efectiva se reconoce en el artículo {{c1::24}} de la Constitución.",
       "respuestas": [
-        "Derecho a la tutela judicial efectiva",
-        "art. 24"
+        "24"
       ],
       "tags": [
         "tutela-judicial"
@@ -1016,15 +551,14 @@
       "verificado": false
     },
     {
-      "id": "fc-00076",
+      "id": "fc-00037",
       "concepto_id": "c-eecb9645c43f",
       "modo": "cloze",
       "anverso": null,
       "reverso": null,
-      "texto": "Según la Constitución, {c1::Principio de legalidad penal} se regula en {c2::art. 25}.",
+      "texto": "Principio de legalidad penal se reconoce en el artículo {{c1::25}} de la Constitución.",
       "respuestas": [
-        "Principio de legalidad penal",
-        "art. 25"
+        "25"
       ],
       "tags": [
         "legalidad-penal"
@@ -1032,15 +566,14 @@
       "verificado": false
     },
     {
-      "id": "fc-00077",
+      "id": "fc-00038",
       "concepto_id": "c-9ebf5192e65a",
       "modo": "cloze",
       "anverso": null,
       "reverso": null,
-      "texto": "Según la Constitución, {c1::Prohibición de tribunales de honor} se regula en {c2::art. 26}.",
+      "texto": "Prohibición de tribunales de honor se reconoce en el artículo {{c1::26}} de la Constitución.",
       "respuestas": [
-        "Prohibición de tribunales de honor",
-        "art. 26"
+        "26"
       ],
       "tags": [
         "tribunales-honor"
@@ -1048,15 +581,14 @@
       "verificado": false
     },
     {
-      "id": "fc-00078",
+      "id": "fc-00039",
       "concepto_id": "c-4b10b9bec62d",
       "modo": "cloze",
       "anverso": null,
       "reverso": null,
-      "texto": "Según la Constitución, {c1::Derecho a la educación} se regula en {c2::art. 27}.",
+      "texto": "Derecho a la educación se reconoce en el artículo {{c1::27}} de la Constitución.",
       "respuestas": [
-        "Derecho a la educación",
-        "art. 27"
+        "27"
       ],
       "tags": [
         "educacion"
@@ -1064,19 +596,531 @@
       "verificado": false
     },
     {
-      "id": "fc-00079",
+      "id": "fc-00040",
       "concepto_id": "c-f81a6c5a0090",
       "modo": "cloze",
       "anverso": null,
       "reverso": null,
-      "texto": "Según la Constitución, {c1::Derecho de sindicación y huelga} se regula en {c2::art. 28}.",
+      "texto": "Derecho de sindicación y huelga se reconoce en el artículo {{c1::28}} de la Constitución.",
       "respuestas": [
-        "Derecho de sindicación y huelga",
-        "art. 28"
+        "28"
       ],
       "tags": [
         "sindicacion",
         "huelga"
+      ],
+      "verificado": false
+    },
+    {
+      "id": "fc-00041",
+      "concepto_id": "c-b4bb4917253b",
+      "modo": "anverso-reverso",
+      "anverso": "¿Qué establece el art. 29?",
+      "reverso": "Derecho a formular peticiones por escrito ante autoridades competentes. (art. 29)",
+      "texto": null,
+      "respuestas": [],
+      "tags": [
+        "peticion"
+      ],
+      "verificado": false
+    },
+    {
+      "id": "fc-00042",
+      "concepto_id": "c-f27dda091bf2",
+      "modo": "anverso-reverso",
+      "anverso": "¿Qué regula el art. 30?",
+      "reverso": "Derecho y deber de defender a España; ley regula prestación social sustitutoria. (art. 30)",
+      "texto": null,
+      "respuestas": [],
+      "tags": [
+        "defensa"
+      ],
+      "verificado": false
+    },
+    {
+      "id": "fc-00043",
+      "concepto_id": "c-52d126df0bc3",
+      "modo": "anverso-reverso",
+      "anverso": "¿Qué establece el art. 31?",
+      "reverso": "Sistema tributario justo basado en igualdad y progresividad, no confiscatorio. (art. 31)",
+      "texto": null,
+      "respuestas": [],
+      "tags": [
+        "tributacion"
+      ],
+      "verificado": false
+    },
+    {
+      "id": "fc-00044",
+      "concepto_id": "c-abadf1218641",
+      "modo": "anverso-reverso",
+      "anverso": "¿Qué garantiza el art. 32?",
+      "reverso": "Derecho al matrimonio con igualdad jurídica de los cónyuges. (art. 32)",
+      "texto": null,
+      "respuestas": [],
+      "tags": [
+        "matrimonio"
+      ],
+      "verificado": false
+    },
+    {
+      "id": "fc-00045",
+      "concepto_id": "c-2020ca22c1b0",
+      "modo": "anverso-reverso",
+      "anverso": "¿Qué reconoce el art. 35?",
+      "reverso": "Derecho al trabajo y deber de trabajar; libre elección de profesión. (art. 35)",
+      "texto": null,
+      "respuestas": [],
+      "tags": [
+        "trabajo"
+      ],
+      "verificado": false
+    },
+    {
+      "id": "fc-00046",
+      "concepto_id": "c-f7661ffe9dec",
+      "modo": "anverso-reverso",
+      "anverso": "¿Qué establece el art. 38?",
+      "reverso": "Libertad de empresa en el marco de la economía de mercado. (art. 38)",
+      "texto": null,
+      "respuestas": [],
+      "tags": [
+        "libre-empresa"
+      ],
+      "verificado": false
+    },
+    {
+      "id": "fc-00047",
+      "concepto_id": "c-1a69908387dd",
+      "modo": "anverso-reverso",
+      "anverso": "¿Qué garantiza el art. 53?",
+      "reverso": "Recurso de amparo ante el TC para protección de derechos. (art. 53)",
+      "texto": null,
+      "respuestas": [],
+      "tags": [
+        "garantias",
+        "recurse"
+      ],
+      "verificado": false
+    },
+    {
+      "id": "fc-00048",
+      "concepto_id": "c-94eef00d0c71",
+      "modo": "anverso-reverso",
+      "anverso": "¿Qué regula el art. 54?",
+      "reverso": "Defensor del Pueblo supervisa la Administración; designado por Cortes. (art. 54)",
+      "texto": null,
+      "respuestas": [],
+      "tags": [
+        "defensor-pueblo"
+      ],
+      "verificado": false
+    },
+    {
+      "id": "fc-00049",
+      "concepto_id": "c-1baf66f075b1",
+      "modo": "anverso-reverso",
+      "anverso": "¿Qué establece el art. 55?",
+      "reverso": "Suspensión de derechos en estados de alarma, excepción y sitio. (art. 55)",
+      "texto": null,
+      "respuestas": [],
+      "tags": [
+        "suspension"
+      ],
+      "verificado": false
+    },
+    {
+      "id": "fc-00050",
+      "concepto_id": "c-a382e92fc911",
+      "modo": "anverso-reverso",
+      "anverso": "¿Qué simboliza la Corona según el art. 56?",
+      "reverso": "La Corona simboliza la unidad y permanencia del Estado. (art. 56)",
+      "texto": null,
+      "respuestas": [],
+      "tags": [
+        "corona"
+      ],
+      "verificado": false
+    },
+    {
+      "id": "fc-00051",
+      "concepto_id": "c-43ace3d11663",
+      "modo": "anverso-reverso",
+      "anverso": "¿Cómo se sucede en la Corona según el art. 57?",
+      "reverso": "Sucesión por primogenitura, representación y línea regular. (art. 57)",
+      "texto": null,
+      "respuestas": [],
+      "tags": [
+        "sucesion"
+      ],
+      "verificado": false
+    },
+    {
+      "id": "fc-00052",
+      "concepto_id": "c-914e5fdb14ea",
+      "modo": "anverso-reverso",
+      "anverso": "¿Cuáles son las funciones del Rey según el art. 62?",
+      "reverso": "Sancionar leyes, convocar y disolver Cortes, etc. (art. 62)",
+      "texto": null,
+      "respuestas": [],
+      "tags": [
+        "funciones-rey"
+      ],
+      "verificado": false
+    },
+    {
+      "id": "fc-00053",
+      "concepto_id": "c-3d9de4ea0bba",
+      "modo": "anverso-reverso",
+      "anverso": "¿Quién ostenta el mando supremo de las FF.AA. según el art. 63?",
+      "reverso": "El Rey ostenta el mando supremo de las Fuerzas Armadas. (art. 63)",
+      "texto": null,
+      "respuestas": [],
+      "tags": [
+        "mando-militar"
+      ],
+      "verificado": false
+    },
+    {
+      "id": "fc-00054",
+      "concepto_id": "c-597cbe4d935c",
+      "modo": "anverso-reverso",
+      "anverso": "¿Qué requieren los actos del Rey según el art. 64?",
+      "reverso": "Refrendo por Presidente del Gobierno o Ministros. (art. 64)",
+      "texto": null,
+      "respuestas": [],
+      "tags": [
+        "refrendo"
+      ],
+      "verificado": false
+    },
+    {
+      "id": "fc-00055",
+      "concepto_id": "c-29e788da39fe",
+      "modo": "anverso-reverso",
+      "anverso": "¿Qué representan las Cortes Generales según el art. 66?",
+      "reverso": "Representan al pueblo español; son bicamerales. (art. 66)",
+      "texto": null,
+      "respuestas": [],
+      "tags": [
+        "cortes"
+      ],
+      "verificado": false
+    },
+    {
+      "id": "fc-00056",
+      "concepto_id": "c-ad6629117c56",
+      "modo": "anverso-reverso",
+      "anverso": "¿Cuál es el mandato de los parlamentarios según el art. 67?",
+      "reverso": "Parlamentarios representan al pueblo; mandato de 4 años. (art. 67)",
+      "texto": null,
+      "respuestas": [],
+      "tags": [
+        "mandato"
+      ],
+      "verificado": false
+    },
+    {
+      "id": "fc-00057",
+      "concepto_id": "c-317e25606fdd",
+      "modo": "anverso-reverso",
+      "anverso": "¿Cómo se compone el Congreso según el art. 68?",
+      "reverso": "Entre 300 y 400 diputados elegidos por circunscripción. (art. 68)",
+      "texto": null,
+      "respuestas": [],
+      "tags": [
+        "congreso"
+      ],
+      "verificado": false
+    },
+    {
+      "id": "fc-00058",
+      "concepto_id": "c-c6aaf3e5054a",
+      "modo": "anverso-reverso",
+      "anverso": "¿Cómo se compone el Senado según el art. 69?",
+      "reverso": "Representación territorial; 4 senadores por provincia. (art. 69)",
+      "texto": null,
+      "respuestas": [],
+      "tags": [
+        "senado"
+      ],
+      "verificado": false
+    },
+    {
+      "id": "fc-00059",
+      "concepto_id": "c-3727907df758",
+      "modo": "anverso-reverso",
+      "anverso": "¿Qué regula el art. 70?",
+      "reverso": "Incompatibilidades de diputados y senadores. (art. 70)",
+      "texto": null,
+      "respuestas": [],
+      "tags": [
+        "incompatibilidades"
+      ],
+      "verificado": false
+    },
+    {
+      "id": "fc-00060",
+      "concepto_id": "c-7b16ef02ba0f",
+      "modo": "anverso-reverso",
+      "anverso": "¿Qué mayoría exige el art. 81?",
+      "reverso": "Mayoría absoluta del Congreso para leyes orgánicas. (art. 81)",
+      "texto": null,
+      "respuestas": [],
+      "tags": [
+        "ley-organica"
+      ],
+      "verificado": false
+    },
+    {
+      "id": "fc-00061",
+      "concepto_id": "c-3e3a47a79e45",
+      "modo": "anverso-reverso",
+      "anverso": "¿Quién tiene iniciativa legislativa según el art. 87?",
+      "reverso": "Gobierno, Congreso, Senado y asambleas autonómicas. (art. 87)",
+      "texto": null,
+      "respuestas": [],
+      "tags": [
+        "iniciativa-legislativa"
+      ],
+      "verificado": false
+    },
+    {
+      "id": "fc-00062",
+      "concepto_id": "c-a07a5fd59bb8",
+      "modo": "anverso-reverso",
+      "anverso": "¿Qué función tiene el Gobierno según el art. 97?",
+      "reverso": "Dirige la política interior y exterior. (art. 97)",
+      "texto": null,
+      "respuestas": [],
+      "tags": [
+        "gobierno"
+      ],
+      "verificado": false
+    },
+    {
+      "id": "fc-00063",
+      "concepto_id": "c-e221a775610b",
+      "modo": "anverso-reverso",
+      "anverso": "¿Cómo se nombra y cesa al Presidente del Gobierno según el art. 98?",
+      "reverso": "Nombrado y cesado por el Rey tras investidura. (art. 98)",
+      "texto": null,
+      "respuestas": [],
+      "tags": [
+        "presidente-gobierno"
+      ],
+      "verificado": false
+    },
+    {
+      "id": "fc-00064",
+      "concepto_id": "c-525231d7f915",
+      "modo": "anverso-reverso",
+      "anverso": "¿Qué exige la investidura del Presidente según el art. 99?",
+      "reverso": "Mayoría absoluta y, en segunda, simple. (art. 99)",
+      "texto": null,
+      "respuestas": [],
+      "tags": [
+        "investidura"
+      ],
+      "verificado": false
+    },
+    {
+      "id": "fc-00065",
+      "concepto_id": "c-6859eff57f18",
+      "modo": "anverso-reverso",
+      "anverso": "¿Cómo se nombran los Ministros según el art. 100?",
+      "reverso": "Nombrados y cesados por el Rey a propuesta del Presidente. (art. 100)",
+      "texto": null,
+      "respuestas": [],
+      "tags": [
+        "ministros"
+      ],
+      "verificado": false
+    },
+    {
+      "id": "fc-00066",
+      "concepto_id": "c-520f3b987a14",
+      "modo": "anverso-reverso",
+      "anverso": "¿Ante quién responde políticamente el Gobierno según el art. 108?",
+      "reverso": "Ante el Congreso de los Diputados. (art. 108)",
+      "texto": null,
+      "respuestas": [],
+      "tags": [
+        "responsabilidad-gobierno"
+      ],
+      "verificado": false
+    },
+    {
+      "id": "fc-00067",
+      "concepto_id": "c-5f881be943dd",
+      "modo": "anverso-reverso",
+      "anverso": "¿Qué establece el art. 117?",
+      "reverso": "Poder judicial exclusivo de jueces y tribunales. (art. 117)",
+      "texto": null,
+      "respuestas": [],
+      "tags": [
+        "poder-judicial"
+      ],
+      "verificado": false
+    },
+    {
+      "id": "fc-00068",
+      "concepto_id": "c-9fb009dd920a",
+      "modo": "anverso-reverso",
+      "anverso": "¿Cómo se compone el CGPJ según el art. 122?",
+      "reverso": "Presidente del TS más 20 miembros. (art. 122)",
+      "texto": null,
+      "respuestas": [],
+      "tags": [
+        "cgpj"
+      ],
+      "verificado": false
+    },
+    {
+      "id": "fc-00069",
+      "concepto_id": "c-d09c5c023e95",
+      "modo": "anverso-reverso",
+      "anverso": "¿Qué regula el art. 148?",
+      "reverso": "Competencias asumibles por las Comunidades Autónomas. (art. 148)",
+      "texto": null,
+      "respuestas": [],
+      "tags": [
+        "competencias-autonomicas"
+      ],
+      "verificado": false
+    },
+    {
+      "id": "fc-00070",
+      "concepto_id": "c-903f4acb8b06",
+      "modo": "anverso-reverso",
+      "anverso": "¿Cómo se compone el TC según el art. 159?",
+      "reverso": "12 magistrados nombrados por el Rey. (art. 159)",
+      "texto": null,
+      "respuestas": [],
+      "tags": [
+        "tribunal-constitucional"
+      ],
+      "verificado": false
+    },
+    {
+      "id": "fc-00071",
+      "concepto_id": "c-abba5f0308e2",
+      "modo": "anverso-reverso",
+      "anverso": "¿Qué establece el art. 1?",
+      "reverso": "España se constituye en Estado social y democrático de Derecho. (art. 1)",
+      "texto": null,
+      "respuestas": [],
+      "tags": [
+        "definicion",
+        "garantias"
+      ],
+      "verificado": false
+    },
+    {
+      "id": "fc-00072",
+      "concepto_id": "c-f5ef6db5806a",
+      "modo": "anverso-reverso",
+      "anverso": "¿Qué establece el art. 1.1?",
+      "reverso": "Valores superiores: libertad, justicia, igualdad y pluralismo político. (art. 1.1)",
+      "texto": null,
+      "respuestas": [],
+      "tags": [
+        "definicion",
+        "valores"
+      ],
+      "verificado": false
+    },
+    {
+      "id": "fc-00073",
+      "concepto_id": "c-d4dd15d3bcac",
+      "modo": "anverso-reverso",
+      "anverso": "¿Qué establece el art. 1.2?",
+      "reverso": "Soberanía nacional reside en el pueblo español. (art. 1.2)",
+      "texto": null,
+      "respuestas": [],
+      "tags": [
+        "soberania"
+      ],
+      "verificado": false
+    },
+    {
+      "id": "fc-00074",
+      "concepto_id": "c-8ad61f8b93b2",
+      "modo": "anverso-reverso",
+      "anverso": "¿Qué establece el art. 1.3?",
+      "reverso": "Forma política: Monarquía parlamentaria. (art. 1.3)",
+      "texto": null,
+      "respuestas": [],
+      "tags": [
+        "forma-politica"
+      ],
+      "verificado": false
+    },
+    {
+      "id": "fc-00075",
+      "concepto_id": "c-a877183079ee",
+      "modo": "anverso-reverso",
+      "anverso": "¿Qué establece el art. 2?",
+      "reverso": "España es nación indisoluble; nacionalidades y regiones con autonomía. (art. 2)",
+      "texto": null,
+      "respuestas": [],
+      "tags": [
+        "nacion",
+        "autonomia"
+      ],
+      "verificado": false
+    },
+    {
+      "id": "fc-00076",
+      "concepto_id": "c-40c96c1b3b0f",
+      "modo": "anverso-reverso",
+      "anverso": "¿Qué derecho reconoce el art. 2?",
+      "reverso": "Derecho a la autonomía de nacionalidades y regiones. (art. 2)",
+      "texto": null,
+      "respuestas": [],
+      "tags": [
+        "derechos",
+        "competencias"
+      ],
+      "verificado": false
+    },
+    {
+      "id": "fc-00077",
+      "concepto_id": "c-918571c284a8",
+      "modo": "anverso-reverso",
+      "anverso": "¿Qué establece el art. 3.1?",
+      "reverso": "Castellano es lengua oficial del Estado. (art. 3.1)",
+      "texto": null,
+      "respuestas": [],
+      "tags": [
+        "lengua"
+      ],
+      "verificado": false
+    },
+    {
+      "id": "fc-00078",
+      "concepto_id": "c-82c80712776a",
+      "modo": "anverso-reverso",
+      "anverso": "¿Qué establece el art. 3.2?",
+      "reverso": "Otras lenguas oficiales en sus Comunidades Autónomas. (art. 3.2)",
+      "texto": null,
+      "respuestas": [],
+      "tags": [
+        "lengua",
+        "autonomia"
+      ],
+      "verificado": false
+    },
+    {
+      "id": "fc-00079",
+      "concepto_id": "c-a84a3b74c822",
+      "modo": "anverso-reverso",
+      "anverso": "¿Qué describe el art. 4.1?",
+      "reverso": "Bandera roja, amarilla y roja con escudo. (art. 4.1)",
+      "texto": null,
+      "respuestas": [],
+      "tags": [
+        "simbolos"
       ],
       "verificado": false
     }

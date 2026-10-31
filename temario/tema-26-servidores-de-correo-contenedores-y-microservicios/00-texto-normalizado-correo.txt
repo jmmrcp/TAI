@@ -1,0 +1,79 @@
+                                                  10 - BLOQUE 4 – TEMA 3 – CORREO
+AGENTES
+                                                                            • Una MTA por cada dominio. Las MSA se usan para gobernar en una organización el envío de
+                                                                              mails, para distribuir y dividir de forma controlada el envío y no tumbar las MTAs.
+                                                                            • Mi MUA alcanza mi MTA porque antes se configura el servidor saliente y entrante.
+                                                                            • Si en el MAA hubiese un webmail, como OWA, no iría por IMAP/POP3 sino por HTTP.
+                                                                            • El spool está orientado a la recepción, no al envío. Son los buzones de correo.
+                                                                              Almacenamiento físico. /var/spool/mail
+
+                                                                            MUA: Mail User Agent.             MTA: Mail Transfer Agent.          MSA: Mail Submission Agent.
+                                                                            MDA: Mail Delivery Agent.         MAA: Mail Access Agent.
+
+FORMATO DE CORREO ELECTRONICO
+  RFC 822: Solo texto (ASCII: 7+1 bits). No permite mandar ficheros adjuntos. Cabeceras:
+    From:       Date:      To:      Subject:      Message-ID:       In-Reply-To:    Received:      Return-Path: CC: Reply-To:                             + <CRLF>        Body:
+    Message-ID lo usa la MTA y se usa para agrupar por hilos de conversación. Received y Return-Path sirven
+    para la trazabilidad de la MTA, ya que el mensaje puede pasar por varias MTAs hasta alcanzar el destino.
+  EXTENSION MIME: Cabecera:
+    MIME-Version:
+    Content-Type: text/plain; multipart/mixed; multipart/alternative; application/pdf; image/gif; video/mpeg;
+                   + boundary = ………  identificador que encontramos en el body para indicar cambio de contenido 
+    Content-Transfer-Encoding: 7 bit / 8 bit / binary / quoted-printable base64
+PROTOCOLOS
+  POP3: Puerto 110. Puerto 995 con seguridad. Recepción. Orientado a descarga. Muy simple. Comandos:
+    USER texto       PASS texto      LIST: lista nº de mensajes y tamaño      RETR nº mensaje: descarga el mensaje
+    DELE nº mensaje: marca el mensaje para borrado          STAT: muestra el total de mensajes y el tamaño
+    QUIT: sale. Si hago DELE y luego QUIT, borra
+  IMAP: Puerto 143. Puerto 993 con seguridad. Recepción. Orientado a carpetas en servidor. Orientado a uso online.
+    LOGIN username@dominio password              LIST <mailbox path> <search argument>: folders
+    STATUS <mailbox name> <status data>: mensajes (MESSAGES, RECENT, UNSEEN, …)              SELECT <mailbox path>     EXAMINE: como SELECT pero solo lectura.
+    FETCH: leer contenido, headers, etc. BODY [TEXT], BODY [HEADER], FLAGS, UID          SEARCH <criteria>: FROM/TO, DATE/SINCE/BEFORE, BODY… DELETED
+    STORE Flags: modifica flags. Los mensajes tienen una especie de estado. Con STORE cambiamos esos flags. Uno de ellos es \Deleted ≈ DELE
+    EXPUNGE: borra los mensajes con el flag \Deleted activado. ≈ QUIT
+  SMTP: Puerto 25 y también 2525. Puerto 587 con seguridad. El 465 ha quedado obsoleto. Comandos:
+    HELO client.example.com        MAIL FROM: <carlos@ibm.com>            RCPT TO: <dani@indra.com>
+    DATA ……… <CRLF>.<CRLF> (Cuando haya una línea con únicamente un punto ”.”, finalizará el comando DATA)
+    QUIT
+  ESMTP: versión extendida de SMTP. Comandos:
+    EHLO client.example.com  las letras E y H intercambiadas indican que se quiere ESMTP.
+    STARTTLS: característica para pasar de modo no seguro (puerto 25) a modo seguro (puerto 587). No solo sirve para correo. Hace Handshake como el de HTTP.
+    AUTH PLAIN Base64 (credenciales): se manda usuario y contraseña sin cifrar.
+    AUTH LOGIN: se manda usuario y contraseña en 2 pasos, no en 1 como PLAIN. Las credenciales van en texto claro, por eso es importante cifrar el canal.
+HERRAMIENTAS
+  CLIENTES DE CORREO: IBM Lotus Notes    Microsoft Outlook / Express / Windows Mail   Mozilla Thunderbird     EM Client
+  SERVIDORES DE CORREO: IBM Lotus Domino      Microsoft Exchange       Zimbra    Exim   Postfix      SendMail     qmail
+SECURIZACION DE CORREO
+  SPF: Sender Policy Framework. Especifica qué servidores están autorizados a enviar correos en su nombre. Se comprueban las IPs autorizadas en el registro TXT.
+  DKIM: Domain Keys Identified Mail. Agrega una firma digital a cada correo que se envía desde su dominio. La clave pública está registrada en un registro TXT.
+  DMARC: Domain-based Message Authentication, Reporting & Conformance. Complementa a SPF y DKIM. Indica qué hacer si los correos no pasan SPF o DKIM.
+  ARC: Authenticated Received Chain. Verifica la autenticación de correo de los mensajes reenviados y los servidores de reenvío. Añade cabeceras.
+  DANE: DNS-Based Authentication of Named Entities. Infraestructura DNSSEC. Usa los registros TLSA. Establece canal seguro remitente-destinatario.
+
+ARQUITECTURA DNS: El DNS interviene en cada servicio que usa un nombre de host. Resolver es mi servidor DNS (/etc/resolv.conf).
+ 1.- Preguntamos al resolver por ese dominio. Si lo tiene cacheado nos da la IP, si no, pregunta al Root Server.
+ 2.- Root-Server nos dice el servidor Top-Level Domain que lleva el dominio por el que pregunto.
+ 3.- El Top-Level Domain nos dice qué servidor Autoritativo lleva ese dominio.
+ 4.- Preguntamos al DNS Autoritativo por la entrada/registro “A”.
+ 5.- Con la IP del registro “A” tenemos que www.domain.com es 173.204.151.53.
+  Registro DNS es un componente de las bases de datos de los servidores autoritativos.
+    Registro A: direcciones IP correspondientes a tus dominios y subdominios. Para la búsqueda inversa: Registro PTR.
+      www.example.com. 12879 IN A 93.184.216.34         34.216.184.93.in-addr.arpa. IN PTR ruinosa.com.
+    Registros MX: especifica a un MTA emisor en qué MTA(s) deberían ser entregados los emails.
+      example.com. IN MX 10 mail1.example.com.        example.com. IN MX 20 mail2.example.com.        example.com. IN MX 30 mail3.example.com.
+    Registro CNAME: especifica las redirecciones desde tus subdominios de los dominios a otros dominios / subdominios. Son una especie de alias.
+      www.example.net. CNAME www.example.com
+    Registro TXT: usados para almacenar info relacionada con tu dominio. Un registro muy común es el SPF, para prevenir ataques de spoofing.
+      gmx.es. IN TXT 14400 v=spf1 ip4:213.165.64.0/23 ip4:74.208.5.64/26 … ip4:82.165.159.0/24 -all
+    Registro AAAA: mapea un nombre de dominio a la dirección IP (IPv6) del ordenador que aloja el dominio.
+      www.example.com. IN AAAA 2606:2800:220:1:248:1893:25c8:1946
+    Registro SRV: nos sirve para indicar qué servicios queremos ofrecer bajo nuestro dominio. Ejemplo: VoIP. No solo se usa CNAME para algunos servicios.
+      _service._proto.name. TTL class SRV priority weight port target (formato general) _sip._tcp.example.com. 86400 IN SRV 0 5 5060 sipserver.example.com. (ejemplo servicio SIP)
+      _submission._tcp.example.com. SRV 0 1 587 mail.example.com. (ejemplo de servicio de correo MSA)
+    Registro CAA: restringir qué entidades pueden expedir certificados para un determinado dominio.
+      acme.com. CAA 0 issue "comodo.com"        acme.com. CAA 0 issue "letsencrypt.org"
+    Registro SOA: el registro de "Inicio De Autoridad" (SOA) de DNS almacena información importante sobre un dominio o una zona, como la dirección de
+      correo electrónico del administrador, cuándo se actualizó el dominio por última vez, tiempos de refresco, reintento, caducidad y TTL mínimo.
+    Registro TLSA: TLS Authentication. Almacena las huellas digitales de un certificado TLS/SSL.
+CARLOS VELILLA GARCIA – Telegram @CARLOSVELILLA                                                                                                          10 - B4-T3.1 - 1 -
+

@@ -1,0 +1,2421 @@
+{
+  "tema_id": "tema-05-politicas-de-igualdad-violencia-de-genero-lgtbi-discapacidad",
+  "total": 160,
+  "conceptos": [
+    {
+      "id": "c-0104f0950262",
+      "nombre": "Igualdad en la Sociedad de la Información",
+      "tipo": "competencia",
+      "valor": "Promoción del acceso y uso igualitario de las TIC",
+      "norma": "LO 3/2007",
+      "articulo": "art. 28",
+      "tags": [
+        "sociedad-informacion"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": false,
+      "otros_temas": []
+    },
+    {
+      "id": "c-0183a6db72b8",
+      "nombre": "Suspensión de la patria potestad o custodia",
+      "tipo": "procedimiento",
+      "valor": "Medida de protección de menores",
+      "norma": "LO 1/2004",
+      "articulo": "art. 65",
+      "tags": [
+        "patria-potestad"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": false,
+      "otros_temas": []
+    },
+    {
+      "id": "c-0cc9f52d50f6",
+      "nombre": "Consecuencias jurídicas de conductas discriminatorias",
+      "tipo": "definicion",
+      "valor": "Nulidad de los actos y cláusulas discriminatorias por razón de sexo",
+      "norma": "LO 3/2007",
+      "articulo": "art. 10",
+      "tags": [
+        "nulidad"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": false,
+      "otros_temas": []
+    },
+    {
+      "id": "c-0d9516fbde6e",
+      "nombre": "Sanciones",
+      "tipo": "procedimiento",
+      "valor": "Sanciones por infracciones",
+      "norma": "RDL 1/2013",
+      "articulo": "art. 83",
+      "tags": [
+        "sanciones"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": false,
+      "otros_temas": []
+    },
+    {
+      "id": "c-0db99e40acce",
+      "nombre": "Distintivo para empresas en materia de igualdad",
+      "tipo": "organo",
+      "valor": "Ministerio de Trabajo crea distintivo para empresas destacadas en igualdad",
+      "norma": "LO 3/2007",
+      "articulo": "art. 50",
+      "tags": [
+        "distintivo"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": false,
+      "otros_temas": []
+    },
+    {
+      "id": "c-12f691bfa85f",
+      "nombre": "Objeto de la Ley (RDL 1/2013)",
+      "tipo": "definicion",
+      "valor": "Texto Refundido de la Ley General de derechos de las personas con discapacidad y de su inclusión social",
+      "norma": "RDL 1/2013",
+      "articulo": "art. 1",
+      "tags": [
+        "objeto",
+        "discapacidad"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-16a95c5f8055",
+      "nombre": "Ayudas sociales",
+      "tipo": "derecho",
+      "valor": "Ayudas sociales a víctimas",
+      "norma": "LO 1/2004",
+      "articulo": "art. 27",
+      "tags": [
+        "ayudas-sociales"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": false,
+      "otros_temas": []
+    },
+    {
+      "id": "c-16eb3d1ad647",
+      "nombre": "Legitimación",
+      "tipo": "procedimiento",
+      "valor": "Legitimación para defender el derecho a la igualdad de trato",
+      "norma": "Ley 4/2023",
+      "articulo": "art. 43",
+      "tags": [
+        "legitimacion"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": false,
+      "otros_temas": []
+    },
+    {
+      "id": "c-192dcc2cf78a",
+      "nombre": "Publicidad ilícita",
+      "tipo": "competencia",
+      "valor": "Prohibición de publicidad que incite a la violencia",
+      "norma": "LO 1/2004",
+      "articulo": "art. 10",
+      "tags": [
+        "publicidad"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": false,
+      "otros_temas": []
+    },
+    {
+      "id": "c-19e74552868f",
+      "nombre": "Delegación del Gobierno contra la Violencia de Género",
+      "tipo": "organo",
+      "valor": "Adscrita al Ministerio de Igualdad; formula políticas y Macroencuesta",
+      "norma": "LO 1/2004",
+      "articulo": "art. 29",
+      "tags": [
+        "delegacion-gobierno"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-1d725c8d5d0e",
+      "nombre": "Igualdad de oportunidades",
+      "tipo": "definicion",
+      "valor": "Ausencia de discriminación por razón de discapacidad, incluidas medidas de acción positiva",
+      "norma": "RDL 1/2013",
+      "articulo": "art. 2.b",
+      "tags": [
+        "igualdad-oportunidades"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-1f161e28bd9e",
+      "nombre": "Ajustes razonables",
+      "tipo": "definicion",
+      "valor": "Modificaciones y adaptaciones necesarias que no impongan carga desproporcionada",
+      "norma": "RDL 1/2013",
+      "articulo": "art. 2.m",
+      "tags": [
+        "ajustes-razonables"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-1f523bda3ba5",
+      "nombre": "Indemnidad frente a represalias",
+      "tipo": "derecho",
+      "valor": "Prohibición de represalias contra quien formule queja o reclamación por discriminación",
+      "norma": "LO 3/2007",
+      "articulo": "art. 9",
+      "tags": [
+        "indemnidad",
+        "represalias"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": false,
+      "otros_temas": []
+    },
+    {
+      "id": "c-24992bb02557",
+      "nombre": "Planificación equitativa de los tiempos",
+      "tipo": "competencia",
+      "valor": "Medidas para racionalizar horarios y favorecer conciliación",
+      "norma": "LO 3/2007",
+      "articulo": "art. 22",
+      "tags": [
+        "conciliacion",
+        "tiempos"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": false,
+      "otros_temas": []
+    },
+    {
+      "id": "c-2578d8d0f064",
+      "nombre": "Funciones del Fiscal contra la Violencia sobre la Mujer",
+      "tipo": "organo",
+      "valor": "Fiscalía especializada",
+      "norma": "LO 1/2004",
+      "articulo": "art. 70",
+      "tags": [
+        "fiscal"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": false,
+      "otros_temas": []
+    },
+    {
+      "id": "c-259a80bfdc75",
+      "nombre": "Educación para la igualdad de mujeres y hombres",
+      "tipo": "competencia",
+      "valor": "Integración de la igualdad en el sistema educativo",
+      "norma": "LO 3/2007",
+      "articulo": "art. 23",
+      "tags": [
+        "educacion"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": false,
+      "otros_temas": []
+    },
+    {
+      "id": "c-27363962eeba",
+      "nombre": "Estrategia estatal para la igualdad de trato y no discriminación",
+      "tipo": "procedimiento",
+      "valor": "Estrategia estatal LGTBI",
+      "norma": "Ley 4/2023",
+      "articulo": "art. 10",
+      "tags": [
+        "estrategia-estatal"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": false,
+      "otros_temas": []
+    },
+    {
+      "id": "c-283bb1f8096b",
+      "nombre": "Transversalidad del principio de igualdad",
+      "tipo": "competencia",
+      "valor": "La igualdad de trato informa la actuación de todos los poderes públicos",
+      "norma": "LO 3/2007",
+      "articulo": "art. 15",
+      "tags": [
+        "transversalidad"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": false,
+      "otros_temas": []
+    },
+    {
+      "id": "c-2857ed18e038",
+      "nombre": "Acciones positivas",
+      "tipo": "procedimiento",
+      "valor": "Medidas específicas a favor de las mujeres para corregir situaciones de desigualdad manifiesta",
+      "norma": "LO 3/2007",
+      "articulo": "art. 11",
+      "tags": [
+        "acciones-positivas"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": false,
+      "otros_temas": []
+    },
+    {
+      "id": "c-2867521ecec8",
+      "nombre": "Derecho a la protección de la salud",
+      "tipo": "derecho",
+      "valor": "Atención sanitaria a personas con discapacidad",
+      "norma": "RDL 1/2013",
+      "articulo": "art. 10",
+      "tags": [
+        "salud"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": false,
+      "otros_temas": []
+    },
+    {
+      "id": "c-2946d2f28fb6",
+      "nombre": "Igualdad de trato y oportunidades en el ámbito laboral",
+      "tipo": "competencia",
+      "valor": "Medidas de igualdad laboral para personas LGTBI",
+      "norma": "Ley 4/2023",
+      "articulo": "art. 14",
+      "tags": [
+        "empleo"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": false,
+      "otros_temas": []
+    },
+    {
+      "id": "c-2ad8ae824a66",
+      "nombre": "Consejo de Participación de la Mujer",
+      "tipo": "organo",
+      "valor": "Órgano colegiado de consulta y asesoramiento",
+      "norma": "LO 3/2007",
+      "articulo": "art. 78",
+      "tags": [
+        "consejo-participacion"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": false,
+      "otros_temas": []
+    },
+    {
+      "id": "c-2b1cc1d9f245",
+      "nombre": "Observatorio Estatal de Violencia sobre la Mujer",
+      "tipo": "organo",
+      "valor": "Órgano de recogida y análisis de datos",
+      "norma": "LO 1/2004",
+      "articulo": "art. 30",
+      "tags": [
+        "observatorio"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-2b979228822c",
+      "nombre": "Discriminación directa LGTBI",
+      "tipo": "definicion",
+      "valor": "Trato menos favorable por razón de orientación/identidad sexual, expresión de género o características sexuales",
+      "norma": "Ley 4/2023",
+      "articulo": "art. 3.a",
+      "tags": [
+        "discriminacion-directa"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-2c3d793f8b47",
+      "nombre": "Derecho a la información",
+      "tipo": "derecho",
+      "valor": "Información sobre recursos y derechos",
+      "norma": "LO 1/2004",
+      "articulo": "art. 18",
+      "tags": [
+        "informacion"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": false,
+      "otros_temas": []
+    },
+    {
+      "id": "c-2dcacc4d1a9d",
+      "nombre": "Familia LGTBI",
+      "tipo": "definicion",
+      "valor": "Familia con uno o más integrantes personas LGTBI",
+      "norma": "Ley 4/2023",
+      "articulo": "art. 3.l",
+      "tags": [
+        "familia-lgtbi"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": false,
+      "otros_temas": []
+    },
+    {
+      "id": "c-2faa2ab96680",
+      "nombre": "Medios de comunicación",
+      "tipo": "competencia",
+      "valor": "Tratamiento informativo de la violencia de género",
+      "norma": "LO 1/2004",
+      "articulo": "art. 12",
+      "tags": [
+        "medios"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": false,
+      "otros_temas": []
+    },
+    {
+      "id": "c-2ffab6d8aeec",
+      "nombre": "Igualdad y no discriminación LGTBI en las empresas",
+      "tipo": "competencia",
+      "valor": "Medidas empresariales",
+      "norma": "Ley 4/2023",
+      "articulo": "art. 15",
+      "tags": [
+        "empresas"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": false,
+      "otros_temas": []
+    },
+    {
+      "id": "c-30f3fab6a6a6",
+      "nombre": "Derechos de las víctimas",
+      "tipo": "derecho",
+      "valor": "Derecho a información, atención integral, asistencia jurídica, laborales, sociales",
+      "norma": "LO 1/2004",
+      "articulo": "art. 14",
+      "tags": [
+        "derechos-victimas"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-31736828d4d5",
+      "nombre": "Acreditación en el ámbito laboral",
+      "tipo": "derecho",
+      "valor": "Documentos acreditativos para derechos laborales",
+      "norma": "LO 1/2004",
+      "articulo": "art. 26",
+      "tags": [
+        "acreditacion-laboral"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": false,
+      "otros_temas": []
+    },
+    {
+      "id": "c-33768e835f6e",
+      "nombre": "Expresión de género",
+      "tipo": "definicion",
+      "valor": "Manifestación de la identidad sexual",
+      "norma": "Ley 4/2023",
+      "articulo": "art. 3.j",
+      "tags": [
+        "expresion-genero"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": false,
+      "otros_temas": []
+    },
+    {
+      "id": "c-33d559805b02",
+      "nombre": "Personas LGTBI en situación de sinhogarismo",
+      "tipo": "derecho",
+      "valor": "Protección y atención",
+      "norma": "Ley 4/2023",
+      "articulo": "art. 75",
+      "tags": [
+        "sinhogarismo"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": false,
+      "otros_temas": []
+    },
+    {
+      "id": "c-346885c1b3db",
+      "nombre": "Medidas de acción positiva (RDL 1/2013)",
+      "tipo": "procedimiento",
+      "valor": "Medidas de fomento y compensación",
+      "norma": "RDL 1/2013",
+      "articulo": "art. 67",
+      "tags": [
+        "accion-positiva"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": false,
+      "otros_temas": []
+    },
+    {
+      "id": "c-36fef30b74cc",
+      "nombre": "Sensibilización y formación",
+      "tipo": "competencia",
+      "valor": "Formación de profesionales",
+      "norma": "LO 1/2004",
+      "articulo": "art. 15",
+      "tags": [
+        "formacion"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": false,
+      "otros_temas": []
+    },
+    {
+      "id": "c-371eb4a67ca5",
+      "nombre": "Composición equilibrada",
+      "tipo": "definicion",
+      "valor": "Personas de cada sexo no superan el 60% ni son menos del 40%",
+      "norma": "LO 3/2007",
+      "articulo": "disp. adic. 1ª",
+      "tags": [
+        "composicion-equilibrada"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-38f28fe69303",
+      "nombre": "Respeto a la autonomía de las personas con discapacidad",
+      "tipo": "derecho",
+      "valor": "Autonomía y capacidad jurídica",
+      "norma": "RDL 1/2013",
+      "articulo": "art. 6",
+      "tags": [
+        "autonomia"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-3a206e646876",
+      "nombre": "Protección y promoción de la salud de las personas LGTBI",
+      "tipo": "competencia",
+      "valor": "Atención sanitaria",
+      "norma": "Ley 4/2023",
+      "articulo": "art. 16",
+      "tags": [
+        "salud"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": false,
+      "otros_temas": []
+    },
+    {
+      "id": "c-4006ff237ff5",
+      "nombre": "Contenido de los planes de igualdad",
+      "tipo": "procedimiento",
+      "valor": "Diagnóstico negociado y medidas evaluables en materias como selección, formación, retribuciones, acoso",
+      "norma": "LO 3/2007",
+      "articulo": "art. 46",
+      "tags": [
+        "planes-igualdad",
+        "diagnostico"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-40447cc5fec2",
+      "nombre": "Medidas de acción positiva",
+      "tipo": "definicion",
+      "valor": "Medidas específicas para compensar desventajas derivadas de la discapacidad",
+      "norma": "RDL 1/2013",
+      "articulo": "art. 2.g",
+      "tags": [
+        "accion-positiva"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": false,
+      "otros_temas": []
+    },
+    {
+      "id": "c-409cf12fda78",
+      "nombre": "Asistencia jurídica gratuita",
+      "tipo": "derecho",
+      "valor": "Asistencia jurídica a víctimas de violencia de género",
+      "norma": "LO 1/2004",
+      "articulo": "art. 20",
+      "tags": [
+        "asistencia-juridica"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-41676cc75d97",
+      "nombre": "Presencia equilibrada en nombramientos públicos",
+      "tipo": "competencia",
+      "valor": "Los poderes públicos procurarán composición equilibrada en órganos de designación",
+      "norma": "LO 3/2007",
+      "articulo": "art. 16",
+      "tags": [
+        "nombramientos"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": false,
+      "otros_temas": []
+    },
+    {
+      "id": "c-41840c179968",
+      "nombre": "Reversibilidad de la rectificación",
+      "tipo": "procedimiento",
+      "valor": "Posibilidad de recuperar la mención anterior",
+      "norma": "Ley 4/2023",
+      "articulo": "art. 47",
+      "tags": [
+        "reversibilidad"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": false,
+      "otros_temas": []
+    },
+    {
+      "id": "c-41d303251c3e",
+      "nombre": "Derechos de conciliación de la vida personal, familiar y laboral",
+      "tipo": "derecho",
+      "valor": "Permiso y prestación por maternidad/paternidad; derechos de conciliación",
+      "norma": "LO 3/2007",
+      "articulo": "art. 44",
+      "tags": [
+        "conciliacion"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-4374008f4d1f",
+      "nombre": "Persona trans",
+      "tipo": "definicion",
+      "valor": "Persona cuya identidad sexual no se corresponde con el sexo asignado al nacer",
+      "norma": "Ley 4/2023",
+      "articulo": "art. 3.k",
+      "tags": [
+        "persona-trans"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-4393c3a92073",
+      "nombre": "Negociación colectiva y planes de igualdad",
+      "tipo": "competencia",
+      "valor": "La negociación colectiva promoverá la igualdad y los planes de igualdad",
+      "norma": "LO 3/2007",
+      "articulo": "art. 43",
+      "tags": [
+        "negociacion-colectiva"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": false,
+      "otros_temas": []
+    },
+    {
+      "id": "c-444898c55f10",
+      "nombre": "Discriminación por embarazo o maternidad",
+      "tipo": "definicion",
+      "valor": "Discriminación de la mujer por razón de embarazo o maternidad",
+      "norma": "LO 3/2007",
+      "articulo": "art. 8",
+      "tags": [
+        "embarazo",
+        "maternidad"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": false,
+      "otros_temas": []
+    },
+    {
+      "id": "c-457e21c54d14",
+      "nombre": "Igualdad en medios de comunicación de titularidad pública",
+      "tipo": "competencia",
+      "valor": "Imagen no estereotipada en medios públicos",
+      "norma": "LO 3/2007",
+      "articulo": "art. 36",
+      "tags": [
+        "medios-comunicacion"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": false,
+      "otros_temas": []
+    },
+    {
+      "id": "c-45bbc7b21f9b",
+      "nombre": "Comisión Interministerial de Igualdad entre mujeres y hombres",
+      "tipo": "organo",
+      "valor": "Órgano colegiado de coordinación de políticas ministeriales de igualdad",
+      "norma": "LO 3/2007",
+      "articulo": "art. 76",
+      "tags": [
+        "organo"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-48fbe556b0af",
+      "nombre": "Discapacidad",
+      "tipo": "definicion",
+      "valor": "Situación resultante de la interacción entre deficiencias previsiblemente permanentes y barreras que limitan la participación",
+      "norma": "RDL 1/2013",
+      "articulo": "art. 2.a",
+      "tags": [
+        "discapacidad"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-4d180103041e",
+      "nombre": "Contenido del derecho a la educación",
+      "tipo": "derecho",
+      "valor": "Apoyos y adaptaciones",
+      "norma": "RDL 1/2013",
+      "articulo": "art. 18",
+      "tags": [
+        "educacion"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": false,
+      "otros_temas": []
+    },
+    {
+      "id": "c-4e784f4eb106",
+      "nombre": "Presencia equilibrada en Consejos de administración",
+      "tipo": "cifra",
+      "valor": "Plazo de ocho años para alcanzar presencia equilibrada de mujeres y hombres",
+      "norma": "LO 3/2007",
+      "articulo": "art. 75",
+      "tags": [
+        "consejos-administracion"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-50b14b03a5f9",
+      "nombre": "Unidades de Igualdad",
+      "tipo": "organo",
+      "valor": "Órgano directivo en cada Ministerio para funciones de igualdad",
+      "norma": "LO 3/2007",
+      "articulo": "art. 77",
+      "tags": [
+        "unidades-igualdad"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": false,
+      "otros_temas": []
+    },
+    {
+      "id": "c-5214182d3b32",
+      "nombre": "Ámbito de aplicación (Ley 4/2023)",
+      "tipo": "definicion",
+      "valor": "Aplicación a todas las personas y entidades en territorio español",
+      "norma": "Ley 4/2023",
+      "articulo": "art. 2",
+      "tags": [
+        "ambito"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": false,
+      "otros_temas": []
+    },
+    {
+      "id": "c-535c77ab1c03",
+      "nombre": "Suspensión del derecho a tenencia de armas",
+      "tipo": "procedimiento",
+      "valor": "Medida de protección",
+      "norma": "LO 1/2004",
+      "articulo": "art. 67",
+      "tags": [
+        "armas"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": false,
+      "otros_temas": []
+    },
+    {
+      "id": "c-54b97e233c21",
+      "nombre": "Acoso por razón de sexo",
+      "tipo": "definicion",
+      "valor": "Comportamiento no deseado relacionado con el sexo con propósito o efecto de atentar contra la dignidad o crear entorno intimidatorio",
+      "norma": "LO 3/2007",
+      "articulo": "art. 7",
+      "tags": [
+        "acoso-sexo"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-5a08ca797ff6",
+      "nombre": "Nulidad de contratos y negocios jurídicos discriminatorios",
+      "tipo": "procedimiento",
+      "valor": "Nulidad de actos discriminatorios",
+      "norma": "Ley 4/2023",
+      "articulo": "art. 64",
+      "tags": [
+        "nulidad"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": false,
+      "otros_temas": []
+    },
+    {
+      "id": "c-5b3cf6b62567",
+      "nombre": "Garantías para la adopción de medidas",
+      "tipo": "procedimiento",
+      "valor": "Garantías procesales",
+      "norma": "LO 1/2004",
+      "articulo": "art. 68",
+      "tags": [
+        "garantias"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": false,
+      "otros_temas": []
+    },
+    {
+      "id": "c-5bad61b6ba4d",
+      "nombre": "Efectos de la rectificación registral",
+      "tipo": "procedimiento",
+      "valor": "Efectos jurídicos de la rectificación",
+      "norma": "Ley 4/2023",
+      "articulo": "art. 46",
+      "tags": [
+        "efectos-rectificacion"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": false,
+      "otros_temas": []
+    },
+    {
+      "id": "c-5baeb71ef957",
+      "nombre": "Deber de protección",
+      "tipo": "deber",
+      "valor": "Deber de los poderes públicos de proteger y promover derechos LGTBI",
+      "norma": "Ley 4/2023",
+      "articulo": "art. 4",
+      "tags": [
+        "deber-proteccion"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": false,
+      "otros_temas": []
+    },
+    {
+      "id": "c-5d8e743a7928",
+      "nombre": "Procedimiento de rectificación registral de la mención relativa al sexo",
+      "tipo": "procedimiento",
+      "valor": "Procedimiento ante el Registro Civil",
+      "norma": "Ley 4/2023",
+      "articulo": "art. 44",
+      "tags": [
+        "rectificacion-sexo"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-5d914c09082f",
+      "nombre": "Infracciones",
+      "tipo": "procedimiento",
+      "valor": "Tipificación de infracciones",
+      "norma": "RDL 1/2013",
+      "articulo": "art. 81",
+      "tags": [
+        "infracciones"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": false,
+      "otros_temas": []
+    },
+    {
+      "id": "c-5fc3e2e2e6af",
+      "nombre": "Derecho a la educación",
+      "tipo": "derecho",
+      "valor": "Educación inclusiva",
+      "norma": "RDL 1/2013",
+      "articulo": "art. 16",
+      "tags": [
+        "educacion"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-601d0b93007e",
+      "nombre": "Medidas contra la discriminación",
+      "tipo": "procedimiento",
+      "valor": "Medidas para prevenir y eliminar discriminación",
+      "norma": "RDL 1/2013",
+      "articulo": "art. 65",
+      "tags": [
+        "medidas-discriminacion"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": false,
+      "otros_temas": []
+    },
+    {
+      "id": "c-6050279343d4",
+      "nombre": "Derecho a la Accesibilidad Universal",
+      "tipo": "derecho",
+      "valor": "Accesibilidad en entornos, bienes y servicios",
+      "norma": "RDL 1/2013",
+      "articulo": "art. 22",
+      "tags": [
+        "accesibilidad"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-607c002ed62c",
+      "nombre": "Prohibición de terapias de conversión",
+      "tipo": "deber",
+      "valor": "Prohibidas las prácticas dirigidas a modificar orientación sexual o identidad de género",
+      "norma": "Ley 4/2023",
+      "articulo": "art. 17",
+      "tags": [
+        "terapias-conversion"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-608c8affd6c0",
+      "nombre": "Recursos en materia civil",
+      "tipo": "procedimiento",
+      "valor": "Recursos en procesos civiles",
+      "norma": "LO 1/2004",
+      "articulo": "art. 46",
+      "tags": [
+        "recursos-civiles"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": false,
+      "otros_temas": []
+    },
+    {
+      "id": "c-6118d23682a1",
+      "nombre": "Acceso a la vivienda",
+      "tipo": "derecho",
+      "valor": "Acceso a vivienda y residencias públicas",
+      "norma": "LO 1/2004",
+      "articulo": "art. 28",
+      "tags": [
+        "vivienda"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": false,
+      "otros_temas": []
+    },
+    {
+      "id": "c-64ccb723059f",
+      "nombre": "Derecho de participación en la vida pública",
+      "tipo": "derecho",
+      "valor": "Participación en la vida pública",
+      "norma": "RDL 1/2013",
+      "articulo": "art. 54",
+      "tags": [
+        "participacion-publica"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": false,
+      "otros_temas": []
+    },
+    {
+      "id": "c-65f4d4bf0ab1",
+      "nombre": "Escolarización inmediata en caso de violencia de género",
+      "tipo": "procedimiento",
+      "valor": "Escolarización inmediata de menores víctimas",
+      "norma": "LO 1/2004",
+      "articulo": "art. 5",
+      "tags": [
+        "escolarizacion"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": false,
+      "otros_temas": []
+    },
+    {
+      "id": "c-663e59328e31",
+      "nombre": "Integración del principio de igualdad en la política de educación",
+      "tipo": "competencia",
+      "valor": "Igualdad en educación",
+      "norma": "LO 3/2007",
+      "articulo": "art. 24",
+      "tags": [
+        "educacion"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": false,
+      "otros_temas": []
+    },
+    {
+      "id": "c-66b6c1a15737",
+      "nombre": "Planes de sensibilización",
+      "tipo": "competencia",
+      "valor": "Planes de sensibilización contra la violencia de género",
+      "norma": "LO 1/2004",
+      "articulo": "art. 3",
+      "tags": [
+        "sensibilizacion"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": false,
+      "otros_temas": []
+    },
+    {
+      "id": "c-6830546cb35e",
+      "nombre": "Accesibilidad universal",
+      "tipo": "definicion",
+      "valor": "Condición de entornos, procesos, bienes y servicios utilizables por todas las personas",
+      "norma": "RDL 1/2013",
+      "articulo": "art. 2.k",
+      "tags": [
+        "accesibilidad-universal"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-683a052607ef",
+      "nombre": "Diversidad LGTBI en el ámbito educativo",
+      "tipo": "competencia",
+      "valor": "Medidas educativas LGTBI",
+      "norma": "Ley 4/2023",
+      "articulo": "art. 20",
+      "tags": [
+        "educacion"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": false,
+      "otros_temas": []
+    },
+    {
+      "id": "c-68e0f8fde846",
+      "nombre": "Principios y valores del sistema educativo",
+      "tipo": "competencia",
+      "valor": "Inclusión de la igualdad en educación",
+      "norma": "LO 1/2004",
+      "articulo": "art. 4",
+      "tags": [
+        "educacion"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": false,
+      "otros_temas": []
+    },
+    {
+      "id": "c-6c04f745d5e8",
+      "nombre": "Discriminación directa por discapacidad",
+      "tipo": "definicion",
+      "valor": "Trato menos favorable por razón de discapacidad",
+      "norma": "RDL 1/2013",
+      "articulo": "art. 2.c",
+      "tags": [
+        "discriminacion-directa"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": false,
+      "otros_temas": []
+    },
+    {
+      "id": "c-6d3ada95da77",
+      "nombre": "Actuación de las Fuerzas y Cuerpos de Seguridad",
+      "tipo": "competencia",
+      "valor": "Protocolos de actuación y protección",
+      "norma": "LO 1/2004",
+      "articulo": "art. 31",
+      "tags": [
+        "fuerzas-seguridad"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": false,
+      "otros_temas": []
+    },
+    {
+      "id": "c-6fd283fda962",
+      "nombre": "Consejo Nacional de la Discapacidad",
+      "tipo": "organo",
+      "valor": "Órgano de participación",
+      "norma": "RDL 1/2013",
+      "articulo": "art. 55",
+      "tags": [
+        "consejo-nacional"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": false,
+      "otros_temas": []
+    },
+    {
+      "id": "c-723476e17852",
+      "nombre": "Cambio de nombre en menores de edad",
+      "tipo": "procedimiento",
+      "valor": "Derecho de personas trans menores a inscripción del cambio de nombre",
+      "norma": "Ley 4/2023",
+      "articulo": "art. 48",
+      "tags": [
+        "menores"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": false,
+      "otros_temas": []
+    },
+    {
+      "id": "c-74030baa54ea",
+      "nombre": "Especialidades en juicios rápidos",
+      "tipo": "procedimiento",
+      "valor": "Procedimiento rápido en materia de violencia de género",
+      "norma": "LO 1/2004",
+      "articulo": "art. 54",
+      "tags": [
+        "juicios-rapidos"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": false,
+      "otros_temas": []
+    },
+    {
+      "id": "c-74ccf9b0d519",
+      "nombre": "Derecho de las víctimas de violencia a asistencia integral",
+      "tipo": "derecho",
+      "valor": "Asistencia especializada a víctimas",
+      "norma": "Ley 4/2023",
+      "articulo": "art. 68",
+      "tags": [
+        "violencia"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": false,
+      "otros_temas": []
+    },
+    {
+      "id": "c-7cf125f60639",
+      "nombre": "Protección de datos y limitaciones a la publicidad",
+      "tipo": "procedimiento",
+      "valor": "Limitaciones publicitarias en procesos",
+      "norma": "LO 1/2004",
+      "articulo": "art. 63",
+      "tags": [
+        "proteccion-datos"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": false,
+      "otros_temas": []
+    },
+    {
+      "id": "c-7d77a2403b01",
+      "nombre": "Programas para la mejora de la empleabilidad de las mujeres",
+      "tipo": "derecho",
+      "valor": "Programas de formación y empleo para mujeres",
+      "norma": "LO 3/2007",
+      "articulo": "art. 42",
+      "tags": [
+        "empleo",
+        "formacion"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": false,
+      "otros_temas": []
+    },
+    {
+      "id": "c-7e22dc0e413d",
+      "nombre": "Titulares de los derechos",
+      "tipo": "derecho",
+      "valor": "Personas con discapacidad y sus familias",
+      "norma": "RDL 1/2013",
+      "articulo": "art. 4",
+      "tags": [
+        "titulares"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": false,
+      "otros_temas": []
+    },
+    {
+      "id": "c-7fe0e58e609c",
+      "nombre": "Garantías del derecho a la igualdad de oportunidades",
+      "tipo": "procedimiento",
+      "valor": "Garantías procesales",
+      "norma": "RDL 1/2013",
+      "articulo": "art. 64",
+      "tags": [
+        "garantias"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": false,
+      "otros_temas": []
+    },
+    {
+      "id": "c-7fef8658789c",
+      "nombre": "Garantías del derecho al trabajo",
+      "tipo": "derecho",
+      "valor": "Derechos laborales de personas con discapacidad",
+      "norma": "RDL 1/2013",
+      "articulo": "art. 35",
+      "tags": [
+        "trabajo"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-8203962c374c",
+      "nombre": "Orientación sexual",
+      "tipo": "definicion",
+      "valor": "Atracción física, sexual o afectiva; heterosexual, homosexual, bisexual",
+      "norma": "Ley 4/2023",
+      "articulo": "art. 3.h",
+      "tags": [
+        "orientacion-sexual"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-8468d21163b1",
+      "nombre": "Objeto: violencia de género",
+      "tipo": "definicion",
+      "valor": "Violencia ejercida sobre las mujeres por quienes sean o hayan sido sus cónyuges o relaciones similares de afectividad",
+      "norma": "LO 1/2004",
+      "articulo": "art. 1",
+      "tags": [
+        "violencia-genero",
+        "objeto"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-84b607543a94",
+      "nombre": "Informes de impacto de género",
+      "tipo": "procedimiento",
+      "valor": "Los proyectos de ley y reglamentos incluirán informe de impacto por razón de género",
+      "norma": "LO 3/2007",
+      "articulo": "art. 19",
+      "tags": [
+        "impacto-genero"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-86d7cca9fab5",
+      "nombre": "Igualdad de trato laboral",
+      "tipo": "derecho",
+      "valor": "No discriminación en el empleo",
+      "norma": "RDL 1/2013",
+      "articulo": "art. 36",
+      "tags": [
+        "igualdad-trato"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": false,
+      "otros_temas": []
+    },
+    {
+      "id": "c-872a7ac70edc",
+      "nombre": "Derecho de participación en la vida política",
+      "tipo": "derecho",
+      "valor": "Participación política",
+      "norma": "RDL 1/2013",
+      "articulo": "art. 53",
+      "tags": [
+        "participacion-politica"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": false,
+      "otros_temas": []
+    },
+    {
+      "id": "c-88c70d3827c2",
+      "nombre": "Autoridad competente para la rectificación",
+      "tipo": "competencia",
+      "valor": "El Encargado del Registro Civil",
+      "norma": "Ley 4/2023",
+      "articulo": "art. 45",
+      "tags": [
+        "autoridad-competente"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": false,
+      "otros_temas": []
+    },
+    {
+      "id": "c-893eb886ce78",
+      "nombre": "Capacitismo",
+      "tipo": "definicion",
+      "valor": "Proceso mental que valora a las personas por su capacidad funcional",
+      "norma": "RDL 1/2013",
+      "articulo": "art. 2.p",
+      "tags": [
+        "capacitismo"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": false,
+      "otros_temas": []
+    },
+    {
+      "id": "c-8e9d5e31bcb3",
+      "nombre": "Atención sanitaria integral a personas trans",
+      "tipo": "derecho",
+      "valor": "Atención sanitaria integral",
+      "norma": "Ley 4/2023",
+      "articulo": "art. 56",
+      "tags": [
+        "salud-trans"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": false,
+      "otros_temas": []
+    },
+    {
+      "id": "c-8f9d1cb93ad0",
+      "nombre": "Informe periódico al Parlamento",
+      "tipo": "procedimiento",
+      "valor": "Informe sobre la situación de igualdad entre mujeres y hombres",
+      "norma": "LO 3/2007",
+      "articulo": "art. 18",
+      "tags": [
+        "informe-periodico"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": false,
+      "otros_temas": []
+    },
+    {
+      "id": "c-90246201fb8c",
+      "nombre": "Consejo de Participación de las Personas LGTBI",
+      "tipo": "organo",
+      "valor": "Órgano de participación ciudadana",
+      "norma": "Ley 4/2023",
+      "articulo": "art. 9",
+      "tags": [
+        "consejo-participacion"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": false,
+      "otros_temas": []
+    },
+    {
+      "id": "c-90ed271afcc0",
+      "nombre": "Transversalidad de las políticas en materia de discapacidad",
+      "tipo": "definicion",
+      "valor": "Las políticas generales tienen en cuenta las necesidades de las personas con discapacidad",
+      "norma": "RDL 1/2013",
+      "articulo": "art. 2.o",
+      "tags": [
+        "transversalidad"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": false,
+      "otros_temas": []
+    },
+    {
+      "id": "c-910fc29bb691",
+      "nombre": "Vida independiente",
+      "tipo": "definicion",
+      "valor": "Derecho a decidir cómo, dónde y con quién vivir con apoyos",
+      "norma": "RDL 1/2013",
+      "articulo": "art. 2.h",
+      "tags": [
+        "vida-independiente"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-91893fb8c042",
+      "nombre": "Auditoría salarial entre mujeres y hombres",
+      "tipo": "procedimiento",
+      "valor": "Materia obligatoria del diagnóstico de los planes de igualdad",
+      "norma": "LO 3/2007",
+      "articulo": "art. 46.2",
+      "tags": [
+        "auditoria-salarial"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": false,
+      "otros_temas": []
+    },
+    {
+      "id": "c-924b2381fd5d",
+      "nombre": "Principios rectores de la Ley",
+      "tipo": "competencia",
+      "valor": "Medidas integrales: sensibilización, derechos, servicios, laboral, económico, penal, coordinación",
+      "norma": "LO 1/2004",
+      "articulo": "art. 2",
+      "tags": [
+        "principios"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": false,
+      "otros_temas": []
+    },
+    {
+      "id": "c-92d3b9da6bce",
+      "nombre": "Acoso sexual",
+      "tipo": "definicion",
+      "valor": "Cualquier comportamiento verbal o físico de naturaleza sexual no deseado con propósito o efecto de atentar contra la dignidad o crear entorno hostil",
+      "norma": "LO 3/2007",
+      "articulo": "art. 7",
+      "tags": [
+        "acoso-sexual"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-9382d7b1eeec",
+      "nombre": "Competencia de los Juzgados de Violencia",
+      "tipo": "organo",
+      "valor": "Competencia territorial y por conexión",
+      "norma": "LO 1/2004",
+      "articulo": "art. 44",
+      "tags": [
+        "competencia-judicial"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": false,
+      "otros_temas": []
+    },
+    {
+      "id": "c-99a066c2e76f",
+      "nombre": "Cuota de reserva de puestos de trabajo",
+      "tipo": "cifra",
+      "valor": "Al menos el 2% de la plantilla en empresas de 50 o más trabajadores",
+      "norma": "RDL 1/2013",
+      "articulo": "art. 42",
+      "tags": [
+        "cuota-reserva"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-9b053d8a92ff",
+      "nombre": "Consejo Interterritorial del Sistema Nacional de Salud",
+      "tipo": "competencia",
+      "valor": "Coordinación sanitaria en violencia de género",
+      "norma": "LO 1/2004",
+      "articulo": "art. 16",
+      "tags": [
+        "sanidad"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": false,
+      "otros_temas": []
+    },
+    {
+      "id": "c-9e9357594bd0",
+      "nombre": "Obligación de elaborar planes de igualdad",
+      "tipo": "deber",
+      "valor": "Empresas de 50 o más trabajadores deben elaborar y aplicar plan de igualdad",
+      "norma": "LO 3/2007",
+      "articulo": "art. 45",
+      "tags": [
+        "planes-igualdad",
+        "empresas"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-9fb88037d2d2",
+      "nombre": "Derecho a la protección social",
+      "tipo": "derecho",
+      "valor": "Prestaciones sociales",
+      "norma": "RDL 1/2013",
+      "articulo": "art. 48",
+      "tags": [
+        "proteccion-social"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": false,
+      "otros_temas": []
+    },
+    {
+      "id": "c-a0b035f5e6ea",
+      "nombre": "Medidas de salida del domicilio y alejamiento",
+      "tipo": "procedimiento",
+      "valor": "Medidas cautelares de protección",
+      "norma": "LO 1/2004",
+      "articulo": "art. 64",
+      "tags": [
+        "alejamiento"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": false,
+      "otros_temas": []
+    },
+    {
+      "id": "c-a1fcc0f38684",
+      "nombre": "Personas intersexuales",
+      "tipo": "derecho",
+      "valor": "Protección y atención a personas intersexuales",
+      "norma": "Ley 4/2023",
+      "articulo": "art. 74",
+      "tags": [
+        "intersex"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": false,
+      "otros_temas": []
+    },
+    {
+      "id": "c-a2b3483d065b",
+      "nombre": "Programa específico de empleo",
+      "tipo": "derecho",
+      "valor": "Programas de empleo para víctimas",
+      "norma": "LO 1/2004",
+      "articulo": "art. 22",
+      "tags": [
+        "empleo"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": false,
+      "otros_temas": []
+    },
+    {
+      "id": "c-a3b3f18f69a6",
+      "nombre": "Recursos en materia penal",
+      "tipo": "procedimiento",
+      "valor": "Recursos en procesos de violencia de género",
+      "norma": "LO 1/2004",
+      "articulo": "art. 45",
+      "tags": [
+        "recursos-penales"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": false,
+      "otros_temas": []
+    },
+    {
+      "id": "c-a78a3f133f85",
+      "nombre": "Ámbito de los derechos",
+      "tipo": "derecho",
+      "valor": "Derechos exigibles ante las Administraciones Públicas",
+      "norma": "LO 1/2004",
+      "articulo": "art. 24",
+      "tags": [
+        "ambito-derechos"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": false,
+      "otros_temas": []
+    },
+    {
+      "id": "c-ae20cecb7186",
+      "nombre": "Derecho a la asistencia sanitaria",
+      "tipo": "derecho",
+      "valor": "Atención sanitaria a víctimas",
+      "norma": "LO 1/2004",
+      "articulo": "art. 19",
+      "tags": [
+        "sanidad"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": false,
+      "otros_temas": []
+    },
+    {
+      "id": "c-aedf79b35e2e",
+      "nombre": "Tipos de violencia de género",
+      "tipo": "definicion",
+      "valor": "Actos de violencia física y psicológica, agresiones a la libertad sexual, amenazas, coacciones, privación arbitraria de libertad",
+      "norma": "LO 1/2004",
+      "articulo": "art. 1.3",
+      "tags": [
+        "tipos-violencia"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-af70a9c45222",
+      "nombre": "Carga de la prueba",
+      "tipo": "procedimiento",
+      "valor": "En alegaciones de discriminación por sexo, corresponde a la demandada probar la ausencia de discriminación",
+      "norma": "LO 3/2007",
+      "articulo": "art. 13",
+      "tags": [
+        "prueba",
+        "carga-prueba"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-b074ef38af3c",
+      "nombre": "Contratos de la Administración General del Estado",
+      "tipo": "competencia",
+      "valor": "Medidas de igualdad en la contratación de la AGE",
+      "norma": "LO 3/2007",
+      "articulo": "art. 34",
+      "tags": [
+        "contratacion-age"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": false,
+      "otros_temas": []
+    },
+    {
+      "id": "c-b1dc8447273c",
+      "nombre": "Suspensión del régimen de visitas",
+      "tipo": "procedimiento",
+      "valor": "Medida de protección",
+      "norma": "LO 1/2004",
+      "articulo": "art. 66",
+      "tags": [
+        "visitas"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": false,
+      "otros_temas": []
+    },
+    {
+      "id": "c-b29d6d741adc",
+      "nombre": "Medidas de protección contra el ciberacoso",
+      "tipo": "procedimiento",
+      "valor": "Protección frente al ciberacoso LGTBI",
+      "norma": "Ley 4/2023",
+      "articulo": "art. 29",
+      "tags": [
+        "ciberacoso"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": false,
+      "otros_temas": []
+    },
+    {
+      "id": "c-b53d1dd8272d",
+      "nombre": "Plazo máximo de resolución y notificación del procedimiento sancionador",
+      "tipo": "plazo",
+      "valor": "Un año desde el acuerdo de iniciación",
+      "norma": "RDL 1/2013",
+      "articulo": "art. 101",
+      "tags": [
+        "plazo"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": false,
+      "otros_temas": []
+    },
+    {
+      "id": "c-b577b89174a8",
+      "nombre": "Acoso discriminatorio",
+      "tipo": "definicion",
+      "valor": "Conducta que atenta contra la dignidad y crea entorno hostil",
+      "norma": "Ley 4/2023",
+      "articulo": "art. 3.d",
+      "tags": [
+        "acoso-discriminatorio"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": false,
+      "otros_temas": []
+    },
+    {
+      "id": "c-b5d1e3b5642f",
+      "nombre": "Registro de Planes de Igualdad de las Empresas",
+      "tipo": "organo",
+      "valor": "Parte de los Registros de convenios colectivos dependientes de la Dirección General de Trabajo",
+      "norma": "LO 3/2007",
+      "articulo": "art. 46.4",
+      "tags": [
+        "registro"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": false,
+      "otros_temas": []
+    },
+    {
+      "id": "c-bac4ed4c2fb8",
+      "nombre": "Plazo máximo de resolución del procedimiento sancionador",
+      "tipo": "plazo",
+      "valor": "Seis meses",
+      "norma": "Ley 4/2023",
+      "articulo": "art. 78",
+      "tags": [
+        "plazo"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": false,
+      "otros_temas": []
+    },
+    {
+      "id": "c-bb25133a52af",
+      "nombre": "Intersexualidad",
+      "tipo": "definicion",
+      "valor": "Personas nacidas con características sexuales que no se corresponden con nociones establecidas",
+      "norma": "Ley 4/2023",
+      "articulo": "art. 3.g",
+      "tags": [
+        "intersexualidad"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": false,
+      "otros_temas": []
+    },
+    {
+      "id": "c-bd360b6af63d",
+      "nombre": "Igualdad en el ámbito de la educación superior",
+      "tipo": "competencia",
+      "valor": "Igualdad en universidades",
+      "norma": "LO 3/2007",
+      "articulo": "art. 25",
+      "tags": [
+        "educacion-superior"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": false,
+      "otros_temas": []
+    },
+    {
+      "id": "c-be077c2a9246",
+      "nombre": "Orden de protección",
+      "tipo": "procedimiento",
+      "valor": "Medida judicial de protección a la víctima",
+      "norma": "LO 1/2004",
+      "articulo": "art. 62",
+      "tags": [
+        "orden-proteccion"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-be1c979b3981",
+      "nombre": "Ámbito de aplicación",
+      "tipo": "definicion",
+      "valor": "Todas las personas gozan de los derechos; las obligaciones se aplican a toda persona física o jurídica que actúe en territorio español",
+      "norma": "LO 3/2007",
+      "articulo": "art. 2",
+      "tags": [
+        "ambito"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": false,
+      "otros_temas": []
+    },
+    {
+      "id": "c-be5cd7683460",
+      "nombre": "Subvenciones públicas y valoración de la igualdad",
+      "tipo": "competencia",
+      "valor": "Las bases reguladoras pueden valorar actuaciones de consecución de la igualdad",
+      "norma": "LO 3/2007",
+      "articulo": "art. 35",
+      "tags": [
+        "subvenciones"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": false,
+      "otros_temas": []
+    },
+    {
+      "id": "c-c074f6fbc6fc",
+      "nombre": "Identidad sexual",
+      "tipo": "definicion",
+      "valor": "Vivencia interna e individual del sexo",
+      "norma": "Ley 4/2023",
+      "articulo": "art. 3.i",
+      "tags": [
+        "identidad-sexual"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-c200cd82d54c",
+      "nombre": "Derecho a la igualdad",
+      "tipo": "derecho",
+      "valor": "Igualdad de oportunidades",
+      "norma": "RDL 1/2013",
+      "articulo": "art. 7",
+      "tags": [
+        "igualdad"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": false,
+      "otros_temas": []
+    },
+    {
+      "id": "c-c31310934497",
+      "nombre": "Derecho a la atención integral",
+      "tipo": "derecho",
+      "valor": "Servicios de atención, emergencia, apoyo y recuperación integral",
+      "norma": "LO 1/2004",
+      "articulo": "art. 17",
+      "tags": [
+        "atencion-integral"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-c54064df4039",
+      "nombre": "Igualdad en la contratación pública",
+      "tipo": "competencia",
+      "valor": "Cláusulas de igualdad en contratos públicos",
+      "norma": "LO 3/2007",
+      "articulo": "art. 33",
+      "tags": [
+        "contratacion-publica"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": false,
+      "otros_temas": []
+    },
+    {
+      "id": "c-c7566df66d1e",
+      "nombre": "Jurisdicción de los Juzgados de Violencia sobre la Mujer",
+      "tipo": "organo",
+      "valor": "Juzgados especializados",
+      "norma": "LO 1/2004",
+      "articulo": "art. 48",
+      "tags": [
+        "juzgados"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-cd3f3f07b3bc",
+      "nombre": "Desinstitucionalización",
+      "tipo": "definicion",
+      "valor": "Transito del cuidado en instituciones a apoyos centrados en la persona",
+      "norma": "RDL 1/2013",
+      "articulo": "art. 2.q",
+      "tags": [
+        "desinstitucionalizacion"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": false,
+      "otros_temas": []
+    },
+    {
+      "id": "c-cd5c6f843fb1",
+      "nombre": "Objeto de la Ley",
+      "tipo": "definicion",
+      "valor": "Igualdad real y efectiva de las personas trans y garantía de derechos de las personas LGTBI",
+      "norma": "Ley 4/2023",
+      "articulo": "art. 1",
+      "tags": [
+        "objeto",
+        "lgtbi"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-cdffbe95be3d",
+      "nombre": "Subsidio de movilidad y compensación por gastos de transporte",
+      "tipo": "derecho",
+      "valor": "Subsidio de movilidad",
+      "norma": "RDL 1/2013",
+      "articulo": "art. 31",
+      "tags": [
+        "movilidad",
+        "transporte"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": false,
+      "otros_temas": []
+    },
+    {
+      "id": "c-cf78f499fc23",
+      "nombre": "Derechos laborales y de Seguridad Social",
+      "tipo": "derecho",
+      "valor": "Derechos laborales y de SS para víctimas",
+      "norma": "LO 1/2004",
+      "articulo": "art. 21",
+      "tags": [
+        "laboral",
+        "seguridad-social"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-d185afc7fcfc",
+      "nombre": "Tutela judicial efectiva",
+      "tipo": "procedimiento",
+      "valor": "Legitimación para actuar en defensa del derecho a la igualdad de trato",
+      "norma": "LO 3/2007",
+      "articulo": "art. 12",
+      "tags": [
+        "tutela-judicial"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": false,
+      "otros_temas": []
+    },
+    {
+      "id": "c-d4589aa09b8e",
+      "nombre": "Criterios generales de actuación de los Poderes Públicos",
+      "tipo": "competencia",
+      "valor": "Integración del principio de igualdad en todas las políticas públicas",
+      "norma": "LO 3/2007",
+      "articulo": "art. 14",
+      "tags": [
+        "transversalidad"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-d6ae021d2ffb",
+      "nombre": "Objeto de la Ley: igualdad efectiva entre mujeres y hombres",
+      "tipo": "definicion",
+      "valor": "Hacer efectivo el derecho de igualdad de trato y de oportunidades entre mujeres y hombres, eliminando la discriminación de la mujer en todos los ámbitos",
+      "norma": "LO 3/2007",
+      "articulo": "art. 1",
+      "tags": [
+        "objeto",
+        "igualdad"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-d7af817fd77f",
+      "nombre": "Adecuación de estadísticas y estudios",
+      "tipo": "procedimiento",
+      "valor": "Las estadísticas oficiales incluirán la variable sexo",
+      "norma": "LO 3/2007",
+      "articulo": "art. 20",
+      "tags": [
+        "estadisticas",
+        "sexo"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": false,
+      "otros_temas": []
+    },
+    {
+      "id": "c-dad4f6e8c327",
+      "nombre": "Integración del principio de igualdad en la política de salud",
+      "tipo": "competencia",
+      "valor": "Perspectiva de género en sanidad",
+      "norma": "LO 3/2007",
+      "articulo": "art. 27",
+      "tags": [
+        "salud",
+        "genero"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": false,
+      "otros_temas": []
+    },
+    {
+      "id": "c-dbb98f604dc0",
+      "nombre": "Discriminación múltiple e interseccional",
+      "tipo": "definicion",
+      "valor": "Discriminación simultánea o consecutiva por dos o más causas",
+      "norma": "Ley 4/2023",
+      "articulo": "art. 3.c",
+      "tags": [
+        "discriminacion-multiple"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": false,
+      "otros_temas": []
+    },
+    {
+      "id": "c-dc52472caa23",
+      "nombre": "Justificación de las faltas de asistencia al trabajo",
+      "tipo": "derecho",
+      "valor": "Justificación de ausencias por violencia de género",
+      "norma": "LO 1/2004",
+      "articulo": "art. 25",
+      "tags": [
+        "faltas-asistencia"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": false,
+      "otros_temas": []
+    },
+    {
+      "id": "c-df865a673b87",
+      "nombre": "Principio de igualdad de trato entre mujeres y hombres",
+      "tipo": "definicion",
+      "valor": "Ausencia de toda discriminación, directa o indirecta, por razón de sexo, especialmente por maternidad, obligaciones familiares y estado civil",
+      "norma": "LO 3/2007",
+      "articulo": "art. 3",
+      "tags": [
+        "principio"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-dfeb0620e57d",
+      "nombre": "Oficina de Atención a la Discapacidad",
+      "tipo": "organo",
+      "valor": "Oficina de atención",
+      "norma": "RDL 1/2013",
+      "articulo": "art. 56",
+      "tags": [
+        "oficina-atencion"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": false,
+      "otros_temas": []
+    },
+    {
+      "id": "c-e007c65fcfd8",
+      "nombre": "Igualdad en la creación y producción artística e intelectual",
+      "tipo": "competencia",
+      "valor": "Igualdad en cultura",
+      "norma": "LO 3/2007",
+      "articulo": "art. 26",
+      "tags": [
+        "cultura"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": false,
+      "otros_temas": []
+    },
+    {
+      "id": "c-e0e0c3dc3f75",
+      "nombre": "Adecuación de documentos a la mención registral",
+      "tipo": "procedimiento",
+      "valor": "Adecuación de la documentación",
+      "norma": "Ley 4/2023",
+      "articulo": "art. 49",
+      "tags": [
+        "documentos"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": false,
+      "otros_temas": []
+    },
+    {
+      "id": "c-e0e48cfe602e",
+      "nombre": "LGTBIfobia / homofobia / bifobia / transfobia",
+      "tipo": "definicion",
+      "valor": "Actitud o conducta de rechazo hacia personas LGTBI",
+      "norma": "Ley 4/2023",
+      "articulo": "art. 3.m-o",
+      "tags": [
+        "lgtbifobia"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": false,
+      "otros_temas": []
+    },
+    {
+      "id": "c-e8a17ee89812",
+      "nombre": "Acreditación de situaciones de violencia de género",
+      "tipo": "derecho",
+      "valor": "Acreditación mediante sentencia, orden de protección o informe del Ministerio Fiscal",
+      "norma": "LO 1/2004",
+      "articulo": "art. 23",
+      "tags": [
+        "acreditacion"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-e9d34e9fde47",
+      "nombre": "Discriminación indirecta por razón de sexo",
+      "tipo": "definicion",
+      "valor": "Disposición, criterio o práctica aparentemente neutra que causa desventaja particular por razón de sexo",
+      "norma": "LO 3/2007",
+      "articulo": "art. 6.2",
+      "tags": [
+        "discriminacion-indirecta"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-ea6a065d2bc8",
+      "nombre": "Reglas relativas a la carga de la prueba",
+      "tipo": "procedimiento",
+      "valor": "Inversión de la carga de la prueba",
+      "norma": "Ley 4/2023",
+      "articulo": "art. 66",
+      "tags": [
+        "prueba"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": false,
+      "otros_temas": []
+    },
+    {
+      "id": "c-eb0f1fbbd094",
+      "nombre": "Plan Estratégico de Igualdad de Oportunidades",
+      "tipo": "procedimiento",
+      "valor": "El Gobierno aprobará un Plan Estratégico de Igualdad de Oportunidades",
+      "norma": "LO 3/2007",
+      "articulo": "art. 17",
+      "tags": [
+        "plan-estrategico"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-eb4ca7117b13",
+      "nombre": "Discriminación indirecta por discapacidad",
+      "tipo": "definicion",
+      "valor": "Disposición aparentemente neutra que causa desventaja particular",
+      "norma": "RDL 1/2013",
+      "articulo": "art. 2.d",
+      "tags": [
+        "discriminacion-indirecta"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": false,
+      "otros_temas": []
+    },
+    {
+      "id": "c-ec139cd8de25",
+      "nombre": "Diseño universal",
+      "tipo": "definicion",
+      "valor": "Concebir desde el origen entornos utilizables por todas las personas",
+      "norma": "RDL 1/2013",
+      "articulo": "art. 2.l",
+      "tags": [
+        "diseno-universal"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": false,
+      "otros_temas": []
+    },
+    {
+      "id": "c-ec48eef28451",
+      "nombre": "Discriminación directa por razón de sexo",
+      "tipo": "definicion",
+      "valor": "Trato menos favorable a una persona por razón de sexo respecto de otra en situación comparable",
+      "norma": "LO 3/2007",
+      "articulo": "art. 6.1",
+      "tags": [
+        "discriminacion-directa"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-f0b5edf5a8cf",
+      "nombre": "Consentimiento informado",
+      "tipo": "derecho",
+      "valor": "Consentimiento informado en atención sanitaria",
+      "norma": "Ley 4/2023",
+      "articulo": "art. 57",
+      "tags": [
+        "consentimiento"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": false,
+      "otros_temas": []
+    },
+    {
+      "id": "c-f0e85c0f908b",
+      "nombre": "Vulneración del derecho a la igualdad de oportunidades",
+      "tipo": "procedimiento",
+      "valor": "Procedimiento sancionador",
+      "norma": "RDL 1/2013",
+      "articulo": "art. 63",
+      "tags": [
+        "vulneracion"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": false,
+      "otros_temas": []
+    },
+    {
+      "id": "c-f47fde207eba",
+      "nombre": "Observatorio Estatal de la Discapacidad",
+      "tipo": "organo",
+      "valor": "Observatorio de la discapacidad",
+      "norma": "RDL 1/2013",
+      "articulo": "art. 73",
+      "tags": [
+        "observatorio"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": false,
+      "otros_temas": []
+    },
+    {
+      "id": "c-f7695c6672e1",
+      "nombre": "Personas LGTBI menores de edad",
+      "tipo": "derecho",
+      "valor": "Protección de menores LGTBI",
+      "norma": "Ley 4/2023",
+      "articulo": "art. 70",
+      "tags": [
+        "menores"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": false,
+      "otros_temas": []
+    },
+    {
+      "id": "c-fa26ea38e516",
+      "nombre": "Titulares de la acción de cesación y rectificación",
+      "tipo": "competencia",
+      "valor": "Legitimación para acciones contra publicidad ilícita",
+      "norma": "LO 1/2004",
+      "articulo": "art. 11",
+      "tags": [
+        "accion-cesacion"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": false,
+      "otros_temas": []
+    },
+    {
+      "id": "c-fd9b046372fb",
+      "nombre": "Igualdad como principio informador del ordenamiento",
+      "tipo": "definicion",
+      "valor": "La igualdad de trato y oportunidades se integra y observa en la interpretación y aplicación de las normas",
+      "norma": "LO 3/2007",
+      "articulo": "art. 4",
+      "tags": [
+        "principio-informador"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": false,
+      "otros_temas": []
+    },
+    {
+      "id": "c-fe37cb42dfc3",
+      "nombre": "Discriminación indirecta LGTBI",
+      "tipo": "definicion",
+      "valor": "Disposición aparentemente neutra que causa desventaja particular",
+      "norma": "Ley 4/2023",
+      "articulo": "art. 3.b",
+      "tags": [
+        "discriminacion-indirecta"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    }
+  ]
+}

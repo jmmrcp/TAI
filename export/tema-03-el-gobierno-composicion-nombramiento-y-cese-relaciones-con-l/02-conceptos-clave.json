@@ -1,0 +1,1388 @@
+{
+  "tema_id": "tema-03-el-gobierno-composicion-nombramiento-y-cese-relaciones-con-l",
+  "total": 79,
+  "conceptos": [
+    {
+      "id": "c-065fe54b02d1",
+      "nombre": "Gabinetes",
+      "tipo": "organo",
+      "valor": "Órganos de apoyo político y técnico; no pueden adoptar actos propios de la AGE",
+      "norma": "Ley 50/1997, de 27 de noviembre, del Gobierno",
+      "articulo": "art. 10",
+      "tags": [
+        "gabinetes",
+        "apoyo politico",
+        "tecnico",
+        "limitaciones"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-07c0cfd2e2d8",
+      "nombre": "Art. 100 CE: nombramiento y separación de los demás miembros",
+      "tipo": "procedimiento",
+      "valor": "Por el Rey, a propuesta del Presidente",
+      "norma": "Constitución Española de 1978",
+      "articulo": "art. 100 CE",
+      "tags": [
+        "ce",
+        "nombramiento",
+        "separacion",
+        "miembros"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-122dc49d94a1",
+      "nombre": "Asistencia a CM y secreto de deliberaciones",
+      "tipo": "procedimiento",
+      "valor": "Las deliberaciones del Consejo de Ministros serán secretas",
+      "norma": "Ley 50/1997, de 27 de noviembre, del Gobierno",
+      "articulo": "art. 5",
+      "tags": [
+        "asistencia",
+        "secretarios de estado",
+        "secreto",
+        "deliberaciones"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-12e97b919028",
+      "nombre": "Avocación por el Consejo de Ministros",
+      "tipo": "procedimiento",
+      "valor": "A propuesta del Presidente; acuerdo motivado; sin recurso",
+      "norma": "Ley 50/1997, de 27 de noviembre, del Gobierno",
+      "articulo": "art. 20",
+      "tags": [
+        "avocacion",
+        "consejo de ministros",
+        "cdg"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-13a47fcd3e43",
+      "nombre": "Art. 101 CE: cese del Gobierno",
+      "tipo": "definicion",
+      "valor": "Tras elecciones, pérdida de confianza, dimisión o fallecimiento del Presidente; continúa en funciones",
+      "norma": "Constitución Española de 1978",
+      "articulo": "art. 101 CE",
+      "tags": [
+        "ce",
+        "cese",
+        "gobierno en funciones"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-14eae3a6db8d",
+      "nombre": "Limitaciones del Gobierno en funciones",
+      "tipo": "procedimiento",
+      "valor": "No puede aprobar PGE ni presentar proyectos de ley; suspensión de delegaciones legislativas por elecciones",
+      "norma": "Ley 50/1997, de 27 de noviembre, del Gobierno",
+      "articulo": "art. 21",
+      "tags": [
+        "gobierno en funciones",
+        "limitaciones",
+        "presupuestos",
+        "proyectos de ley",
+        "delegaciones legislativas"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-1cb8664f36c9",
+      "nombre": "Entrada en vigor de disposiciones",
+      "tipo": "plazo",
+      "valor": "2 de enero o 1 de julio siguientes a su aprobación",
+      "norma": "Ley 50/1997, de 27 de noviembre, del Gobierno",
+      "articulo": "art. 23",
+      "tags": [
+        "entrada en vigor",
+        "2 de enero",
+        "1 de julio"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-22a958acbdf8",
+      "nombre": "Actas de CDG y CGSES",
+      "tipo": "procedimiento",
+      "valor": "Se aplica lo dispuesto en el art. 18",
+      "norma": "Ley 50/1997, de 27 de noviembre, del Gobierno",
+      "articulo": "art. 19",
+      "tags": [
+        "actas",
+        "cdg",
+        "cgsses"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-24df3d1f2ec0",
+      "nombre": "Secretariado del Gobierno",
+      "tipo": "organo",
+      "valor": "Órgano de apoyo del CM, CDG y CGSES; asistencia al Ministro de la Presidencia",
+      "norma": "Ley 50/1997, de 27 de noviembre, del Gobierno",
+      "articulo": "art. 9",
+      "tags": [
+        "secretariado del gobierno",
+        "apoyo",
+        "funciones"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-27b52a28af3e",
+      "nombre": "Art. 98.1 CE: composición del Gobierno",
+      "tipo": "organo",
+      "valor": "Presidente, Vicepresidentes, Ministros y demás miembros que establezca la ley",
+      "norma": "Constitución Española de 1978",
+      "articulo": "art. 98 CE",
+      "tags": [
+        "ce",
+        "composicion",
+        "gobierno"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-27e00ba76c6f",
+      "nombre": "Competencias indelegables",
+      "tipo": "definicion",
+      "valor": "Atribuidas por CE; nombramiento/separación altos cargos; órganos colegiados; prohibidas por ley",
+      "norma": "Ley 50/1997, de 27 de noviembre, del Gobierno",
+      "articulo": "art. 20",
+      "tags": [
+        "indelegables",
+        "competencias"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-28c34b968f3c",
+      "nombre": "Suplencia de los Ministros",
+      "tipo": "procedimiento",
+      "valor": "Por Real Decreto del Presidente, recae en otro miembro del Gobierno",
+      "norma": "Ley 50/1997, de 27 de noviembre, del Gobierno",
+      "articulo": "art. 13",
+      "tags": [
+        "suplencia",
+        "ministro",
+        "real decreto"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-30992766af5f",
+      "nombre": "Art. 97 CE: función ejecutiva y potestad reglamentaria",
+      "tipo": "definicion",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "articulo": "art. 97 CE",
+      "tags": [
+        "ce",
+        "funcion ejecutiva",
+        "potestad reglamentaria"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-3216b5bbfd2e",
+      "nombre": "Comisiones Delegadas del Gobierno",
+      "tipo": "organo",
+      "valor": "Órganos colegiados del Gobierno",
+      "norma": "Ley 50/1997, de 27 de noviembre, del Gobierno",
+      "articulo": "art. 6",
+      "tags": [
+        "comisiones delegadas",
+        "gobierno"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-361fe43e1470",
+      "nombre": "Consejo de Ministros",
+      "tipo": "organo",
+      "valor": "Órgano colegiado del Gobierno",
+      "norma": "Ley 50/1997, de 27 de noviembre, del Gobierno",
+      "articulo": "art. 5",
+      "tags": [
+        "consejo de ministros",
+        "organo colegiado"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-385f6b6aa79e",
+      "nombre": "Ministros sin cartera",
+      "tipo": "organo",
+      "valor": null,
+      "norma": "Ley 50/1997, de 27 de noviembre, del Gobierno",
+      "articulo": "art. 4",
+      "tags": [
+        "ministro sin cartera"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-3ae99dee2f2f",
+      "nombre": "Suplencia del Presidente del Gobierno",
+      "tipo": "procedimiento",
+      "valor": "VP según orden de prelación; en defecto, Ministros según precedencia",
+      "norma": "Ley 50/1997, de 27 de noviembre, del Gobierno",
+      "articulo": "art. 13",
+      "tags": [
+        "suplencia",
+        "presidente",
+        "vicepresidente",
+        "ministro"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-3b8d945434dd",
+      "nombre": "Art. 99.3 CE: mayorías para la investidura",
+      "tipo": "mayoria",
+      "valor": "Mayoría absoluta en primera votación; mayoría simple 48 horas después",
+      "norma": "Constitución Española de 1978",
+      "articulo": "art. 99 CE",
+      "tags": [
+        "ce",
+        "mayoria absoluta",
+        "mayoria simple"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-3bfbc5c9bd6a",
+      "nombre": "Función del Gobierno",
+      "tipo": "definicion",
+      "valor": null,
+      "norma": "Ley 50/1997, de 27 de noviembre, del Gobierno",
+      "articulo": "art. 1",
+      "tags": [
+        "gobierno",
+        "funcion ejecutiva",
+        "potestad reglamentaria"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-3c24d6f7b31f",
+      "nombre": "Suplencia e incompatibilidades de Secretarios de Estado",
+      "tipo": "procedimiento",
+      "valor": "Suplencia según precedencia del RD de estructura; incompatibilidades de altos cargos de la AGE",
+      "norma": "Ley 50/1997, de 27 de noviembre, del Gobierno",
+      "articulo": "art. 15",
+      "tags": [
+        "suplencia",
+        "incompatibilidades",
+        "secretarios de estado"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-46fad5d633d0",
+      "nombre": "Requisitos de acceso al cargo de miembro del Gobierno",
+      "tipo": "definicion",
+      "valor": "Ser español, mayor de edad, derechos de sufragio activo y pasivo, no inhabilitado, idoneidad (Ley 3/2015)",
+      "norma": "Ley 50/1997, de 27 de noviembre, del Gobierno",
+      "articulo": "art. 11",
+      "tags": [
+        "requisitos",
+        "acceso",
+        "cargo"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-476ae72fbc6b",
+      "nombre": "Plazos de informes y aprobación previa",
+      "tipo": "plazo",
+      "valor": "Informes preceptivos: 10 días (1 mes a otra Administración); aprobación MHFP: 15 días (silencio positivo)",
+      "norma": "Ley 50/1997, de 27 de noviembre, del Gobierno",
+      "articulo": "art. 26",
+      "tags": [
+        "informes preceptivos",
+        "10 dias",
+        "1 mes",
+        "aprobacion previa",
+        "15 dias"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-52efcc6cbe35",
+      "nombre": "Vicepresidente del Gobierno",
+      "tipo": "organo",
+      "valor": "Ejerce las funciones que le encomiende el Presidente; con cartera ostenta condición de Ministro",
+      "norma": "Ley 50/1997, de 27 de noviembre, del Gobierno",
+      "articulo": "art. 3",
+      "tags": [
+        "vicepresidente",
+        "funciones",
+        "ministro"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-576de12de78c",
+      "nombre": "Funciones de las Comisiones Delegadas",
+      "tipo": "competencia",
+      "valor": "Examinar cuestiones generales, elaborar propuestas conjuntas, resolver asuntos multi-ministeriales",
+      "norma": "Ley 50/1997, de 27 de noviembre, del Gobierno",
+      "articulo": "art. 6",
+      "tags": [
+        "funciones",
+        "cdg",
+        "multi ministerial"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-57ca63db2681",
+      "nombre": "Nombramiento y separación de VP y Ministros",
+      "tipo": "procedimiento",
+      "valor": "Por el Rey, a propuesta del Presidente del Gobierno",
+      "norma": "Ley 50/1997, de 27 de noviembre, del Gobierno",
+      "articulo": "art. 12",
+      "tags": [
+        "nombramiento",
+        "separacion",
+        "rey",
+        "vicepresidente",
+        "ministro"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-586a73865c5d",
+      "nombre": "Decretos-leyes, decretos legislativos y tratados",
+      "tipo": "competencia",
+      "valor": null,
+      "norma": "Ley 50/1997, de 27 de noviembre, del Gobierno",
+      "articulo": "art. 5",
+      "tags": [
+        "decretos ley",
+        "decretos legislativos",
+        "tratados"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-5e512541a2d7",
+      "nombre": "Comisión General de Secretarios de Estado y Subsecretarios",
+      "tipo": "organo",
+      "valor": "Integrada por titulares de Secretarías de Estado y Subsecretarios",
+      "norma": "Ley 50/1997, de 27 de noviembre, del Gobierno",
+      "articulo": "art. 8",
+      "tags": [
+        "comision general",
+        "secretarios de estado",
+        "subsecretarios"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-5fc7767a1d34",
+      "nombre": "Cese automático y situación de funcionarios en Gabinetes",
+      "tipo": "procedimiento",
+      "valor": "Cesan automáticamente al cesar el titular; en Gobierno en funciones continúan; funcionarios en servicios especiales",
+      "norma": "Ley 50/1997, de 27 de noviembre, del Gobierno",
+      "articulo": "art. 16",
+      "tags": [
+        "cese automatico",
+        "directores gabinete",
+        "gobierno en funciones",
+        "funcionarios"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-6043ebadc737",
+      "nombre": "Creación y contenido del RD de las CDG",
+      "tipo": "procedimiento",
+      "valor": "Por RD a propuesta del Presidente; especifica presidencia, integrantes, funciones, secretaría y régimen interno",
+      "norma": "Ley 50/1997, de 27 de noviembre, del Gobierno",
+      "articulo": "art. 6",
+      "tags": [
+        "creacion",
+        "modificacion",
+        "supresion",
+        "real decreto",
+        "contenido"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-616d4215880c",
+      "nombre": "Presencia equilibrada de mujeres y hombres",
+      "tipo": "cifra",
+      "valor": "Cada sexo al menos el 40% en conjunto",
+      "norma": "Ley 50/1997, de 27 de noviembre, del Gobierno",
+      "articulo": "art. 12",
+      "tags": [
+        "presencia equilibrada",
+        "mujeres",
+        "hombres",
+        "40 por ciento"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-6c10e6f4781b",
+      "nombre": "Incompatibilidades de los miembros del Gobierno",
+      "tipo": "definicion",
+      "valor": "No podrán ejercer otras funciones representativas ni actividad profesional/mercantil",
+      "norma": "Ley 50/1997, de 27 de noviembre, del Gobierno",
+      "articulo": "art. 14",
+      "tags": [
+        "incompatibilidades",
+        "miembros gobierno"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-6ec7186e6e8c",
+      "nombre": "Art. 106 CE: control judicial e indemnización",
+      "tipo": "derecho",
+      "valor": "Control de potestad reglamentaria y legalidad; indemnización por funcionamiento de servicios públicos",
+      "norma": "Constitución Española de 1978",
+      "articulo": "art. 106 CE",
+      "tags": [
+        "ce",
+        "control judicial",
+        "indemnizacion",
+        "servicios publicos"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-715a441cbf89",
+      "nombre": "Cese del Gobierno",
+      "tipo": "definicion",
+      "valor": "Tras elecciones generales, pérdida de confianza, dimisión o fallecimiento del Presidente",
+      "norma": "Ley 50/1997, de 27 de noviembre, del Gobierno",
+      "articulo": "art. 21",
+      "tags": [
+        "cese",
+        "gobierno",
+        "elecciones"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-73cf6138e447",
+      "nombre": "Sesiones a distancia de la CGSES",
+      "tipo": "procedimiento",
+      "valor": "Por medios electrónicos, en territorio español, con identidad acreditada y comunicación en tiempo real",
+      "norma": "Ley 50/1997, de 27 de noviembre, del Gobierno",
+      "articulo": "art. 8",
+      "tags": [
+        "sesiones a distancia",
+        "medios electronicos"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-754e7ae00081",
+      "nombre": "Derecho a utilizar el título de Presidente del Gobierno",
+      "tipo": "derecho",
+      "valor": null,
+      "norma": "Ley 50/1997, de 27 de noviembre, del Gobierno",
+      "articulo": "disp. adic. 1ª",
+      "tags": [
+        "expresidente",
+        "titulo",
+        "honores"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-77e44924ebab",
+      "nombre": "Art. 103 CE: principios de la Administración Pública",
+      "tipo": "definicion",
+      "valor": "Objetividad, eficacia, jerarquía, descentralización, desconcentración, coordinación, sometimiento a la ley",
+      "norma": "Constitución Española de 1978",
+      "articulo": "art. 103 CE",
+      "tags": [
+        "ce",
+        "administracion publica",
+        "principios"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-7b854b74a151",
+      "nombre": "Secreto de deliberaciones y convocados en CDG",
+      "tipo": "procedimiento",
+      "valor": "Las deliberaciones serán secretas",
+      "norma": "Ley 50/1997, de 27 de noviembre, del Gobierno",
+      "articulo": "art. 6",
+      "tags": [
+        "secreto",
+        "deliberaciones",
+        "convocados"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-7d0fa9e49f45",
+      "nombre": "Política de defensa y Fuerzas Armadas",
+      "tipo": "competencia",
+      "valor": null,
+      "norma": "Ley 50/1997, de 27 de noviembre, del Gobierno",
+      "articulo": "art. 2",
+      "tags": [
+        "presidente",
+        "defensa",
+        "fuerzas armadas"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-7d739d87d320",
+      "nombre": "Presidencia y secretaría de la CGSES",
+      "tipo": "procedimiento",
+      "valor": "Presidencia: Vicepresidente o Ministro de la Presidencia; Secretaría: Subsecretario de la Presidencia",
+      "norma": "Ley 50/1997, de 27 de noviembre, del Gobierno",
+      "articulo": "art. 8",
+      "tags": [
+        "presidencia",
+        "secretaria",
+        "cgsses",
+        "precedencia"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-7dbb826d569f",
+      "nombre": "Secretarios de Estado",
+      "tipo": "organo",
+      "valor": "Órganos superiores de la AGE, responsables de la ejecución de la acción del Gobierno en un sector",
+      "norma": "Ley 50/1997, de 27 de noviembre, del Gobierno",
+      "articulo": "art. 7",
+      "tags": [
+        "secretarios de estado",
+        "organo superior",
+        "age",
+        "ejecucion"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-7ecb61668211",
+      "nombre": "Formas y jerarquía de las disposiciones",
+      "tipo": "definicion",
+      "valor": "RD Legislativos/leyes, RD del Presidente, RD en CM, Acuerdos CM, Acuerdos CDG, Órdenes Ministeriales; jerarquía de reglamentos",
+      "norma": "Ley 50/1997, de 27 de noviembre, del Gobierno",
+      "articulo": "art. 24",
+      "tags": [
+        "formas",
+        "decisiones",
+        "jerarquia",
+        "reglamentos"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-80bfc4f1a284",
+      "nombre": "Facultades orgánicas y de gobierno del Presidente",
+      "tipo": "competencia",
+      "valor": "Convoca/preside CM, refrenda actos del Rey, recurso de inconstitucionalidad, crea/modifica/suprime Departamentos, propone VP/Ministros, resuelve conflictos, imparte instrucciones",
+      "norma": "Ley 50/1997, de 27 de noviembre, del Gobierno",
+      "articulo": "art. 2",
+      "tags": [
+        "presidente",
+        "consejo de ministros",
+        "convocatoria",
+        "refrendo",
+        "inconstitucionalidad",
+        "departamentos",
+        "nombramiento",
+        "conflictos",
+        "instrucciones"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-87fb00e61ace",
+      "nombre": "Órganos colegiados del Gobierno",
+      "tipo": "organo",
+      "valor": "Consejo de Ministros y Comisiones Delegadas del Gobierno",
+      "norma": "Ley 50/1997, de 27 de noviembre, del Gobierno",
+      "articulo": "art. 1",
+      "tags": [
+        "consejo de ministros",
+        "comisiones delegadas"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-8899ce8c8d34",
+      "nombre": "Iniciativa legislativa y potestad reglamentaria",
+      "tipo": "definicion",
+      "valor": "Conforme a Título VI de la Ley 39/2015 y Título V de la Ley 50/1997",
+      "norma": "Ley 50/1997, de 27 de noviembre, del Gobierno",
+      "articulo": "art. 22",
+      "tags": [
+        "iniciativa legislativa",
+        "potestad reglamentaria",
+        "ley 39/2015"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-8962163f00c5",
+      "nombre": "Facultades parlamentarias del Presidente",
+      "tipo": "competencia",
+      "valor": "Disolución de Cortes, cuestión de confianza, referéndum consultivo",
+      "norma": "Ley 50/1997, de 27 de noviembre, del Gobierno",
+      "articulo": "art. 2",
+      "tags": [
+        "presidente",
+        "disolucion",
+        "confianza",
+        "referendum"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-8ca7eb62a1fb",
+      "nombre": "Memoria del Análisis de Impacto Normativo",
+      "tipo": "procedimiento",
+      "valor": null,
+      "norma": "Ley 50/1997, de 27 de noviembre, del Gobierno",
+      "articulo": "art. 26",
+      "tags": [
+        "memoria",
+        "analisis de impacto normativo"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-8e4a653f1e20",
+      "nombre": "Separación de VP y estatuto de ex-Presidentes",
+      "tipo": "procedimiento",
+      "valor": "La separación de VP lleva aparejada la extinción del órgano; estatuto de ex-Presidentes por Real Decreto",
+      "norma": "Ley 50/1997, de 27 de noviembre, del Gobierno",
+      "articulo": "art. 12",
+      "tags": [
+        "separacion",
+        "vicepresidente",
+        "extincion",
+        "estatuto",
+        "expresidentes"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-93f984df5205",
+      "nombre": "Art. 98.2-98.4 CE: dirección, incompatibilidades y estatuto",
+      "tipo": "competencia",
+      "valor": "El Presidente dirige y coordina; incompatibilidades constitucionales; la ley regula estatuto e incompatibilidades",
+      "norma": "Constitución Española de 1978",
+      "articulo": "art. 98 CE",
+      "tags": [
+        "ce",
+        "direccion",
+        "coordinacion",
+        "incompatibilidades",
+        "estatuto"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-975cf448cbb3",
+      "nombre": "Deliberaciones reservadas y examen de asuntos",
+      "tipo": "procedimiento",
+      "valor": "Examina todos los asuntos a someter al CM, excepto nombramientos, ceses, ascensos y urgentes; no adopta decisiones por delegación",
+      "norma": "Ley 50/1997, de 27 de noviembre, del Gobierno",
+      "articulo": "art. 8",
+      "tags": [
+        "deliberaciones",
+        "reservadas",
+        "sin decisiones por delegacion",
+        "examen asuntos"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-98b2a758d508",
+      "nombre": "Art. 99.5 CE: plazo de dos meses",
+      "tipo": "plazo",
+      "valor": "Si en dos meses ningún candidato obtiene confianza, el Rey disuelve las Cámaras",
+      "norma": "Constitución Española de 1978",
+      "articulo": "art. 99 CE",
+      "tags": [
+        "ce",
+        "plazo",
+        "dos meses",
+        "disolucion"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-997ffb7e2ffd",
+      "nombre": "Art. 102 CE: responsabilidad criminal",
+      "tipo": "derecho",
+      "valor": "Ante la Sala de lo Penal del TS; acusación por traición/seguridad del Estado por cuarta parte del Congreso y mayoría absoluta",
+      "norma": "Constitución Española de 1978",
+      "articulo": "art. 102 CE",
+      "tags": [
+        "ce",
+        "responsabilidad criminal",
+        "tribunal supremo",
+        "traicion",
+        "seguridad del estado"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-a18813b1de4c",
+      "nombre": "Nombramiento y cese de Secretarios de Estado",
+      "tipo": "procedimiento",
+      "valor": "Por Real Decreto del Consejo de Ministros, a propuesta del Presidente o del Ministro",
+      "norma": "Ley 50/1997, de 27 de noviembre, del Gobierno",
+      "articulo": "art. 15",
+      "tags": [
+        "nombramiento",
+        "cese",
+        "secretarios de estado",
+        "real decreto"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-a2ba38783f36",
+      "nombre": "Art. 99 CE: investidura del Presidente",
+      "tipo": "procedimiento",
+      "valor": "Propuesta del Rey tras consulta con grupos; programa político ante el Congreso",
+      "norma": "Constitución Española de 1978",
+      "articulo": "art. 99 CE",
+      "tags": [
+        "ce",
+        "investidura",
+        "presidente",
+        "propuesta"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-a38f3f27ee85",
+      "nombre": "Composición del Gobierno",
+      "tipo": "organo",
+      "valor": "Presidente, Vicepresidente(s) y Ministros",
+      "norma": "Ley 50/1997, de 27 de noviembre, del Gobierno",
+      "articulo": "art. 1",
+      "tags": [
+        "composicion",
+        "presidente",
+        "vicepresidente",
+        "ministro"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-a4229f9b7b9f",
+      "nombre": "Dirección, coordinación, representación y programa político",
+      "tipo": "competencia",
+      "valor": null,
+      "norma": "Ley 50/1997, de 27 de noviembre, del Gobierno",
+      "articulo": "art. 2",
+      "tags": [
+        "presidente",
+        "direccion",
+        "coordinacion",
+        "representacion",
+        "programa"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-a5181cd85b7b",
+      "nombre": "Aprobación de proyectos de ley y Presupuestos",
+      "tipo": "competencia",
+      "valor": null,
+      "norma": "Ley 50/1997, de 27 de noviembre, del Gobierno",
+      "articulo": "art. 5",
+      "tags": [
+        "proyectos de ley",
+        "presupuestos"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-ab21a4cc6187",
+      "nombre": "Nombramiento y cese de Directores de Gabinete",
+      "tipo": "procedimiento",
+      "valor": "Por RD en CM (Presidente/VP/Ministros) o por Orden Ministerial (Secretarios de Estado)",
+      "norma": "Ley 50/1997, de 27 de noviembre, del Gobierno",
+      "articulo": "art. 16",
+      "tags": [
+        "directores gabinete",
+        "nombramiento",
+        "cese"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-b0d7f7a11690",
+      "nombre": "Art. 104 CE: Fuerzas y Cuerpos de seguridad",
+      "tipo": "definicion",
+      "valor": "Bajo dependencia del Gobierno; misión proteger derechos y garantizar seguridad ciudadana",
+      "norma": "Constitución Española de 1978",
+      "articulo": "art. 104 CE",
+      "tags": [
+        "ce",
+        "fuerzas y cuerpos de seguridad"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-b2687bd2b521",
+      "nombre": "Art. 105 CE: audiencia, acceso y procedimiento",
+      "tipo": "derecho",
+      "valor": "Audiencia de ciudadanos; acceso a archivos y registros; procedimiento de actos administrativos",
+      "norma": "Constitución Española de 1978",
+      "articulo": "art. 105 CE",
+      "tags": [
+        "ce",
+        "audiencia",
+        "acceso",
+        "archivos",
+        "registros",
+        "procedimiento"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-b297276e6197",
+      "nombre": "Estados de alarma/excepción/sitio y deuda pública",
+      "tipo": "competencia",
+      "valor": null,
+      "norma": "Ley 50/1997, de 27 de noviembre, del Gobierno",
+      "articulo": "art. 5",
+      "tags": [
+        "alarma",
+        "excepcion",
+        "sitio",
+        "deuda publica"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-b6a389cfcc81",
+      "nombre": "Delegación de funciones administrativas del CM en CDG",
+      "tipo": "procedimiento",
+      "valor": "A propuesta del Presidente del Gobierno",
+      "norma": "Ley 50/1997, de 27 de noviembre, del Gobierno",
+      "articulo": "art. 20",
+      "tags": [
+        "delegacion",
+        "funciones administrativas",
+        "cdg"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-b929ed34986c",
+      "nombre": "Sesiones a distancia en situaciones excepcionales",
+      "tipo": "procedimiento",
+      "valor": "CM y CDG por medios electrónicos; audioconferencia y videoconferencia",
+      "norma": "Ley 50/1997, de 27 de noviembre, del Gobierno",
+      "articulo": "disp. adic. 3ª",
+      "tags": [
+        "sesiones a distancia",
+        "situaciones excepcionales",
+        "medios electronicos"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-bbc50818dd6e",
+      "nombre": "Consejo de Estado",
+      "tipo": "organo",
+      "valor": "Supremo órgano consultivo del Gobierno",
+      "norma": "Ley 50/1997, de 27 de noviembre, del Gobierno",
+      "articulo": "disp. adic. 2ª",
+      "tags": [
+        "consejo de estado",
+        "organo consultivo"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-bde87b790ed1",
+      "nombre": "Dictamen del Consejo de Estado",
+      "tipo": "procedimiento",
+      "valor": "Cuando sea preceptivo o conveniente",
+      "norma": "Ley 50/1997, de 27 de noviembre, del Gobierno",
+      "articulo": "art. 26",
+      "tags": [
+        "dictamen",
+        "consejo de estado"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-be7c4afc7cd3",
+      "nombre": "Gobierno en funciones",
+      "tipo": "definicion",
+      "valor": "Continúa en funciones hasta toma de posesión del nuevo Gobierno; gestión ordinaria",
+      "norma": "Ley 50/1997, de 27 de noviembre, del Gobierno",
+      "articulo": "art. 21",
+      "tags": [
+        "gobierno en funciones",
+        "limitaciones"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-c77886a60629",
+      "nombre": "Consulta pública previa",
+      "tipo": "procedimiento",
+      "valor": "Mínimo 15 días naturales",
+      "norma": "Ley 50/1997, de 27 de noviembre, del Gobierno",
+      "articulo": "art. 26",
+      "tags": [
+        "consulta publica",
+        "15 dias naturales"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-ccae12b92073",
+      "nombre": "Control de los actos del Gobierno",
+      "tipo": "derecho",
+      "valor": "Control político por las Cortes Generales; impugnación ante jurisdicción contencioso-administrativa y TC",
+      "norma": "Ley 50/1997, de 27 de noviembre, del Gobierno",
+      "articulo": "art. 29",
+      "tags": [
+        "control",
+        "constitucion",
+        "ordenamiento juridico",
+        "cortes generales",
+        "impugnacion"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-d1584afff3ac",
+      "nombre": "Informe anual de evaluación",
+      "tipo": "procedimiento",
+      "valor": "Aprobado por el CM antes del 30 de abril",
+      "norma": "Ley 50/1997, de 27 de noviembre, del Gobierno",
+      "articulo": "art. 28",
+      "tags": [
+        "informe anual",
+        "evaluacion",
+        "30 de abril"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-d15e36590dba",
+      "nombre": "Tramitación urgente de iniciativas normativas",
+      "tipo": "procedimiento",
+      "valor": "Acordada por el Consejo de Ministros a propuesta del titular del departamento",
+      "norma": "Ley 50/1997, de 27 de noviembre, del Gobierno",
+      "articulo": "art. 27",
+      "tags": [
+        "tramitacion urgente",
+        "iniciativas normativas"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-d248d5529c9f",
+      "nombre": "Competencia y responsabilidad de los Ministros",
+      "tipo": "competencia",
+      "valor": "Desarrollan la acción del Gobierno en su Departamento, potestad reglamentaria y refrendo de actos del Rey",
+      "norma": "Ley 50/1997, de 27 de noviembre, del Gobierno",
+      "articulo": "art. 4",
+      "tags": [
+        "ministro",
+        "competencia",
+        "responsabilidad",
+        "potestad reglamentaria",
+        "refrendo"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-d3f493d2a564",
+      "nombre": "Limitaciones del Presidente en funciones",
+      "tipo": "procedimiento",
+      "valor": "No puede proponer disolución, cuestión de confianza ni referéndum consultivo",
+      "norma": "Ley 50/1997, de 27 de noviembre, del Gobierno",
+      "articulo": "art. 21",
+      "tags": [
+        "presidente en funciones",
+        "limitaciones",
+        "disolucion",
+        "confianza",
+        "referendum"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-d51fe2850ec9",
+      "nombre": "Funcionamiento del Consejo de Ministros",
+      "tipo": "procedimiento",
+      "valor": "Convoca y preside el Presidente; Secretario: Ministro de la Presidencia; reuniones decisorias/deliberantes; acta",
+      "norma": "Ley 50/1997, de 27 de noviembre, del Gobierno",
+      "articulo": "art. 18",
+      "tags": [
+        "consejo de ministros",
+        "convocatoria",
+        "presidencia",
+        "secretario",
+        "acta",
+        "reuniones"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-d86e438a8ba7",
+      "nombre": "Delegación de competencias",
+      "tipo": "procedimiento",
+      "valor": "Presidente en VP/Ministros; Ministros en Secretarios de Estado, Subsecretarios, Delegados y directivos",
+      "norma": "Ley 50/1997, de 27 de noviembre, del Gobierno",
+      "articulo": "art. 20",
+      "tags": [
+        "delegacion",
+        "competencias",
+        "presidente",
+        "ministros"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-d9d70419a43b",
+      "nombre": "Audiencia e información públicas",
+      "tipo": "procedimiento",
+      "valor": "Mínimo 15 días hábiles (reducible a 7)",
+      "norma": "Ley 50/1997, de 27 de noviembre, del Gobierno",
+      "articulo": "art. 26",
+      "tags": [
+        "audiencia",
+        "informacion publica",
+        "15 dias habiles"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-dd1fc697f6c9",
+      "nombre": "Reglamentos, órganos directivos y programas vinculantes",
+      "tipo": "competencia",
+      "valor": "Aprobación de reglamentos previo dictamen del Consejo de Estado",
+      "norma": "Ley 50/1997, de 27 de noviembre, del Gobierno",
+      "articulo": "art. 5",
+      "tags": [
+        "reglamentos",
+        "consejo de estado",
+        "organos directivos",
+        "programas",
+        "planes",
+        "directrices"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-eed4eb2afe0a",
+      "nombre": "Art. 107 CE: Consejo de Estado",
+      "tipo": "organo",
+      "valor": "Supremo órgano consultivo del Gobierno",
+      "norma": "Constitución Española de 1978",
+      "articulo": "art. 107 CE",
+      "tags": [
+        "ce",
+        "consejo de estado",
+        "organo consultivo"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-f72664aff4ab",
+      "nombre": "Normas aplicables al funcionamiento del Gobierno",
+      "tipo": "definicion",
+      "valor": "La Ley, los RD del Presidente y disposiciones organizativas internas",
+      "norma": "Ley 50/1997, de 27 de noviembre, del Gobierno",
+      "articulo": "art. 17",
+      "tags": [
+        "normas",
+        "funcionamiento",
+        "gobierno"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-fc299dde4544",
+      "nombre": "Plan Anual Normativo",
+      "tipo": "procedimiento",
+      "valor": "Aprobado por el CM antes del 30 de abril; contiene iniciativas para el año siguiente",
+      "norma": "Ley 50/1997, de 27 de noviembre, del Gobierno",
+      "articulo": "art. 25",
+      "tags": [
+        "plan anual normativo",
+        "iniciativas",
+        "30 de abril"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-fee081a47568",
+      "nombre": "Nombramiento y cese del Presidente",
+      "tipo": "procedimiento",
+      "valor": "En los términos previstos en la Constitución",
+      "norma": "Ley 50/1997, de 27 de noviembre, del Gobierno",
+      "articulo": "art. 12",
+      "tags": [
+        "nombramiento",
+        "cese",
+        "presidente"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    }
+  ]
+}

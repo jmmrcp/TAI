@@ -1,0 +1,169 @@
+{
+  "conceptos": [
+    {
+      "id": "c-docker-info",
+      "nombre": "docker info",
+      "tipo": "definicion",
+      "valor": "Muestra informacion sobre el uso de Docker en el equipo: contenedores (running/paused/stopped), imagenes, registry por defecto (https://index.docker.io/v1/) y Docker Root Dir (/var/lib/docker).",
+      "norma": null,
+      "articulo": null,
+      "tags_transversales": [],
+      "verificado": false,
+      "es_principal": true
+    },
+    {
+      "id": "c-docker-pull",
+      "nombre": "docker pull",
+      "tipo": "proceso",
+      "valor": "Descarga una imagen del hub (DockerHub). Ejemplo: docker pull jenkins.",
+      "norma": null,
+      "articulo": null,
+      "tags_transversales": [],
+      "verificado": false,
+      "es_principal": true
+    },
+    {
+      "id": "c-docker-run",
+      "nombre": "docker run",
+      "tipo": "proceso",
+      "valor": "Arranca un nuevo contenedor a partir de una imagen y devuelve su identificador (hash). Opciones: -p puerto_host:puerto_container (PAT), -v path_host:path_container, -d (segundo plano), -i (interactivo), -t (tty).",
+      "norma": null,
+      "articulo": null,
+      "tags_transversales": [],
+      "verificado": false,
+      "es_principal": true
+    },
+    {
+      "id": "c-docker-ps",
+      "nombre": "docker ps",
+      "tipo": "definicion",
+      "valor": "docker ps muestra un listado de los contenedores activos; docker ps -a muestra todos los contenedores, activos e inactivos.",
+      "norma": null,
+      "articulo": null,
+      "tags_transversales": [],
+      "verificado": false,
+      "es_principal": true
+    },
+    {
+      "id": "c-docker-images",
+      "nombre": "docker images",
+      "tipo": "definicion",
+      "valor": "Muestra todas las imagenes disponibles (docker image ls es equivalente), con repository, tag, image id, created y size.",
+      "norma": null,
+      "articulo": null,
+      "tags_transversales": [],
+      "verificado": false,
+      "es_principal": true
+    },
+    {
+      "id": "c-docker-build",
+      "nombre": "docker build",
+      "tipo": "proceso",
+      "valor": "docker build -t NombreImagen:TagImagen crea una imagen a partir del Dockerfile situado en el directorio actual.",
+      "norma": null,
+      "articulo": null,
+      "tags_transversales": [],
+      "verificado": false,
+      "es_principal": true
+    },
+    {
+      "id": "c-dockerfile-instrucciones",
+      "nombre": "Instrucciones del Dockerfile",
+      "tipo": "clasificacion",
+      "valor": "FROM (imagen base), ENV (variables de entorno en build y run), ARG (variables solo en build), COPY (copiar desde host/url a la imagen en build), RUN (ejecutar comandos), EXPOSE (exponer puertos en el container), VOLUME (directorio persistente), WORKDIR (directorio de trabajo), USER (usuario de ejecucion, por defecto root), CMD (comando por defecto, sobrescribible), ENTRYPOINT (no sobrescribible).",
+      "norma": null,
+      "articulo": null,
+      "tags_transversales": [],
+      "verificado": false,
+      "es_principal": true
+    },
+    {
+      "id": "c-dockerfile-cmd-entrypoint",
+      "nombre": "CMD vs ENTRYPOINT",
+      "tipo": "comparativa",
+      "valor": "CMD define el comando+argumentos por defecto al iniciar un container y puede sobrescribirse con docker run; ENTRYPOINT no se puede sobrescribir (el resto es igual que CMD).",
+      "norma": null,
+      "articulo": null,
+      "tags_transversales": [],
+      "verificado": false,
+      "es_principal": true
+    },
+    {
+      "id": "c-docker-expose",
+      "nombre": "EXPOSE",
+      "tipo": "regla",
+      "valor": "EXPOSE expone puertos en el CONTAINER; solo con EXPOSE no se puede acceder desde el HOST.",
+      "norma": null,
+      "articulo": null,
+      "tags_transversales": [],
+      "verificado": false,
+      "es_principal": true
+    },
+    {
+      "id": "c-docker-arg-env",
+      "nombre": "ARG vs ENV",
+      "tipo": "comparativa",
+      "valor": "ARG crea variables que solo se usan durante la creacion de la imagen, no durante la ejecucion; ENV define variables de entorno que existen durante la construccion y en el contenedor durante su ejecucion.",
+      "norma": null,
+      "articulo": null,
+      "tags_transversales": [],
+      "verificado": false,
+      "es_principal": true
+    },
+    {
+      "id": "c-docker-commit",
+      "nombre": "docker commit",
+      "tipo": "proceso",
+      "valor": "docker commit crea una imagen a partir de un contenedor ya en ejecucion.",
+      "norma": null,
+      "articulo": null,
+      "tags_transversales": [],
+      "verificado": false,
+      "es_principal": true
+    },
+    {
+      "id": "c-docker-exec-attach",
+      "nombre": "docker exec vs docker attach",
+      "tipo": "comparativa",
+      "valor": "docker exec ejecuta un comando contra un contenedor en ejecucion; docker attach se une a un contenedor en ejecucion enlazando salida, entrada y error.",
+      "norma": null,
+      "articulo": null,
+      "tags_transversales": [],
+      "verificado": false,
+      "es_principal": true
+    },
+    {
+      "id": "c-kubernetes-pod",
+      "nombre": "Pod",
+      "tipo": "definicion",
+      "valor": "Unidad mas pequena desplegable, programable y manejable por Kubernetes; grupo de uno o mas contenedores con almacenamiento compartido. YAML: apiVersion, kind: Pod, metadata (name, labels), spec (containers con name/image/ports containerPort, restartPolicy).",
+      "norma": null,
+      "articulo": null,
+      "tags_transversales": [],
+      "verificado": false,
+      "es_principal": true
+    },
+    {
+      "id": "c-kubernetes-replication-controller",
+      "nombre": "Replication Controller",
+      "tipo": "definicion",
+      "valor": "Se asegura de que el numero especificado de replicas del pod esten ejecutandose; permite escalar facilmente y maneja la re-creacion de un pod ante fallo.",
+      "norma": null,
+      "articulo": null,
+      "tags_transversales": [],
+      "verificado": false,
+      "es_principal": true
+    },
+    {
+      "id": "c-kubernetes-service",
+      "nombre": "Service",
+      "tipo": "definicion",
+      "valor": "Abstraccion que define un conjunto de pods y la logica para acceder a los mismos.",
+      "norma": null,
+      "articulo": null,
+      "tags_transversales": [],
+      "verificado": false,
+      "es_principal": true
+    }
+  ]
+}

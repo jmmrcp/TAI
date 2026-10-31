@@ -1,0 +1,948 @@
+{
+  "tema_id": "tema-02-las-cortes-generales-el-tribunal-constitucional-el-defensor-",
+  "total": 60,
+  "conceptos": [
+    {
+      "id": "c-007eac6cdbac",
+      "nombre": "Remisión de peticiones al Gobierno y obligación de explicarse",
+      "tipo": "procedimiento",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "articulo": "art. 77",
+      "tags": [
+        "procedimientos"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-013a5bae72cc",
+      "nombre": "Tribunal Constitucional compuesto por 12 miembros nombrados por el Rey",
+      "tipo": "cifra",
+      "valor": "12",
+      "norma": "Constitución Española de 1978",
+      "articulo": "art. 159",
+      "tags": [
+        "cifras",
+        "organos"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-0232d105fe03",
+      "nombre": "Voto personal e indelegable de los parlamentarios",
+      "tipo": "procedimiento",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "articulo": "art. 79",
+      "tags": [
+        "derechos"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-09c2797907b6",
+      "nombre": "Inmunidad parlamentaria y detención solo en caso de flagrante delito",
+      "tipo": "derecho",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "articulo": "art. 71",
+      "tags": [
+        "garantias",
+        "derechos"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-0ed01d98c6ad",
+      "nombre": "Defensa de los derechos del Título I y supervisión de la Administración",
+      "tipo": "competencia",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "articulo": "art. 54",
+      "tags": [
+        "competencias",
+        "derechos"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-11205aa1d1c2",
+      "nombre": "Funciones de la Diputación Permanente (arts. 73, 86 y 116)",
+      "tipo": "procedimiento",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "articulo": "art. 78",
+      "tags": [
+        "procedimientos",
+        "competencias"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-13a5cb74703f",
+      "nombre": "Cosa juzgada desde el día siguiente a la publicación y sin recurso alguno",
+      "tipo": "procedimiento",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "articulo": "art. 164",
+      "tags": [
+        "procedimientos",
+        "garantias"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-13e571473c78",
+      "nombre": "Presidente del TC nombrado por el Rey a propuesta del Pleno por 3 años",
+      "tipo": "procedimiento",
+      "valor": "3 años",
+      "norma": "Constitución Española de 1978",
+      "articulo": "art. 160",
+      "tags": [
+        "organos",
+        "mandato"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-15012b959c11",
+      "nombre": "Cuestión de inconstitucionalidad planteada por órgano judicial, de efectos no suspensivos",
+      "tipo": "procedimiento",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "articulo": "art. 163",
+      "tags": [
+        "recursos",
+        "procedimientos"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-1ee553a32646",
+      "nombre": "Plazos electorales: elecciones entre 30 y 60 días y convocatoria en 25 días",
+      "tipo": "plazo",
+      "valor": "30-60 días; 25 días",
+      "norma": "Constitución Española de 1978",
+      "articulo": "art. 68",
+      "tags": [
+        "plazos"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-24b99714e86c",
+      "nombre": "Número de Diputados: mínimo 300 y máximo 400",
+      "tipo": "cifra",
+      "valor": "mín. 300, máx. 400",
+      "norma": "Constitución Española de 1978",
+      "articulo": "art. 68",
+      "tags": [
+        "cifras",
+        "organos"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-29e788da39fe",
+      "nombre": "Las Cortes Generales representan al pueblo español",
+      "tipo": "organo",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "articulo": "art. 66",
+      "tags": [
+        "cortes"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": [
+        "tema-01-la-constitucion-espanola-de-1978"
+      ]
+    },
+    {
+      "id": "c-2b0485ba1462",
+      "nombre": "Cámaras establecen Reglamentos, aprueban presupuestos y regulan el Estatuto del Personal",
+      "tipo": "procedimiento",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "articulo": "art. 72",
+      "tags": [
+        "procedimientos",
+        "organos"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-2d6a711c201f",
+      "nombre": "Sesiones extraordinarias a petición y con orden del día determinado",
+      "tipo": "procedimiento",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "articulo": "art. 73",
+      "tags": [
+        "procedimientos"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-349d23966119",
+      "nombre": "Dos períodos ordinarios de sesiones: septiembre-diciembre y febrero-junio",
+      "tipo": "procedimiento",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "articulo": "art. 73",
+      "tags": [
+        "plazos",
+        "procedimientos"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-3640dcad40be",
+      "nombre": "Acuerdos requieren reunión reglamentaria y mayoría de los miembros presentes",
+      "tipo": "mayoria",
+      "valor": "mayoría de presentes",
+      "norma": "Constitución Española de 1978",
+      "articulo": "art. 79",
+      "tags": [
+        "mayorias",
+        "procedimientos"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-372ed4cee83c",
+      "nombre": "Incompatibilidad de acumular mandatos en ambas Cámaras y Asambleas autonómicas",
+      "tipo": "procedimiento",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "articulo": "art. 67",
+      "tags": [
+        "situaciones",
+        "organos"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-3d43a0113c0e",
+      "nombre": "Comparecencia obligatoria y sanciones; conclusiones no vinculantes para tribunales",
+      "tipo": "procedimiento",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "articulo": "art. 76",
+      "tags": [
+        "sanciones",
+        "procedimientos"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-3e957d35e4c4",
+      "nombre": "Reglamentos y su reforma requieren mayoría absoluta en votación final sobre la totalidad",
+      "tipo": "mayoria",
+      "valor": "mayoría absoluta",
+      "norma": "Constitución Española de 1978",
+      "articulo": "art. 72",
+      "tags": [
+        "mayorias"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-41b555d91f48",
+      "nombre": "Derecho de petición individual y colectiva por escrito",
+      "tipo": "derecho",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "articulo": "art. 77",
+      "tags": [
+        "derechos",
+        "procedimientos"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-434fcfaadee2",
+      "nombre": "Causas incluidas en todo caso: TC, altos cargos, Defensor del Pueblo, jueces/fiscales, militares y FCS, Juntas Electorales",
+      "tipo": "procedimiento",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "articulo": "art. 70",
+      "tags": [
+        "situaciones",
+        "organos"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-51bb77ed6944",
+      "nombre": "La ley electoral determina causas de inelegibilidad e incompatibilidad",
+      "tipo": "procedimiento",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "articulo": "art. 70",
+      "tags": [
+        "procedimientos",
+        "situaciones"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-54e87076a8cf",
+      "nombre": "Decisiones de los arts. 94.1, 145.2 y 158.2 por mayoría de cada Cámara",
+      "tipo": "mayoria",
+      "valor": "mayoría de cada Cámara",
+      "norma": "Constitución Española de 1978",
+      "articulo": "art. 74",
+      "tags": [
+        "mayorias"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-563d7e66a3e1",
+      "nombre": "Incompatibilidades e independencia e inamovilidad de los miembros",
+      "tipo": "procedimiento",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "articulo": "art. 159",
+      "tags": [
+        "situaciones",
+        "derechos"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-58d1c16653bb",
+      "nombre": "Mandato de 9 años con renovación por terceras partes cada 3 años",
+      "tipo": "mandato",
+      "valor": "9 años; renovación cada 3",
+      "norma": "Constitución Española de 1978",
+      "articulo": "art. 159",
+      "tags": [
+        "mandato",
+        "plazos"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-6151b96bf6be",
+      "nombre": "Defensor del Pueblo como alto comisionado de las Cortes Generales",
+      "tipo": "organo",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "articulo": "art. 54",
+      "tags": [
+        "organos"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-61c483c8a966",
+      "nombre": "Conflictos de competencia entre el Estado y las CC.AA. o entre ellas",
+      "tipo": "competencia",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "articulo": "art. 161",
+      "tags": [
+        "competencias"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-6bafe135f651",
+      "nombre": "Potestad legislativa, aprobación de Presupuestos y control del Gobierno",
+      "tipo": "competencia",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "articulo": "art. 66",
+      "tags": [
+        "competencias"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-6f6ff4033bdc",
+      "nombre": "Senadores por provincias insulares y designación por CC.AA. (1 + 1 por millón de habitantes)",
+      "tipo": "procedimiento",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "articulo": "art. 69",
+      "tags": [
+        "procedimientos",
+        "organos"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-71662152b799",
+      "nombre": "Legitimados para interponer el recurso de amparo",
+      "tipo": "procedimiento",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "articulo": "art. 162",
+      "tags": [
+        "recursos",
+        "procedimientos"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-8225a37f0883",
+      "nombre": "Mandato del Congreso de cuatro años",
+      "tipo": "mandato",
+      "valor": "4 años",
+      "norma": "Constitución Española de 1978",
+      "articulo": "art. 68",
+      "tags": [
+        "mandato",
+        "plazos"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-8555aec33395",
+      "nombre": "Las Cortes Generales se componen del Congreso y el Senado",
+      "tipo": "organo",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "articulo": "art. 66",
+      "tags": [
+        "organos"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-893f1281e4b8",
+      "nombre": "Excepciones a la delegación: reforma constitucional, internacionales, LO, bases y PGE",
+      "tipo": "procedimiento",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "articulo": "art. 75",
+      "tags": [
+        "procedimientos"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-8a8e64326c7c",
+      "nombre": "Funcionamiento en Pleno y por Comisiones; delegación legislativa en Comisiones",
+      "tipo": "procedimiento",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "articulo": "art. 75",
+      "tags": [
+        "procedimientos"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-9099396c2af6",
+      "nombre": "Legitimados para interponer el recurso de inconstitucionalidad",
+      "tipo": "procedimiento",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "articulo": "art. 162",
+      "tags": [
+        "recursos",
+        "procedimientos"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-91a2a0c07f94",
+      "nombre": "Autorización de la Cámara para inculpar o procesar a un parlamentario",
+      "tipo": "procedimiento",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "articulo": "art. 71",
+      "tags": [
+        "procedimientos"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-9378ee1d987d",
+      "nombre": "Senado como Cámara de representación territorial",
+      "tipo": "definicion",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "articulo": "art. 69",
+      "tags": [
+        "organos"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-97e1a6a2a023",
+      "nombre": "Ausencia de mandato imperativo de los parlamentarios",
+      "tipo": "derecho",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "articulo": "art. 67",
+      "tags": [
+        "derechos"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-9a9ca54dd55d",
+      "nombre": "Recurso de inconstitucionalidad contra leyes y disposiciones con fuerza de ley",
+      "tipo": "procedimiento",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "articulo": "art. 161",
+      "tags": [
+        "recursos",
+        "competencias"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-9c87e7de307b",
+      "nombre": "Sesiones conjuntas para competencias no legislativas atribuidas a las Cortes Generales",
+      "tipo": "procedimiento",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "articulo": "art. 74",
+      "tags": [
+        "procedimientos"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-9d2cfe11e992",
+      "nombre": "Diputación Permanente: mínimo 21 miembros representando grupos parlamentarios",
+      "tipo": "organo",
+      "valor": "mín. 21",
+      "norma": "Constitución Española de 1978",
+      "articulo": "art. 78",
+      "tags": [
+        "organos",
+        "cifras"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-a472858810bf",
+      "nombre": "Inviolabilidad de Diputados y Senadores por sus opiniones",
+      "tipo": "derecho",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "articulo": "art. 71",
+      "tags": [
+        "garantias",
+        "derechos"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-b0bab56e3d0a",
+      "nombre": "Elección por sufragio universal, libre, igual, directo y secreto en circunscripción provincial",
+      "tipo": "procedimiento",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "articulo": "art. 68",
+      "tags": [
+        "procedimientos",
+        "derechos"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-b23039cbdb61",
+      "nombre": "Senadores: 4 por provincia y 2 en Ceuta y Melilla",
+      "tipo": "cifra",
+      "valor": "4 por provincia; 2 Ceuta/Melilla",
+      "norma": "Constitución Española de 1978",
+      "articulo": "art. 69",
+      "tags": [
+        "cifras",
+        "organos"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-b844ae94a36b",
+      "nombre": "Recurso de amparo por violación de derechos y libertades del art. 53.2",
+      "tipo": "procedimiento",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "articulo": "art. 161",
+      "tags": [
+        "recursos",
+        "derechos"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-bc055d0371e5",
+      "nombre": "Comisiones de investigación sobre asuntos de interés público",
+      "tipo": "competencia",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "articulo": "art. 76",
+      "tags": [
+        "competencias"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-bd7efd753241",
+      "nombre": "Impugnación gubernamental de disposiciones autonómicas: suspensión y ratificación o levantamiento en 5 meses",
+      "tipo": "procedimiento",
+      "valor": "5 meses",
+      "norma": "Constitución Española de 1978",
+      "articulo": "art. 161",
+      "tags": [
+        "procedimientos",
+        "plazos",
+        "recursos"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-be0abf80b179",
+      "nombre": "Inviolabilidad de las Cortes Generales",
+      "tipo": "derecho",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "articulo": "art. 66",
+      "tags": [
+        "garantias",
+        "derechos"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-c1d546c3219d",
+      "nombre": "Designación del Defensor del Pueblo por las Cortes Generales",
+      "tipo": "procedimiento",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "articulo": "art. 54",
+      "tags": [
+        "procedimientos",
+        "organos"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-c2ba3af054c4",
+      "nombre": "Publicación de sentencias del TC en el BOE con votos particulares",
+      "tipo": "procedimiento",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "articulo": "art. 164",
+      "tags": [
+        "procedimientos"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-cd54270cd476",
+      "nombre": "Defensor del Pueblo: institución regulada por ley orgánica",
+      "tipo": "definicion",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "articulo": "art. 54",
+      "tags": [
+        "organos",
+        "derechos"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-d020ca5713ce",
+      "nombre": "Elección de Presidentes y Mesas; sesiones conjuntas presididas por el Presidente del Congreso",
+      "tipo": "procedimiento",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "articulo": "art. 72",
+      "tags": [
+        "procedimientos",
+        "organos"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-d0c0d3961c45",
+      "nombre": "Ley orgánica regulará funcionamiento, estatuto y procedimiento del TC",
+      "tipo": "procedimiento",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "articulo": "art. 165",
+      "tags": [
+        "procedimientos"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-db58a1b18b14",
+      "nombre": "Nombramiento: 4 Congreso, 4 Senado (3/5), 2 Gobierno, 2 CGPJ",
+      "tipo": "procedimiento",
+      "valor": "4+4+2+2; 3/5",
+      "norma": "Constitución Española de 1978",
+      "articulo": "art. 159",
+      "tags": [
+        "procedimientos",
+        "mayorias",
+        "organos"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-e36c69c3c695",
+      "nombre": "Sesiones plenarias públicas salvo acuerdo en contrario por mayoría absoluta",
+      "tipo": "procedimiento",
+      "valor": "mayoría absoluta",
+      "norma": "Constitución Española de 1978",
+      "articulo": "art. 80",
+      "tags": [
+        "procedimientos",
+        "mayorias"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-e86b0c0160d2",
+      "nombre": "Comisión Mixta y decisión final del Congreso por mayoría absoluta",
+      "tipo": "procedimiento",
+      "valor": "mayoría absoluta (Congreso)",
+      "norma": "Constitución Española de 1978",
+      "articulo": "art. 74",
+      "tags": [
+        "procedimientos",
+        "mayorias"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-ed25c37d5511",
+      "nombre": "Sala de lo Penal del Tribunal Supremo competente en causas contra parlamentarios",
+      "tipo": "competencia",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "articulo": "art. 71",
+      "tags": [
+        "competencias",
+        "organos"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-ef2a8be73830",
+      "nombre": "Distribución de Diputados por población y representación proporcional",
+      "tipo": "procedimiento",
+      "valor": null,
+      "norma": "Constitución Española de 1978",
+      "articulo": "art. 68",
+      "tags": [
+        "procedimientos"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-fdd6b85cb25c",
+      "nombre": "Mandato del Senado de cuatro años",
+      "tipo": "mandato",
+      "valor": "4 años",
+      "norma": "Constitución Española de 1978",
+      "articulo": "art. 69",
+      "tags": [
+        "mandato",
+        "plazos"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-ffde5e2ef30b",
+      "nombre": "Requisitos de los miembros: juristas de reconocida competencia con más de 15 años de ejercicio",
+      "tipo": "procedimiento",
+      "valor": ">15 años",
+      "norma": "Constitución Española de 1978",
+      "articulo": "art. 159",
+      "tags": [
+        "procedimientos"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    }
+  ]
+}

@@ -1,0 +1,176 @@
+{
+  "tema_id": "tema-26-servidores-de-correo-contenedores-y-microservicios",
+  "auto_nivel_2": false,
+  "auto_nivel_3": false,
+  "grupos": [
+    {
+      "concepto_principal_sugerido": "c-fa3a25883c47",
+      "conceptos": [
+        {
+          "id": "c-fa3a25883c47",
+          "nombre": "STARTTLS",
+          "tipo": "definicion",
+          "longitud_contenido": 149
+        },
+        {
+          "id": "c-ba140e0ce0cc",
+          "nombre": "STARTTLS",
+          "tipo": "definicion",
+          "longitud_contenido": 74
+        }
+      ]
+    },
+    {
+      "concepto_principal_sugerido": "c-dc6e2b961c6c",
+      "conceptos": [
+        {
+          "id": "c-dc6e2b961c6c",
+          "nombre": "DMARC",
+          "tipo": "definicion",
+          "longitud_contenido": 280
+        },
+        {
+          "id": "c-2414a211f39d",
+          "nombre": "DMARC",
+          "tipo": "definicion",
+          "longitud_contenido": 140
+        }
+      ]
+    },
+    {
+      "concepto_principal_sugerido": "c-6b438212b7a3",
+      "conceptos": [
+        {
+          "id": "c-6b438212b7a3",
+          "nombre": "Namespaces",
+          "tipo": "definicion",
+          "longitud_contenido": 166
+        },
+        {
+          "id": "c-9aecc5f1e2fb",
+          "nombre": "Namespaces",
+          "tipo": "definicion",
+          "longitud_contenido": 340
+        }
+      ]
+    },
+    {
+      "concepto_principal_sugerido": "c-75f9c9d6cd1f",
+      "conceptos": [
+        {
+          "id": "c-75f9c9d6cd1f",
+          "nombre": "Imagen vs Contenedor",
+          "tipo": "comparativa",
+          "longitud_contenido": 110
+        },
+        {
+          "id": "c-f5ca05d9f8dc",
+          "nombre": "Imagen vs Contenedor",
+          "tipo": "comparativa",
+          "longitud_contenido": 303
+        }
+      ]
+    },
+    {
+      "concepto_principal_sugerido": "c-49d423a57d67",
+      "conceptos": [
+        {
+          "id": "c-49d423a57d67",
+          "nombre": "Docker Compose",
+          "tipo": "definicion",
+          "longitud_contenido": 503
+        },
+        {
+          "id": "c-a6261276e0b7",
+          "nombre": "Docker Compose",
+          "tipo": "definicion",
+          "longitud_contenido": 199
+        }
+      ]
+    },
+    {
+      "concepto_principal_sugerido": "c-1f16881069b9",
+      "conceptos": [
+        {
+          "id": "c-1f16881069b9",
+          "nombre": "Pod",
+          "tipo": "definicion",
+          "longitud_contenido": 233
+        },
+        {
+          "id": "c-178269191351",
+          "nombre": "Pod",
+          "tipo": "definicion",
+          "longitud_contenido": 131
+        },
+        {
+          "id": "c-b3f8dc200973",
+          "nombre": "Pod",
+          "tipo": "definicion",
+          "longitud_contenido": 257
+        }
+      ]
+    },
+    {
+      "concepto_principal_sugerido": "c-c57053186751",
+      "conceptos": [
+        {
+          "id": "c-c57053186751",
+          "nombre": "Tipos de Service en Kubernetes",
+          "tipo": "clasificacion",
+          "longitud_contenido": 303
+        },
+        {
+          "id": "c-f94a6e5a0d7f",
+          "nombre": "Tipos de Service en Kubernetes",
+          "tipo": "clasificacion",
+          "longitud_contenido": 373
+        }
+      ]
+    },
+    {
+      "concepto_principal_sugerido": "c-d3fd34835dbe",
+      "conceptos": [
+        {
+          "id": "c-d3fd34835dbe",
+          "nombre": "ConfigMaps vs Secrets en Kubernetes",
+          "tipo": "comparativa",
+          "longitud_contenido": 310
+        },
+        {
+          "id": "c-f775a9c85d00",
+          "nombre": "ConfigMap y Secret en Kubernetes",
+          "tipo": "comparativa",
+          "longitud_contenido": 153
+        }
+      ]
+    }
+  ],
+  "pares_nivel_2": [
+    {
+      "nivel": 2,
+      "accion": "revisar",
+      "sim_nombre": 0.81,
+      "sim_valor": 0.188,
+      "score": 0.623,
+      "razon": "nombre_muy_similar",
+      "c1": "c-960e738578fb",
+      "c1_nombre": "MUA (Mail User Agent)",
+      "c2": "c-7b58791f7623",
+      "c2_nombre": "MTA (Mail Transfer Agent)"
+    },
+    {
+      "nivel": 2,
+      "accion": "revisar",
+      "sim_nombre": 0.821,
+      "sim_valor": 0.344,
+      "score": 0.677,
+      "razon": "nombre_muy_similar",
+      "c1": "c-3ea2411b5471",
+      "c1_nombre": "CMD vs ENTRYPOINT en Docker",
+      "c2": "c-4d41dde04e93",
+      "c2_nombre": "CMD vs ENTRYPOINT"
+    }
+  ],
+  "pares_nivel_3": []
+}

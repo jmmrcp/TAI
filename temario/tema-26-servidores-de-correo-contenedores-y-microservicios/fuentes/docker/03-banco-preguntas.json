@@ -1,0 +1,270 @@
+{
+  "preguntas": [
+    {
+      "id": "p-docker-001",
+      "concepto_id": "c-docker-info",
+      "capitulo": "src-docker",
+      "tipo": "definicion",
+      "dificultad": "baja",
+      "origen": "ingesta-inicial",
+      "enunciado": "Segun la salida de docker info, cual es el registry por defecto?",
+      "opciones": [
+        "c) https://hub.docker.com",
+        "d) https://docker.io/registry",
+        "b) https://registry.docker.com/v2/",
+        "a) https://index.docker.io/v1/"
+      ],
+      "correcta": 3,
+      "explicacion": "docker info muestra Registry: https://index.docker.io/v1/ como registry por defecto.",
+      "referencia": "texto normalizado docker, linea 10",
+      "verificado": false
+    },
+    {
+      "id": "p-docker-002",
+      "concepto_id": "c-docker-ps",
+      "capitulo": "src-docker",
+      "tipo": "definicion",
+      "dificultad": "baja",
+      "origen": "ingesta-inicial",
+      "enunciado": "Que comando muestra todos los contenedores, activos e inactivos?",
+      "opciones": [
+        "a) docker ps -a",
+        "b) docker ps",
+        "c) docker images",
+        "d) docker info"
+      ],
+      "correcta": 0,
+      "explicacion": "docker ps -a muestra todos los contenedores, activos e inactivos; docker ps solo los activos.",
+      "referencia": "texto normalizado docker, lineas 15-16",
+      "verificado": false
+    },
+    {
+      "id": "p-docker-003",
+      "concepto_id": "c-docker-pull",
+      "capitulo": "src-docker",
+      "tipo": "definicion",
+      "dificultad": "baja",
+      "origen": "ingesta-inicial",
+      "enunciado": "Que hace el comando docker pull jenkins?",
+      "opciones": [
+        "a) Descarga la imagen jenkins del hub (DockerHub)",
+        "d) Crea una imagen jenkins a partir de un contenedor",
+        "b) Arranca un contenedor jenkins",
+        "c) Borra la imagen jenkins"
+      ],
+      "correcta": 0,
+      "explicacion": "docker pull imagen descarga una imagen del hub (DockerHub).",
+      "referencia": "texto normalizado docker, linea 12",
+      "verificado": false
+    },
+    {
+      "id": "p-docker-004",
+      "concepto_id": "c-docker-images",
+      "capitulo": "src-docker",
+      "tipo": "definicion",
+      "dificultad": "baja",
+      "origen": "ingesta-inicial",
+      "enunciado": "Que comando muestra las imagenes disponibles en el sistema?",
+      "opciones": [
+        "d) docker build",
+        "b) docker ps",
+        "c) docker info",
+        "a) docker images"
+      ],
+      "correcta": 3,
+      "explicacion": "docker images muestra todas las imagenes disponibles.",
+      "referencia": "texto normalizado docker, linea 28",
+      "verificado": false
+    },
+    {
+      "id": "p-docker-005",
+      "concepto_id": "c-docker-run",
+      "capitulo": "src-docker",
+      "tipo": "sintaxis",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "En 'docker run -p 8080:8080 -p 50000:50000 jenkins', que representa el primer puerto de cada par?",
+      "opciones": [
+        "c) El puerto del registry",
+        "a) El puerto del host (real)",
+        "d) El puerto de Docker Root Dir",
+        "b) El puerto del container"
+      ],
+      "correcta": 1,
+      "explicacion": "En el mapeo HOST:CONTAINER, el primer puerto es el real (host) y el siguiente es el de Docker (container).",
+      "referencia": "texto normalizado docker, lineas 18-19",
+      "verificado": false
+    },
+    {
+      "id": "p-docker-006",
+      "concepto_id": "c-docker-run",
+      "capitulo": "src-docker",
+      "tipo": "sintaxis",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "Que formato usa la opcion -v para asociar un volumen con almacenamiento externo?",
+      "opciones": [
+        "a) PATH_HOST:PATH_CONTAINER",
+        "b) PATH_CONTAINER:PATH_HOST",
+        "c) HOST_PORT:CONTAINER_PORT",
+        "d) IMAGE:TAG"
+      ],
+      "correcta": 0,
+      "explicacion": "La opcion -v usa el formato PATH_HOST:PATH_CONTAINER.",
+      "referencia": "texto normalizado docker, linea 23",
+      "verificado": false
+    },
+    {
+      "id": "p-docker-007",
+      "concepto_id": "c-dockerfile-cmd-entrypoint",
+      "capitulo": "src-docker",
+      "tipo": "comparativa",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "Cual es la diferencia entre CMD y ENTRYPOINT en un Dockerfile?",
+      "opciones": [
+        "c) Ambos se pueden sobrescribir",
+        "a) CMD puede sobrescribirse con docker run; ENTRYPOINT no",
+        "d) Ninguno se puede sobrescribir",
+        "b) ENTRYPOINT puede sobrescribirse; CMD no"
+      ],
+      "correcta": 1,
+      "explicacion": "CMD puede sobrescribirse haciendo docker run; ENTRYPOINT no se puede sobrescribir.",
+      "referencia": "texto normalizado docker, lineas 81-88",
+      "verificado": false
+    },
+    {
+      "id": "p-docker-008",
+      "concepto_id": "c-docker-arg-env",
+      "capitulo": "src-docker",
+      "tipo": "comparativa",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "Cual afirmacion sobre ARG y ENV es correcta?",
+      "opciones": [
+        "b) ENV solo se usa durante la creacion; ARG existe en build y run",
+        "d) Ambos existen en build y run",
+        "a) ARG solo se usa durante la creacion de la imagen; ENV existe en build y en ejecucion",
+        "c) Ambos solo existen en build"
+      ],
+      "correcta": 2,
+      "explicacion": "ARG crea variables que solo se usan durante la creacion de la imagen; ENV define variables que existen durante la construccion y en el contenedor durante su ejecucion.",
+      "referencia": "texto normalizado docker, lineas 73-74",
+      "verificado": false
+    },
+    {
+      "id": "p-docker-009",
+      "concepto_id": "c-docker-expose",
+      "capitulo": "src-docker",
+      "tipo": "regla",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "Que ocurre si en un Dockerfile solo se usa EXPOSE 5432/tcp?",
+      "opciones": [
+        "a) El puerto se expone en el container pero no se puede acceder desde el host",
+        "b) Se publica automaticamente en el host",
+        "c) Se abre en el registry",
+        "d) Se ignora"
+      ],
+      "correcta": 0,
+      "explicacion": "EXPOSE expone puertos en el CONTAINER; solo con EXPOSE no se puede acceder desde el HOST.",
+      "referencia": "texto normalizado docker, linea 77",
+      "verificado": false
+    },
+    {
+      "id": "p-docker-010",
+      "concepto_id": "c-docker-commit",
+      "capitulo": "src-docker",
+      "tipo": "definicion",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "Que hace docker commit?",
+      "opciones": [
+        "d) Arranca un contenedor",
+        "b) Guarda un contenedor en un tar (backup)",
+        "c) Borra un contenedor",
+        "a) Crea una imagen a partir de un contenedor en ejecucion"
+      ],
+      "correcta": 3,
+      "explicacion": "docker commit crea una imagen a partir de un contenedor ya en ejecucion.",
+      "referencia": "texto normalizado docker, linea 36",
+      "verificado": false
+    },
+    {
+      "id": "p-docker-011",
+      "concepto_id": "c-docker-exec-attach",
+      "capitulo": "src-docker",
+      "tipo": "comparativa",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "Que diferencia hay entre docker exec y docker attach?",
+      "opciones": [
+        "a) docker exec ejecuta un comando contra un contenedor en ejecucion; docker attach se une al contenedor",
+        "c) docker attach ejecuta comandos; docker exec se une",
+        "b) Ambos borran contenedores",
+        "d) Ambos crean imagenes"
+      ],
+      "correcta": 0,
+      "explicacion": "docker exec ejecuta un comando contra un contenedor en ejecucion; docker attach se une a un contenedor en ejecucion enlazando salida, entrada y error.",
+      "referencia": "texto normalizado docker, lineas 33, 94, 96",
+      "verificado": false
+    },
+    {
+      "id": "p-docker-012",
+      "concepto_id": "c-kubernetes-pod",
+      "capitulo": "src-docker",
+      "tipo": "sintaxis",
+      "dificultad": "alta",
+      "origen": "ingesta-inicial",
+      "enunciado": "En el YAML de un Pod, que campo especifica los contenedores que lo forman?",
+      "opciones": [
+        "b) metadata.labels",
+        "a) spec.containers",
+        "d) kind",
+        "c) apiVersion"
+      ],
+      "correcta": 1,
+      "explicacion": "En spec se nombran los contenedores que forman parte del pod (containers).",
+      "referencia": "texto normalizado docker, lineas 115-121",
+      "verificado": false
+    },
+    {
+      "id": "p-docker-013",
+      "concepto_id": "c-kubernetes-replication-controller",
+      "capitulo": "src-docker",
+      "tipo": "definicion",
+      "dificultad": "alta",
+      "origen": "ingesta-inicial",
+      "enunciado": "Cual es la funcion del Replication Controller?",
+      "opciones": [
+        "b) Define el conjunto de pods y la logica de acceso",
+        "c) Es la unidad mas pequena desplegable",
+        "d) Maneja el cluster de nodos",
+        "a) Asegura el numero especificado de replicas del pod, permite escalar y re-crea pods ante fallo"
+      ],
+      "correcta": 3,
+      "explicacion": "El Replication Controller se asegura de que el numero especificado de replicas del pod esten ejecutandose, permite escalar y maneja la re-creacion ante fallo.",
+      "referencia": "texto normalizado docker, lineas 136-137",
+      "verificado": false
+    },
+    {
+      "id": "p-docker-014",
+      "concepto_id": "c-kubernetes-service",
+      "capitulo": "src-docker",
+      "tipo": "definicion",
+      "dificultad": "alta",
+      "origen": "ingesta-inicial",
+      "enunciado": "Que es un Service en Kubernetes?",
+      "opciones": [
+        "d) Un grupo de contenedores con almacenamiento compartido",
+        "c) Una maquina fisica o virtual donde se programan pods",
+        "b) Un conjunto de maquinas fisicas o virtuales",
+        "a) Una abstraccion que define un conjunto de pods y la logica para acceder a los mismos"
+      ],
+      "correcta": 3,
+      "explicacion": "Service es una abstraccion que define un conjunto de pods y la logica para acceder a los mismos.",
+      "referencia": "texto normalizado docker, linea 138",
+      "verificado": false
+    }
+  ]
+}

@@ -1,0 +1,169 @@
+{
+  "conceptos": [
+    {
+      "id": "c-virtualizacion",
+      "nombre": "Virtualización",
+      "tipo": "definicion",
+      "valor": "Abstracción que simula recursos hardware (CPU, memoria, red, etc.) e incluso el sistema operativo, multiplexándolos entre varios clientes mediante una capa de software (hipervisor/VMM).",
+      "norma": null,
+      "articulo": null,
+      "tags_transversales": [],
+      "verificado": false,
+      "es_principal": true
+    },
+    {
+      "id": "c-hipervisor",
+      "nombre": "Hipervisor o VMM",
+      "tipo": "definicion",
+      "valor": "Software (Virtual Machine Monitor) que crea la capa de abstracción para multiplexar recursos hardware entre varios clientes y crear máquinas virtuales.",
+      "norma": null,
+      "articulo": null,
+      "tags_transversales": [],
+      "verificado": false,
+      "es_principal": true
+    },
+    {
+      "id": "c-hipervisor-tipos",
+      "nombre": "Tipos de hipervisor (tipo 1 y tipo 2)",
+      "tipo": "clasificacion",
+      "valor": "Tipo 2 usado en ámbito doméstico (menos optimizado). Tipo 1 es mezcla y optimización del HW y SO del tipo 2, diseño orientado a la virtualización. Hyper-V se instala sobre Windows pero se sitúa encima del HW, por debajo del SO.",
+      "norma": null,
+      "articulo": null,
+      "tags_transversales": [],
+      "verificado": false,
+      "es_principal": true
+    },
+    {
+      "id": "c-virtualizacion-ligera",
+      "nombre": "Virtualización ligera / contenedores",
+      "tipo": "definicion",
+      "valor": "Virtualización del SO (kernel) sin hipervisor, sustituido por una capa de acceso al kernel/gestor de contenedores; se crean contenedores (EV) con parte del SO y utilidades pero sin kernel.",
+      "norma": null,
+      "articulo": null,
+      "tags_transversales": [],
+      "verificado": false,
+      "es_principal": true
+    },
+    {
+      "id": "c-imagen-contenedor",
+      "nombre": "Imagen vs contenedor",
+      "tipo": "comparativa",
+      "valor": "Una imagen es estática; el contenedor es la representación de la imagen en memoria, en ejecución.",
+      "norma": null,
+      "articulo": null,
+      "tags_transversales": [],
+      "verificado": false,
+      "es_principal": true
+    },
+    {
+      "id": "c-docker-build-run",
+      "nombre": "Flujo Docker (Dockerfile, build, run)",
+      "tipo": "proceso",
+      "valor": "1) Crear fichero Dockerfile con la configuración de la imagen. 2) Crear la imagen en disco: docker build -t etiqueta. 3) Levantar un contenedor en memoria: docker run -name ... -d etiqueta -p puerto:puerto.",
+      "norma": null,
+      "articulo": null,
+      "tags_transversales": [],
+      "verificado": false,
+      "es_principal": true
+    },
+    {
+      "id": "c-capas-imagen",
+      "nombre": "Capas de imagen Docker",
+      "tipo": "regla",
+      "valor": "Cada comando del Dockerfile crea una capa. Todas las capas son de lectura (R) excepto la última (R/W). Las capas se reutilizan. Por defecto el almacenamiento es efímero.",
+      "norma": null,
+      "articulo": null,
+      "tags_transversales": [],
+      "verificado": false,
+      "es_principal": true
+    },
+    {
+      "id": "c-kubernetes",
+      "nombre": "Kubernetes / orquestación",
+      "tipo": "definicion",
+      "valor": "Orquestador para muchos contenedores y nodos: escala, replica contenedores si cae un nodo, balancea ejecuciones entre nodos y mueve contenedores a nodos menos saturados. Se instala en servidor central con agente Kubelet en los nodos.",
+      "norma": null,
+      "articulo": null,
+      "tags_transversales": [],
+      "verificado": false,
+      "es_principal": true
+    },
+    {
+      "id": "c-pod",
+      "nombre": "Pod",
+      "tipo": "definicion",
+      "valor": "Agrupación de contenedores para administrarlos de forma agrupada; se agrupa en una misma IP contenedores y volúmenes (IP flotante).",
+      "norma": null,
+      "articulo": null,
+      "tags_transversales": [],
+      "verificado": false,
+      "es_principal": true
+    },
+    {
+      "id": "c-oci",
+      "nombre": "Open Container Initiative (OCI)",
+      "tipo": "definicion",
+      "valor": "Proyecto de Linux Foundation para estandarizar ejecución, imagen y distribución de contenedores: OCI Runtime Specification (CRI, runc), OCI Image Format y OCI Distribution Specification (repositorios de imágenes).",
+      "norma": null,
+      "articulo": null,
+      "tags_transversales": [],
+      "verificado": false,
+      "es_principal": true
+    },
+    {
+      "id": "c-docker-compose",
+      "nombre": "Docker Compose",
+      "tipo": "definicion",
+      "valor": "Herramienta para gestionar varios contenedores a la vez mediante docker-compose.yml, que define los contenedores deseados para levantar todo de golpe (p. ej. entorno de trabajo para desarrolladores).",
+      "norma": null,
+      "articulo": null,
+      "tags_transversales": [],
+      "verificado": false,
+      "es_principal": true
+    },
+    {
+      "id": "c-formatos-virt",
+      "nombre": "Formatos de virtualización",
+      "tipo": "clasificacion",
+      "valor": "VMDK (VMWare), OVF (distribución de MV/Virtual Appliance), OVA (OVF empaquetado en TAR), VMEM (volcado de memoria principal al pausar), VDI (VirtualBox), VHD (Hyper-V).",
+      "norma": null,
+      "articulo": null,
+      "tags_transversales": [],
+      "verificado": false,
+      "es_principal": true
+    },
+    {
+      "id": "c-virt-almacenamiento",
+      "nombre": "Virtualización del almacenamiento",
+      "tipo": "clasificacion",
+      "valor": "A nivel de bloque: de servidor (LVM), de dispositivo (RAID), de red (SAN, vSAN con LUNs). A nivel de fichero: NAS (NFS/CIFS/AFP).",
+      "norma": null,
+      "articulo": null,
+      "tags_transversales": [],
+      "verificado": false,
+      "es_principal": true
+    },
+    {
+      "id": "c-cloud-modelos",
+      "nombre": "Modelos de servicio cloud (IaaS, PaaS, CaaS/KaaS)",
+      "tipo": "clasificacion",
+      "valor": "IaaS: infraestructura como servicio (VMs, almacenamiento, red). PaaS: plataforma para montar entornos de ejecución para equipos de desarrollo. CaaS/KaaS: contenedores/Kubernetes como servicio.",
+      "norma": null,
+      "articulo": null,
+      "tags_transversales": [],
+      "verificado": false,
+      "es_principal": true
+    },
+    {
+      "id": "c-cloud-autoescalado",
+      "nombre": "Autoescalado en Cloud",
+      "tipo": "regla",
+      "valor": "La principal característica de Cloud es la gestión de la demanda y tarificación por consumo, con sistemas de autoescalado si aumenta la demanda; a diferencia de la virtualización clásica, en Cloud es casi imposible quedarse sin recursos.",
+      "norma": null,
+      "articulo": null,
+      "tags_transversales": [],
+      "verificado": false,
+      "es_principal": true
+    }
+  ]
+}

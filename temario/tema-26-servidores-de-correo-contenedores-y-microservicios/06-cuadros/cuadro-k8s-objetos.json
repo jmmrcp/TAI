@@ -1,0 +1,138 @@
+{
+  "id": "cuadro-k8s-objetos",
+  "tema_id": "tema-26-servidores-de-correo-contenedores-y-microservicios",
+  "tipo_dato": "kubernetes",
+  "titulo": "Objetos y componentes básicos de Kubernetes",
+  "semilla": false,
+  "n_filas": 9,
+  "n_fuentes_distintas": 1,
+  "columnas": [
+    "elemento",
+    "tipo",
+    "descripcion"
+  ],
+  "columna_clave": "elemento",
+  "columna_respuesta": "descripcion",
+  "columna_contexto": "tipo",
+  "columna_fuente": "fuente",
+  "filas": [
+    {
+      "id": "c-k8s-1",
+      "fuente": "resumen CPS",
+      "fuente_tipo": "manual",
+      "valores": {
+        "elemento": "Pod",
+        "tipo": "objeto básico",
+        "descripcion": "Unidad mínima de despliegue; agrupa uno o varios contenedores que comparten red y almacenamiento"
+      },
+      "pasaje_origen": "Kubernetes",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-k8s-2",
+      "fuente": "resumen CPS",
+      "fuente_tipo": "manual",
+      "valores": {
+        "elemento": "Service",
+        "tipo": "objeto básico",
+        "descripcion": "Abstracción de red que expone un conjunto de Pods; tipos: ClusterIP, NodePort, LoadBalancer, Ingress"
+      },
+      "pasaje_origen": "Kubernetes",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-k8s-3",
+      "fuente": "resumen CPS",
+      "fuente_tipo": "manual",
+      "valores": {
+        "elemento": "Volume",
+        "tipo": "objeto básico",
+        "descripcion": "Almacenamiento persistente asociado a un Pod"
+      },
+      "pasaje_origen": "Kubernetes",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-k8s-4",
+      "fuente": "resumen CPS",
+      "fuente_tipo": "manual",
+      "valores": {
+        "elemento": "Namespace",
+        "tipo": "objeto básico",
+        "descripcion": "Aislamiento lógico de recursos dentro del clúster"
+      },
+      "pasaje_origen": "Kubernetes",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-k8s-5",
+      "fuente": "resumen CPS",
+      "fuente_tipo": "manual",
+      "valores": {
+        "elemento": "ConfigMap",
+        "tipo": "configuración",
+        "descripcion": "Datos de configuración no confidenciales en texto plano"
+      },
+      "pasaje_origen": "Kubernetes",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-k8s-6",
+      "fuente": "resumen CPS",
+      "fuente_tipo": "manual",
+      "valores": {
+        "elemento": "Secret",
+        "tipo": "configuración",
+        "descripcion": "Datos sensibles codificados en base64"
+      },
+      "pasaje_origen": "Kubernetes",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-k8s-7",
+      "fuente": "resumen CPS",
+      "fuente_tipo": "manual",
+      "valores": {
+        "elemento": "ETCD",
+        "tipo": "componente",
+        "descripcion": "Almacenamiento no volátil de toda la configuración del clúster"
+      },
+      "pasaje_origen": "Kubernetes",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-k8s-8",
+      "fuente": "resumen CPS",
+      "fuente_tipo": "manual",
+      "valores": {
+        "elemento": "Kubelet",
+        "tipo": "componente",
+        "descripcion": "Agente por nodo que garantiza que los contenedores estén en ejecución"
+      },
+      "pasaje_origen": "Kubernetes",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-k8s-9",
+      "fuente": "resumen CPS",
+      "fuente_tipo": "manual",
+      "valores": {
+        "elemento": "Scheduler",
+        "tipo": "componente",
+        "descripcion": "Asigna Pods a nodos según recursos disponibles"
+      },
+      "pasaje_origen": "Kubernetes",
+      "ubicacion": {},
+      "verificado": false
+    }
+  ],
+  "verificado": false
+}

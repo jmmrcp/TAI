@@ -1,0 +1,1984 @@
+{
+  "tema_id": "tema-04-el-trebep-y-demas-normativa-transparencia-agenda-2030-y-ods",
+  "total": 120,
+  "conceptos": [
+    {
+      "id": "c-018ad4808385",
+      "nombre": "Infracciones en materia de conflicto de intereses",
+      "tipo": "deber",
+      "valor": null,
+      "norma": "Ley 19/2013",
+      "articulo": "art. 27",
+      "tags": [
+        "incompatibilidades",
+        "conflicto de intereses",
+        "sancion"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-0312308f7e0f",
+      "nombre": "Consejo de Transparencia y Buen Gobierno",
+      "tipo": "organo",
+      "valor": "Organismo público adscrito al Ministerio de Hacienda y Administraciones Públicas",
+      "norma": "Ley 19/2013",
+      "articulo": "art. 33",
+      "tags": [
+        "ctbg",
+        "creacion",
+        "organismo publico"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-059284374854",
+      "nombre": "Derecho a la retribución",
+      "tipo": "derecho",
+      "valor": null,
+      "norma": "RDL 5/2015 (TREBEP)",
+      "articulo": "art. 5",
+      "tags": [
+        "retribuciones",
+        "salario"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-0e3714e8be75",
+      "nombre": "Personal eventual",
+      "tipo": "definicion",
+      "valor": "Nombramiento libre para funciones de confianza, sin carrera",
+      "norma": "RDL 5/2015 (TREBEP)",
+      "articulo": "art. 4",
+      "tags": [
+        "personal eventual",
+        "clases"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-11f87b41071e",
+      "nombre": "Protección de datos personales",
+      "tipo": "derecho",
+      "valor": "Acceso a datos identificativos previa ponderación; datos sensibles solo con consentimiento",
+      "norma": "Ley 19/2013",
+      "articulo": "art. 15",
+      "tags": [
+        "proteccion de datos",
+        "personales"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-12fc2100cdd9",
+      "nombre": "Concurso (selección)",
+      "tipo": "procedimiento",
+      "valor": "Valoración de méritos",
+      "norma": "RDL 5/2015 (TREBEP)",
+      "articulo": "art. 23",
+      "tags": [
+        "concurso",
+        "seleccion"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-1336cda49402",
+      "nombre": "Permiso por enfermedad",
+      "tipo": "derecho",
+      "valor": "Hasta 3 días (ampliable a 5 por desplazamiento)",
+      "norma": "RDL 5/2015 (TREBEP)",
+      "articulo": "art. 39",
+      "tags": [
+        "permiso",
+        "enfermedad"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-14f71c87798a",
+      "nombre": "Plazo de resolución del acceso",
+      "tipo": "plazo",
+      "valor": "1 mes (ampliable otro mes por volumen/complejidad)",
+      "norma": "Ley 19/2013",
+      "articulo": "art. 20",
+      "tags": [
+        "plazo",
+        "resolucion",
+        "un mes"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-15d41d7858e1",
+      "nombre": "Jubilación",
+      "tipo": "definicion",
+      "valor": "Cese por edad o incapacidad",
+      "norma": "RDL 5/2015 (TREBEP)",
+      "articulo": "art. 31",
+      "tags": [
+        "jubilacion",
+        "retiro"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-18600a181c02",
+      "nombre": "Excedencia por cuidado de familiares",
+      "tipo": "definicion",
+      "valor": "Hasta 3 años para cuidado de hijos o familiares",
+      "norma": "RDL 5/2015 (TREBEP)",
+      "articulo": "art. 29",
+      "tags": [
+        "excedencia",
+        "cuidado de familiares"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-196b25c8b5f9",
+      "nombre": "Principios transversales",
+      "tipo": "definicion",
+      "valor": "No dejar a nadie atrás, universalidad, interdependencia e indivisibilidad, enfoque derechos humanos",
+      "norma": "Agenda 2030 (Res. 70/1 ONU)",
+      "articulo": "ODS 0",
+      "tags": [
+        "principios",
+        "no dejar a nadie atras",
+        "universalidad"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-1a8d4b082707",
+      "nombre": "Ámbito del buen gobierno",
+      "tipo": "definicion",
+      "valor": "Miembros del Gobierno, Secretarios de Estado y altos cargos",
+      "norma": "Ley 19/2013",
+      "articulo": "art. 25",
+      "tags": [
+        "buen gobierno",
+        "ambito",
+        "altos cargos"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-1dbf810bbd34",
+      "nombre": "Agenda 2030: plan de acción",
+      "tipo": "definicion",
+      "valor": "Plan a favor de personas, planeta y prosperidad; fortalece paz y justicia",
+      "norma": "Agenda 2030 (Res. 70/1 ONU)",
+      "articulo": "ODS 0",
+      "tags": [
+        "agenda 2030",
+        "plan de accion",
+        "personas",
+        "planeta",
+        "prosperidad"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-22463c0fc208",
+      "nombre": "ODS 11: Ciudades y comunidades sostenibles",
+      "tipo": "definicion",
+      "valor": null,
+      "norma": "Agenda 2030 (Res. 70/1 ONU)",
+      "articulo": "ODS 11",
+      "tags": [
+        "ods11",
+        "ciudades",
+        "comunidades sostenibles"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-2418b7071e0b",
+      "nombre": "ODS 2: Hambre cero",
+      "tipo": "definicion",
+      "valor": null,
+      "norma": "Agenda 2030 (Res. 70/1 ONU)",
+      "articulo": "ODS 2",
+      "tags": [
+        "ods2",
+        "hambre cero"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-24a6823e581c",
+      "nombre": "Deber de neutralidad e imparcialidad",
+      "tipo": "deber",
+      "valor": null,
+      "norma": "RDL 5/2015 (TREBEP)",
+      "articulo": "art. 6",
+      "tags": [
+        "neutralidad",
+        "imparcialidad"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-253982ccde2b",
+      "nombre": "Composición del CTBG",
+      "tipo": "organo",
+      "valor": "Comisión de Transparencia y Buen Gobierno + Presidente",
+      "norma": "Ley 19/2013",
+      "articulo": "art. 36",
+      "tags": [
+        "ctbg",
+        "composicion",
+        "comision"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-25f25a45cd79",
+      "nombre": "Personal laboral",
+      "tipo": "definicion",
+      "valor": "Sujeto a relación laboral en las Administraciones Públicas",
+      "norma": "RDL 5/2015 (TREBEP)",
+      "articulo": "art. 4",
+      "tags": [
+        "personal laboral",
+        "clases"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-26834a0d7cbc",
+      "nombre": "ODS 14: Vida submarina",
+      "tipo": "definicion",
+      "valor": null,
+      "norma": "Agenda 2030 (Res. 70/1 ONU)",
+      "articulo": "ODS 14",
+      "tags": [
+        "ods14",
+        "vida submarina"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-2919b9e78917",
+      "nombre": "Retribuciones básicas (sueldo y trienios)",
+      "tipo": "derecho",
+      "valor": "Sueldo según grupo y antigüedad (trienios)",
+      "norma": "RDL 5/2015 (TREBEP)",
+      "articulo": "art. 45",
+      "tags": [
+        "retribuciones",
+        "sueldo",
+        "trienios"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-2a1c90e0a078",
+      "nombre": "Principios de buen gobierno",
+      "tipo": "deber",
+      "valor": "Transparencia, dedicación, imparcialidad, igualdad, diligencia, dignidad, responsabilidad",
+      "norma": "Ley 19/2013",
+      "articulo": "art. 26",
+      "tags": [
+        "principios",
+        "buen gobierno",
+        "transparencia",
+        "imparcialidad"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-2acba320964e",
+      "nombre": "Evaluación del desempeño",
+      "tipo": "procedimiento",
+      "valor": "Valoración periódica del rendimiento",
+      "norma": "RDL 5/2015 (TREBEP)",
+      "articulo": "art. 17",
+      "tags": [
+        "evaluacion",
+        "desempeno"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-2f89fd382ebe",
+      "nombre": "ODS 12: Producción y consumo responsables",
+      "tipo": "definicion",
+      "valor": null,
+      "norma": "Agenda 2030 (Res. 70/1 ONU)",
+      "articulo": "ODS 12",
+      "tags": [
+        "ods12",
+        "produccion",
+        "consumo responsables"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-2fae09ff4c08",
+      "nombre": "Información pública",
+      "tipo": "definicion",
+      "valor": "Contenidos o documentos en poder de los sujetos obligados elaborados en ejercicio de funciones",
+      "norma": "Ley 19/2013",
+      "articulo": "art. 13",
+      "tags": [
+        "informacion publica",
+        "definicion"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-30f4a89d1742",
+      "nombre": "Concurso de méritos",
+      "tipo": "procedimiento",
+      "valor": "Provisión por méritos y capacidad",
+      "norma": "RDL 5/2015 (TREBEP)",
+      "articulo": "art. 10",
+      "tags": [
+        "concurso",
+        "meritos"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-31714017006d",
+      "nombre": "Portal de la Transparencia",
+      "tipo": "organo",
+      "valor": "Desarrollado por la AGE (Ministerio de la Presidencia)",
+      "norma": "Ley 19/2013",
+      "articulo": "art. 10",
+      "tags": [
+        "portal transparencia"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-33a6cd8067b1",
+      "nombre": "Permiso por matrimonio",
+      "tipo": "derecho",
+      "valor": "15 días naturales",
+      "norma": "RDL 5/2015 (TREBEP)",
+      "articulo": "art. 35",
+      "tags": [
+        "permiso",
+        "matrimonio"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-33cc1116366b",
+      "nombre": "Provisión de puestos de trabajo",
+      "tipo": "procedimiento",
+      "valor": "Concurso, libre designación, reasignación de efectivos, comisión de servicios",
+      "norma": "RDL 5/2015 (TREBEP)",
+      "articulo": "art. 9",
+      "tags": [
+        "provision",
+        "puestos de trabajo"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-343e00f34e9f",
+      "nombre": "Derecho a la formación continua",
+      "tipo": "derecho",
+      "valor": null,
+      "norma": "RDL 5/2015 (TREBEP)",
+      "articulo": "art. 5",
+      "tags": [
+        "formacion",
+        "perfeccionamiento"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-38ee3ad633c2",
+      "nombre": "Publicidad activa (principios)",
+      "tipo": "deber",
+      "valor": "Publicación periódica y actualizada de información relevante",
+      "norma": "Ley 19/2013",
+      "articulo": "art. 5",
+      "tags": [
+        "publicidad activa",
+        "principios"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-3f4d4d4e80bb",
+      "nombre": "Reutilización de la información",
+      "tipo": "definicion",
+      "valor": "Publicación en formatos reutilizables conforme a Ley 37/2007",
+      "norma": "Ley 19/2013",
+      "articulo": "art. 11",
+      "tags": [
+        "reutilizacion",
+        "informacion",
+        "formatos"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-3fc88bf7b94b",
+      "nombre": "ODS 5: Igualdad de género",
+      "tipo": "definicion",
+      "valor": null,
+      "norma": "Agenda 2030 (Res. 70/1 ONU)",
+      "articulo": "ODS 5",
+      "tags": [
+        "ods5",
+        "igualdad de genero"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-41a4e43e533a",
+      "nombre": "Descanso mínimo entre jornadas",
+      "tipo": "plazo",
+      "valor": "12 horas",
+      "norma": "RDL 5/2015 (TREBEP)",
+      "articulo": "art. 33",
+      "tags": [
+        "descanso",
+        "entre jornadas"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-443ade979782",
+      "nombre": "Límites al derecho de acceso",
+      "tipo": "definicion",
+      "valor": "Seguridad nacional, defensa, relaciones exteriores, seguridad pública, prevención ilícitos, igualdad partes, funciones vigilancia, intereses económicos, política económica, secreto profesional, confidencialidad, medio ambiente",
+      "norma": "Ley 19/2013",
+      "articulo": "art. 14",
+      "tags": [
+        "limites",
+        "derecho de acceso",
+        "seguridad nacional",
+        "defensa"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-49678e6b6136",
+      "nombre": "ODS 1: Fin de la pobreza",
+      "tipo": "definicion",
+      "valor": null,
+      "norma": "Agenda 2030 (Res. 70/1 ONU)",
+      "articulo": "ODS 1",
+      "tags": [
+        "ods1",
+        "pobreza"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-4a622f4d41d7",
+      "nombre": "Selección de personal (principios)",
+      "tipo": "procedimiento",
+      "valor": "Igualdad, mérito y capacidad; publicidad, transparencia, agilidad",
+      "norma": "RDL 5/2015 (TREBEP)",
+      "articulo": "art. 20",
+      "tags": [
+        "seleccion",
+        "principios",
+        "igualdad",
+        "merito",
+        "capacidad"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-4e70afd0129b",
+      "nombre": "Libre designación",
+      "tipo": "procedimiento",
+      "valor": "Puestos de confianza o especial responsabilidad",
+      "norma": "RDL 5/2015 (TREBEP)",
+      "articulo": "art. 11",
+      "tags": [
+        "libre designacion",
+        "confianza"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-50de8e458834",
+      "nombre": "Planificación de recursos humanos",
+      "tipo": "competencia",
+      "valor": "Planificación estratégica de las necesidades de personal",
+      "norma": "RDL 5/2015 (TREBEP)",
+      "articulo": "art. 8",
+      "tags": [
+        "planificacion",
+        "recursos humanos"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-5197ab297660",
+      "nombre": "Relación de Puestos de Trabajo (RPT)",
+      "tipo": "organo",
+      "valor": "Inventario de puestos, funciones, requisitos y complementos",
+      "norma": "RDL 5/2015 (TREBEP)",
+      "articulo": "art. 18",
+      "tags": [
+        "relacion de puestos de trabajo",
+        "rpt"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-51cbb17924cc",
+      "nombre": "Régimen de incompatibilidades",
+      "tipo": "deber",
+      "valor": "Prohíbe actividades privadas que comprometan imparcialidad",
+      "norma": "RDL 5/2015 (TREBEP)",
+      "articulo": "art. 41",
+      "tags": [
+        "incompatibilidades",
+        "regimen"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-52b1c68d10eb",
+      "nombre": "Objeto de la Ley 19/2013",
+      "tipo": "definicion",
+      "valor": "Ampliar transparencia, regular derecho de acceso y establecer obligaciones de buen gobierno",
+      "norma": "Ley 19/2013",
+      "articulo": "art. 1",
+      "tags": [
+        "objeto",
+        "transparencia",
+        "acceso",
+        "buen gobierno"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-55c0f1f4f2c9",
+      "nombre": "Deber de reserva y sigilo profesional",
+      "tipo": "deber",
+      "valor": null,
+      "norma": "RDL 5/2015 (TREBEP)",
+      "articulo": "art. 6",
+      "tags": [
+        "reserva",
+        "sigilo"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-564969b0360c",
+      "nombre": "Permiso por formación",
+      "tipo": "derecho",
+      "valor": "Para cursos de formación profesional",
+      "norma": "RDL 5/2015 (TREBEP)",
+      "articulo": "art. 40",
+      "tags": [
+        "permiso",
+        "formacion"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-5704a22da0ca",
+      "nombre": "Clasificación de faltas",
+      "tipo": "deber",
+      "valor": "Leves, graves y muy graves",
+      "norma": "RDL 5/2015 (TREBEP)",
+      "articulo": "art. 48",
+      "tags": [
+        "faltas",
+        "leves",
+        "graves",
+        "muy graves"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-5707853ef78a",
+      "nombre": "Derecho a la evaluación del desempeño",
+      "tipo": "derecho",
+      "valor": null,
+      "norma": "RDL 5/2015 (TREBEP)",
+      "articulo": "art. 5",
+      "tags": [
+        "evaluacion",
+        "desempeno"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-59c959564aaf",
+      "nombre": "Prescripción de infracciones y sanciones",
+      "tipo": "procedimiento",
+      "valor": "Muy graves 5 años, graves 3 años, leves 1 año",
+      "norma": "Ley 19/2013",
+      "articulo": "art. 32",
+      "tags": [
+        "prescripcion",
+        "infracciones",
+        "sanciones"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-5e9342adba24",
+      "nombre": "Derecho a la carrera y promoción profesional",
+      "tipo": "derecho",
+      "valor": null,
+      "norma": "RDL 5/2015 (TREBEP)",
+      "articulo": "art. 5",
+      "tags": [
+        "carrera",
+        "promocion"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-5ecb9351ed66",
+      "nombre": "Reasignación de efectivos",
+      "tipo": "procedimiento",
+      "valor": null,
+      "norma": "RDL 5/2015 (TREBEP)",
+      "articulo": "art. 12",
+      "tags": [
+        "reasignacion",
+        "efectivos"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-60e3d694bb3e",
+      "nombre": "Concepto de empleado público",
+      "tipo": "definicion",
+      "valor": "Quien desempeña servicios retribuidos en las Administraciones Públicas",
+      "norma": "RDL 5/2015 (TREBEP)",
+      "articulo": "art. 3",
+      "tags": [
+        "empleado publico",
+        "concepto"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-61e3de0602c8",
+      "nombre": "Carrera profesional horizontal",
+      "tipo": "definicion",
+      "valor": "Progresión por méritos sin cambio de puesto",
+      "norma": "RDL 5/2015 (TREBEP)",
+      "articulo": "art. 16",
+      "tags": [
+        "carrera profesional",
+        "horizontal"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-66883f747ba6",
+      "nombre": "Deber de atención al ciudadano",
+      "tipo": "deber",
+      "valor": null,
+      "norma": "RDL 5/2015 (TREBEP)",
+      "articulo": "art. 6",
+      "tags": [
+        "atencion",
+        "ciudadano"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-698b37904642",
+      "nombre": "Formalización del acceso",
+      "tipo": "plazo",
+      "valor": "Preferentemente por vía electrónica; en cualquier caso en plazo no superior a 10 días",
+      "norma": "Ley 19/2013",
+      "articulo": "art. 22",
+      "tags": [
+        "formalizacion",
+        "acceso",
+        "10 dias"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-6bc3b56b0338",
+      "nombre": "Régimen disciplinario",
+      "tipo": "deber",
+      "valor": "Faltas y sanciones de los empleados públicos",
+      "norma": "RDL 5/2015 (TREBEP)",
+      "articulo": "art. 47",
+      "tags": [
+        "regimen disciplinario",
+        "faltas"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-6cee51f3b4d8",
+      "nombre": "Vacaciones anuales retribuidas",
+      "tipo": "plazo",
+      "valor": "22 días hábiles (más por antigüedad)",
+      "norma": "RDL 5/2015 (TREBEP)",
+      "articulo": "art. 34",
+      "tags": [
+        "vacaciones",
+        "anuales"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-6e3af69e9813",
+      "nombre": "Información de relevancia jurídica",
+      "tipo": "deber",
+      "valor": "Directrices, anteproyectos, proyectos de reglamentos, memorias",
+      "norma": "Ley 19/2013",
+      "articulo": "art. 7",
+      "tags": [
+        "informacion relevancia juridica",
+        "normativa"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-6ebe3666d670",
+      "nombre": "Otros sujetos obligados",
+      "tipo": "organo",
+      "valor": "Partidos políticos, sindicatos, organizaciones empresariales y entidades privadas con ayudas >100.000€ o 40% ingresos",
+      "norma": "Ley 19/2013",
+      "articulo": "art. 3",
+      "tags": [
+        "otros sujetos obligados",
+        "partidos",
+        "sindicatos",
+        "empresas"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-704da6f50342",
+      "nombre": "Movilidad entre Administraciones",
+      "tipo": "procedimiento",
+      "valor": null,
+      "norma": "RDL 5/2015 (TREBEP)",
+      "articulo": "art. 15",
+      "tags": [
+        "movilidad",
+        "voluntaria",
+        "forzosa"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-725913c67e39",
+      "nombre": "Sanciones disciplinarias",
+      "tipo": "deber",
+      "valor": "Amonestación, suspensión, separación del servicio",
+      "norma": "RDL 5/2015 (TREBEP)",
+      "articulo": "art. 49",
+      "tags": [
+        "sanciones",
+        "disciplinarias"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-72f193571249",
+      "nombre": "Adscripción provisional",
+      "tipo": "procedimiento",
+      "valor": null,
+      "norma": "RDL 5/2015 (TREBEP)",
+      "articulo": "art. 14",
+      "tags": [
+        "adscripcion provisional"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-73803caacae0",
+      "nombre": "Derecho a la protección de la salud laboral",
+      "tipo": "derecho",
+      "valor": null,
+      "norma": "RDL 5/2015 (TREBEP)",
+      "articulo": "art. 5",
+      "tags": [
+        "jornada",
+        "descanso",
+        "salud laboral"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-7777adc63ce1",
+      "nombre": "Actividades exceptuadas de incompatibilidad",
+      "tipo": "deber",
+      "valor": "Cargos electos, docencia, investigación, creación artística",
+      "norma": "RDL 5/2015 (TREBEP)",
+      "articulo": "art. 44",
+      "tags": [
+        "actividades exceptuadas",
+        "compatibles"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-7ac687b607cf",
+      "nombre": "Deberes de los empleados públicos",
+      "tipo": "deber",
+      "valor": "Lealtad, neutralidad, diligencia, reserva, atención al ciudadano, abstención",
+      "norma": "RDL 5/2015 (TREBEP)",
+      "articulo": "art. 6",
+      "tags": [
+        "deberes",
+        "enumeracion"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-7c6d9c9d0046",
+      "nombre": "Autorización de compatibilidad",
+      "tipo": "deber",
+      "valor": "Posible autorización para actividades compatibles",
+      "norma": "RDL 5/2015 (TREBEP)",
+      "articulo": "art. 43",
+      "tags": [
+        "autorizacion",
+        "compatibilidad"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-7fa1fd059ea0",
+      "nombre": "Oposición",
+      "tipo": "procedimiento",
+      "valor": "Prueba selectiva de conocimientos",
+      "norma": "RDL 5/2015 (TREBEP)",
+      "articulo": "art. 21",
+      "tags": [
+        "oposicion",
+        "seleccion"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-814221dfa46d",
+      "nombre": "ODS 17: Alianzas para lograr los objetivos",
+      "tipo": "definicion",
+      "valor": null,
+      "norma": "Agenda 2030 (Res. 70/1 ONU)",
+      "articulo": "ODS 17",
+      "tags": [
+        "ods17",
+        "alianzas",
+        "objetivos"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-81db051b6ad6",
+      "nombre": "ODS 4: Educación de calidad",
+      "tipo": "definicion",
+      "valor": null,
+      "norma": "Agenda 2030 (Res. 70/1 ONU)",
+      "articulo": "ODS 4",
+      "tags": [
+        "ods4",
+        "educacion",
+        "calidad"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-84f425495356",
+      "nombre": "Deber de dedicación y diligencia",
+      "tipo": "deber",
+      "valor": null,
+      "norma": "RDL 5/2015 (TREBEP)",
+      "articulo": "art. 6",
+      "tags": [
+        "diligencia",
+        "dedicacion"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-876055c806b2",
+      "nombre": "Permiso por nacimiento o adopción",
+      "tipo": "derecho",
+      "valor": "16 semanas (ampliables)",
+      "norma": "RDL 5/2015 (TREBEP)",
+      "articulo": "art. 36",
+      "tags": [
+        "permiso",
+        "nacimiento",
+        "adopcion"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-89f03c2e0c64",
+      "nombre": "Servicios especiales",
+      "tipo": "definicion",
+      "valor": "Cese temporal con reserva de puesto para cargos electos o sindicales",
+      "norma": "RDL 5/2015 (TREBEP)",
+      "articulo": "art. 26",
+      "tags": [
+        "servicios especiales",
+        "situacion administrativa"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-9481a975b227",
+      "nombre": "Principios técnicos del Portal",
+      "tipo": "procedimiento",
+      "valor": "Accesibilidad, interoperabilidad, reutilización",
+      "norma": "Ley 19/2013",
+      "articulo": "art. 11",
+      "tags": [
+        "principios tecnicos",
+        "accesibilidad",
+        "interoperabilidad",
+        "reutilizacion"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-983d4bb7f117",
+      "nombre": "Ámbito de aplicación",
+      "tipo": "definicion",
+      "valor": "Administración General del Estado, Comunidades Autónomas y Entidades Locales",
+      "norma": "RDL 5/2015 (TREBEP)",
+      "articulo": "art. 2",
+      "tags": [
+        "ambito",
+        "administraciones publicas"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-992a2c46df08",
+      "nombre": "ODS 7: Energía asequible y no contaminante",
+      "tipo": "definicion",
+      "valor": null,
+      "norma": "Agenda 2030 (Res. 70/1 ONU)",
+      "articulo": "ODS 7",
+      "tags": [
+        "ods7",
+        "energia",
+        "asequible",
+        "no contaminante"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-9d7d7fed9125",
+      "nombre": "Presidente del CTBG",
+      "tipo": "organo",
+      "valor": "Mandato no renovable de 5 años",
+      "norma": "Ley 19/2013",
+      "articulo": "art. 37",
+      "tags": [
+        "presidente",
+        "ctbg",
+        "mandato"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-9e31388ab8cc",
+      "nombre": "Funciones del CTBG",
+      "tipo": "competencia",
+      "valor": "Recomendaciones, asesoramiento, informe preceptivo, evaluación anual, formación",
+      "norma": "Ley 19/2013",
+      "articulo": "art. 38",
+      "tags": [
+        "ctbg",
+        "funciones"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-a151c3e299a8",
+      "nombre": "Código de conducta del empleado público",
+      "tipo": "definicion",
+      "valor": "Principios éticos y de conducta: objetividad, integridad, transparencia, ejemplaridad",
+      "norma": "RDL 5/2015 (TREBEP)",
+      "articulo": "art. 7",
+      "tags": [
+        "codigo de conducta",
+        "principios eticos"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-a677c1f11cbb",
+      "nombre": "Acceso parcial",
+      "tipo": "procedimiento",
+      "valor": "Omisión de la información afectada por el límite",
+      "norma": "Ley 19/2013",
+      "articulo": "art. 16",
+      "tags": [
+        "acceso parcial",
+        "omision"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-a6bf0b1dce46",
+      "nombre": "ODS 13: Acción por el clima",
+      "tipo": "definicion",
+      "valor": null,
+      "norma": "Agenda 2030 (Res. 70/1 ONU)",
+      "articulo": "ODS 13",
+      "tags": [
+        "ods13",
+        "accion",
+        "clima"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-acfbfaece80e",
+      "nombre": "Objeto del TREBEP",
+      "tipo": "definicion",
+      "valor": "Regula la condición de empleado público y las relaciones de empleo en las Administraciones Públicas",
+      "norma": "RDL 5/2015 (TREBEP)",
+      "articulo": "art. 1",
+      "tags": [
+        "objeto",
+        "empleado publico",
+        "administracion publica"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-ad4f6f97e859",
+      "nombre": "ODS 16: Paz, justicia e instituciones sólidas",
+      "tipo": "definicion",
+      "valor": null,
+      "norma": "Agenda 2030 (Res. 70/1 ONU)",
+      "articulo": "ODS 16",
+      "tags": [
+        "ods16",
+        "paz",
+        "justicia",
+        "instituciones solidas"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-b0647bed4287",
+      "nombre": "Permiso por lactancia",
+      "tipo": "derecho",
+      "valor": "1 hora diaria (o acumulación)",
+      "norma": "RDL 5/2015 (TREBEP)",
+      "articulo": "art. 37",
+      "tags": [
+        "permiso",
+        "lactancia"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-b5e013b44774",
+      "nombre": "Información institucional, organizativa y de planificación",
+      "tipo": "deber",
+      "valor": "Funciones, normativa, organigrama, planes y programas",
+      "norma": "Ley 19/2013",
+      "articulo": "art. 6",
+      "tags": [
+        "informacion institucional",
+        "organizativa",
+        "planificacion"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-b8d534249e89",
+      "nombre": "Formación y perfeccionamiento",
+      "tipo": "competencia",
+      "valor": "Derecho y deber de formación continua",
+      "norma": "RDL 5/2015 (TREBEP)",
+      "articulo": "art. 19",
+      "tags": [
+        "formacion",
+        "perfeccionamiento"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-be15e8b45bda",
+      "nombre": "Permiso por asuntos particulares",
+      "tipo": "derecho",
+      "valor": "6 días al año",
+      "norma": "RDL 5/2015 (TREBEP)",
+      "articulo": "art. 38",
+      "tags": [
+        "permiso",
+        "asuntos particulares"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-bf949e6b618c",
+      "nombre": "Derechos de los empleados públicos",
+      "tipo": "derecho",
+      "valor": "Carrera, formación, evaluación, jornada, retribuciones, protección social, sindical",
+      "norma": "RDL 5/2015 (TREBEP)",
+      "articulo": "art. 5",
+      "tags": [
+        "derechos",
+        "enumeracion"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-bfd84249fc79",
+      "nombre": "Excedencia voluntaria",
+      "tipo": "definicion",
+      "valor": "Abandono temporal con reserva de reingreso",
+      "norma": "RDL 5/2015 (TREBEP)",
+      "articulo": "art. 27",
+      "tags": [
+        "excedencia voluntaria",
+        "situacion administrativa"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-bfeb78a7279b",
+      "nombre": "ODS 8: Trabajo decente y crecimiento económico",
+      "tipo": "definicion",
+      "valor": null,
+      "norma": "Agenda 2030 (Res. 70/1 ONU)",
+      "articulo": "ODS 8",
+      "tags": [
+        "ods8",
+        "trabajo decente",
+        "crecimiento economico"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-c19997e4a30c",
+      "nombre": "Las 5 P de la Agenda 2030",
+      "tipo": "definicion",
+      "valor": "Personas, Planeta, Prosperidad, Paz y Alianzas",
+      "norma": "Agenda 2030 (Res. 70/1 ONU)",
+      "articulo": "ODS 0",
+      "tags": [
+        "5 p",
+        "personas",
+        "planeta",
+        "prosperidad",
+        "paz",
+        "alianzas"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-c2a9a57baf30",
+      "nombre": "Sujetos obligados (Administraciones Públicas)",
+      "tipo": "organo",
+      "valor": "AGE, CCAA, entidades locales, organismos autónomos, entidades de derecho público, universidades públicas, sociedades >50%, fundaciones sector público",
+      "norma": "Ley 19/2013",
+      "articulo": "art. 2",
+      "tags": [
+        "sujetos obligados",
+        "administraciones publicas"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-c373179f210d",
+      "nombre": "Suspensión de funciones",
+      "tipo": "definicion",
+      "valor": "Privación temporal del ejercicio de funciones",
+      "norma": "RDL 5/2015 (TREBEP)",
+      "articulo": "art. 30",
+      "tags": [
+        "suspension",
+        "funciones"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-c461579621df",
+      "nombre": "ODS 15: Vida de ecosistemas terrestres",
+      "tipo": "definicion",
+      "valor": null,
+      "norma": "Agenda 2030 (Res. 70/1 ONU)",
+      "articulo": "ODS 15",
+      "tags": [
+        "ods15",
+        "ecosistemas terrestres"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-c489cc70e14f",
+      "nombre": "Silencio administrativo desestimatorio",
+      "tipo": "procedimiento",
+      "valor": "Transcurrido el plazo sin resolución se entiende desestimada",
+      "norma": "Ley 19/2013",
+      "articulo": "art. 20",
+      "tags": [
+        "silencio administrativo",
+        "desestimatorio"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-c4bfd07c5193",
+      "nombre": "Tramitación de la solicitud",
+      "tipo": "procedimiento",
+      "valor": "Remisión al competente, concreción en 10 días, alegaciones de terceros en 15 días",
+      "norma": "Ley 19/2013",
+      "articulo": "art. 19",
+      "tags": [
+        "tramitacion",
+        "remision",
+        "concrecion",
+        "terceros"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-c949368eb644",
+      "nombre": "Información económica, presupuestaria y estadística",
+      "tipo": "deber",
+      "valor": "Contratos, convenios, subvenciones, presupuestos, cuentas, retribuciones",
+      "norma": "Ley 19/2013",
+      "articulo": "art. 8",
+      "tags": [
+        "informacion economica",
+        "presupuestaria",
+        "estadistica"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-cd972122cc44",
+      "nombre": "Comisión de servicios",
+      "tipo": "procedimiento",
+      "valor": "Asignación temporal de funciones en otro puesto",
+      "norma": "RDL 5/2015 (TREBEP)",
+      "articulo": "art. 13",
+      "tags": [
+        "comision de servicios",
+        "temporal"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-cdb055fe165a",
+      "nombre": "17 ODS y 169 metas",
+      "tipo": "cifra",
+      "valor": "17 Objetivos de Desarrollo Sostenible con 169 metas",
+      "norma": "Agenda 2030 (Res. 70/1 ONU)",
+      "articulo": "ODS 0",
+      "tags": [
+        "ods",
+        "17 objetivos",
+        "169 metas"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-d09b2b16f5a6",
+      "nombre": "Complementos retributivos",
+      "tipo": "derecho",
+      "valor": "Destino, específico, productividad, gratificaciones",
+      "norma": "RDL 5/2015 (TREBEP)",
+      "articulo": "art. 46",
+      "tags": [
+        "complementos",
+        "retribuciones"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-d31213cf7074",
+      "nombre": "Funcionario de carrera",
+      "tipo": "definicion",
+      "valor": "Empleado público con nombramiento permanente y plena vinculación estatutaria",
+      "norma": "RDL 5/2015 (TREBEP)",
+      "articulo": "art. 4",
+      "tags": [
+        "funcionario de carrera",
+        "clases"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-d72f98a61ebf",
+      "nombre": "Derecho de acceso a la información pública",
+      "tipo": "derecho",
+      "valor": "Todas las personas, art. 105.b) CE",
+      "norma": "Ley 19/2013",
+      "articulo": "art. 12",
+      "tags": [
+        "derecho de acceso",
+        "informacion publica"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-d93a1e787a22",
+      "nombre": "Causas de inadmisión de la solicitud",
+      "tipo": "procedimiento",
+      "valor": "En curso de elaboración, carácter auxiliar, reelaboración necesaria, órgano incompetente, repetitiva/abusiva",
+      "norma": "Ley 19/2013",
+      "articulo": "art. 18",
+      "tags": [
+        "inadmision",
+        "causas"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-dc2b424d6a16",
+      "nombre": "ODS 9: Industria, innovación e infraestructura",
+      "tipo": "definicion",
+      "valor": null,
+      "norma": "Agenda 2030 (Res. 70/1 ONU)",
+      "articulo": "ODS 9",
+      "tags": [
+        "ods9",
+        "industria",
+        "innovacion",
+        "infraestructura"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-ded40e6faed1",
+      "nombre": "ODS 3: Salud y bienestar",
+      "tipo": "definicion",
+      "valor": null,
+      "norma": "Agenda 2030 (Res. 70/1 ONU)",
+      "articulo": "ODS 3",
+      "tags": [
+        "ods3",
+        "salud",
+        "bienestar"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-dfaae9814e18",
+      "nombre": "Funcionario interino",
+      "tipo": "definicion",
+      "valor": "Nombramiento temporal para necesidades urgentes o sustitución",
+      "norma": "RDL 5/2015 (TREBEP)",
+      "articulo": "art. 4",
+      "tags": [
+        "funcionario interino",
+        "clases"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-e2dd08e11840",
+      "nombre": "Obligación de suministrar información",
+      "tipo": "deber",
+      "valor": "A la Administración vinculada previo requerimiento",
+      "norma": "Ley 19/2013",
+      "articulo": "art. 4",
+      "tags": [
+        "suministrar informacion",
+        "obligacion"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-e44ab741e9d3",
+      "nombre": "Gratuidad del acceso",
+      "tipo": "derecho",
+      "valor": "El acceso es gratuito; copias o cambio de formato pueden generar tasas",
+      "norma": "Ley 19/2013",
+      "articulo": "art. 22",
+      "tags": [
+        "acceso gratuito"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-e4a26e394a18",
+      "nombre": "Excedencia forzosa",
+      "tipo": "definicion",
+      "valor": "Por incompatibilidad o sanción, sin retribuciones",
+      "norma": "RDL 5/2015 (TREBEP)",
+      "articulo": "art. 28",
+      "tags": [
+        "excedencia forzosa",
+        "situacion administrativa"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-e660dc12a6cb",
+      "nombre": "ODS 10: Reducción de las desigualdades",
+      "tipo": "definicion",
+      "valor": null,
+      "norma": "Agenda 2030 (Res. 70/1 ONU)",
+      "articulo": "ODS 10",
+      "tags": [
+        "ods10",
+        "reduccion",
+        "desigualdades"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-e6d10972a984",
+      "nombre": "Deber de abstención por conflicto de intereses",
+      "tipo": "deber",
+      "valor": null,
+      "norma": "RDL 5/2015 (TREBEP)",
+      "articulo": "art. 6",
+      "tags": [
+        "abstencion",
+        "conflicto de intereses"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-ec223ee7c12d",
+      "nombre": "Incompatibilidad de actividades privadas",
+      "tipo": "deber",
+      "valor": "No ejercer actividades privadas lucrativas incompatibles",
+      "norma": "RDL 5/2015 (TREBEP)",
+      "articulo": "art. 42",
+      "tags": [
+        "actividades privadas",
+        "prohibicion"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-ee0849576e8c",
+      "nombre": "Plazo de toma de posesión",
+      "tipo": "plazo",
+      "valor": "3 días hábiles (1 mes si cambio de residencia)",
+      "norma": "RDL 5/2015 (TREBEP)",
+      "articulo": "art. 24",
+      "tags": [
+        "toma de posesion",
+        "plazo"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-ef5f6bc8fec4",
+      "nombre": "ODS 6: Agua limpia y saneamiento",
+      "tipo": "definicion",
+      "valor": null,
+      "norma": "Agenda 2030 (Res. 70/1 ONU)",
+      "articulo": "ODS 6",
+      "tags": [
+        "ods6",
+        "agua",
+        "saneamiento"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-f402969b0d73",
+      "nombre": "Carrera profesional vertical",
+      "tipo": "definicion",
+      "valor": "Promoción a puestos de superior categoría",
+      "norma": "RDL 5/2015 (TREBEP)",
+      "articulo": "art. 16",
+      "tags": [
+        "carrera profesional",
+        "vertical"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-f5b37270979a",
+      "nombre": "Reclamación ante el CTBG",
+      "tipo": "procedimiento",
+      "valor": "Plazo de 1 mes desde notificación o silencio; resolución en 3 meses (desestimación tácita)",
+      "norma": "Ley 19/2013",
+      "articulo": "art. 24",
+      "tags": [
+        "reclamacion",
+        "ctbg",
+        "plazo"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-f68c6e253b9d",
+      "nombre": "Situación de activo",
+      "tipo": "definicion",
+      "valor": "Desempeño efectivo de funciones",
+      "norma": "RDL 5/2015 (TREBEP)",
+      "articulo": "art. 25",
+      "tags": [
+        "activo",
+        "situacion administrativa"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-f739956a1252",
+      "nombre": "Jornada ordinaria de trabajo",
+      "tipo": "plazo",
+      "valor": "37,5 horas semanales (máximo legal)",
+      "norma": "RDL 5/2015 (TREBEP)",
+      "articulo": "art. 32",
+      "tags": [
+        "jornada",
+        "ordinaria"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-fb91fd37e9b4",
+      "nombre": "Concurso-oposición",
+      "tipo": "procedimiento",
+      "valor": "Fase de oposición y fase de concurso de méritos",
+      "norma": "RDL 5/2015 (TREBEP)",
+      "articulo": "art. 22",
+      "tags": [
+        "concurso-oposicion",
+        "seleccion"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-fc7d68abb991",
+      "nombre": "Control del cumplimiento de la publicidad activa",
+      "tipo": "competencia",
+      "valor": "Por el Consejo de Transparencia y Buen Gobierno",
+      "norma": "Ley 19/2013",
+      "articulo": "art. 9",
+      "tags": [
+        "control",
+        "ctbg",
+        "incumplimiento"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-fd3c6879e9ea",
+      "nombre": "Solicitud de acceso",
+      "tipo": "procedimiento",
+      "valor": "Identidad, información solicitada, dirección de contacto, modalidad preferida",
+      "norma": "Ley 19/2013",
+      "articulo": "art. 17",
+      "tags": [
+        "solicitud",
+        "acceso",
+        "requisitos"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-fd693f7fe081",
+      "nombre": "Fines del CTBG",
+      "tipo": "organo",
+      "valor": "Promover transparencia, velar por publicidad, salvaguardar acceso, garantizar buen gobierno",
+      "norma": "Ley 19/2013",
+      "articulo": "art. 34",
+      "tags": [
+        "ctbg",
+        "fines"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-fdaefb2775ad",
+      "nombre": "Gobernanza de la Agenda 2030 en España",
+      "tipo": "organo",
+      "valor": "Ministerio de Derechos Sociales, Consumo y Agenda 2030 (estructura interministerial)",
+      "norma": "Agenda 2030 (Res. 70/1 ONU)",
+      "articulo": "ODS 0",
+      "tags": [
+        "gobernanza",
+        "espana",
+        "ministerio"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    },
+    {
+      "id": "c-feeba7fa3560",
+      "nombre": "Derecho a la libertad sindical y negociación colectiva",
+      "tipo": "derecho",
+      "valor": null,
+      "norma": "RDL 5/2015 (TREBEP)",
+      "articulo": "art. 5",
+      "tags": [
+        "libertad sindical",
+        "negociacion colectiva"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": []
+    }
+  ]
+}

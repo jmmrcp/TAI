@@ -1,0 +1,42 @@
+¿Qué hace POP3 con los mensajes en el servidor?;Descarga los mensajes al cliente y los borra del buzón central (no permanecen en el servidor). Puerto 110 (995 TLS).;
+¿Qué hace IMAP con los mensajes en el servidor?;"Los mensajes permanecen en el buzón central; permite visualizar, borrar, mover y responder sin descargarlos. Puertos 143 (993 TLS).";
+¿Para qué sirve SMTP y cuáles son sus códigos clave?;Protocolo de envío de correo (cliente→servidor y servidor→servidor). Códigos: 250 OK, 421 servicio no disponible, 550 buzón no existe, 554 transacción fallida.;
+¿Qué es el MUA y ejemplos?;Mail User Agent: el cliente de correo del usuario (Outlook, Thunderbird). No es un protocolo.;
+¿Qué es el MTA y qué protocolo usa?;"Mail Transfer Agent: servidor que envía y recibe correo; usa SMTP. Ejemplos: Postfix, Sendmail.";
+¿Qué es el MDA?;Mail Delivery Agent: deposita el correo en el buzón del usuario para que POP/IMAP lo recojan.;
+¿Qué es Exchange ActiveSync?;Protocolo de sincronización basado en HTTP y XML para que dispositivos móviles accedan a email/calendario de Microsoft Exchange.;
+¿Cuál es el puerto seguro (TLS) de SMTP?;465 (estándar: 25).;
+¿Cuál es el puerto seguro (TLS) de POP3?;995 (estándar: 110).;
+¿Cuál es el puerto seguro (TLS) de IMAP?;993 (estándar: 143).;
+¿Qué es SPF?;Sender Policy Framework: identifica vía DNS los servidores SMTP autorizados a enviar correo para un dominio.;
+¿Qué es DKIM?;DomainKeys Identified Mail: firma digital en las cabeceras del correo para verificar integridad y autenticidad.;
+¿Qué es DMARC?;Domain-based Message Authentication, Reporting and Conformance: política que indica qué hacer si fallan SPF o DKIM (rechazar o marcar spam).;
+¿Qué es STARTTLS?;Mecanismo para upgrade de una conexión insegura a segura (TLS) en el mismo puerto.;
+¿Qué es un Open Relay?;"Servidor de correo que reenvía mensajes sin autenticación; vulnerabilidad crítica usada para spam.";
+¿Qué formatos de buzón existen?;mbox (un único fichero) y maildir (un fichero por mensaje).;
+¿Dónde se ubica el servidor de correo corporativo (CCN-CERT)?;En la DMZ.;
+¿Qué es un DAG en Exchange 2013?;Database Availability Group: grupo de bases de datos con copia activa y pasiva para alta disponibilidad.;
+¿Qué es un Pod en Kubernetes?;"Unidad mínima de despliegue; agrupa uno o más contenedores que comparten red y almacenamiento.";
+¿Qué tipos de Service existen en Kubernetes?;ClusterIP (por defecto, solo interno), NodePort (puerto estático en cada nodo), LoadBalancer (equilibrador externo), Ingress (acceso HTTP/HTTPS con rutas).;
+¿Qué es ETCD?;Almacenamiento no volátil donde se guarda toda la configuración del clúster Kubernetes.;
+¿Qué es un ConfigMap?;Objeto para datos de configuración no confidenciales en texto plano.;
+¿Qué es un Secret en Kubernetes?;Objeto para datos sensibles, codificados en base64.;
+¿Qué componentes tiene Kubernetes?;Kubelet, API Server, Scheduler, Controller Manager, Kube-proxy.;
+¿Qué es el Scheduler en K8s?;Componente que asigna Pods a nodos según recursos disponibles.;
+¿Qué es el Kubelet?;Agente por nodo que garantiza que los contenedores estén en ejecución.;
+¿Qué es un Dockerfile?;Fichero de texto con instrucciones para crear una imagen Docker.;
+¿Cómo se persisten datos en Docker (mecanismo preferido)?;Mediante Volúmenes.;
+¿Qué son las capas (layers) de una imagen Docker?;"Imagenes de solo lectura compuestas por capas; al ejecutar un contenedor se añade una fina capa R/W superior.";
+¿Diferencia CMD vs ENTRYPOINT en Docker?;"CMD proporciona argumentos por defecto (sobrescribibles); ENTRYPOINT es el ejecutable principal que siempre se ejecuta.";
+¿Redes en Docker: bridge vs host?;"bridge: red virtual interna por defecto; host: comparte la pila de red con el host.";
+¿Qué es LXC?;Linux Containers: virtualización a nivel de sistema operativo para Linux.;
+Estrategias de gestión de microservicios;Coreografía (descentralizada, por eventos) y Orquestación (centralizada, con orquestador).;
+¿Qué es el patrón Sidecar?;"Contenedor secundario junto al principal en el mismo Pod; comparte ciclo de vida y red (logs, proxies, seguridad).";
+Beneficios de los microservicios;Escalado flexible, CI/CD, resistencia a errores (degradación sin bloquear toda la app), tecnologías heterogéneas frente a monolitos.;
+¿Qué es OpenShift?;Plataforma de contenedores basada en Kubernetes (Red Hat).;
+¿Qué protocolos usa un Service de K8s?;SCTP, TCP (por defecto) y UDP.;
+¿Qué identifica unívocamente a un objeto en K8s?;El campo metadata.;
+En Kubernetes, el almacenamiento no volátil donde se guarda toda la configuración del clúster es {{ETCD}}.;ETCD;kubernetes
+El puerto seguro (TLS) de SMTP es {{465}}, el de POP3 es {{995}} y el de IMAP es {{993}}.;"465; 995; 993";puertos
+En Docker, el mecanismo preferido para persistir datos es {{Volúmenes}}.;Volúmenes;docker
+Los dos formatos de buzón son {{mbox}} (un único fichero) y {{maildir}} (un fichero por mensaje).;"mbox; maildir";correo

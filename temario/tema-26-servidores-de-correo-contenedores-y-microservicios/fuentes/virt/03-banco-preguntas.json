@@ -1,0 +1,289 @@
+{
+  "preguntas": [
+    {
+      "id": "p-virt-001",
+      "concepto_id": "c-virtualizacion",
+      "capitulo": "src-virt",
+      "tipo": "definicion",
+      "dificultad": "baja",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Qué es una virtualización según el texto?",
+      "opciones": [
+        "b) Una abstracción que simula recursos hardware y multiplexa entre varios clientes",
+        "c) Un sistema operativo en la nube",
+        "d) Un protocolo de red",
+        "a) Un hardware físico dedicado a un solo cliente"
+      ],
+      "correcta": 0,
+      "explicacion": "El texto define la virtualización como una abstracción que simula ser recursos hardware, multiplexándolos entre varios clientes mediante una capa de software.",
+      "referencia": "VIRTUALIZACION: FISICO → VIRTUAL → CLOUD",
+      "verificado": false
+    },
+    {
+      "id": "p-virt-002",
+      "concepto_id": "c-hipervisor",
+      "capitulo": "src-virt",
+      "tipo": "definicion",
+      "dificultad": "baja",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Qué software crea la capa de abstracción para multiplexar recursos hardware y crear máquinas virtuales?",
+      "opciones": [
+        "a) Hipervisor o VMM",
+        "c) Firmware",
+        "d) BIOS",
+        "b) Kernel"
+      ],
+      "correcta": 0,
+      "explicacion": "El texto llama Hipervisor o VMM (Virtual Machine Monitor) a ese software.",
+      "referencia": "Ese SW es el llamado Hipervisor o VMM",
+      "verificado": false
+    },
+    {
+      "id": "p-virt-003",
+      "concepto_id": "c-virtualizacion-ligera",
+      "capitulo": "src-virt",
+      "tipo": "definicion",
+      "dificultad": "baja",
+      "origen": "ingesta-inicial",
+      "enunciado": "En la virtualización ligera, ¿qué se virtualiza y qué se crea?",
+      "opciones": [
+        "b) Se virtualiza el SO (kernel) y se crean contenedores",
+        "c) Se virtualiza la red y se crean VLANs",
+        "d) Se virtualiza el almacenamiento y se crean LUNs",
+        "a) Se virtualiza el hardware y se crean máquinas virtuales"
+      ],
+      "correcta": 0,
+      "explicacion": "La virtualización ligera virtualiza el SO (kernel) y crea contenedores o Entornos Virtuales, sin hipervisor.",
+      "referencia": "VIRTUALIZACION LIGERA",
+      "verificado": false
+    },
+    {
+      "id": "p-virt-004",
+      "concepto_id": "c-imagen-contenedor",
+      "capitulo": "src-virt",
+      "tipo": "comparativa",
+      "dificultad": "baja",
+      "origen": "ingesta-inicial",
+      "enunciado": "En Docker, ¿cuál es la relación entre imagen y contenedor?",
+      "opciones": [
+        "a) La imagen es dinámica y el contenedor es estático",
+        "d) Ambos son dinámicos",
+        "c) Ambos son estáticos",
+        "b) La imagen es estática y el contenedor es su representación en memoria en ejecución"
+      ],
+      "correcta": 3,
+      "explicacion": "El texto indica que una imagen es estática y el contenedor es la representación de la imagen en memoria, en ejecución.",
+      "referencia": "una imagen es estática y el contenedor es la representación de la imagen en memoria",
+      "verificado": false
+    },
+    {
+      "id": "p-virt-005",
+      "concepto_id": "c-cloud-autoescalado",
+      "capitulo": "src-virt",
+      "tipo": "regla",
+      "dificultad": "baja",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Cuál es la principal característica de Cloud respecto a la demanda?",
+      "opciones": [
+        "d) No permite escalar",
+        "c) Solo admite máquinas virtuales",
+        "a) Quedarse sin recursos es habitual",
+        "b) Gestión de la demanda y tarificación por consumo con autoescalado"
+      ],
+      "correcta": 3,
+      "explicacion": "El texto señala que la principal característica de Cloud es la gestión de la demanda y tarificación por consumo, con sistemas de autoescalado.",
+      "referencia": "La principal característica de Cloud es la gestión de la demanda",
+      "verificado": false
+    },
+    {
+      "id": "p-virt-006",
+      "concepto_id": "c-docker-build-run",
+      "capitulo": "src-virt",
+      "tipo": "proceso",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Cuál es el orden correcto del flujo de trabajo con Docker según el texto?",
+      "opciones": [
+        "b) Dockerfile → docker build → docker run",
+        "c) docker build → Dockerfile → docker run",
+        "d) Dockerfile → docker run → docker build",
+        "a) docker run → Dockerfile → docker build"
+      ],
+      "correcta": 0,
+      "explicacion": "Primero se crea el Dockerfile, luego se construye la imagen con docker build y finalmente se levanta el contenedor con docker run.",
+      "referencia": "Funcionamiento con Docker",
+      "verificado": false
+    },
+    {
+      "id": "p-virt-007",
+      "concepto_id": "c-capas-imagen",
+      "capitulo": "src-virt",
+      "tipo": "regla",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "En una imagen Docker, ¿qué ocurre con las capas creadas por cada comando del Dockerfile?",
+      "opciones": [
+        "c) Solo la primera es de lectura",
+        "b) Todas son de lectura excepto la última, que es R/W, y se reutilizan",
+        "a) Todas son de lectura/escritura",
+        "d) Ninguna se reutiliza"
+      ],
+      "correcta": 1,
+      "explicacion": "El texto indica que cada comando crea una capa, todas de lectura (R) menos la última (R/W), y que las capas se reutilizan.",
+      "referencia": "Cada comando crea una capa",
+      "verificado": false
+    },
+    {
+      "id": "p-virt-008",
+      "concepto_id": "c-kubernetes",
+      "capitulo": "src-virt",
+      "tipo": "definicion",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Qué permite Kubernetes cuando se cae un nodo que ejecuta un contenedor?",
+      "opciones": [
+        "d) Detiene la orquestación",
+        "c) Reinicia el nodo automáticamente",
+        "a) Elimina todos los contenedores",
+        "b) Replica ese contenedor en otro nodo"
+      ],
+      "correcta": 3,
+      "explicacion": "Kubernetes puede replicar un contenedor de una máquina caída en otro nodo y balancear ejecuciones entre nodos.",
+      "referencia": "si se cae un nodo replique ese contenedor en otro nodo",
+      "verificado": false
+    },
+    {
+      "id": "p-virt-009",
+      "concepto_id": "c-pod",
+      "capitulo": "src-virt",
+      "tipo": "definicion",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Qué es un pod en Kubernetes?",
+      "opciones": [
+        "a) Un único contenedor aislado",
+        "b) Una agrupación de contenedores administrados de forma agrupada en una misma IP",
+        "d) Un repositorio de imágenes",
+        "c) Un nodo físico"
+      ],
+      "correcta": 1,
+      "explicacion": "Un pod agrupa contenedores para administrarlos de forma agrupada, con una misma IP para contenedores y volúmenes.",
+      "referencia": "Un pod en Kubernetes es una agrupación de contenedores",
+      "verificado": false
+    },
+    {
+      "id": "p-virt-010",
+      "concepto_id": "c-oci",
+      "capitulo": "src-virt",
+      "tipo": "definicion",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Qué componente implementa OCI y es el corazón de cualquier contenedor?",
+      "opciones": [
+        "a) runc",
+        "d) Podman",
+        "c) Kubelet",
+        "b) Docker"
+      ],
+      "correcta": 0,
+      "explicacion": "El texto indica que runc es un componente que implementa OCI y es el corazón de cualquier contenedor.",
+      "referencia": "runc es un componente que implementa OCI",
+      "verificado": false
+    },
+    {
+      "id": "p-virt-011",
+      "concepto_id": "c-formatos-virt",
+      "capitulo": "src-virt",
+      "tipo": "clasificacion",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Qué formato es un OVF empaquetado en TAR?",
+      "opciones": [
+        "d) VHD",
+        "b) OVA",
+        "a) VMDK",
+        "c) VMEM"
+      ],
+      "correcta": 1,
+      "explicacion": "El texto define OVA (Open Virtualization Appliance) como un OVF empaquetado en TAR.",
+      "referencia": "OVA: Open Virtualization Appliance. Es un OVF empaquetado en TAR",
+      "verificado": false
+    },
+    {
+      "id": "p-virt-012",
+      "concepto_id": "c-docker-compose",
+      "capitulo": "src-virt",
+      "tipo": "definicion",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Para qué sirve Docker Compose?",
+      "opciones": [
+        "c) Para crear imágenes desde cero",
+        "b) Para gestionar varios contenedores a la vez en una máquina mediante docker-compose.yml",
+        "d) Para virtualizar el kernel",
+        "a) Para distribuir contenedores entre varios nodos"
+      ],
+      "correcta": 1,
+      "explicacion": "Docker Compose gestiona varios contenedores a la vez en una máquina; Kubernetes los distribuye.",
+      "referencia": "Docker Compose: permite gestionar varios contenedores a la vez",
+      "verificado": false
+    },
+    {
+      "id": "p-virt-013",
+      "concepto_id": "c-virt-almacenamiento",
+      "capitulo": "src-virt",
+      "tipo": "clasificacion",
+      "dificultad": "alta",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Cuál de los siguientes es un ejemplo de virtualización de almacenamiento a nivel de bloque de servidor?",
+      "opciones": [
+        "b) LVM",
+        "c) Citrix XenApp",
+        "a) NAS (NFS/CIFS/AFP)",
+        "d) VTL"
+      ],
+      "correcta": 0,
+      "explicacion": "A nivel de bloque, de servidor corresponde a LVM; NAS es a nivel de fichero.",
+      "referencia": "A nivel de bloque: De servidor (LVM)",
+      "verificado": false
+    },
+    {
+      "id": "p-virt-014",
+      "concepto_id": "c-cloud-modelos",
+      "capitulo": "src-virt",
+      "tipo": "clasificacion",
+      "dificultad": "alta",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Qué modelo de servicio cloud ofrece una plataforma para montar entornos de ejecución para equipos de desarrollo?",
+      "opciones": [
+        "d) SaaS",
+        "c) CaaS",
+        "a) IaaS",
+        "b) PaaS"
+      ],
+      "correcta": 3,
+      "explicacion": "PaaS (Platform as a Service) ofrece una plataforma para montar entornos de ejecución para los distintos equipos de desarrollo.",
+      "referencia": "PaaS: Platform as a Service",
+      "verificado": false
+    },
+    {
+      "id": "p-virt-015",
+      "concepto_id": "c-hipervisor-tipos",
+      "capitulo": "src-virt",
+      "tipo": "clasificacion",
+      "dificultad": "alta",
+      "origen": "ingesta-inicial",
+      "enunciado": "Según el texto, ¿dónde se sitúa Hyper-V respecto al hardware y al sistema operativo?",
+      "opciones": [
+        "c) Directamente en el firmware",
+        "b) Encima del HW y por debajo del SO",
+        "a) Sobre el SO, como tipo 2 clásico",
+        "d) En la capa de red"
+      ],
+      "correcta": 1,
+      "explicacion": "Hyper-V se instala sobre Windows y parecería tipo 2, pero se sitúa encima del HW, por debajo del SO.",
+      "referencia": "Hyper-V se instala sobre Windows... se situa encima del HW, por debajo del SO",
+      "verificado": false
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+                                      12 - BLOQUE 4 – TEMA 3 - VIRTUALIZACION
+VIRTUALIZACION: FISICO  VIRTUAL  CLOUD. Una virtualización es una abstracción, algo que no existe pero simula serlo.
+  Crear mediante una capa de abstracción (SW), para una serie de recursos HW (CPU, memoria, red, etc), incluso del SO, la posibilidad de multiplexarlos entre varios
+  clientes. Permite crear máquinas virtuales, permite repartir/multiplexar los recursos HW para que parezca que tenemos varias máquinas (lógicas). Ese SW es el
+  llamado Hipervisor o VMM (Virtual Machine Monitor). Ventajas: optimización del uso de HW, aislamiento entre máquinas (si cae una no afecta a las otras), mejor
+  aprovisionamiento y administración del entorno (amplías y reduces los recursos bajo demanda). La principal característica de Cloud es la gestión de la demanda y
+  tarificación por consumo, con sistemas de autoescalado por si aumenta la demanda. En la virtualización te podías quedar sin recursos, en Cloud es casi imposible.
+  Tipos:
+     • Virtualización de máquinas: el HW debe tener ciertas características para permitir virtualización. VT-X es tecnología
+       Intel. VT-d para la virtualización de entrada/salida. VT-c para virtualización de red. AMD-V es de AMD.
+       El tipo 2 es usado en ámbito doméstico (menos optimizado). Los hipervisores de tipo 1 son una mezcla y optimización
+       del HW y SO del tipo 2. Su diseño está orientado a la virtualización.
+       Hyper-V se instala sobre Windows y parecería que es de Tipo 2, pero se situa encima del HW, por debajo del SO.
+     • Virtualización del almacenamiento
+          A nivel de bloque:                                                     A nivel de fichero:
+            De servidor (LVM).                                                     NAS (NFS / CIFS / AFP).
+            De dispositivo (RAID): la controladora me abstrae.
+            De red (SAN, vSAN): se usan las LUNs para abstraerse.
+     • Virtualización del backup: emula la interface de la librería de cintas con discos al otro lado (VTL).
+     • Virtualización del puesto de usuario: escritorio y aplicaciones.
+          Infraestructura VDI: herramientas que te crean un escritorio. Productos: VMWare Horizon / Xen Desktop.
+          Virtualización de aplicaciones: lo que muestras al usuario es un acceso, una interface para acceder a la aplicación. Producto: Citrix XenApp.
+  Formatos y extensiones
+     • VMDK: Formato de código abierto para almacenamiento de datos de las MV (VMWare).
+     • OVF: Open Virtualization Format. Para distribuir MV (Virtual Appliance).
+     • OVA: Open Virtualization Appliance. Es un OVF empaquetado en TAR.
+     • VMEM: volcado de la memoria principal de la MV cuando se pausa.
+     • VDI: imágenes de VitualBox de Oracle.
+     • VHD: almacenamiento de Hyper-V.
+VIRTUALIZACION LIGERA: ideal para aplicaciones. La virtualización clásica es para servicios, como Oracle, Correo, DNS, etc. No existe hipervisor y se sustitute por una
+  capa de acceso al kernel/gestor de contenedores. Se virtualiza el SO (kernel) y se crean contenedores o EV (Entorno Virtual). Dentro del contenedor hay parte del
+  SO, las utilities (paquetería básica), pero no el kernel. Los contenedores ejecutan cosas pequeñas, ligeras, por eso son fáciles de distribuir. Tenemos contenedores
+  Linux, Windows y Mac. El contenedor es una virtualización del kernel, sobre el que se le instalan las apps. Productos: Docker (fue el primero), Podman, RKT,
+  Messos, LXC, OpenVZ. Los contenedores no están pensados para consumirse por humanos, sino para alojar un servicio que sea distribuido en muchos hosts.
+  • Funcionamiento con Docker: una imagen es estática y el contenedor es la representación de la imagen en memoria, en ejecución.
+       1. Crear fichero DockerFile con la configuración de nuestra imagen (generalmente a partir de otra).
+            FROM microsoft/mssql –server – linux              FROM scratch: instalación desde cero.
+            RUN mkdir –p /usr/src/app
+                                                                 Cada comando crea una capa. Todas
+            …                   Alpine y BusyBox: imágenes las capas son de lectura (R), menos la
+            RUN chmod +x… de Linux muy ligeras < 5 MB.
+                                                                 última (R/W). Las capas se reutilizan.
+            RUN apt-get …
+            …                   docker scout  comprueba CVEs de cada capa de la imagen.
+            VOLUME /var/opt/mssql Almacenamiento persistente aunque se elimine el contenedor.
+            EXPOSE 1433 (puerto)         Por defecto almacenamiento efímero. Filosofía de usar y tirar.
+       2. A partir de este fichero, creamos la imagen en disco: docker build –t etiqueta
+       3. Levantar un contenedor en memoria a partir de la imagen construida: docker run –name mssql01 –d etiqueta –p 1433:1433
+  • Si tenemos muchos contenedores y muchos nodos donde poder distribuirlos (orquestación): Kubernetes / Docker Swarm. Me permite escalar, meter seguridad
+    para que si se cae un nodo replique ese contenedor en otro nodo, balancear las ejecuciones de contenedores entre varios nodos, puede coger un contenedor de
+    una máquina y llevárselo a otra menos saturada. Un contenedor concreto está en una máquina y Kubernetes puede replicarlo en varias. Usado en Producción. Es
+    multiplataforma. Se instala en el servidor central y el agente Kubelet en los nodos.
+  • Un pod en Kubernetes es una agrupación de contenedores para administrarlos de forma
+    agrupada. Se agrupa en una misma IP contenedores y volúmenes. IP flotante: una misma IP
+    para varias máquinas o para varios contenedores.
+  • Open Container Initiative: proyecto de Linux Foundation para definir especificaciones relativas
+    a los contenedores para estandarizar ejecución, imagen y distribución:
+    o OCI Runtime Specification: especificación de entorno de ejecución de contenedores: Container Runtime Interface (CRI). Al principio Kubernetes solo
+       funcionaba con Dockers. Para poder ser multicontainer se crea la capa CRI, que es un API. runc es un componente que implementa OCI y que es el corazón de
+       cualquier contenedor. Cualquier contenedor usa runc. Por runc pasa casi todo lo que se hace con los contenedores.
+    o OCI Image Format: especificación de formato de imagen, para poder usar una misma imagen con Docker u otros.
+    o OCI Distribution Specification: especificación de distribución de imágenes que afecta a los repositorios de imágenes: DockerHub, Artifactory, Nexus, Archiva.
+  • Docker Compose: permite gestionar varios contenedores a la vez. docker-compose.yml define los contenedores deseados y así levantar todo de golpe para
+    tener, por ejemplo, un entorno de trabajo para desarrolladores. DockerCompose gestiona varios contenedores en una máquina y Kubernetes lo distribuye.
+PLATAFORMAS
+  IaaS: Infrastructure as a Service.
+    • Amazon AWS:                                  • RedHat OpenStack:                                 • Azure (Microsoft).
+      o S3: almacenamiento modo objeto.               o NOVA: máquinas virtuales.                      • Google Cloud.
+      o EC2: máquinas virtuales.                      o Swift: almacenamiento modo objeto.             • Nube SARA.
+      o EBS: almacenamiento modo bloque.              o Cinder: almacenamiento modo bloque.
+                                                      o Neutron: recursos de red.
+                                                      o Horizon: cuadro de mandos web.
+  PaaS: Platform as a Service: ofrece una plataforma para montar a través de una consola web toda una serie de entornos
+  de ejecución para los distintos equipos de desarrollo (Ej: Java 11, MySQL y Redis).
+  Crea los contenedores necesarios y los distribuye con Kubernetes.
+    • OpenShift.                                                               • Cloud Foundry: ofrece el ciclo de vida
+    • Heroku: similar a Opeshift pero solo se usa en modo nube.                  completo para el desarrollador.
+  CaaS / KaaS: Containers as a Service / Kubernetes as a Service.
+
+CARLOS VELILLA GARCIA – Telegram @CARLOSVELILLA                                                                                                12 - B4-T3.2.1 - 1 -
+

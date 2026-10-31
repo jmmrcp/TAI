@@ -1,0 +1,2986 @@
+{
+  "tema_id": "tema-03-el-gobierno-composicion-nombramiento-y-cese-relaciones-con-l",
+  "total": 149,
+  "preguntas": [
+    {
+      "id": "p-00284",
+      "concepto_id": "c-3bfbc5c9bd6a",
+      "capitulo": "cap-01",
+      "tipo": "multiple-choice",
+      "dificultad": "baja",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Qué dirige el Gobierno según el art. 1 de la Ley 50/1997?",
+      "opciones": [
+        "La política interior y exterior, la Administración civil y militar y la defensa del Estado",
+        "Únicamente la política exterior y la defensa nacional",
+        "La política interior y la Administración civil",
+        "La Administración militar y la defensa del Estado"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 1.1 establece que el Gobierno dirige la política interior y exterior, la Administración civil y militar y la defensa del Estado.",
+      "referencia": "art. 1",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00285",
+      "concepto_id": "c-3bfbc5c9bd6a",
+      "capitulo": "cap-01",
+      "tipo": "multiple-choice",
+      "dificultad": "baja",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Qué función y potestad ejerce el Gobierno de acuerdo con la Constitución y las leyes?",
+      "opciones": [
+        "La función ejecutiva y la potestad reglamentaria",
+        "La función legislativa y la potestad reglamentaria",
+        "La función judicial y la potestad ejecutiva",
+        "La función ejecutiva y la potestad legislativa"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 1.1 dispone que el Gobierno ejerce la función ejecutiva y la potestad reglamentaria de acuerdo con la Constitución y las leyes.",
+      "referencia": "art. 1",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00286",
+      "concepto_id": "c-a38f3f27ee85",
+      "capitulo": "cap-01",
+      "tipo": "multiple-choice",
+      "dificultad": "baja",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿De quiénes se compone el Gobierno según el art. 1.2?",
+      "opciones": [
+        "Del Presidente, del Vicepresidente o Vicepresidentes, en su caso, y de los Ministros",
+        "Del Presidente, de los Ministros y de los Secretarios de Estado",
+        "Del Presidente, de los Vicepresidentes y de los Directores de Gabinete",
+        "Del Presidente y de los Ministros únicamente"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 1.2 establece que el Gobierno se compone del Presidente, del Vicepresidente o Vicepresidentes, en su caso, y de los Ministros.",
+      "referencia": "art. 1",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00287",
+      "concepto_id": "c-87fb00e61ace",
+      "capitulo": "cap-01",
+      "tipo": "multiple-choice",
+      "dificultad": "baja",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿En qué órganos colegiados se reúnen los miembros del Gobierno?",
+      "opciones": [
+        "En el Consejo de Ministros y en las Comisiones Delegadas del Gobierno",
+        "En el Consejo de Ministros y en la Comisión General de Secretarios de Estado y Subsecretarios",
+        "En las Comisiones Delegadas y en el Secretariado del Gobierno",
+        "En el Consejo de Ministros y en el Consejo de Estado"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 1.3 dispone que los miembros del Gobierno se reúnen en Consejo de Ministros y en Comisiones Delegadas del Gobierno.",
+      "referencia": "art. 1",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00288",
+      "concepto_id": "c-a4229f9b7b9f",
+      "capitulo": "cap-01",
+      "tipo": "multiple-choice",
+      "dificultad": "baja",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Quién dirige la acción del Gobierno y coordina las funciones de los demás miembros?",
+      "opciones": [
+        "El Presidente del Gobierno",
+        "El Vicepresidente del Gobierno",
+        "El Consejo de Ministros",
+        "El Ministro de la Presidencia"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 2.1 atribuye al Presidente la dirección de la acción del Gobierno y la coordinación de las funciones de los demás miembros, sin perjuicio de la competencia y responsabilidad directa de los Ministros.",
+      "referencia": "art. 2",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00289",
+      "concepto_id": "c-8962163f00c5",
+      "capitulo": "cap-01",
+      "tipo": "multiple-choice",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿A quién corresponde establecer el programa político del Gobierno y determinar las directrices de la política interior y exterior?",
+      "opciones": [
+        "Al Presidente del Gobierno",
+        "Al Consejo de Ministros",
+        "Al Vicepresidente del Gobierno",
+        "Al Ministro de Asuntos Exteriores"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 2.2.b) atribuye al Presidente del Gobierno establecer el programa político y determinar las directrices de la política interior y exterior, velando por su cumplimiento.",
+      "referencia": "art. 2",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00290",
+      "concepto_id": "c-7d0fa9e49f45",
+      "capitulo": "cap-01",
+      "tipo": "multiple-choice",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Quién propone al Rey la disolución del Congreso, del Senado o de las Cortes Generales?",
+      "opciones": [
+        "El Presidente del Gobierno, previa deliberación del Consejo de Ministros",
+        "El Presidente del Gobierno por propia iniciativa",
+        "El Consejo de Ministros por mayoría",
+        "El Rey por propia iniciativa"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 2.2.c) dispone que corresponde al Presidente del Gobierno proponer al Rey, previa deliberación del Consejo de Ministros, la disolución del Congreso, del Senado o de las Cortes Generales.",
+      "referencia": "art. 2",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00291",
+      "concepto_id": "c-7d0fa9e49f45",
+      "capitulo": "cap-01",
+      "tipo": "multiple-choice",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Ante qué órgano se plantea la cuestión de confianza y por quién?",
+      "opciones": [
+        "Ante el Congreso de los Diputados, por el Presidente del Gobierno previa deliberación del Consejo de Ministros",
+        "Ante el Senado, por el Presidente del Gobierno",
+        "Ante el Congreso de los Diputados, por el Consejo de Ministros",
+        "Ante las Cortes Generales, por el Rey"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 2.2.d) atribuye al Presidente del Gobierno plantear ante el Congreso de los Diputados, previa deliberación del Consejo de Ministros, la cuestión de confianza.",
+      "referencia": "art. 2",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00292",
+      "concepto_id": "c-7d0fa9e49f45",
+      "capitulo": "cap-01",
+      "tipo": "multiple-choice",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Quién propone al Rey la convocatoria de un referéndum consultivo y con qué requisito?",
+      "opciones": [
+        "El Presidente del Gobierno, previa autorización del Congreso de los Diputados",
+        "El Presidente del Gobierno por propia iniciativa",
+        "El Consejo de Ministros, previa autorización del Senado",
+        "El Rey, a propuesta del Congreso de los Diputados"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 2.2.e) dispone que corresponde al Presidente del Gobierno proponer al Rey la convocatoria de un referéndum consultivo, previa autorización del Congreso de los Diputados.",
+      "referencia": "art. 2",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00293",
+      "concepto_id": "c-80bfc4f1a284",
+      "capitulo": "cap-01",
+      "tipo": "multiple-choice",
+      "dificultad": "baja",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿A quién corresponde dirigir la política de defensa y ejercer respecto de las Fuerzas Armadas las funciones previstas en la legislación de defensa nacional?",
+      "opciones": [
+        "Al Presidente del Gobierno",
+        "Al Ministro de Defensa",
+        "Al Consejo de Ministros",
+        "Al Rey"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 2.2.f) atribuye al Presidente del Gobierno dirigir la política de defensa y ejercer respecto de las Fuerzas Armadas las funciones previstas en la legislación reguladora de la defensa nacional y de la organización militar.",
+      "referencia": "art. 2",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00294",
+      "concepto_id": "c-52efcc6cbe35",
+      "capitulo": "cap-01",
+      "tipo": "multiple-choice",
+      "dificultad": "baja",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Quién convoca, preside y fija el orden del día de las reuniones del Consejo de Ministros?",
+      "opciones": [
+        "El Presidente del Gobierno",
+        "El Ministro de la Presidencia",
+        "El Vicepresidente del Gobierno",
+        "El Secretario del Consejo de Ministros"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 2.2.g) atribuye al Presidente del Gobierno convocar, presidir y fijar el orden del día de las reuniones del Consejo de Ministros, sin perjuicio de lo previsto en el art. 62.g) de la Constitución.",
+      "referencia": "art. 2",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00295",
+      "concepto_id": "c-52efcc6cbe35",
+      "capitulo": "cap-01",
+      "tipo": "multiple-choice",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Quién puede interponer el recurso de inconstitucionalidad entre las facultades del Presidente del Gobierno?",
+      "opciones": [
+        "El Presidente del Gobierno",
+        "El Consejo de Ministros",
+        "Cualquier Ministro",
+        "El Abogado General del Estado"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 2.2.i) incluye entre las facultades del Presidente del Gobierno interponer el recurso de inconstitucionalidad.",
+      "referencia": "art. 2",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00296",
+      "concepto_id": "c-d248d5529c9f",
+      "capitulo": "cap-01",
+      "tipo": "multiple-choice",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Mediante qué instrumento crea, modifica y suprime el Presidente del Gobierno los Departamentos Ministeriales y las Secretarías de Estado?",
+      "opciones": [
+        "Por Real Decreto",
+        "Por Orden Ministerial",
+        "Por Acuerdo del Consejo de Ministros",
+        "Por ley"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 2.2.j) dispone que el Presidente del Gobierno crea, modifica y suprime, por Real Decreto, los Departamentos Ministeriales, así como las Secretarías de Estado, y aprueba la estructura orgánica de la Presidencia del Gobierno.",
+      "referencia": "art. 2",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00297",
+      "concepto_id": "c-d248d5529c9f",
+      "capitulo": "cap-01",
+      "tipo": "multiple-choice",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿A quién corresponde resolver los conflictos de atribuciones que puedan surgir entre los diferentes Ministerios?",
+      "opciones": [
+        "Al Presidente del Gobierno",
+        "Al Consejo de Ministros",
+        "Al Ministro de la Presidencia",
+        "Al Tribunal Supremo"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 2.2.l) atribuye al Presidente del Gobierno resolver los conflictos de atribuciones que puedan surgir entre los diferentes Ministerios.",
+      "referencia": "art. 2",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00298",
+      "concepto_id": "c-385f6b6aa79e",
+      "capitulo": "cap-01",
+      "tipo": "multiple-choice",
+      "dificultad": "baja",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿A quién corresponde el ejercicio de las funciones del Vicepresidente o Vicepresidentes?",
+      "opciones": [
+        "Las que les encomiende el Presidente del Gobierno",
+        "Las que les atribuya el Consejo de Ministros",
+        "Las que les confiera la Constitución directamente",
+        "Las que les asigne el Congreso de los Diputados"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 3.1 dispone que al Vicepresidente o Vicepresidentes, cuando existan, les corresponderá el ejercicio de las funciones que les encomiende el Presidente.",
+      "referencia": "art. 3",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00299",
+      "concepto_id": "c-361fe43e1470",
+      "capitulo": "cap-01",
+      "tipo": "multiple-choice",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Qué ocurre cuando un Vicepresidente asume la titularidad de un Departamento Ministerial?",
+      "opciones": [
+        "Ostenta, además, la condición de Ministro",
+        "Pierde la condición de Vicepresidente",
+        "Se convierte en Secretario de Estado",
+        "Debe ser nombrado por el Consejo de Ministros"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 3.2 establece que el Vicepresidente que asuma la titularidad de un Departamento Ministerial ostentará, además, la condición de Ministro.",
+      "referencia": "art. 3",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00300",
+      "concepto_id": "c-a5181cd85b7b",
+      "capitulo": "cap-01",
+      "tipo": "multiple-choice",
+      "dificultad": "baja",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Qué tienen los Ministros como titulares de sus Departamentos?",
+      "opciones": [
+        "Competencia y responsabilidad en la esfera específica de su actuación",
+        "Competencia exclusiva sobre la Administración militar",
+        "Responsabilidad solidaria con el Presidente únicamente",
+        "Competencia legislativa en su ámbito"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 4.1 dispone que los Ministros, como titulares de sus Departamentos, tienen competencia y responsabilidad en la esfera específica de su actuación.",
+      "referencia": "art. 4",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00301",
+      "concepto_id": "c-586a73865c5d",
+      "capitulo": "cap-01",
+      "tipo": "multiple-choice",
+      "dificultad": "baja",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Quién ejerce la potestad reglamentaria en las materias propias de su Departamento?",
+      "opciones": [
+        "El Ministro titular del Departamento",
+        "El Presidente del Gobierno",
+        "El Consejo de Ministros",
+        "El Secretario de Estado"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 4.1.b) atribuye a los Ministros ejercer la potestad reglamentaria en las materias propias de su Departamento.",
+      "referencia": "art. 4",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00302",
+      "concepto_id": "c-b297276e6197",
+      "capitulo": "cap-01",
+      "tipo": "multiple-choice",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Cómo se determina el ámbito de competencias de los Ministros sin cartera?",
+      "opciones": [
+        "Por Real Decreto",
+        "Por Orden Ministerial del Ministro de la Presidencia",
+        "Por Acuerdo del Consejo de Ministros sin forma de Real Decreto",
+        "Por ley orgánica"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 4.2 dispone que, en caso de existir Ministros sin cartera, por Real Decreto se determinará el ámbito de sus competencias, la estructura administrativa, así como los medios materiales y personales adscritos.",
+      "referencia": "art. 4",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00303",
+      "concepto_id": "c-dd1fc697f6c9",
+      "capitulo": "cap-01",
+      "tipo": "multiple-choice",
+      "dificultad": "baja",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Qué carácter tiene el Consejo de Ministros según la Ley 50/1997?",
+      "opciones": [
+        "Órgano colegiado del Gobierno",
+        "Órgano unipersonal del Presidente",
+        "Órgano de apoyo del Secretariado del Gobierno",
+        "Órgano consultivo del Gobierno"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 5.1 califica al Consejo de Ministros como órgano colegiado del Gobierno.",
+      "referencia": "art. 5",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00304",
+      "concepto_id": "c-122dc49d94a1",
+      "capitulo": "cap-01",
+      "tipo": "multiple-choice",
+      "dificultad": "baja",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿A qué órgano corresponde aprobar los proyectos de ley y su remisión al Congreso de los Diputados o, en su caso, al Senado?",
+      "opciones": [
+        "Al Consejo de Ministros",
+        "Al Presidente del Gobierno",
+        "A las Comisiones Delegadas del Gobierno",
+        "Al Ministro de la Presidencia"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 5.1.a) atribuye al Consejo de Ministros aprobar los proyectos de ley y su remisión al Congreso de los Diputados o, en su caso, al Senado.",
+      "referencia": "art. 5",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00305",
+      "concepto_id": "c-122dc49d94a1",
+      "capitulo": "cap-01",
+      "tipo": "multiple-choice",
+      "dificultad": "baja",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿A qué órgano corresponde aprobar el Proyecto de Ley de Presupuestos Generales del Estado?",
+      "opciones": [
+        "Al Consejo de Ministros",
+        "Al Presidente del Gobierno",
+        "A las Cortes Generales",
+        "Al Ministro de Hacienda"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 5.1.b) atribuye al Consejo de Ministros aprobar el Proyecto de Ley de Presupuestos Generales del Estado.",
+      "referencia": "art. 5",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00306",
+      "concepto_id": "c-3216b5bbfd2e",
+      "capitulo": "cap-01",
+      "tipo": "multiple-choice",
+      "dificultad": "baja",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Qué órgano aprueba los Reales Decretos-leyes y los Reales Decretos Legislativos?",
+      "opciones": [
+        "El Consejo de Ministros",
+        "El Presidente del Gobierno por Real Decreto",
+        "El Parlamento",
+        "El Rey"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 5.1.c) atribuye al Consejo de Ministros aprobar los Reales Decretos-leyes y los Reales Decretos Legislativos.",
+      "referencia": "art. 5",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00307",
+      "concepto_id": "c-3216b5bbfd2e",
+      "capitulo": "cap-01",
+      "tipo": "multiple-choice",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿A quién corresponde acordar la negociación y firma de Tratados internacionales, así como su aplicación provisional?",
+      "opciones": [
+        "Al Consejo de Ministros",
+        "Al Ministro de Asuntos Exteriores",
+        "Al Presidente del Gobierno en solitario",
+        "Al Rey"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 5.1.d) atribuye al Consejo de Ministros acordar la negociación y firma de Tratados internacionales, así como su aplicación provisional.",
+      "referencia": "art. 5",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00308",
+      "concepto_id": "c-6043ebadc737",
+      "capitulo": "cap-01",
+      "tipo": "multiple-choice",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Qué estados puede declarar el Consejo de Ministros y qué propone al Congreso?",
+      "opciones": [
+        "Declarar los estados de alarma y de excepción y proponer al Congreso la declaración del estado de sitio",
+        "Declarar los estados de alarma, excepción y sitio",
+        "Declarar únicamente el estado de alarma",
+        "Proponer al Senado el estado de sitio"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 5.1.f) dispone que el Consejo de Ministros puede declarar los estados de alarma y de excepción y proponer al Congreso de los Diputados la declaración del estado de sitio.",
+      "referencia": "art. 5",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00309",
+      "concepto_id": "c-6043ebadc737",
+      "capitulo": "cap-01",
+      "tipo": "multiple-choice",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿En qué condiciones puede el Consejo de Ministros disponer la emisión de Deuda Pública o contraer crédito?",
+      "opciones": [
+        "Cuando haya sido autorizado por una Ley",
+        "Siempre que lo decida el Ministro de Hacienda",
+        "Cuando lo autorice el Presidente del Gobierno",
+        "Cuando lo apruebe el Congreso por mayoría simple"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 5.1.g) dispone que el Consejo de Ministros puede disponer la emisión de Deuda Pública o contraer crédito cuando haya sido autorizado por una Ley.",
+      "referencia": "art. 5",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00310",
+      "concepto_id": "c-576de12de78c",
+      "capitulo": "cap-01",
+      "tipo": "multiple-choice",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Qué requisito previo se exige para que el Consejo de Ministros apruebe los reglamentos para el desarrollo y ejecución de las leyes?",
+      "opciones": [
+        "Previo dictamen del Consejo de Estado",
+        "Previo informe del Tribunal Constitucional",
+        "Previo dictamen del Consejo de Estado y del Senado",
+        "Sin requisito previo"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 5.1.h) dispone que el Consejo de Ministros aprueba los reglamentos para el desarrollo y la ejecución de las leyes, previo dictamen del Consejo de Estado, así como las demás disposiciones reglamentarias que procedan.",
+      "referencia": "art. 5",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00311",
+      "concepto_id": "c-7b854b74a151",
+      "capitulo": "cap-01",
+      "tipo": "multiple-choice",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿A qué órgano corresponde crear, modificar y suprimir los órganos directivos de los Departamentos Ministeriales?",
+      "opciones": [
+        "Al Consejo de Ministros",
+        "Al Presidente del Gobierno por Real Decreto",
+        "Al Ministro titular del Departamento",
+        "Al Secretario de Estado"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 5.1.i) atribuye al Consejo de Ministros crear, modificar y suprimir los órganos directivos de los Departamentos Ministeriales.",
+      "referencia": "art. 5",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00312",
+      "concepto_id": "c-7b854b74a151",
+      "capitulo": "cap-01",
+      "tipo": "multiple-choice",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Qué efecto tienen los programas, planes y directrices adoptados por el Consejo de Ministros?",
+      "opciones": [
+        "Son vinculantes para todos los órganos de la Administración General del Estado",
+        "Son meramente orientativos",
+        "Vinculan solo a los Ministerios proponentes",
+        "Vinculan únicamente a los Secretarios de Estado"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 5.1.j) dispone que el Consejo de Ministros puede adoptar programas, planes y directrices vinculantes para todos los órganos de la Administración General del Estado.",
+      "referencia": "art. 5",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00313",
+      "concepto_id": "c-7dbb826d569f",
+      "capitulo": "cap-01",
+      "tipo": "multiple-choice",
+      "dificultad": "baja",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Quiénes pueden asistir a las reuniones del Consejo de Ministros?",
+      "opciones": [
+        "Los Secretarios de Estado y excepcionalmente otros altos cargos cuando sean convocados",
+        "Cualquier funcionario de la Administración General del Estado",
+        "Los Directores de Gabinete por derecho propio",
+        "Los Subsecretarios de todos los Departamentos"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 5.2 dispone que a las reuniones del Consejo de Ministros podrán asistir los Secretarios de Estado y excepcionalmente otros altos cargos, cuando sean convocados para ello.",
+      "referencia": "art. 5",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00314",
+      "concepto_id": "c-7dbb826d569f",
+      "capitulo": "cap-01",
+      "tipo": "multiple-choice",
+      "dificultad": "baja",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Qué carácter tienen las deliberaciones del Consejo de Ministros?",
+      "opciones": [
+        "Son secretas",
+        "Son públicas",
+        "Son reservadas solo para los Ministros presentes",
+        "Se publican en el BOE"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 5.3 establece que las deliberaciones del Consejo de Ministros serán secretas.",
+      "referencia": "art. 5",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00315",
+      "concepto_id": "c-5e512541a2d7",
+      "capitulo": "cap-01",
+      "tipo": "multiple-choice",
+      "dificultad": "baja",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Qué carácter tienen las Comisiones Delegadas del Gobierno?",
+      "opciones": [
+        "Son órganos colegiados del Gobierno",
+        "Son órganos unipersonales del Presidente",
+        "Son órganos de apoyo del Secretariado",
+        "Son órganos consultivos del Consejo de Estado"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 6.4 califica a las Comisiones Delegadas del Gobierno como órganos colegiados del Gobierno.",
+      "referencia": "art. 6",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00316",
+      "concepto_id": "c-7d739d87d320",
+      "capitulo": "cap-01",
+      "tipo": "multiple-choice",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Cómo se acuerda la creación, modificación y supresión de las Comisiones Delegadas del Gobierno?",
+      "opciones": [
+        "Por el Consejo de Ministros mediante Real Decreto, a propuesta del Presidente del Gobierno",
+        "Por el Presidente del Gobierno por Orden Ministerial",
+        "Por el Consejo de Ministros por Acuerdo",
+        "Por ley orgánica"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 6.1 dispone que la creación, modificación y supresión de las Comisiones Delegadas del Gobierno será acordada por el Consejo de Ministros mediante Real Decreto, a propuesta del Presidente del Gobierno.",
+      "referencia": "art. 6",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00317",
+      "concepto_id": "c-975cf448cbb3",
+      "capitulo": "cap-01",
+      "tipo": "multiple-choice",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Qué debe especificar en todo caso el Real Decreto de creación de una Comisión Delegada?",
+      "opciones": [
+        "La presidencia, los integrantes, las funciones, la secretaría y el régimen interno",
+        "Únicamente las funciones y los integrantes",
+        "La presidencia y la secretaría únicamente",
+        "El presupuesto y el personal adscrito"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 6.2 enumera que el Real Decreto de creación debe especificar: el miembro del Gobierno que asume la presidencia; los miembros del Gobierno y, en su caso, Secretarios de Estado que la integran; las funciones atribuidas; el miembro al que corresponde la Secretaría; y el régimen interno de funcionamiento.",
+      "referencia": "art. 6",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00318",
+      "concepto_id": "c-73cf6138e447",
+      "capitulo": "cap-01",
+      "tipo": "multiple-choice",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Cuál de las siguientes es función de las Comisiones Delegadas del Gobierno?",
+      "opciones": [
+        "Resolver los asuntos que, afectando a más de un Ministerio, no requieran ser elevados al Consejo de Ministros",
+        "Aprobar los proyectos de ley",
+        "Declarar el estado de alarma",
+        "Nombrar a los Secretarios de Estado"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 6.4.c) atribuye a las Comisiones Delegadas resolver los asuntos que, afectando a más de un Ministerio, no requieran ser elevados al Consejo de Ministros, además de examinar cuestiones generales multi-departamentales y elaborar propuestas conjuntas.",
+      "referencia": "art. 6",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00319",
+      "concepto_id": "c-24df3d1f2ec0",
+      "capitulo": "cap-01",
+      "tipo": "multiple-choice",
+      "dificultad": "baja",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Qué carácter tienen las deliberaciones de las Comisiones Delegadas del Gobierno?",
+      "opciones": [
+        "Son secretas",
+        "Son públicas",
+        "Son reservadas solo para los Ministros",
+        "Se publican en el BOE"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 6.5 establece que las deliberaciones de las Comisiones Delegadas del Gobierno serán secretas.",
+      "referencia": "art. 6",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00320",
+      "concepto_id": "c-065fe54b02d1",
+      "capitulo": "cap-01",
+      "tipo": "multiple-choice",
+      "dificultad": "baja",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Qué son los Secretarios de Estado según el art. 7?",
+      "opciones": [
+        "Órganos superiores de la Administración General del Estado",
+        "Miembros del Gobierno",
+        "Órganos de colaboración del Consejo de Estado",
+        "Altos cargos de las Comunidades Autónomas"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 7.1 define a los Secretarios de Estado como órganos superiores de la Administración General del Estado, directamente responsables de la ejecución de la acción del Gobierno en un sector de actividad específica.",
+      "referencia": "art. 7",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00321",
+      "concepto_id": "c-46fad5d633d0",
+      "capitulo": "cap-01",
+      "tipo": "multiple-choice",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Bajo cuya dirección actúan los Secretarios de Estado adscritos a un Departamento?",
+      "opciones": [
+        "Bajo la dirección del titular del Departamento al que pertenezcan",
+        "Bajo la dirección del Vicepresidente del Gobierno",
+        "Bajo la dirección del Consejo de Ministros",
+        "Bajo la dirección del Secretariado del Gobierno"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 7.2 dispone que los Secretarios de Estado actúan bajo la dirección del titular del Departamento al que pertenezcan; cuando estén adscritos a la Presidencia del Gobierno, actúan bajo la dirección del Presidente.",
+      "referencia": "art. 7",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00322",
+      "concepto_id": "c-fee081a47568",
+      "capitulo": "cap-01",
+      "tipo": "multiple-choice",
+      "dificultad": "baja",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Quiénes integran la Comisión General de Secretarios de Estado y Subsecretarios?",
+      "opciones": [
+        "Los titulares de las Secretarías de Estado y los Subsecretarios de los distintos Departamentos Ministeriales",
+        "Los Ministros y los Secretarios de Estado",
+        "El Presidente y los Vicepresidentes",
+        "Los Subsecretarios y los Directores de Gabinete"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 8.1 establece que la Comisión General de Secretarios de Estado y Subsecretarios estará integrada por los titulares de las Secretarías de Estado y por los Subsecretarios de los distintos Departamentos Ministeriales, asistiendo también el Abogado General del Estado y otros altos cargos convocados.",
+      "referencia": "art. 8",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00323",
+      "concepto_id": "c-57ca63db2681",
+      "capitulo": "cap-01",
+      "tipo": "multiple-choice",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿A quién corresponde la Presidencia de la Comisión General de Secretarios de Estado y Subsecretarios?",
+      "opciones": [
+        "A un Vicepresidente del Gobierno o, en su defecto, al Ministro de la Presidencia",
+        "Al Presidente del Gobierno",
+        "Al Ministro de Justicia",
+        "Al Secretario de Estado de la Presidencia"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 8.2 dispone que la Presidencia de la Comisión General corresponde a un Vicepresidente del Gobierno o, en su defecto, al Ministro de la Presidencia.",
+      "referencia": "art. 8",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00324",
+      "concepto_id": "c-616d4215880c",
+      "capitulo": "cap-01",
+      "tipo": "multiple-choice",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Quién ejerce la Secretaría de la Comisión General de Secretarios de Estado y Subsecretarios?",
+      "opciones": [
+        "El Subsecretario de la Presidencia (y, en su ausencia, vacante o enfermedad, el Director del Secretariado del Gobierno)",
+        "El Director del Secretariado del Gobierno",
+        "El Abogado General del Estado",
+        "El Ministro de la Presidencia"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 8.3 establece que la Secretaría será ejercida por el Subsecretario de la Presidencia y, en caso de ausencia, vacante o enfermedad, actuará como Secretario el Director del Secretariado del Gobierno.",
+      "referencia": "art. 8",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00325",
+      "concepto_id": "c-8e4a653f1e20",
+      "capitulo": "cap-01",
+      "tipo": "multiple-choice",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Puede la Comisión General de Secretarios de Estado y Subsecretarios adoptar decisiones por delegación del Gobierno?",
+      "opciones": [
+        "No, en ningún caso",
+        "Sí, cuando lo acuerde el Consejo de Ministros",
+        "Sí, para asuntos de trámite",
+        "Solo en situaciones de urgencia"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 8.4 establece que en ningún caso la Comisión podrá adoptar decisiones o acuerdos por delegación del Gobierno; además sus deliberaciones serán reservadas.",
+      "referencia": "art. 8",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00326",
+      "concepto_id": "c-3ae99dee2f2f",
+      "capitulo": "cap-01",
+      "tipo": "multiple-choice",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Qué asuntos examina la Comisión General de Secretarios de Estado y Subsecretarios antes de su elevación al Consejo de Ministros?",
+      "opciones": [
+        "Todos los asuntos, excepto nombramientos, ceses, ascensos a oficiales generales y los urgentes",
+        "Solo los asuntos normativos",
+        "Únicamente los asuntos presupuestarios",
+        "Los nombramientos y ceses únicamente"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 8.5.a) atribuye a la Comisión el examen de todos los asuntos que vayan a someterse a aprobación del Consejo de Ministros, excepto los nombramientos, ceses, ascensos a cualquiera de los empleos de la categoría de oficiales generales y aquellos que, excepcionalmente y por razones de urgencia, deban someterse directamente al Consejo de Ministros.",
+      "referencia": "art. 8",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00327",
+      "concepto_id": "c-28c34b968f3c",
+      "capitulo": "cap-01",
+      "tipo": "multiple-choice",
+      "dificultad": "alta",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿En qué condiciones puede la Comisión General de Secretarios de Estado y Subsecretarios celebrar sesiones a distancia?",
+      "opciones": [
+        "Por medios electrónicos, con miembros en territorio español, identidad acreditada y comunicación en tiempo real",
+        "Únicamente por videoconferencia y con autorización del Consejo de Ministros",
+        "Cuando lo decida su Presidente sin más requisitos",
+        "Solo en situaciones excepcionales declaradas por el Presidente del Gobierno"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 8.6 permite que la Comisión celebre sesiones, delibere y apruebe actas a distancia por medios electrónicos, siempre que los miembros participantes se encuentren en territorio español y quede acreditada su identidad, asegurando la comunicación en tiempo real y el carácter secreto o reservado.",
+      "referencia": "art. 8",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00328",
+      "concepto_id": "c-6c10e6f4781b",
+      "capitulo": "cap-01",
+      "tipo": "multiple-choice",
+      "dificultad": "baja",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿De qué órganos es órgano de apoyo el Secretariado del Gobierno?",
+      "opciones": [
+        "Del Consejo de Ministros, de las Comisiones Delegadas del Gobierno y de la Comisión General de Secretarios de Estado y Subsecretarios",
+        "Del Presidente del Gobierno únicamente",
+        "Del Consejo de Estado",
+        "De los Gabinetes ministeriales"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 9.1 define al Secretariado del Gobierno como órgano de apoyo del Consejo de Ministros, de las Comisiones Delegadas del Gobierno y de la Comisión General de Secretarios de Estado y Subsecretarios.",
+      "referencia": "art. 9",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00329",
+      "concepto_id": "c-a18813b1de4c",
+      "capitulo": "cap-01",
+      "tipo": "multiple-choice",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Cuál de las siguientes es función del Secretariado del Gobierno como órgano de apoyo?",
+      "opciones": [
+        "Velar por la correcta y fiel publicación de las disposiciones y normas emanadas del Gobierno en el BOE",
+        "Aprobar los proyectos de ley",
+        "Nombrar a los Secretarios de Estado",
+        "Ejercer la potestad reglamentaria ministerial"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 9.1.f) atribuye al Secretariado del Gobierno velar por la correcta y fiel publicación de las disposiciones y normas emanadas del Gobierno que deban insertarse en el BOE, entre otras funciones de asistencia y archivo.",
+      "referencia": "art. 9",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00330",
+      "concepto_id": "c-a18813b1de4c",
+      "capitulo": "cap-01",
+      "tipo": "multiple-choice",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Qué trámites relativos a las leyes realiza el Secretariado del Gobierno como órgano de asistencia al Ministro de la Presidencia?",
+      "opciones": [
+        "Los trámites relativos a la sanción y promulgación real de las leyes y la expedición de los Reales Decretos",
+        "La aprobación de los proyectos de ley",
+        "La remisión de los tratados internacionales",
+        "La disolución de las Cortes Generales"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 9.2.a) atribuye al Secretariado del Gobierno, como órgano de asistencia al Ministro de la Presidencia, los trámites relativos a la sanción y promulgación real de las leyes aprobadas por las Cortes Generales y la expedición de los Reales Decretos.",
+      "referencia": "art. 9",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00331",
+      "concepto_id": "c-3c24d6f7b31f",
+      "capitulo": "cap-01",
+      "tipo": "multiple-choice",
+      "dificultad": "baja",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Qué son los Gabinetes según el art. 10?",
+      "opciones": [
+        "Órganos de apoyo político y técnico del Presidente, Vicepresidentes, Ministros y Secretarios de Estado",
+        "Órganos colegiados del Gobierno",
+        "Órganos de la Administración General del Estado con potestad resolutiva",
+        "Órganos consultivos del Consejo de Estado"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 10.1 define a los Gabinetes como órganos de apoyo político y técnico del Presidente del Gobierno, de los Vicepresidentes, de los Ministros y de los Secretarios de Estado.",
+      "referencia": "art. 10",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00332",
+      "concepto_id": "c-ab21a4cc6187",
+      "capitulo": "cap-01",
+      "tipo": "multiple-choice",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Qué limitación tienen los miembros de los Gabinetes respecto de los actos de la Administración?",
+      "opciones": [
+        "No pueden adoptar actos o resoluciones que correspondan legalmente a los órganos de la Administración General del Estado",
+        "Pueden adoptar cualquier acto administrativo",
+        "Solo pueden adoptar actos del Presidente",
+        "Pueden adoptar actos de los Ministerios a los que asesoran"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 10.1 establece que los miembros de los Gabinetes realizan tareas de confianza y asesoramiento especial sin que en ningún caso puedan adoptar actos o resoluciones que correspondan legalmente a los órganos de la Administración General del Estado o de las organizaciones adscritas a ella.",
+      "referencia": "art. 10",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00333",
+      "concepto_id": "c-5fc7767a1d34",
+      "capitulo": "cap-01",
+      "tipo": "multiple-choice",
+      "dificultad": "baja",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Cuáles son los requisitos para ser miembro del Gobierno?",
+      "opciones": [
+        "Ser español, mayor de edad, disfrutar de los derechos de sufragio activo y pasivo, no estar inhabilitado por sentencia judicial firme y reunir los requisitos de idoneidad de la Ley 3/2015",
+        "Ser español y mayor de edad únicamente",
+        "Ser español, mayor de edad y funcionario de carrera",
+        "Ser español, mayor de edad y tener título universitario"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 11 exige ser español, mayor de edad, disfrutar de los derechos de sufragio activo y pasivo, no estar inhabilitado para ejercer empleo o cargo público por sentencia judicial firme y reunir el resto de requisitos de idoneidad previstos en la Ley 3/2015.",
+      "referencia": "art. 11",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00334",
+      "concepto_id": "c-f72664aff4ab",
+      "capitulo": "cap-01",
+      "tipo": "multiple-choice",
+      "dificultad": "baja",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿En qué términos se produce el nombramiento y cese del Presidente del Gobierno?",
+      "opciones": [
+        "En los términos previstos en la Constitución",
+        "Por Real Decreto del Consejo de Ministros",
+        "Por Orden Ministerial del Ministro de la Presidencia",
+        "Por acuerdo de las Cortes Generales"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 12.1 dispone que el nombramiento y cese del Presidente del Gobierno se producirá en los términos previstos en la Constitución.",
+      "referencia": "art. 12",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00335",
+      "concepto_id": "c-d51fe2850ec9",
+      "capitulo": "cap-01",
+      "tipo": "multiple-choice",
+      "dificultad": "baja",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Quién nombra y separa a los Vicepresidentes y Ministros?",
+      "opciones": [
+        "El Rey, a propuesta del Presidente del Gobierno",
+        "El Consejo de Ministros",
+        "El Presidente del Gobierno directamente",
+        "Las Cortes Generales"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 12.2 dispone que los Vicepresidentes y Ministros serán nombrados y separados por el Rey, a propuesta del Presidente del Gobierno.",
+      "referencia": "art. 12",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00336",
+      "concepto_id": "c-d51fe2850ec9",
+      "capitulo": "cap-01",
+      "tipo": "multiple-choice",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Qué efecto tiene el nombramiento como Vicepresidente o Ministro respecto del puesto anterior?",
+      "opciones": [
+        "Conlleva el cese en el puesto que se estuviera desempeñando, salvo cuando se designe como Vicepresidente a un Ministro que conserve la titularidad del Departamento",
+        "No produce ningún efecto sobre el puesto anterior",
+        "Conlleva automáticamente la extinción del Departamento anterior",
+        "Supone la suspensión del puesto anterior"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 12.2 dispone que el nombramiento conllevará el cese en el puesto que, en su caso, se estuviera desempeñando, salvo cuando en el caso de los Vicepresidentes se designe como tal a un Ministro que conserve la titularidad del Departamento.",
+      "referencia": "art. 12",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00337",
+      "concepto_id": "c-22a958acbdf8",
+      "capitulo": "cap-01",
+      "tipo": "multiple-choice",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Qué garantiza el art. 12.2 bis en el nombramiento de Vicepresidencias y Ministerios?",
+      "opciones": [
+        "El principio de presencia equilibrada de mujeres y hombres, de forma que cada sexo suponga como mínimo el cuarenta por ciento en su conjunto",
+        "La paridad absoluta entre mujeres y hombres",
+        "Que al menos la mitad sean mujeres",
+        "Que no haya más de un 60% de un mismo sexo"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 12.2 bis garantiza el principio de presencia equilibrada de mujeres y hombres, de forma que cada uno de los sexos suponga como mínimo el cuarenta por ciento en su conjunto.",
+      "referencia": "art. 12",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00338",
+      "concepto_id": "c-d86e438a8ba7",
+      "capitulo": "cap-01",
+      "tipo": "multiple-choice",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Qué consecuencia tiene la separación de los Vicepresidentes del Gobierno?",
+      "opciones": [
+        "Lleva aparejada la extinción de dichos órganos, salvo que simultáneamente se designe otro vicepresidente en sustitución",
+        "No tiene efecto sobre los órganos",
+        "Lleva aparejada la extinción del Gobierno",
+        "Supone la continuidad de los órganos"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 12.3 dispone que la separación de los Vicepresidentes del Gobierno llevará aparejada la extinción de dichos órganos, salvo el caso en que simultáneamente se designe otro vicepresidente en sustitución del separado.",
+      "referencia": "art. 12",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00339",
+      "concepto_id": "c-b6a389cfcc81",
+      "capitulo": "cap-01",
+      "tipo": "multiple-choice",
+      "dificultad": "baja",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Cómo se regula el estatuto aplicable a los Presidentes del Gobierno tras su cese?",
+      "opciones": [
+        "Por Real Decreto",
+        "Por ley orgánica",
+        "Por Orden Ministerial",
+        "Por acuerdo del Consejo de Ministros"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 12.4 dispone que por Real Decreto se regulará el estatuto que fuera aplicable a los Presidentes del Gobierno tras su cese.",
+      "referencia": "art. 12",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00340",
+      "concepto_id": "c-27e00ba76c6f",
+      "capitulo": "cap-01",
+      "tipo": "multiple-choice",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Quién asume las funciones del Presidente del Gobierno en casos de vacante, ausencia o enfermedad?",
+      "opciones": [
+        "Los Vicepresidentes, de acuerdo con el orden de prelación, y, en defecto de ellos, los Ministros según el orden de precedencia de los Departamentos",
+        "El Ministro de la Presidencia únicamente",
+        "El Consejo de Ministros colegiadamente",
+        "El Rey designa un sustituto"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 13.1 dispone que en los casos de vacante, ausencia o enfermedad, las funciones del Presidente del Gobierno serán asumidas por los Vicepresidentes, de acuerdo con el correspondiente orden de prelación, y, en defecto de ellos, por los Ministros, según el orden de precedencia de los Departamentos.",
+      "referencia": "art. 13",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00341",
+      "concepto_id": "c-12e97b919028",
+      "capitulo": "cap-01",
+      "tipo": "multiple-choice",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Cómo se determina la suplencia de los Ministros para el despacho ordinario de los asuntos de su competencia?",
+      "opciones": [
+        "Por Real Decreto del Presidente del Gobierno, debiendo recaer en otro miembro del Gobierno",
+        "Por el propio Ministro mediante Orden",
+        "Por el Consejo de Ministros por Acuerdo",
+        "Por el Vicepresidente del Gobierno"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 13.2 dispone que la suplencia de los Ministros será determinada por Real Decreto del Presidente del Gobierno, debiendo recaer, en todo caso, en otro miembro del Gobierno, expresando la causa y el carácter de la suplencia.",
+      "referencia": "art. 13",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00342",
+      "concepto_id": "c-715a441cbf89",
+      "capitulo": "cap-01",
+      "tipo": "multiple-choice",
+      "dificultad": "baja",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Qué incompatibilidades tienen los miembros del Gobierno?",
+      "opciones": [
+        "No podrán ejercer otras funciones representativas que las del mandato parlamentario, ni otra función pública que no derive de su cargo, ni actividad profesional o mercantil",
+        "Pueden ejercer actividad profesional si no es remunerada",
+        "Pueden ejercer funciones públicas de otro Estado",
+        "Pueden ejercer actividad mercantil a título personal"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 14.1 dispone que los miembros del Gobierno no podrán ejercer otras funciones representativas que las propias del mandato parlamentario, ni cualquier otra función pública que no derive de su cargo, ni actividad profesional o mercantil alguna.",
+      "referencia": "art. 14",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00343",
+      "concepto_id": "c-be7c4afc7cd3",
+      "capitulo": "cap-01",
+      "tipo": "multiple-choice",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Cómo se nombran y separan los Secretarios de Estado?",
+      "opciones": [
+        "Por Real Decreto del Consejo de Ministros, aprobado a propuesta del Presidente del Gobierno o del miembro del Gobierno a cuyo Departamento pertenezcan",
+        "Por Orden Ministerial del Ministro titular",
+        "Por el Presidente del Gobierno directamente",
+        "Por el Rey a propuesta del Consejo de Ministros"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 15.1 dispone que los Secretarios de Estado son nombrados y separados por Real Decreto del Consejo de Ministros, aprobado a propuesta del Presidente del Gobierno o del miembro del Gobierno a cuyo Departamento pertenezcan.",
+      "referencia": "art. 15",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00344",
+      "concepto_id": "c-d3f493d2a564",
+      "capitulo": "cap-01",
+      "tipo": "multiple-choice",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Cómo se determina la suplencia de los Secretarios de Estado del mismo Departamento?",
+      "opciones": [
+        "Según el orden de precedencia que se derive del Real Decreto de estructura orgánica del Ministerio",
+        "Por decisión del Ministro titular",
+        "Por el Presidente del Gobierno",
+        "Por el Consejo de Ministros"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 15.2 establece que la suplencia de los Secretarios de Estado del mismo Departamento se determinará según el orden de precedencia que se derive del Real Decreto de estructura orgánica del Ministerio.",
+      "referencia": "art. 15",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00345",
+      "concepto_id": "c-14eae3a6db8d",
+      "capitulo": "cap-01",
+      "tipo": "multiple-choice",
+      "dificultad": "baja",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Qué régimen de incompatibilidades se aplica a los Secretarios de Estado?",
+      "opciones": [
+        "El régimen de incompatibilidades previsto para los altos cargos de la Administración General del Estado",
+        "El mismo que los miembros del Gobierno",
+        "El de los funcionarios de carrera",
+        "Ninguno"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 15.4 dispone que es de aplicación a los Secretarios de Estado el régimen de incompatibilidades previsto para los altos cargos de la Administración General del Estado.",
+      "referencia": "art. 15",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00346",
+      "concepto_id": "c-8899ce8c8d34",
+      "capitulo": "cap-01",
+      "tipo": "multiple-choice",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Cómo se nombran los Directores de Gabinete del Presidente, Vicepresidentes y Ministros?",
+      "opciones": [
+        "Por Real Decreto aprobado en Consejo de Ministros",
+        "Por Orden Ministerial del Ministro titular",
+        "Por el Presidente del Gobierno directamente",
+        "Por el Rey"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 16.1 dispone que los Directores de los Gabinetes del Presidente, de los Vicepresidentes y de los Ministros serán nombrados y separados por Real Decreto aprobado en Consejo de Ministros.",
+      "referencia": "art. 16",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00347",
+      "concepto_id": "c-8899ce8c8d34",
+      "capitulo": "cap-01",
+      "tipo": "multiple-choice",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Cómo se nombran los Directores de Gabinete de los Secretarios de Estado?",
+      "opciones": [
+        "Por Orden Ministerial, previo conocimiento del Consejo de Ministros",
+        "Por Real Decreto del Presidente",
+        "Por el Secretario de Estado directamente",
+        "Por el Consejo de Ministros por Acuerdo"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 16.2 dispone que los Directores de Gabinete de los Secretarios de Estado serán nombrados por Orden Ministerial, previo conocimiento del Consejo de Ministros.",
+      "referencia": "art. 16",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00348",
+      "concepto_id": "c-1cb8664f36c9",
+      "capitulo": "cap-01",
+      "tipo": "multiple-choice",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Qué ocurre con los Directores de Gabinete cuando cesa el titular del cargo del que dependen?",
+      "opciones": [
+        "Cesan automáticamente",
+        "Continúan en sus funciones hasta nuevo nombramiento",
+        "Pasan a servicios especiales",
+        "Son nombrados por el nuevo titular"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 16.3 dispone que los Directores de los Gabinetes cesarán automáticamente cuando cese el titular del cargo del que dependen; en el supuesto del Gobierno en funciones continuarán hasta la formación del nuevo Gobierno.",
+      "referencia": "art. 16",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00349",
+      "concepto_id": "c-7ecb61668211",
+      "capitulo": "cap-01",
+      "tipo": "multiple-choice",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿A qué situación pasan los funcionarios que se incorporan a los Gabinetes?",
+      "opciones": [
+        "A la situación de servicios especiales, salvo que opten por permanecer en servicio activo en su Administración de origen",
+        "A la situación de excedencia",
+        "A la situación de servicio activo automáticamente",
+        "A la situación de excedencia voluntaria"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 16.4 dispone que los funcionarios que se incorporen a los Gabinetes pasarán a la situación de servicios especiales, salvo que opten por permanecer en la situación de servicio activo en su Administración de origen.",
+      "referencia": "art. 16",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00350",
+      "concepto_id": "c-fc299dde4544",
+      "capitulo": "cap-01",
+      "tipo": "multiple-choice",
+      "dificultad": "baja",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Por qué normas se rige el Gobierno en su organización y funcionamiento además de la Ley 50/1997?",
+      "opciones": [
+        "Por los Reales Decretos del Presidente sobre composición y organización del Gobierno y por las disposiciones organizativas internas emanadas del Presidente o del Consejo de Ministros",
+        "Únicamente por la Constitución",
+        "Por los reglamentos del Consejo de Estado",
+        "Por las leyes orgánicas del Parlamento"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 17 dispone que el Gobierno se rige, en su organización y funcionamiento, por la presente Ley y por los Reales Decretos del Presidente del Gobierno sobre la composición y organización del Gobierno y sus órganos de colaboración y apoyo, así como por las disposiciones organizativas internas emanadas del Presidente o del Consejo de Ministros.",
+      "referencia": "art. 17",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00351",
+      "concepto_id": "c-c77886a60629",
+      "capitulo": "cap-01",
+      "tipo": "multiple-choice",
+      "dificultad": "baja",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Quién convoca y preside las reuniones del Consejo de Ministros y quién actúa como Secretario?",
+      "opciones": [
+        "Convoca y preside el Presidente del Gobierno; actúa como Secretario el Ministro de la Presidencia",
+        "Convoca el Presidente y preside el Vicepresidente; Secretario el Subsecretario de la Presidencia",
+        "Convoca y preside el Consejo de Ministros colegiadamente; Secretario el Director del Secretariado",
+        "Convoca el Ministro de la Presidencia y preside el Presidente"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 18.1 dispone que el Presidente del Gobierno convoca y preside las reuniones del Consejo de Ministros, actuando como Secretario el Ministro de la Presidencia.",
+      "referencia": "art. 18",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00352",
+      "concepto_id": "c-8ca7eb62a1fb",
+      "capitulo": "cap-01",
+      "tipo": "multiple-choice",
+      "dificultad": "baja",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Qué carácter pueden tener las reuniones del Consejo de Ministros?",
+      "opciones": [
+        "Decisorio o deliberante",
+        "Ejecutivo o legislativo",
+        "Público o secreto",
+        "Ordinario o extraordinario"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 18.2 dispone que las reuniones del Consejo de Ministros podrán tener carácter decisorio o deliberante.",
+      "referencia": "art. 18",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00353",
+      "concepto_id": "c-476ae72fbc6b",
+      "capitulo": "cap-01",
+      "tipo": "multiple-choice",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Qué debe figurar en el acta de las sesiones del Consejo de Ministros?",
+      "opciones": [
+        "Las circunstancias relativas al tiempo y lugar de celebración, la relación de asistentes, los acuerdos adoptados y los informes presentados",
+        "El contenido completo de las deliberaciones",
+        "Las opiniones de cada Ministro",
+        "Los debates internos y las votaciones individuales"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 18.4 dispone que de las sesiones se levantará acta en la que figurarán, exclusivamente, las circunstancias relativas al tiempo y lugar de su celebración, la relación de asistentes, los acuerdos adoptados y los informes presentados.",
+      "referencia": "art. 18",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00354",
+      "concepto_id": "c-d9d70419a43b",
+      "capitulo": "cap-01",
+      "tipo": "multiple-choice",
+      "dificultad": "baja",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Qué régimen se aplica a las actas de las Comisiones Delegadas del Gobierno y de la Comisión General de Secretarios de Estado y Subsecretarios?",
+      "opciones": [
+        "Lo dispuesto en el art. 18 de la Ley 50/1997",
+        "El régimen de la Ley 39/2015",
+        "El régimen del Consejo de Estado",
+        "El régimen de la Ley de Procedimiento Administrativo"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 19 dispone que a las Comisiones Delegadas del Gobierno y a la Comisión General de Secretarios de Estado y Subsecretarios les será de aplicación lo dispuesto en el art. 18 en relación con las actas de dichos órganos colegiados.",
+      "referencia": "art. 19",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00355",
+      "concepto_id": "c-bde87b790ed1",
+      "capitulo": "cap-01",
+      "tipo": "multiple-choice",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿En favor de quiénes puede delegar el ejercicio de competencias propias el Presidente del Gobierno?",
+      "opciones": [
+        "En favor del Vicepresidente o Vicepresidentes y de los Ministros",
+        "En favor de los Secretarios de Estado y Subsecretarios",
+        "En favor de los Directores de Gabinete",
+        "En favor de los Delegados del Gobierno en las Comunidades Autónomas"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 20.1.a) dispone que el Presidente del Gobierno puede delegar el ejercicio de competencias propias en favor del Vicepresidente o Vicepresidentes y de los Ministros.",
+      "referencia": "art. 20",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00356",
+      "concepto_id": "c-bde87b790ed1",
+      "capitulo": "cap-01",
+      "tipo": "multiple-choice",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿En favor de quiénes pueden delegar los Ministros el ejercicio de competencias propias?",
+      "opciones": [
+        "En favor de los Secretarios de Estado y Subsecretarios dependientes de ellos, de los Delegados del Gobierno en las Comunidades Autónomas y de los demás órganos directivos del Ministerio",
+        "En favor del Presidente del Gobierno",
+        "En favor de los Vicepresidentes",
+        "En favor de los Directores de Gabinete"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 20.1.b) dispone que los Ministros pueden delegar el ejercicio de competencias propias en favor de los Secretarios de Estado y de los Subsecretarios dependientes de ellos, de los Delegados del Gobierno en las Comunidades Autónomas y de los demás órganos directivos del Ministerio.",
+      "referencia": "art. 20",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00357",
+      "concepto_id": "c-d15e36590dba",
+      "capitulo": "cap-01",
+      "tipo": "multiple-choice",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Qué funciones administrativas del Consejo de Ministros son delegables en las Comisiones Delegadas del Gobierno?",
+      "opciones": [
+        "Las funciones administrativas del Consejo de Ministros, a propuesta del Presidente del Gobierno",
+        "Todas las funciones del Consejo de Ministros sin excepción",
+        "Solo las funciones de nombramiento",
+        "Ninguna función es delegable"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 20.2 dispone que son delegables a propuesta del Presidente del Gobierno las funciones administrativas del Consejo de Ministros en las Comisiones Delegadas del Gobierno.",
+      "referencia": "art. 20",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00358",
+      "concepto_id": "c-d1584afff3ac",
+      "capitulo": "cap-01",
+      "tipo": "multiple-choice",
+      "dificultad": "alta",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Cuáles de las siguientes competencias no son en ningún caso delegables?",
+      "opciones": [
+        "Las atribuidas directamente por la Constitución, las relativas al nombramiento y separación de altos cargos atribuidas al Consejo de Ministros, las atribuidas a los órganos colegiados (salvo delegación de funciones administrativas) y las prohibidas expresamente por ley",
+        "Todas las competencias del Presidente del Gobierno",
+        "Las competencias de los Ministros sobre sus Departamentos",
+        "Las competencias de los Secretarios de Estado"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 20.3 enumera las competencias indelegables: las atribuidas directamente por la Constitución; las relativas al nombramiento y separación de los altos cargos atribuidas al Consejo de Ministros; las atribuidas a los órganos colegiados del Gobierno, con la excepción prevista en el apartado 2; y las atribuidas por una ley que prohíba expresamente la delegación.",
+      "referencia": "art. 20",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00359",
+      "concepto_id": "c-ccae12b92073",
+      "capitulo": "cap-01",
+      "tipo": "multiple-choice",
+      "dificultad": "alta",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Cómo puede el Consejo de Ministros avocar el conocimiento de un asunto cuya decisión corresponda a las Comisiones Delegadas?",
+      "opciones": [
+        "A propuesta del Presidente del Gobierno, mediante acuerdo motivado, del que se hará mención expresa en la decisión adoptada",
+        "Por iniciativa de cualquier Ministro",
+        "Mediante Orden del Ministro de la Presidencia",
+        "Por acuerdo del Consejo de Estado"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 20.4 dispone que el Consejo de Ministros podrá avocar para sí, a propuesta del Presidente del Gobierno, el conocimiento de un asunto cuya decisión corresponda a las Comisiones Delegadas, mediante acuerdo motivado, del que se hará mención expresa en la decisión adoptada; contra el acuerdo de avocación no cabrá recurso, aunque podrá impugnarse en el que se interponga contra la decisión adoptada.",
+      "referencia": "art. 20",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00360",
+      "concepto_id": "c-754e7ae00081",
+      "capitulo": "cap-01",
+      "tipo": "multiple-choice",
+      "dificultad": "baja",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿En qué supuestos cesa el Gobierno según el art. 21?",
+      "opciones": [
+        "Tras la celebración de elecciones generales, en los casos de pérdida de confianza parlamentaria, o por dimisión o fallecimiento de su Presidente",
+        "Únicamente tras elecciones generales",
+        "Por dimisión de cualquier Ministro",
+        "Por pérdida de confianza del Senado"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 21.1 dispone que el Gobierno cesa tras la celebración de elecciones generales, en los casos de pérdida de confianza parlamentaria previstos en la Constitución, o por dimisión o fallecimiento de su Presidente.",
+      "referencia": "art. 21",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00361",
+      "concepto_id": "c-bbc50818dd6e",
+      "capitulo": "cap-01",
+      "tipo": "multiple-choice",
+      "dificultad": "baja",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Hasta cuándo continúa en funciones el Gobierno cesante?",
+      "opciones": [
+        "Hasta la toma de posesión del nuevo Gobierno",
+        "Hasta la celebración de nuevas elecciones",
+        "Hasta la dimisión del Presidente en funciones",
+        "Durante un máximo de dos meses"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 21.2 dispone que el Gobierno cesante continúa en funciones hasta la toma de posesión del nuevo Gobierno, con las limitaciones establecidas en la Ley.",
+      "referencia": "art. 21",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00362",
+      "concepto_id": "c-bbc50818dd6e",
+      "capitulo": "cap-01",
+      "tipo": "multiple-choice",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿A qué se limita la gestión del Gobierno en funciones?",
+      "opciones": [
+        "Al despacho ordinario de los asuntos públicos, absteniéndose de adoptar otras medidas salvo casos de urgencia debidamente acreditados o por razones de interés general justificadas",
+        "A la aprobación de nuevos programas",
+        "A la presentación de proyectos de ley",
+        "A la aprobación del Presupuesto"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 21.3 dispone que el Gobierno en funciones facilitará el normal desarrollo del proceso de formación del nuevo Gobierno y el traspaso de poderes, limitando su gestión al despacho ordinario de los asuntos públicos, absteniéndose de adoptar, salvo casos de urgencia debidamente acreditados o por razones de interés general cuya acreditación expresa así lo justifique, cualesquiera otras medidas.",
+      "referencia": "art. 21",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00363",
+      "concepto_id": "c-b929ed34986c",
+      "capitulo": "cap-01",
+      "tipo": "multiple-choice",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Qué facultades no puede ejercer el Presidente del Gobierno en funciones?",
+      "opciones": [
+        "Proponer al Rey la disolución de alguna de las Cámaras o de las Cortes Generales, plantear la cuestión de confianza y proponer al Rey la convocatoria de un referéndum consultivo",
+        "Aprobar los proyectos de ley",
+        "Declarar el estado de alarma",
+        "Nombrar a los Ministros"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 21.4 dispone que el Presidente del Gobierno en funciones no podrá ejercer las siguientes facultades: proponer al Rey la disolución de alguna de las Cámaras o de las Cortes Generales; plantear la cuestión de confianza; y proponer al Rey la convocatoria de un referéndum consultivo.",
+      "referencia": "art. 21",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00364",
+      "concepto_id": "c-30992766af5f",
+      "capitulo": "cap-01",
+      "tipo": "multiple-choice",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Qué facultades no puede ejercer el Gobierno en funciones?",
+      "opciones": [
+        "Aprobar el Proyecto de Ley de Presupuestos Generales del Estado y presentar proyectos de ley al Congreso de los Diputados o, en su caso, al Senado",
+        "Declarar el estado de alarma",
+        "Nombrar a los Secretarios de Estado",
+        "Aprobar reglamentos"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 21.5 dispone que el Gobierno en funciones no podrá ejercer las siguientes facultades: aprobar el Proyecto de Ley de Presupuestos Generales del Estado y presentar proyectos de ley al Congreso de los Diputados o, en su caso, al Senado.",
+      "referencia": "art. 21",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00365",
+      "concepto_id": "c-27b52a28af3e",
+      "capitulo": "cap-01",
+      "tipo": "multiple-choice",
+      "dificultad": "alta",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Qué ocurre con las delegaciones legislativas otorgadas por las Cortes Generales durante el Gobierno en funciones por elecciones generales?",
+      "opciones": [
+        "Quedan en suspenso durante todo el tiempo que el Gobierno esté en funciones",
+        "Se mantienen plenamente vigentes",
+        "Se transfieren al Congreso de los Diputados",
+        "Se suspenden únicamente por un mes"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 21.6 dispone que las delegaciones legislativas otorgadas por las Cortes Generales quedarán en suspenso durante todo el tiempo que el Gobierno esté en funciones como consecuencia de la celebración de elecciones generales.",
+      "referencia": "art. 21",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00366",
+      "concepto_id": "c-93f984df5205",
+      "capitulo": "cap-01",
+      "tipo": "multiple-choice",
+      "dificultad": "baja",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿De conformidad con qué normas ejerce el Gobierno la iniciativa legislativa y la potestad reglamentaria?",
+      "opciones": [
+        "Conforme a los principios y reglas del Título VI de la Ley 39/2015 y del Título V de la Ley 50/1997",
+        "Conforme únicamente a la Constitución",
+        "Conforme a la Ley de Procedimiento Administrativo Común de 1958",
+        "Conforme a los reglamentos del Consejo de Estado"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 22 dispone que el Gobierno ejercerá la iniciativa y la potestad reglamentaria de conformidad con los principios y reglas establecidos en el Título VI de la Ley 39/2015 y en el presente Título.",
+      "referencia": "art. 22",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00367",
+      "concepto_id": "c-a2ba38783f36",
+      "capitulo": "cap-01",
+      "tipo": "multiple-choice",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Qué fechas deben prever las disposiciones de entrada en vigor de leyes o reglamentos que impongan nuevas obligaciones a quienes desempeñen actividad económica o profesional?",
+      "opciones": [
+        "El 2 de enero o el 1 de julio siguientes a su aprobación",
+        "El 1 de enero o el 1 de julio",
+        "El día siguiente a su publicación en el BOE",
+        "A los 20 días de su publicación"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 23 dispone que tales disposiciones preverán el comienzo de su vigencia el 2 de enero o el 1 de julio siguientes a su aprobación, sin perjuicio del art. 2.1 del Código Civil.",
+      "referencia": "art. 23",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00368",
+      "concepto_id": "c-3b8d945434dd",
+      "capitulo": "cap-01",
+      "tipo": "multiple-choice",
+      "dificultad": "baja",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Qué forma revisten las decisiones del Gobierno que aprueban normas previstas en los arts. 82 y 86 de la Constitución?",
+      "opciones": [
+        "Reales Decretos Legislativos y Reales Decretos-leyes",
+        "Reales Decretos del Presidente del Gobierno",
+        "Acuerdos del Consejo de Ministros",
+        "Órdenes Ministeriales"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 24.1.a) dispone que las decisiones que aprueban, respectivamente, las normas previstas en los arts. 82 y 86 de la Constitución revisten la forma de Reales Decretos Legislativos y Reales Decretos-leyes.",
+      "referencia": "art. 24",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00369",
+      "concepto_id": "c-3b8d945434dd",
+      "capitulo": "cap-01",
+      "tipo": "multiple-choice",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Qué forma revestirán las disposiciones y resoluciones adoptadas en Comisión Delegada del Gobierno?",
+      "opciones": [
+        "Acuerdos adoptados en Comisiones Delegadas del Gobierno, que revestirán la forma de Orden del Ministro competente o del Ministro de la Presidencia",
+        "Reales Decretos del Presidente del Gobierno",
+        "Acuerdos del Consejo de Ministros",
+        "Órdenes Ministeriales directas"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 24.1.e) dispone que los acuerdos adoptados en Comisiones Delegadas del Gobierno revestirán la forma de Orden del Ministro competente o del Ministro de la Presidencia, cuando la competencia corresponda a distintos Ministros.",
+      "referencia": "art. 24",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00370",
+      "concepto_id": "c-98b2a758d508",
+      "capitulo": "cap-01",
+      "tipo": "multiple-choice",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Cuál es la jerarquía de los reglamentos según el art. 24.2?",
+      "opciones": [
+        "1º Disposiciones aprobadas por Real Decreto del Presidente o acordado en el Consejo de Ministros; 2º Disposiciones aprobadas por Orden Ministerial",
+        "1º Órdenes Ministeriales; 2º Reales Decretos",
+        "1º Acuerdos del Consejo de Ministros; 2º Reales Decretos del Presidente",
+        "1º Reales Decretos-leyes; 2º Reales Decretos legislativos"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 24.2 establece que los reglamentos se ordenan según la siguiente jerarquía: 1º Disposiciones aprobadas por Real Decreto del Presidente del Gobierno o acordado en el Consejo de Ministros; 2º Disposiciones aprobadas por Orden Ministerial.",
+      "referencia": "art. 24",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00371",
+      "concepto_id": "c-07c0cfd2e2d8",
+      "capitulo": "cap-01",
+      "tipo": "multiple-choice",
+      "dificultad": "baja",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Qué contiene el Plan Anual Normativo que aprueba el Gobierno?",
+      "opciones": [
+        "Las iniciativas legislativas o reglamentarias que vayan a ser elevadas para su aprobación en el año siguiente",
+        "El Presupuesto del Estado",
+        "La agenda parlamentaria del Congreso",
+        "El programa político del Gobierno"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 25.1 dispone que el Gobierno aprobará anualmente un Plan Normativo que contendrá las iniciativas legislativas o reglamentarias que vayan a ser elevadas para su aprobación en el año siguiente.",
+      "referencia": "art. 25",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00372",
+      "concepto_id": "c-13a47fcd3e43",
+      "capitulo": "cap-01",
+      "tipo": "multiple-choice",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Antes de qué fecha debe aprobarse el Plan Anual Normativo por el Consejo de Ministros?",
+      "opciones": [
+        "Antes del 30 de abril",
+        "Antes del 31 de diciembre",
+        "Antes del 1 de enero",
+        "Antes del 1 de julio"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 25.4 dispone que el Ministro de la Presidencia elevará el Plan al Consejo de Ministros para su aprobación antes del 30 de abril.",
+      "referencia": "art. 25",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00373",
+      "concepto_id": "c-997ffb7e2ffd",
+      "capitulo": "cap-01",
+      "tipo": "multiple-choice",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Cuál es el plazo mínimo de la consulta pública previa a la elaboración del texto de una norma?",
+      "opciones": [
+        "Quince días naturales",
+        "Quince días hábiles",
+        "Siete días naturales",
+        "Treinta días naturales"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 26.2 dispone que la consulta pública deberá realizarse de tal forma que todos los potenciales destinatarios tengan la posibilidad de emitir su opinión, proporcionando un tiempo suficiente que en ningún caso será inferior a quince días naturales.",
+      "referencia": "art. 26",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00374",
+      "concepto_id": "c-77e44924ebab",
+      "capitulo": "cap-01",
+      "tipo": "multiple-choice",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Qué documento debe elaborarse con carácter preceptivo antes de aprobar una norma?",
+      "opciones": [
+        "La Memoria del Análisis de Impacto Normativo",
+        "El dictamen del Consejo de Estado",
+        "El informe del Ministerio de Hacienda",
+        "La exposición de motivos únicamente"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 26.3 dispone que el centro directivo competente elaborará con carácter preceptivo una Memoria del Análisis de Impacto Normativo, que deberá contener los apartados establecidos en dicho precepto.",
+      "referencia": "art. 26",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00375",
+      "concepto_id": "c-b0d7f7a11690",
+      "capitulo": "cap-01",
+      "tipo": "multiple-choice",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Cuál es el plazo para la emisión de los informes preceptivos en el procedimiento de elaboración de normas?",
+      "opciones": [
+        "Diez días, o un mes cuando el informe se solicite a otra Administración o a un órgano u Organismo dotado de especial independencia o autonomía",
+        "Quince días naturales",
+        "Treinta días",
+        "Cinco días hábiles"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 26.5 dispone que, salvo que normativamente se establezca otra cosa, los informes preceptivos se emitirán en un plazo de diez días, o de un mes cuando el informe se solicite a otra Administración o a un órgano u Organismo dotado de especial independencia o autonomía.",
+      "referencia": "art. 26",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00376",
+      "concepto_id": "c-b2687bd2b521",
+      "capitulo": "cap-01",
+      "tipo": "multiple-choice",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Cuál es el plazo mínimo de la audiencia e información públicas sobre el texto de una norma?",
+      "opciones": [
+        "Quince días hábiles, reducible hasta un mínimo de siete días hábiles",
+        "Quince días naturales",
+        "Siete días naturales",
+        "Treinta días hábiles"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 26.6 dispone que el plazo mínimo de la audiencia e información públicas será de 15 días hábiles, pudiendo reducirse hasta un mínimo de siete días hábiles cuando razones debidamente motivadas así lo justifiquen.",
+      "referencia": "art. 26",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00377",
+      "concepto_id": "c-6ec7186e6e8c",
+      "capitulo": "cap-01",
+      "tipo": "multiple-choice",
+      "dificultad": "alta",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Qué ocurre si transcurridos 15 días desde la recepción de la solicitud y de los textos definitivos no se ha formulado ninguna objeción por el Ministerio de Hacienda y Función Pública?",
+      "opciones": [
+        "Se entenderá concedida la aprobación",
+        "Se entenderá denegada la aprobación",
+        "El procedimiento se paraliza",
+        "Se debe solicitar nueva aprobación"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 26.5 dispone que, cuando la propuesta normativa afecte a la organización administrativa de la AGE, a su régimen de personal, a los procedimientos y a la inspección de los servicios, será necesario recabar la aprobación previa del Ministerio de Hacienda y Función Pública; si transcurridos 15 días desde la recepción de la solicitud y de los textos definitivos no se hubiera formulado ninguna objeción, se entenderá concedida la aprobación (silencio positivo).",
+      "referencia": "art. 26",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00378",
+      "concepto_id": "c-eed4eb2afe0a",
+      "capitulo": "cap-01",
+      "tipo": "multiple-choice",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Cuándo se recabará el dictamen del Consejo de Estado en el procedimiento de elaboración de normas?",
+      "opciones": [
+        "Cuando fuera preceptivo o se considere conveniente",
+        "Siempre y en todo caso",
+        "Solo para los reglamentos",
+        "Solo para los anteproyectos de ley orgánica"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 26.7 dispone que se recabará el dictamen del Consejo de Estado u órgano consultivo equivalente cuando fuera preceptivo o se considere conveniente.",
+      "referencia": "art. 26",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00379",
+      "concepto_id": "c-d15e36590dba",
+      "capitulo": "cap-01",
+      "tipo": "multiple-choice",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Quién puede acordar la tramitación urgente del procedimiento de elaboración de iniciativas normativas?",
+      "opciones": [
+        "El Consejo de Ministros, a propuesta del titular del departamento al que corresponda la iniciativa normativa",
+        "El Presidente del Gobierno por propia iniciativa",
+        "El Ministro de la Presidencia",
+        "El Consejo de Estado"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 27.1 dispone que el Consejo de Ministros, a propuesta del titular del departamento al que corresponda la iniciativa normativa, podrá acordar la tramitación urgente en los casos previstos (transposición de directivas comunitarias o circunstancias extraordinarias).",
+      "referencia": "art. 27",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00380",
+      "concepto_id": "c-d15e36590dba",
+      "capitulo": "cap-01",
+      "tipo": "multiple-choice",
+      "dificultad": "alta",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Qué efecto tiene la tramitación urgente sobre los plazos del procedimiento de elaboración de normas?",
+      "opciones": [
+        "Los plazos se reducen a la mitad de su duración",
+        "Los plazos se duplican",
+        "Los plazos se suspenden",
+        "No se alteran los plazos"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 27.2.a) dispone que la tramitación por vía de urgencia implicará que los plazos previstos para la realización de los trámites se reducirán a la mitad de su duración.",
+      "referencia": "art. 27",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00381",
+      "concepto_id": "c-d1584afff3ac",
+      "capitulo": "cap-01",
+      "tipo": "multiple-choice",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Antes de qué fecha debe aprobar el Consejo de Ministros el informe anual de evaluación?",
+      "opciones": [
+        "Antes del 30 de abril de cada año",
+        "Antes del 31 de diciembre",
+        "Antes del 1 de enero",
+        "Antes del 1 de julio"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 28.1 dispone que el Consejo de Ministros, a propuesta del Ministerio de la Presidencia, aprobará, antes del 30 de abril de cada año, un informe anual en el que se refleje el grado de cumplimiento del Plan Anual Normativo del año anterior, entre otros aspectos.",
+      "referencia": "art. 28",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00382",
+      "concepto_id": "c-ccae12b92073",
+      "capitulo": "cap-01",
+      "tipo": "multiple-choice",
+      "dificultad": "baja",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿A qué está sujeto el Gobierno en toda su actuación?",
+      "opciones": [
+        "A la Constitución y al resto del ordenamiento jurídico",
+        "Únicamente al Presidente del Gobierno",
+        "A las Cortes Generales",
+        "Al Consejo de Estado"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 29.1 dispone que el Gobierno está sujeto a la Constitución y al resto del ordenamiento jurídico en toda su actuación.",
+      "referencia": "art. 29",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00383",
+      "concepto_id": "c-ccae12b92073",
+      "capitulo": "cap-01",
+      "tipo": "multiple-choice",
+      "dificultad": "baja",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Ante quién están sometidos al control político todos los actos y omisiones del Gobierno?",
+      "opciones": [
+        "Ante las Cortes Generales",
+        "Ante el Tribunal Constitucional",
+        "Ante el Consejo de Estado",
+        "Ante el Tribunal Supremo"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 29.2 dispone que todos los actos y omisiones del Gobierno están sometidos al control político de las Cortes Generales.",
+      "referencia": "art. 29",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00384",
+      "concepto_id": "c-ccae12b92073",
+      "capitulo": "cap-01",
+      "tipo": "multiple-choice",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Ante qué jurisdicción son impugnables los actos, la inactividad y las actuaciones materiales que constituyan vía de hecho del Gobierno?",
+      "opciones": [
+        "Ante la jurisdicción contencioso-administrativa",
+        "Ante la jurisdicción penal",
+        "Ante la jurisdicción civil",
+        "Ante el Tribunal Constitucional únicamente"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 29.3 dispone que los actos, la inactividad y las actuaciones materiales que constituyan una vía de hecho del Gobierno y de los órganos y autoridades regulados en la Ley son impugnables ante la jurisdicción contencioso-administrativa, de conformidad con su Ley reguladora.",
+      "referencia": "art. 29",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00385",
+      "concepto_id": "c-30992766af5f",
+      "capitulo": "cap-02",
+      "tipo": "multiple-choice",
+      "dificultad": "baja",
+      "origen": "ingesta-inicial",
+      "enunciado": "Según el art. 97 CE, ¿qué funciones ejerce el Gobierno?",
+      "opciones": [
+        "Ejerce únicamente la potestad legislativa",
+        "Dirige la política interior y exterior, la Administración civil y militar y la defensa del Estado; ejerce la función ejecutiva y la potestad reglamentaria",
+        "Dirige solo la política exterior y la defensa",
+        "Ejerce la función judicial y la potestad reglamentaria"
+      ],
+      "correcta": 1,
+      "explicacion": "El art. 97 CE atribuye al Gobierno la dirección de la política interior y exterior, de la Administración civil y militar y de la defensa del Estado, así como el ejercicio de la función ejecutiva y la potestad reglamentaria, de acuerdo con la Constitución y las leyes.",
+      "referencia": "art. 97 CE",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00386",
+      "concepto_id": "c-27b52a28af3e",
+      "capitulo": "cap-02",
+      "tipo": "multiple-choice",
+      "dificultad": "baja",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿De qué se compone el Gobierno según el art. 98.1 CE?",
+      "opciones": [
+        "Del Presidente y los Ministros únicamente",
+        "Del Presidente, de los Secretarios de Estado y de los Subsecretarios",
+        "Del Presidente, de los Vicepresidentes en su caso, de los Ministros y de los demás miembros que establezca la ley",
+        "Del Rey, del Presidente y de los Ministros"
+      ],
+      "correcta": 2,
+      "explicacion": "El art. 98.1 CE establece que el Gobierno se compone del Presidente, de los Vicepresidentes, en su caso, de los Ministros y de los demás miembros que establezca la ley.",
+      "referencia": "art. 98 CE",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00387",
+      "concepto_id": "c-93f984df5205",
+      "capitulo": "cap-02",
+      "tipo": "multiple-choice",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "Conforme al art. 98.2 CE, ¿cuál es la función del Presidente del Gobierno?",
+      "opciones": [
+        "Dirigir la acción del Gobierno y coordinar las funciones de los demás miembros, sin perjuicio de su competencia y responsabilidad directa",
+        "Ejercer en exclusiva la potestad legislativa",
+        "Nombrar y separar a los miembros del Gobierno sin intervención del Rey",
+        "Dirigir únicamente la política exterior"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 98.2 CE dispone que el Presidente dirige la acción del Gobierno y coordina las funciones de los demás miembros del mismo, sin perjuicio de la competencia y responsabilidad directa de éstos en su gestión.",
+      "referencia": "art. 98 CE",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00388",
+      "concepto_id": "c-27b52a28af3e",
+      "capitulo": "cap-02",
+      "tipo": "multiple-choice",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "Según el art. 98.3 CE, ¿qué incompatibilidad rige para los miembros del Gobierno?",
+      "opciones": [
+        "No podrán ser miembros de las Cortes Generales",
+        "No podrán desempeñar cargo en la Administración autonómica",
+        "No podrán ejercer actividad docente",
+        "No podrán ejercer otras funciones representativas que las propias del mandato parlamentario, ni otra función pública ni actividad profesional o mercantil"
+      ],
+      "correcta": 3,
+      "explicacion": "El art. 98.3 CE establece que los miembros del Gobierno no podrán ejercer otras funciones representativas que las propias del mandato parlamentario, ni cualquier otra función pública que no derive de su cargo, ni actividad profesional o mercantil alguna.",
+      "referencia": "art. 98 CE",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00389",
+      "concepto_id": "c-93f984df5205",
+      "capitulo": "cap-02",
+      "tipo": "multiple-choice",
+      "dificultad": "baja",
+      "origen": "ingesta-inicial",
+      "enunciado": "El art. 98.4 CE establece que:",
+      "opciones": [
+        "La ley regulará el estatuto e incompatibilidades de los miembros del Gobierno",
+        "El Rey regulará por decreto el estatuto del Gobierno",
+        "Las Cortes Generales regularán directamente el estatuto",
+        "El Gobierno se autorregulará mediante reglamento"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 98.4 CE contiene un mandato al legislador para que la ley regule el estatuto e incompatibilidades de los miembros del Gobierno.",
+      "referencia": "art. 98 CE",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00390",
+      "concepto_id": "c-a2ba38783f36",
+      "capitulo": "cap-02",
+      "tipo": "multiple-choice",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "Tras la renovación del Congreso, ¿cómo se propone el candidato a la Presidencia del Gobierno (art. 99.1)?",
+      "opciones": [
+        "El Presidente del Congreso propone directamente al candidato",
+        "El Rey, previa consulta con los representantes de los grupos políticos con representación parlamentaria, y a través del Presidente del Congreso",
+        "El Rey propone sin consulta previa",
+        "El Congreso elige al candidato por mayoría absoluta"
+      ],
+      "correcta": 1,
+      "explicacion": "El art. 99.1 CE dispone que, después de cada renovación del Congreso y en los demás supuestos constitucionales, el Rey, previa consulta con los representantes designados por los grupos políticos con representación parlamentaria, y a través del Presidente del Congreso, propondrá un candidato a la Presidencia del Gobierno.",
+      "referencia": "art. 99 CE",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00391",
+      "concepto_id": "c-3b8d945434dd",
+      "capitulo": "cap-02",
+      "tipo": "multiple-choice",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Qué mayorías se requieren para la investidura del Presidente (art. 99.3)?",
+      "opciones": [
+        "Mayoría simple en ambas votaciones",
+        "Mayoría absoluta en ambas votaciones",
+        "Mayoría absoluta en primera votación; mayoría simple en la votación 48 horas después",
+        "Mayoría de dos tercios en primera votación"
+      ],
+      "correcta": 2,
+      "explicacion": "El art. 99.3 CE establece que si el Congreso otorga su confianza por mayoría absoluta, el Rey nombrará Presidente; de no alcanzarse, se someterá la misma propuesta a nueva votación 48 horas después y la confianza se entenderá otorgada si obtuviere mayoría simple.",
+      "referencia": "art. 99 CE",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00392",
+      "concepto_id": "c-98b2a758d508",
+      "capitulo": "cap-02",
+      "tipo": "multiple-choice",
+      "dificultad": "alta",
+      "origen": "ingesta-inicial",
+      "enunciado": "Si en dos meses ningún candidato obtiene la confianza del Congreso (art. 99.5):",
+      "opciones": [
+        "El Rey nombra Presidente al candidato más votado",
+        "El Congreso se prorroga indefinidamente",
+        "Se convoca un referéndum",
+        "El Rey disuelve ambas Cámaras y convoca nuevas elecciones"
+      ],
+      "correcta": 3,
+      "explicacion": "El art. 99.5 CE dispone que si transcurrido el plazo de dos meses, a partir de la primera votación de investidura, ningún candidato hubiere obtenido la confianza del Congreso, el Rey disolverá ambas Cámaras y convocará nuevas elecciones con el refrendo del Presidente del Congreso.",
+      "referencia": "art. 99 CE",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00393",
+      "concepto_id": "c-a2ba38783f36",
+      "capitulo": "cap-02",
+      "tipo": "multiple-choice",
+      "dificultad": "alta",
+      "origen": "ingesta-inicial",
+      "enunciado": "Según el art. 99.2 CE, el candidato propuesto:",
+      "opciones": [
+        "Expone ante el Congreso el programa político del Gobierno que pretende formar y solicita la confianza de la Cámara",
+        "Jura el cargo ante el Rey antes de comparecer",
+        "Presenta el programa ante el Senado",
+        "Solicita la confianza del Rey"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 99.2 CE establece que el candidato propuesto expondrá ante el Congreso de los Diputados el programa político del Gobierno que pretenda formar y solicitará la confianza de la Cámara.",
+      "referencia": "art. 99 CE",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00394",
+      "concepto_id": "c-07c0cfd2e2d8",
+      "capitulo": "cap-02",
+      "tipo": "multiple-choice",
+      "dificultad": "baja",
+      "origen": "ingesta-inicial",
+      "enunciado": "Conforme al art. 100 CE, los demás miembros del Gobierno:",
+      "opciones": [
+        "Son elegidos por el Congreso de los Diputados",
+        "Son nombrados y separados por el Rey, a propuesta de su Presidente",
+        "Son nombrados por el Presidente sin intervención del Rey",
+        "Son designados por el Consejo de Ministros"
+      ],
+      "correcta": 1,
+      "explicacion": "El art. 100 CE dispone que los demás miembros del Gobierno serán nombrados y separados por el Rey, a propuesta de su Presidente.",
+      "referencia": "art. 100 CE",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00395",
+      "concepto_id": "c-13a47fcd3e43",
+      "capitulo": "cap-02",
+      "tipo": "multiple-choice",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Cuándo cesa el Gobierno según el art. 101.1 CE?",
+      "opciones": [
+        "Únicamente por dimisión del Presidente",
+        "Solo tras elecciones generales",
+        "Por decisión del Rey",
+        "Tras la celebración de elecciones generales, en los casos de pérdida de la confianza parlamentaria, o por dimisión o fallecimiento de su Presidente"
+      ],
+      "correcta": 3,
+      "explicacion": "El art. 101.1 CE establece que el Gobierno cesa tras la celebración de elecciones generales, en los casos de pérdida de la confianza parlamentaria previstos en la Constitución, o por dimisión o fallecimiento de su Presidente.",
+      "referencia": "art. 101 CE",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00396",
+      "concepto_id": "c-13a47fcd3e43",
+      "capitulo": "cap-02",
+      "tipo": "multiple-choice",
+      "dificultad": "baja",
+      "origen": "ingesta-inicial",
+      "enunciado": "El Gobierno cesante (art. 101.2 CE):",
+      "opciones": [
+        "Continúa en funciones hasta la toma de posesión del nuevo Gobierno",
+        "Cesa de inmediato todas sus funciones",
+        "Puede aprobar nuevos proyectos de ley",
+        "Disuelve las Cortes"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 101.2 CE dispone que el Gobierno cesante continuará en funciones hasta la toma de posesión del nuevo Gobierno.",
+      "referencia": "art. 101 CE",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00397",
+      "concepto_id": "c-997ffb7e2ffd",
+      "capitulo": "cap-02",
+      "tipo": "multiple-choice",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "La responsabilidad criminal del Presidente y demás miembros del Gobierno se exige (art. 102.1):",
+      "opciones": [
+        "Ante la Sala de lo Penal del Tribunal Supremo",
+        "Ante el Tribunal Constitucional",
+        "Ante la Audiencia Nacional",
+        "Ante el Tribunal de Cuentas"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 102.1 CE establece que la responsabilidad criminal del Presidente y los demás miembros del Gobierno será exigible, en su caso, ante la Sala de lo Penal del Tribunal Supremo.",
+      "referencia": "art. 102 CE",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00398",
+      "concepto_id": "c-997ffb7e2ffd",
+      "capitulo": "cap-02",
+      "tipo": "multiple-choice",
+      "dificultad": "alta",
+      "origen": "ingesta-inicial",
+      "enunciado": "Si la acusación es por traición o delito contra la seguridad del Estado (art. 102.2):",
+      "opciones": [
+        "Puede plantearla cualquier diputado",
+        "Requiere autorización del Rey",
+        "Solo puede plantearse por iniciativa de la cuarta parte de los miembros del Congreso y con aprobación de la mayoría absoluta del mismo",
+        "Se tramita ante el Senado"
+      ],
+      "correcta": 2,
+      "explicacion": "El art. 102.2 CE dispone que si la acusación fuere por traición o por cualquier delito contra la seguridad del Estado en el ejercicio de sus funciones, sólo podrá ser planteada por iniciativa de la cuarta parte de los miembros del Congreso, y con la aprobación de la mayoría absoluta del mismo.",
+      "referencia": "art. 102 CE",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00399",
+      "concepto_id": "c-997ffb7e2ffd",
+      "capitulo": "cap-02",
+      "tipo": "multiple-choice",
+      "dificultad": "alta",
+      "origen": "ingesta-inicial",
+      "enunciado": "Según el art. 102.3 CE, la prerrogativa real de gracia:",
+      "opciones": [
+        "Será aplicable si lo aprueba el Consejo de Ministros",
+        "No será aplicable a ninguno de los supuestos del artículo",
+        "Será aplicable en casos de traición",
+        "Se aplicará únicamente al Presidente"
+      ],
+      "correcta": 1,
+      "explicacion": "El art. 102.3 CE establece que la prerrogativa real de gracia no será aplicable a ninguno de los supuestos del presente artículo.",
+      "referencia": "art. 102 CE",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00400",
+      "concepto_id": "c-77e44924ebab",
+      "capitulo": "cap-02",
+      "tipo": "multiple-choice",
+      "dificultad": "baja",
+      "origen": "ingesta-inicial",
+      "enunciado": "Según el art. 103.1 CE, la Administración Pública sirve con objetividad los intereses generales y actúa conforme a los principios de:",
+      "opciones": [
+        "Legalidad, igualdad, mérito y capacidad",
+        "Autonomía, independencia y transparencia",
+        "Eficacia, jerarquía, descentralización, desconcentración y coordinación, con sometimiento pleno a la ley y al Derecho",
+        "Separación de poderes y control judicial"
+      ],
+      "correcta": 2,
+      "explicacion": "El art. 103.1 CE establece que la Administración Pública sirve con objetividad los intereses generales y actúa de acuerdo con los principios de eficacia, jerarquía, descentralización, desconcentración y coordinación, con sometimiento pleno a la ley y al Derecho.",
+      "referencia": "art. 103 CE",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00401",
+      "concepto_id": "c-77e44924ebab",
+      "capitulo": "cap-02",
+      "tipo": "multiple-choice",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "Los órganos de la Administración del Estado (art. 103.2 CE):",
+      "opciones": [
+        "Son creados, regidos y coordinados de acuerdo con la ley",
+        "Son creados por el Rey mediante decreto",
+        "Se rigen por reglamento del Gobierno",
+        "Son independientes del Gobierno"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 103.2 CE dispone que los órganos de la Administración del Estado son creados, regidos y coordinados de acuerdo con la ley.",
+      "referencia": "art. 103 CE",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00402",
+      "concepto_id": "c-77e44924ebab",
+      "capitulo": "cap-02",
+      "tipo": "multiple-choice",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "El art. 103.3 CE dispone que la ley regulará el acceso a la función pública de acuerdo con los principios de:",
+      "opciones": [
+        "Antigüedad y confianza",
+        "Mérito y capacidad",
+        "Libre designación y concurso",
+        "Igualdad y publicidad"
+      ],
+      "correcta": 1,
+      "explicacion": "El art. 103.3 CE establece que la ley regulará el estatuto de los funcionarios públicos, el acceso a la función pública de acuerdo con los principios de mérito y capacidad, las peculiaridades del ejercicio de su derecho a sindicación, el sistema de incompatibilidades y las garantías para la imparcialidad en el ejercicio de sus funciones.",
+      "referencia": "art. 103 CE",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00403",
+      "concepto_id": "c-b0d7f7a11690",
+      "capitulo": "cap-02",
+      "tipo": "multiple-choice",
+      "dificultad": "baja",
+      "origen": "ingesta-inicial",
+      "enunciado": "Conforme al art. 104.1 CE, las Fuerzas y Cuerpos de seguridad:",
+      "opciones": [
+        "Dependen del Congreso de los Diputados",
+        "Tienen misión exclusivamente militar",
+        "Bajo la dependencia del Gobierno, tienen como misión proteger el libre ejercicio de los derechos y libertades y garantizar la seguridad ciudadana",
+        "Dependen de las Comunidades Autónomas"
+      ],
+      "correcta": 2,
+      "explicacion": "El art. 104.1 CE establece que las Fuerzas y Cuerpos de seguridad, bajo la dependencia del Gobierno, tendrán como misión proteger el libre ejercicio de los derechos y libertades y garantizar la seguridad ciudadana.",
+      "referencia": "art. 104 CE",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00404",
+      "concepto_id": "c-b0d7f7a11690",
+      "capitulo": "cap-02",
+      "tipo": "multiple-choice",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "Una ley orgánica determinará (art. 104.2 CE):",
+      "opciones": [
+        "El presupuesto de las Fuerzas Armadas",
+        "Las funciones, principios básicos de actuación y estatutos de las Fuerzas y Cuerpos de seguridad",
+        "La composición del Consejo de Estado",
+        "El régimen de incompatibilidades del Gobierno"
+      ],
+      "correcta": 1,
+      "explicacion": "El art. 104.2 CE dispone que una ley orgánica determinará las funciones, principios básicos de actuación y estatutos de las Fuerzas y Cuerpos de seguridad.",
+      "referencia": "art. 104 CE",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00405",
+      "concepto_id": "c-b2687bd2b521",
+      "capitulo": "cap-02",
+      "tipo": "multiple-choice",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "El art. 105.a CE prevé la regulación por ley de:",
+      "opciones": [
+        "La audiencia de los ciudadanos en el procedimiento de elaboración de las disposiciones administrativas que les afecten",
+        "El acceso irrestricto a todos los archivos administrativos",
+        "La potestad reglamentaria del Gobierno",
+        "El control judicial de la Administración"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 105.a CE establece que la ley regulará la audiencia de los ciudadanos, directamente o a través de las organizaciones y asociaciones reconocidas por la ley, en el procedimiento de elaboración de las disposiciones administrativas que les afecten.",
+      "referencia": "art. 105 CE",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00406",
+      "concepto_id": "c-b2687bd2b521",
+      "capitulo": "cap-02",
+      "tipo": "multiple-choice",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "El acceso de los ciudadanos a los archivos y registros administrativos (art. 105.b) se limita en lo que afecte a:",
+      "opciones": [
+        "La transparencia económica y el secreto profesional",
+        "La seguridad y defensa del Estado, la averiguación de los delitos y la intimidad de las personas",
+        "El honor y la imagen",
+        "La protección de datos y la propiedad intelectual"
+      ],
+      "correcta": 1,
+      "explicacion": "El art. 105.b CE dispone que la ley regulará el acceso de los ciudadanos a los archivos y registros administrativos, salvo en lo que afecte a la seguridad y defensa del Estado, la averiguación de los delitos y la intimidad de las personas.",
+      "referencia": "art. 105 CE",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00407",
+      "concepto_id": "c-b2687bd2b521",
+      "capitulo": "cap-02",
+      "tipo": "multiple-choice",
+      "dificultad": "baja",
+      "origen": "ingesta-inicial",
+      "enunciado": "El art. 105.c CE regula:",
+      "opciones": [
+        "La potestad sancionadora de la Administración",
+        "El recurso de alzada",
+        "El procedimiento a través del cual deben producirse los actos administrativos, garantizando la audiencia del interesado cuando proceda",
+        "La responsabilidad patrimonial"
+      ],
+      "correcta": 2,
+      "explicacion": "El art. 105.c CE establece que la ley regulará el procedimiento a través del cual deben producirse los actos administrativos, garantizando, cuando proceda, la audiencia del interesado.",
+      "referencia": "art. 105 CE",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00408",
+      "concepto_id": "c-6ec7186e6e8c",
+      "capitulo": "cap-02",
+      "tipo": "multiple-choice",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "Conforme al art. 106.1 CE, los Tribunales:",
+      "opciones": [
+        "Ejercen la función ejecutiva",
+        "Aprueban los reglamentos del Gobierno",
+        "Nombran a los funcionarios públicos",
+        "Controlan la potestad reglamentaria y la legalidad de la actuación administrativa, así como su sometimiento a los fines que la justifican"
+      ],
+      "correcta": 3,
+      "explicacion": "El art. 106.1 CE dispone que los Tribunales controlan la potestad reglamentaria y la legalidad de la actuación administrativa, así como el sometimiento de ésta a los fines que la justifican.",
+      "referencia": "art. 106 CE",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00409",
+      "concepto_id": "c-6ec7186e6e8c",
+      "capitulo": "cap-02",
+      "tipo": "multiple-choice",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "El derecho a indemnización por lesión consecuencia del funcionamiento de los servicios públicos (art. 106.2) se excluye en casos de:",
+      "opciones": [
+        "Fuerza mayor",
+        "Negligencia del particular",
+        "Falta de autorización administrativa",
+        "Prescripción"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 106.2 CE establece que los particulares tendrán derecho a ser indemnizados por toda lesión que sufran en cualquiera de sus bienes y derechos, salvo en los casos de fuerza mayor, siempre que la lesión sea consecuencia del funcionamiento de los servicios públicos.",
+      "referencia": "art. 106 CE",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00410",
+      "concepto_id": "c-6ec7186e6e8c",
+      "capitulo": "cap-02",
+      "tipo": "multiple-choice",
+      "dificultad": "alta",
+      "origen": "ingesta-inicial",
+      "enunciado": "Según el art. 106.2 CE, los particulares tendrán derecho a ser indemnizados:",
+      "opciones": [
+        "Únicamente por daños en bienes inmuebles",
+        "Por toda lesión que sufran en cualquiera de sus bienes y derechos, salvo casos de fuerza mayor, si la lesión es consecuencia del funcionamiento de los servicios públicos",
+        "Solo si la lesión es dolosa",
+        "Solo cuando medie sentencia condenatoria"
+      ],
+      "correcta": 1,
+      "explicacion": "El art. 106.2 CE reconoce a los particulares el derecho a ser indemnizados por toda lesión que sufran en cualquiera de sus bienes y derechos, salvo en los casos de fuerza mayor, siempre que la lesión sea consecuencia del funcionamiento de los servicios públicos.",
+      "referencia": "art. 106 CE",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00411",
+      "concepto_id": "c-eed4eb2afe0a",
+      "capitulo": "cap-02",
+      "tipo": "multiple-choice",
+      "dificultad": "baja",
+      "origen": "ingesta-inicial",
+      "enunciado": "El art. 107 CE establece que el Consejo de Estado es:",
+      "opciones": [
+        "Un órgano jurisdiccional superior",
+        "El órgano que aprueba los reglamentos",
+        "El supremo órgano consultivo del Gobierno, cuya composición y competencia regula una ley orgánica",
+        "El organismo que controla los presupuestos"
+      ],
+      "correcta": 2,
+      "explicacion": "El art. 107 CE establece que el Consejo de Estado es el supremo órgano consultivo del Gobierno y que una ley orgánica regulará su composición y competencia.",
+      "referencia": "art. 107 CE",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00412",
+      "concepto_id": "c-eed4eb2afe0a",
+      "capitulo": "cap-02",
+      "tipo": "multiple-choice",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "La composición y competencia del Consejo de Estado se regulan por:",
+      "opciones": [
+        "Una ley orgánica",
+        "Un real decreto del Gobierno",
+        "El reglamento del Congreso",
+        "Una ley ordinaria del Parlamento"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 107 CE dispone que una ley orgánica regulará la composición y competencia del Consejo de Estado.",
+      "referencia": "art. 107 CE",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00413",
+      "concepto_id": "c-3b8d945434dd",
+      "capitulo": "cap-02",
+      "tipo": "multiple-choice",
+      "dificultad": "alta",
+      "origen": "ingesta-inicial",
+      "enunciado": "El plazo de dos meses para la investidura (art. 99.5) se cuenta desde:",
+      "opciones": [
+        "La primera votación de investidura",
+        "La propuesta del Rey",
+        "La renovación del Congreso",
+        "La convocatoria de elecciones"
+      ],
+      "correcta": 0,
+      "explicacion": "El art. 99.5 CE señala que si transcurrido el plazo de dos meses, a partir de la primera votación de investidura, ningún candidato hubiere obtenido la confianza del Congreso, el Rey disolverá ambas Cámaras.",
+      "referencia": "art. 99 CE",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "p-00414",
+      "concepto_id": "c-98b2a758d508",
+      "capitulo": "cap-02",
+      "tipo": "multiple-choice",
+      "dificultad": "alta",
+      "origen": "ingesta-inicial",
+      "enunciado": "Si no se otorga la confianza en las votaciones (art. 99.4):",
+      "opciones": [
+        "El Rey disuelve inmediatamente las Cámaras",
+        "Se nombra Presidente al candidato con más votos",
+        "Se tramitarán sucesivas propuestas en la forma prevista",
+        "Se convoca un referéndum"
+      ],
+      "correcta": 2,
+      "explicacion": "El art. 99.4 CE dispone que si efectuadas las citadas votaciones no se otorgase la confianza para la investidura, se tramitarán sucesivas propuestas en la forma prevista en los apartados anteriores.",
+      "referencia": "art. 99 CE",
+      "verificado": false,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "pendiente-examen-tai-2018-t04",
+      "concepto_id": null,
+      "capitulo": null,
+      "tipo": null,
+      "dificultad": null,
+      "origen": null,
+      "enunciado": "Según lo establecido en el artículo 98 de la Constitución:",
+      "opciones": [
+        "El Gobierno se compone del Presidente, de los Vicepresidentes, en su caso, de los Ministros y de los Secretarios de Estado y de los demás miembros que establezca la ley.",
+        "El Gobierno se compone del Presidente, de los Vicepresidentes, de los Ministros, de los Secretarios de Estado y de los demás miembros que establezca la ley.",
+        "El Gobierno se compone del Presidente, de los Ministros, de los Secretarios de Estado y de los demás miembros que establezca la ley.",
+        "El Gobierno se compone del Presidente, de los Vicepresidentes, en su caso, de los Ministros y de los demás miembros que establezca la ley."
+      ],
+      "correcta": 3,
+      "explicacion": null,
+      "referencia": null,
+      "verificado": true,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "pendiente-examen-tai-2018-t05",
+      "concepto_id": null,
+      "capitulo": null,
+      "tipo": null,
+      "dificultad": null,
+      "origen": null,
+      "enunciado": "Señale cuál de las siguientes NO es una causa de cese del Gobierno conforme al artículo 101 de la Constitución:",
+      "opciones": [
+        "Tras la celebración de elecciones generales.",
+        "En los casos de pérdida de la confianza parlamentaria previstos en la Constitución.",
+        "Por presentación de una moción de censura.",
+        "Por dimisión o fallecimiento de su Presidente."
+      ],
+      "correcta": 2,
+      "explicacion": null,
+      "referencia": null,
+      "verificado": true,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "pendiente-examen-tai-2021-t05",
+      "concepto_id": null,
+      "capitulo": null,
+      "tipo": null,
+      "dificultad": null,
+      "origen": null,
+      "enunciado": "Según se expone en el artículo 113 de la Constitución Española, la moción de censura deberá ser propuesta por:",
+      "opciones": [
+        "Al menos la décima parte de los Diputados.",
+        "Al menos un veinte por ciento de los Diputados.",
+        "Al menos la décima parte de cada una de las Cámaras.",
+        "Al menos 20 Diputados y 20 Senadores."
+      ],
+      "correcta": 0,
+      "explicacion": null,
+      "referencia": null,
+      "verificado": true,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "pendiente-examen-tai-2023-t04",
+      "concepto_id": null,
+      "capitulo": null,
+      "tipo": null,
+      "dificultad": null,
+      "origen": null,
+      "enunciado": "Según el artículo 18 de la ley 50/1997, de 27 de noviembre, del Gobierno que regula el funcionamiento del Consejo de Ministros, ¿quién actúa como Secretario de este órgano colegiado?",
+      "opciones": [
+        "El Vicepresidente Primero.",
+        "El Ministro portavoz del Gobierno.",
+        "El Ministro de la Presidencia.",
+        "El Ministro de Justicia."
+      ],
+      "correcta": 2,
+      "explicacion": null,
+      "referencia": null,
+      "verificado": true,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "pendiente-examen-tai-2024-modelo-a-t08",
+      "concepto_id": null,
+      "capitulo": null,
+      "tipo": null,
+      "dificultad": null,
+      "origen": null,
+      "enunciado": "El Gobierno se rige, en su organización y funcionamiento, entre otras, por la Ley:",
+      "opciones": [
+        "Ley 50/1997, de 27 de noviembre.",
+        "Ley 50/1999, de 26 de noviembre.",
+        "Ley 50/1996, de 28 de noviembre.",
+        "Ley 50/1998, de 29 de noviembre."
+      ],
+      "correcta": 0,
+      "explicacion": null,
+      "referencia": null,
+      "verificado": true,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "pendiente-examen-tai-2024-modelo-a-t09",
+      "concepto_id": null,
+      "capitulo": null,
+      "tipo": null,
+      "dificultad": null,
+      "origen": null,
+      "enunciado": "La Constitución Española de 1978 en su artículo 113 establece que:",
+      "opciones": [
+        "El Congreso de los Diputados puede exigir la responsabilidad jurídica del Gobierno mediante la adopción por mayoría absoluta de la moción de censura.",
+        "El Congreso de los Diputados puede exigir la responsabilidad política del Gobierno mediante la adopción por mayoría simple de la moción de censura.",
+        "El Congreso de los Diputados puede exigir la responsabilidad civil del Gobierno mediante la adopción por mayoría absoluta de la moción de censura.",
+        "El Congreso de los Diputados puede exigir la responsabilidad política del Gobierno mediante la adopción por mayoría absoluta de la moción de censura."
+      ],
+      "correcta": 3,
+      "explicacion": null,
+      "referencia": null,
+      "verificado": true,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "pendiente-examen-tai-2024-modelo-b-t10",
+      "concepto_id": null,
+      "capitulo": null,
+      "tipo": null,
+      "dificultad": null,
+      "origen": null,
+      "enunciado": "La Constitución Española de 1978 en su artículo 113 establece que:",
+      "opciones": [
+        "El Congreso de los Diputados puede exigir la responsabilidad jurídica del Gobierno mediante la adopción por mayoría absoluta de la moción de censura.",
+        "El Congreso de los Diputados puede exigir la responsabilidad política del Gobierno mediante la adopción por mayoría simple de la moción de censura.",
+        "El Congreso de los Diputados puede exigir la responsabilidad civil del Gobierno mediante la adopción por mayoría absoluta de la moción de censura.",
+        "El Congreso de los Diputados puede exigir la responsabilidad política del Gobierno mediante la adopción por mayoría absoluta de la moción de censura."
+      ],
+      "correcta": 3,
+      "explicacion": null,
+      "referencia": null,
+      "verificado": true,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "pendiente-examen-tai-2024-modelo-b-t11",
+      "concepto_id": null,
+      "capitulo": null,
+      "tipo": null,
+      "dificultad": null,
+      "origen": null,
+      "enunciado": "El Gobierno se rige, en su organización y funcionamiento, entre otras, por la Ley:",
+      "opciones": [
+        "Ley 50/1997, de 27 de noviembre.",
+        "Ley 50/1999, de 26 de noviembre.",
+        "Ley 50/1996, de 28 de noviembre.",
+        "Ley 50/1998, de 29 de noviembre."
+      ],
+      "correcta": 0,
+      "explicacion": null,
+      "referencia": null,
+      "verificado": true,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "pendiente-examen-tai-2025-modelo-a-t08",
+      "concepto_id": null,
+      "capitulo": null,
+      "tipo": null,
+      "dificultad": null,
+      "origen": null,
+      "enunciado": "El Gobierno se rige, en su organización y funcionamiento, entre otras, por la Ley:",
+      "opciones": [
+        "Ley 50/1997, de 27 de noviembre.",
+        "Ley 50/1999, de 26 de noviembre.",
+        "Ley 50/1996, de 28 de noviembre.",
+        "Ley 50/1998, de 29 de noviembre."
+      ],
+      "correcta": 0,
+      "explicacion": null,
+      "referencia": null,
+      "verificado": true,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "pendiente-examen-tai-2025-modelo-a-t09",
+      "concepto_id": null,
+      "capitulo": null,
+      "tipo": null,
+      "dificultad": null,
+      "origen": null,
+      "enunciado": "La Constitución Española de 1978 en su artículo 113 establece que:",
+      "opciones": [
+        "El Congreso de los Diputados puede exigir la responsabilidad jurídica del Gobierno mediante la adopción por mayoría absoluta de la moción de censura.",
+        "El Congreso de los Diputados puede exigir la responsabilidad política del Gobierno mediante la adopción por mayoría simple de la moción de censura.",
+        "El Congreso de los Diputados puede exigir la responsabilidad civil del Gobierno mediante la adopción por mayoría absoluta de la moción de censura.",
+        "El Congreso de los Diputados puede exigir la responsabilidad política del Gobierno mediante la adopción por mayoría absoluta de la moción de censura."
+      ],
+      "correcta": 3,
+      "explicacion": null,
+      "referencia": null,
+      "verificado": true,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "pendiente-examen-tai-2025-modelo-b-t10",
+      "concepto_id": null,
+      "capitulo": null,
+      "tipo": null,
+      "dificultad": null,
+      "origen": null,
+      "enunciado": "La Constitución Española de 1978 en su artículo 113 establece que:",
+      "opciones": [
+        "El Congreso de los Diputados puede exigir la responsabilidad jurídica del Gobierno mediante la adopción por mayoría absoluta de la moción de censura.",
+        "El Congreso de los Diputados puede exigir la responsabilidad política del Gobierno mediante la adopción por mayoría simple de la moción de censura.",
+        "El Congreso de los Diputados puede exigir la responsabilidad civil del Gobierno mediante la adopción por mayoría absoluta de la moción de censura.",
+        "El Congreso de los Diputados puede exigir la responsabilidad política del Gobierno mediante la adopción por mayoría absoluta de la moción de censura."
+      ],
+      "correcta": 3,
+      "explicacion": null,
+      "referencia": null,
+      "verificado": true,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "pendiente-examen-tai-2025-modelo-b-t11",
+      "concepto_id": null,
+      "capitulo": null,
+      "tipo": null,
+      "dificultad": null,
+      "origen": null,
+      "enunciado": "El Gobierno se rige, en su organización y funcionamiento, entre otras, por la Ley:",
+      "opciones": [
+        "Ley 50/1997, de 27 de noviembre.",
+        "Ley 50/1999, de 26 de noviembre.",
+        "Ley 50/1996, de 28 de noviembre.",
+        "Ley 50/1998, de 29 de noviembre."
+      ],
+      "correcta": 0,
+      "explicacion": null,
+      "referencia": null,
+      "verificado": true,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "pendiente-examen-tai-2026-modelo-a-t05",
+      "concepto_id": null,
+      "capitulo": null,
+      "tipo": null,
+      "dificultad": null,
+      "origen": null,
+      "enunciado": "Conforme al artículo 21 de la Ley 50/1997, de 27 de noviembre, del Gobierno, ¿cuál de las siguientes opciones es una función del Gobierno en funciones?",
+      "opciones": [
+        "Aprobar el Proyecto de Ley de Presupuestos Generales del Estado.",
+        "Presentar Proyectos de Ley al Congreso de los Diputados.",
+        "Proponer al Rey la disolución del Congreso de los Diputados.",
+        "Limitar su gestión al despacho ordinario de los asuntos públicos."
+      ],
+      "correcta": 3,
+      "explicacion": null,
+      "referencia": null,
+      "verificado": true,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "pendiente-examen-tai-2026-modelo-a-t06",
+      "concepto_id": null,
+      "capitulo": null,
+      "tipo": null,
+      "dificultad": null,
+      "origen": null,
+      "enunciado": "Según establece el artículo 99 de la Constitución Española de 1978 que regula el proceso de investidura del Presidente del Gobierno, ¿qué mayoría se exige en la primera votación?",
+      "opciones": [
+        "Mayoría simple del Congreso de los Diputados.",
+        "Mayoría absoluta del Congreso de los Diputados.",
+        "Mayoría absoluta del Senado.",
+        "Mayoría de dos tercios del Congreso de los Diputados."
+      ],
+      "correcta": 1,
+      "explicacion": null,
+      "referencia": null,
+      "verificado": true,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "pendiente-examen-tai-2026-modelo-b-t05",
+      "concepto_id": null,
+      "capitulo": null,
+      "tipo": null,
+      "dificultad": null,
+      "origen": null,
+      "enunciado": "Según establece el artículo 99 de la Constitución Española de 1978 que regula el proceso de investidura del Presidente del Gobierno, ¿qué mayoría se exige en la primera votación?",
+      "opciones": [
+        "Mayoría simple del Congreso de los Diputados.",
+        "Mayoría absoluta del Congreso de los Diputados.",
+        "Mayoría absoluta del Senado.",
+        "Mayoría de dos tercios del Congreso de los Diputados."
+      ],
+      "correcta": 1,
+      "explicacion": null,
+      "referencia": null,
+      "verificado": true,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "pendiente-examen-tai-2026-modelo-b-t06",
+      "concepto_id": null,
+      "capitulo": null,
+      "tipo": null,
+      "dificultad": null,
+      "origen": null,
+      "enunciado": "Conforme al artículo 21 de la Ley 50/1997, de 27 de noviembre, del Gobierno, ¿cuál de las siguientes opciones es una función del Gobierno en funciones?",
+      "opciones": [
+        "Aprobar el Proyecto de Ley de Presupuestos Generales del Estado.",
+        "Presentar Proyectos de Ley al Congreso de los Diputados.",
+        "Proponer al Rey la disolución del Congreso de los Diputados.",
+        "Limitar su gestión al despacho ordinario de los asuntos públicos."
+      ],
+      "correcta": 3,
+      "explicacion": null,
+      "referencia": null,
+      "verificado": true,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "pendiente-examen-tai-2026-modelo-c-t06",
+      "concepto_id": null,
+      "capitulo": null,
+      "tipo": null,
+      "dificultad": null,
+      "origen": null,
+      "enunciado": "Según el artículo 101 de la Constitución Española de 1978, ¿cuál es causa de cese del Gobierno?",
+      "opciones": [
+        "Por dimisión de cualquier Ministro.",
+        "Por dimisión de su Presidente.",
+        "Por dimisión de un Vicepresidente.",
+        "Por dimisión de un tercio de sus miembros."
+      ],
+      "correcta": 1,
+      "explicacion": null,
+      "referencia": null,
+      "verificado": true,
+      "fecha_alta": "2026-10-30"
+    },
+    {
+      "id": "pendiente-examen-tai-2026-modelo-c-t07",
+      "concepto_id": null,
+      "capitulo": null,
+      "tipo": null,
+      "dificultad": null,
+      "origen": null,
+      "enunciado": "Según establece el artículo 18 de la ley 50/1997, de 27 de noviembre, del Gobierno, que regula el funcionamiento del Consejo de Ministros, ¿quién actúa como Secretario de este órgano colegiado?",
+      "opciones": [
+        "El Vicepresidente Primero.",
+        "El Ministro portavoz del Gobierno.",
+        "El Ministro de la Presidencia.",
+        "El Ministro de Justicia."
+      ],
+      "correcta": 2,
+      "explicacion": null,
+      "referencia": null,
+      "verificado": true,
+      "fecha_alta": "2026-10-30"
+    }
+  ]
+}

@@ -128,7 +128,8 @@ CREATE TABLE conceptos (
     articulo TEXT,
     tags TEXT,
     verificado BOOLEAN DEFAULT 0,
-    es_semilla BOOLEAN DEFAULT 0
+    es_semilla BOOLEAN DEFAULT 0,
+    es_core BOOLEAN DEFAULT 0
 );
 
 CREATE INDEX idx_conceptos_tipo ON conceptos(tipo);
@@ -144,6 +145,28 @@ CREATE TABLE concepto_temas (
 CREATE INDEX idx_ct_concepto ON concepto_temas(concepto_id);
 CREATE INDEX idx_ct_tema ON concepto_temas(tema_id);
 CREATE INDEX idx_ct_principal ON concepto_temas(es_principal);
+
+-- ============================================================
+-- CONCEPTOS CANDIDATOS (granularidad fina, pendientes de promoción)
+-- ============================================================
+CREATE TABLE conceptos_candidatos (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    tema_id TEXT NOT NULL REFERENCES temas(id),
+    nombre TEXT NOT NULL,
+    descripcion TEXT,
+    n_fragmentos INTEGER DEFAULT 0,
+    fragmento_ids TEXT DEFAULT '[]',
+    estado TEXT NOT NULL DEFAULT 'pendiente',
+    primera_aparicion TEXT NOT NULL,
+    ultima_actualizacion TEXT NOT NULL,
+    concepto_promovido_id TEXT REFERENCES conceptos(id),
+    UNIQUE(tema_id, nombre)
+);
+
+CREATE INDEX idx_cand_tema ON conceptos_candidatos(tema_id);
+CREATE INDEX idx_cand_estado ON conceptos_candidatos(estado);
+CREATE INDEX idx_cand_n_frag ON conceptos_candidatos(n_fragmentos);
+
 
 -- ============================================================
 -- CONTENIDO: PREGUNTAS
@@ -2414,6 +2437,1394 @@ def cmd_migrar_estructura(args) -> int:
     finally:
         conn.close()
 
+
+def cmd_migrar_fuentes(args) -> int:
+    """Comando: crear tablas de fuentes y fragmentos + ampliar conceptos."""
+    root = Path(args.root).expanduser().resolve()
+    conn = conectar(root / "oposicion.db")
+
+    try:
+        # Backup automático
+        backup = root / "backups" / f"pre-migracion-fuentes-{date.today().isoformat()}.db"
+        backup.parent.mkdir(exist_ok=True)
+        if backup.exists():
+            backup.unlink()
+        conn.execute(f"VACUUM INTO '{backup}'")
+        print(f"[migrar-fuentes] Backup: {backup}")
+
+        # Aplicar schema de tablas nuevas
+        sql_path = root / "db" / "migrate_fuentes.sql"
+        if not sql_path.exists():
+            print(f"[error] No existe: {sql_path}")
+            return 1
+
+        with sql_path.open(encoding="utf-8") as f:
+            conn.executescript(f.read())
+        print("[migrar-fuentes] Tablas fuentes/fragmentos/concepto_fragmentos creadas")
+
+        # Añadir columnas nuevas a conceptos (si no existen)
+        cur = conn.execute("PRAGMA table_info(conceptos)")
+        columnas_existentes = {row[1] for row in cur.fetchall()}
+
+        nuevas_columnas = [
+            ("resumen", "TEXT"),
+            ("completitud", "REAL DEFAULT 0"),
+            ("fuentes_count", "INTEGER DEFAULT 0"),
+            ("ultima_actualizacion", "TEXT"),
+            ("discrepancia", "INTEGER DEFAULT 0"),
+            ("fusionado_en", "TEXT"),
+            ("es_core", "BOOLEAN DEFAULT 0"),
+        ]
+
+        for nombre, tipo in nuevas_columnas:
+            if nombre not in columnas_existentes:
+                conn.execute(f"ALTER TABLE conceptos ADD COLUMN {nombre} {tipo}")
+                print(f"[migrar-fuentes] Columna añadida: conceptos.{nombre}")
+            else:
+                print(f"[migrar-fuentes] Columna ya existe: conceptos.{nombre}")
+
+        conn.commit()
+
+        # Verificación
+        cur = conn.execute(
+            "SELECT name FROM sqlite_master WHERE type='table' "
+            "AND name IN ('fuentes', 'fragmentos', 'concepto_fragmentos')"
+        )
+        tablas = [row[0] for row in cur.fetchall()]
+        print()
+        print("=" * 60)
+        print(f"  ✅ Migración completada")
+        print("=" * 60)
+        print(f"  Tablas nuevas:     {', '.join(tablas)}")
+        print(f"  Columnas nuevas:   {len(nuevas_columnas)}")
+
+        return 0
+    except Exception as e:
+        conn.rollback()
+        print(f"[error] {e}")
+        import traceback
+        traceback.print_exc()
+        return 1
+    finally:
+        conn.close()
+
+
+def _hash_archivo(path: Path) -> str:
+    """SHA-256 del archivo para detectar duplicados."""
+    import hashlib
+    h = hashlib.sha256()
+    with path.open("rb") as f:
+        for chunk in iter(lambda: f.read(8192), b""):
+            h.update(chunk)
+    return h.hexdigest()
+
+
+def _hash_fragmento(texto: str) -> str:
+    """SHA-256 del texto normalizado del fragmento."""
+    import hashlib
+    normalizado = normalizar_texto(texto)
+    return hashlib.sha256(normalizado.encode("utf-8")).hexdigest()
+
+
+def cmd_ingestar_fuente(args) -> int:
+    """
+    Comando: ingestar un archivo JSON de fragmentos ya extraídos.
+
+    El usuario (o la skill Fase 0) genera un JSON con:
+    {
+      "fuente": {
+        "id": "fuente-2024-mad-bd",
+        "titulo": "Manual MAD — Bases de datos 2024",
+        "tipo": "manual",
+        "editor": "MAD",
+        "version": "3ª ed.",
+        "fecha": "2024-05-01",
+        "archivo_path": "temario/tema-15/fuente/manual-mad.pdf",
+        "paginas": 320
+      },
+      "tema_id": "tema-15-modelado-de-datos",
+      "fragmentos": [
+        {
+          "numero_pagina": 12,
+          "numero_seccion": "2.1",
+          "titulo_seccion": "Entidades",
+          "texto": "..."
+        }
+      ],
+      "conceptos": [
+        {
+          "id": "c-entidad-debil",
+          "nombre": "Entidad débil",
+          "tipo": "definicion",
+          "resumen": "Entidad cuya existencia depende de otra...",
+          "fragmentos_indices": [3, 7, 12],
+          "es_principal": true
+        }
+      ]
+    }
+    """
+    root = Path(args.root).expanduser().resolve()
+    conn = conectar(root / "oposicion.db")
+
+    try:
+        archivo = Path(args.archivo).expanduser().resolve()
+        if not archivo.exists():
+            print(f"[error] No existe: {archivo}")
+            return 1
+
+        with archivo.open(encoding="utf-8") as f:
+            data = json.load(f)
+
+        tema_id = data.get("tema_id") or args.tema
+        if not tema_id:
+            print("[error] Falta tema_id en el JSON o en --tema")
+            return 1
+
+        # 1. Verificar que el tema existe y es técnico
+        cur = conn.execute(
+            "SELECT id, tipo FROM temas WHERE id = ?", (tema_id,)
+        )
+        row = cur.fetchone()
+        if not row:
+            print(f"[error] Tema no existe: {tema_id}")
+            return 1
+        if row[1] != "tecnico":
+            print(f"[warn] Tema {tema_id} es de tipo '{row[1]}'. "
+                  f"El modelo de fuentes está pensado para técnicos.")
+
+        # 2. Insertar/verificar fuente
+        fuente_data = data["fuente"]
+        hash_arch = fuente_data.get("hash_archivo")
+        if not hash_arch and fuente_data.get("archivo_path"):
+            pdf_path = root / fuente_data["archivo_path"]
+            if pdf_path.exists():
+                hash_arch = _hash_archivo(pdf_path)
+
+        cur = conn.execute(
+            "SELECT id, estado FROM fuentes WHERE id = ?", (fuente_data["id"],)
+        )
+        row = cur.fetchone()
+        if row:
+            print(f"[ingestar] Fuente ya existe: {row[0]} ({row[1]})")
+            fuente_id = row[0]
+            if not args.force:
+                # Comprobar si hay fragmentos nuevos
+                pass
+        else:
+            conn.execute("""
+                INSERT INTO fuentes (
+                    id, titulo, tipo, editor, version, fecha,
+                    archivo_path, hash_archivo, paginas,
+                    estado, fecha_ingesta
+                ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, 'ingestado', ?)
+            """, (
+                fuente_data["id"],
+                fuente_data["titulo"],
+                fuente_data["tipo"],
+                fuente_data.get("editor"),
+                fuente_data.get("version"),
+                fuente_data.get("fecha"),
+                fuente_data.get("archivo_path"),
+                hash_arch,
+                fuente_data.get("paginas"),
+                date.today().isoformat(),
+            ))
+            fuente_id = fuente_data["id"]
+            print(f"[ingestar] Fuente creada: {fuente_id}")
+
+        # 3. Insertar fragmentos (con dedup por hash)
+        fragmentos_data = data.get("fragmentos", [])
+        stats = {
+            "fragmentos_nuevos": 0,
+            "fragmentos_duplicados": 0,
+            "fragmentos_totales": len(fragmentos_data),
+            "conceptos_nuevos": 0,
+            "conceptos_ampliados": 0,
+            "vinculos_creados": 0,
+        }
+
+        ids_fragmentos_creados = []  # por índice del JSON
+
+        for i, frag in enumerate(fragmentos_data):
+            texto = frag["texto"].strip()
+            if len(texto) < 50:
+                continue
+
+            hash_norm = _hash_fragmento(texto)
+
+            cur = conn.execute(
+                "SELECT id FROM fragmentos WHERE hash_normalizado = ?",
+                (hash_norm,)
+            )
+            row = cur.fetchone()
+            if row:
+                ids_fragmentos_creados.append(row[0])
+                stats["fragmentos_duplicados"] += 1
+                continue
+
+            frag_id = f"frag-{fuente_id}-p{frag.get('numero_pagina', 0)}-{i}"
+            conn.execute("""
+                INSERT INTO fragmentos (
+                    id, fuente_id, tema_id, numero_pagina, numero_seccion,
+                    titulo_seccion, texto, hash_normalizado, estado, fecha_ingesta
+                ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, 'activo', ?)
+            """, (
+                frag_id,
+                fuente_id,
+                tema_id,
+                frag.get("numero_pagina"),
+                frag.get("numero_seccion"),
+                frag.get("titulo_seccion"),
+                texto,
+                hash_norm,
+                date.today().isoformat(),
+            ))
+            ids_fragmentos_creados.append(frag_id)
+            stats["fragmentos_nuevos"] += 1
+
+        # 4. Procesar conceptos
+        for concepto_data in data.get("conceptos", []):
+            cid = concepto_data["id"]
+
+            cur = conn.execute(
+                "SELECT id, fuentes_count FROM conceptos WHERE id = ?", (cid,)
+            )
+            row = cur.fetchone()
+
+            # ================================================
+            # Antes de crear: buscar concepto similar existente
+            # ================================================
+            conn.row_factory = sqlite3.Row
+            if not row:
+                cur = conn.execute("""
+                    SELECT c.id, c.nombre, c.valor, c.resumen, c.tipo
+                    FROM conceptos c
+                    JOIN concepto_temas ct ON ct.concepto_id = c.id
+                    WHERE ct.tema_id = ?
+                      AND (c.fusionado_en IS NULL OR c.fusionado_en = '')
+                """, (tema_id,))
+
+                candidato_auto = None
+                candidato_revisar = None
+
+                for r in cur.fetchall():
+                    info = _clasificar_par(
+                        {
+                            "id": r["id"], "nombre": r["nombre"],
+                            "valor": r["valor"], "resumen": r["resumen"], "tipo": r["tipo"],
+                        },
+                        {
+                            "id": concepto_data["id"],
+                            "nombre": concepto_data["nombre"],
+                            "valor": concepto_data.get("valor"),
+                            "resumen": concepto_data.get("resumen"),
+                            "tipo": concepto_data.get("tipo"),
+                        },
+                    )
+                    if not info:
+                        continue
+
+                    if info["nivel"] == 1 and not candidato_auto:
+                        candidato_auto = r["id"]
+                        break
+                    elif info["nivel"] == 2 and not candidato_revisar:
+                        candidato_revisar = r["id"]
+
+                if candidato_auto:
+                    # Auto-fusión segura
+                    print(f"[ingestar] '{concepto_data['nombre']}' -> concepto existente "
+                          f"{candidato_auto} (auto)")
+                    cid = candidato_auto
+                    row = (cid, None)
+                elif candidato_revisar:
+                    # Candidato ambiguo -> crear vinculado como "revisar"
+                    print(f"[ingestar] ADVERTENCIA: '{concepto_data['nombre']}' tiene un posible "
+                          f"duplicado ({candidato_revisar}). Se crea nuevo. Revisar después.")
+
+            if not row:
+                # Concepto nuevo
+                conn.execute("""
+                    INSERT INTO conceptos (
+                        id, nombre, tipo, valor, resumen,
+                        fuentes_count, completitud, verificado,
+                        ultima_actualizacion
+                    ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
+                """, (
+                    cid,
+                    concepto_data["nombre"],
+                    concepto_data.get("tipo"),
+                    concepto_data.get("valor"),
+                    concepto_data.get("resumen"),
+                    1,
+                    50.0,
+                    int(args.marcar_verificado),
+                    date.today().isoformat(),
+                ))
+                # Vincular al tema
+                conn.execute("""
+                    INSERT OR IGNORE INTO concepto_temas (
+                        concepto_id, tema_id, es_principal
+                    ) VALUES (?, ?, ?)
+                """, (cid, tema_id, int(concepto_data.get("es_principal", True))))
+                stats["conceptos_nuevos"] += 1
+            else:
+                # Concepto existente: ampliar resumen
+                resumen_nuevo = concepto_data.get("resumen")
+                if resumen_nuevo and args.actualizar_resumen:
+                    conn.execute("""
+                        UPDATE conceptos SET
+                            resumen = ?,
+                            fuentes_count = fuentes_count + 1,
+                            ultima_actualizacion = ?
+                        WHERE id = ?
+                    """, (
+                        resumen_nuevo,
+                        date.today().isoformat(),
+                        cid,
+                    ))
+                else:
+                    conn.execute("""
+                        UPDATE conceptos SET
+                            fuentes_count = fuentes_count + 1,
+                            ultima_actualizacion = ?
+                        WHERE id = ?
+                    """, (date.today().isoformat(), cid))
+                stats["conceptos_ampliados"] += 1
+
+            # Vincular fragmentos al concepto
+            indices = concepto_data.get("fragmentos_indices", [])
+            for idx in indices:
+                if 0 <= idx < len(ids_fragmentos_creados):
+                    frag_id = ids_fragmentos_creados[idx]
+                    try:
+                        conn.execute("""
+                            INSERT OR IGNORE INTO concepto_fragmentos (
+                                concepto_id, fragmento_id, es_principal,
+                                aportacion, fecha_vinculo
+                            ) VALUES (?, ?, ?, ?, ?)
+                        """, (
+                            cid,
+                            frag_id,
+                            int(concepto_data.get("es_principal", False) and idx == indices[0]),
+                            concepto_data.get("aportacion", "definicion"),
+                            date.today().isoformat(),
+                        ))
+                        stats["vinculos_creados"] += 1
+                    except sqlite3.IntegrityError:
+                        pass
+
+        # 5. Marcar fuente como ingestada
+        conn.execute("""
+            UPDATE fuentes SET estado = 'ingestado', fecha_ingesta = ?
+            WHERE id = ?
+        """, (date.today().isoformat(), fuente_id))
+
+        conn.commit()
+
+        # 6. Reporte
+        print()
+        print("=" * 60)
+        print(f"  ✅ Ingesta completada")
+        print("=" * 60)
+        print(f"  Fuente:               {fuente_id}")
+        print(f"  Tema:                 {tema_id}")
+        print(f"  Fragmentos nuevos:    {stats['fragmentos_nuevos']}")
+        print(f"  Fragmentos duplicados:{stats['fragmentos_duplicados']}")
+        print(f"  Fragmentos totales:   {stats['fragmentos_totales']}")
+        print(f"  Conceptos nuevos:     {stats['conceptos_nuevos']}")
+        print(f"  Conceptos ampliados:  {stats['conceptos_ampliados']}")
+        print(f"  Vínculos creados:     {stats['vinculos_creados']}")
+
+        if stats["fragmentos_duplicados"] > 0:
+            pct = stats["fragmentos_duplicados"] * 100 / stats["fragmentos_totales"]
+            print(f"  Solapamiento con otras fuentes: {pct:.1f}%")
+
+        return 0
+
+    except Exception as e:
+        conn.rollback()
+        print(f"[error] {e}")
+        import traceback
+        traceback.print_exc()
+        return 1
+    finally:
+        conn.close()
+
+
+def cmd_ingestar_fuente_v2(args) -> int:
+    """
+    Comando: ingestar un archivo JSON de fragmentos ya extraídos.
+
+    El usuario (o la skill Fase 0) genera un JSON con:
+    {
+      "fuente": {
+        "id": "fuente-2024-mad-bd",
+        "titulo": "Manual MAD — Bases de datos 2024",
+        "tipo": "manual",
+        "editor": "MAD",
+        "version": "3ª ed.",
+        "fecha": "2024-05-01",
+        "archivo_path": "temario/tema-15/fuente/manual-mad.pdf",
+        "paginas": 320
+      },
+      "tema_id": "tema-15-modelado-de-datos",
+      "fragmentos": [
+        {
+          "numero_pagina": 12,
+          "numero_seccion": "2.1",
+          "titulo_seccion": "Entidades",
+          "texto": "..."
+        }
+      ],
+      "conceptos": [
+        {
+          "id": "c-entidad-debil",
+          "nombre": "Entidad débil",
+          "tipo": "definicion",
+          "resumen": "Entidad cuya existencia depende de otra...",
+          "fragmentos_indices": [3, 7, 12],
+          "es_principal": true
+        }
+      ]
+    }
+    """
+    root = Path(args.root).expanduser().resolve()
+    conn = conectar(root / "oposicion.db")
+
+    try:
+        archivo = Path(args.archivo).expanduser().resolve()
+        if not archivo.exists():
+            print(f"[error] No existe: {archivo}")
+            return 1
+
+        with archivo.open(encoding="utf-8") as f:
+            data = json.load(f)
+
+        tema_id = data.get("tema_id") or args.tema
+        if not tema_id:
+            print("[error] Falta tema_id en el JSON o en --tema")
+            return 1
+
+        # 1. Verificar que el tema existe y es técnico
+        cur = conn.execute(
+            "SELECT id, tipo FROM temas WHERE id = ?", (tema_id,)
+        )
+        row = cur.fetchone()
+        if not row:
+            print(f"[error] Tema no existe: {tema_id}")
+            return 1
+        if row[1] != "tecnico":
+            print(f"[warn] Tema {tema_id} es de tipo '{row[1]}'. "
+                  f"El modelo de fuentes está pensado para técnicos.")
+
+        # 2. Insertar/verificar fuente
+        fuente_data = data["fuente"]
+        hash_arch = fuente_data.get("hash_archivo")
+        if not hash_arch and fuente_data.get("archivo_path"):
+            pdf_path = root / fuente_data["archivo_path"]
+            if pdf_path.exists():
+                hash_arch = _hash_archivo(pdf_path)
+
+        cur = conn.execute(
+            "SELECT id, estado FROM fuentes WHERE id = ?", (fuente_data["id"],)
+        )
+        row = cur.fetchone()
+        if row:
+            print(f"[ingestar] Fuente ya existe: {row[0]} ({row[1]})")
+            fuente_id = row[0]
+            if not args.force:
+                # Comprobar si hay fragmentos nuevos
+                pass
+        else:
+            conn.execute("""
+                INSERT INTO fuentes (
+                    id, titulo, tipo, editor, version, fecha,
+                    archivo_path, hash_archivo, paginas,
+                    estado, fecha_ingesta
+                ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, 'ingestado', ?)
+            """, (
+                fuente_data["id"],
+                fuente_data["titulo"],
+                fuente_data["tipo"],
+                fuente_data.get("editor"),
+                fuente_data.get("version"),
+                fuente_data.get("fecha"),
+                fuente_data.get("archivo_path"),
+                hash_arch,
+                fuente_data.get("paginas"),
+                date.today().isoformat(),
+            ))
+            fuente_id = fuente_data["id"]
+            print(f"[ingestar] Fuente creada: {fuente_id}")
+
+        # 3. Insertar fragmentos (con dedup por hash)
+        fragmentos_data = data.get("fragmentos", [])
+        stats = {
+            "fragmentos_nuevos": 0,
+            "fragmentos_duplicados": 0,
+            "fragmentos_totales": len(fragmentos_data),
+            "conceptos_asignados_a_core": 0,
+            "candidatos_ampliados": 0,
+            "candidatos_promovidos": 0,
+            "candidatos_nuevos": 0,
+            "vinculos_creados": 0,
+        }
+
+        ids_fragmentos_creados = []  # por índice del JSON
+
+        for i, frag in enumerate(fragmentos_data):
+            texto = frag["texto"].strip()
+            if len(texto) < 50:
+                continue
+
+            hash_norm = _hash_fragmento(texto)
+
+            cur = conn.execute(
+                "SELECT id FROM fragmentos WHERE hash_normalizado = ?",
+                (hash_norm,)
+            )
+            row = cur.fetchone()
+            if row:
+                ids_fragmentos_creados.append(row[0])
+                stats["fragmentos_duplicados"] += 1
+                continue
+
+            frag_id = f"frag-{fuente_id}-p{frag.get('numero_pagina', 0)}-{i}"
+            conn.execute("""
+                INSERT INTO fragmentos (
+                    id, fuente_id, tema_id, numero_pagina, numero_seccion,
+                    titulo_seccion, texto, hash_normalizado, estado, fecha_ingesta
+                ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, 'activo', ?)
+            """, (
+                frag_id,
+                fuente_id,
+                tema_id,
+                frag.get("numero_pagina"),
+                frag.get("numero_seccion"),
+                frag.get("titulo_seccion"),
+                texto,
+                hash_norm,
+                date.today().isoformat(),
+            ))
+            ids_fragmentos_creados.append(frag_id)
+            stats["fragmentos_nuevos"] += 1
+
+        conn.row_factory = sqlite3.Row
+        # 4. Procesar conceptos (v2: core + candidatos)
+        for concepto_data in data.get("conceptos", []):
+            # 1. Intentar asignar a un concepto core existente
+            cur = conn.execute("""
+                SELECT c.id, c.nombre, c.valor, c.resumen
+                FROM conceptos c
+                JOIN concepto_temas ct ON ct.concepto_id = c.id
+                WHERE ct.tema_id = ?
+                  AND c.es_core = 1
+                  AND (c.fusionado_en IS NULL OR c.fusionado_en = '')
+            """, (tema_id,))
+
+            candidato_core = None
+            mejor_sim = 0.0
+
+            for r in cur.fetchall():
+                sim = _similitud_concepto(concepto_data, r)
+                if sim > mejor_sim and sim >= getattr(args, "umbral_core", 0.6):
+                    mejor_sim = sim
+                    candidato_core = r["id"]
+
+            if candidato_core:
+                # Asignar al core
+                cid = candidato_core
+                conn.execute("""
+                    UPDATE conceptos SET
+                        fuentes_count = fuentes_count + 1,
+                        ultima_actualizacion = ?
+                    WHERE id = ?
+                """, (date.today().isoformat(), cid))
+                stats["conceptos_asignados_a_core"] += 1
+            else:
+                # Buscar candidato existente
+                cur = conn.execute("""
+                    SELECT id, nombre, n_fragmentos, fragmento_ids
+                    FROM conceptos_candidatos
+                    WHERE tema_id = ?
+                      AND estado = 'pendiente'
+                      AND nombre = ?
+                """, (tema_id, concepto_data["nombre"]))
+
+                row = cur.fetchone()
+                if row:
+                    # Incrementar contador
+                    frag_ids = json.loads(row["fragmento_ids"] or "[]")
+                    frag_ids.extend(ids_fragmentos_creados)
+                    conn.execute("""
+                        UPDATE conceptos_candidatos
+                        SET n_fragmentos = n_fragmentos + ?,
+                            fragmento_ids = ?,
+                            ultima_actualizacion = ?
+                        WHERE id = ?
+                    """, (
+                        len(ids_fragmentos_creados),
+                        json.dumps(frag_ids, ensure_ascii=False),
+                        date.today().isoformat(),
+                        row["id"],
+                    ))
+                    stats["candidatos_ampliados"] += 1
+
+                    # Promover si alcanza umbral
+                    if (row["n_fragmentos"] or 0) + len(ids_fragmentos_creados) >= getattr(args, "min_fragmentos", 2):
+                        _promover_candidato(conn, row["id"], tema_id)
+                        stats["candidatos_promovidos"] += 1
+                else:
+                    # Crear nuevo candidato
+                    conn.execute("""
+                        INSERT INTO conceptos_candidatos (
+                            tema_id, nombre, descripcion, n_fragmentos,
+                            fragmento_ids, estado,
+                            primera_aparicion, ultima_actualizacion
+                        ) VALUES (?, ?, ?, ?, ?, 'pendiente', ?, ?)
+                    """, (
+                        tema_id,
+                        concepto_data["nombre"],
+                        concepto_data.get("resumen"),
+                        len(ids_fragmentos_creados),
+                        json.dumps(ids_fragmentos_creados, ensure_ascii=False),
+                        date.today().isoformat(),
+                        date.today().isoformat(),
+                    ))
+                    stats["candidatos_nuevos"] += 1
+
+                cid = None  # no concepto real creado
+
+            # Vincular fragmentos al concepto (solo si hay concepto real)
+            if cid:
+                indices = concepto_data.get("fragmentos_indices", [])
+                for idx in indices:
+                    if 0 <= idx < len(ids_fragmentos_creados):
+                        frag_id = ids_fragmentos_creados[idx]
+                        try:
+                            conn.execute("""
+                                INSERT OR IGNORE INTO concepto_fragmentos (
+                                    concepto_id, fragmento_id, es_principal,
+                                    aportacion, fecha_vinculo
+                                ) VALUES (?, ?, ?, ?, ?)
+                            """, (
+                                cid,
+                                frag_id,
+                                int(concepto_data.get("es_principal", False) and idx == indices[0]),
+                                concepto_data.get("aportacion", "definicion"),
+                                date.today().isoformat(),
+                            ))
+                            stats["vinculos_creados"] += 1
+                        except sqlite3.IntegrityError:
+                            pass
+
+        # 5. Marcar fuente como ingestada
+        conn.execute("""
+            UPDATE fuentes SET estado = 'ingestado', fecha_ingesta = ?
+            WHERE id = ?
+        """, (date.today().isoformat(), fuente_id))
+
+        conn.commit()
+
+        # 6. Reporte
+        print()
+        print("=" * 60)
+        print(f"  ✅ Ingesta completada")
+        print("=" * 60)
+        print(f"  Fuente:               {fuente_id}")
+        print(f"  Tema:                 {tema_id}")
+        print(f"  Fragmentos nuevos:    {stats['fragmentos_nuevos']}")
+        print(f"  Fragmentos duplicados:{stats['fragmentos_duplicados']}")
+        print(f"  Fragmentos totales:   {stats['fragmentos_totales']}")
+        print(f"  Asignados a core:     {stats['conceptos_asignados_a_core']}")
+        print(f"  Candidatos nuevos:    {stats['candidatos_nuevos']}")
+        print(f"  Candidatos ampliados: {stats['candidatos_ampliados']}")
+        print(f"  Candidatos promovidos:{stats['candidatos_promovidos']}")
+        print(f"  Vínculos creados:     {stats['vinculos_creados']}")
+
+        if stats["fragmentos_duplicados"] > 0:
+            pct = stats["fragmentos_duplicados"] * 100 / stats["fragmentos_totales"]
+            print(f"  Solapamiento con otras fuentes: {pct:.1f}%")
+
+        return 0
+
+    except Exception as e:
+        conn.rollback()
+        print(f"[error] {e}")
+        import traceback
+        traceback.print_exc()
+        return 1
+    finally:
+        conn.close()
+
+
+
+def cmd_consolidar_tema(args) -> int:
+    """
+    Comando: consolidar los conceptos de un tema técnico.
+    Por ahora solo actualiza 'completitud' y reporta conceptos
+    que necesitan re-resumen (con múltiples fragmentos de fuentes distintas).
+
+    La síntesis real del resumen la hará el LLM externo (skill tai-oposicion),
+    este comando prepara el material.
+    """
+    root = Path(args.root).expanduser().resolve()
+    conn = conectar(root / "oposicion.db")
+
+    try:
+        tema_id = args.tema
+        if not tema_id:
+            print("[error] Falta --tema")
+            return 1
+
+        # 1. Calcular completitud de cada concepto
+        cur = conn.execute("""
+            SELECT
+                c.id,
+                c.nombre,
+                COUNT(DISTINCT f.fuente_id) AS n_fuentes,
+                COUNT(cf.fragmento_id) AS n_fragmentos
+            FROM conceptos c
+            JOIN concepto_temas ct ON ct.concepto_id = c.id
+            LEFT JOIN concepto_fragmentos cf ON cf.concepto_id = c.id
+            LEFT JOIN fragmentos f ON f.id = cf.fragmento_id
+            WHERE ct.tema_id = ?
+              AND (c.fusionado_en IS NULL OR c.fusionado_en = '')
+            GROUP BY c.id
+        """, (tema_id,))
+
+        conceptos = cur.fetchall()
+        print(f"[consolidar] {len(conceptos)} conceptos en {tema_id}")
+        print()
+
+        # 2. Completitud = min(100, n_fuentes * 33.3) si hay 3 fuentes → 100%
+        #    + bonus por n_fragmentos
+        actualizados = 0
+        for cid, nombre, n_fuentes, n_frag in conceptos:
+            n_fuentes = n_fuentes or 0
+            n_frag = n_frag or 0
+            completitud = min(100.0, n_fuentes * 33.3)
+            if n_frag >= 5:
+                completitud = min(100.0, completitud + 10)
+
+            conn.execute("""
+                UPDATE conceptos SET
+                    completitud = ?,
+                    fuentes_count = ?
+                WHERE id = ?
+            """, (completitud, n_fuentes, cid))
+            actualizados += 1
+
+        conn.commit()
+
+        # 3. Reporte
+        cur = conn.execute("""
+            SELECT
+                COUNT(*) AS total,
+                SUM(CASE WHEN completitud >= 80 THEN 1 ELSE 0 END) AS alta,
+                SUM(CASE WHEN completitud >= 50 AND completitud < 80 THEN 1 ELSE 0 END) AS media,
+                SUM(CASE WHEN completitud < 50 THEN 1 ELSE 0 END) AS baja
+            FROM conceptos c
+            JOIN concepto_temas ct ON ct.concepto_id = c.id
+            WHERE ct.tema_id = ?
+              AND (c.fusionado_en IS NULL OR c.fusionado_en = '')
+        """, (tema_id,))
+        row = cur.fetchone()
+
+        print(f"[consolidar] Completitud actualizada:")
+        print(f"  Alta  (≥80%):  {row[1]} conceptos")
+        print(f"  Media (50-79%): {row[2]} conceptos")
+        print(f"  Baja  (<50%):  {row[3]} conceptos")
+        print()
+        print(f"💡 Para los de completitud baja, ingesta más fuentes o")
+        print(f"   ejecuta la Fase 0 de tai-oposicion para regenerar resúmenes.")
+
+        # 4. Exportar conceptos con completitud baja
+        if args.exportar_baja:
+            cur = conn.execute("""
+                SELECT c.id, c.nombre, c.completitud, c.fuentes_count
+                FROM conceptos c
+                JOIN concepto_temas ct ON ct.concepto_id = c.id
+                WHERE ct.tema_id = ? AND c.completitud < 50
+                  AND (c.fusionado_en IS NULL OR c.fusionado_en = '')
+                ORDER BY c.completitud ASC
+            """, (tema_id,))
+            bajos = [
+                {"id": r[0], "nombre": r[1], "completitud": r[2], "fuentes": r[3]}
+                for r in cur.fetchall()
+            ]
+            archivo = root / f"conceptos-baja-{tema_id}.json"
+            with archivo.open("w", encoding="utf-8") as f:
+                json.dump(bajos, f, ensure_ascii=False, indent=2)
+            print(f"  Exportados {len(bajos)} conceptos a: {archivo}")
+
+        return 0
+
+    except Exception as e:
+        conn.rollback()
+        print(f"[error] {e}")
+        import traceback
+        traceback.print_exc()
+        return 1
+    finally:
+        conn.close()
+
+import re as _re
+import unicodedata as _unicodedata
+from difflib import SequenceMatcher as _SequenceMatcher
+
+
+def _similitud_nombre(n1: str, n2: str) -> float:
+    """Similitud de nombres con normalización agresiva."""
+    def normalizar(s):
+        s = _unicodedata.normalize("NFKD", s or "").encode("ascii", "ignore").decode()
+        s = s.lower()
+        s = _re.sub(r"\b(el|la|los|las|un|una|de|del|y|o|en)\b", " ", s)
+        s = _re.sub(r"\b(\w+)es\b", r"\1", s)
+        s = _re.sub(r"\b(\w+)s\b", r"\1", s)
+        s = _re.sub(r"[^a-z0-9\s]", " ", s)
+        return _re.sub(r"\s+", " ", s).strip()
+
+    n1n = normalizar(n1)
+    n2n = normalizar(n2)
+    if not n1n or not n2n:
+        return 0.0
+    return _SequenceMatcher(None, n1n, n2n).ratio()
+
+
+def _similitud_valor(v1: str, v2: str) -> float:
+    """Similitud de valores por Jaccard de tokens."""
+    def tokenizar(s):
+        if not s:
+            return set()
+        s = _unicodedata.normalize("NFKD", s).encode("ascii", "ignore").decode()
+        s = s.lower()
+        s = _re.sub(r"[^a-z0-9\s]", " ", s)
+        return {t for t in s.split() if len(t) > 2}
+
+    t1 = tokenizar(v1)
+    t2 = tokenizar(v2)
+    if not t1 or not t2:
+        return 0.0
+    return len(t1 & t2) / len(t1 | t2)
+
+
+
+def _clasificar_par(c1: dict, c2: dict) -> dict | None:
+    """
+    Clasifica un par de conceptos en uno de los 3 niveles.
+    Devuelve dict con la información o None si no es candidato.
+    """
+    # Solo mismo tipo
+    if c1["tipo"] != c2["tipo"]:
+        return None
+
+    sim_n = _similitud_nombre(c1["nombre"], c2["nombre"])
+    sim_v = _similitud_valor(
+        (c1["valor"] or "") + " " + (c1["resumen"] or ""),
+        (c2["valor"] or "") + " " + (c2["resumen"] or ""),
+    )
+
+    # Nivel 1: nombre prácticamente idéntico → auto
+    if sim_n >= 0.95:
+        return {
+            "nivel": 1,
+            "accion": "auto",
+            "sim_nombre": round(sim_n, 3),
+            "sim_valor": round(sim_v, 3),
+            "score": 1.0,
+            "razon": "nombre_idéntico",
+        }
+
+    # Nivel 2: nombre muy similar + algo de contenido → candidato fuerte
+    if sim_n >= 0.80 and sim_v >= 0.15:
+        return {
+            "nivel": 2,
+            "accion": "revisar",
+            "sim_nombre": round(sim_n, 3),
+            "sim_valor": round(sim_v, 3),
+            "score": round(0.7 * sim_n + 0.3 * sim_v, 3),
+            "razon": "nombre_muy_similar",
+        }
+
+    # Nivel 3: score combinado con nombre dominante
+    score = 0.7 * sim_n + 0.3 * sim_v
+    if score >= 0.70:
+        return {
+            "nivel": 3,
+            "accion": "revisar",
+            "sim_nombre": round(sim_n, 3),
+            "sim_valor": round(sim_v, 3),
+            "score": round(score, 3),
+            "razon": "score_combinado",
+        }
+
+    return None
+
+
+def _similitud_concepto(concepto_data: dict, r) -> float:
+    """Similitud entre un concepto nuevo (dict del JSON) y un concepto core (Row).
+
+    El nombre domina: los conceptos core provienen de clasificación de exámenes
+    y tienen descripciones mínimas, por lo que la similitud de contenido es baja.
+    """
+    sim_n = _similitud_nombre(concepto_data.get("nombre", ""), r["nombre"])
+    v1 = (concepto_data.get("resumen") or concepto_data.get("valor") or "")
+    v2 = (r["resumen"] or r["valor"] or "")
+    sim_v = _similitud_valor(v1, v2)
+    return round(0.8 * sim_n + 0.2 * sim_v, 4)
+
+
+def _promover_candidato(conn, candidato_id: int, tema_id: str) -> str:
+    """
+    Promueve un candidato a concepto real.
+    Devuelve el id del concepto creado.
+    """
+    import hashlib
+    import json
+    from datetime import date
+
+    cur = conn.execute("""
+        SELECT nombre, descripcion, n_fragmentos, fragmento_ids
+        FROM conceptos_candidatos WHERE id = ?
+    """, (candidato_id,))
+    cand = cur.fetchone()
+    if not cand:
+        return ""
+
+    nombre = cand["nombre"]
+    descripcion = cand["descripcion"]
+
+    # Reutilizar concepto existente con el mismo nombre si ya existe
+    cur = conn.execute("SELECT id FROM conceptos WHERE lower(nombre) = lower(?)", (nombre,))
+    existing = cur.fetchone()
+    if existing:
+        concepto_id = existing["id"]
+    else:
+        concepto_id = f"c-{hashlib.sha1(nombre.encode()).hexdigest()[:12]}"
+        conn.execute("""
+            INSERT OR IGNORE INTO conceptos (
+                id, nombre, tipo, valor, resumen, es_core, verificado,
+                fuentes_count, completitud, ultima_actualizacion
+            ) VALUES (?, ?, 'definicion', NULL, ?, 0, 0, 1, 50.0, ?)
+        """, (
+            concepto_id,
+            nombre,
+            descripcion,
+            date.today().isoformat(),
+        ))
+
+    conn.execute("""
+        INSERT OR IGNORE INTO concepto_temas (concepto_id, tema_id, es_principal)
+        VALUES (?, ?, 0)
+    """, (concepto_id, tema_id))
+
+    try:
+        frag_ids = json.loads(cand["fragmento_ids"] or "[]")
+    except Exception:
+        frag_ids = []
+    for frag_id in frag_ids:
+        try:
+            conn.execute("""
+                INSERT OR IGNORE INTO concepto_fragmentos (
+                    concepto_id, fragmento_id, es_principal, aportacion, fecha_vinculo
+                ) VALUES (?, ?, 0, 'ampliacion', ?)
+            """, (concepto_id, frag_id, date.today().isoformat()))
+        except sqlite3.IntegrityError:
+            pass
+
+    conn.execute("""
+        UPDATE conceptos_candidatos
+        SET estado = 'promovido', concepto_promovido_id = ?
+        WHERE id = ?
+    """, (concepto_id, candidato_id))
+
+    return concepto_id
+
+
+def cmd_detectar_fusiones(args) -> int:
+    """Detecta grupos de conceptos candidatos a fusionar (v2, por niveles)."""
+    import json
+
+    root = Path(args.root).expanduser().resolve()
+    conn = conectar(root / "oposicion.db")
+    conn.row_factory = sqlite3.Row
+
+    try:
+        tema_id = args.tema
+        if not tema_id:
+            print("[error] Falta --tema")
+            return 1
+
+        # Cargar conceptos
+        cur = conn.execute("""
+            SELECT c.id, c.nombre, c.valor, c.resumen, c.tipo
+            FROM conceptos c
+            JOIN concepto_temas ct ON ct.concepto_id = c.id
+            WHERE ct.tema_id = ?
+              AND (c.fusionado_en IS NULL OR c.fusionado_en = '')
+        """, (tema_id,))
+
+        conceptos = [
+            {
+                "id": r["id"], "nombre": r["nombre"],
+                "valor": r["valor"], "resumen": r["resumen"], "tipo": r["tipo"],
+            }
+            for r in cur.fetchall()
+        ]
+        print(f"[detectar] {len(conceptos)} conceptos en {tema_id}")
+
+        # Clasificar todos los pares
+        pares = []
+        for i in range(len(conceptos)):
+            for j in range(i + 1, len(conceptos)):
+                info = _clasificar_par(conceptos[i], conceptos[j])
+                if info:
+                    info["c1"] = conceptos[i]["id"]
+                    info["c1_nombre"] = conceptos[i]["nombre"]
+                    info["c2"] = conceptos[j]["id"]
+                    info["c2_nombre"] = conceptos[j]["nombre"]
+                    pares.append(info)
+
+        # Agrupar por nivel
+        nivel_1 = [p for p in pares if p["nivel"] == 1]
+        nivel_2 = [p for p in pares if p["nivel"] == 2]
+        nivel_3 = [p for p in pares if p["nivel"] == 3]
+
+        print(f"[detectar] Nivel 1 (auto-fusión):  {len(nivel_1)} pares")
+        print(f"[detectar] Nivel 2 (revisar):      {len(nivel_2)} pares")
+        print(f"[detectar] Nivel 3 (revisar):      {len(nivel_3)} pares")
+
+        # Construir clusters (union-find)
+        padre = {c["id"]: c["id"] for c in conceptos}
+
+        def find(x):
+            while padre[x] != x:
+                padre[x] = padre[padre[x]]
+                x = padre[x]
+            return x
+
+        def union(a, b):
+            ra, rb = find(a), find(b)
+            if ra != rb:
+                padre[ra] = rb
+
+        # Solo nivel 1 se auto-fusiona por defecto
+        for p in nivel_1:
+            union(p["c1"], p["c2"])
+
+        # Para nivel 2 y 3, se sugiere pero no se auto-fusiona
+        # (el usuario decide con --auto-nivel-2 / --auto-nivel-3)
+        if getattr(args, "auto_nivel_2", False):
+            for p in nivel_2:
+                union(p["c1"], p["c2"])
+
+        if getattr(args, "auto_nivel_3", False):
+            for p in nivel_3:
+                union(p["c1"], p["c2"])
+
+        # Construir grupos
+        grupos_dict = {}
+        for c in conceptos:
+            raiz = find(c["id"])
+            grupos_dict.setdefault(raiz, []).append(c)
+
+        grupos = [g for g in grupos_dict.values() if len(g) > 1]
+
+        print()
+        print(f"[detectar] {len(grupos)} grupos a fusionar "
+              f"({sum(len(g) for g in grupos)} conceptos)")
+        print(f"[detectar] Reducción: {sum(len(g) for g in grupos) - len(grupos)} conceptos")
+
+        # Guardar
+        salida = root / f"fusiones-{tema_id}.json"
+        with salida.open("w", encoding="utf-8") as f:
+            json.dump({
+                "tema_id": tema_id,
+                "auto_nivel_2": getattr(args, "auto_nivel_2", False),
+                "auto_nivel_3": getattr(args, "auto_nivel_3", False),
+                "grupos": [
+                    {
+                        "concepto_principal_sugerido": g[0]["id"],
+                        "conceptos": [
+                            {
+                                "id": c["id"], "nombre": c["nombre"],
+                                "tipo": c["tipo"],
+                                "longitud_contenido": len((c["valor"] or "") + (c["resumen"] or "")),
+                            }
+                            for c in g
+                        ],
+                    }
+                    for g in grupos
+                ],
+                "pares_nivel_2": nivel_2,
+                "pares_nivel_3": nivel_3,
+            }, f, ensure_ascii=False, indent=2)
+
+        print()
+        print(f"💡 Revisa: {salida}")
+        print(f"💡 Aplica: db.py aplicar-fusiones --archivo {salida}")
+
+        return 0
+
+    except Exception as e:
+        print(f"[error] {e}")
+        import traceback
+        traceback.print_exc()
+        return 1
+    finally:
+        conn.close()
+
+
+def cmd_aplicar_fusiones(args) -> int:
+    """Aplica las fusiones aprobadas del JSON."""
+    import json
+    from datetime import date
+
+    root = Path(args.root).expanduser().resolve()
+    conn = conectar(root / "oposicion.db")
+
+    try:
+        archivo = Path(args.archivo).expanduser().resolve()
+        with archivo.open(encoding="utf-8") as f:
+            data = json.load(f)
+
+        backup = root / "backups" / f"pre-fusion-{date.today().isoformat()}.db"
+        backup.parent.mkdir(exist_ok=True)
+        if backup.exists():
+            backup.unlink()
+        conn.execute(f"VACUUM INTO '{backup}'")
+        print(f"[fusionar] Backup: {backup}")
+
+        total_fusionados = 0
+        total_vinculos_movidos = 0
+        total_preguntas_movidas = 0
+
+        for grupo in data["grupos"]:
+            principal = grupo.get("concepto_principal_sugerido") or grupo["conceptos"][0]["id"]
+            absorbidos = [c["id"] for c in grupo["conceptos"] if c["id"] != principal]
+
+            if not absorbidos:
+                continue
+
+            print(f"[fusionar] Grupo: {principal} <- {len(absorbidos)} absorbidos")
+
+            for cid in absorbidos:
+                conn.execute("""
+                    INSERT OR IGNORE INTO concepto_temas (concepto_id, tema_id, es_principal)
+                    SELECT ?, tema_id, es_principal
+                    FROM concepto_temas
+                    WHERE concepto_id = ?
+                """, (principal, cid))
+                conn.execute("DELETE FROM concepto_temas WHERE concepto_id = ?", (cid,))
+
+                conn.execute("""
+                    INSERT OR IGNORE INTO concepto_fragmentos (
+                        concepto_id, fragmento_id, es_principal, aportacion, fecha_vinculo
+                    )
+                    SELECT ?, fragmento_id, 0, aportacion, fecha_vinculo
+                    FROM concepto_fragmentos
+                    WHERE concepto_id = ?
+                """, (principal, cid))
+                total_vinculos_movidos += conn.execute(
+                    "SELECT COUNT(*) FROM concepto_fragmentos WHERE concepto_id = ?",
+                    (cid,)
+                ).fetchone()[0]
+                conn.execute("DELETE FROM concepto_fragmentos WHERE concepto_id = ?", (cid,))
+
+                n_preg = conn.execute(
+                    "SELECT COUNT(*) FROM preguntas WHERE concepto_id = ?", (cid,)
+                ).fetchone()[0]
+                conn.execute(
+                    "UPDATE preguntas SET concepto_id = ? WHERE concepto_id = ?",
+                    (principal, cid)
+                )
+                total_preguntas_movidas += n_preg
+
+                conn.execute(
+                    "UPDATE flashcards SET concepto_id = ? WHERE concepto_id = ?",
+                    (principal, cid)
+                )
+
+                conn.execute(
+                    "UPDATE srs_items SET concepto_id = ? WHERE concepto_id = ?",
+                    (principal, cid)
+                )
+
+                conn.execute(
+                    "UPDATE conceptos SET fusionado_en = ? WHERE id = ?",
+                    (principal, cid)
+                )
+
+                total_fusionados += 1
+
+        conn.commit()
+
+        print()
+        print("=" * 60)
+        print(f"  OK Fusiones aplicadas")
+        print("=" * 60)
+        print(f"  Conceptos fusionados:    {total_fusionados}")
+        print(f"  Vinculos movidos:        {total_vinculos_movidos}")
+        print(f"  Preguntas movidas:       {total_preguntas_movidas}")
+        print(f"\nRecalcula la completitud con:")
+        print(f"   db.py consolidar-tema --tema {data['tema_id']}")
+
+        return 0
+
+    except Exception as e:
+        conn.rollback()
+        print(f"[error] {e}")
+        import traceback
+        traceback.print_exc()
+        return 1
+    finally:
+        conn.close()
+
+
+def cmd_extraer_conceptos_core(args) -> int:
+    """Extrae conceptos core desde exámenes oficiales (clasificación).
+
+    Lee el JSON de clasificación de preguntas, filtra por tema, agrupa por
+    concepto (por concepto_aproximado o por agrupación LLM previa) y marca
+    los conceptos resultantes como es_core = 1 en la BD.
+
+    Input:  /tmp/clasificacion.json (o --input) con clave 'clasificacion'
+            o un JSON ya agrupado con clave 'conceptos'.
+    Output: conceptos-core-tema-XX.json
+    """
+    import json
+    import re
+    import unicodedata
+    from datetime import date
+
+    root = Path(args.root).expanduser().resolve()
+    conn = conectar(root / "oposicion.db")
+    conn.row_factory = sqlite3.Row
+
+    try:
+        tema_arg = args.tema
+        # Resolver tema_id y número
+        if tema_arg.startswith("tema-"):
+            tema_id = tema_arg
+            cur = conn.execute("SELECT numero FROM temas WHERE id = ?", (tema_id,))
+            row = cur.fetchone()
+            tema_numero = row["numero"] if row else None
+        else:
+            tema_numero = int(tema_arg)
+            cur = conn.execute("SELECT id FROM temas WHERE numero = ?", (tema_numero,))
+            row = cur.fetchone()
+            if not row:
+                print(f"[error] Tema número {tema_numero} no encontrado")
+                return 1
+            tema_id = row["id"]
+
+        if not tema_numero:
+            # intentar extraer del id
+            m = re.search(r"tema-(\d+)", tema_id)
+            tema_numero = int(m.group(1)) if m else None
+
+        input_path = Path(args.input).expanduser().resolve() if getattr(args, "input", None) else Path("/tmp/clasificacion.json")
+        if not input_path.exists():
+            print(f"[error] No existe: {input_path}")
+            return 1
+
+        with input_path.open(encoding="utf-8") as f:
+            data = json.load(f)
+
+        # Determinar formato de entrada
+        if "conceptos" in data:
+            # Ya agrupado (por LLM o manual)
+            conceptos_grouped = data["conceptos"]
+            total_preguntas = data.get("total_preguntas", sum(c.get("n_preguntas", len(c.get("preguntas", []))) for c in conceptos_grouped))
+        elif "clasificacion" in data:
+            # Filtrar por tema y agrupar por concepto_aproximado
+            items = [x for x in data["clasificacion"] if x.get("tema_numero") == tema_numero]
+            grupos = {}
+            for it in items:
+                key = (it.get("concepto_aproximado") or "").strip()
+                if not key:
+                    continue
+                # normalizar para agrupar
+                norm = re.sub(r"\s+", " ", key.lower()).strip()
+                grupos.setdefault(norm, {"nombre_raw": key, "items": []})
+                grupos[norm]["items"].append(it)
+            conceptos_grouped = []
+            for norm, g in grupos.items():
+                preg_ids = [f"{it['examen']}:{it['seccion']}:{it['numero']}" for it in g["items"]]
+                conceptos_grouped.append({
+                    "nombre": g["nombre_raw"],
+                    "descripcion": g["nombre_raw"],
+                    "preguntas": preg_ids,
+                    "n_preguntas": len(preg_ids),
+                })
+            total_preguntas = len(items)
+        else:
+            print("[error] El JSON no tiene clave 'clasificacion' ni 'conceptos'")
+            return 1
+
+        # Normalizar nombres de conceptos (title case-ish, keep as-is)
+        for c in conceptos_grouped:
+            c.setdefault("descripcion", c.get("nombre", ""))
+            c.setdefault("preguntas", [])
+            c.setdefault("n_preguntas", len(c["preguntas"]))
+
+        # Output JSON
+        output_name = getattr(args, "output", None)
+        if not output_name:
+            output_name = f"conceptos-core-tema-{tema_numero:02d}.json"
+        output_path = root / output_name
+        out_data = {
+            "tema_id": tema_id,
+            "tema_numero": tema_numero,
+            "conceptos": conceptos_grouped,
+            "total_preguntas": total_preguntas,
+            "n_conceptos": len(conceptos_grouped),
+        }
+        with output_path.open("w", encoding="utf-8") as f:
+            json.dump(out_data, f, ensure_ascii=False, indent=2)
+        print(f"[core] {len(conceptos_grouped)} conceptos core extraídos → {output_path}")
+
+        # DB: crear/marcar conceptos como es_core = 1
+        for c in conceptos_grouped:
+            nombre = c["nombre"]
+            # Buscar concepto existente por nombre (case-insensitive)
+            cur = conn.execute(
+                "SELECT id FROM conceptos WHERE lower(nombre) = lower(?)", (nombre,)
+            )
+            row = cur.fetchone()
+            if row:
+                cid = row["id"]
+                conn.execute("UPDATE conceptos SET es_core = 1 WHERE id = ?", (cid,))
+                print(f"[core] Marcado es_core: {nombre} ({cid})")
+            else:
+                # Crear nuevo concepto core
+                import uuid
+                cid = f"c-{uuid.uuid4().hex[:12]}"
+                conn.execute("""
+                    INSERT INTO conceptos (id, nombre, tipo, valor, resumen, es_core, verificado, fuentes_count, completitud, ultima_actualizacion)
+                    VALUES (?, ?, ?, ?, ?, 1, 0, 0, 0, ?)
+                """, (cid, nombre, "core", c.get("descripcion"), c.get("descripcion"), date.today().isoformat()))
+                print(f"[core] Creado es_core: {nombre} ({cid})")
+            # Vincular al tema
+            conn.execute(
+                "INSERT OR IGNORE INTO concepto_temas (concepto_id, tema_id, es_principal) VALUES (?, ?, 1)",
+                (cid, tema_id)
+            )
+
+        conn.commit()
+        print(f"[core] {len(conceptos_grouped)} conceptos marcados como core en BD")
+        return 0
+
+    except Exception as e:
+        conn.rollback()
+        print(f"[error] {e}")
+        import traceback
+        traceback.print_exc()
+        return 1
+    finally:
+        conn.close()
+
 def main() -> int:
     parser = argparse.ArgumentParser(
         description="Gestor de la base de datos TAI Oposición",
@@ -2480,6 +3891,80 @@ def main() -> int:
                               help="Migrar estructura de temas preservando completos")
     p_migest.add_argument("--root", default="~/oposicion")
     p_migest.set_defaults(func=cmd_migrar_estructura)
+
+    # migrar-fuentes
+    p_migf = sub.add_parser("migrar-fuentes",
+                            help="Crear tablas de fuentes y fragmentos")
+    p_migf.add_argument("--root", default="~/oposicion")
+    p_migf.set_defaults(func=cmd_migrar_fuentes)
+
+    # ingesta-fuente
+    p_ingf = sub.add_parser("ingestar-fuente",
+                            help="Ingestar un JSON de fragmentos + conceptos")
+    p_ingf.add_argument("--root", default="~/oposicion")
+    p_ingf.add_argument("--archivo", required=True)
+    p_ingf.add_argument("--tema", help="Tema (si no está en el JSON)")
+    p_ingf.add_argument("--force", action="store_true")
+    p_ingf.add_argument("--actualizar-resumen", action="store_true",
+                        help="Regenerar resumen de conceptos existentes")
+    p_ingf.add_argument("--marcar-verificado", action="store_true")
+    p_ingf.set_defaults(func=cmd_ingestar_fuente)
+
+    # consolidar-tema
+    p_cons = sub.add_parser("consolidar-tema",
+                            help="Recalcular completitud de conceptos")
+    p_cons.add_argument("--root", default="~/oposicion")
+    p_cons.add_argument("--tema", required=True)
+    p_cons.add_argument("--exportar-baja", action="store_true")
+    p_cons.set_defaults(func=cmd_consolidar_tema)
+
+    # detectar-fusiones
+    p_det = sub.add_parser("detectar-fusiones",
+                           help="Detectar conceptos candidatos a fusionar")
+    p_det.add_argument("--root", default="~/oposicion")
+    p_det.add_argument("--tema", required=True)
+    p_det.add_argument("--umbral", type=float, default=0.6)
+    p_det.add_argument("--auto-nivel-2", action="store_true",
+                        help="Auto-fusionar nivel 2 (nombre>=0.80, valor>=0.15)")
+    p_det.add_argument("--auto-nivel-3", action="store_true",
+                        help="Auto-fusionar nivel 3 (score>=0.70)")
+    p_det.set_defaults(func=cmd_detectar_fusiones)
+
+    # aplicar-fusiones
+    p_apl = sub.add_parser("aplicar-fusiones",
+                           help="Aplicar fusiones aprobadas desde JSON")
+    p_apl.add_argument("--root", default="~/oposicion")
+    p_apl.add_argument("--archivo", required=True)
+    p_apl.set_defaults(func=cmd_aplicar_fusiones)
+
+    # ingestar-fuente-v2
+    p_ing2 = sub.add_parser("ingestar-fuente-v2",
+                            help="Ingestar fuente (v2: core + candidatos)")
+    p_ing2.add_argument("--root", default="~/oposicion")
+    p_ing2.add_argument("--tema", required=True)
+    p_ing2.add_argument("--archivo", required=True)
+    p_ing2.add_argument("--fuente-id", required=True)
+    p_ing2.add_argument("--tipo-fuente", required=True)
+    p_ing2.add_argument("--url", default=None)
+    p_ing2.add_argument("--titulo", default=None)
+    p_ing2.add_argument("--marcar-verificado", action="store_true")
+    p_ing2.add_argument("--actualizar-resumen", action="store_true")
+    p_ing2.add_argument("--force", action="store_true")
+    p_ing2.add_argument("--umbral-core", type=float, default=0.6)
+    p_ing2.add_argument("--min-fragmentos", type=int, default=2)
+    p_ing2.set_defaults(func=cmd_ingestar_fuente_v2)
+
+    # extraer-conceptos-core
+    p_core = sub.add_parser("extraer-conceptos-core",
+                            help="Extraer conceptos core desde exámenes oficiales")
+    p_core.add_argument("--root", default="~/oposicion")
+    p_core.add_argument("--tema", required=True,
+                        help="Número de tema (26) o id (tema-26-...)")
+    p_core.add_argument("--input", default="/tmp/clasificacion.json",
+                        help="JSON de clasificación o JSON ya agrupado")
+    p_core.add_argument("--output", default=None,
+                        help="Nombre del archivo de salida (default: conceptos-core-tema-XX.json)")
+    p_core.set_defaults(func=cmd_extraer_conceptos_core)
 
     args = parser.parse_args()
     return args.func(args)

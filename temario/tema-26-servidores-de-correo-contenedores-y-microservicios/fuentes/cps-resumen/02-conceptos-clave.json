@@ -1,0 +1,224 @@
+{
+  "conceptos": [
+    {
+      "id": "c-smtp-codigos",
+      "nombre": "Códigos SMTP clave",
+      "tipo": "clasificacion",
+      "valor": "250: acción de correo completada con éxito (OK); 421: servicio no disponible, el canal de transmisión se cerrará; 550: acción no realizada, el buzón no existe o no está disponible; 554: transacción fallida (error genérico).",
+      "norma": null,
+      "articulo": null,
+      "tags_transversales": [],
+      "verificado": false,
+      "es_principal": true
+    },
+    {
+      "id": "c-puertos-correo",
+      "nombre": "Puertos de correo electrónico",
+      "tipo": "comparativa",
+      "valor": "SMTP: 25 estándar / 465 seguro (TLS/SSL); POP3: 110 / 995; IMAP: 143 / 993. qmtp utiliza el puerto 209.",
+      "norma": null,
+      "articulo": null,
+      "tags_transversales": [],
+      "verificado": false,
+      "es_principal": true
+    },
+    {
+      "id": "c-pop3-vs-imap",
+      "nombre": "POP3 vs IMAP",
+      "tipo": "comparativa",
+      "valor": "POP3 descarga los mensajes al cliente y ya no quedan en el buzón central. IMAP mantiene los mensajes en el buzón central y permite visualizarlos directamente en el servidor sin descargarlos, pudiendo borrarlos, moverlos o responderlos desde el cliente.",
+      "norma": null,
+      "articulo": null,
+      "tags_transversales": [],
+      "verificado": false,
+      "es_principal": true
+    },
+    {
+      "id": "c-mua-mta-mda",
+      "nombre": "Agentes de correo (MUA/MTA/MDA)",
+      "tipo": "clasificacion",
+      "valor": "MUA (Mail User Agent): cliente de correo (Outlook, Thunderbird). MTA (Mail Transfer Agent): servidor que envía/recibe (Postfix, Sendmail), usa SMTP. MDA (Mail Delivery Agent): deposita el correo en el buzón del usuario para que POP/IMAP lo recojan.",
+      "norma": null,
+      "articulo": null,
+      "tags_transversales": [],
+      "verificado": false,
+      "es_principal": true
+    },
+    {
+      "id": "c-spf-dkim-dmarc",
+      "nombre": "SPF, DKIM y DMARC",
+      "tipo": "clasificacion",
+      "valor": "SPF: protocolo que protege contra falsificación de direcciones identificando los servidores SMTP autorizados mediante registros DNS. DKIM: añade firma digital a las cabeceras para verificar que el mensaje no ha sido alterado. DMARC: política que indica qué hacer si SPF o DKIM fallan (rechazar o enviar a SPAM).",
+      "norma": null,
+      "articulo": null,
+      "tags_transversales": [],
+      "verificado": false,
+      "es_principal": true
+    },
+    {
+      "id": "c-open-relay",
+      "nombre": "Open Relay (Relay Abierto)",
+      "tipo": "definicion",
+      "valor": "Servidor de correo que permite el envío de mensajes desde cualquier origen a cualquier destino sin autenticación. Es una vulnerabilidad crítica que facilita el spam.",
+      "norma": null,
+      "articulo": null,
+      "tags_transversales": [],
+      "verificado": false,
+      "es_principal": true
+    },
+    {
+      "id": "c-formatos-buzon",
+      "nombre": "Formatos de buzón (mbox y maildir)",
+      "tipo": "comparativa",
+      "valor": "mbox: formato que guarda el correo electrónico en un único fichero. maildir: formato que guarda cada mensaje en un fichero separado.",
+      "norma": null,
+      "articulo": null,
+      "tags_transversales": [],
+      "verificado": false,
+      "es_principal": true
+    },
+    {
+      "id": "c-dmz-correo",
+      "nombre": "Ubicación del servidor de correo (CCN-CERT)",
+      "tipo": "regla",
+      "valor": "Según el CCN-CERT, el servidor de correo corporativo debe estar ubicado en una zona desmilitarizada (DMZ).",
+      "norma": null,
+      "articulo": null,
+      "tags_transversales": [],
+      "verificado": false,
+      "es_principal": true
+    },
+    {
+      "id": "c-microservicios-estrategias",
+      "nombre": "Estrategias de composición de microservicios",
+      "tipo": "clasificacion",
+      "valor": "Dos estrategias para gestionar la composición de microservicios: Coreografía (descentralizada) y Orquestación (centralizada). Los microservicios permiten escalado flexible, CI/CD y degradación de una funcionalidad sin bloquear toda la aplicación; permiten tecnologías heterogéneas, al contrario que los diseños monolíticos.",
+      "norma": null,
+      "articulo": null,
+      "tags_transversales": [],
+      "verificado": false,
+      "es_principal": true
+    },
+    {
+      "id": "c-sidecar-src2",
+      "nombre": "Patrón Sidecar",
+      "tipo": "definicion",
+      "valor": "Consiste en colocar un contenedor secundario (sidecar) junto al contenedor principal dentro del mismo Pod. Comparten el mismo ciclo de vida y red (útil para logs, proxies o seguridad).",
+      "norma": null,
+      "articulo": null,
+      "tags_transversales": [],
+      "verificado": false,
+      "es_principal": true
+    },
+    {
+      "id": "c-docker-persistencia",
+      "nombre": "Persistencia de datos en Docker",
+      "tipo": "regla",
+      "valor": "El mecanismo preferido por los contenedores Docker para persistir los datos son los Volúmenes.",
+      "norma": null,
+      "articulo": null,
+      "tags_transversales": [],
+      "verificado": false,
+      "es_principal": true
+    },
+    {
+      "id": "c-cmd-vs-entrypoint",
+      "nombre": "CMD vs ENTRYPOINT en Docker",
+      "tipo": "comparativa",
+      "valor": "CMD proporciona argumentos por defecto para el ENTRYPOINT o un comando inicial que puede ser sobrescrito por el usuario al hacer docker run. ENTRYPOINT es el comando ejecutable principal que siempre se ejecuta al iniciar el contenedor (no se sobrescribe fácilmente).",
+      "norma": null,
+      "articulo": null,
+      "tags_transversales": [],
+      "verificado": false,
+      "es_principal": true
+    },
+    {
+      "id": "c-docker-redes",
+      "nombre": "Redes en Docker",
+      "tipo": "clasificacion",
+      "valor": "bridge (por defecto): crea una red virtual interna para los contenedores. host: el contenedor comparte la pila de red directamente con el host (sin aislamiento de red).",
+      "norma": null,
+      "articulo": null,
+      "tags_transversales": [],
+      "verificado": false,
+      "es_principal": true
+    },
+    {
+      "id": "c-docker-capas",
+      "nombre": "Capas (Layers) de imágenes Docker",
+      "tipo": "definicion",
+      "valor": "Las imágenes Docker son de solo lectura y se componen de capas. Al ejecutar un contenedor, se añade una fina capa de lectura/escritura en la parte superior.",
+      "norma": null,
+      "articulo": null,
+      "tags_transversales": [],
+      "verificado": false,
+      "es_principal": true
+    },
+    {
+      "id": "c-kubernetes-objetos",
+      "nombre": "Objetos básicos de Kubernetes",
+      "tipo": "clasificacion",
+      "valor": "Objetos básicos: Pod, Service, Volume, Namespace. El campo Metadata es donde hay que incluir los valores que permiten identificar unívocamente al objeto. Kubernetes es un sistema de gestión de contenedores.",
+      "norma": null,
+      "articulo": null,
+      "tags_transversales": [],
+      "verificado": false,
+      "es_principal": true
+    },
+    {
+      "id": "c-etcd-src2",
+      "nombre": "ETCD en Kubernetes",
+      "tipo": "definicion",
+      "valor": "Clase de almacenamiento de datos no volátil, donde se almacena toda la información relevante a la configuración del clúster de Kubernetes.",
+      "norma": null,
+      "articulo": null,
+      "tags_transversales": [],
+      "verificado": false,
+      "es_principal": true
+    },
+    {
+      "id": "c-k8s-servicios",
+      "nombre": "Tipos de Service en Kubernetes",
+      "tipo": "clasificacion",
+      "valor": "ClusterIP (por defecto): el servicio solo es accesible desde dentro del clúster. NodePort: expone el servicio en un puerto estático de cada Nodo, permite acceso externo básico. LoadBalancer: crea un equilibrador de carga externo (típico de entornos cloud). Ingress gestiona el acceso externo a los servicios del clúster, proporcionando balanceo de carga HTTP/HTTPS y rutas.",
+      "norma": null,
+      "articulo": null,
+      "tags_transversales": [],
+      "verificado": false,
+      "es_principal": true
+    },
+    {
+      "id": "c-configmap-secret-src2",
+      "nombre": "ConfigMap y Secret en Kubernetes",
+      "tipo": "comparativa",
+      "valor": "ConfigMap: almacena datos de configuración no confidenciales (en texto plano). Secret: almacena datos sensibles (contraseñas, tokens) cifrados en base64.",
+      "norma": null,
+      "articulo": null,
+      "tags_transversales": [],
+      "verificado": false,
+      "es_principal": true
+    },
+    {
+      "id": "c-starttls-src2",
+      "nombre": "STARTTLS",
+      "tipo": "definicion",
+      "valor": "Comando para convertir una conexión insegura en segura en el mismo puerto.",
+      "norma": null,
+      "articulo": null,
+      "tags_transversales": [],
+      "verificado": false,
+      "es_principal": true
+    },
+    {
+      "id": "c-dag-exchange",
+      "nombre": "DAG en Microsoft Exchange 2013",
+      "tipo": "definicion",
+      "valor": "DAG (Database Availability Group): en Microsoft Exchange 2013, los posibles estados de una base de datos son activa y pasiva.",
+      "norma": null,
+      "articulo": null,
+      "tags_transversales": [],
+      "verificado": false,
+      "es_principal": true
+    }
+  ]
+}

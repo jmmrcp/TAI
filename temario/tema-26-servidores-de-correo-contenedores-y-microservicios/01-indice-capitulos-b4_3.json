@@ -1,0 +1,702 @@
+{
+  "tema": "tema-26-servidores-de-correo-contenedores-y-microservicios",
+  "titulo": "Servidores de correo. Contenedores y microservicios",
+  "capitulos": [
+    {
+      "id": "1.1",
+      "titulo": "Conceptos fundamentales del correo electrónico",
+      "rango_lineas": [
+        47,
+        495
+      ],
+      "subapartados": [
+        {
+          "id": "1.1.1",
+          "titulo": "Arquitectura del sistema de correo electrónico",
+          "rango_lineas": [
+            85,
+            221
+          ]
+        },
+        {
+          "id": "1.1.2",
+          "titulo": "Componentes: MUA, MTA, MDA y MSA",
+          "rango_lineas": [
+            222,
+            368
+          ]
+        },
+        {
+          "id": "1.1.3",
+          "titulo": "Formato de mensajes según RFC",
+          "rango_lineas": [
+            369,
+            495
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1.2",
+      "titulo": "Protocolos de correo electrónico",
+      "rango_lineas": [
+        496,
+        1104
+      ],
+      "subapartados": [
+        {
+          "id": "1.2.1",
+          "titulo": "SMTP (Simple Mail Transfer Protocol)",
+          "rango_lineas": [
+            542,
+            708
+          ]
+        },
+        {
+          "id": "1.2.2",
+          "titulo": "POP3 (Post Office Protocol v3)",
+          "rango_lineas": [
+            709,
+            829
+          ]
+        },
+        {
+          "id": "1.2.3",
+          "titulo": "IMAP (Internet Message Access Protocol)",
+          "rango_lineas": [
+            830,
+            973
+          ]
+        },
+        {
+          "id": "1.2.4",
+          "titulo": "Diferencias entre POP3 e IMAP",
+          "rango_lineas": [
+            974,
+            1104
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1.3",
+      "titulo": "Instalación y configuración de servidores de correo",
+      "rango_lineas": [
+        1105,
+        1646
+      ],
+      "subapartados": [
+        {
+          "id": "1.3.1",
+          "titulo": "Postfix",
+          "rango_lineas": [
+            1150,
+            1294
+          ]
+        },
+        {
+          "id": "1.3.2",
+          "titulo": "Sendmail",
+          "rango_lineas": [
+            1295,
+            1410
+          ]
+        },
+        {
+          "id": "1.3.3",
+          "titulo": "Microsoft Exchange Server",
+          "rango_lineas": [
+            1411,
+            1529
+          ]
+        },
+        {
+          "id": "1.3.4",
+          "titulo": "Dovecot como servidor IMAP/POP3",
+          "rango_lineas": [
+            1530,
+            1646
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1.4",
+      "titulo": "Seguridad en servidores de correo",
+      "rango_lineas": [
+        1647,
+        2334
+      ],
+      "subapartados": [
+        {
+          "id": "1.4.1",
+          "titulo": "Autenticación SMTP-AUTH",
+          "rango_lineas": [
+            1685,
+            1808
+          ]
+        },
+        {
+          "id": "1.4.2",
+          "titulo": "Cifrado TLS/SSL",
+          "rango_lineas": [
+            1809,
+            1945
+          ]
+        },
+        {
+          "id": "1.4.3",
+          "titulo": "SPF (Sender Policy Framework)",
+          "rango_lineas": [
+            1946,
+            2067
+          ]
+        },
+        {
+          "id": "1.4.4",
+          "titulo": "DKIM (DomainKeys Identified Mail)",
+          "rango_lineas": [
+            2068,
+            2190
+          ]
+        },
+        {
+          "id": "1.4.5",
+          "titulo": "DMARC (Domain-based Message Authentication, Reporting, and Conformance)",
+          "rango_lineas": [
+            2191,
+            2334
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1.5",
+      "titulo": "Gestión de spam y filtrado",
+      "rango_lineas": [
+        2335,
+        2703
+      ],
+      "subapartados": [
+        {
+          "id": "1.5.1",
+          "titulo": "Listas negras y grises",
+          "rango_lineas": [
+            2377,
+            2494
+          ]
+        },
+        {
+          "id": "1.5.2",
+          "titulo": "SpamAssassin",
+          "rango_lineas": [
+            2495,
+            2598
+          ]
+        },
+        {
+          "id": "1.5.3",
+          "titulo": "Filtros bayesianos",
+          "rango_lineas": [
+            2599,
+            2703
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1.6",
+      "titulo": "Administración y mantenimiento",
+      "rango_lineas": [
+        2704,
+        3235
+      ],
+      "subapartados": [
+        {
+          "id": "1.6.1",
+          "titulo": "Gestión de colas de correo",
+          "rango_lineas": [
+            2745,
+            2879
+          ]
+        },
+        {
+          "id": "1.6.2",
+          "titulo": "Logs y monitorización",
+          "rango_lineas": [
+            2880,
+            2999
+          ]
+        },
+        {
+          "id": "1.6.3",
+          "titulo": "Cuotas de almacenamiento",
+          "rango_lineas": [
+            3000,
+            3102
+          ]
+        },
+        {
+          "id": "1.6.4",
+          "titulo": "Copias de seguridad",
+          "rango_lineas": [
+            3103,
+            3235
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2.1",
+      "titulo": "Introducción a la contenedorización",
+      "rango_lineas": [
+        3236,
+        3561
+      ],
+      "subapartados": [
+        {
+          "id": "2.1.1",
+          "titulo": "Concepto y ventajas de los contenedores",
+          "rango_lineas": [
+            3275,
+            3375
+          ]
+        },
+        {
+          "id": "2.1.2",
+          "titulo": "Diferencias entre contenedores y máquinas virtuales",
+          "rango_lineas": [
+            3376,
+            3461
+          ]
+        },
+        {
+          "id": "2.1.3",
+          "titulo": "Casos de uso",
+          "rango_lineas": [
+            3462,
+            3561
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2.2",
+      "titulo": "Docker",
+      "rango_lineas": [
+        3562,
+        4496
+      ],
+      "subapartados": [
+        {
+          "id": "2.2.1",
+          "titulo": "Arquitectura de Docker",
+          "rango_lineas": [
+            3618,
+            3718
+          ]
+        },
+        {
+          "id": "2.2.2",
+          "titulo": "Imágenes y contenedores",
+          "rango_lineas": [
+            3719,
+            3823
+          ]
+        },
+        {
+          "id": "2.2.3",
+          "titulo": "Dockerfile y construcción de imágenes",
+          "rango_lineas": [
+            3824,
+            3981
+          ]
+        },
+        {
+          "id": "2.2.4",
+          "titulo": "Docker Hub y registros de imágenes",
+          "rango_lineas": [
+            3982,
+            4097
+          ]
+        },
+        {
+          "id": "2.2.5",
+          "titulo": "Redes en Docker",
+          "rango_lineas": [
+            4098,
+            4224
+          ]
+        },
+        {
+          "id": "2.2.6",
+          "titulo": "Volúmenes y persistencia de datos",
+          "rango_lineas": [
+            4225,
+            4361
+          ]
+        },
+        {
+          "id": "2.2.7",
+          "titulo": "Docker Compose",
+          "rango_lineas": [
+            4362,
+            4496
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2.3",
+      "titulo": "Otras tecnologías de contenedores",
+      "rango_lineas": [
+        4497,
+        4841
+      ],
+      "subapartados": [
+        {
+          "id": "2.3.1",
+          "titulo": "Podman",
+          "rango_lineas": [
+            4558,
+            4666
+          ]
+        },
+        {
+          "id": "2.3.2",
+          "titulo": "LXC/LXD",
+          "rango_lineas": [
+            4667,
+            4759
+          ]
+        },
+        {
+          "id": "2.3.3",
+          "titulo": "containerd",
+          "rango_lineas": [
+            4760,
+            4841
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2.4",
+      "titulo": "Orquestación de contenedores",
+      "rango_lineas": [
+        4842,
+        5607
+      ],
+      "subapartados": [
+        {
+          "id": "2.4.1",
+          "titulo": "Kubernetes: arquitectura y componentes",
+          "rango_lineas": [
+            4901,
+            5041
+          ]
+        },
+        {
+          "id": "2.4.2",
+          "titulo": "Pods, deployments y services",
+          "rango_lineas": [
+            5042,
+            5176
+          ]
+        },
+        {
+          "id": "2.4.3",
+          "titulo": "ConfigMaps y Secrets",
+          "rango_lineas": [
+            5177,
+            5304
+          ]
+        },
+        {
+          "id": "2.4.4",
+          "titulo": "Namespaces",
+          "rango_lineas": [
+            5305,
+            5401
+          ]
+        },
+        {
+          "id": "2.4.5",
+          "titulo": "Ingress y balanceo de carga",
+          "rango_lineas": [
+            5402,
+            5498
+          ]
+        },
+        {
+          "id": "2.4.6",
+          "titulo": "Docker Swarm",
+          "rango_lineas": [
+            5499,
+            5607
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2.5",
+      "titulo": "Seguridad en contenedores",
+      "rango_lineas": [
+        5608,
+        6190
+      ],
+      "subapartados": [
+        {
+          "id": "2.5.1",
+          "titulo": "Buenas Prácticas           Diseño y Ejecución                   Minimizar la superficie de",
+          "rango_lineas": [
+            5640,
+            5644
+          ]
+        },
+        {
+          "id": "2.5.2",
+          "titulo": "Escaneo de                 Construcción (Build)                 Detectar CVEs (Common",
+          "rango_lineas": [
+            5645,
+            5660
+          ]
+        },
+        {
+          "id": "2.5.3",
+          "titulo": "Políticas de Red           Ejecución (Runtime)               Microsegmentación.",
+          "rango_lineas": [
+            5661,
+            5666
+          ]
+        },
+        {
+          "id": "2.5.4",
+          "titulo": "Control de Acceso          Gestión                            RBAC (Role-Based Access",
+          "rango_lineas": [
+            5667,
+            5678
+          ]
+        },
+        {
+          "id": "2.5.1",
+          "titulo": "Buenas prácticas de seguridad",
+          "rango_lineas": [
+            5679,
+            5809
+          ]
+        },
+        {
+          "id": "2.5.2",
+          "titulo": "Escaneo de vulnerabilidades",
+          "rango_lineas": [
+            5810,
+            5940
+          ]
+        },
+        {
+          "id": "2.5.3",
+          "titulo": "Políticas de red",
+          "rango_lineas": [
+            5941,
+            6055
+          ]
+        },
+        {
+          "id": "2.5.4",
+          "titulo": "Control de acceso",
+          "rango_lineas": [
+            6056,
+            6190
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3.1",
+      "titulo": "Arquitectura de microservicios",
+      "rango_lineas": [
+        6191,
+        6654
+      ],
+      "subapartados": [
+        {
+          "id": "3.1.1",
+          "titulo": "Conceptos y principios",
+          "rango_lineas": [
+            6251,
+            6393
+          ]
+        },
+        {
+          "id": "3.1.2",
+          "titulo": "Ventajas e inconvenientes",
+          "rango_lineas": [
+            6394,
+            6527
+          ]
+        },
+        {
+          "id": "3.1.3",
+          "titulo": "Diferencias con arquitectura monolítica",
+          "rango_lineas": [
+            6528,
+            6654
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3.2",
+      "titulo": "Diseño de microservicios",
+      "rango_lineas": [
+        6655,
+        7213
+      ],
+      "subapartados": [
+        {
+          "id": "3.2.1",
+          "titulo": "Descomposición de aplicaciones",
+          "rango_lineas": [
+            6710,
+            6807
+          ]
+        },
+        {
+          "id": "3.2.2",
+          "titulo": "Comunicación entre microservicios",
+          "rango_lineas": [
+            6808,
+            6940
+          ]
+        },
+        {
+          "id": "3.2.3",
+          "titulo": "API Gateway",
+          "rango_lineas": [
+            6941,
+            7063
+          ]
+        },
+        {
+          "id": "3.2.4",
+          "titulo": "Service Mesh",
+          "rango_lineas": [
+            7064,
+            7213
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3.3",
+      "titulo": "Despliegue de microservicios",
+      "rango_lineas": [
+        7214,
+        7672
+      ],
+      "subapartados": [
+        {
+          "id": "3.3.1",
+          "titulo": "Estrategias de despliegue",
+          "rango_lineas": [
+            7265,
+            7419
+          ]
+        },
+        {
+          "id": "3.3.2",
+          "titulo": "CI/CD para microservicios",
+          "rango_lineas": [
+            7420,
+            7549
+          ]
+        },
+        {
+          "id": "3.3.3",
+          "titulo": "Versionado y actualizaciones",
+          "rango_lineas": [
+            7550,
+            7672
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3.4",
+      "titulo": "Monitorización y observabilidad",
+      "rango_lineas": [
+        7673,
+        8201
+      ],
+      "subapartados": [
+        {
+          "id": "3.4.1",
+          "titulo": "Logging centralizado",
+          "rango_lineas": [
+            7729,
+            7855
+          ]
+        },
+        {
+          "id": "3.4.2",
+          "titulo": "Métricas y alertas",
+          "rango_lineas": [
+            7856,
+            7993
+          ]
+        },
+        {
+          "id": "3.4.3",
+          "titulo": "Trazabilidad distribuida",
+          "rango_lineas": [
+            7994,
+            8087
+          ]
+        },
+        {
+          "id": "3.4.4",
+          "titulo": "Herramientas: Prometheus, Grafana, ELK Stack",
+          "rango_lineas": [
+            8088,
+            8201
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3.5",
+      "titulo": "Gestión de configuración y secretos",
+      "rango_lineas": [
+        8202,
+        8579
+      ],
+      "subapartados": [
+        {
+          "id": "3.5.1",
+          "titulo": "Configuración externalizada",
+          "rango_lineas": [
+            8256,
+            8385
+          ]
+        },
+        {
+          "id": "3.5.2",
+          "titulo": "Gestión de variables de entorno",
+          "rango_lineas": [
+            8386,
+            8471
+          ]
+        },
+        {
+          "id": "3.5.3",
+          "titulo": "Vault y gestión de secretos",
+          "rango_lineas": [
+            8472,
+            8579
+          ]
+        }
+      ]
+    }
+  ]
+}
