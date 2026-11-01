@@ -1,0 +1,99 @@
+{
+  "id": "cuadro-imap-vs-pop3",
+  "tema_id": "tema-26-servidores-de-correo-contenedores-y-microservicios",
+  "tipo_dato": "comparativa",
+  "titulo": "IMAP vs POP3: comparativa",
+  "semilla": false,
+  "n_filas": 6,
+  "n_fuentes_distintas": 1,
+  "columnas": [
+    "caracteristica",
+    "imap",
+    "pop3"
+  ],
+  "columna_clave": "caracteristica",
+  "columna_respuesta": "imap",
+  "columna_contexto": "pop3",
+  "columna_fuente": "fuente",
+  "filas": [
+    {
+      "id": "c-imap-1",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "caracteristica": "Función principal",
+        "imap": "Acceso y sincronización de correo en el servidor",
+        "pop3": "Descarga de correo al cliente"
+      },
+      "pasaje_origen": "Protocolos de correo",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-imap-2",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "caracteristica": "Mensajes en servidor",
+        "imap": "Se conservan (sincronizados)",
+        "pop3": "Se descargan y normalmente se borran"
+      },
+      "pasaje_origen": "IMAP vs POP3",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-imap-3",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "caracteristica": "Carpetas en servidor",
+        "imap": "Sí (Inbox, Sent, etc.)",
+        "pop3": "No (solo Inbox)"
+      },
+      "pasaje_origen": "IMAP vs POP3",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-imap-4",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "caracteristica": "Acceso multi-dispositivo",
+        "imap": "Sí (estado sincronizado)",
+        "pop3": "Limitado (copias locales)"
+      },
+      "pasaje_origen": "IMAP vs POP3",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-imap-5",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "caracteristica": "Puerto estándar / TLS",
+        "imap": "143 / 993",
+        "pop3": "110 / 995"
+      },
+      "pasaje_origen": "Puertos de correo",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-imap-6",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "caracteristica": "Búsqueda en servidor",
+        "imap": "Sí",
+        "pop3": "No (solo cliente)"
+      },
+      "pasaje_origen": "IMAP vs POP3",
+      "ubicacion": {},
+      "verificado": false
+    }
+  ],
+  "verificado": false
+}

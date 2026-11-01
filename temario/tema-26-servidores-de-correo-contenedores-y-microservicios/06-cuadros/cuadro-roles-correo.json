@@ -1,0 +1,78 @@
+{
+  "id": "cuadro-roles-correo",
+  "tema_id": "tema-26-servidores-de-correo-contenedores-y-microservicios",
+  "tipo_dato": "roles",
+  "titulo": "Roles de los protocolos de correo electrónico",
+  "semilla": false,
+  "n_filas": 4,
+  "n_fuentes_distintas": 1,
+  "columnas": [
+    "protocolo",
+    "rol",
+    "puerto_estandar",
+    "puerto_tls"
+  ],
+  "columna_clave": "protocolo",
+  "columna_respuesta": "rol",
+  "columna_contexto": "puerto_estandar",
+  "columna_fuente": "fuente",
+  "filas": [
+    {
+      "id": "c-rol-1",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "protocolo": "SMTP",
+        "rol": "Envío/transmisión de correo entre servidores y desde cliente",
+        "puerto_estandar": "25",
+        "puerto_tls": "465/587"
+      },
+      "pasaje_origen": "SMTP",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-rol-2",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "protocolo": "POP3",
+        "rol": "Recepción: descarga de correo al cliente",
+        "puerto_estandar": "110",
+        "puerto_tls": "995"
+      },
+      "pasaje_origen": "POP3",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-rol-3",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "protocolo": "IMAP",
+        "rol": "Recepción: acceso y sincronización en servidor",
+        "puerto_estandar": "143",
+        "puerto_tls": "993"
+      },
+      "pasaje_origen": "IMAP",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-rol-4",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "protocolo": "Exchange ActiveSync",
+        "rol": "Sincronización de correo/contactos/calendario en móviles",
+        "puerto_estandar": "443",
+        "puerto_tls": "443"
+      },
+      "pasaje_origen": "EAS",
+      "ubicacion": {},
+      "verificado": false
+    }
+  ],
+  "verificado": false
+}

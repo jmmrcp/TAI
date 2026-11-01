@@ -1,0 +1,92 @@
+{
+  "id": "cuadro-docker-comandos",
+  "tema_id": "tema-26-servidores-de-correo-contenedores-y-microservicios",
+  "tipo_dato": "comandos",
+  "titulo": "Comandos básicos de Docker",
+  "semilla": false,
+  "n_filas": 6,
+  "n_fuentes_distintas": 1,
+  "columnas": [
+    "comando",
+    "descripcion"
+  ],
+  "columna_clave": "comando",
+  "columna_respuesta": "descripcion",
+  "columna_contexto": "comando",
+  "columna_fuente": "fuente",
+  "filas": [
+    {
+      "id": "c-docker-1",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "comando": "docker run",
+        "descripcion": "Crea e inicia un contenedor (descarga la imagen si no existe) y ejecuta el comando indicado"
+      },
+      "pasaje_origen": "docker run",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-docker-2",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "comando": "docker pull",
+        "descripcion": "Descarga una imagen del registro"
+      },
+      "pasaje_origen": "Docker",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-docker-3",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "comando": "docker ps",
+        "descripcion": "Lista contenedores en ejecución"
+      },
+      "pasaje_origen": "Docker",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-docker-4",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "comando": "docker stop / rm",
+        "descripcion": "Detiene / elimina un contenedor"
+      },
+      "pasaje_origen": "Docker",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-docker-5",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "comando": "docker build",
+        "descripcion": "Construye una imagen a partir de un Dockerfile"
+      },
+      "pasaje_origen": "Docker",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-docker-6",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "comando": "docker exec",
+        "descripcion": "Ejecuta un comando en un contenedor en ejecución"
+      },
+      "pasaje_origen": "Docker",
+      "ubicacion": {},
+      "verificado": false
+    }
+  ],
+  "verificado": false
+}

@@ -1,0 +1,99 @@
+{
+  "id": "cuadro-contenerizacion",
+  "tema_id": "tema-26-servidores-de-correo-contenedores-y-microservicios",
+  "tipo_dato": "tecnologias",
+  "titulo": "Tecnologías de contenerización y gestión de contenedores",
+  "semilla": false,
+  "n_filas": 6,
+  "n_fuentes_distintas": 1,
+  "columnas": [
+    "tecnologia",
+    "tipo",
+    "descripcion"
+  ],
+  "columna_clave": "tecnologia",
+  "columna_respuesta": "descripcion",
+  "columna_contexto": "tipo",
+  "columna_fuente": "fuente",
+  "filas": [
+    {
+      "id": "c-cont-1",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "tecnologia": "Docker",
+        "tipo": "motor de contenedores",
+        "descripcion": "Plataforma para crear, distribuir y ejecutar contenedores (imágenes OCI)"
+      },
+      "pasaje_origen": "Contenerización",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-cont-2",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "tecnologia": "containerd",
+        "tipo": "runtime",
+        "descripcion": "Runtime de contenedores de alto nivel, usado por Docker y Kubernetes"
+      },
+      "pasaje_origen": "Contenerización",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-cont-3",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "tecnologia": "CRI-O",
+        "tipo": "runtime",
+        "descripcion": "Runtime ligero para Kubernetes compatible con OCI"
+      },
+      "pasaje_origen": "Contenerización",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-cont-4",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "tecnologia": "Podman",
+        "tipo": "motor (daemonless)",
+        "descripcion": "Alternativa a Docker sin demonio, compatible con imágenes OCI"
+      },
+      "pasaje_origen": "Contenerización",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-cont-5",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "tecnologia": "LXC/LXD",
+        "tipo": "contenedores de SO",
+        "descripcion": "Contenedores a nivel de sistema operativo (Linux Containers)"
+      },
+      "pasaje_origen": "Contenerización",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-cont-6",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "tecnologia": "Kubernetes",
+        "tipo": "orquestador",
+        "descripcion": "Orquestación de contenedores a escala (Pods, Services, Deployments)"
+      },
+      "pasaje_origen": "Kubernetes",
+      "ubicacion": {},
+      "verificado": false
+    }
+  ],
+  "verificado": false
+}

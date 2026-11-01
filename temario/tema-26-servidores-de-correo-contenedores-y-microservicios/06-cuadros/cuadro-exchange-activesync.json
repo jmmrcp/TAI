@@ -1,0 +1,80 @@
+{
+  "id": "cuadro-exchange-activesync",
+  "tema_id": "tema-26-servidores-de-correo-contenedores-y-microservicios",
+  "tipo_dato": "protocolo",
+  "titulo": "Exchange ActiveSync (EAS)",
+  "semilla": false,
+  "n_filas": 5,
+  "n_fuentes_distintas": 1,
+  "columnas": [
+    "aspecto",
+    "detalle"
+  ],
+  "columna_clave": "aspecto",
+  "columna_respuesta": "detalle",
+  "columna_contexto": "aspecto",
+  "columna_fuente": "fuente",
+  "filas": [
+    {
+      "id": "c-eas-1",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "aspecto": "Protocolo",
+        "detalle": "Sincronización de correo, contactos, calendario y tareas con dispositivos móviles"
+      },
+      "pasaje_origen": "EAS",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-eas-2",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "aspecto": "Transporte",
+        "detalle": "HTTPS (puerto 443)"
+      },
+      "pasaje_origen": "EAS",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-eas-3",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "aspecto": "Servidor",
+        "detalle": "Microsoft Exchange / Exchange Online"
+      },
+      "pasaje_origen": "EAS",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-eas-4",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "aspecto": "Autenticación",
+        "detalle": "Básica o basada en certificados (con políticas de dispositivo)"
+      },
+      "pasaje_origen": "EAS",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-eas-5",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "aspecto": "Políticas",
+        "detalle": "Permite imponer PIN, cifrado y borrado remoto del dispositivo"
+      },
+      "pasaje_origen": "EAS",
+      "ubicacion": {},
+      "verificado": false
+    }
+  ],
+  "verificado": false
+}
