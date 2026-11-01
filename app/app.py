@@ -39,7 +39,7 @@ FACTORES = {
 EASE_MIN = 1.3
 EASE_MAX = 3.0
 
-PAGINAS = ["🏠  Hoy", "🎯  Practicar", "📚  Temario", "🗂️  Material", "📈  Progreso"]
+PAGINAS = ["🏠  Hoy", "🎯  Practicar", "📚  Temario", "🗂️  Material", "📈  Progreso", "📊  Análisis"]
 DIAS = ["lunes", "martes", "miércoles", "jueves", "viernes", "sábado", "domingo"]
 MESES = ["enero", "febrero", "marzo", "abril", "mayo", "junio", "julio",
          "agosto", "septiembre", "octubre", "noviembre", "diciembre"]
@@ -1472,6 +1472,86 @@ def tema_inicial():
     st.session_state["oscuro"] = oscuro
 
 
+def pantalla_analisis():
+    st.markdown("## 📊 Análisis de exámenes oficiales")
+    st.caption("Frecuencia por tema, reutilización de preguntas y tendencia entre convocatorias.")
+    conn = sqlite3.connect(DB_PATH)
+    conn.row_factory = sqlite3.Row
+
+    # Métricas globales
+    n_exam = conn.execute("SELECT COUNT(*) FROM examenes").fetchone()[0]
+    n_apar = conn.execute("SELECT COUNT(*) FROM examen_preguntas").fetchone()[0]
+    n_dist = conn.execute("SELECT COUNT(DISTINCT enunciado) FROM preguntas WHERE id LIKE 'pendiente-examen-%'").fetchone()[0]
+    n_reused = conn.execute("SELECT COUNT(*) FROM pregunta_reuso WHERE n_examenes > 1").fetchone()[0]
+    c1,c2,c3,c4 = st.columns(4)
+    c1.metric("Exámenes", n_exam)
+    c2.metric("Apariciones", n_apar)
+    c3.metric("Enunciados distintos", n_dist)
+    c4.metric("Reutilización", f"{round(100*(n_apar-n_dist)/n_apar,1)}%")
+
+    # Top temas
+    st.markdown("### Top 15 temas por media de preguntas/examen")
+    rows = conn.execute("""
+        SELECT numero, titulo, media_preg, min_preg, max_preg, n_examenes
+        FROM v_tendencia_temas ORDER BY media_preg DESC LIMIT 15
+    """).fetchall()
+    if rows:
+        data = [{"Tema": r["numero"], "Media": r["media_preg"], "Min": r["min_preg"],
+                 "Max": r["max_preg"], "Exámenes": r["n_examenes"],
+                 "Título": (r["titulo"] or "")[:50]} for r in rows]
+        st.dataframe(data, use_container_width=True, hide_index=True)
+
+    # Tendencia
+    st.markdown("### Tendencia (últimos 3 exámenes vs anteriores)")
+    exam_ids = [r[0] for r in conn.execute("SELECT id FROM examenes ORDER BY anio, modelo").fetchall()]
+    recent = set(exam_ids[-3:]) if len(exam_ids) >= 3 else set(exam_ids)
+    older = set(exam_ids[:-3]) if len(exam_ids) > 3 else set()
+    trend = []
+    for tid, num, tit in conn.execute("SELECT id, numero, titulo FROM temas ORDER BY numero").fetchall():
+        mr = conn.execute("SELECT AVG(n_preguntas) FROM examen_stats_tema WHERE tema_id=? AND examen_id IN (%s)" % ",".join("'%s'"%e for e in recent), (tid,)).fetchone()[0] or 0
+        mo = 0
+        if older:
+            mo = conn.execute("SELECT AVG(n_preguntas) FROM examen_stats_tema WHERE tema_id=? AND examen_id IN (%s)" % ",".join("'%s'"%e for e in older), (tid,)).fetchone()[0] or 0
+        delta = ((mr-mo)/mo*100) if mo else 0
+        tend = "⬆️ Subiendo" if delta >= 20 else ("⬇️ Bajando" if delta <= -20 else "➡️ Estable")
+        trend.append({"Tema": num, "Reciente": round(mr,1), "Anterior": round(mo,1),
+                      "Δ%": round(delta,1), "Tendencia": tend, "Título": (tit or "")[:45]})
+    # mostrar solo cambios + top estable
+    changed = [t for t in trend if t["Tendencia"] != "➡️ Estable"]
+    if changed:
+        st.dataframe(sorted(changed, key=lambda x: -abs(x["Δ%"])), use_container_width=True, hide_index=True)
+    else:
+        st.info("Sin cambios significativos (>20%) entre periodos.")
+
+    # Top conceptos
+    st.markdown("### Top 20 conceptos por número de exámenes")
+    crows = conn.execute("""
+        SELECT c.nombre, COUNT(DISTINCT esc.examen_id) n_exam, SUM(esc.n_preguntas) n_preg
+        FROM examen_stats_concepto esc JOIN conceptos c ON c.id=esc.concepto_id
+        GROUP BY esc.concepto_id ORDER BY n_exam DESC, n_preg DESC LIMIT 20
+    """).fetchall()
+    if crows:
+        st.dataframe([{"Concepto": r["nombre"], "Exámenes": r["n_exam"], "Preguntas": r["n_preg"]} for r in crows],
+                     use_container_width=True, hide_index=True)
+
+    # Reuso detalle
+    st.markdown("### Preguntas más reutilizadas")
+    rrows = conn.execute("""
+        SELECT p.id, p.enunciado, pr.n_examenes, pr.opciones_identical
+        FROM pregunta_reuso pr JOIN preguntas p ON p.id=pr.pregunta_id
+        WHERE pr.n_examenes > 1
+        GROUP BY p.enunciado
+        ORDER BY pr.n_examenes DESC, p.id
+        LIMIT 15
+    """).fetchall()
+    if rrows:
+        st.dataframe([{"Enunciado": (r["enunciado"] or "")[:90], "Exámenes": r["n_examenes"],
+                       "Opciones idénticas": "✅" if r["opciones_identical"] else "⚠️"} for r in rrows],
+                     use_container_width=True, hide_index=True)
+
+    conn.close()
+
+
 def main():
     if not DB_PATH.exists():
         st.error(f"No se encuentra la base de datos en `{DB_PATH}`.")
@@ -1494,6 +1574,7 @@ def main():
             PAGINAS[2]: pantalla_temario,
             PAGINAS[3]: pantalla_material,
             PAGINAS[4]: pantalla_progreso,
+            PAGINAS[5]: pantalla_analisis,
         }[st.session_state["pagina"]]()
 
 

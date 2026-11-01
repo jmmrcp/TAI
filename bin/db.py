@@ -3830,6 +3830,262 @@ def cmd_extraer_conceptos_core(args) -> int:
     finally:
         conn.close()
 
+def cmd_analizar_examenes(args) -> int:
+    """Analiza exámenes oficiales: frecuencia por tema, reutilización de preguntas,
+    conceptos más preguntados y tendencia. Persiste en tablas reutilizables
+    (examen_stats_tema, examen_stats_concepto, pregunta_reuso) y en un JSON
+    para la app. Permite comparar convocatorias futuras.
+    """
+    import json
+    from datetime import date
+
+    root = Path(args.root).expanduser().resolve()
+    conn = conectar(root / "oposicion.db")
+    conn.row_factory = sqlite3.Row
+
+    try:
+        # --- Crear tablas reutilizables ---
+        conn.executescript("""
+        CREATE TABLE IF NOT EXISTS examen_stats_tema (
+            examen_id TEXT NOT NULL REFERENCES examenes(id),
+            tema_id TEXT NOT NULL REFERENCES temas(id),
+            n_preguntas INTEGER NOT NULL DEFAULT 0,
+            pct_examen REAL NOT NULL DEFAULT 0,
+            n_conceptos INTEGER NOT NULL DEFAULT 0,
+            PRIMARY KEY (examen_id, tema_id)
+        );
+        CREATE TABLE IF NOT EXISTS examen_stats_concepto (
+            examen_id TEXT NOT NULL REFERENCES examenes(id),
+            concepto_id TEXT NOT NULL REFERENCES conceptos(id),
+            n_preguntas INTEGER NOT NULL DEFAULT 0,
+            PRIMARY KEY (examen_id, concepto_id)
+        );
+        CREATE TABLE IF NOT EXISTS pregunta_reuso (
+            pregunta_id TEXT PRIMARY KEY REFERENCES preguntas(id),
+            n_examenes INTEGER NOT NULL DEFAULT 0,
+            examenes_json TEXT,
+            primera_aparicion TEXT,
+            ultima_aparicion TEXT,
+            opciones_identical INTEGER NOT NULL DEFAULT 0,
+            hash_exacto TEXT
+        );
+        CREATE VIEW IF NOT EXISTS v_tendencia_temas AS
+        SELECT t.id AS tema_id, t.numero, t.titulo,
+               COUNT(DISTINCT est.examen_id) AS n_examenes,
+               ROUND(AVG(est.n_preguntas),2) AS media_preg,
+               MIN(est.n_preguntas) AS min_preg,
+               MAX(est.n_preguntas) AS max_preg
+        FROM temas t
+        LEFT JOIN examen_stats_tema est ON est.tema_id = t.id
+        GROUP BY t.id;
+        """)
+
+        # Limpiar y repoblar
+        conn.execute("DELETE FROM examen_stats_tema")
+        conn.execute("DELETE FROM examen_stats_concepto")
+        conn.execute("DELETE FROM pregunta_reuso")
+
+        # --- Stats por tema por examen ---
+        for (examen_id,) in conn.execute("SELECT id FROM examenes").fetchall():
+            total = conn.execute(
+                "SELECT COUNT(*) FROM examen_preguntas WHERE examen_id=?", (examen_id,)
+            ).fetchone()[0] or 1
+            rows = conn.execute("""
+                SELECT p.tema_id, COUNT(*) n, COUNT(DISTINCT p.concepto_id) nc
+                FROM examen_preguntas ep JOIN preguntas p ON p.id=ep.pregunta_id
+                WHERE ep.examen_id=? AND p.tema_id IS NOT NULL
+                GROUP BY p.tema_id
+            """, (examen_id,)).fetchall()
+            for r in rows:
+                conn.execute("""
+                    INSERT INTO examen_stats_tema (examen_id, tema_id, n_preguntas, pct_examen, n_conceptos)
+                    VALUES (?,?,?,?,?)
+                """, (examen_id, r["tema_id"], r["n"], round(100.0*r["n"]/total,2), r["nc"]))
+
+        # --- Stats por concepto por examen ---
+        for (examen_id,) in conn.execute("SELECT id FROM examenes").fetchall():
+            rows = conn.execute("""
+                SELECT p.concepto_id, COUNT(*) n
+                FROM examen_preguntas ep JOIN preguntas p ON p.id=ep.pregunta_id
+                WHERE ep.examen_id=? AND p.concepto_id IS NOT NULL
+                GROUP BY p.concepto_id
+            """, (examen_id,)).fetchall()
+            for r in rows:
+                conn.execute("""
+                    INSERT INTO examen_stats_concepto (examen_id, concepto_id, n_preguntas)
+                    VALUES (?,?,?)
+                """, (examen_id, r["concepto_id"], r["n"]))
+
+        # --- Reutilización de preguntas (por enunciado) ---
+        # Agrupar preguntas por enunciado normalizado
+        enun_rows = conn.execute("""
+            SELECT enunciado, GROUP_CONCAT(id) ids
+            FROM preguntas WHERE id LIKE 'pendiente-examen-%'
+            GROUP BY enunciado
+        """).fetchall()
+        for r in enun_rows:
+            ids = r["ids"].split(",")
+            # examenes donde aparece cada id
+            exam_set = set()
+            opts_set = set()
+            first = None; last = None
+            for pid in ids:
+                for er in conn.execute(
+                    "SELECT examen_id FROM examen_preguntas WHERE pregunta_id=?", (pid,)
+                ).fetchall():
+                    exam_set.add(er["examen_id"])
+                orow = conn.execute(
+                    "SELECT opciones, hash_exacto FROM preguntas WHERE id=?", (pid,)
+                ).fetchone()
+                opts_set.add(orow["opciones"])
+                # fechas de examen (anio) para primera/ultima
+            # primera/ultima por anio del examen
+            anios = []
+            for eid in exam_set:
+                a = conn.execute("SELECT anio FROM examenes WHERE id=?", (eid,)).fetchone()
+                if a: anios.append((a["anio"], eid))
+            if anios:
+                anios.sort()
+                first = anios[0][1]
+                last = anios[-1][1]
+            # insertar un registro por cada pregunta_id del grupo (apuntando al mismo reuso)
+            identical = 1 if len(opts_set) == 1 else 0
+            for pid in ids:
+                orow = conn.execute("SELECT hash_exacto FROM preguntas WHERE id=?", (pid,)).fetchone()
+                conn.execute("""
+                    INSERT OR REPLACE INTO pregunta_reuso
+                    (pregunta_id, n_examenes, examenes_json, primera_aparicion, ultima_aparicion, opciones_identical, hash_exacto)
+                    VALUES (?,?,?,?,?,?,?)
+                """, (pid, len(exam_set), json.dumps(sorted(exam_set)), first, last, identical, orow["hash_exacto"]))
+
+        conn.commit()
+
+        # --- Reporte de tendencia ---
+        print("="*70)
+        print("ANALISIS DE EXAMENES OFICIALES")
+        print("="*70)
+        n_exam = conn.execute("SELECT COUNT(*) FROM examenes").fetchone()[0]
+        n_preg = conn.execute("SELECT COUNT(*) FROM examen_preguntas").fetchone()[0]
+        n_distinct_enun = conn.execute(
+            "SELECT COUNT(DISTINCT enunciado) FROM preguntas WHERE id LIKE 'pendiente-examen-%'"
+        ).fetchone()[0]
+        n_reused = conn.execute(
+            "SELECT COUNT(*) FROM pregunta_reuso WHERE n_examenes > 1"
+        ).fetchone()[0]
+        print(f"Examenes: {n_exam}  |  Apariciones: {n_preg}  |  Enunciados distintos: {n_distinct_enun}")
+        print(f"Preguntas reutilizadas (>1 examen): {n_reused} ids  |  tasa reuso: {round(100*(n_preg-n_distinct_enun)/n_preg,1)}%")
+        print()
+
+        # Top temas por media
+        print("TOP 10 TEMAS POR MEDIA DE PREGUNTAS/EXAMEN:")
+        for r in conn.execute("""
+            SELECT numero, titulo, media_preg, min_preg, max_preg, n_examenes
+            FROM v_tendencia_temas ORDER BY media_preg DESC LIMIT 10
+        """):
+            print(f"  tema {r['numero']:2}  media={r['media_preg']:5}  min={r['min_preg']:2} max={r['max_preg']:2}  {r['titulo'][:48]}")
+
+        # Tendencia: ultimos 3 examenes vs anteriores
+        print()
+        print("TENDENCIA (ultimos 3 examenes vs anteriores):")
+        # examenes ordenados por anio
+        exam_ids = [r[0] for r in conn.execute(
+            "SELECT id FROM examenes ORDER BY anio, modelo"
+        ).fetchall()]
+        recent = set(exam_ids[-3:]) if len(exam_ids) >= 3 else set(exam_ids)
+        older = set(exam_ids[:-3]) if len(exam_ids) > 3 else set()
+        trend_rows = []
+        for (tema_id, numero, titulo) in conn.execute(
+            "SELECT id, numero, titulo FROM temas ORDER BY numero"
+        ).fetchall():
+            m_recent = conn.execute(
+                "SELECT AVG(n_preguntas) FROM examen_stats_tema WHERE tema_id=? AND examen_id IN (%s)" % ",".join("'%s'"%e for e in recent),
+                (tema_id,)
+            ).fetchone()[0]
+            m_older = None
+            if older:
+                m_older = conn.execute(
+                    "SELECT AVG(n_preguntas) FROM examen_stats_tema WHERE tema_id=? AND examen_id IN (%s)" % ",".join("'%s'"%e for e in older),
+                    (tema_id,)
+                ).fetchone()[0]
+            m_recent = m_recent or 0
+            m_older = m_older or 0
+            if m_older and m_older > 0:
+                delta_pct = (m_recent - m_older) / m_older * 100
+            else:
+                delta_pct = 0 if m_recent == 0 else 100
+            if delta_pct >= 20:
+                trend = "SUBIENDO"
+            elif delta_pct <= -20:
+                trend = "BAJANDO"
+            else:
+                trend = "estable"
+            trend_rows.append((numero, titulo, m_recent, m_older, delta_pct, trend))
+        # mostrar solo los que cambian
+        changed = [t for t in trend_rows if t[5] != "estable"]
+        print(f"  Temas en tendencia SUBIENDO: {sum(1 for t in trend_rows if t[5]=='SUBIENDO')}")
+        print(f"  Temas en tendencia BAJANDO:  {sum(1 for t in trend_rows if t[5]=='BAJANDO')}")
+        print(f"  Temas estables:              {sum(1 for t in trend_rows if t[5]=='estable')}")
+        if changed:
+            print("  Detalle cambios (>20%):")
+            for t in sorted(changed, key=lambda x: -abs(x[4])):
+                print(f"    tema {t[0]:2}  {t[5]:9}  reciente={t[2]:4.1f}  anterior={t[3]:4.1f}  delta={t[4]:+5.1f}%  {t[1][:40]}")
+
+        # Conceptos más repetidos
+        print()
+        print("TOP 15 CONCEPTOS POR NUMERO DE EXAMENES:")
+        for r in conn.execute("""
+            SELECT c.nombre, COUNT(DISTINCT esc.examen_id) n_exam, SUM(esc.n_preguntas) n_preg
+            FROM examen_stats_concepto esc JOIN conceptos c ON c.id=esc.concepto_id
+            GROUP BY esc.concepto_id ORDER BY n_exam DESC, n_preg DESC LIMIT 15
+        """):
+            print(f"  {r['n_exam']} examenes ({r['n_preg']} preg)  {r['nombre'][:55]}")
+
+        # JSON para la app
+        report = {
+            "generado": date.today().isoformat(),
+            "n_examenes": n_exam,
+            "n_apariciones": n_preg,
+            "n_enunciados_distintos": n_distinct_enun,
+            "tasa_reuso_pct": round(100*(n_preg-n_distinct_enun)/n_preg,1),
+            "n_reused_ids": n_reused,
+            "examenes": [r[0] for r in conn.execute("SELECT id FROM examenes ORDER BY anio, modelo").fetchall()],
+            "top_temas": [
+                {"tema": r["numero"], "titulo": r["titulo"], "media": r["media_preg"],
+                 "min": r["min_preg"], "max": r["max_preg"], "n_examenes": r["n_examenes"]}
+                for r in conn.execute("SELECT numero, titulo, media_preg, min_preg, max_preg, n_examenes FROM v_tendencia_temas ORDER BY media_preg DESC LIMIT 15")
+            ],
+            "tendencia": [
+                {"tema": t[0], "titulo": t[1], "reciente": round(t[2],2), "anterior": round(t[3],2),
+                 "delta_pct": round(t[4],1), "tendencia": t[5]}
+                for t in trend_rows
+            ],
+            "top_conceptos": [
+                {"concepto": r[0], "n_examenes": r[1], "n_preguntas": r[2]}
+                for r in conn.execute("""
+                    SELECT c.nombre, COUNT(DISTINCT esc.examen_id), SUM(esc.n_preguntas)
+                    FROM examen_stats_concepto esc JOIN conceptos c ON c.id=esc.concepto_id
+                    GROUP BY esc.concepto_id ORDER BY COUNT(DISTINCT esc.examen_id) DESC, SUM(esc.n_preguntas) DESC LIMIT 25
+                """)
+            ],
+        }
+        out = root / "export" / "analisis-examenes.json"
+        out.parent.mkdir(parents=True, exist_ok=True)
+        with out.open("w", encoding="utf-8") as f:
+            json.dump(report, f, ensure_ascii=False, indent=2)
+        print()
+        print(f"[analisis] Tablas pobladas: examen_stats_tema, examen_stats_concepto, pregunta_reuso")
+        print(f"[analisis] Reporte guardado: {out}")
+        return 0
+
+    except Exception as e:
+        conn.rollback()
+        print(f"[error] {e}")
+        import traceback
+        traceback.print_exc()
+        return 1
+    finally:
+        conn.close()
+
 def main() -> int:
     parser = argparse.ArgumentParser(
         description="Gestor de la base de datos TAI Oposición",
@@ -3970,6 +4226,11 @@ def main() -> int:
     p_core.add_argument("--output", default=None,
                         help="Nombre del archivo de salida (default: conceptos-core-tema-XX.json)")
     p_core.set_defaults(func=cmd_extraer_conceptos_core)
+
+    p_an = sub.add_parser("analizar-examenes",
+                          help="Analizar exámenes oficiales: frecuencia por tema, reuso y tendencia")
+    p_an.add_argument("--root", default="~/oposicion")
+    p_an.set_defaults(func=cmd_analizar_examenes)
 
     args = parser.parse_args()
     return args.func(args)

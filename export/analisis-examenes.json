@@ -1,0 +1,535 @@
+{
+  "generado": "2026-11-01",
+  "n_examenes": 10,
+  "n_apariciones": 870,
+  "n_enunciados_distintos": 529,
+  "tasa_reuso_pct": 39.2,
+  "n_reused_ids": 512,
+  "examenes": [
+    "examen-tai-2018",
+    "examen-tai-2021",
+    "examen-tai-2023",
+    "examen-tai-2024-modelo-a",
+    "examen-tai-2024-modelo-b",
+    "examen-tai-2025-modelo-a",
+    "examen-tai-2025-modelo-b",
+    "examen-tai-2026-modelo-a",
+    "examen-tai-2026-modelo-b",
+    "examen-tai-2026-modelo-c"
+  ],
+  "top_temas": [
+    {
+      "tema": 15,
+      "titulo": "Modelado de datos. Diseño de BD. Modelo relacional. Normalización",
+      "media": 3.8,
+      "min": 3,
+      "max": 6,
+      "n_examenes": 10
+    },
+    {
+      "tema": 33,
+      "titulo": "Redes locales. Tipología. Técnicas de transmisión. Dispositivos",
+      "media": 3.7,
+      "min": 1,
+      "max": 5,
+      "n_examenes": 10
+    },
+    {
+      "tema": 1,
+      "titulo": "La Constitución Española de 1978",
+      "media": 3.6,
+      "min": 2,
+      "max": 6,
+      "n_examenes": 10
+    },
+    {
+      "tema": 17,
+      "titulo": "Lenguajes de interrogación de BD. ANSI SQL. Procedimientos y triggers",
+      "media": 3.6,
+      "min": 3,
+      "max": 4,
+      "n_examenes": 10
+    },
+    {
+      "tema": 30,
+      "titulo": "Modelo TCP/IP y OSI. Protocolos TCP/IP",
+      "media": 3.4,
+      "min": 2,
+      "max": 4,
+      "n_examenes": 10
+    },
+    {
+      "tema": 10,
+      "titulo": "Informática básica. Representación de la información. Arquitectura de ordenadores",
+      "media": 3.3,
+      "min": 2,
+      "max": 6,
+      "n_examenes": 10
+    },
+    {
+      "tema": 13,
+      "titulo": "Sistemas operativos: Windows, Unix/Linux, móviles",
+      "media": 3.3,
+      "min": 2,
+      "max": 5,
+      "n_examenes": 10
+    },
+    {
+      "tema": 25,
+      "titulo": "Administración de BD. Almacenamiento y virtualización. Backup y recuperación",
+      "media": 3.3,
+      "min": 2,
+      "max": 6,
+      "n_examenes": 10
+    },
+    {
+      "tema": 28,
+      "titulo": "Seguridad de sistemas. Criptografía. Firma digital. CPD. Incidencias",
+      "media": 3.3,
+      "min": 2,
+      "max": 5,
+      "n_examenes": 10
+    },
+    {
+      "tema": 18,
+      "titulo": "Diseño y programación orientada a objetos. Patrones de diseño. UML",
+      "media": 3.2,
+      "min": 2,
+      "max": 5,
+      "n_examenes": 10
+    },
+    {
+      "tema": 21,
+      "titulo": "Aplicaciones web. HTML, XML. Lenguajes de script. Front-end y back-end",
+      "media": 3.11,
+      "min": 2,
+      "max": 5,
+      "n_examenes": 9
+    },
+    {
+      "tema": 11,
+      "titulo": "Periféricos: conectividad y administración. Impresión, almacenamiento, visualización",
+      "media": 3.1,
+      "min": 1,
+      "max": 4,
+      "n_examenes": 10
+    },
+    {
+      "tema": 6,
+      "titulo": "La sociedad de la información. Identidad y firma electrónica. DNIe. Agenda Digital",
+      "media": 3.0,
+      "min": 2,
+      "max": 4,
+      "n_examenes": 10
+    },
+    {
+      "tema": 23,
+      "titulo": "Repositorios. Control de versiones. Metodologías. Pruebas de software",
+      "media": 3.0,
+      "min": 2,
+      "max": 5,
+      "n_examenes": 10
+    },
+    {
+      "tema": 32,
+      "titulo": "Seguridad en redes. Perimetral. VPN. Seguridad en el puesto",
+      "media": 2.8,
+      "min": 1,
+      "max": 4,
+      "n_examenes": 10
+    }
+  ],
+  "tendencia": [
+    {
+      "tema": 1,
+      "titulo": "La Constitución Española de 1978",
+      "reciente": 2.0,
+      "anterior": 4.29,
+      "delta_pct": -53.3,
+      "tendencia": "BAJANDO"
+    },
+    {
+      "tema": 2,
+      "titulo": "Las Cortes Generales. El Tribunal Constitucional. El Defensor del Pueblo",
+      "reciente": 2.33,
+      "anterior": 2.29,
+      "delta_pct": 2.1,
+      "tendencia": "estable"
+    },
+    {
+      "tema": 3,
+      "titulo": "El Gobierno: composición, nombramiento y cese. Relaciones con las Cortes",
+      "reciente": 2.0,
+      "anterior": 1.71,
+      "delta_pct": 16.7,
+      "tendencia": "estable"
+    },
+    {
+      "tema": 4,
+      "titulo": "El TREBEP y demás normativa. Transparencia. Agenda 2030 y ODS",
+      "reciente": 2.67,
+      "anterior": 1.86,
+      "delta_pct": 43.6,
+      "tendencia": "SUBIENDO"
+    },
+    {
+      "tema": 5,
+      "titulo": "Políticas de igualdad. Violencia de género. LGTBI. Discapacidad y dependencia",
+      "reciente": 2.67,
+      "anterior": 2.0,
+      "delta_pct": 33.3,
+      "tendencia": "SUBIENDO"
+    },
+    {
+      "tema": 6,
+      "titulo": "La sociedad de la información. Identidad y firma electrónica. DNIe. Agenda Digital",
+      "reciente": 3.33,
+      "anterior": 2.86,
+      "delta_pct": 16.7,
+      "tendencia": "estable"
+    },
+    {
+      "tema": 7,
+      "titulo": "La protección de datos personales. Derechos digitales",
+      "reciente": 1.67,
+      "anterior": 1.29,
+      "delta_pct": 29.6,
+      "tendencia": "SUBIENDO"
+    },
+    {
+      "tema": 8,
+      "titulo": "Acceso electrónico. ENS y ENI. Normas técnicas de Interoperabilidad",
+      "reciente": 3.0,
+      "anterior": 2.43,
+      "delta_pct": 23.5,
+      "tendencia": "SUBIENDO"
+    },
+    {
+      "tema": 9,
+      "titulo": "Instrumentos para el acceso electrónico. Sedes. Infraestructuras comunes",
+      "reciente": 3.33,
+      "anterior": 1.86,
+      "delta_pct": 79.5,
+      "tendencia": "SUBIENDO"
+    },
+    {
+      "tema": 10,
+      "titulo": "Informática básica. Representación de la información. Arquitectura de ordenadores",
+      "reciente": 2.67,
+      "anterior": 3.57,
+      "delta_pct": -25.3,
+      "tendencia": "BAJANDO"
+    },
+    {
+      "tema": 11,
+      "titulo": "Periféricos: conectividad y administración. Impresión, almacenamiento, visualización",
+      "reciente": 2.33,
+      "anterior": 3.43,
+      "delta_pct": -31.9,
+      "tendencia": "BAJANDO"
+    },
+    {
+      "tema": 12,
+      "titulo": "Tipos abstractos y estructuras de datos. Algoritmos. Organizaciones de ficheros",
+      "reciente": 2.67,
+      "anterior": 2.57,
+      "delta_pct": 3.7,
+      "tendencia": "estable"
+    },
+    {
+      "tema": 13,
+      "titulo": "Sistemas operativos: Windows, Unix/Linux, móviles",
+      "reciente": 3.0,
+      "anterior": 3.43,
+      "delta_pct": -12.5,
+      "tendencia": "estable"
+    },
+    {
+      "tema": 14,
+      "titulo": "SGBD relacionales, orientados a objetos y NoSQL",
+      "reciente": 3.0,
+      "anterior": 1.71,
+      "delta_pct": 75.0,
+      "tendencia": "SUBIENDO"
+    },
+    {
+      "tema": 15,
+      "titulo": "Modelado de datos. Diseño de BD. Modelo relacional. Normalización",
+      "reciente": 3.0,
+      "anterior": 4.14,
+      "delta_pct": -27.6,
+      "tendencia": "BAJANDO"
+    },
+    {
+      "tema": 16,
+      "titulo": "Lenguajes de programación: tipos, operadores, control de flujo, funciones",
+      "reciente": 1.0,
+      "anterior": 3.0,
+      "delta_pct": -66.7,
+      "tendencia": "BAJANDO"
+    },
+    {
+      "tema": 17,
+      "titulo": "Lenguajes de interrogación de BD. ANSI SQL. Procedimientos y triggers",
+      "reciente": 3.67,
+      "anterior": 3.57,
+      "delta_pct": 2.7,
+      "tendencia": "estable"
+    },
+    {
+      "tema": 18,
+      "titulo": "Diseño y programación orientada a objetos. Patrones de diseño. UML",
+      "reciente": 3.0,
+      "anterior": 3.29,
+      "delta_pct": -8.7,
+      "tendencia": "estable"
+    },
+    {
+      "tema": 19,
+      "titulo": "Arquitectura Java EE/Jakarta EE y plataforma .NET",
+      "reciente": 2.67,
+      "anterior": 2.57,
+      "delta_pct": 3.7,
+      "tendencia": "estable"
+    },
+    {
+      "tema": 20,
+      "titulo": "Arquitectura cliente/servidor y multicapas. Servicios web y protocolos",
+      "reciente": 2.0,
+      "anterior": 2.14,
+      "delta_pct": -6.7,
+      "tendencia": "estable"
+    },
+    {
+      "tema": 21,
+      "titulo": "Aplicaciones web. HTML, XML. Lenguajes de script. Front-end y back-end",
+      "reciente": 2.0,
+      "anterior": 3.43,
+      "delta_pct": -41.7,
+      "tendencia": "BAJANDO"
+    },
+    {
+      "tema": 22,
+      "titulo": "Accesibilidad, diseño universal y usabilidad. Seguridad en el desarrollo",
+      "reciente": 1.67,
+      "anterior": 2.86,
+      "delta_pct": -41.7,
+      "tendencia": "BAJANDO"
+    },
+    {
+      "tema": 23,
+      "titulo": "Repositorios. Control de versiones. Metodologías. Pruebas de software",
+      "reciente": 3.33,
+      "anterior": 2.86,
+      "delta_pct": 16.7,
+      "tendencia": "estable"
+    },
+    {
+      "tema": 24,
+      "titulo": "Administración del SO y software de base. Actualización y mantenimiento",
+      "reciente": 2.33,
+      "anterior": 1.5,
+      "delta_pct": 55.6,
+      "tendencia": "SUBIENDO"
+    },
+    {
+      "tema": 25,
+      "titulo": "Administración de BD. Almacenamiento y virtualización. Backup y recuperación",
+      "reciente": 4.0,
+      "anterior": 3.0,
+      "delta_pct": 33.3,
+      "tendencia": "SUBIENDO"
+    },
+    {
+      "tema": 26,
+      "titulo": "Servidores de correo. Contenedores y microservicios",
+      "reciente": 1.67,
+      "anterior": 2.43,
+      "delta_pct": -31.4,
+      "tendencia": "BAJANDO"
+    },
+    {
+      "tema": 27,
+      "titulo": "Administración de redes LAN. Gestión de usuarios y dispositivos",
+      "reciente": 2.0,
+      "anterior": 2.33,
+      "delta_pct": -14.3,
+      "tendencia": "estable"
+    },
+    {
+      "tema": 28,
+      "titulo": "Seguridad de sistemas. Criptografía. Firma digital. CPD. Incidencias",
+      "reciente": 4.33,
+      "anterior": 2.86,
+      "delta_pct": 51.7,
+      "tendencia": "SUBIENDO"
+    },
+    {
+      "tema": 29,
+      "titulo": "Comunicaciones. Medios de transmisión. Redes de conmutación y difusión",
+      "reciente": 2.0,
+      "anterior": 2.67,
+      "delta_pct": -25.0,
+      "tendencia": "BAJANDO"
+    },
+    {
+      "tema": 30,
+      "titulo": "Modelo TCP/IP y OSI. Protocolos TCP/IP",
+      "reciente": 3.0,
+      "anterior": 3.57,
+      "delta_pct": -16.0,
+      "tendencia": "estable"
+    },
+    {
+      "tema": 31,
+      "titulo": "Internet: arquitectura. Protocolos HTTP, HTTPS y SSL/TLS",
+      "reciente": 2.5,
+      "anterior": 2.57,
+      "delta_pct": -2.8,
+      "tendencia": "estable"
+    },
+    {
+      "tema": 32,
+      "titulo": "Seguridad en redes. Perimetral. VPN. Seguridad en el puesto",
+      "reciente": 3.33,
+      "anterior": 2.57,
+      "delta_pct": 29.6,
+      "tendencia": "SUBIENDO"
+    },
+    {
+      "tema": 33,
+      "titulo": "Redes locales. Tipología. Técnicas de transmisión. Dispositivos",
+      "reciente": 2.33,
+      "anterior": 4.29,
+      "delta_pct": -45.6,
+      "tendencia": "BAJANDO"
+    }
+  ],
+  "top_conceptos": [
+    {
+      "concepto": "control versiones",
+      "n_examenes": 5,
+      "n_preguntas": 5
+    },
+    {
+      "concepto": "normalizacion",
+      "n_examenes": 5,
+      "n_preguntas": 5
+    },
+    {
+      "concepto": "accesibilidad RD 1112/2018",
+      "n_examenes": 5,
+      "n_preguntas": 5
+    },
+    {
+      "concepto": "SGBDOO",
+      "n_examenes": 5,
+      "n_preguntas": 5
+    },
+    {
+      "concepto": "protocolo ARP",
+      "n_examenes": 5,
+      "n_preguntas": 5
+    },
+    {
+      "concepto": "modelo OSI",
+      "n_examenes": 5,
+      "n_preguntas": 5
+    },
+    {
+      "concepto": "respuesta correcta",
+      "n_examenes": 4,
+      "n_preguntas": 8
+    },
+    {
+      "concepto": "controlador periferico",
+      "n_examenes": 4,
+      "n_preguntas": 4
+    },
+    {
+      "concepto": "transferencia FTP",
+      "n_examenes": 4,
+      "n_preguntas": 4
+    },
+    {
+      "concepto": "Razor ASP.NET",
+      "n_examenes": 4,
+      "n_preguntas": 4
+    },
+    {
+      "concepto": "camaras podran",
+      "n_examenes": 4,
+      "n_preguntas": 4
+    },
+    {
+      "concepto": "HTML vs XHTML",
+      "n_examenes": 4,
+      "n_preguntas": 4
+    },
+    {
+      "concepto": "JPA Jakarta",
+      "n_examenes": 4,
+      "n_preguntas": 4
+    },
+    {
+      "concepto": "gobierno ley",
+      "n_examenes": 4,
+      "n_preguntas": 4
+    },
+    {
+      "concepto": "operacion logica",
+      "n_examenes": 4,
+      "n_preguntas": 4
+    },
+    {
+      "concepto": "TCP/IP",
+      "n_examenes": 4,
+      "n_preguntas": 4
+    },
+    {
+      "concepto": "triggers incorrecta",
+      "n_examenes": 4,
+      "n_preguntas": 4
+    },
+    {
+      "concepto": "competente causas diputados",
+      "n_examenes": 4,
+      "n_preguntas": 4
+    },
+    {
+      "concepto": "honeypot",
+      "n_examenes": 4,
+      "n_preguntas": 4
+    },
+    {
+      "concepto": "HTTP 401",
+      "n_examenes": 4,
+      "n_preguntas": 4
+    },
+    {
+      "concepto": "DML SQL",
+      "n_examenes": 4,
+      "n_preguntas": 4
+    },
+    {
+      "concepto": "SAN NAS",
+      "n_examenes": 4,
+      "n_preguntas": 4
+    },
+    {
+      "concepto": "PoE incorrecta",
+      "n_examenes": 4,
+      "n_preguntas": 4
+    },
+    {
+      "concepto": ".NET MAUI",
+      "n_examenes": 4,
+      "n_preguntas": 4
+    },
+    {
+      "concepto": "arboles 2-3-4",
+      "n_examenes": 4,
+      "n_preguntas": 4
+    }
+  ]
+}
