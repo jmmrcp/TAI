@@ -1,0 +1,323 @@
+{
+  "tema_id": "tema-32-seguridad-en-redes-perimetral-vpn-seguridad-en-el-puesto",
+  "tema_numero": 32,
+  "conceptos": [
+    {
+      "nombre": "clickjacking",
+      "descripcion": "clickjacking",
+      "preguntas": [
+        "examen-tai-2018:teorica:96"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "cortafuegos",
+      "descripcion": "cortafuegos",
+      "preguntas": [
+        "examen-tai-2018:teorica:97"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "IPSec PPTP OpenVPN",
+      "descripcion": "IPSec PPTP OpenVPN",
+      "preguntas": [
+        "examen-tai-2018:teorica:98"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "VPN nivel enlace",
+      "descripcion": "VPN nivel enlace",
+      "preguntas": [
+        "examen-tai-2021:teorica:78"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "portal cautivo",
+      "descripcion": "portal cautivo",
+      "preguntas": [
+        "examen-tai-2023:teorica:77"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "VPN cifrado",
+      "descripcion": "VPN cifrado",
+      "preguntas": [
+        "examen-tai-2023:teorica:78"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "vishing",
+      "descripcion": "vishing",
+      "preguntas": [
+        "examen-tai-2024-modelo-a:teorica:78",
+        "examen-tai-2024-modelo-b:teorica:80",
+        "examen-tai-2025-modelo-a:teorica:78",
+        "examen-tai-2025-modelo-b:teorica:80"
+      ],
+      "n_preguntas": 4
+    },
+    {
+      "nombre": "honeypot",
+      "descripcion": "honeypot",
+      "preguntas": [
+        "examen-tai-2024-modelo-a:teorica:79",
+        "examen-tai-2024-modelo-b:teorica:79",
+        "examen-tai-2025-modelo-a:teorica:79",
+        "examen-tai-2025-modelo-b:teorica:79"
+      ],
+      "n_preguntas": 4
+    },
+    {
+      "nombre": "herramienta CCN red",
+      "descripcion": "herramienta CCN red",
+      "preguntas": [
+        "examen-tai-2024-modelo-a:teorica:80",
+        "examen-tai-2024-modelo-b:teorica:78",
+        "examen-tai-2025-modelo-a:teorica:80",
+        "examen-tai-2025-modelo-b:teorica:78"
+      ],
+      "n_preguntas": 4
+    },
+    {
+      "nombre": "MFA CCN",
+      "descripcion": "MFA CCN",
+      "preguntas": [
+        "examen-tai-2026-modelo-a:teorica:55"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "MAC sticky",
+      "descripcion": "MAC sticky",
+      "preguntas": [
+        "examen-tai-2026-modelo-a:teorica:67",
+        "examen-tai-2026-modelo-b:teorica:68"
+      ],
+      "n_preguntas": 2
+    },
+    {
+      "nombre": "Pharming",
+      "descripcion": "Pharming",
+      "preguntas": [
+        "examen-tai-2026-modelo-a:teorica:77",
+        "examen-tai-2026-modelo-b:teorica:80"
+      ],
+      "n_preguntas": 2
+    },
+    {
+      "nombre": "DMZ",
+      "descripcion": "DMZ",
+      "preguntas": [
+        "examen-tai-2026-modelo-a:teorica:78",
+        "examen-tai-2026-modelo-b:teorica:79"
+      ],
+      "n_preguntas": 2
+    },
+    {
+      "nombre": "HttpOnly cookie",
+      "descripcion": "HttpOnly cookie",
+      "preguntas": [
+        "examen-tai-2026-modelo-c:teorica:76"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "CCN-CERT VPN tunel kernel",
+      "descripcion": "CCN-CERT VPN tunel kernel",
+      "preguntas": [
+        "examen-tai-2026-modelo-c:teorica:77"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "MAC Security IEEE 802.1AE",
+      "descripcion": "MAC Security IEEE 802.1AE",
+      "preguntas": [
+        "examen-tai-2026-modelo-c:reserva:3"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "VPN confidencialidad",
+      "descripcion": "VPN confidencialidad",
+      "preguntas": [
+        "pendiente-supuesto-2-2018-p20"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "firewall Windows",
+      "descripcion": "firewall Windows",
+      "preguntas": [
+        "pendiente-supuesto-2-2021-p17"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "IPS anomalías",
+      "descripcion": "IPS anomalías",
+      "preguntas": [
+        "pendiente-supuesto-2-2021-p18"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "firewall Windows regla",
+      "descripcion": "firewall Windows regla",
+      "preguntas": [
+        "pendiente-supuesto-2-2021-p21",
+        "pendiente-supuesto-2-a-2026-p23",
+        "pendiente-supuesto-2-b-2026-p23",
+        "pendiente-supuesto-2-p23"
+      ],
+      "n_preguntas": 4
+    },
+    {
+      "nombre": "prueba conectividad puerto",
+      "descripcion": "prueba conectividad puerto",
+      "preguntas": [
+        "pendiente-supuesto-2-2021-p22"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "SSH puerto",
+      "descripcion": "SSH puerto",
+      "preguntas": [
+        "pendiente-supuesto-2-2021-p25"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "SSH SCP puertos",
+      "descripcion": "SSH SCP puertos",
+      "preguntas": [
+        "pendiente-supuesto-2-2023-p13"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "WAF firewall web",
+      "descripcion": "WAF firewall web",
+      "preguntas": [
+        "pendiente-supuesto-2-2023-p19"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "PPTP VPN",
+      "descripcion": "PPTP VPN",
+      "preguntas": [
+        "pendiente-supuesto-2-2023-p22"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "seguridad puerto 80",
+      "descripcion": "seguridad puerto 80",
+      "preguntas": [
+        "pendiente-supuesto-2-a-2024-p03",
+        "pendiente-supuesto-2-a-2025-p03",
+        "pendiente-supuesto-2-b-2024-p18",
+        "pendiente-supuesto-2-b-2025-p18"
+      ],
+      "n_preguntas": 4
+    },
+    {
+      "nombre": "SFTP FTPS",
+      "descripcion": "SFTP FTPS",
+      "preguntas": [
+        "pendiente-supuesto-2-a-2024-p11",
+        "pendiente-supuesto-2-a-2025-p11",
+        "pendiente-supuesto-2-b-2024-p10",
+        "pendiente-supuesto-2-b-2025-p10"
+      ],
+      "n_preguntas": 4
+    },
+    {
+      "nombre": "SIP NAT VoIP",
+      "descripcion": "SIP NAT VoIP",
+      "preguntas": [
+        "pendiente-supuesto-2-a-2024-p17",
+        "pendiente-supuesto-2-a-2025-p17",
+        "pendiente-supuesto-2-b-2024-p04",
+        "pendiente-supuesto-2-b-2025-p04"
+      ],
+      "n_preguntas": 4
+    },
+    {
+      "nombre": "WPA3 Enterprise",
+      "descripcion": "WPA3 Enterprise",
+      "preguntas": [
+        "pendiente-supuesto-2-a-2024-p22",
+        "pendiente-supuesto-2-a-2025-p22",
+        "pendiente-supuesto-2-b-2024-p22",
+        "pendiente-supuesto-2-b-2025-p22"
+      ],
+      "n_preguntas": 4
+    },
+    {
+      "nombre": "firewall-cmd HTTPS",
+      "descripcion": "firewall-cmd HTTPS",
+      "preguntas": [
+        "pendiente-supuesto-2-a-2026-p10",
+        "pendiente-supuesto-2-b-2026-p10",
+        "pendiente-supuesto-2-p10"
+      ],
+      "n_preguntas": 3
+    },
+    {
+      "nombre": "prueba TCP connect",
+      "descripcion": "prueba TCP connect",
+      "preguntas": [
+        "pendiente-supuesto-2-a-2026-p12",
+        "pendiente-supuesto-2-b-2026-p12",
+        "pendiente-supuesto-2-p12"
+      ],
+      "n_preguntas": 3
+    },
+    {
+      "nombre": "firewall-cmd persistente",
+      "descripcion": "firewall-cmd persistente",
+      "preguntas": [
+        "pendiente-supuesto-2-a-2026-p21",
+        "pendiente-supuesto-2-b-2026-p21",
+        "pendiente-supuesto-2-p21"
+      ],
+      "n_preguntas": 3
+    },
+    {
+      "nombre": "rp_filter anti-spoofing",
+      "descripcion": "rp_filter anti-spoofing",
+      "preguntas": [
+        "pendiente-supuesto-2-a-2026-p22",
+        "pendiente-supuesto-2-b-2026-p22",
+        "pendiente-supuesto-2-p22"
+      ],
+      "n_preguntas": 3
+    },
+    {
+      "nombre": "netsh firewall estado",
+      "descripcion": "netsh firewall estado",
+      "preguntas": [
+        "pendiente-supuesto-2-c-2026-p04"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "netsh firewall activar",
+      "descripcion": "netsh firewall activar",
+      "preguntas": [
+        "pendiente-supuesto-2-c-2026-p05"
+      ],
+      "n_preguntas": 1
+    }
+  ],
+  "total_preguntas": 70,
+  "n_conceptos": 35
+}

@@ -1,0 +1,183 @@
+{
+  "tema_id": "tema-29-comunicaciones-medios-de-transmision-redes-de-conmutacion-y-",
+  "tema_numero": 29,
+  "conceptos": [
+    {
+      "nombre": "medios transmision",
+      "descripcion": "medios transmision",
+      "preguntas": [
+        "examen-tai-2018:teorica:82"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "dividendo digital",
+      "descripcion": "dividendo digital",
+      "preguntas": [
+        "examen-tai-2018:teorica:86"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "RIPng",
+      "descripcion": "RIPng",
+      "preguntas": [
+        "examen-tai-2018:teorica:87"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "bit paridad",
+      "descripcion": "bit paridad",
+      "preguntas": [
+        "examen-tai-2018:teorica:88"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "Ethernet fibra optica",
+      "descripcion": "Ethernet fibra optica",
+      "preguntas": [
+        "examen-tai-2018:teorica:89"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "telefonia IP",
+      "descripcion": "telefonia IP",
+      "preguntas": [
+        "examen-tai-2018:teorica:95"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "fibra optica plastica",
+      "descripcion": "fibra optica plastica",
+      "preguntas": [
+        "examen-tai-2023:teorica:72"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "organismo telecomunicaciones ONU",
+      "descripcion": "organismo telecomunicaciones ONU",
+      "preguntas": [
+        "examen-tai-2023:teorica:75"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "jumboframe",
+      "descripcion": "jumboframe",
+      "preguntas": [
+        "examen-tai-2024-modelo-a:teorica:57",
+        "examen-tai-2024-modelo-b:teorica:59",
+        "examen-tai-2025-modelo-a:teorica:57",
+        "examen-tai-2025-modelo-b:teorica:59"
+      ],
+      "n_preguntas": 4
+    },
+    {
+      "nombre": "LPWAN",
+      "descripcion": "LPWAN",
+      "preguntas": [
+        "examen-tai-2024-modelo-a:teorica:71",
+        "examen-tai-2024-modelo-b:teorica:70",
+        "examen-tai-2025-modelo-a:teorica:71",
+        "examen-tai-2025-modelo-b:teorica:70"
+      ],
+      "n_preguntas": 4
+    },
+    {
+      "nombre": "conmutacion circuitos vs paquetes",
+      "descripcion": "conmutacion circuitos vs paquetes",
+      "preguntas": [
+        "examen-tai-2026-modelo-a:teorica:72",
+        "examen-tai-2026-modelo-b:teorica:73"
+      ],
+      "n_preguntas": 2
+    },
+    {
+      "nombre": "VPLS",
+      "descripcion": "VPLS",
+      "preguntas": [
+        "examen-tai-2026-modelo-c:teorica:69"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "H.245 ITU",
+      "descripcion": "H.245 ITU",
+      "preguntas": [
+        "examen-tai-2026-modelo-c:teorica:70"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "SIP puerto",
+      "descripcion": "SIP puerto",
+      "preguntas": [
+        "examen-tai-2026-modelo-c:teorica:72"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "QSFP+ velocidad",
+      "descripcion": "QSFP+ velocidad",
+      "preguntas": [
+        "examen-tai-2026-modelo-c:teorica:80"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "cableado UTP categoría",
+      "descripcion": "cableado UTP categoría",
+      "preguntas": [
+        "pendiente-supuesto-2-2018-p04"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "red SARA",
+      "descripcion": "red SARA",
+      "preguntas": [
+        "pendiente-supuesto-2-2018-p31"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "cableado alta velocidad",
+      "descripcion": "cableado alta velocidad",
+      "preguntas": [
+        "pendiente-supuesto-2-2021-p16"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "estándar WiFi 6E",
+      "descripcion": "estándar WiFi 6E",
+      "preguntas": [
+        "pendiente-supuesto-2-2023-p12"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "multiplexación CDMA",
+      "descripcion": "multiplexación CDMA",
+      "preguntas": [
+        "pendiente-supuesto-2-c-2026-p21"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "WiFi 6 802.11ax",
+      "descripcion": "WiFi 6 802.11ax",
+      "preguntas": [
+        "pendiente-supuesto-2-c-2026-p22"
+      ],
+      "n_preguntas": 1
+    }
+  ],
+  "total_preguntas": 28,
+  "n_conceptos": 21
+}

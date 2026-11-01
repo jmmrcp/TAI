@@ -1,0 +1,99 @@
+{
+  "tema_id": "tema-05-politicas-de-igualdad-violencia-de-genero-lgtbi-discapacidad",
+  "tema_numero": 5,
+  "conceptos": [
+    {
+      "nombre": "igualdad efectiva",
+      "descripcion": "igualdad efectiva",
+      "preguntas": [
+        "examen-tai-2018:teorica:12"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "igualdad efectiva criterios",
+      "descripcion": "igualdad efectiva criterios",
+      "preguntas": [
+        "examen-tai-2021:teorica:11"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "discriminacion embarazo maternidad",
+      "descripcion": "discriminacion embarazo maternidad",
+      "preguntas": [
+        "examen-tai-2021:teorica:12"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "grados dependencia",
+      "descripcion": "grados dependencia",
+      "preguntas": [
+        "examen-tai-2021:teorica:13"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "revision dependencia",
+      "descripcion": "revision dependencia",
+      "preguntas": [
+        "examen-tai-2023:teorica:9"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "planes igualdad",
+      "descripcion": "planes igualdad",
+      "preguntas": [
+        "examen-tai-2023:teorica:10"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "violencia genero principios",
+      "descripcion": "violencia genero principios",
+      "preguntas": [
+        "examen-tai-2026-modelo-a:teorica:10",
+        "examen-tai-2026-modelo-b:teorica:11"
+      ],
+      "n_preguntas": 2
+    },
+    {
+      "nombre": "discapacidad grado minimo",
+      "descripcion": "discapacidad grado minimo",
+      "preguntas": [
+        "examen-tai-2026-modelo-a:teorica:11",
+        "examen-tai-2026-modelo-b:teorica:10"
+      ],
+      "n_preguntas": 2
+    },
+    {
+      "nombre": "LGTBI infraccion grave",
+      "descripcion": "LGTBI infraccion grave",
+      "preguntas": [
+        "examen-tai-2026-modelo-a:reserva:3",
+        "examen-tai-2026-modelo-b:reserva:3"
+      ],
+      "n_preguntas": 2
+    },
+    {
+      "nombre": "discriminacion represalia",
+      "descripcion": "discriminacion represalia",
+      "preguntas": [
+        "examen-tai-2026-modelo-c:teorica:10"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "planes igualdad Gobierno",
+      "descripcion": "planes igualdad Gobierno",
+      "preguntas": [
+        "examen-tai-2026-modelo-c:teorica:11"
+      ],
+      "n_preguntas": 1
+    }
+  ],
+  "total_preguntas": 14,
+  "n_conceptos": 11
+}

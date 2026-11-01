@@ -1,0 +1,220 @@
+{
+  "tema_id": "tema-20-arquitectura-cliente-servidor-y-multicapas-servicios-web-y-p",
+  "tema_numero": 20,
+  "conceptos": [
+    {
+      "nombre": "operacion WSDL one-way",
+      "descripcion": "operacion WSDL one-way",
+      "preguntas": [
+        "examen-tai-2018:teorica:59"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "tecnologia REST",
+      "descripcion": "tecnologia REST",
+      "preguntas": [
+        "examen-tai-2018:teorica:60"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "mensaje SOAP",
+      "descripcion": "mensaje SOAP",
+      "preguntas": [
+        "examen-tai-2018:teorica:61"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "servicios REST",
+      "descripcion": "servicios REST",
+      "preguntas": [
+        "examen-tai-2021:teorica:49"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "REST falsa",
+      "descripcion": "REST falsa",
+      "preguntas": [
+        "examen-tai-2023:teorica:50"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "estandar OASIS",
+      "descripcion": "estandar OASIS",
+      "preguntas": [
+        "examen-tai-2023:teorica:51"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "WSIL",
+      "descripcion": "WSIL",
+      "preguntas": [
+        "examen-tai-2023:teorica:52"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "sistemas distribuidos",
+      "descripcion": "sistemas distribuidos",
+      "preguntas": [
+        "examen-tai-2024-modelo-a:teorica:46",
+        "examen-tai-2024-modelo-b:teorica:47",
+        "examen-tai-2025-modelo-a:teorica:46",
+        "examen-tai-2025-modelo-b:teorica:47"
+      ],
+      "n_preguntas": 4
+    },
+    {
+      "nombre": "REST arquitectura",
+      "descripcion": "REST arquitectura",
+      "preguntas": [
+        "examen-tai-2024-modelo-a:teorica:47",
+        "examen-tai-2024-modelo-b:teorica:46",
+        "examen-tai-2025-modelo-a:teorica:47",
+        "examen-tai-2025-modelo-b:teorica:46"
+      ],
+      "n_preguntas": 4
+    },
+    {
+      "nombre": "WSDL 2.0",
+      "descripcion": "WSDL 2.0",
+      "preguntas": [
+        "examen-tai-2026-modelo-a:teorica:50",
+        "examen-tai-2026-modelo-b:teorica:51"
+      ],
+      "n_preguntas": 2
+    },
+    {
+      "nombre": "metodo HTTP idempotente",
+      "descripcion": "metodo HTTP idempotente",
+      "preguntas": [
+        "examen-tai-2026-modelo-a:teorica:51"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "SOAP ultima version",
+      "descripcion": "SOAP ultima version",
+      "preguntas": [
+        "examen-tai-2026-modelo-c:teorica:47"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "afirmacion incorrecta",
+      "descripcion": "afirmacion incorrecta",
+      "preguntas": [
+        "examen-tai-2026-modelo-c:teorica:48"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "REST afirmacion correcta",
+      "descripcion": "REST afirmacion correcta",
+      "preguntas": [
+        "examen-tai-2026-modelo-c:teorica:49"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "código estado HTTP 200",
+      "descripcion": "código estado HTTP 200",
+      "preguntas": [
+        "pendiente-supuesto-1-2018-p22"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "notificaciones push móviles",
+      "descripcion": "notificaciones push móviles",
+      "preguntas": [
+        "pendiente-supuesto-1-2023-p16"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "cliente servicios web Java",
+      "descripcion": "cliente servicios web Java",
+      "preguntas": [
+        "pendiente-supuesto-1-a-2024-p08",
+        "pendiente-supuesto-1-a-2025-p08",
+        "pendiente-supuesto-1-b-2024-p13",
+        "pendiente-supuesto-1-b-2025-p13"
+      ],
+      "n_preguntas": 4
+    },
+    {
+      "nombre": "documentación servicios web",
+      "descripcion": "documentación servicios web",
+      "preguntas": [
+        "pendiente-supuesto-1-a-2024-p12",
+        "pendiente-supuesto-1-a-2025-p12",
+        "pendiente-supuesto-1-b-2024-p09",
+        "pendiente-supuesto-1-b-2025-p09"
+      ],
+      "n_preguntas": 4
+    },
+    {
+      "nombre": "arquitectura SOA",
+      "descripcion": "arquitectura SOA",
+      "preguntas": [
+        "pendiente-supuesto-1-a-2024-p19",
+        "pendiente-supuesto-1-a-2025-p19",
+        "pendiente-supuesto-1-b-2024-p02",
+        "pendiente-supuesto-1-b-2025-p02"
+      ],
+      "n_preguntas": 4
+    },
+    {
+      "nombre": "controlador REST Spring",
+      "descripcion": "controlador REST Spring",
+      "preguntas": [
+        "pendiente-supuesto-1-a-2026-p04",
+        "pendiente-supuesto-1-b-2026-p05",
+        "pendiente-supuesto-1-p04"
+      ],
+      "n_preguntas": 3
+    },
+    {
+      "nombre": "código HTTP 201",
+      "descripcion": "código HTTP 201",
+      "preguntas": [
+        "pendiente-supuesto-1-a-2026-p16",
+        "pendiente-supuesto-1-b-2026-p18",
+        "pendiente-supuesto-1-p16"
+      ],
+      "n_preguntas": 3
+    },
+    {
+      "nombre": "generación clases WSDL",
+      "descripcion": "generación clases WSDL",
+      "preguntas": [
+        "pendiente-supuesto-1-c-2026-p08"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "Postman pruebas API",
+      "descripcion": "Postman pruebas API",
+      "preguntas": [
+        "pendiente-supuesto-1-c-2026-p17"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "OpenAPI Swagger",
+      "descripcion": "OpenAPI Swagger",
+      "preguntas": [
+        "pendiente-supuesto-1-c-2026-p19"
+      ],
+      "n_preguntas": 1
+    }
+  ],
+  "total_preguntas": 44,
+  "n_conceptos": 24
+}

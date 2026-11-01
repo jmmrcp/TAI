@@ -1,0 +1,469 @@
+{
+  "tema_id": "tema-21-aplicaciones-web-html-xml-lenguajes-de-script-front-end-y-ba",
+  "tema_numero": 21,
+  "conceptos": [
+    {
+      "nombre": "desarrollo app movil",
+      "descripcion": "desarrollo app movil",
+      "preguntas": [
+        "examen-tai-2018:teorica:45"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "etiquetas HTML5",
+      "descripcion": "etiquetas HTML5",
+      "preguntas": [
+        "examen-tai-2018:teorica:63"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "elemento img HTML",
+      "descripcion": "elemento img HTML",
+      "preguntas": [
+        "examen-tai-2018:teorica:64"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "tecnologias front-end",
+      "descripcion": "tecnologias front-end",
+      "preguntas": [
+        "examen-tai-2021:teorica:39"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "API XML Java",
+      "descripcion": "API XML Java",
+      "preguntas": [
+        "examen-tai-2021:teorica:48"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "Ruby on Rails",
+      "descripcion": "Ruby on Rails",
+      "preguntas": [
+        "examen-tai-2021:teorica:50"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "comentarios XML",
+      "descripcion": "comentarios XML",
+      "preguntas": [
+        "examen-tai-2021:teorica:52"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "JavaScript",
+      "descripcion": "JavaScript",
+      "preguntas": [
+        "examen-tai-2021:reserva:5"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "motor web Mozilla",
+      "descripcion": "motor web Mozilla",
+      "preguntas": [
+        "examen-tai-2023:teorica:53"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "XOP",
+      "descripcion": "XOP",
+      "preguntas": [
+        "examen-tai-2023:teorica:54"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "framework JavaScript",
+      "descripcion": "framework JavaScript",
+      "preguntas": [
+        "examen-tai-2023:teorica:55"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "lenguaje backend",
+      "descripcion": "lenguaje backend",
+      "preguntas": [
+        "examen-tai-2023:reserva:4"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "HTML vs XHTML",
+      "descripcion": "HTML vs XHTML",
+      "preguntas": [
+        "examen-tai-2024-modelo-a:teorica:48",
+        "examen-tai-2024-modelo-b:teorica:49",
+        "examen-tai-2025-modelo-a:teorica:48",
+        "examen-tai-2025-modelo-b:teorica:49"
+      ],
+      "n_preguntas": 4
+    },
+    {
+      "nombre": "evento mouseover",
+      "descripcion": "evento mouseover",
+      "preguntas": [
+        "examen-tai-2024-modelo-a:teorica:49"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "CSS3 unidades",
+      "descripcion": "CSS3 unidades",
+      "preguntas": [
+        "examen-tai-2024-modelo-a:reserva:4",
+        "examen-tai-2024-modelo-b:reserva:4",
+        "examen-tai-2025-modelo-a:reserva:4",
+        "examen-tai-2025-modelo-b:reserva:4"
+      ],
+      "n_preguntas": 4
+    },
+    {
+      "nombre": "HTML mouseover",
+      "descripcion": "HTML mouseover",
+      "preguntas": [
+        "examen-tai-2024-modelo-b:teorica:48",
+        "examen-tai-2025-modelo-b:teorica:48"
+      ],
+      "n_preguntas": 2
+    },
+    {
+      "nombre": "mouseover HTML",
+      "descripcion": "mouseover HTML",
+      "preguntas": [
+        "examen-tai-2025-modelo-a:teorica:49"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "DOCTYPE HTML",
+      "descripcion": "DOCTYPE HTML",
+      "preguntas": [
+        "examen-tai-2026-modelo-a:teorica:52",
+        "examen-tai-2026-modelo-b:teorica:53"
+      ],
+      "n_preguntas": 2
+    },
+    {
+      "nombre": "XML elementos raiz",
+      "descripcion": "XML elementos raiz",
+      "preguntas": [
+        "examen-tai-2026-modelo-a:teorica:53",
+        "examen-tai-2026-modelo-b:teorica:52"
+      ],
+      "n_preguntas": 2
+    },
+    {
+      "nombre": "autofocus HTML5",
+      "descripcion": "autofocus HTML5",
+      "preguntas": [
+        "pendiente-supuesto-1-2018-p01"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "selector color HTML5",
+      "descripcion": "selector color HTML5",
+      "preguntas": [
+        "pendiente-supuesto-1-2018-p02"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "evento change select",
+      "descripcion": "evento change select",
+      "preguntas": [
+        "pendiente-supuesto-1-2018-p03"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "etiqueta audio HTML5",
+      "descripcion": "etiqueta audio HTML5",
+      "preguntas": [
+        "pendiente-supuesto-1-2018-p04"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "list-style-type CSS",
+      "descripcion": "list-style-type CSS",
+      "preguntas": [
+        "pendiente-supuesto-1-2018-p05"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "novedades HTML5",
+      "descripcion": "novedades HTML5",
+      "preguntas": [
+        "pendiente-supuesto-1-2018-p06"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "Laravel persistencia datos",
+      "descripcion": "Laravel persistencia datos",
+      "preguntas": [
+        "pendiente-supuesto-1-2018-p13"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "frameworks PHP",
+      "descripcion": "frameworks PHP",
+      "preguntas": [
+        "pendiente-supuesto-1-2018-p18"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "comando Laravel",
+      "descripcion": "comando Laravel",
+      "preguntas": [
+        "pendiente-supuesto-1-2018-p35"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "etiqueta th tabla",
+      "descripcion": "etiqueta th tabla",
+      "preguntas": [
+        "pendiente-supuesto-1-2021-p01"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "listas anidadas HTML",
+      "descripcion": "listas anidadas HTML",
+      "preguntas": [
+        "pendiente-supuesto-1-2021-p02"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "atributo required",
+      "descripcion": "atributo required",
+      "preguntas": [
+        "pendiente-supuesto-1-2021-p03"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "selector CSS hijo",
+      "descripcion": "selector CSS hijo",
+      "preguntas": [
+        "pendiente-supuesto-1-2021-p04"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "flexbox CSS",
+      "descripcion": "flexbox CSS",
+      "preguntas": [
+        "pendiente-supuesto-1-2021-p05"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "XML bien formado",
+      "descripcion": "XML bien formado",
+      "preguntas": [
+        "pendiente-supuesto-1-2021-p06",
+        "pendiente-supuesto-1-a-2026-p11",
+        "pendiente-supuesto-1-b-2026-p11",
+        "pendiente-supuesto-1-p11"
+      ],
+      "n_preguntas": 4
+    },
+    {
+      "nombre": "JSON válido",
+      "descripcion": "JSON válido",
+      "preguntas": [
+        "pendiente-supuesto-1-2021-p07"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "JavaScript bucle",
+      "descripcion": "JavaScript bucle",
+      "preguntas": [
+        "pendiente-supuesto-1-2021-p08"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "JavaScript DOM",
+      "descripcion": "JavaScript DOM",
+      "preguntas": [
+        "pendiente-supuesto-1-2021-p21"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "frameworks web Python",
+      "descripcion": "frameworks web Python",
+      "preguntas": [
+        "pendiente-supuesto-1-2021-p23"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "etiqueta video HTML5",
+      "descripcion": "etiqueta video HTML5",
+      "preguntas": [
+        "pendiente-supuesto-1-2021-p24"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "CSS estilos",
+      "descripcion": "CSS estilos",
+      "preguntas": [
+        "pendiente-supuesto-1-2023-p17"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "operadores JavaScript",
+      "descripcion": "operadores JavaScript",
+      "preguntas": [
+        "pendiente-supuesto-1-2023-p21"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "sesiones PHP",
+      "descripcion": "sesiones PHP",
+      "preguntas": [
+        "pendiente-supuesto-1-2023-p23"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "frameworks frontend",
+      "descripcion": "frameworks frontend",
+      "preguntas": [
+        "pendiente-supuesto-1-2023-p24"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "JSON.parse JavaScript",
+      "descripcion": "JSON.parse JavaScript",
+      "preguntas": [
+        "pendiente-supuesto-1-2023-p25"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "atributo maxlength",
+      "descripcion": "atributo maxlength",
+      "preguntas": [
+        "pendiente-supuesto-1-a-2024-p01",
+        "pendiente-supuesto-1-a-2025-p01",
+        "pendiente-supuesto-1-b-2024-p20",
+        "pendiente-supuesto-1-b-2025-p20"
+      ],
+      "n_preguntas": 4
+    },
+    {
+      "nombre": "renderizado servidor SSR",
+      "descripcion": "renderizado servidor SSR",
+      "preguntas": [
+        "pendiente-supuesto-1-a-2024-p06",
+        "pendiente-supuesto-1-a-2025-p06",
+        "pendiente-supuesto-1-b-2024-p15",
+        "pendiente-supuesto-1-b-2025-p15"
+      ],
+      "n_preguntas": 4
+    },
+    {
+      "nombre": "especificidad CSS",
+      "descripcion": "especificidad CSS",
+      "preguntas": [
+        "pendiente-supuesto-1-a-2024-p21",
+        "pendiente-supuesto-1-a-2025-p21",
+        "pendiente-supuesto-1-b-2024-p21",
+        "pendiente-supuesto-1-b-2025-p21"
+      ],
+      "n_preguntas": 4
+    },
+    {
+      "nombre": "estructura HTML5",
+      "descripcion": "estructura HTML5",
+      "preguntas": [
+        "pendiente-supuesto-1-a-2026-p10",
+        "pendiente-supuesto-1-b-2026-p12",
+        "pendiente-supuesto-1-p10"
+      ],
+      "n_preguntas": 3
+    },
+    {
+      "nombre": "atributo XML",
+      "descripcion": "atributo XML",
+      "preguntas": [
+        "pendiente-supuesto-1-a-2026-p12",
+        "pendiente-supuesto-1-b-2026-p10",
+        "pendiente-supuesto-1-p12"
+      ],
+      "n_preguntas": 3
+    },
+    {
+      "nombre": "Fetch API JavaScript",
+      "descripcion": "Fetch API JavaScript",
+      "preguntas": [
+        "pendiente-supuesto-1-a-2026-p13",
+        "pendiente-supuesto-1-b-2026-p14",
+        "pendiente-supuesto-1-p13"
+      ],
+      "n_preguntas": 3
+    },
+    {
+      "nombre": "JavaScript navegador",
+      "descripcion": "JavaScript navegador",
+      "preguntas": [
+        "pendiente-supuesto-1-a-2026-p15",
+        "pendiente-supuesto-1-b-2026-p13",
+        "pendiente-supuesto-1-p15"
+      ],
+      "n_preguntas": 3
+    },
+    {
+      "nombre": "binding bidireccional Angular",
+      "descripcion": "binding bidireccional Angular",
+      "preguntas": [
+        "pendiente-supuesto-1-c-2026-p01"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "pipe fecha Angular",
+      "descripcion": "pipe fecha Angular",
+      "preguntas": [
+        "pendiente-supuesto-1-c-2026-p02"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "estilos CSS div",
+      "descripcion": "estilos CSS div",
+      "preguntas": [
+        "pendiente-supuesto-1-c-2026-p03"
+      ],
+      "n_preguntas": 1
+    }
+  ],
+  "total_preguntas": 83,
+  "n_conceptos": 54
+}

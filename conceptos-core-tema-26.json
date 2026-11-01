@@ -67,6 +67,14 @@
       "n_preguntas": 1
     },
     {
+      "nombre": "respuesta correcta",
+      "descripcion": "respuesta correcta",
+      "preguntas": [
+        "examen-tai-2024-modelo-a:teorica:62"
+      ],
+      "n_preguntas": 1
+    },
+    {
       "nombre": "IMAP vs POP3",
       "descripcion": "IMAP vs POP3",
       "preguntas": [
@@ -93,9 +101,10 @@
       "descripcion": "docker run",
       "preguntas": [
         "examen-tai-2026-modelo-a:teorica:64",
-        "examen-tai-2026-modelo-b:teorica:67"
+        "examen-tai-2026-modelo-b:teorica:67",
+        "pendiente-supuesto-2-2021-p13"
       ],
-      "n_preguntas": 2
+      "n_preguntas": 3
     },
     {
       "nombre": "Kubernetes scheduler",
@@ -113,8 +122,179 @@
         "examen-tai-2026-modelo-c:teorica:64"
       ],
       "n_preguntas": 1
+    },
+    {
+      "nombre": "microservicios Jakarta EE",
+      "descripcion": "microservicios Jakarta EE",
+      "preguntas": [
+        "pendiente-supuesto-1-2023-p12"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "Docker contenedores",
+      "descripcion": "Docker contenedores",
+      "preguntas": [
+        "pendiente-supuesto-2-2018-p15"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "Docker stop",
+      "descripcion": "Docker stop",
+      "preguntas": [
+        "pendiente-supuesto-2-2018-p16",
+        "pendiente-supuesto-2-a-2026-p07",
+        "pendiente-supuesto-2-b-2026-p07",
+        "pendiente-supuesto-2-p07"
+      ],
+      "n_preguntas": 4
+    },
+    {
+      "nombre": "Docker search",
+      "descripcion": "Docker search",
+      "preguntas": [
+        "pendiente-supuesto-2-2018-p17"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "registro MX DNS",
+      "descripcion": "registro MX DNS",
+      "preguntas": [
+        "pendiente-supuesto-2-2018-p21",
+        "pendiente-supuesto-2-c-2026-p25"
+      ],
+      "n_preguntas": 2
+    },
+    {
+      "nombre": "Docker Hub imágenes",
+      "descripcion": "Docker Hub imágenes",
+      "preguntas": [
+        "pendiente-supuesto-2-2018-p33"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "seguridad SMTP",
+      "descripcion": "seguridad SMTP",
+      "preguntas": [
+        "pendiente-supuesto-2-2018-p35"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "Docker ps",
+      "descripcion": "Docker ps",
+      "preguntas": [
+        "pendiente-supuesto-2-2021-p14"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "SMTPS puerto",
+      "descripcion": "SMTPS puerto",
+      "preguntas": [
+        "pendiente-supuesto-2-2021-p19"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "proxy caché",
+      "descripcion": "proxy caché",
+      "preguntas": [
+        "pendiente-supuesto-2-2023-p08"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "puertos seguros correo",
+      "descripcion": "puertos seguros correo",
+      "preguntas": [
+        "pendiente-supuesto-2-2023-p10"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "Kubernetes servicios",
+      "descripcion": "Kubernetes servicios",
+      "preguntas": [
+        "pendiente-supuesto-2-a-2024-p13",
+        "pendiente-supuesto-2-a-2025-p13",
+        "pendiente-supuesto-2-b-2024-p08",
+        "pendiente-supuesto-2-b-2025-p08"
+      ],
+      "n_preguntas": 4
+    },
+    {
+      "nombre": "POP3 IMAP",
+      "descripcion": "POP3 IMAP",
+      "preguntas": [
+        "pendiente-supuesto-2-a-2024-p18",
+        "pendiente-supuesto-2-a-2025-p18",
+        "pendiente-supuesto-2-b-2024-p03",
+        "pendiente-supuesto-2-b-2025-p03"
+      ],
+      "n_preguntas": 4
+    },
+    {
+      "nombre": "SMTP HELO",
+      "descripcion": "SMTP HELO",
+      "preguntas": [
+        "pendiente-supuesto-2-a-2024-p21",
+        "pendiente-supuesto-2-a-2025-p21",
+        "pendiente-supuesto-2-b-2024-p21",
+        "pendiente-supuesto-2-b-2025-p21"
+      ],
+      "n_preguntas": 4
+    },
+    {
+      "nombre": "Docker rm",
+      "descripcion": "Docker rm",
+      "preguntas": [
+        "pendiente-supuesto-2-a-2026-p08",
+        "pendiente-supuesto-2-b-2026-p08",
+        "pendiente-supuesto-2-p08"
+      ],
+      "n_preguntas": 3
+    },
+    {
+      "nombre": "Docker pull",
+      "descripcion": "Docker pull",
+      "preguntas": [
+        "pendiente-supuesto-2-a-2026-p09",
+        "pendiente-supuesto-2-b-2026-p09",
+        "pendiente-supuesto-2-p09"
+      ],
+      "n_preguntas": 3
+    },
+    {
+      "nombre": "IMAPS puerto",
+      "descripcion": "IMAPS puerto",
+      "preguntas": [
+        "pendiente-supuesto-2-a-2026-p17",
+        "pendiente-supuesto-2-b-2026-p16",
+        "pendiente-supuesto-2-p16"
+      ],
+      "n_preguntas": 3
+    },
+    {
+      "nombre": "SMTP STARTTLS puerto",
+      "descripcion": "SMTP STARTTLS puerto",
+      "preguntas": [
+        "pendiente-supuesto-2-c-2026-p11"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "Docker ps -a",
+      "descripcion": "Docker ps -a",
+      "preguntas": [
+        "pendiente-supuesto-2-c-2026-p19"
+      ],
+      "n_preguntas": 1
     }
   ],
-  "total_preguntas": 21,
-  "n_conceptos": 13
+  "total_preguntas": 61,
+  "n_conceptos": 33
 }

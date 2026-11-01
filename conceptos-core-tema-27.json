@@ -1,0 +1,283 @@
+{
+  "tema_id": "tema-27-administracion-de-redes-lan-gestion-de-usuarios-y-dispositiv",
+  "tema_numero": 27,
+  "conceptos": [
+    {
+      "nombre": "Active Directory jerarquia",
+      "descripcion": "Active Directory jerarquia",
+      "preguntas": [
+        "examen-tai-2018:teorica:73"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "SNMP traps",
+      "descripcion": "SNMP traps",
+      "preguntas": [
+        "examen-tai-2018:teorica:81"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "puertos abiertos Linux",
+      "descripcion": "puertos abiertos Linux",
+      "preguntas": [
+        "examen-tai-2021:teorica:58"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "SNMP version",
+      "descripcion": "SNMP version",
+      "preguntas": [
+        "examen-tai-2021:teorica:65"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "BYOD",
+      "descripcion": "BYOD",
+      "preguntas": [
+        "examen-tai-2021:teorica:76"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "administrar dispositivos red",
+      "descripcion": "administrar dispositivos red",
+      "preguntas": [
+        "examen-tai-2023:teorica:67"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "comando SNMP",
+      "descripcion": "comando SNMP",
+      "preguntas": [
+        "examen-tai-2023:teorica:68"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "PSO Active Directory",
+      "descripcion": "PSO Active Directory",
+      "preguntas": [
+        "examen-tai-2026-modelo-a:teorica:66",
+        "examen-tai-2026-modelo-b:teorica:69"
+      ],
+      "n_preguntas": 2
+    },
+    {
+      "nombre": "AD DS",
+      "descripcion": "AD DS",
+      "preguntas": [
+        "examen-tai-2026-modelo-c:teorica:27"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "MDM exclusivo Apple",
+      "descripcion": "MDM exclusivo Apple",
+      "preguntas": [
+        "examen-tai-2026-modelo-c:teorica:65"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "ITSM",
+      "descripcion": "ITSM",
+      "preguntas": [
+        "examen-tai-2026-modelo-c:teorica:66"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "FCAPS",
+      "descripcion": "FCAPS",
+      "preguntas": [
+        "examen-tai-2026-modelo-c:teorica:71"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "SSH remoto",
+      "descripcion": "SSH remoto",
+      "preguntas": [
+        "pendiente-supuesto-2-2018-p07"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "MDM dispositivos móviles",
+      "descripcion": "MDM dispositivos móviles",
+      "preguntas": [
+        "pendiente-supuesto-2-2018-p25"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "ruta persistente Solaris",
+      "descripcion": "ruta persistente Solaris",
+      "preguntas": [
+        "pendiente-supuesto-2-2021-p06"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "administradores locales Windows",
+      "descripcion": "administradores locales Windows",
+      "preguntas": [
+        "pendiente-supuesto-2-2021-p10"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "políticas contraseñas Windows",
+      "descripcion": "políticas contraseñas Windows",
+      "preguntas": [
+        "pendiente-supuesto-2-2021-p11"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "Wake on LAN",
+      "descripcion": "Wake on LAN",
+      "preguntas": [
+        "pendiente-supuesto-2-2021-p15"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "net user Windows",
+      "descripcion": "net user Windows",
+      "preguntas": [
+        "pendiente-supuesto-2-2023-p02"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "arp caché MAC",
+      "descripcion": "arp caché MAC",
+      "preguntas": [
+        "pendiente-supuesto-2-2023-p06"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "captura tráfico tcpdump",
+      "descripcion": "captura tráfico tcpdump",
+      "preguntas": [
+        "pendiente-supuesto-2-2023-p15"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "VLAN 802.1Q",
+      "descripcion": "VLAN 802.1Q",
+      "preguntas": [
+        "pendiente-supuesto-2-2023-p17"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "route print Windows",
+      "descripcion": "route print Windows",
+      "preguntas": [
+        "pendiente-supuesto-2-2023-p20"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "RSoP políticas",
+      "descripcion": "RSoP políticas",
+      "preguntas": [
+        "pendiente-supuesto-2-2023-p21"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "VLAN acceso switch",
+      "descripcion": "VLAN acceso switch",
+      "preguntas": [
+        "pendiente-supuesto-2-a-2024-p07",
+        "pendiente-supuesto-2-a-2025-p07",
+        "pendiente-supuesto-2-b-2024-p14",
+        "pendiente-supuesto-2-b-2025-p14",
+        "pendiente-supuesto-2-c-2026-p13"
+      ],
+      "n_preguntas": 5
+    },
+    {
+      "nombre": "enrolamiento MDM",
+      "descripcion": "enrolamiento MDM",
+      "preguntas": [
+        "pendiente-supuesto-2-a-2024-p14",
+        "pendiente-supuesto-2-a-2025-p14",
+        "pendiente-supuesto-2-b-2024-p07",
+        "pendiente-supuesto-2-b-2025-p07"
+      ],
+      "n_preguntas": 4
+    },
+    {
+      "nombre": "GPO OU Directorio Activo",
+      "descripcion": "GPO OU Directorio Activo",
+      "preguntas": [
+        "pendiente-supuesto-2-a-2024-p20",
+        "pendiente-supuesto-2-a-2025-p20",
+        "pendiente-supuesto-2-b-2024-p01",
+        "pendiente-supuesto-2-b-2025-p01"
+      ],
+      "n_preguntas": 4
+    },
+    {
+      "nombre": "DHCP relay Cisco",
+      "descripcion": "DHCP relay Cisco",
+      "preguntas": [
+        "pendiente-supuesto-2-a-2026-p04",
+        "pendiente-supuesto-2-b-2026-p04",
+        "pendiente-supuesto-2-p04"
+      ],
+      "n_preguntas": 3
+    },
+    {
+      "nombre": "Active Directory usuarios",
+      "descripcion": "Active Directory usuarios",
+      "preguntas": [
+        "pendiente-supuesto-2-a-2026-p18",
+        "pendiente-supuesto-2-b-2026-p20",
+        "pendiente-supuesto-2-p20"
+      ],
+      "n_preguntas": 3
+    },
+    {
+      "nombre": "AD DS instalación",
+      "descripcion": "AD DS instalación",
+      "preguntas": [
+        "pendiente-supuesto-2-a-2026-p19",
+        "pendiente-supuesto-2-b-2026-p19",
+        "pendiente-supuesto-2-p19"
+      ],
+      "n_preguntas": 3
+    },
+    {
+      "nombre": "replicación AD",
+      "descripcion": "replicación AD",
+      "preguntas": [
+        "pendiente-supuesto-2-a-2026-p24",
+        "pendiente-supuesto-2-b-2026-p24",
+        "pendiente-supuesto-2-p24"
+      ],
+      "n_preguntas": 3
+    },
+    {
+      "nombre": "SNMP MIB",
+      "descripcion": "SNMP MIB",
+      "preguntas": [
+        "pendiente-supuesto-2-c-2026-p23"
+      ],
+      "n_preguntas": 1
+    }
+  ],
+  "total_preguntas": 51,
+  "n_conceptos": 32
+}

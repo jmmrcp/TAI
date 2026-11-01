@@ -1,0 +1,378 @@
+{
+  "tema_id": "tema-17-lenguajes-de-interrogacion-de-bd-ansi-sql-procedimientos-y-t",
+  "tema_numero": 17,
+  "conceptos": [
+    {
+      "nombre": "SQL GROUP BY",
+      "descripcion": "SQL GROUP BY",
+      "preguntas": [
+        "examen-tai-2018:teorica:48"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "tipologia sentencias SQL",
+      "descripcion": "tipologia sentencias SQL",
+      "preguntas": [
+        "examen-tai-2018:teorica:49"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "procedimiento almacenado",
+      "descripcion": "procedimiento almacenado",
+      "preguntas": [
+        "examen-tai-2018:teorica:50"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "trigger SQL",
+      "descripcion": "trigger SQL",
+      "preguntas": [
+        "examen-tai-2021:teorica:42"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "savepoint Oracle",
+      "descripcion": "savepoint Oracle",
+      "preguntas": [
+        "examen-tai-2021:teorica:43"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "PreparedStatement Java",
+      "descripcion": "PreparedStatement Java",
+      "preguntas": [
+        "examen-tai-2021:reserva:3"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "sentencias SQL",
+      "descripcion": "sentencias SQL",
+      "preguntas": [
+        "examen-tai-2023:teorica:22"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "drivers JDBC",
+      "descripcion": "drivers JDBC",
+      "preguntas": [
+        "examen-tai-2023:teorica:41"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "eliminar datos SQL",
+      "descripcion": "eliminar datos SQL",
+      "preguntas": [
+        "examen-tai-2023:teorica:43"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "lenguaje OQL",
+      "descripcion": "lenguaje OQL",
+      "preguntas": [
+        "examen-tai-2024-modelo-a:teorica:30"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "DML SQL",
+      "descripcion": "DML SQL",
+      "preguntas": [
+        "examen-tai-2024-modelo-a:teorica:37",
+        "examen-tai-2024-modelo-b:teorica:39",
+        "examen-tai-2025-modelo-a:teorica:37",
+        "examen-tai-2025-modelo-b:teorica:39"
+      ],
+      "n_preguntas": 4
+    },
+    {
+      "nombre": "DROP SQL",
+      "descripcion": "DROP SQL",
+      "preguntas": [
+        "examen-tai-2024-modelo-a:teorica:38",
+        "examen-tai-2024-modelo-b:teorica:38",
+        "examen-tai-2025-modelo-a:teorica:38",
+        "examen-tai-2025-modelo-b:teorica:38"
+      ],
+      "n_preguntas": 4
+    },
+    {
+      "nombre": "triggers incorrecta",
+      "descripcion": "triggers incorrecta",
+      "preguntas": [
+        "examen-tai-2024-modelo-a:teorica:39",
+        "examen-tai-2024-modelo-b:teorica:37",
+        "examen-tai-2025-modelo-a:teorica:39",
+        "examen-tai-2025-modelo-b:teorica:37"
+      ],
+      "n_preguntas": 4
+    },
+    {
+      "nombre": "OQL",
+      "descripcion": "OQL",
+      "preguntas": [
+        "examen-tai-2024-modelo-b:teorica:28",
+        "examen-tai-2025-modelo-a:teorica:30",
+        "examen-tai-2025-modelo-b:teorica:28"
+      ],
+      "n_preguntas": 3
+    },
+    {
+      "nombre": "Cypher Neo4j",
+      "descripcion": "Cypher Neo4j",
+      "preguntas": [
+        "examen-tai-2026-modelo-a:teorica:33"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "DENY Transact-SQL",
+      "descripcion": "DENY Transact-SQL",
+      "preguntas": [
+        "examen-tai-2026-modelo-a:teorica:42",
+        "examen-tai-2026-modelo-b:teorica:44"
+      ],
+      "n_preguntas": 2
+    },
+    {
+      "nombre": "ROLLBACK",
+      "descripcion": "ROLLBACK",
+      "preguntas": [
+        "examen-tai-2026-modelo-a:teorica:43",
+        "examen-tai-2026-modelo-b:teorica:43"
+      ],
+      "n_preguntas": 2
+    },
+    {
+      "nombre": "trigger BEFORE",
+      "descripcion": "trigger BEFORE",
+      "preguntas": [
+        "examen-tai-2026-modelo-a:teorica:44",
+        "examen-tai-2026-modelo-b:teorica:42"
+      ],
+      "n_preguntas": 2
+    },
+    {
+      "nombre": "Cypher",
+      "descripcion": "Cypher",
+      "preguntas": [
+        "examen-tai-2026-modelo-b:teorica:36"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "triggers SQL Server",
+      "descripcion": "triggers SQL Server",
+      "preguntas": [
+        "examen-tai-2026-modelo-c:teorica:38"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "Oracle INSTR",
+      "descripcion": "Oracle INSTR",
+      "preguntas": [
+        "examen-tai-2026-modelo-c:teorica:40"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "procedimientos almacenados SQL Server",
+      "descripcion": "procedimientos almacenados SQL Server",
+      "preguntas": [
+        "examen-tai-2026-modelo-c:reserva:4"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "consulta SQL anti-join",
+      "descripcion": "consulta SQL anti-join",
+      "preguntas": [
+        "pendiente-supuesto-1-2018-p08"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "DDL CREATE TABLE FK",
+      "descripcion": "DDL CREATE TABLE FK",
+      "preguntas": [
+        "pendiente-supuesto-1-2018-p09"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "GROUP BY SQL",
+      "descripcion": "GROUP BY SQL",
+      "preguntas": [
+        "pendiente-supuesto-1-2018-p10",
+        "pendiente-supuesto-1-a-2026-p03",
+        "pendiente-supuesto-1-b-2026-p01",
+        "pendiente-supuesto-1-p03"
+      ],
+      "n_preguntas": 4
+    },
+    {
+      "nombre": "importación CSV SQL",
+      "descripcion": "importación CSV SQL",
+      "preguntas": [
+        "pendiente-supuesto-1-2018-p11"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "savepoint transacción",
+      "descripcion": "savepoint transacción",
+      "preguntas": [
+        "pendiente-supuesto-1-2018-p12"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "CASE SQL mapping",
+      "descripcion": "CASE SQL mapping",
+      "preguntas": [
+        "pendiente-supuesto-1-2021-p16"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "GROUP BY HAVING SQL",
+      "descripcion": "GROUP BY HAVING SQL",
+      "preguntas": [
+        "pendiente-supuesto-1-2021-p17"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "UPDATE SQL",
+      "descripcion": "UPDATE SQL",
+      "preguntas": [
+        "pendiente-supuesto-1-2021-p18"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "LIKE SQL prefijo",
+      "descripcion": "LIKE SQL prefijo",
+      "preguntas": [
+        "pendiente-supuesto-1-2021-p19"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "DDL CREATE TABLE",
+      "descripcion": "DDL CREATE TABLE",
+      "preguntas": [
+        "pendiente-supuesto-1-2023-p04",
+        "pendiente-supuesto-1-a-2024-p13",
+        "pendiente-supuesto-1-a-2025-p13",
+        "pendiente-supuesto-1-b-2024-p08",
+        "pendiente-supuesto-1-b-2025-p08"
+      ],
+      "n_preguntas": 5
+    },
+    {
+      "nombre": "PL/SQL Oracle",
+      "descripcion": "PL/SQL Oracle",
+      "preguntas": [
+        "pendiente-supuesto-1-2023-p05"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "INSERT SQL",
+      "descripcion": "INSERT SQL",
+      "preguntas": [
+        "pendiente-supuesto-1-a-2024-p03",
+        "pendiente-supuesto-1-a-2025-p03",
+        "pendiente-supuesto-1-b-2024-p18",
+        "pendiente-supuesto-1-b-2025-p18"
+      ],
+      "n_preguntas": 4
+    },
+    {
+      "nombre": "consulta SQL filtro",
+      "descripcion": "consulta SQL filtro",
+      "preguntas": [
+        "pendiente-supuesto-1-a-2024-p23",
+        "pendiente-supuesto-1-a-2025-p23",
+        "pendiente-supuesto-1-b-2024-p23",
+        "pendiente-supuesto-1-b-2025-p23"
+      ],
+      "n_preguntas": 4
+    },
+    {
+      "nombre": "índice único Oracle",
+      "descripcion": "índice único Oracle",
+      "preguntas": [
+        "pendiente-supuesto-1-a-2026-p01",
+        "pendiente-supuesto-1-b-2026-p03",
+        "pendiente-supuesto-1-p01"
+      ],
+      "n_preguntas": 3
+    },
+    {
+      "nombre": "INNER JOIN SQL",
+      "descripcion": "INNER JOIN SQL",
+      "preguntas": [
+        "pendiente-supuesto-1-a-2026-p02",
+        "pendiente-supuesto-1-b-2026-p02",
+        "pendiente-supuesto-1-p02"
+      ],
+      "n_preguntas": 3
+    },
+    {
+      "nombre": "agregación SQL",
+      "descripcion": "agregación SQL",
+      "preguntas": [
+        "pendiente-supuesto-1-c-2026-p07"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "vista SQL Server",
+      "descripcion": "vista SQL Server",
+      "preguntas": [
+        "pendiente-supuesto-1-c-2026-p09"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "TOP SQL Server",
+      "descripcion": "TOP SQL Server",
+      "preguntas": [
+        "pendiente-supuesto-1-c-2026-p10"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "DBCC CHECKIDENT",
+      "descripcion": "DBCC CHECKIDENT",
+      "preguntas": [
+        "pendiente-supuesto-1-c-2026-p11"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "CREATE TABLE MySQL",
+      "descripcion": "CREATE TABLE MySQL",
+      "preguntas": [
+        "pendiente-supuesto-2-a-2024-p23",
+        "pendiente-supuesto-2-a-2025-p23",
+        "pendiente-supuesto-2-b-2024-p23",
+        "pendiente-supuesto-2-b-2025-p23"
+      ],
+      "n_preguntas": 4
+    }
+  ],
+  "total_preguntas": 76,
+  "n_conceptos": 42
+}

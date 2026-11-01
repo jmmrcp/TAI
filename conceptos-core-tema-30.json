@@ -1,0 +1,313 @@
+{
+  "tema_id": "tema-30-modelo-tcp-ip-y-osi-protocolos-tcp-ip",
+  "tema_numero": 30,
+  "conceptos": [
+    {
+      "nombre": "protocolo ARP",
+      "descripcion": "protocolo ARP",
+      "preguntas": [
+        "examen-tai-2018:teorica:83",
+        "examen-tai-2024-modelo-a:teorica:58",
+        "examen-tai-2024-modelo-b:teorica:58",
+        "examen-tai-2025-modelo-a:teorica:58",
+        "examen-tai-2025-modelo-b:teorica:58"
+      ],
+      "n_preguntas": 5
+    },
+    {
+      "nombre": "modelo OSI",
+      "descripcion": "modelo OSI",
+      "preguntas": [
+        "examen-tai-2018:teorica:90",
+        "examen-tai-2024-modelo-a:teorica:72",
+        "examen-tai-2024-modelo-b:teorica:74",
+        "examen-tai-2025-modelo-a:teorica:72",
+        "examen-tai-2025-modelo-b:teorica:74"
+      ],
+      "n_preguntas": 5
+    },
+    {
+      "nombre": "protocolo IPv4",
+      "descripcion": "protocolo IPv4",
+      "preguntas": [
+        "examen-tai-2018:teorica:91"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "direcciones IPv4 asignables",
+      "descripcion": "direcciones IPv4 asignables",
+      "preguntas": [
+        "examen-tai-2018:teorica:92"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "IPv6 multicast",
+      "descripcion": "IPv6 multicast",
+      "preguntas": [
+        "examen-tai-2021:teorica:72",
+        "pendiente-supuesto-2-c-2026-p18"
+      ],
+      "n_preguntas": 2
+    },
+    {
+      "nombre": "enrutamiento vector distancia",
+      "descripcion": "enrutamiento vector distancia",
+      "preguntas": [
+        "examen-tai-2021:teorica:73"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "TCP UDP",
+      "descripcion": "TCP UDP",
+      "preguntas": [
+        "examen-tai-2021:teorica:80"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "multicast IPv6",
+      "descripcion": "multicast IPv6",
+      "preguntas": [
+        "examen-tai-2023:teorica:73"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "niveles servicios OSI",
+      "descripcion": "niveles servicios OSI",
+      "preguntas": [
+        "examen-tai-2023:teorica:74"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "TCP/IP",
+      "descripcion": "TCP/IP",
+      "preguntas": [
+        "examen-tai-2024-modelo-a:teorica:73",
+        "examen-tai-2024-modelo-b:teorica:73",
+        "examen-tai-2025-modelo-a:teorica:73",
+        "examen-tai-2025-modelo-b:teorica:73"
+      ],
+      "n_preguntas": 4
+    },
+    {
+      "nombre": "IPv4 incorrecta",
+      "descripcion": "IPv4 incorrecta",
+      "preguntas": [
+        "examen-tai-2024-modelo-a:teorica:74",
+        "examen-tai-2024-modelo-b:teorica:72",
+        "examen-tai-2025-modelo-a:teorica:74",
+        "examen-tai-2025-modelo-b:teorica:72"
+      ],
+      "n_preguntas": 4
+    },
+    {
+      "nombre": "capa presentacion OSI",
+      "descripcion": "capa presentacion OSI",
+      "preguntas": [
+        "examen-tai-2026-modelo-a:teorica:71",
+        "examen-tai-2026-modelo-b:teorica:74"
+      ],
+      "n_preguntas": 2
+    },
+    {
+      "nombre": "subredes /8",
+      "descripcion": "subredes /8",
+      "preguntas": [
+        "examen-tai-2026-modelo-a:teorica:73",
+        "examen-tai-2026-modelo-b:teorica:76"
+      ],
+      "n_preguntas": 2
+    },
+    {
+      "nombre": "IPv6 Hop Limit",
+      "descripcion": "IPv6 Hop Limit",
+      "preguntas": [
+        "examen-tai-2026-modelo-a:teorica:74",
+        "examen-tai-2026-modelo-b:teorica:75"
+      ],
+      "n_preguntas": 2
+    },
+    {
+      "nombre": "CG-NAT",
+      "descripcion": "CG-NAT",
+      "preguntas": [
+        "examen-tai-2026-modelo-c:teorica:73"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "IPv4 Clase A",
+      "descripcion": "IPv4 Clase A",
+      "preguntas": [
+        "examen-tai-2026-modelo-c:teorica:74"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "TCP/23 Telnet",
+      "descripcion": "TCP/23 Telnet",
+      "preguntas": [
+        "examen-tai-2026-modelo-c:teorica:75"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "clases de red IP",
+      "descripcion": "clases de red IP",
+      "preguntas": [
+        "pendiente-supuesto-2-2018-p01"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "cálculo hosts",
+      "descripcion": "cálculo hosts",
+      "preguntas": [
+        "pendiente-supuesto-2-2018-p02"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "dirección broadcast",
+      "descripcion": "dirección broadcast",
+      "preguntas": [
+        "pendiente-supuesto-2-2018-p03"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "primera IP disponible",
+      "descripcion": "primera IP disponible",
+      "preguntas": [
+        "pendiente-supuesto-2-2018-p32"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "máscara de red bits",
+      "descripcion": "máscara de red bits",
+      "preguntas": [
+        "pendiente-supuesto-2-2021-p01"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "clase de red",
+      "descripcion": "clase de red",
+      "preguntas": [
+        "pendiente-supuesto-2-2021-p02"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "hosts disponibles",
+      "descripcion": "hosts disponibles",
+      "preguntas": [
+        "pendiente-supuesto-2-2021-p03",
+        "pendiente-supuesto-2-a-2026-p02",
+        "pendiente-supuesto-2-b-2026-p02",
+        "pendiente-supuesto-2-p02"
+      ],
+      "n_preguntas": 4
+    },
+    {
+      "nombre": "rango hosts",
+      "descripcion": "rango hosts",
+      "preguntas": [
+        "pendiente-supuesto-2-2021-p04"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "subnetting",
+      "descripcion": "subnetting",
+      "preguntas": [
+        "pendiente-supuesto-2-2023-p05",
+        "pendiente-supuesto-2-a-2026-p03"
+      ],
+      "n_preguntas": 2
+    },
+    {
+      "nombre": "red broadcast subnet",
+      "descripcion": "red broadcast subnet",
+      "preguntas": [
+        "pendiente-supuesto-2-2023-p07"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "gateway última IP",
+      "descripcion": "gateway última IP",
+      "preguntas": [
+        "pendiente-supuesto-2-2023-p25"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "hosts disponibles subred",
+      "descripcion": "hosts disponibles subred",
+      "preguntas": [
+        "pendiente-supuesto-2-a-2024-p01",
+        "pendiente-supuesto-2-a-2025-p01",
+        "pendiente-supuesto-2-b-2024-p20",
+        "pendiente-supuesto-2-b-2025-p20"
+      ],
+      "n_preguntas": 4
+    },
+    {
+      "nombre": "protocolos TCP/IP",
+      "descripcion": "protocolos TCP/IP",
+      "preguntas": [
+        "pendiente-supuesto-2-a-2024-p06",
+        "pendiente-supuesto-2-a-2025-p06",
+        "pendiente-supuesto-2-b-2024-p15",
+        "pendiente-supuesto-2-b-2025-p15"
+      ],
+      "n_preguntas": 4
+    },
+    {
+      "nombre": "subnetting /25",
+      "descripcion": "subnetting /25",
+      "preguntas": [
+        "pendiente-supuesto-2-a-2026-p01",
+        "pendiente-supuesto-2-b-2026-p03",
+        "pendiente-supuesto-2-p01"
+      ],
+      "n_preguntas": 3
+    },
+    {
+      "nombre": "ip route get",
+      "descripcion": "ip route get",
+      "preguntas": [
+        "pendiente-supuesto-2-a-2026-p11",
+        "pendiente-supuesto-2-b-2026-p11",
+        "pendiente-supuesto-2-p11"
+      ],
+      "n_preguntas": 3
+    },
+    {
+      "nombre": "subnetting /21",
+      "descripcion": "subnetting /21",
+      "preguntas": [
+        "pendiente-supuesto-2-b-2026-p01",
+        "pendiente-supuesto-2-p03"
+      ],
+      "n_preguntas": 2
+    },
+    {
+      "nombre": "subnetting hosts",
+      "descripcion": "subnetting hosts",
+      "preguntas": [
+        "pendiente-supuesto-2-c-2026-p17"
+      ],
+      "n_preguntas": 1
+    }
+  ],
+  "total_preguntas": 67,
+  "n_conceptos": 34
+}

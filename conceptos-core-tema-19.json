@@ -1,0 +1,220 @@
+{
+  "tema_id": "tema-19-arquitectura-java-ee-jakarta-ee-y-plataforma-net",
+  "tema_numero": 19,
+  "conceptos": [
+    {
+      "nombre": "paquete EJB",
+      "descripcion": "paquete EJB",
+      "preguntas": [
+        "examen-tai-2018:teorica:55"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "ADO.NET proveedores",
+      "descripcion": "ADO.NET proveedores",
+      "preguntas": [
+        "examen-tai-2018:teorica:56"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "Spring Boot",
+      "descripcion": "Spring Boot",
+      "preguntas": [
+        "examen-tai-2018:teorica:58"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "NuGet .NET",
+      "descripcion": "NuGet .NET",
+      "preguntas": [
+        "examen-tai-2021:teorica:47"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": ".NET",
+      "descripcion": ".NET",
+      "preguntas": [
+        "examen-tai-2023:teorica:48"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "POCO",
+      "descripcion": "POCO",
+      "preguntas": [
+        "examen-tai-2023:teorica:49"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": ".NET MAUI",
+      "descripcion": ".NET MAUI",
+      "preguntas": [
+        "examen-tai-2024-modelo-a:teorica:43",
+        "examen-tai-2024-modelo-b:teorica:45",
+        "examen-tai-2025-modelo-a:teorica:43",
+        "examen-tai-2025-modelo-b:teorica:45"
+      ],
+      "n_preguntas": 4
+    },
+    {
+      "nombre": "Razor ASP.NET",
+      "descripcion": "Razor ASP.NET",
+      "preguntas": [
+        "examen-tai-2024-modelo-a:teorica:44",
+        "examen-tai-2024-modelo-b:teorica:44",
+        "examen-tai-2025-modelo-a:teorica:44",
+        "examen-tai-2025-modelo-b:teorica:44"
+      ],
+      "n_preguntas": 4
+    },
+    {
+      "nombre": "JPA Jakarta",
+      "descripcion": "JPA Jakarta",
+      "preguntas": [
+        "examen-tai-2024-modelo-a:teorica:45",
+        "examen-tai-2024-modelo-b:teorica:43",
+        "examen-tai-2025-modelo-a:teorica:45",
+        "examen-tai-2025-modelo-b:teorica:43"
+      ],
+      "n_preguntas": 4
+    },
+    {
+      "nombre": "JIT Java EE",
+      "descripcion": "JIT Java EE",
+      "preguntas": [
+        "examen-tai-2026-modelo-a:teorica:47",
+        "examen-tai-2026-modelo-b:teorica:49"
+      ],
+      "n_preguntas": 2
+    },
+    {
+      "nombre": "CLR .NET",
+      "descripcion": "CLR .NET",
+      "preguntas": [
+        "examen-tai-2026-modelo-a:teorica:48",
+        "examen-tai-2026-modelo-b:teorica:48"
+      ],
+      "n_preguntas": 2
+    },
+    {
+      "nombre": "ensamblados .NET",
+      "descripcion": "ensamblados .NET",
+      "preguntas": [
+        "examen-tai-2026-modelo-a:teorica:49",
+        "examen-tai-2026-modelo-b:teorica:47"
+      ],
+      "n_preguntas": 2
+    },
+    {
+      "nombre": ".NET 10 lenguajes",
+      "descripcion": ".NET 10 lenguajes",
+      "preguntas": [
+        "examen-tai-2026-modelo-c:teorica:45"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "Jakarta EE homologa Entity Framework",
+      "descripcion": "Jakarta EE homologa Entity Framework",
+      "preguntas": [
+        "examen-tai-2026-modelo-c:teorica:46"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": ".NET acceso datos",
+      "descripcion": ".NET acceso datos",
+      "preguntas": [
+        "pendiente-supuesto-1-2018-p23"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "namespaces .NET",
+      "descripcion": "namespaces .NET",
+      "preguntas": [
+        "pendiente-supuesto-1-2018-p24"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "IDE Visual Studio",
+      "descripcion": "IDE Visual Studio",
+      "preguntas": [
+        "pendiente-supuesto-1-2018-p32"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "lenguajes .NET",
+      "descripcion": "lenguajes .NET",
+      "preguntas": [
+        "pendiente-supuesto-1-2018-p33"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "frameworks escritorio .NET",
+      "descripcion": "frameworks escritorio .NET",
+      "preguntas": [
+        "pendiente-supuesto-1-2023-p09"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "JDBC conexión BD",
+      "descripcion": "JDBC conexión BD",
+      "preguntas": [
+        "pendiente-supuesto-1-2023-p11"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "JAXB mapeo XML",
+      "descripcion": "JAXB mapeo XML",
+      "preguntas": [
+        "pendiente-supuesto-1-a-2024-p09",
+        "pendiente-supuesto-1-a-2025-p09",
+        "pendiente-supuesto-1-b-2024-p12",
+        "pendiente-supuesto-1-b-2025-p12"
+      ],
+      "n_preguntas": 4
+    },
+    {
+      "nombre": ".NET NuGet iText",
+      "descripcion": ".NET NuGet iText",
+      "preguntas": [
+        "pendiente-supuesto-1-a-2024-p16",
+        "pendiente-supuesto-1-a-2025-p16",
+        "pendiente-supuesto-1-b-2024-p05",
+        "pendiente-supuesto-1-b-2025-p05"
+      ],
+      "n_preguntas": 4
+    },
+    {
+      "nombre": ".NET logging trazas",
+      "descripcion": ".NET logging trazas",
+      "preguntas": [
+        "pendiente-supuesto-1-a-2026-p08",
+        "pendiente-supuesto-1-b-2026-p09",
+        "pendiente-supuesto-1-p08"
+      ],
+      "n_preguntas": 3
+    },
+    {
+      "nombre": "Entity Framework .NET",
+      "descripcion": "Entity Framework .NET",
+      "preguntas": [
+        "pendiente-supuesto-1-c-2026-p05"
+      ],
+      "n_preguntas": 1
+    }
+  ],
+  "total_preguntas": 44,
+  "n_conceptos": 24
+}

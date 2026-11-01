@@ -1,0 +1,238 @@
+{
+  "tema_id": "tema-15-modelado-de-datos-diseno-de-bd-modelo-relacional-normalizaci",
+  "tema_numero": 15,
+  "conceptos": [
+    {
+      "nombre": "modelo E/R Metrica",
+      "descripcion": "modelo E/R Metrica",
+      "preguntas": [
+        "examen-tai-2018:teorica:40"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "diagrama flujo datos",
+      "descripcion": "diagrama flujo datos",
+      "preguntas": [
+        "examen-tai-2018:teorica:41"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "explosion DFD",
+      "descripcion": "explosion DFD",
+      "preguntas": [
+        "examen-tai-2018:teorica:42"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "normalizacion",
+      "descripcion": "normalizacion",
+      "preguntas": [
+        "examen-tai-2018:teorica:43",
+        "examen-tai-2024-modelo-a:teorica:32",
+        "examen-tai-2024-modelo-b:teorica:32",
+        "examen-tai-2025-modelo-a:teorica:32",
+        "examen-tai-2025-modelo-b:teorica:32"
+      ],
+      "n_preguntas": 5
+    },
+    {
+      "nombre": "integridad clave primaria",
+      "descripcion": "integridad clave primaria",
+      "preguntas": [
+        "examen-tai-2018:teorica:44"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "reglas Codd",
+      "descripcion": "reglas Codd",
+      "preguntas": [
+        "examen-tai-2018:reserva:5",
+        "examen-tai-2021:teorica:34"
+      ],
+      "n_preguntas": 2
+    },
+    {
+      "nombre": "DFD Metrica",
+      "descripcion": "DFD Metrica",
+      "preguntas": [
+        "examen-tai-2021:teorica:35"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "tercera forma normal",
+      "descripcion": "tercera forma normal",
+      "preguntas": [
+        "examen-tai-2021:teorica:36"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "dependencia funcional",
+      "descripcion": "dependencia funcional",
+      "preguntas": [
+        "examen-tai-2021:teorica:37"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "modelo E/R extendido",
+      "descripcion": "modelo E/R extendido",
+      "preguntas": [
+        "examen-tai-2023:teorica:36"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "niveles ANSI/SPARC",
+      "descripcion": "niveles ANSI/SPARC",
+      "preguntas": [
+        "examen-tai-2023:teorica:37"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "anomalias base datos",
+      "descripcion": "anomalias base datos",
+      "preguntas": [
+        "examen-tai-2023:teorica:42"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "claves foraneas",
+      "descripcion": "claves foraneas",
+      "preguntas": [
+        "examen-tai-2024-modelo-a:teorica:28",
+        "examen-tai-2024-modelo-b:teorica:30",
+        "examen-tai-2025-modelo-a:teorica:28",
+        "examen-tai-2025-modelo-b:teorica:30"
+      ],
+      "n_preguntas": 4
+    },
+    {
+      "nombre": "participacion relacion E/R",
+      "descripcion": "participacion relacion E/R",
+      "preguntas": [
+        "examen-tai-2024-modelo-a:teorica:31"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "mecanismo E/R",
+      "descripcion": "mecanismo E/R",
+      "preguntas": [
+        "examen-tai-2024-modelo-a:teorica:33",
+        "examen-tai-2024-modelo-b:teorica:31",
+        "examen-tai-2025-modelo-a:teorica:33",
+        "examen-tai-2025-modelo-b:teorica:31"
+      ],
+      "n_preguntas": 4
+    },
+    {
+      "nombre": "participacion E/R",
+      "descripcion": "participacion E/R",
+      "preguntas": [
+        "examen-tai-2024-modelo-b:teorica:33",
+        "examen-tai-2025-modelo-a:teorica:31",
+        "examen-tai-2025-modelo-b:teorica:33"
+      ],
+      "n_preguntas": 3
+    },
+    {
+      "nombre": "dimension outrigger Kimball",
+      "descripcion": "dimension outrigger Kimball",
+      "preguntas": [
+        "examen-tai-2026-modelo-a:teorica:37",
+        "examen-tai-2026-modelo-b:teorica:39"
+      ],
+      "n_preguntas": 2
+    },
+    {
+      "nombre": "entidad filas columnas",
+      "descripcion": "entidad filas columnas",
+      "preguntas": [
+        "examen-tai-2026-modelo-a:teorica:38",
+        "examen-tai-2026-modelo-b:teorica:38"
+      ],
+      "n_preguntas": 2
+    },
+    {
+      "nombre": "atributo elipse discontinua",
+      "descripcion": "atributo elipse discontinua",
+      "preguntas": [
+        "examen-tai-2026-modelo-a:teorica:39",
+        "examen-tai-2026-modelo-b:teorica:37"
+      ],
+      "n_preguntas": 2
+    },
+    {
+      "nombre": "atributo diseño conceptual",
+      "descripcion": "atributo diseño conceptual",
+      "preguntas": [
+        "examen-tai-2026-modelo-c:teorica:35"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "E/R extendido definicion",
+      "descripcion": "E/R extendido definicion",
+      "preguntas": [
+        "examen-tai-2026-modelo-c:teorica:36"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "clave foranea",
+      "descripcion": "clave foranea",
+      "preguntas": [
+        "examen-tai-2026-modelo-c:teorica:37"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "modelo físico relacional",
+      "descripcion": "modelo físico relacional",
+      "preguntas": [
+        "pendiente-supuesto-1-2018-p07"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "formas normales BD",
+      "descripcion": "formas normales BD",
+      "preguntas": [
+        "pendiente-supuesto-1-2021-p15"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "ORM mapeo objeto-relacional",
+      "descripcion": "ORM mapeo objeto-relacional",
+      "preguntas": [
+        "pendiente-supuesto-1-a-2024-p02",
+        "pendiente-supuesto-1-a-2025-p02",
+        "pendiente-supuesto-1-b-2024-p19",
+        "pendiente-supuesto-1-b-2025-p19"
+      ],
+      "n_preguntas": 4
+    },
+    {
+      "nombre": "relación 1:N",
+      "descripcion": "relación 1:N",
+      "preguntas": [
+        "pendiente-supuesto-1-a-2024-p04",
+        "pendiente-supuesto-1-a-2025-p04",
+        "pendiente-supuesto-1-b-2024-p17",
+        "pendiente-supuesto-1-b-2025-p17"
+      ],
+      "n_preguntas": 4
+    }
+  ],
+  "total_preguntas": 48,
+  "n_conceptos": 26
+}

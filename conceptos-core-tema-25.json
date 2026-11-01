@@ -1,0 +1,289 @@
+{
+  "tema_id": "tema-25-administracion-de-bd-almacenamiento-y-virtualizacion-backup-",
+  "tema_numero": 25,
+  "conceptos": [
+    {
+      "nombre": "psql bases datos",
+      "descripcion": "psql bases datos",
+      "preguntas": [
+        "examen-tai-2018:teorica:47"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "snapshot SQL Server",
+      "descripcion": "snapshot SQL Server",
+      "preguntas": [
+        "examen-tai-2018:teorica:51"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "virtualizacion",
+      "descripcion": "virtualizacion",
+      "preguntas": [
+        "examen-tai-2018:teorica:74"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "sistemas RAID",
+      "descripcion": "sistemas RAID",
+      "preguntas": [
+        "examen-tai-2018:teorica:75",
+        "examen-tai-2023:teorica:26"
+      ],
+      "n_preguntas": 2
+    },
+    {
+      "nombre": "virtualizacion escritorio",
+      "descripcion": "virtualizacion escritorio",
+      "preguntas": [
+        "examen-tai-2018:teorica:76"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "thin provisioning",
+      "descripcion": "thin provisioning",
+      "preguntas": [
+        "examen-tai-2021:teorica:60",
+        "pendiente-supuesto-2-2023-p03"
+      ],
+      "n_preguntas": 2
+    },
+    {
+      "nombre": "RAID paridad distribuida",
+      "descripcion": "RAID paridad distribuida",
+      "preguntas": [
+        "examen-tai-2021:teorica:61"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "virtualizacion maquinas",
+      "descripcion": "virtualizacion maquinas",
+      "preguntas": [
+        "examen-tai-2023:teorica:63"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "backup diferencial",
+      "descripcion": "backup diferencial",
+      "preguntas": [
+        "examen-tai-2023:teorica:64"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "regla 3-2-1 backups",
+      "descripcion": "regla 3-2-1 backups",
+      "preguntas": [
+        "examen-tai-2024-modelo-a:teorica:60",
+        "examen-tai-2024-modelo-b:teorica:62",
+        "examen-tai-2025-modelo-a:teorica:60",
+        "examen-tai-2025-modelo-b:teorica:62"
+      ],
+      "n_preguntas": 4
+    },
+    {
+      "nombre": "SAN NAS",
+      "descripcion": "SAN NAS",
+      "preguntas": [
+        "examen-tai-2024-modelo-a:teorica:61",
+        "examen-tai-2024-modelo-b:teorica:61",
+        "examen-tai-2025-modelo-a:teorica:61",
+        "examen-tai-2025-modelo-b:teorica:61"
+      ],
+      "n_preguntas": 4
+    },
+    {
+      "nombre": "respuesta correcta",
+      "descripcion": "respuesta correcta",
+      "preguntas": [
+        "examen-tai-2024-modelo-b:teorica:60",
+        "examen-tai-2025-modelo-a:teorica:62",
+        "examen-tai-2025-modelo-b:teorica:60"
+      ],
+      "n_preguntas": 3
+    },
+    {
+      "nombre": "RAID 5",
+      "descripcion": "RAID 5",
+      "preguntas": [
+        "examen-tai-2026-modelo-a:teorica:27"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "hipervisor tipo 1",
+      "descripcion": "hipervisor tipo 1",
+      "preguntas": [
+        "examen-tai-2026-modelo-a:teorica:62",
+        "examen-tai-2026-modelo-b:teorica:65",
+        "examen-tai-2026-modelo-c:teorica:59"
+      ],
+      "n_preguntas": 3
+    },
+    {
+      "nombre": "snapshot vs backup",
+      "descripcion": "snapshot vs backup",
+      "preguntas": [
+        "examen-tai-2026-modelo-a:teorica:63",
+        "examen-tai-2026-modelo-b:teorica:64"
+      ],
+      "n_preguntas": 2
+    },
+    {
+      "nombre": "RAID 5 fallos",
+      "descripcion": "RAID 5 fallos",
+      "preguntas": [
+        "examen-tai-2026-modelo-b:teorica:26"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "RAID incorrecta",
+      "descripcion": "RAID incorrecta",
+      "preguntas": [
+        "examen-tai-2026-modelo-c:teorica:24"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "NAS",
+      "descripcion": "NAS",
+      "preguntas": [
+        "examen-tai-2026-modelo-c:teorica:60"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "hipervisor tipo 1 ejemplo",
+      "descripcion": "hipervisor tipo 1 ejemplo",
+      "preguntas": [
+        "examen-tai-2026-modelo-c:teorica:61"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "VDI",
+      "descripcion": "VDI",
+      "preguntas": [
+        "examen-tai-2026-modelo-c:teorica:62"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "RMAN Oracle",
+      "descripcion": "RMAN Oracle",
+      "preguntas": [
+        "examen-tai-2026-modelo-c:teorica:63"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "optimización modelo físico BD",
+      "descripcion": "optimización modelo físico BD",
+      "preguntas": [
+        "pendiente-supuesto-1-a-2024-p17",
+        "pendiente-supuesto-1-a-2025-p17",
+        "pendiente-supuesto-1-b-2024-p04",
+        "pendiente-supuesto-1-b-2025-p04"
+      ],
+      "n_preguntas": 4
+    },
+    {
+      "nombre": "creación usuario Oracle",
+      "descripcion": "creación usuario Oracle",
+      "preguntas": [
+        "pendiente-supuesto-1-a-2026-p25",
+        "pendiente-supuesto-1-b-2026-p25",
+        "pendiente-supuesto-1-p25"
+      ],
+      "n_preguntas": 3
+    },
+    {
+      "nombre": "RTO recuperación",
+      "descripcion": "RTO recuperación",
+      "preguntas": [
+        "pendiente-supuesto-2-2018-p23"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "backup VMware",
+      "descripcion": "backup VMware",
+      "preguntas": [
+        "pendiente-supuesto-2-2018-p24"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "RAID 6 capacidad",
+      "descripcion": "RAID 6 capacidad",
+      "preguntas": [
+        "pendiente-supuesto-2-2021-p12"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "RAID 10 discos",
+      "descripcion": "RAID 10 discos",
+      "preguntas": [
+        "pendiente-supuesto-2-2021-p24"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "backup Oracle RMAN",
+      "descripcion": "backup Oracle RMAN",
+      "preguntas": [
+        "pendiente-supuesto-2-2023-p24"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "auditoría BD usuarios",
+      "descripcion": "auditoría BD usuarios",
+      "preguntas": [
+        "pendiente-supuesto-2-a-2024-p19",
+        "pendiente-supuesto-2-a-2025-p19",
+        "pendiente-supuesto-2-b-2024-p02",
+        "pendiente-supuesto-2-b-2025-p02"
+      ],
+      "n_preguntas": 4
+    },
+    {
+      "nombre": "estrategia 3-2-1",
+      "descripcion": "estrategia 3-2-1",
+      "preguntas": [
+        "pendiente-supuesto-2-a-2026-p14",
+        "pendiente-supuesto-2-b-2026-p14",
+        "pendiente-supuesto-2-p14"
+      ],
+      "n_preguntas": 3
+    },
+    {
+      "nombre": "LVM ampliación XFS",
+      "descripcion": "LVM ampliación XFS",
+      "preguntas": [
+        "pendiente-supuesto-2-a-2026-p25",
+        "pendiente-supuesto-2-b-2026-p25",
+        "pendiente-supuesto-2-p25"
+      ],
+      "n_preguntas": 3
+    },
+    {
+      "nombre": "sistemas backup sin cintas",
+      "descripcion": "sistemas backup sin cintas",
+      "preguntas": [
+        "pendiente-supuesto-2-c-2026-p08"
+      ],
+      "n_preguntas": 1
+    }
+  ],
+  "total_preguntas": 57,
+  "n_conceptos": 32
+}

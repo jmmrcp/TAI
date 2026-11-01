@@ -1,0 +1,99 @@
+{
+  "tema_id": "tema-07-la-proteccion-de-datos-personales-derechos-digitales",
+  "tema_numero": 7,
+  "conceptos": [
+    {
+      "nombre": "RGPD portabilidad",
+      "descripcion": "RGPD portabilidad",
+      "preguntas": [
+        "examen-tai-2018:teorica:15"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "prescripcion sanciones LOPDGDD",
+      "descripcion": "prescripcion sanciones LOPDGDD",
+      "preguntas": [
+        "examen-tai-2021:teorica:17"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "ambito material RGPD",
+      "descripcion": "ambito material RGPD",
+      "preguntas": [
+        "examen-tai-2021:teorica:18"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "derechos digitales",
+      "descripcion": "derechos digitales",
+      "preguntas": [
+        "examen-tai-2023:teorica:13"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "delegado proteccion datos",
+      "descripcion": "delegado proteccion datos",
+      "preguntas": [
+        "examen-tai-2023:teorica:14"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "principio minimizacion",
+      "descripcion": "principio minimizacion",
+      "preguntas": [
+        "examen-tai-2024-modelo-a:teorica:15"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "minimizacion RGPD",
+      "descripcion": "minimizacion RGPD",
+      "preguntas": [
+        "examen-tai-2024-modelo-b:teorica:15",
+        "examen-tai-2025-modelo-a:teorica:15",
+        "examen-tai-2025-modelo-b:teorica:15"
+      ],
+      "n_preguntas": 3
+    },
+    {
+      "nombre": "testamento digital",
+      "descripcion": "testamento digital",
+      "preguntas": [
+        "examen-tai-2026-modelo-a:teorica:15",
+        "examen-tai-2026-modelo-b:teorica:16"
+      ],
+      "n_preguntas": 2
+    },
+    {
+      "nombre": "derechos libertades LOPDGDD",
+      "descripcion": "derechos libertades LOPDGDD",
+      "preguntas": [
+        "examen-tai-2026-modelo-a:teorica:16"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "LOPDGDD derechos libertades",
+      "descripcion": "LOPDGDD derechos libertades",
+      "preguntas": [
+        "examen-tai-2026-modelo-b:teorica:15"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "derechos digitales LOPDGDD",
+      "descripcion": "derechos digitales LOPDGDD",
+      "preguntas": [
+        "examen-tai-2026-modelo-c:teorica:14"
+      ],
+      "n_preguntas": 1
+    }
+  ],
+  "total_preguntas": 14,
+  "n_conceptos": 11
+}

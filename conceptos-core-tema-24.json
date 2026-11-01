@@ -1,0 +1,437 @@
+{
+  "tema_id": "tema-24-administracion-del-so-y-software-de-base-actualizacion-y-man",
+  "tema_numero": 24,
+  "conceptos": [
+    {
+      "nombre": "version Linux Debian",
+      "descripcion": "version Linux Debian",
+      "preguntas": [
+        "examen-tai-2018:teorica:71"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "PowerShell Core",
+      "descripcion": "PowerShell Core",
+      "preguntas": [
+        "examen-tai-2018:teorica:72"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "cambio contrasena Windows",
+      "descripcion": "cambio contrasena Windows",
+      "preguntas": [
+        "examen-tai-2018:teorica:80"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "apt update Debian",
+      "descripcion": "apt update Debian",
+      "preguntas": [
+        "examen-tai-2021:teorica:59"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "servicios Windows",
+      "descripcion": "servicios Windows",
+      "preguntas": [
+        "examen-tai-2021:teorica:64"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "sfc scannow",
+      "descripcion": "sfc scannow",
+      "preguntas": [
+        "examen-tai-2024-modelo-a:teorica:56",
+        "examen-tai-2024-modelo-b:teorica:55",
+        "examen-tai-2025-modelo-a:teorica:56",
+        "examen-tai-2025-modelo-b:teorica:55"
+      ],
+      "n_preguntas": 4
+    },
+    {
+      "nombre": "formato disco",
+      "descripcion": "formato disco",
+      "preguntas": [
+        "examen-tai-2026-modelo-a:teorica:59",
+        "examen-tai-2026-modelo-b:teorica:61"
+      ],
+      "n_preguntas": 2
+    },
+    {
+      "nombre": "tail -f",
+      "descripcion": "tail -f",
+      "preguntas": [
+        "examen-tai-2026-modelo-a:teorica:60",
+        "examen-tai-2026-modelo-b:teorica:60"
+      ],
+      "n_preguntas": 2
+    },
+    {
+      "nombre": "crontab",
+      "descripcion": "crontab",
+      "preguntas": [
+        "examen-tai-2026-modelo-a:teorica:61",
+        "examen-tai-2026-modelo-b:teorica:59"
+      ],
+      "n_preguntas": 2
+    },
+    {
+      "nombre": "mv renombrar",
+      "descripcion": "mv renombrar",
+      "preguntas": [
+        "examen-tai-2026-modelo-c:teorica:30"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "ciclo vida Tomcat",
+      "descripcion": "ciclo vida Tomcat",
+      "preguntas": [
+        "pendiente-supuesto-1-a-2026-p22",
+        "pendiente-supuesto-1-b-2026-p22",
+        "pendiente-supuesto-1-p22"
+      ],
+      "n_preguntas": 3
+    },
+    {
+      "nombre": "systemd Linux",
+      "descripcion": "systemd Linux",
+      "preguntas": [
+        "pendiente-supuesto-2-2018-p05"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "comando hostname",
+      "descripcion": "comando hostname",
+      "preguntas": [
+        "pendiente-supuesto-2-2018-p06"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "comando ip",
+      "descripcion": "comando ip",
+      "preguntas": [
+        "pendiente-supuesto-2-2018-p08"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "gestión paquetes Debian",
+      "descripcion": "gestión paquetes Debian",
+      "preguntas": [
+        "pendiente-supuesto-2-2018-p09"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "apt search",
+      "descripcion": "apt search",
+      "preguntas": [
+        "pendiente-supuesto-2-2018-p10"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "SaltStack gestión",
+      "descripcion": "SaltStack gestión",
+      "preguntas": [
+        "pendiente-supuesto-2-2018-p11"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "SaltStack comandos",
+      "descripcion": "SaltStack comandos",
+      "preguntas": [
+        "pendiente-supuesto-2-2018-p12"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "dpkg versión paquete",
+      "descripcion": "dpkg versión paquete",
+      "preguntas": [
+        "pendiente-supuesto-2-2018-p13"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "gestión usuarios grupos",
+      "descripcion": "gestión usuarios grupos",
+      "preguntas": [
+        "pendiente-supuesto-2-2018-p14"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "PowerShell procesos",
+      "descripcion": "PowerShell procesos",
+      "preguntas": [
+        "pendiente-supuesto-2-2018-p26"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "PowerShell copiar",
+      "descripcion": "PowerShell copiar",
+      "preguntas": [
+        "pendiente-supuesto-2-2018-p27"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "ren comando Windows",
+      "descripcion": "ren comando Windows",
+      "preguntas": [
+        "pendiente-supuesto-2-2018-p28"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "tasklist Windows",
+      "descripcion": "tasklist Windows",
+      "preguntas": [
+        "pendiente-supuesto-2-2018-p34"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "versión RHEL",
+      "descripcion": "versión RHEL",
+      "preguntas": [
+        "pendiente-supuesto-2-2021-p05"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "backup tar gzip",
+      "descripcion": "backup tar gzip",
+      "preguntas": [
+        "pendiente-supuesto-2-2021-p09"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "ipconfig flushdns",
+      "descripcion": "ipconfig flushdns",
+      "preguntas": [
+        "pendiente-supuesto-2-2021-p20"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "flushdns PowerShell",
+      "descripcion": "flushdns PowerShell",
+      "preguntas": [
+        "pendiente-supuesto-2-2023-p01"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "monitorización Linux",
+      "descripcion": "monitorización Linux",
+      "preguntas": [
+        "pendiente-supuesto-2-2023-p04"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "IIS reinicio",
+      "descripcion": "IIS reinicio",
+      "preguntas": [
+        "pendiente-supuesto-2-2023-p14"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "Apache VirtualHost",
+      "descripcion": "Apache VirtualHost",
+      "preguntas": [
+        "pendiente-supuesto-2-2023-p16"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "fsck reparación FS",
+      "descripcion": "fsck reparación FS",
+      "preguntas": [
+        "pendiente-supuesto-2-a-2024-p02",
+        "pendiente-supuesto-2-a-2025-p02",
+        "pendiente-supuesto-2-b-2024-p19",
+        "pendiente-supuesto-2-b-2025-p19"
+      ],
+      "n_preguntas": 4
+    },
+    {
+      "nombre": "kernel Linux versión",
+      "descripcion": "kernel Linux versión",
+      "preguntas": [
+        "pendiente-supuesto-2-a-2024-p10",
+        "pendiente-supuesto-2-a-2025-p10",
+        "pendiente-supuesto-2-b-2024-p11",
+        "pendiente-supuesto-2-b-2025-p11"
+      ],
+      "n_preguntas": 4
+    },
+    {
+      "nombre": "Nagios configuración",
+      "descripcion": "Nagios configuración",
+      "preguntas": [
+        "pendiente-supuesto-2-a-2024-p24",
+        "pendiente-supuesto-2-a-2025-p24",
+        "pendiente-supuesto-2-b-2024-p24",
+        "pendiente-supuesto-2-b-2025-p24"
+      ],
+      "n_preguntas": 4
+    },
+    {
+      "nombre": "route table RHEL",
+      "descripcion": "route table RHEL",
+      "preguntas": [
+        "pendiente-supuesto-2-a-2026-p05",
+        "pendiente-supuesto-2-b-2026-p05",
+        "pendiente-supuesto-2-p05"
+      ],
+      "n_preguntas": 3
+    },
+    {
+      "nombre": "systemctl enable",
+      "descripcion": "systemctl enable",
+      "preguntas": [
+        "pendiente-supuesto-2-a-2026-p06",
+        "pendiente-supuesto-2-b-2026-p06",
+        "pendiente-supuesto-2-p06"
+      ],
+      "n_preguntas": 3
+    },
+    {
+      "nombre": "puertos escucha RHEL",
+      "descripcion": "puertos escucha RHEL",
+      "preguntas": [
+        "pendiente-supuesto-2-a-2026-p13",
+        "pendiente-supuesto-2-b-2026-p13",
+        "pendiente-supuesto-2-p13"
+      ],
+      "n_preguntas": 3
+    },
+    {
+      "nombre": "tar gzip backup",
+      "descripcion": "tar gzip backup",
+      "preguntas": [
+        "pendiente-supuesto-2-a-2026-p15",
+        "pendiente-supuesto-2-b-2026-p15",
+        "pendiente-supuesto-2-p15"
+      ],
+      "n_preguntas": 3
+    },
+    {
+      "nombre": "auditd auditoría",
+      "descripcion": "auditd auditoría",
+      "preguntas": [
+        "pendiente-supuesto-2-a-2026-p16",
+        "pendiente-supuesto-2-b-2026-p17",
+        "pendiente-supuesto-2-p17"
+      ],
+      "n_preguntas": 3
+    },
+    {
+      "nombre": "Copy-Item PowerShell",
+      "descripcion": "Copy-Item PowerShell",
+      "preguntas": [
+        "pendiente-supuesto-2-a-2026-p20",
+        "pendiente-supuesto-2-b-2026-p18",
+        "pendiente-supuesto-2-p18"
+      ],
+      "n_preguntas": 3
+    },
+    {
+      "nombre": "chmod ejecutable",
+      "descripcion": "chmod ejecutable",
+      "preguntas": [
+        "pendiente-supuesto-2-c-2026-p01"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "mkdir directorio",
+      "descripcion": "mkdir directorio",
+      "preguntas": [
+        "pendiente-supuesto-2-c-2026-p02"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "hostname FQDN",
+      "descripcion": "hostname FQDN",
+      "preguntas": [
+        "pendiente-supuesto-2-c-2026-p03"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "IIS backup AppCmd",
+      "descripcion": "IIS backup AppCmd",
+      "preguntas": [
+        "pendiente-supuesto-2-c-2026-p06"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "IIS listar backups",
+      "descripcion": "IIS listar backups",
+      "preguntas": [
+        "pendiente-supuesto-2-c-2026-p07"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "Tomcat reinicio",
+      "descripcion": "Tomcat reinicio",
+      "preguntas": [
+        "pendiente-supuesto-2-c-2026-p10"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "IIS sitio PowerShell",
+      "descripcion": "IIS sitio PowerShell",
+      "preguntas": [
+        "pendiente-supuesto-2-c-2026-p12"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "journalctl nginx",
+      "descripcion": "journalctl nginx",
+      "preguntas": [
+        "pendiente-supuesto-2-c-2026-p14"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "SELinux análisis",
+      "descripcion": "SELinux análisis",
+      "preguntas": [
+        "pendiente-supuesto-2-c-2026-p15"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "Get-Service PowerShell",
+      "descripcion": "Get-Service PowerShell",
+      "preguntas": [
+        "pendiente-supuesto-2-c-2026-p20"
+      ],
+      "n_preguntas": 1
+    }
+  ],
+  "total_preguntas": 79,
+  "n_conceptos": 50
+}

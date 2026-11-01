@@ -1,0 +1,343 @@
+{
+  "tema_id": "tema-28-seguridad-de-sistemas-criptografia-firma-digital-cpd-inciden",
+  "tema_numero": 28,
+  "conceptos": [
+    {
+      "nombre": "CCN-CERT analisis ficheros",
+      "descripcion": "CCN-CERT analisis ficheros",
+      "preguntas": [
+        "examen-tai-2018:teorica:84"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "amenaza incidente",
+      "descripcion": "amenaza incidente",
+      "preguntas": [
+        "examen-tai-2018:teorica:85"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "proceso firma digital",
+      "descripcion": "proceso firma digital",
+      "preguntas": [
+        "examen-tai-2021:teorica:66"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "algoritmo asimetrico",
+      "descripcion": "algoritmo asimetrico",
+      "preguntas": [
+        "examen-tai-2021:teorica:69"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "CCN-CERT analisis estatico",
+      "descripcion": "CCN-CERT analisis estatico",
+      "preguntas": [
+        "examen-tai-2021:teorica:77"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "CPD ANSI TIA 942",
+      "descripcion": "CPD ANSI TIA 942",
+      "preguntas": [
+        "examen-tai-2021:reserva:4"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "ciberseguridad CCN",
+      "descripcion": "ciberseguridad CCN",
+      "preguntas": [
+        "examen-tai-2023:teorica:17"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "ECDSA",
+      "descripcion": "ECDSA",
+      "preguntas": [
+        "examen-tai-2023:teorica:69"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "ticketing ENS",
+      "descripcion": "ticketing ENS",
+      "preguntas": [
+        "examen-tai-2024-modelo-a:teorica:67",
+        "examen-tai-2024-modelo-b:teorica:69",
+        "examen-tai-2025-modelo-a:teorica:67",
+        "examen-tai-2025-modelo-b:teorica:69"
+      ],
+      "n_preguntas": 4
+    },
+    {
+      "nombre": "formato CAdES",
+      "descripcion": "formato CAdES",
+      "preguntas": [
+        "examen-tai-2024-modelo-a:teorica:68",
+        "examen-tai-2024-modelo-b:teorica:68",
+        "examen-tai-2025-modelo-a:teorica:68",
+        "examen-tai-2025-modelo-b:teorica:68"
+      ],
+      "n_preguntas": 4
+    },
+    {
+      "nombre": "tipos ataque",
+      "descripcion": "tipos ataque",
+      "preguntas": [
+        "examen-tai-2024-modelo-a:teorica:69",
+        "examen-tai-2024-modelo-b:teorica:67",
+        "examen-tai-2025-modelo-a:teorica:69",
+        "examen-tai-2025-modelo-b:teorica:67"
+      ],
+      "n_preguntas": 4
+    },
+    {
+      "nombre": "base datos vulnerabilidades",
+      "descripcion": "base datos vulnerabilidades",
+      "preguntas": [
+        "examen-tai-2026-modelo-a:teorica:68",
+        "examen-tai-2026-modelo-b:teorica:72"
+      ],
+      "n_preguntas": 2
+    },
+    {
+      "nombre": "contrasena robusta CCN",
+      "descripcion": "contrasena robusta CCN",
+      "preguntas": [
+        "examen-tai-2026-modelo-a:teorica:69",
+        "examen-tai-2026-modelo-b:teorica:71"
+      ],
+      "n_preguntas": 2
+    },
+    {
+      "nombre": "ANSI/TIA 942 zona CPD",
+      "descripcion": "ANSI/TIA 942 zona CPD",
+      "preguntas": [
+        "examen-tai-2026-modelo-a:teorica:70",
+        "examen-tai-2026-modelo-b:teorica:70"
+      ],
+      "n_preguntas": 2
+    },
+    {
+      "nombre": "CCN-CERT key exchange",
+      "descripcion": "CCN-CERT key exchange",
+      "preguntas": [
+        "examen-tai-2026-modelo-a:reserva:2",
+        "examen-tai-2026-modelo-b:reserva:2"
+      ],
+      "n_preguntas": 2
+    },
+    {
+      "nombre": "MFA CCN",
+      "descripcion": "MFA CCN",
+      "preguntas": [
+        "examen-tai-2026-modelo-b:teorica:54"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "plataforma monitorizacion seguridad APM",
+      "descripcion": "plataforma monitorizacion seguridad APM",
+      "preguntas": [
+        "examen-tai-2026-modelo-c:teorica:58"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "metodologia riesgos NO",
+      "descripcion": "metodologia riesgos NO",
+      "preguntas": [
+        "examen-tai-2026-modelo-c:teorica:67"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "plenum ANSI/TIA 942",
+      "descripcion": "plenum ANSI/TIA 942",
+      "preguntas": [
+        "examen-tai-2026-modelo-c:teorica:68"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "RSA tipo cifrado",
+      "descripcion": "RSA tipo cifrado",
+      "preguntas": [
+        "examen-tai-2026-modelo-c:teorica:79"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "vulnerabilidad zero-day",
+      "descripcion": "vulnerabilidad zero-day",
+      "preguntas": [
+        "pendiente-supuesto-1-2018-p30"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "firma digital SOAP",
+      "descripcion": "firma digital SOAP",
+      "preguntas": [
+        "pendiente-supuesto-1-a-2024-p15",
+        "pendiente-supuesto-1-a-2025-p15",
+        "pendiente-supuesto-1-b-2024-p06",
+        "pendiente-supuesto-1-b-2025-p06"
+      ],
+      "n_preguntas": 4
+    },
+    {
+      "nombre": "JWT autenticación",
+      "descripcion": "JWT autenticación",
+      "preguntas": [
+        "pendiente-supuesto-1-c-2026-p13"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "vulnerabilidades CCN-CERT",
+      "descripcion": "vulnerabilidades CCN-CERT",
+      "preguntas": [
+        "pendiente-supuesto-2-2018-p18"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "defacement web",
+      "descripcion": "defacement web",
+      "preguntas": [
+        "pendiente-supuesto-2-2018-p19"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "cifrado disco macOS",
+      "descripcion": "cifrado disco macOS",
+      "preguntas": [
+        "pendiente-supuesto-2-2018-p29"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "validación certificados",
+      "descripcion": "validación certificados",
+      "preguntas": [
+        "pendiente-supuesto-2-2018-p30"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "shadow Linux",
+      "descripcion": "shadow Linux",
+      "preguntas": [
+        "pendiente-supuesto-2-2021-p07"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "BitLocker recuperación",
+      "descripcion": "BitLocker recuperación",
+      "preguntas": [
+        "pendiente-supuesto-2-2021-p23"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "autenticación multifactor",
+      "descripcion": "autenticación multifactor",
+      "preguntas": [
+        "pendiente-supuesto-2-2023-p09"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "algoritmo hash firma",
+      "descripcion": "algoritmo hash firma",
+      "preguntas": [
+        "pendiente-supuesto-2-2023-p11"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "análisis malware CCN",
+      "descripcion": "análisis malware CCN",
+      "preguntas": [
+        "pendiente-supuesto-2-2023-p18"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "tailgating seguridad física",
+      "descripcion": "tailgating seguridad física",
+      "preguntas": [
+        "pendiente-supuesto-2-a-2024-p04",
+        "pendiente-supuesto-2-a-2025-p04",
+        "pendiente-supuesto-2-b-2024-p17",
+        "pendiente-supuesto-2-b-2025-p17"
+      ],
+      "n_preguntas": 4
+    },
+    {
+      "nombre": "dimensiones seguridad",
+      "descripcion": "dimensiones seguridad",
+      "preguntas": [
+        "pendiente-supuesto-2-a-2024-p08",
+        "pendiente-supuesto-2-a-2025-p08",
+        "pendiente-supuesto-2-b-2024-p13",
+        "pendiente-supuesto-2-b-2025-p13"
+      ],
+      "n_preguntas": 4
+    },
+    {
+      "nombre": "APT amenaza persistente",
+      "descripcion": "APT amenaza persistente",
+      "preguntas": [
+        "pendiente-supuesto-2-a-2024-p12",
+        "pendiente-supuesto-2-a-2025-p12",
+        "pendiente-supuesto-2-b-2024-p09",
+        "pendiente-supuesto-2-b-2025-p09"
+      ],
+      "n_preguntas": 4
+    },
+    {
+      "nombre": "climatización CPD",
+      "descripcion": "climatización CPD",
+      "preguntas": [
+        "pendiente-supuesto-2-a-2024-p15",
+        "pendiente-supuesto-2-a-2025-p15",
+        "pendiente-supuesto-2-b-2024-p06",
+        "pendiente-supuesto-2-b-2025-p06"
+      ],
+      "n_preguntas": 4
+    },
+    {
+      "nombre": "hash integridad",
+      "descripcion": "hash integridad",
+      "preguntas": [
+        "pendiente-supuesto-2-a-2024-p16",
+        "pendiente-supuesto-2-a-2025-p16",
+        "pendiente-supuesto-2-b-2024-p05",
+        "pendiente-supuesto-2-b-2025-p05"
+      ],
+      "n_preguntas": 4
+    },
+    {
+      "nombre": "sonda SAT INET",
+      "descripcion": "sonda SAT INET",
+      "preguntas": [
+        "pendiente-supuesto-2-c-2026-p16"
+      ],
+      "n_preguntas": 1
+    }
+  ],
+  "total_preguntas": 69,
+  "n_conceptos": 38
+}

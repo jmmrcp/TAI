@@ -1,0 +1,350 @@
+{
+  "tema_id": "tema-16-lenguajes-de-programacion-tipos-operadores-control-de-flujo-",
+  "tema_numero": 16,
+  "conceptos": [
+    {
+      "nombre": "tipos primitivos Java",
+      "descripcion": "tipos primitivos Java",
+      "preguntas": [
+        "examen-tai-2018:teorica:46"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "Python print",
+      "descripcion": "Python print",
+      "preguntas": [
+        "examen-tai-2018:teorica:62"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "operador igualdad Java",
+      "descripcion": "operador igualdad Java",
+      "preguntas": [
+        "examen-tai-2018:reserva:1"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "bucle do while",
+      "descripcion": "bucle do while",
+      "preguntas": [
+        "examen-tai-2021:teorica:38"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "operador XOR Java",
+      "descripcion": "operador XOR Java",
+      "preguntas": [
+        "examen-tai-2021:teorica:46"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "indentacion Python",
+      "descripcion": "indentacion Python",
+      "preguntas": [
+        "examen-tai-2021:teorica:51"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "sobrecarga funciones",
+      "descripcion": "sobrecarga funciones",
+      "preguntas": [
+        "examen-tai-2023:teorica:39"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "afirmacion verdadera",
+      "descripcion": "afirmacion verdadera",
+      "preguntas": [
+        "examen-tai-2023:teorica:40"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "libreria Java Apache",
+      "descripcion": "libreria Java Apache",
+      "preguntas": [
+        "examen-tai-2023:teorica:47"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "operacion logica",
+      "descripcion": "operacion logica",
+      "preguntas": [
+        "examen-tai-2024-modelo-a:teorica:34",
+        "examen-tai-2024-modelo-b:teorica:36",
+        "examen-tai-2025-modelo-a:teorica:34",
+        "examen-tai-2025-modelo-b:teorica:36"
+      ],
+      "n_preguntas": 4
+    },
+    {
+      "nombre": "funciones procedimientos",
+      "descripcion": "funciones procedimientos",
+      "preguntas": [
+        "examen-tai-2024-modelo-a:teorica:35",
+        "examen-tai-2024-modelo-b:teorica:35",
+        "examen-tai-2025-modelo-a:teorica:35",
+        "examen-tai-2025-modelo-b:teorica:35"
+      ],
+      "n_preguntas": 4
+    },
+    {
+      "nombre": "bucle while",
+      "descripcion": "bucle while",
+      "preguntas": [
+        "examen-tai-2024-modelo-a:teorica:36",
+        "examen-tai-2024-modelo-b:teorica:34",
+        "examen-tai-2025-modelo-a:teorica:36",
+        "examen-tai-2025-modelo-b:teorica:34"
+      ],
+      "n_preguntas": 4
+    },
+    {
+      "nombre": "JavaScript expresion condicional",
+      "descripcion": "JavaScript expresion condicional",
+      "preguntas": [
+        "examen-tai-2026-modelo-a:teorica:40",
+        "examen-tai-2026-modelo-b:teorica:41"
+      ],
+      "n_preguntas": 2
+    },
+    {
+      "nombre": "JavaScript incorrecta",
+      "descripcion": "JavaScript incorrecta",
+      "preguntas": [
+        "examen-tai-2026-modelo-c:teorica:50"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "funciones cadena PHP",
+      "descripcion": "funciones cadena PHP",
+      "preguntas": [
+        "pendiente-supuesto-1-2018-p14"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "count array PHP",
+      "descripcion": "count array PHP",
+      "preguntas": [
+        "pendiente-supuesto-1-2018-p15"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "bucle foreach PHP",
+      "descripcion": "bucle foreach PHP",
+      "preguntas": [
+        "pendiente-supuesto-1-2018-p16"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "clase PHP género",
+      "descripcion": "clase PHP género",
+      "preguntas": [
+        "pendiente-supuesto-1-2018-p17"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "librería logging Java",
+      "descripcion": "librería logging Java",
+      "preguntas": [
+        "pendiente-supuesto-1-2018-p19"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "jerarquía excepciones Java",
+      "descripcion": "jerarquía excepciones Java",
+      "preguntas": [
+        "pendiente-supuesto-1-2018-p20"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "recursión Fibonacci",
+      "descripcion": "recursión Fibonacci",
+      "preguntas": [
+        "pendiente-supuesto-1-2018-p21"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "conversión fecha C#",
+      "descripcion": "conversión fecha C#",
+      "preguntas": [
+        "pendiente-supuesto-1-2018-p25"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "clase Object Java",
+      "descripcion": "clase Object Java",
+      "preguntas": [
+        "pendiente-supuesto-1-2018-p31"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "expresión regular validación",
+      "descripcion": "expresión regular validación",
+      "preguntas": [
+        "pendiente-supuesto-1-2018-p34"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "diccionario Python",
+      "descripcion": "diccionario Python",
+      "preguntas": [
+        "pendiente-supuesto-1-2021-p09"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "librerías machine learning",
+      "descripcion": "librerías machine learning",
+      "preguntas": [
+        "pendiente-supuesto-1-2021-p10"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "StringBuilder Java",
+      "descripcion": "StringBuilder Java",
+      "preguntas": [
+        "pendiente-supuesto-1-2021-p11"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "clase final Java",
+      "descripcion": "clase final Java",
+      "preguntas": [
+        "pendiente-supuesto-1-2021-p12"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "using IDisposable C#",
+      "descripcion": "using IDisposable C#",
+      "preguntas": [
+        "pendiente-supuesto-1-2021-p13"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "declaración array C#",
+      "descripcion": "declaración array C#",
+      "preguntas": [
+        "pendiente-supuesto-1-2021-p14"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "modificadores visibilidad Java",
+      "descripcion": "modificadores visibilidad Java",
+      "preguntas": [
+        "pendiente-supuesto-1-2023-p02"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "colecciones Java Set",
+      "descripcion": "colecciones Java Set",
+      "preguntas": [
+        "pendiente-supuesto-1-2023-p03"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "LocalDateTime Java",
+      "descripcion": "LocalDateTime Java",
+      "preguntas": [
+        "pendiente-supuesto-1-a-2024-p11",
+        "pendiente-supuesto-1-a-2025-p11",
+        "pendiente-supuesto-1-b-2024-p10",
+        "pendiente-supuesto-1-b-2025-p10"
+      ],
+      "n_preguntas": 4
+    },
+    {
+      "nombre": "tipos nullable C#",
+      "descripcion": "tipos nullable C#",
+      "preguntas": [
+        "pendiente-supuesto-1-a-2024-p20",
+        "pendiente-supuesto-1-a-2025-p20",
+        "pendiente-supuesto-1-b-2024-p01",
+        "pendiente-supuesto-1-b-2025-p01"
+      ],
+      "n_preguntas": 4
+    },
+    {
+      "nombre": "autoboxing Java",
+      "descripcion": "autoboxing Java",
+      "preguntas": [
+        "pendiente-supuesto-1-a-2026-p06",
+        "pendiente-supuesto-1-b-2026-p06",
+        "pendiente-supuesto-1-p06"
+      ],
+      "n_preguntas": 3
+    },
+    {
+      "nombre": "programación asíncrona C#",
+      "descripcion": "programación asíncrona C#",
+      "preguntas": [
+        "pendiente-supuesto-1-a-2026-p09",
+        "pendiente-supuesto-1-b-2026-p08",
+        "pendiente-supuesto-1-p09"
+      ],
+      "n_preguntas": 3
+    },
+    {
+      "nombre": "TensorFlow Python",
+      "descripcion": "TensorFlow Python",
+      "preguntas": [
+        "pendiente-supuesto-1-a-2026-p14",
+        "pendiente-supuesto-1-b-2026-p15",
+        "pendiente-supuesto-1-p14"
+      ],
+      "n_preguntas": 3
+    },
+    {
+      "nombre": "spread operator TypeScript",
+      "descripcion": "spread operator TypeScript",
+      "preguntas": [
+        "pendiente-supuesto-1-c-2026-p04"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "LINQ C#",
+      "descripcion": "LINQ C#",
+      "preguntas": [
+        "pendiente-supuesto-1-c-2026-p06"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "expresión regular",
+      "descripcion": "expresión regular",
+      "preguntas": [
+        "pendiente-supuesto-1-c-2026-p22"
+      ],
+      "n_preguntas": 1
+    }
+  ],
+  "total_preguntas": 62,
+  "n_conceptos": 40
+}

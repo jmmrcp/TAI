@@ -1,0 +1,195 @@
+{
+  "tema_id": "tema-13-sistemas-operativos-windows-unix-linux-moviles",
+  "tema_numero": 13,
+  "conceptos": [
+    {
+      "nombre": "comando tar Linux",
+      "descripcion": "comando tar Linux",
+      "preguntas": [
+        "examen-tai-2018:teorica:33"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "Bitlocker Windows",
+      "descripcion": "Bitlocker Windows",
+      "preguntas": [
+        "examen-tai-2018:teorica:34"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "procesos Linux",
+      "descripcion": "procesos Linux",
+      "preguntas": [
+        "examen-tai-2018:teorica:35"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "scheduler procesos",
+      "descripcion": "scheduler procesos",
+      "preguntas": [
+        "examen-tai-2018:teorica:36"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "Android Pie",
+      "descripcion": "Android Pie",
+      "preguntas": [
+        "examen-tai-2018:teorica:37"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "directorio etc Linux",
+      "descripcion": "directorio etc Linux",
+      "preguntas": [
+        "examen-tai-2021:teorica:31"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "permisos chmod",
+      "descripcion": "permisos chmod",
+      "preguntas": [
+        "examen-tai-2021:teorica:32"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "version macOS",
+      "descripcion": "version macOS",
+      "preguntas": [
+        "examen-tai-2023:teorica:31"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "afirmacion correcta",
+      "descripcion": "afirmacion correcta",
+      "preguntas": [
+        "examen-tai-2023:teorica:32"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "kernel sistema operativo",
+      "descripcion": "kernel sistema operativo",
+      "preguntas": [
+        "examen-tai-2023:teorica:61"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "UNIX",
+      "descripcion": "UNIX",
+      "preguntas": [
+        "examen-tai-2023:teorica:62"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "capas Android",
+      "descripcion": "capas Android",
+      "preguntas": [
+        "examen-tai-2023:reserva:2"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "kernel Unix/Linux",
+      "descripcion": "kernel Unix/Linux",
+      "preguntas": [
+        "examen-tai-2024-modelo-a:teorica:26",
+        "examen-tai-2024-modelo-b:teorica:27",
+        "examen-tai-2025-modelo-a:teorica:26",
+        "examen-tai-2025-modelo-b:teorica:27"
+      ],
+      "n_preguntas": 4
+    },
+    {
+      "nombre": "Android NDK",
+      "descripcion": "Android NDK",
+      "preguntas": [
+        "examen-tai-2024-modelo-a:teorica:27",
+        "examen-tai-2024-modelo-b:teorica:26",
+        "examen-tai-2025-modelo-a:teorica:27",
+        "examen-tai-2025-modelo-b:teorica:26"
+      ],
+      "n_preguntas": 4
+    },
+    {
+      "nombre": "hilos multitarea",
+      "descripcion": "hilos multitarea",
+      "preguntas": [
+        "examen-tai-2024-modelo-a:teorica:55",
+        "examen-tai-2024-modelo-b:teorica:56",
+        "examen-tai-2025-modelo-a:teorica:55",
+        "examen-tai-2025-modelo-b:teorica:56"
+      ],
+      "n_preguntas": 4
+    },
+    {
+      "nombre": "Android kernel",
+      "descripcion": "Android kernel",
+      "preguntas": [
+        "examen-tai-2026-modelo-a:teorica:31",
+        "examen-tai-2026-modelo-b:teorica:32"
+      ],
+      "n_preguntas": 2
+    },
+    {
+      "nombre": "iOS sandboxing",
+      "descripcion": "iOS sandboxing",
+      "preguntas": [
+        "examen-tai-2026-modelo-a:teorica:32",
+        "examen-tai-2026-modelo-b:teorica:31"
+      ],
+      "n_preguntas": 2
+    },
+    {
+      "nombre": "algoritmo planificacion CPU",
+      "descripcion": "algoritmo planificacion CPU",
+      "preguntas": [
+        "examen-tai-2026-modelo-c:teorica:25"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "/etc Linux",
+      "descripcion": "/etc Linux",
+      "preguntas": [
+        "examen-tai-2026-modelo-c:teorica:29"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "Wi-Fi HAL Android",
+      "descripcion": "Wi-Fi HAL Android",
+      "preguntas": [
+        "examen-tai-2026-modelo-c:teorica:31"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "PCB proceso",
+      "descripcion": "PCB proceso",
+      "preguntas": [
+        "examen-tai-2026-modelo-c:teorica:32"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "Android Dalvik extension",
+      "descripcion": "Android Dalvik extension",
+      "preguntas": [
+        "examen-tai-2026-modelo-c:reserva:1"
+      ],
+      "n_preguntas": 1
+    }
+  ],
+  "total_preguntas": 33,
+  "n_conceptos": 22
+}

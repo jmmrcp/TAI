@@ -1,0 +1,349 @@
+{
+  "tema_id": "tema-23-repositorios-control-de-versiones-metodologias-pruebas-de-so",
+  "tema_numero": 23,
+  "conceptos": [
+    {
+      "nombre": "pruebas integracion",
+      "descripcion": "pruebas integracion",
+      "preguntas": [
+        "examen-tai-2018:teorica:66"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "comando git tags",
+      "descripcion": "comando git tags",
+      "preguntas": [
+        "examen-tai-2018:teorica:67"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "plataforma control versiones Microsoft",
+      "descripcion": "plataforma control versiones Microsoft",
+      "preguntas": [
+        "examen-tai-2018:teorica:68"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "SonarQube",
+      "descripcion": "SonarQube",
+      "preguntas": [
+        "examen-tai-2018:teorica:69"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "pruebas regresion",
+      "descripcion": "pruebas regresion",
+      "preguntas": [
+        "examen-tai-2018:teorica:70"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "pruebas tiempos respuesta",
+      "descripcion": "pruebas tiempos respuesta",
+      "preguntas": [
+        "examen-tai-2021:teorica:55"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "git commit",
+      "descripcion": "git commit",
+      "preguntas": [
+        "examen-tai-2021:teorica:56",
+        "examen-tai-2026-modelo-c:teorica:56"
+      ],
+      "n_preguntas": 2
+    },
+    {
+      "nombre": "pruebas carga estres",
+      "descripcion": "pruebas carga estres",
+      "preguntas": [
+        "examen-tai-2021:teorica:57"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "ITIL",
+      "descripcion": "ITIL",
+      "preguntas": [
+        "examen-tai-2021:teorica:67"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "pruebas ensamblaje",
+      "descripcion": "pruebas ensamblaje",
+      "preguntas": [
+        "examen-tai-2023:teorica:58"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "manuales usuario Metrica",
+      "descripcion": "manuales usuario Metrica",
+      "preguntas": [
+        "examen-tai-2023:teorica:59"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "control versiones",
+      "descripcion": "control versiones",
+      "preguntas": [
+        "examen-tai-2023:teorica:60",
+        "examen-tai-2024-modelo-a:teorica:53",
+        "examen-tai-2024-modelo-b:teorica:54",
+        "examen-tai-2025-modelo-a:teorica:53",
+        "examen-tai-2025-modelo-b:teorica:54"
+      ],
+      "n_preguntas": 5
+    },
+    {
+      "nombre": "pruebas Metrica",
+      "descripcion": "pruebas Metrica",
+      "preguntas": [
+        "examen-tai-2024-modelo-a:teorica:54",
+        "examen-tai-2024-modelo-b:teorica:53",
+        "examen-tai-2025-modelo-a:teorica:54",
+        "examen-tai-2025-modelo-b:teorica:53"
+      ],
+      "n_preguntas": 4
+    },
+    {
+      "nombre": "producto pruebas software",
+      "descripcion": "producto pruebas software",
+      "preguntas": [
+        "examen-tai-2026-modelo-a:teorica:56"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "pull request",
+      "descripcion": "pull request",
+      "preguntas": [
+        "examen-tai-2026-modelo-a:teorica:57",
+        "examen-tai-2026-modelo-b:teorica:57"
+      ],
+      "n_preguntas": 2
+    },
+    {
+      "nombre": "pruebas software",
+      "descripcion": "pruebas software",
+      "preguntas": [
+        "examen-tai-2026-modelo-a:teorica:58",
+        "examen-tai-2026-modelo-b:teorica:56"
+      ],
+      "n_preguntas": 2
+    },
+    {
+      "nombre": "producto pruebas",
+      "descripcion": "producto pruebas",
+      "preguntas": [
+        "examen-tai-2026-modelo-b:teorica:58"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "RACI",
+      "descripcion": "RACI",
+      "preguntas": [
+        "examen-tai-2026-modelo-c:teorica:51"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "Git staged",
+      "descripcion": "Git staged",
+      "preguntas": [
+        "examen-tai-2026-modelo-c:teorica:55"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "Scrum roles",
+      "descripcion": "Scrum roles",
+      "preguntas": [
+        "examen-tai-2026-modelo-c:teorica:57"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "pruebas aceptación Métrica",
+      "descripcion": "pruebas aceptación Métrica",
+      "preguntas": [
+        "pendiente-supuesto-1-2018-p29"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "git log",
+      "descripcion": "git log",
+      "preguntas": [
+        "pendiente-supuesto-1-2021-p20"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "Jest pruebas JS",
+      "descripcion": "Jest pruebas JS",
+      "preguntas": [
+        "pendiente-supuesto-1-2021-p22"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "Selenium pruebas web",
+      "descripcion": "Selenium pruebas web",
+      "preguntas": [
+        "pendiente-supuesto-1-2023-p13"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "CI/CD pipelines",
+      "descripcion": "CI/CD pipelines",
+      "preguntas": [
+        "pendiente-supuesto-1-2023-p20"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "herramientas calidad código",
+      "descripcion": "herramientas calidad código",
+      "preguntas": [
+        "pendiente-supuesto-1-a-2024-p10",
+        "pendiente-supuesto-1-a-2025-p10",
+        "pendiente-supuesto-1-b-2024-p11",
+        "pendiente-supuesto-1-b-2025-p11"
+      ],
+      "n_preguntas": 4
+    },
+    {
+      "nombre": "retrospectiva SCRUM",
+      "descripcion": "retrospectiva SCRUM",
+      "preguntas": [
+        "pendiente-supuesto-1-a-2024-p18",
+        "pendiente-supuesto-1-a-2025-p18",
+        "pendiente-supuesto-1-b-2024-p03",
+        "pendiente-supuesto-1-b-2025-p03"
+      ],
+      "n_preguntas": 4
+    },
+    {
+      "nombre": "README repositorio",
+      "descripcion": "README repositorio",
+      "preguntas": [
+        "pendiente-supuesto-1-a-2024-p25",
+        "pendiente-supuesto-1-a-2025-p25",
+        "pendiente-supuesto-1-b-2024-p25",
+        "pendiente-supuesto-1-b-2025-p25"
+      ],
+      "n_preguntas": 4
+    },
+    {
+      "nombre": "pruebas unitarias JUnit",
+      "descripcion": "pruebas unitarias JUnit",
+      "preguntas": [
+        "pendiente-supuesto-1-a-2026-p05",
+        "pendiente-supuesto-1-b-2026-p04",
+        "pendiente-supuesto-1-p05"
+      ],
+      "n_preguntas": 3
+    },
+    {
+      "nombre": "Maven Spring Boot",
+      "descripcion": "Maven Spring Boot",
+      "preguntas": [
+        "pendiente-supuesto-1-a-2026-p07",
+        "pendiente-supuesto-1-b-2026-p07",
+        "pendiente-supuesto-1-p07"
+      ],
+      "n_preguntas": 3
+    },
+    {
+      "nombre": "git fetch",
+      "descripcion": "git fetch",
+      "preguntas": [
+        "pendiente-supuesto-1-a-2026-p19",
+        "pendiente-supuesto-1-b-2026-p20",
+        "pendiente-supuesto-1-p19"
+      ],
+      "n_preguntas": 3
+    },
+    {
+      "nombre": "GitHub Actions workflows",
+      "descripcion": "GitHub Actions workflows",
+      "preguntas": [
+        "pendiente-supuesto-1-a-2026-p21",
+        "pendiente-supuesto-1-b-2026-p21",
+        "pendiente-supuesto-1-p21"
+      ],
+      "n_preguntas": 3
+    },
+    {
+      "nombre": "modelo datos Git",
+      "descripcion": "modelo datos Git",
+      "preguntas": [
+        "pendiente-supuesto-1-a-2026-p23",
+        "pendiente-supuesto-1-b-2026-p23",
+        "pendiente-supuesto-1-p23"
+      ],
+      "n_preguntas": 3
+    },
+    {
+      "nombre": "pruebas unitarias NUnit",
+      "descripcion": "pruebas unitarias NUnit",
+      "preguntas": [
+        "pendiente-supuesto-1-c-2026-p16"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "git cherry-pick",
+      "descripcion": "git cherry-pick",
+      "preguntas": [
+        "pendiente-supuesto-1-c-2026-p18"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "pruebas frontend",
+      "descripcion": "pruebas frontend",
+      "preguntas": [
+        "pendiente-supuesto-1-c-2026-p21"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "formateo código",
+      "descripcion": "formateo código",
+      "preguntas": [
+        "pendiente-supuesto-1-c-2026-p23"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "git clone",
+      "descripcion": "git clone",
+      "preguntas": [
+        "pendiente-supuesto-1-c-2026-p24"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "Maven pom.xml",
+      "descripcion": "Maven pom.xml",
+      "preguntas": [
+        "pendiente-supuesto-1-c-2026-p25"
+      ],
+      "n_preguntas": 1
+    }
+  ],
+  "total_preguntas": 68,
+  "n_conceptos": 39
+}

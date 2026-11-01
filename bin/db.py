@@ -3751,7 +3751,12 @@ def cmd_extraer_conceptos_core(args) -> int:
                 grupos[norm]["items"].append(it)
             conceptos_grouped = []
             for norm, g in grupos.items():
-                preg_ids = [f"{it['examen']}:{it['seccion']}:{it['numero']}" for it in g["items"]]
+                preg_ids = []
+                for it in g["items"]:
+                    if "pregunta_id" in it:
+                        preg_ids.append(it["pregunta_id"])
+                    else:
+                        preg_ids.append(f"{it.get('examen')}:{it.get('seccion')}:{it.get('numero')}")
                 conceptos_grouped.append({
                     "nombre": g["nombre_raw"],
                     "descripcion": g["nombre_raw"],

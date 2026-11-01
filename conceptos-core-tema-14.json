@@ -1,0 +1,162 @@
+{
+  "tema_id": "tema-14-sgbd-relacionales-orientados-a-objetos-y-nosql",
+  "tema_numero": 14,
+  "conceptos": [
+    {
+      "nombre": "bases NoSQL",
+      "descripcion": "bases NoSQL",
+      "preguntas": [
+        "examen-tai-2018:teorica:38"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "Oracle gestor",
+      "descripcion": "Oracle gestor",
+      "preguntas": [
+        "examen-tai-2018:teorica:39"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "ORM",
+      "descripcion": "ORM",
+      "preguntas": [
+        "examen-tai-2021:teorica:33"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "propiedades ACID",
+      "descripcion": "propiedades ACID",
+      "preguntas": [
+        "examen-tai-2023:teorica:33"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "SGBDOO",
+      "descripcion": "SGBDOO",
+      "preguntas": [
+        "examen-tai-2023:teorica:34",
+        "examen-tai-2024-modelo-a:teorica:29",
+        "examen-tai-2024-modelo-b:teorica:29",
+        "examen-tai-2025-modelo-a:teorica:29",
+        "examen-tai-2025-modelo-b:teorica:29"
+      ],
+      "n_preguntas": 5
+    },
+    {
+      "nombre": "Machine Learning Services",
+      "descripcion": "Machine Learning Services",
+      "preguntas": [
+        "examen-tai-2023:teorica:35"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "afirmacion falsa",
+      "descripcion": "afirmacion falsa",
+      "preguntas": [
+        "examen-tai-2023:teorica:38"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "paquete R SQL Server",
+      "descripcion": "paquete R SQL Server",
+      "preguntas": [
+        "examen-tai-2023:reserva:3"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "colecciones OO BD",
+      "descripcion": "colecciones OO BD",
+      "preguntas": [
+        "examen-tai-2026-modelo-a:teorica:34",
+        "examen-tai-2026-modelo-b:teorica:35"
+      ],
+      "n_preguntas": 2
+    },
+    {
+      "nombre": "OID",
+      "descripcion": "OID",
+      "preguntas": [
+        "examen-tai-2026-modelo-a:teorica:35",
+        "examen-tai-2026-modelo-b:teorica:34"
+      ],
+      "n_preguntas": 2
+    },
+    {
+      "nombre": "NoSQL tipos",
+      "descripcion": "NoSQL tipos",
+      "preguntas": [
+        "examen-tai-2026-modelo-a:teorica:36",
+        "examen-tai-2026-modelo-b:teorica:33"
+      ],
+      "n_preguntas": 2
+    },
+    {
+      "nombre": "BD relacionales incorrecta",
+      "descripcion": "BD relacionales incorrecta",
+      "preguntas": [
+        "examen-tai-2026-modelo-c:teorica:33"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "BD orientada a grafos",
+      "descripcion": "BD orientada a grafos",
+      "preguntas": [
+        "examen-tai-2026-modelo-c:teorica:34"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "niveles aislamiento transaccion",
+      "descripcion": "niveles aislamiento transaccion",
+      "preguntas": [
+        "examen-tai-2026-modelo-c:teorica:39"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "nivel aislamiento transacciones",
+      "descripcion": "nivel aislamiento transacciones",
+      "preguntas": [
+        "pendiente-supuesto-1-a-2024-p14",
+        "pendiente-supuesto-1-a-2025-p14",
+        "pendiente-supuesto-1-b-2024-p07",
+        "pendiente-supuesto-1-b-2025-p07"
+      ],
+      "n_preguntas": 4
+    },
+    {
+      "nombre": "puertos SGBD",
+      "descripcion": "puertos SGBD",
+      "preguntas": [
+        "pendiente-supuesto-2-2018-p22"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "versión Oracle",
+      "descripcion": "versión Oracle",
+      "preguntas": [
+        "pendiente-supuesto-2-2021-p08"
+      ],
+      "n_preguntas": 1
+    },
+    {
+      "nombre": "SQL Server puerto",
+      "descripcion": "SQL Server puerto",
+      "preguntas": [
+        "pendiente-supuesto-2-c-2026-p24"
+      ],
+      "n_preguntas": 1
+    }
+  ],
+  "total_preguntas": 28,
+  "n_conceptos": 18
+}
