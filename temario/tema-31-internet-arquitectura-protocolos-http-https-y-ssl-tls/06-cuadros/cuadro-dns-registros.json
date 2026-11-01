@@ -1,0 +1,138 @@
+{
+  "id": "cuadro-dns-registros",
+  "tema_id": "tema-31-internet-arquitectura-protocolos-http-https-y-ssl-tls",
+  "tipo_dato": "dns",
+  "titulo": "Registros DNS habituales",
+  "semilla": false,
+  "n_filas": 9,
+  "n_fuentes_distintas": 1,
+  "columnas": [
+    "registro",
+    "tipo",
+    "descripcion"
+  ],
+  "columna_clave": "registro",
+  "columna_respuesta": "tipo",
+  "columna_contexto": "descripcion",
+  "columna_fuente": "fuente",
+  "filas": [
+    {
+      "id": "c-dns-registros-1",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "registro": "SOA",
+        "tipo": "Autoridad de zona",
+        "descripcion": "Serial, refresh, retry, expire, minimum; datos de la zona"
+      },
+      "pasaje_origen": "Registros DNS habituales",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-dns-registros-2",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "registro": "NS",
+        "tipo": "Servidor de nombres",
+        "descripcion": "Servidores DNS autoritativos del dominio"
+      },
+      "pasaje_origen": "Registros DNS habituales",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-dns-registros-3",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "registro": "A",
+        "tipo": "Dirección IPv4",
+        "descripcion": "Nombre -> IPv4"
+      },
+      "pasaje_origen": "Registros DNS habituales",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-dns-registros-4",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "registro": "AAAA",
+        "tipo": "Dirección IPv6",
+        "descripcion": "Nombre -> IPv6"
+      },
+      "pasaje_origen": "Registros DNS habituales",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-dns-registros-5",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "registro": "CNAME",
+        "tipo": "Alias",
+        "descripcion": "Nombre canónico (alias)"
+      },
+      "pasaje_origen": "Registros DNS habituales",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-dns-registros-6",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "registro": "MX",
+        "tipo": "Correo",
+        "descripcion": "Servidor de correo del dominio (con prioridad)"
+      },
+      "pasaje_origen": "Registros DNS habituales",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-dns-registros-7",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "registro": "PTR",
+        "tipo": "Resolución inversa",
+        "descripcion": "IP -> nombre de host"
+      },
+      "pasaje_origen": "Registros DNS habituales",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-dns-registros-8",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "registro": "TXT",
+        "tipo": "Texto",
+        "descripcion": "SPF, DKIM, verificaciones de dominio"
+      },
+      "pasaje_origen": "Registros DNS habituales",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-dns-registros-9",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "registro": "SRV",
+        "tipo": "Servicio",
+        "descripcion": "Ubicación de servicios (host/puerto)"
+      },
+      "pasaje_origen": "Registros DNS habituales",
+      "ubicacion": {},
+      "verificado": false
+    }
+  ],
+  "verificado": false
+}

@@ -1,0 +1,80 @@
+{
+  "id": "cuadro-metodologias-gestion",
+  "tema_id": "tema-23-repositorios-control-de-versiones-metodologias-pruebas-de-so",
+  "tipo_dato": "metodologias",
+  "titulo": "Metodologías y gestión: Scrum, ITIL, RACI y Métrica v3",
+  "semilla": false,
+  "n_filas": 5,
+  "n_fuentes_distintas": 1,
+  "columnas": [
+    "concepto",
+    "descripcion"
+  ],
+  "columna_clave": "concepto",
+  "columna_respuesta": "descripcion",
+  "columna_contexto": "concepto",
+  "columna_fuente": "fuente",
+  "filas": [
+    {
+      "id": "c-metodologias-gestion-1",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "Scrum",
+        "descripcion": "Marco ágil; roles del Equipo de Scrum: Scrum Master, Product Owner y Development Team."
+      },
+      "pasaje_origen": "Scrum",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-metodologias-gestion-2",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "ITIL",
+        "descripcion": "Colección de mejores prácticas de gestión de servicios de tecnologías de la información."
+      },
+      "pasaje_origen": "ITIL",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-metodologias-gestion-3",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "RACI",
+        "descripcion": "Matriz de roles: Responsible, Accountable, Consulted, Informed."
+      },
+      "pasaje_origen": "RACI",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-metodologias-gestion-4",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "Métrica v3",
+        "descripcion": "Metodología española de desarrollo de SI; incluye pruebas de integración y de rendimiento; elaboración de manuales de usuario por el Equipo de Proyecto."
+      },
+      "pasaje_origen": "Métrica v3",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-metodologias-gestion-5",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "SonarQube Quality Gates",
+        "descripcion": "Condiciones mínimas que el proyecto debe cumplir para pasar a producción (análisis estático, no dinámico)."
+      },
+      "pasaje_origen": "Quality Gates",
+      "ubicacion": {},
+      "verificado": false
+    }
+  ],
+  "verificado": false
+}

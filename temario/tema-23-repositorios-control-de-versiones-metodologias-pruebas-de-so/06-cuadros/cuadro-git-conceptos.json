@@ -1,0 +1,92 @@
+{
+  "id": "cuadro-git-conceptos",
+  "tema_id": "tema-23-repositorios-control-de-versiones-metodologias-pruebas-de-so",
+  "tipo_dato": "conceptos",
+  "titulo": "Conceptos clave de Git y plataformas colaborativas",
+  "semilla": false,
+  "n_filas": 6,
+  "n_fuentes_distintas": 1,
+  "columnas": [
+    "concepto",
+    "significado"
+  ],
+  "columna_clave": "concepto",
+  "columna_respuesta": "significado",
+  "columna_contexto": "concepto",
+  "columna_fuente": "fuente",
+  "filas": [
+    {
+      "id": "c-git-conceptos-1",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "commit",
+        "significado": "Instantánea del estado del proyecto almacenada en el historial de Git."
+      },
+      "pasaje_origen": "commit",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-git-conceptos-2",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "staged (index)",
+        "significado": "Cambios marcados para ser incluidos en el próximo commit."
+      },
+      "pasaje_origen": "staged",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-git-conceptos-3",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "tag (etiqueta)",
+        "significado": "Marcador de un punto concreto del historial (p. ej. versiones)."
+      },
+      "pasaje_origen": "tag",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-git-conceptos-4",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "pull request",
+        "significado": "Propuesta para fusionar un conjunto de cambios de una rama en otra en una plataforma colaborativa."
+      },
+      "pasaje_origen": "pull request",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-git-conceptos-5",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "rama (branch)",
+        "significado": "Línea de desarrollo independiente del historial principal."
+      },
+      "pasaje_origen": "branch",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-git-conceptos-6",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "repositorio",
+        "significado": "Almacén del historial y de los archivos del proyecto."
+      },
+      "pasaje_origen": "repositorio",
+      "ubicacion": {},
+      "verificado": false
+    }
+  ],
+  "verificado": false
+}

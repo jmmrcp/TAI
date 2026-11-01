@@ -1,0 +1,116 @@
+{
+  "id": "cuadro-riesgos-amenazas-vulnerabilidades",
+  "tema_id": "tema-28-seguridad-de-sistemas-criptografia-firma-digital-cpd-inciden",
+  "tipo_dato": "riesgos",
+  "titulo": "Amenazas, riesgos, vulnerabilidades y metodologías de riesgo",
+  "semilla": false,
+  "n_filas": 8,
+  "n_fuentes_distintas": 1,
+  "columnas": [
+    "concepto",
+    "descripcion"
+  ],
+  "columna_clave": "concepto",
+  "columna_respuesta": "descripcion",
+  "columna_contexto": "concepto",
+  "columna_fuente": "fuente",
+  "filas": [
+    {
+      "id": "c-riesgos-amenazas-vulnerabilidades-1",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "Amenaza",
+        "descripcion": "Causa potencial de un incidente que puede causar daños a un SI o a la organización."
+      },
+      "pasaje_origen": "amenaza",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-riesgos-amenazas-vulnerabilidades-2",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "Vulnerabilidad",
+        "descripcion": "Debilidad o fallo que puede ser explotado por una amenaza."
+      },
+      "pasaje_origen": "vulnerabilidad",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-riesgos-amenazas-vulnerabilidades-3",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "Riesgo",
+        "descripcion": "Combinación de probabilidad de ocurrencia e impacto de una amenaza sobre una vulnerabilidad."
+      },
+      "pasaje_origen": "riesgo",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-riesgos-amenazas-vulnerabilidades-4",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "Impacto",
+        "descripcion": "Daño o consecuencia derivada de la materialización de un riesgo."
+      },
+      "pasaje_origen": "impacto",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-riesgos-amenazas-vulnerabilidades-5",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "OCTAVE",
+        "descripcion": "Metodología de gestión de riesgos."
+      },
+      "pasaje_origen": "OCTAVE",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-riesgos-amenazas-vulnerabilidades-6",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "MAGERIT",
+        "descripcion": "Metodología de gestión de riesgos (ENS)."
+      },
+      "pasaje_origen": "MAGERIT",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-riesgos-amenazas-vulnerabilidades-7",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "NIST SP 800-30",
+        "descripcion": "Metodología/guía de evaluación de riesgos."
+      },
+      "pasaje_origen": "NIST SP 800-30",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-riesgos-amenazas-vulnerabilidades-8",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "PRICE3",
+        "descripcion": "NO es metodología de riesgos (gestión de proyectos)."
+      },
+      "pasaje_origen": "PRICE3",
+      "ubicacion": {},
+      "verificado": false
+    }
+  ],
+  "verificado": false
+}

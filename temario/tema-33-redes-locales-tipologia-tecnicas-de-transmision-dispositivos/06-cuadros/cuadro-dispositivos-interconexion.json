@@ -1,0 +1,120 @@
+{
+  "id": "cuadro-dispositivos-interconexion",
+  "tema_id": "tema-33-redes-locales-tipologia-tecnicas-de-transmision-dispositivos",
+  "tipo_dato": "dispositivos",
+  "titulo": "Dispositivos de interconexión de redes",
+  "semilla": false,
+  "n_filas": 7,
+  "n_fuentes_distintas": 1,
+  "columnas": [
+    "dispositivo",
+    "nivel_osi",
+    "funcion_principal",
+    "caracteristica_clave"
+  ],
+  "columna_clave": "dispositivo",
+  "columna_respuesta": "nivel_osi",
+  "columna_contexto": "funcion_principal",
+  "columna_fuente": "fuente",
+  "filas": [
+    {
+      "id": "c-disp-1",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "dispositivo": "Hub (concentrador)",
+        "nivel_osi": "Nivel 1 (Físico)",
+        "funcion_principal": "Repite la señal a todos los puertos",
+        "caracteristica_clave": "Dominio de colisión compartido; no filtra tráfico"
+      },
+      "pasaje_origen": "Dispositivos de interconexión",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-disp-2",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "dispositivo": "Switch (conmutador)",
+        "nivel_osi": "Nivel 2 (Enlace)",
+        "funcion_principal": "Conmuta tramas según dirección MAC",
+        "caracteristica_clave": "Aprende direcciones MAC; microsegmentación"
+      },
+      "pasaje_origen": "Dispositivos de interconexión",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-disp-3",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "dispositivo": "Bridge (puente)",
+        "nivel_osi": "Nivel 2 (Enlace)",
+        "funcion_principal": "Conecta segmentos LAN filtrando por MAC",
+        "caracteristica_clave": "Transparente; reduce colisiones"
+      },
+      "pasaje_origen": "Dispositivos de interconexión",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-disp-4",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "dispositivo": "Router (enrutador)",
+        "nivel_osi": "Nivel 3 (Red)",
+        "funcion_principal": "Encamina paquetes entre redes usando tablas de encaminamiento",
+        "caracteristica_clave": "Interconecta redes distintas; decide por IP"
+      },
+      "pasaje_origen": "Tablas de encaminamiento",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-disp-5",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "dispositivo": "Gateway (pasarela)",
+        "nivel_osi": "Nivel 7 (Aplicación) o todos",
+        "funcion_principal": "Traduce protocolos entre redes heterogéneas",
+        "caracteristica_clave": "Interconexión de redes diferentes (ej. coaxial-Ethernet)"
+      },
+      "pasaje_origen": "Interconexión de redes",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-disp-6",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "dispositivo": "Repeater (repetidor)",
+        "nivel_osi": "Nivel 1 (Físico)",
+        "funcion_principal": "Regenera y amplifica la señal",
+        "caracteristica_clave": "Extiende la distancia del cable"
+      },
+      "pasaje_origen": "Dispositivos de interconexión",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-disp-7",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "dispositivo": "Media converter (conversor de medios)",
+        "nivel_osi": "Nivel 1 (Físico)",
+        "funcion_principal": "Convierte de un medio físico a otro",
+        "caracteristica_clave": "Ej. fibra óptica a cobre Ethernet"
+      },
+      "pasaje_origen": "Interconexión de redes",
+      "ubicacion": {},
+      "verificado": false
+    }
+  ],
+  "verificado": false
+}

@@ -1,0 +1,125 @@
+{
+  "id": "cuadro-estandares-ieee-802",
+  "tema_id": "tema-33-redes-locales-tipologia-tecnicas-de-transmision-dispositivos",
+  "tipo_dato": "estandares",
+  "titulo": "Estándares IEEE 802 relevantes",
+  "semilla": false,
+  "n_filas": 8,
+  "n_fuentes_distintas": 1,
+  "columnas": [
+    "estandar",
+    "ambito",
+    "descripcion"
+  ],
+  "columna_clave": "estandar",
+  "columna_respuesta": "ambito",
+  "columna_contexto": "descripcion",
+  "columna_fuente": "fuente",
+  "filas": [
+    {
+      "id": "c-ieee-1",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "estandar": "IEEE 802.1",
+        "ambito": "Puenteo y gestión",
+        "descripcion": "Bridging, VLANs y protocolos de árbol de expansión (STP/RSTP)"
+      },
+      "pasaje_origen": "Familia IEEE 802",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-ieee-2",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "estandar": "IEEE 802.3",
+        "ambito": "Ethernet",
+        "descripcion": "Métodos de acceso y transmisión para redes Ethernet (CSMA/CD)"
+      },
+      "pasaje_origen": "IEEE 802.3",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-ieee-3",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "estandar": "IEEE 802.11",
+        "ambito": "Redes inalámbricas",
+        "descripcion": "WLAN / Wi-Fi"
+      },
+      "pasaje_origen": "IEEE 802.11",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-ieee-4",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "estandar": "IEEE 802.1Q",
+        "ambito": "VLANs",
+        "descripcion": "Etiquetado de VLANs en tramas Ethernet; campo PCP define 8 niveles CoS"
+      },
+      "pasaje_origen": "IEEE 802.1Q",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-ieee-5",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "estandar": "IEEE 802.1D",
+        "ambito": "STP",
+        "descripcion": "Spanning Tree Protocol (evita bucles; usa BPDUs)"
+      },
+      "pasaje_origen": "STP",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-ieee-6",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "estandar": "IEEE 802.1w",
+        "ambito": "RSTP",
+        "descripcion": "Rapid Spanning Tree Protocol (convergencia rápida)"
+      },
+      "pasaje_origen": "RSTP",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-ieee-7",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "estandar": "IEEE 802.11ax",
+        "ambito": "Wi-Fi 6",
+        "descripcion": "Estándar comercializado como Wi-Fi 6"
+      },
+      "pasaje_origen": "Wi-Fi 6",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-ieee-8",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "estandar": "IEEE 802.15.1",
+        "ambito": "Bluetooth",
+        "descripcion": "Redes inalámbricas de corto alcance (Bluetooth)"
+      },
+      "pasaje_origen": "Bluetooth",
+      "ubicacion": {},
+      "verificado": false
+    }
+  ],
+  "verificado": false
+}

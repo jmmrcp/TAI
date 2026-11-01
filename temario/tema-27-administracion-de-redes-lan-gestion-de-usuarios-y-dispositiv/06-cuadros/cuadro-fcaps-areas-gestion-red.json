@@ -1,0 +1,86 @@
+{
+  "id": "cuadro-fcaps-areas-gestion-red",
+  "tema_id": "tema-27-administracion-de-redes-lan-gestion-de-usuarios-y-dispositiv",
+  "tipo_dato": "listado",
+  "titulo": "FCAPS: áreas funcionales de gestión de red (modelo OSI)",
+  "semilla": false,
+  "n_filas": 5,
+  "n_fuentes_distintas": 1,
+  "columnas": [
+    "area_funcional",
+    "sigla",
+    "descripcion"
+  ],
+  "columna_clave": "area_funcional",
+  "columna_respuesta": "sigla",
+  "columna_contexto": "descripcion",
+  "columna_fuente": "fuente",
+  "filas": [
+    {
+      "id": "cuadro-fcaps-areas-gestion-red-1",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "area_funcional": "Gestión de fallos",
+        "sigla": "F (Fault)",
+        "descripcion": "Detección, aislamiento, diagnóstico y corrección de fallos de la red"
+      },
+      "pasaje_origen": "FCAPS",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "cuadro-fcaps-areas-gestion-red-2",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "area_funcional": "Gestión de configuración",
+        "sigla": "C (Configuration)",
+        "descripcion": "Inventario, configuración y control de cambios de los dispositivos de red"
+      },
+      "pasaje_origen": "FCAPS",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "cuadro-fcaps-areas-gestion-red-3",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "area_funcional": "Gestión contable",
+        "sigla": "A (Accounting)",
+        "descripcion": "Medición del uso de recursos y facturación/chargeback a usuarios"
+      },
+      "pasaje_origen": "FCAPS",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "cuadro-fcaps-areas-gestion-red-4",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "area_funcional": "Gestión de rendimiento",
+        "sigla": "P (Performance)",
+        "descripcion": "Monitorización, análisis y optimización del rendimiento y la capacidad"
+      },
+      "pasaje_origen": "FCAPS",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "cuadro-fcaps-areas-gestion-red-5",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "area_funcional": "Gestión de seguridad",
+        "sigla": "S (Security)",
+        "descripcion": "Control de acceso, políticas de seguridad y protección de la red"
+      },
+      "pasaje_origen": "FCAPS",
+      "ubicacion": {},
+      "verificado": false
+    }
+  ],
+  "verificado": false
+}

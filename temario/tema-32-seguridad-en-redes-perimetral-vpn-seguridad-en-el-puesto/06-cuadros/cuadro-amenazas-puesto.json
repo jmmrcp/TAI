@@ -1,0 +1,106 @@
+{
+  "id": "cuadro-amenazas-puesto",
+  "tema_id": "tema-32-seguridad-en-redes-perimetral-vpn-seguridad-en-el-puesto",
+  "tipo_dato": "conceptos",
+  "titulo": "Amenazas dirigidas al puesto del usuario",
+  "semilla": false,
+  "n_filas": 6,
+  "n_fuentes_distintas": 1,
+  "columnas": [
+    "amenaza",
+    "mecanismo",
+    "objetivo",
+    "medida_mitigacion"
+  ],
+  "columna_clave": "amenaza",
+  "columna_respuesta": "mecanismo",
+  "columna_contexto": "objetivo",
+  "columna_fuente": "fuente",
+  "filas": [
+    {
+      "id": "c-amen-1",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "amenaza": "Phishing",
+        "mecanismo": "Correo/mensaje fraudulento con enlace o adjunto",
+        "objetivo": "Robar credenciales o instalar malware",
+        "medida_mitigacion": "Filtrado de correo, formación, MFA"
+      },
+      "pasaje_origen": "Phishing",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-amen-2",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "amenaza": "Pharming",
+        "mecanismo": "Manipulación de DNS o hosts para redirigir a sitio falso",
+        "objetivo": "Obtener credenciales de forma ilícita",
+        "medida_mitigacion": "DNS seguro, HTTPS/HSTS, comprobación de certificados"
+      },
+      "pasaje_origen": "Pharming",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-amen-3",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "amenaza": "Vishing",
+        "mecanismo": "Suplantación de entidad legítima mediante llamadas telefónicas",
+        "objetivo": "Obtener datos personales o credenciales",
+        "medida_mitigacion": "Verificación de identidad, formación"
+      },
+      "pasaje_origen": "Vishing",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-amen-4",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "amenaza": "Smishing",
+        "mecanismo": "SMS fraudulento con enlace malicioso",
+        "objetivo": "Robar credenciales o instalar malware",
+        "medida_mitigacion": "No abrir enlaces sospechosos"
+      },
+      "pasaje_origen": "Smishing",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-amen-5",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "amenaza": "Clickjacking",
+        "mecanismo": "Superposición de iframe invisible para capturar clics del usuario",
+        "objetivo": "Realizar acciones no deseadas en sitios legítimos",
+        "medida_mitigacion": "X-Frame-Options, CSP frame-ancestors"
+      },
+      "pasaje_origen": "Clickjacking",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-amen-6",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "amenaza": "Ingeniería social",
+        "mecanismo": "Manipulación psicológica del usuario",
+        "objetivo": "Obtener acceso o información",
+        "medida_mitigacion": "Formación y concienciación"
+      },
+      "pasaje_origen": "Ingeniería social",
+      "ubicacion": {},
+      "verificado": false
+    }
+  ],
+  "verificado": false
+}

@@ -1,0 +1,92 @@
+{
+  "id": "cuadro-ccn-cert-herramientas",
+  "tema_id": "tema-28-seguridad-de-sistemas-criptografia-firma-digital-cpd-inciden",
+  "tipo_dato": "herramientas",
+  "titulo": "Herramientas y soluciones del CCN-CERT",
+  "semilla": false,
+  "n_filas": 6,
+  "n_fuentes_distintas": 1,
+  "columnas": [
+    "herramienta",
+    "funcion"
+  ],
+  "columna_clave": "herramienta",
+  "columna_respuesta": "funcion",
+  "columna_contexto": "herramienta",
+  "columna_fuente": "fuente",
+  "filas": [
+    {
+      "id": "c-ccn-cert-herramientas-1",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "herramienta": "MARTA",
+        "funcion": "Análisis automatizado de ficheros que pueden tener comportamiento malicioso."
+      },
+      "pasaje_origen": "MARTA",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-ccn-cert-herramientas-2",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "herramienta": "MARIA",
+        "funcion": "Análisis estático de código dañino mediante múltiples motores antivirus/antimalware (Windows y Linux)."
+      },
+      "pasaje_origen": "MARIA",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-ccn-cert-herramientas-3",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "herramienta": "ELENA",
+        "funcion": "Simulador de técnicas de cibervigilancia (solución de ciberseguridad del CCN)."
+      },
+      "pasaje_origen": "ELENA",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-ccn-cert-herramientas-4",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "herramienta": "LUCIA",
+        "funcion": "Herramienta de ticketing para la gestión de incidentes de seguridad en entidades del ENS."
+      },
+      "pasaje_origen": "LUCIA",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-ccn-cert-herramientas-5",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "herramienta": "NVD",
+        "funcion": "Base de datos de vulnerabilidades (National Vulnerability Database)."
+      },
+      "pasaje_origen": "NVD",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-ccn-cert-herramientas-6",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "herramienta": "Datadog",
+        "funcion": "Plataforma integrada de monitorización y seguridad (incluye APM)."
+      },
+      "pasaje_origen": "Datadog",
+      "ubicacion": {},
+      "verificado": false
+    }
+  ],
+  "verificado": false
+}

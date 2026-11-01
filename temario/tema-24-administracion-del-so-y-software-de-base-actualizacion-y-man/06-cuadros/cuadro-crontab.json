@@ -1,0 +1,112 @@
+{
+  "id": "cuadro-crontab",
+  "tema_id": "tema-24-administracion-del-so-y-software-de-base-actualizacion-y-man",
+  "tipo_dato": "formato",
+  "titulo": "Formato de tiempo en Crontab (Linux)",
+  "semilla": false,
+  "n_filas": 7,
+  "n_fuentes_distintas": 1,
+  "columnas": [
+    "campo",
+    "posicion",
+    "rango"
+  ],
+  "columna_clave": "campo",
+  "columna_respuesta": "rango",
+  "columna_contexto": "posicion",
+  "columna_fuente": "fuente",
+  "filas": [
+    {
+      "id": "c-cron-1",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "campo": "minuto",
+        "posicion": "1",
+        "rango": "0-59"
+      },
+      "pasaje_origen": "Una tarea en el Crontab de Linux con la especificación de tiempo 0 5 8 11 * se ejecutará:",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-cron-2",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "campo": "hora",
+        "posicion": "2",
+        "rango": "0-23"
+      },
+      "pasaje_origen": "0 5 8 11 *",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-cron-3",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "campo": "día del mes",
+        "posicion": "3",
+        "rango": "1-31"
+      },
+      "pasaje_origen": "0 5 8 11 *",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-cron-4",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "campo": "mes",
+        "posicion": "4",
+        "rango": "1-12 (o ene-dic)"
+      },
+      "pasaje_origen": "0 5 8 11 *",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-cron-5",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "campo": "día de la semana",
+        "posicion": "5",
+        "rango": "0-7 (0 y 7 = domingo) o lun-dom"
+      },
+      "pasaje_origen": "0 5 8 11 *",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-cron-6",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "campo": "comando",
+        "posicion": "6",
+        "rango": "comando a ejecutar"
+      },
+      "pasaje_origen": "crontab",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-cron-7",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "campo": "ejemplo 0 5 8 11 *",
+        "posicion": "—",
+        "rango": "A las 05:00 del día 8 de noviembre, todos los días de la semana (cualquier día)"
+      },
+      "pasaje_origen": "Una tarea en el Crontab de Linux con la especificación de tiempo 0 5 8 11 * se ejecutará:",
+      "ubicacion": {},
+      "verificado": false
+    }
+  ],
+  "verificado": false
+}

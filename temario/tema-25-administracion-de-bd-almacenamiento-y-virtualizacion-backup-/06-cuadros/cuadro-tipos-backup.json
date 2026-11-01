@@ -1,0 +1,73 @@
+{
+  "id": "cuadro-tipos-backup",
+  "tema_id": "tema-25-administracion-de-bd-almacenamiento-y-virtualizacion-backup-",
+  "tipo_dato": "backup",
+  "titulo": "Tipos de copia de seguridad y regla 3-2-1",
+  "semilla": false,
+  "n_filas": 4,
+  "n_fuentes_distintas": 1,
+  "columnas": [
+    "tipo",
+    "alcance",
+    "referencia"
+  ],
+  "columna_clave": "tipo",
+  "columna_respuesta": "alcance",
+  "columna_contexto": "referencia",
+  "columna_fuente": "fuente",
+  "filas": [
+    {
+      "id": "c-bk-1",
+      "fuente": "examenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "tipo": "Completa (full)",
+        "alcance": "Copia de todos los datos",
+        "referencia": "Base de referencia"
+      },
+      "pasaje_origen": "Copias de seguridad",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-bk-2",
+      "fuente": "examenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "tipo": "Diferencial",
+        "alcance": "Cambios desde el ultimo backup completo",
+        "referencia": "Ultimo backup completo"
+      },
+      "pasaje_origen": "Copias de seguridad",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-bk-3",
+      "fuente": "examenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "tipo": "Incremental",
+        "alcance": "Cambios desde el ultimo backup (completo o incremental)",
+        "referencia": "Ultimo backup cualquiera"
+      },
+      "pasaje_origen": "Copias de seguridad",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-bk-4",
+      "fuente": "examenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "tipo": "Regla 3-2-1",
+        "alcance": "3 copias, en 2 soportes distintos, 1 offsite",
+        "referencia": "Estrategia de proteccion"
+      },
+      "pasaje_origen": "Copias de seguridad",
+      "ubicacion": {},
+      "verificado": false
+    }
+  ],
+  "verificado": false
+}

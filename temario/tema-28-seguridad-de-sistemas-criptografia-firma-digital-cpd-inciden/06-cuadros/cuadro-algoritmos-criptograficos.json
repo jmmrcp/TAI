@@ -1,0 +1,68 @@
+{
+  "id": "cuadro-algoritmos-criptograficos",
+  "tema_id": "tema-28-seguridad-de-sistemas-criptografia-firma-digital-cpd-inciden",
+  "tipo_dato": "criptografia",
+  "titulo": "Algoritmos criptográficos (simétricos y asimétricos)",
+  "semilla": false,
+  "n_filas": 4,
+  "n_fuentes_distintas": 1,
+  "columnas": [
+    "algoritmo",
+    "clasificacion"
+  ],
+  "columna_clave": "algoritmo",
+  "columna_respuesta": "clasificacion",
+  "columna_contexto": "algoritmo",
+  "columna_fuente": "fuente",
+  "filas": [
+    {
+      "id": "c-algoritmos-criptograficos-1",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "algoritmo": "RSA",
+        "clasificacion": "Criptosistema de clave pública (asimétrico)."
+      },
+      "pasaje_origen": "RSA tipo cifrado",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-algoritmos-criptograficos-2",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "algoritmo": "ECDSA",
+        "clasificacion": "Algoritmo de firma digital basado en curvas elípticas (clave pública)."
+      },
+      "pasaje_origen": "ECDSA",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-algoritmos-criptograficos-3",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "algoritmo": "ElGamal",
+        "clasificacion": "Algoritmo asimétrico (clave pública)."
+      },
+      "pasaje_origen": "ElGamal",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-algoritmos-criptograficos-4",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "algoritmo": "GOST",
+        "clasificacion": "NO se considera algoritmo asimétrico (según examen oficial)."
+      },
+      "pasaje_origen": "GOST",
+      "ubicacion": {},
+      "verificado": false
+    }
+  ],
+  "verificado": false
+}

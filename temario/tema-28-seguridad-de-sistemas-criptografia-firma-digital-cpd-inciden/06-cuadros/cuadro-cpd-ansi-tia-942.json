@@ -1,0 +1,92 @@
+{
+  "id": "cuadro-cpd-ansi-tia-942",
+  "tema_id": "tema-28-seguridad-de-sistemas-criptografia-firma-digital-cpd-inciden",
+  "tipo_dato": "cpd",
+  "titulo": "CPD: estándar ANSI/TIA 942 (niveles TIER y zonas)",
+  "semilla": false,
+  "n_filas": 6,
+  "n_fuentes_distintas": 1,
+  "columnas": [
+    "concepto",
+    "descripcion"
+  ],
+  "columna_clave": "concepto",
+  "columna_respuesta": "descripcion",
+  "columna_contexto": "concepto",
+  "columna_fuente": "fuente",
+  "filas": [
+    {
+      "id": "c-cpd-ansi-tia-942-1",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "TIER I",
+        "descripcion": "Menor nivel de disponibilidad."
+      },
+      "pasaje_origen": "TIER I",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-cpd-ansi-tia-942-2",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "TIER II",
+        "descripcion": "Nivel de disponibilidad intermedio-bajo."
+      },
+      "pasaje_origen": "TIER II",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-cpd-ansi-tia-942-3",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "TIER III",
+        "descripcion": "Nivel de disponibilidad intermedio-alto (mantenimiento concurrente)."
+      },
+      "pasaje_origen": "TIER III",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-cpd-ansi-tia-942-4",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "TIER IV",
+        "descripcion": "Mayor nivel de disponibilidad (tolerante a fallos)."
+      },
+      "pasaje_origen": "TIER IV",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-cpd-ansi-tia-942-5",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "EDA (Equipment Distribution Area)",
+        "descripcion": "Zona donde se ubican elementos finales, como un servidor o un mainframe."
+      },
+      "pasaje_origen": "EDA",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-cpd-ansi-tia-942-6",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "Plenum",
+        "descripcion": "Compartimento donde se conectan uno o más conductos de aire; parte del sistema de distribución del aire."
+      },
+      "pasaje_origen": "plenum",
+      "ubicacion": {},
+      "verificado": false
+    }
+  ],
+  "verificado": false
+}

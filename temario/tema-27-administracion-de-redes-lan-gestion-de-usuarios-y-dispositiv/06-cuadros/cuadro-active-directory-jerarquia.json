@@ -1,0 +1,99 @@
+{
+  "id": "cuadro-active-directory-jerarquia",
+  "tema_id": "tema-27-administracion-de-redes-lan-gestion-de-usuarios-y-dispositiv",
+  "tipo_dato": "jerarquia",
+  "titulo": "Active Directory: jerarquía y objetos clave",
+  "semilla": false,
+  "n_filas": 6,
+  "n_fuentes_distintas": 1,
+  "columnas": [
+    "nivel",
+    "elemento",
+    "descripcion"
+  ],
+  "columna_clave": "nivel",
+  "columna_respuesta": "elemento",
+  "columna_contexto": "descripcion",
+  "columna_fuente": "fuente",
+  "filas": [
+    {
+      "id": "cuadro-active-directory-jerarquia-1",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "nivel": "1",
+        "elemento": "Bosque (Forest)",
+        "descripcion": "Conjunto de árboles que comparten esquema, catálogo global y relaciones de confianza"
+      },
+      "pasaje_origen": "AD jerarquía",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "cuadro-active-directory-jerarquia-2",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "nivel": "2",
+        "elemento": "Árbol (Tree)",
+        "descripcion": "Uno o más dominios con espacio de nombres DNS contiguo"
+      },
+      "pasaje_origen": "AD jerarquía",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "cuadro-active-directory-jerarquia-3",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "nivel": "3",
+        "elemento": "Dominio",
+        "descripcion": "Unidad administrativa y de seguridad; límite de replicación y políticas"
+      },
+      "pasaje_origen": "AD jerarquía",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "cuadro-active-directory-jerarquia-4",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "nivel": "4",
+        "elemento": "Unidad organizativa (OU)",
+        "descripcion": "Contenedor para delegar administración y aplicar GPO a usuarios/equipos"
+      },
+      "pasaje_origen": "AD jerarquía",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "cuadro-active-directory-jerarquia-5",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "nivel": "5",
+        "elemento": "Objeto",
+        "descripcion": "Entidades gestionadas: usuarios, equipos, grupos, impresoras, etc."
+      },
+      "pasaje_origen": "AD jerarquía",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "cuadro-active-directory-jerarquia-6",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "nivel": "Objeto especial",
+        "elemento": "PSO (Password Settings Object)",
+        "descripcion": "Políticas de contraseña de grano fino aplicables a usuarios/grupos específicos dentro de un mismo dominio"
+      },
+      "pasaje_origen": "AD jerarquía",
+      "ubicacion": {},
+      "verificado": false
+    }
+  ],
+  "verificado": false
+}

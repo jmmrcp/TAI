@@ -1,0 +1,104 @@
+{
+  "id": "cuadro-comandos-windows",
+  "tema_id": "tema-24-administracion-del-so-y-software-de-base-actualizacion-y-man",
+  "tipo_dato": "comandos",
+  "titulo": "Comandos de administración en Windows (CMD / PowerShell)",
+  "semilla": false,
+  "n_filas": 7,
+  "n_fuentes_distintas": 1,
+  "columnas": [
+    "comando",
+    "descripcion"
+  ],
+  "columna_clave": "comando",
+  "columna_respuesta": "descripcion",
+  "columna_contexto": "comando",
+  "columna_fuente": "fuente",
+  "filas": [
+    {
+      "id": "c-win-1",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "comando": "sfc /scannow",
+        "descripcion": "System File Checker: analiza y repara archivos de sistema protegidos de Windows (requiere privilegios de administrador)"
+      },
+      "pasaje_origen": "El comando sfc /scannow:",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-win-2",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "comando": "net user pepe *",
+        "descripcion": "Cambia la contraseña del usuario 'pepe' desde línea de comandos (el asterisco solicita la nueva contraseña de forma interactiva)"
+      },
+      "pasaje_origen": "¿Desde línea de comandos, en Windows 10, con los privilegios adecuados, cómo podemos cambiar la contraseña de un usuario llamado pepe?",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-win-3",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "comando": "sc query",
+        "descripcion": "Muestra el estado de los servicios instalados (RUNNING, STOPPED, etc.) desde la línea de comandos"
+      },
+      "pasaje_origen": "¿Qué comando se debe ejecutar para mostrar un listado de los servicios en ejecución en un ordenador con sistema operativo Windows 10?",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-win-4",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "comando": "Get-Service",
+        "descripcion": "Cmdlet de PowerShell que lista los servicios y su estado (Running/Stopped)"
+      },
+      "pasaje_origen": "¿Qué comando se debe ejecutar para mostrar un listado de los servicios en ejecución en un ordenador con sistema operativo Windows 10?",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-win-5",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "comando": "tasklist /svc",
+        "descripcion": "Lista los procesos en ejecución y los servicios que aloja cada uno"
+      },
+      "pasaje_origen": "Windows 10",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-win-6",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "comando": "DISM /Online /Cleanup-Image /RestoreHealth",
+        "descripcion": "Repara la imagen del sistema Windows (complemento de sfc para corrupción del almacén de componentes)"
+      },
+      "pasaje_origen": "Windows 10",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-win-7",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "comando": "net start / net stop",
+        "descripcion": "Inicia o detiene un servicio de Windows desde la línea de comandos"
+      },
+      "pasaje_origen": "Windows 10",
+      "ubicacion": {},
+      "verificado": false
+    }
+  ],
+  "verificado": false
+}

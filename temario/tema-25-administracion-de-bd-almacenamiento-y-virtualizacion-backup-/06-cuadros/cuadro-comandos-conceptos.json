@@ -1,0 +1,86 @@
+{
+  "id": "cuadro-comandos-conceptos",
+  "tema_id": "tema-25-administracion-de-bd-almacenamiento-y-virtualizacion-backup-",
+  "tipo_dato": "comandos",
+  "titulo": "Comandos y conceptos clave de BD, almacenamiento y virtualizacion",
+  "semilla": false,
+  "n_filas": 5,
+  "n_fuentes_distintas": 1,
+  "columnas": [
+    "concepto",
+    "sistema",
+    "detalle"
+  ],
+  "columna_clave": "concepto",
+  "columna_respuesta": "detalle",
+  "columna_contexto": "sistema",
+  "columna_fuente": "fuente",
+  "filas": [
+    {
+      "id": "c-cmd-1",
+      "fuente": "examenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "Instantanea (snapshot) SQL Server",
+        "sistema": "SQL Server",
+        "detalle": "Vista estatica de solo lectura en un momento dado (copy-on-write), util para reporting y reversion"
+      },
+      "pasaje_origen": "Instantaneas de Base de Datos",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-cmd-2",
+      "fuente": "examenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "Listar scripts RMAN",
+        "sistema": "Oracle RMAN",
+        "detalle": "LIST SCRIPT NAMES (scripts globales y locales)"
+      },
+      "pasaje_origen": "Oracle RMAN",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-cmd-3",
+      "fuente": "examenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "Listar bases de datos",
+        "sistema": "PostgreSQL psql",
+        "detalle": "\\l o \\list"
+      },
+      "pasaje_origen": "PostgreSQL psql",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-cmd-4",
+      "fuente": "examenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "Thin Provisioning",
+        "sistema": "Almacenamiento",
+        "detalle": "Asignacion virtual sobreasignada; bloques fisicos se reservan al escribir"
+      },
+      "pasaje_origen": "Thin Provisioning",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-cmd-5",
+      "fuente": "examenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "VDI",
+        "sistema": "Virtualizacion de escritorio",
+        "detalle": "Escritorios centralizados en datacenter con acceso remoto (thin clients)"
+      },
+      "pasaje_origen": "Virtualizacion de escritorio",
+      "ubicacion": {},
+      "verificado": false
+    }
+  ],
+  "verificado": false
+}

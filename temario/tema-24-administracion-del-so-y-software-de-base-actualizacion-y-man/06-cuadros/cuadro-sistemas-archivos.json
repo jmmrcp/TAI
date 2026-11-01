@@ -1,0 +1,120 @@
+{
+  "id": "cuadro-sistemas-archivos",
+  "tema_id": "tema-24-administracion-del-so-y-software-de-base-actualizacion-y-man",
+  "tipo_dato": "comparativa",
+  "titulo": "Sistemas de archivos: compatibilidad Windows / macOS / Linux",
+  "semilla": false,
+  "n_filas": 7,
+  "n_fuentes_distintas": 1,
+  "columnas": [
+    "formato",
+    "windows",
+    "macos",
+    "linux"
+  ],
+  "columna_clave": "formato",
+  "columna_respuesta": "windows",
+  "columna_contexto": "macos",
+  "columna_fuente": "fuente",
+  "filas": [
+    {
+      "id": "c-fs-1",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "formato": "FAT32",
+        "windows": "Sí (lectura/escritura)",
+        "macos": "Sí (lectura/escritura)",
+        "linux": "Sí"
+      },
+      "pasaje_origen": "¿Qué formato de disco se puede usar de manera nativa tanto en sistemas operativos Windows, en volúmenes de más de 32 GB, como en macOS Tahoe?",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-fs-2",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "formato": "exFAT",
+        "windows": "Sí (lectura/escritura, sin límite práctico de tamaño)",
+        "macos": "Sí (lectura/escritura, nativo)",
+        "linux": "Sí (soporte nativo en kernels recientes)"
+      },
+      "pasaje_origen": "¿Qué formato de disco se puede usar de manera nativa tanto en sistemas operativos Windows, en volúmenes de más de 32 GB, como en macOS Tahoe?",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-fs-3",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "formato": "NTFS",
+        "windows": "Sí (nativo)",
+        "macos": "Solo lectura (nativo; escritura requiere software de terceros)",
+        "linux": "Lectura/escritura con ntfs-3g"
+      },
+      "pasaje_origen": "Windows / macOS",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-fs-4",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "formato": "APFS",
+        "windows": "No (nativo)",
+        "macos": "Sí (nativo, por defecto en macOS)",
+        "linux": "No (nativo)"
+      },
+      "pasaje_origen": "macOS Tahoe",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-fs-5",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "formato": "ext4",
+        "windows": "No (nativo)",
+        "macos": "No (nativo)",
+        "linux": "Sí (nativo)"
+      },
+      "pasaje_origen": "Linux",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-fs-6",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "formato": "HFS+ (Mac OS Extended)",
+        "windows": "No (nativo)",
+        "macos": "Sí (nativo, legacy)",
+        "linux": "Lectura (limitada)"
+      },
+      "pasaje_origen": "macOS",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-fs-7",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "formato": "FAT32 límite",
+        "windows": "Archivos <= 4 GB; volúmenes <= 32 GB (formato nativo en Windows)",
+        "macos": "Compatible",
+        "linux": "Compatible"
+      },
+      "pasaje_origen": "¿Qué formato de disco se puede usar de manera nativa tanto en sistemas operativos Windows, en volúmenes de más de 32 GB, como en macOS Tahoe?",
+      "ubicacion": {},
+      "verificado": false
+    }
+  ],
+  "verificado": false
+}

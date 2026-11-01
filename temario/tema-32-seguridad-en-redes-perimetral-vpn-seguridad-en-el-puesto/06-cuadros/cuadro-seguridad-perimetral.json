@@ -1,0 +1,106 @@
+{
+  "id": "cuadro-seguridad-perimetral",
+  "tema_id": "tema-32-seguridad-en-redes-perimetral-vpn-seguridad-en-el-puesto",
+  "tipo_dato": "conceptos",
+  "titulo": "Seguridad perimetral: componentes y configuraciones",
+  "semilla": false,
+  "n_filas": 6,
+  "n_fuentes_distintas": 1,
+  "columnas": [
+    "componente",
+    "funcion",
+    "capa_ubicacion",
+    "observaciones"
+  ],
+  "columna_clave": "componente",
+  "columna_respuesta": "funcion",
+  "columna_contexto": "capa_ubicacion",
+  "columna_fuente": "fuente",
+  "filas": [
+    {
+      "id": "c-perim-1",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "componente": "DMZ (zona desmilitarizada)",
+        "funcion": "Aislar servidores que ofrecen servicios al exterior de la red interna",
+        "capa_ubicacion": "Perímetro",
+        "observaciones": "Una intrusión en la DMZ no compromete directamente la red interna"
+      },
+      "pasaje_origen": "DMZ",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-perim-2",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "componente": "Cortafuegos (firewall)",
+        "funcion": "Filtrar tráfico según reglas entre zonas de seguridad",
+        "capa_ubicacion": "Perímetro / interno",
+        "observaciones": "Puede ser de paquetes, estado o aplicación"
+      },
+      "pasaje_origen": "Cortafuegos",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-perim-3",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "componente": "Honeypot",
+        "funcion": "Señuelo atractivo para atacantes para estudiar sus técnicas",
+        "capa_ubicacion": "Perímetro / red interna",
+        "observaciones": "Permite aprender ataques y mejorar defensas"
+      },
+      "pasaje_origen": "Honeypot",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-perim-4",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "componente": "Portal cautivo",
+        "funcion": "Página de autenticación/aceptación antes de dar acceso a la red",
+        "capa_ubicacion": "Acceso (Wi-Fi / invitados)",
+        "observaciones": "Común en redes públicas y de invitados"
+      },
+      "pasaje_origen": "Portal cautivo",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-perim-5",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "componente": "EMMA (CCN-CERT)",
+        "funcion": "Herramienta de visibilidad y control sobre la red (NAC)",
+        "capa_ubicacion": "Red corporativa",
+        "observaciones": "Network Access Control del CCN-CERT"
+      },
+      "pasaje_origen": "EMMA",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-perim-6",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "componente": "MACsec (IEEE 802.1AE)",
+        "funcion": "Seguridad en capa de enlace (Ethernet): cifrado e integridad",
+        "capa_ubicacion": "Capa 2",
+        "observaciones": "MAC Security para redes LAN tipo Ethernet"
+      },
+      "pasaje_origen": "MACsec",
+      "ubicacion": {},
+      "verificado": false
+    }
+  ],
+  "verificado": false
+}

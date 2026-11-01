@@ -1,0 +1,86 @@
+{
+  "id": "cuadro-cable-ethernet-categorias",
+  "tema_id": "tema-33-redes-locales-tipologia-tecnicas-de-transmision-dispositivos",
+  "tipo_dato": "cableado",
+  "titulo": "Categorías de cable Ethernet (velocidad máxima)",
+  "semilla": false,
+  "n_filas": 5,
+  "n_fuentes_distintas": 1,
+  "columnas": [
+    "categoria",
+    "velocidad_maxima",
+    "uso_tipico"
+  ],
+  "columna_clave": "categoria",
+  "columna_respuesta": "velocidad_maxima",
+  "columna_contexto": "uso_tipico",
+  "columna_fuente": "fuente",
+  "filas": [
+    {
+      "id": "c-cable-1",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "categoria": "Cat 5e",
+        "velocidad_maxima": "1 Gbps",
+        "uso_tipico": "LANs básicas"
+      },
+      "pasaje_origen": "Cableado Ethernet",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-cable-2",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "categoria": "Cat 6",
+        "velocidad_maxima": "1 Gbps (10 Gbps hasta 55 m)",
+        "uso_tipico": "LANs de oficina"
+      },
+      "pasaje_origen": "Cableado Ethernet",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-cable-3",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "categoria": "Cat 6A",
+        "velocidad_maxima": "10 Gbps (10.000 Mbps)",
+        "uso_tipico": "Redes de alto rendimiento"
+      },
+      "pasaje_origen": "Categoría 6A",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-cable-4",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "categoria": "Cat 7",
+        "velocidad_maxima": "10 Gbps",
+        "uso_tipico": "Entornos con blindaje (S/FTP)"
+      },
+      "pasaje_origen": "Cableado Ethernet",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-cable-5",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "categoria": "Cat 8",
+        "velocidad_maxima": "25/40 Gbps",
+        "uso_tipico": "Centros de datos (cortas distancias)"
+      },
+      "pasaje_origen": "Cableado Ethernet",
+      "ubicacion": {},
+      "verificado": false
+    }
+  ],
+  "verificado": false
+}

@@ -1,0 +1,99 @@
+{
+  "id": "cuadro-versiones-tls",
+  "tema_id": "tema-31-internet-arquitectura-protocolos-http-https-y-ssl-tls",
+  "tipo_dato": "versiones_tls",
+  "titulo": "Versiones de SSL/TLS y estado",
+  "semilla": false,
+  "n_filas": 6,
+  "n_fuentes_distintas": 1,
+  "columnas": [
+    "version",
+    "estado",
+    "notas"
+  ],
+  "columna_clave": "version",
+  "columna_respuesta": "estado",
+  "columna_contexto": "notas",
+  "columna_fuente": "fuente",
+  "filas": [
+    {
+      "id": "c-versiones-tls-1",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "version": "SSL 2.0",
+        "estado": "Obsoleto/inseguro",
+        "notas": "Primera versión comercial; múltiples vulnerabilidades"
+      },
+      "pasaje_origen": "Versiones de SSL/TLS y estado",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-versiones-tls-2",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "version": "SSL 3.0",
+        "estado": "Obsoleto",
+        "notas": "Base de TLS; vulnerable a POODLE"
+      },
+      "pasaje_origen": "Versiones de SSL/TLS y estado",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-versiones-tls-3",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "version": "TLS 1.0",
+        "estado": "Obsoleto (RFC 2246)",
+        "notas": "Basado en SSL 3.0; AEAD no obligatorio"
+      },
+      "pasaje_origen": "Versiones de SSL/TLS y estado",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-versiones-tls-4",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "version": "TLS 1.1",
+        "estado": "Obsoleto (RFC 4346)",
+        "notas": "Mejoras menores; CBC/IV"
+      },
+      "pasaje_origen": "Versiones de SSL/TLS y estado",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-versiones-tls-5",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "version": "TLS 1.2",
+        "estado": "Vigente",
+        "notas": "AEAD, SHA-256, cipher suites modernas (RFC 5246)"
+      },
+      "pasaje_origen": "Versiones de SSL/TLS y estado",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-versiones-tls-6",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "version": "TLS 1.3",
+        "estado": "Última versión estable (RFC 8446)",
+        "notas": "Handshake 1-RTT/0-RTT, PFS obligatorio, elimina RSA key transport y cifrados legacy"
+      },
+      "pasaje_origen": "Versiones de SSL/TLS y estado",
+      "ubicacion": {},
+      "verificado": false
+    }
+  ],
+  "verificado": false
+}

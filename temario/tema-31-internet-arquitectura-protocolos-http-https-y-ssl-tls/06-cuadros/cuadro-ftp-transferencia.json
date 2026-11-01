@@ -1,0 +1,86 @@
+{
+  "id": "cuadro-ftp-transferencia",
+  "tema_id": "tema-31-internet-arquitectura-protocolos-http-https-y-ssl-tls",
+  "tipo_dato": "ftp",
+  "titulo": "FTP: tipos de transferencia y modos",
+  "semilla": false,
+  "n_filas": 5,
+  "n_fuentes_distintas": 1,
+  "columnas": [
+    "tipo",
+    "uso_recomendado",
+    "observacion"
+  ],
+  "columna_clave": "tipo",
+  "columna_respuesta": "uso_recomendado",
+  "columna_contexto": "observacion",
+  "columna_fuente": "fuente",
+  "filas": [
+    {
+      "id": "c-ftp-transferencia-1",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "tipo": "ASCII",
+        "uso_recomendado": "Archivos de texto plano",
+        "observacion": "Convierte fin de línea (CRLF/LF)"
+      },
+      "pasaje_origen": "FTP: tipos de transferencia y modos",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-ftp-transferencia-2",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "tipo": "Binario (Image)",
+        "uso_recomendado": "Imágenes, ejecutables, comprimidos",
+        "observacion": "Transferencia sin transformación"
+      },
+      "pasaje_origen": "FTP: tipos de transferencia y modos",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-ftp-transferencia-3",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "tipo": "EBCDIC",
+        "uso_recomendado": "Mainframes IBM",
+        "observacion": "Raro en la práctica"
+      },
+      "pasaje_origen": "FTP: tipos de transferencia y modos",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-ftp-transferencia-4",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "tipo": "Modo activo",
+        "uso_recomendado": "Servidor inicia conexión de datos",
+        "observacion": "Problemas con NAT/firewall"
+      },
+      "pasaje_origen": "FTP: tipos de transferencia y modos",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-ftp-transferencia-5",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "tipo": "Modo pasivo",
+        "uso_recomendado": "Cliente inicia conexión de datos",
+        "observacion": "Recomendado tras NAT"
+      },
+      "pasaje_origen": "FTP: tipos de transferencia y modos",
+      "ubicacion": {},
+      "verificado": false
+    }
+  ],
+  "verificado": false
+}

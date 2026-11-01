@@ -1,0 +1,125 @@
+{
+  "id": "cuadro-seguridad-desarrollo",
+  "tema_id": "tema-22-accesibilidad-diseno-universal-y-usabilidad-seguridad-en-el-",
+  "tipo_dato": "seguridad",
+  "titulo": "Seguridad en el desarrollo de software: análisis y prácticas anti-inyección",
+  "semilla": false,
+  "n_filas": 8,
+  "n_fuentes_distintas": 1,
+  "columnas": [
+    "practica",
+    "tipo",
+    "descripcion"
+  ],
+  "columna_clave": "practica",
+  "columna_respuesta": "descripcion",
+  "columna_contexto": "tipo",
+  "columna_fuente": "fuente",
+  "filas": [
+    {
+      "id": "c-seguridad-desarrollo-1",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "practica": "SAST",
+        "tipo": "Análisis estático",
+        "descripcion": "Analiza el código fuente sin ejecutarlo para detectar vulnerabilidades"
+      },
+      "pasaje_origen": "Seguridad en el desarrollo — SAST",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-seguridad-desarrollo-2",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "practica": "DAST",
+        "tipo": "Análisis dinámico",
+        "descripcion": "Prueba la aplicación en ejecución simulando ataques externos"
+      },
+      "pasaje_origen": "Seguridad en el desarrollo — DAST",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-seguridad-desarrollo-3",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "practica": "SCA",
+        "tipo": "Análisis de composición",
+        "descripcion": "Detecta vulnerabilidades en dependencias y librerías de terceros"
+      },
+      "pasaje_origen": "Seguridad en el desarrollo — SCA",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-seguridad-desarrollo-4",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "practica": "IAST",
+        "tipo": "Análisis interactivo",
+        "descripcion": "Combina análisis estático y dinámico con instrumentación en tiempo de ejecución"
+      },
+      "pasaje_origen": "Seguridad en el desarrollo — IAST",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-seguridad-desarrollo-5",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "practica": "Revisión de código",
+        "tipo": "Manual/automática",
+        "descripcion": "Inspección del código para detectar fallos de seguridad y malas prácticas"
+      },
+      "pasaje_origen": "Seguridad en el desarrollo — revisión",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-seguridad-desarrollo-6",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "practica": "Validación y saneamiento de entradas",
+        "tipo": "Práctica de desarrollo",
+        "descripcion": "Valida y limpia datos de usuario para prevenir inyecciones (SQLi, XSS)"
+      },
+      "pasaje_origen": "Seguridad en el desarrollo — anti-inyección",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-seguridad-desarrollo-7",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "practica": "Consultas parametrizadas",
+        "tipo": "Práctica de desarrollo",
+        "descripcion": "Uso de prepared statements para evitar la inyección SQL"
+      },
+      "pasaje_origen": "Seguridad en el desarrollo — anti-inyección",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-seguridad-desarrollo-8",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "practica": "Codificación de salida (escaping)",
+        "tipo": "Práctica de desarrollo",
+        "descripcion": "Escapa datos al renderizar para prevenir XSS"
+      },
+      "pasaje_origen": "Seguridad en el desarrollo — anti-inyección",
+      "ubicacion": {},
+      "verificado": false
+    }
+  ],
+  "verificado": false
+}

@@ -1,0 +1,128 @@
+{
+  "id": "cuadro-herramientas-pruebas",
+  "tema_id": "tema-23-repositorios-control-de-versiones-metodologias-pruebas-de-so",
+  "tipo_dato": "herramientas",
+  "titulo": "Herramientas de pruebas y calidad de código",
+  "semilla": false,
+  "n_filas": 9,
+  "n_fuentes_distintas": 1,
+  "columnas": [
+    "herramienta",
+    "uso"
+  ],
+  "columna_clave": "herramienta",
+  "columna_respuesta": "uso",
+  "columna_contexto": "herramienta",
+  "columna_fuente": "fuente",
+  "filas": [
+    {
+      "id": "c-herramientas-pruebas-1",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "herramienta": "JMeter",
+        "uso": "Pruebas de carga y estrés con simulación de concurrencia."
+      },
+      "pasaje_origen": "JMeter",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-herramientas-pruebas-2",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "herramienta": "Selenium",
+        "uso": "Automatización de pruebas de aplicaciones web."
+      },
+      "pasaje_origen": "Selenium",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-herramientas-pruebas-3",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "herramienta": "Jest",
+        "uso": "Pruebas unitarias en JavaScript."
+      },
+      "pasaje_origen": "Jest",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-herramientas-pruebas-4",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "herramienta": "JUnit",
+        "uso": "Pruebas unitarias en Java."
+      },
+      "pasaje_origen": "JUnit",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-herramientas-pruebas-5",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "herramienta": "Cucumber",
+        "uso": "Pruebas BDD (Behavior Driven Development)."
+      },
+      "pasaje_origen": "Cucumber",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-herramientas-pruebas-6",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "herramienta": "TestLink",
+        "uso": "Gestión de casos de prueba."
+      },
+      "pasaje_origen": "TestLink",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-herramientas-pruebas-7",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "herramienta": "Avocado",
+        "uso": "Framework de pruebas."
+      },
+      "pasaje_origen": "Avocado",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-herramientas-pruebas-8",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "herramienta": "SonarQube",
+        "uso": "Calidad de código: análisis estático, métricas, duplicación, Quality Gates."
+      },
+      "pasaje_origen": "SonarQube",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-herramientas-pruebas-9",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "herramienta": "OneTrust",
+        "uso": "No es un producto orientado a pruebas de software."
+      },
+      "pasaje_origen": "OneTrust",
+      "ubicacion": {},
+      "verificado": false
+    }
+  ],
+  "verificado": false
+}

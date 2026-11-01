@@ -1,0 +1,86 @@
+{
+  "id": "cuadro-rd1112-2018",
+  "tema_id": "tema-22-accesibilidad-diseno-universal-y-usabilidad-seguridad-en-el-",
+  "tipo_dato": "normativa",
+  "titulo": "Real Decreto 1112/2018: accesibilidad de sitios web y apps móviles del sector público",
+  "semilla": false,
+  "n_filas": 5,
+  "n_fuentes_distintas": 1,
+  "columnas": [
+    "aspecto",
+    "detalle",
+    "referencia"
+  ],
+  "columna_clave": "aspecto",
+  "columna_respuesta": "detalle",
+  "columna_contexto": "referencia",
+  "columna_fuente": "fuente",
+  "filas": [
+    {
+      "id": "c-rd1112-2018-1",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "aspecto": "Solicitudes de información accesible y quejas",
+        "detalle": "La entidad obligada debe responder a la persona interesada en el plazo de 20 días hábiles",
+        "referencia": "RD 1112/2018, art. 10"
+      },
+      "pasaje_origen": "RD 1112/2018 — solicitudes y quejas",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-rd1112-2018-2",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "aspecto": "Mecanismo de comunicación",
+        "detalle": "Las entidades obligadas deben ofrecer un mecanismo para presentar sugerencias y quejas",
+        "referencia": "RD 1112/2018"
+      },
+      "pasaje_origen": "RD 1112/2018 — mecanismo de comunicación",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-rd1112-2018-3",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "aspecto": "Primera revisión de accesibilidad (sitios web)",
+        "detalle": "Debe realizarse antes de 2 años desde la entrada en vigor del real decreto",
+        "referencia": "RD 1112/2018"
+      },
+      "pasaje_origen": "RD 1112/2018 — revisión accesibilidad",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-rd1112-2018-4",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "aspecto": "Contenido accesible (art. 3)",
+        "detalle": "Incluye información textual y no textual, documentos y formularios descargables, contenidos multimedia pregrabados, interacción bidireccional y procesos de identificación, autenticación, firma y pago",
+        "referencia": "RD 1112/2018, art. 3"
+      },
+      "pasaje_origen": "RD 1112/2018 — art. 3",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-rd1112-2018-5",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "aspecto": "Nivel de conformidad exigido",
+        "detalle": "Nivel AA de WCAG 2.1 a través de la norma UNE-EN 301 549",
+        "referencia": "RD 1112/2018 / UNE-EN 301 549"
+      },
+      "pasaje_origen": "RD 1112/2018 — conformidad",
+      "ubicacion": {},
+      "verificado": false
+    }
+  ],
+  "verificado": false
+}

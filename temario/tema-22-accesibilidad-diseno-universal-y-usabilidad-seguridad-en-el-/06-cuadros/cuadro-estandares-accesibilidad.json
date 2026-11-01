@@ -1,0 +1,112 @@
+{
+  "id": "cuadro-estandares-accesibilidad",
+  "tema_id": "tema-22-accesibilidad-diseno-universal-y-usabilidad-seguridad-en-el-",
+  "tipo_dato": "estandares",
+  "titulo": "Estándares y normativa de accesibilidad TIC",
+  "semilla": false,
+  "n_filas": 7,
+  "n_fuentes_distintas": 1,
+  "columnas": [
+    "estandar",
+    "ambito",
+    "descripcion"
+  ],
+  "columna_clave": "estandar",
+  "columna_respuesta": "descripcion",
+  "columna_contexto": "ambito",
+  "columna_fuente": "fuente",
+  "filas": [
+    {
+      "id": "c-estandares-accesibilidad-1",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "estandar": "WCAG 2.1",
+        "ambito": "Contenido web (W3C/WAI)",
+        "descripcion": "Pautas de accesibilidad para el contenido web; niveles de conformidad A, AA y AAA"
+      },
+      "pasaje_origen": "WCAG — W3C/WAI",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-estandares-accesibilidad-2",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "estandar": "ATAG 2.0",
+        "ambito": "Herramientas de autor",
+        "descripcion": "Pautas para que las herramientas de autor sean accesibles y generen contenidos accesibles"
+      },
+      "pasaje_origen": "ATAG — W3C/WAI",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-estandares-accesibilidad-3",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "estandar": "UAAG 2.0",
+        "ambito": "Agentes de usuario (navegadores)",
+        "descripcion": "Pautas para que los agentes de usuario sean accesibles"
+      },
+      "pasaje_origen": "UAAG — W3C/WAI",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-estandares-accesibilidad-4",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "estandar": "UNE-EN 301 549",
+        "ambito": "Productos y servicios TIC (AA.PP. españolas)",
+        "descripcion": "Requisitos de accesibilidad para TIC; estándar aplicable a las Administraciones Públicas españolas"
+      },
+      "pasaje_origen": "UNE-EN 301 549",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-estandares-accesibilidad-5",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "estandar": "Directiva (UE) 2016/2102",
+        "ambito": "Organismos del sector público",
+        "descripcion": "Accesibilidad de sitios web y aplicaciones para dispositivos móviles de organismos públicos"
+      },
+      "pasaje_origen": "Directiva 2016/2102",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-estandares-accesibilidad-6",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "estandar": "RD 1112/2018",
+        "ambito": "Sector público español",
+        "descripcion": "Transpone la Directiva 2016/2102; obligaciones de accesibilidad en España"
+      },
+      "pasaje_origen": "RD 1112/2018",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-estandares-7",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "estandar": "FACILITA",
+        "ambito": "Herramienta (AEPD)",
+        "descripcion": "Herramienta de la Agencia Española de Protección de Datos para el tratamiento de datos personales de escaso riesgo"
+      },
+      "pasaje_origen": "FACILITA — AEPD",
+      "ubicacion": {},
+      "verificado": false
+    }
+  ],
+  "verificado": false
+}

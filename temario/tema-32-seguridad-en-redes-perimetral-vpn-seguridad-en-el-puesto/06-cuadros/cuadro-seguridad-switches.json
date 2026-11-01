@@ -1,0 +1,92 @@
+{
+  "id": "cuadro-seguridad-switches",
+  "tema_id": "tema-32-seguridad-en-redes-perimetral-vpn-seguridad-en-el-puesto",
+  "tipo_dato": "conceptos",
+  "titulo": "Seguridad en switches: port security y MAC sticky",
+  "semilla": false,
+  "n_filas": 5,
+  "n_fuentes_distintas": 1,
+  "columnas": [
+    "concepto",
+    "descripcion",
+    "accion_al_violarse",
+    "uso_tipico"
+  ],
+  "columna_clave": "concepto",
+  "columna_respuesta": "descripcion",
+  "columna_contexto": "accion_al_violarse",
+  "columna_fuente": "fuente",
+  "filas": [
+    {
+      "id": "c-sw-1",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "Port security",
+        "descripcion": "Limita el número de MACs permitidas en un puerto de switch",
+        "accion_al_violarse": "Shutdown / restrict / protect",
+        "uso_tipico": "Evitar conexiones no autorizadas"
+      },
+      "pasaje_origen": "Port security",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-sw-2",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "MAC sticky",
+        "descripcion": "La dirección MAC aprendida dinámicamente se guarda en la configuración (running-config) como estática",
+        "accion_al_violarse": "Se mantiene tras reinicio si se guarda",
+        "uso_tipico": "Port security persistente"
+      },
+      "pasaje_origen": "MAC sticky",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-sw-3",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "MAC estática",
+        "descripcion": "MAC configurada manualmente en el puerto",
+        "accion_al_violarse": "Bloqueo de tráfico no autorizado",
+        "uso_tipico": "Alta seguridad en puertos críticos"
+      },
+      "pasaje_origen": "MAC estática",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-sw-4",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "DHCP snooping",
+        "descripcion": "Filtra mensajes DHCP no confiables para evitar servidores DHCP falsos",
+        "accion_al_violarse": "Descarte de paquetes no confiables",
+        "uso_tipico": "Prevenir ataques DHCP spoofing"
+      },
+      "pasaje_origen": "DHCP snooping",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-sw-5",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "Dynamic ARP Inspection",
+        "descripcion": "Valida paquetes ARP contra la tabla DHCP snooping",
+        "accion_al_violarse": "Descarte de ARP falsos",
+        "uso_tipico": "Prevenir ARP spoofing"
+      },
+      "pasaje_origen": "DAI",
+      "ubicacion": {},
+      "verificado": false
+    }
+  ],
+  "verificado": false
+}

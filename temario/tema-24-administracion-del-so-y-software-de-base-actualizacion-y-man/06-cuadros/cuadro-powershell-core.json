@@ -1,0 +1,104 @@
+{
+  "id": "cuadro-powershell-core",
+  "tema_id": "tema-24-administracion-del-so-y-software-de-base-actualizacion-y-man",
+  "tipo_dato": "conceptos",
+  "titulo": "PowerShell Core: características clave",
+  "semilla": false,
+  "n_filas": 7,
+  "n_fuentes_distintas": 1,
+  "columnas": [
+    "concepto",
+    "descripcion"
+  ],
+  "columna_clave": "concepto",
+  "columna_respuesta": "descripcion",
+  "columna_contexto": "concepto",
+  "columna_fuente": "fuente",
+  "filas": [
+    {
+      "id": "c-ps-1",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "Multiplataforma",
+        "descripcion": "PowerShell Core (PowerShell 6+) se ejecuta en Windows, Linux y macOS"
+      },
+      "pasaje_origen": "En relación al framework PowerShell Core de administración y configuración de sistemas Windows, indique la afirmación correcta:",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-ps-2",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "Base tecnológica",
+        "descripcion": "Construido sobre .NET Core (a partir de PowerShell 6) / .NET (PowerShell 7+)"
+      },
+      "pasaje_origen": "PowerShell Core",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-ps-3",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "Licencia",
+        "descripcion": "Open source bajo licencia MIT (repositorio PowerShell/PowerShell)"
+      },
+      "pasaje_origen": "PowerShell Core",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-ps-4",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "Cmdlets",
+        "descripcion": "Comandos con nombres verbo-sustantivo (Get-Service, Set-Location) que operan sobre objetos .NET en el pipeline"
+      },
+      "pasaje_origen": "PowerShell Core",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-ps-5",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "Pipeline",
+        "descripcion": "El pipeline transmite objetos (no texto), permitiendo filtrar/transformar con Where-Object, Select-Object, etc."
+      },
+      "pasaje_origen": "PowerShell Core",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-ps-6",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "Remoting",
+        "descripcion": "Administración remota mediante PSRemoting (WinRM en Windows, SSH en Linux/macOS)"
+      },
+      "pasaje_origen": "PowerShell Core",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-ps-7",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "Coexistencia",
+        "descripcion": "Windows PowerShell 5.1 (solo Windows, .NET Framework) coexiste con PowerShell Core; no son la misma edición"
+      },
+      "pasaje_origen": "PowerShell Core",
+      "ubicacion": {},
+      "verificado": false
+    }
+  ],
+  "verificado": false
+}

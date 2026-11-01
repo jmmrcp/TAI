@@ -1,0 +1,188 @@
+{
+  "id": "cuadro-conceptos-clave-redes",
+  "tema_id": "tema-33-redes-locales-tipologia-tecnicas-de-transmision-dispositivos",
+  "tipo_dato": "conceptos",
+  "titulo": "Conceptos clave de redes locales",
+  "semilla": false,
+  "n_filas": 14,
+  "n_fuentes_distintas": 1,
+  "columnas": [
+    "concepto",
+    "detalle"
+  ],
+  "columna_clave": "concepto",
+  "columna_respuesta": "detalle",
+  "columna_contexto": "detalle",
+  "columna_fuente": "fuente",
+  "filas": [
+    {
+      "id": "c-conc-1",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "IEEE 802.11",
+        "detalle": "Norma para redes inalámbricas (WLAN/Wi-Fi)"
+      },
+      "pasaje_origen": "IEEE 802.11",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-conc-2",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "Wi-Fi 6",
+        "detalle": "Se corresponde con IEEE 802.11ax"
+      },
+      "pasaje_origen": "Wi-Fi 6",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-conc-3",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "Seguridad Wi-Fi",
+        "detalle": "WEP es inferior a WPA2; WPA3 surge tras KRACK mejorando WPA2-PSK (AES)"
+      },
+      "pasaje_origen": "Seguridad inalámbrica",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-conc-4",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "Bandas Wi-Fi",
+        "detalle": "2,4 GHz mayor alcance e interferencias (Bluetooth); 5 GHz menor alcance"
+      },
+      "pasaje_origen": "Redes inalámbricas",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-conc-5",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "WPS",
+        "detalle": "Configuraciones: PIN, PBC, NFC, USB"
+      },
+      "pasaje_origen": "WPS",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-conc-6",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "Bluetooth: piconet",
+        "detalle": "Red de un dispositivo maestro y hasta 7 esclavos"
+      },
+      "pasaje_origen": "Bluetooth",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-conc-7",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "Bluetooth: scatternet",
+        "detalle": "Grupo de piconets interconectadas"
+      },
+      "pasaje_origen": "Scatternet",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-conc-8",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "BLE Extended Advertising",
+        "detalle": "Utiliza 40 canales (Bluetooth Core 5.0)"
+      },
+      "pasaje_origen": "Bluetooth LE",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-conc-9",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "Red SOHO",
+        "detalle": "Small Office, Home Office"
+      },
+      "pasaje_origen": "Red SOHO",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-conc-10",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "CSMA/CD",
+        "detalle": "Acceso múltiple con detección de portadora y detección de colisiones"
+      },
+      "pasaje_origen": "CSMA/CD",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-conc-11",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "STP",
+        "detalle": "Utiliza BPDUs (Bridge Protocol Data Units) para determinar la topología y evitar bucles"
+      },
+      "pasaje_origen": "STP",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-conc-12",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "RSTP",
+        "detalle": "IEEE 802.1w (Rapid Spanning Tree Protocol)"
+      },
+      "pasaje_origen": "RSTP",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-conc-13",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "VLAN 802.1Q",
+        "detalle": "Campo PCP (Priority Code Point) define 8 niveles de prioridad (CoS)"
+      },
+      "pasaje_origen": "IEEE 802.1Q",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-conc-14",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "Terminadores (bus)",
+        "detalle": "Absorben la energía de la señal al final de la transmisión y evitan reflexiones"
+      },
+      "pasaje_origen": "Topología de bus",
+      "ubicacion": {},
+      "verificado": false
+    }
+  ],
+  "verificado": false
+}

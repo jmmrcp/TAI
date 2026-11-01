@@ -1,0 +1,106 @@
+{
+  "id": "cuadro-mfa-mecanismos",
+  "tema_id": "tema-32-seguridad-en-redes-perimetral-vpn-seguridad-en-el-puesto",
+  "tipo_dato": "conceptos",
+  "titulo": "Autenticación Multi-Factor (MFA): factores y mecanismos (CCN-CERT)",
+  "semilla": false,
+  "n_filas": 6,
+  "n_fuentes_distintas": 1,
+  "columnas": [
+    "factor",
+    "descripcion",
+    "ejemplos",
+    "considerado_mfa"
+  ],
+  "columna_clave": "factor",
+  "columna_respuesta": "considerado_mfa",
+  "columna_contexto": "ejemplos",
+  "columna_fuente": "fuente",
+  "filas": [
+    {
+      "id": "c-mfa-1",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "factor": "Algo que sabes",
+        "descripcion": "Conocimiento memorizado por el usuario",
+        "ejemplos": "Contraseña, PIN, respuesta de seguridad",
+        "considerado_mfa": "Sí (como uno de los factores)"
+      },
+      "pasaje_origen": "MFA",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-mfa-2",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "factor": "Algo que tienes",
+        "descripcion": "Posesión de un dispositivo o token",
+        "ejemplos": "Token hardware, app OTP (TOTP), SMS, tarjeta inteligente",
+        "considerado_mfa": "Sí (como uno de los factores)"
+      },
+      "pasaje_origen": "MFA",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-mfa-3",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "factor": "Algo que eres",
+        "descripcion": "Característica biométrica del usuario",
+        "ejemplos": "Huella dactilar, reconocimiento facial, iris",
+        "considerado_mfa": "Sí (como uno de los factores)"
+      },
+      "pasaje_origen": "MFA",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-mfa-4",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "factor": "Doble contraseña",
+        "descripcion": "Dos credenciales del mismo tipo (conocimiento)",
+        "ejemplos": "Usuario/contraseña + otra contraseña",
+        "considerado_mfa": "No (mismo factor)"
+      },
+      "pasaje_origen": "MFA CCN-CERT",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-mfa-5",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "factor": "MFA verdadero",
+        "descripcion": "Combinación de al menos dos factores distintos",
+        "ejemplos": "Contraseña + token OTP",
+        "considerado_mfa": "Sí"
+      },
+      "pasaje_origen": "MFA",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-mfa-6",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "factor": "CCN-CERT",
+        "descripcion": "Recomienda MFA para accesos remotos y administración",
+        "ejemplos": "VPN, consolas de gestión",
+        "considerado_mfa": "Sí"
+      },
+      "pasaje_origen": "CCN-CERT",
+      "ubicacion": {},
+      "verificado": false
+    }
+  ],
+  "verificado": false
+}

@@ -1,0 +1,116 @@
+{
+  "id": "cuadro-comandos-linux",
+  "tema_id": "tema-24-administracion-del-so-y-software-de-base-actualizacion-y-man",
+  "tipo_dato": "comandos",
+  "titulo": "Comandos de administración en Linux / Debian",
+  "semilla": false,
+  "n_filas": 8,
+  "n_fuentes_distintas": 1,
+  "columnas": [
+    "comando",
+    "descripcion"
+  ],
+  "columna_clave": "comando",
+  "columna_respuesta": "descripcion",
+  "columna_contexto": "comando",
+  "columna_fuente": "fuente",
+  "filas": [
+    {
+      "id": "c-lin-1",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "comando": "uname -a / uname -r",
+        "descripcion": "Muestra información del kernel y del sistema (versión de Linux instalada)"
+      },
+      "pasaje_origen": "En Debian GNU/Linux, ¿cómo se puede obtener la versión de Linux instalada?",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-lin-2",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "comando": "lsb_release -a",
+        "descripcion": "Muestra información de la distribución (nombre, versión, codename) en sistemas Debian/Ubuntu"
+      },
+      "pasaje_origen": "En Debian GNU/Linux, ¿cómo se puede obtener la versión de Linux instalada?",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-lin-3",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "comando": "cat /etc/os-release",
+        "descripcion": "Muestra datos de identificación del sistema operativo (ID, VERSION, PRETTY_NAME)"
+      },
+      "pasaje_origen": "En Debian GNU/Linux, ¿cómo se puede obtener la versión de Linux instalada?",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-lin-4",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "comando": "mv PAGOS RECIBOS",
+        "descripcion": "Renombra el archivo PAGOS a RECIBOS (mv también mueve archivos entre directorios)"
+      },
+      "pasaje_origen": "En Linux si queremos renombrar el archivo denominado “PAGOS” con el nuevo nombre “RECIBOS”, ejecutaremos el comando:",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-lin-5",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "comando": "tail -f fichero.log",
+        "descripcion": "Muestra las últimas líneas de un fichero y sigue mostrando nuevas líneas a medida que crece (tiempo real)"
+      },
+      "pasaje_origen": "En Linux, para ver en tiempo real el contenido de un fichero de registro a medida que crece, se puede usar el comando:",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-lin-6",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "comando": "apt-get update",
+        "descripcion": "Descarga la información de los paquetes desde todas las fuentes configuradas en /etc/apt/sources.list (no instala ni actualiza paquetes)"
+      },
+      "pasaje_origen": "En sistemas Debian, ¿cuál de los siguientes comandos permitiría descargar la información de los paquetes desde todas las fuentes configuradas?",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-lin-7",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "comando": "apt-get upgrade",
+        "descripcion": "Actualiza (instala nuevas versiones de) los paquetes ya instalados sin eliminar ninguno"
+      },
+      "pasaje_origen": "Debian",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-lin-8",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "comando": "systemctl status/start/stop/restart",
+        "descripcion": "Gestiona servicios (unidades) del sistema mediante systemd"
+      },
+      "pasaje_origen": "Debian",
+      "ubicacion": {},
+      "verificado": false
+    }
+  ],
+  "verificado": false
+}

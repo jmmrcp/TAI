@@ -1,0 +1,140 @@
+{
+  "id": "cuadro-control-versiones",
+  "tema_id": "tema-23-repositorios-control-de-versiones-metodologias-pruebas-de-so",
+  "tipo_dato": "herramientas",
+  "titulo": "Herramientas y plataformas de control de versiones",
+  "semilla": false,
+  "n_filas": 10,
+  "n_fuentes_distintas": 1,
+  "columnas": [
+    "herramienta",
+    "clasificacion"
+  ],
+  "columna_clave": "herramienta",
+  "columna_respuesta": "clasificacion",
+  "columna_contexto": "herramienta",
+  "columna_fuente": "fuente",
+  "filas": [
+    {
+      "id": "c-control-versiones-1",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "herramienta": "Git",
+        "clasificacion": "Control de versiones distribuido."
+      },
+      "pasaje_origen": "Git",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-control-versiones-2",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "herramienta": "Subversion (SVN)",
+        "clasificacion": "Control de versiones centralizado."
+      },
+      "pasaje_origen": "Subversion",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-control-versiones-3",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "herramienta": "Mercurial",
+        "clasificacion": "Control de versiones distribuido."
+      },
+      "pasaje_origen": "Mercurial",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-control-versiones-4",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "herramienta": "CVS",
+        "clasificacion": "Control de versiones centralizado (legacy)."
+      },
+      "pasaje_origen": "CVS",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-control-versiones-5",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "herramienta": "GitLab",
+        "clasificacion": "Plataforma colaborativa de hosting Git."
+      },
+      "pasaje_origen": "GitLab",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-control-versiones-6",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "herramienta": "GitHub",
+        "clasificacion": "Plataforma colaborativa de hosting Git."
+      },
+      "pasaje_origen": "GitHub",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-control-versiones-7",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "herramienta": "Team Foundation Server",
+        "clasificacion": "Plataforma de control de versiones de Microsoft."
+      },
+      "pasaje_origen": "TFS",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-control-versiones-8",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "herramienta": "JMeter",
+        "clasificacion": "No es control de versiones: pruebas de carga/estrés."
+      },
+      "pasaje_origen": "JMeter",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-control-versiones-9",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "herramienta": "Selenium",
+        "clasificacion": "No es control de versiones: pruebas de aplicaciones web."
+      },
+      "pasaje_origen": "Selenium",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-control-versiones-10",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "herramienta": "Cucumber",
+        "clasificacion": "No es control de versiones: pruebas BDD."
+      },
+      "pasaje_origen": "Cucumber",
+      "ubicacion": {},
+      "verificado": false
+    }
+  ],
+  "verificado": false
+}

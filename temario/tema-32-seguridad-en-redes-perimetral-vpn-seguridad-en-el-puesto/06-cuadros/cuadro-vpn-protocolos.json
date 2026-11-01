@@ -1,0 +1,98 @@
+{
+  "id": "cuadro-vpn-protocolos",
+  "tema_id": "tema-32-seguridad-en-redes-perimetral-vpn-seguridad-en-el-puesto",
+  "tipo_dato": "comparativa",
+  "titulo": "Protocolos VPN: comparativa",
+  "semilla": false,
+  "n_filas": 5,
+  "n_fuentes_distintas": 1,
+  "columnas": [
+    "protocolo",
+    "capa_osi",
+    "cifrado",
+    "autenticacion",
+    "observaciones"
+  ],
+  "columna_clave": "protocolo",
+  "columna_respuesta": "capa_osi",
+  "columna_contexto": "cifrado",
+  "columna_fuente": "fuente",
+  "filas": [
+    {
+      "id": "c-vpn-1",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "protocolo": "IPSec",
+        "capa_osi": "Capa de red (Nivel 3)",
+        "cifrado": "Sí (ESP)",
+        "autenticacion": "IKE / certificados / PSK",
+        "observaciones": "Estándar para VPN de sitio a sitio y acceso remoto; opera en modo túnel o transporte"
+      },
+      "pasaje_origen": "IPSec",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-vpn-2",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "protocolo": "PPTP",
+        "capa_osi": "Capa de enlace (Nivel 2)",
+        "cifrado": "MPPE (débil)",
+        "autenticacion": "MS-CHAP",
+        "observaciones": "Obsoleto; considerado inseguro; no recomendado"
+      },
+      "pasaje_origen": "PPTP",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-vpn-3",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "protocolo": "L2TP",
+        "capa_osi": "Capa de enlace (Nivel 2)",
+        "cifrado": "No (requiere IPSec)",
+        "autenticacion": "PPP / certificados",
+        "observaciones": "Se combina con IPSec (L2TP/IPSec) para aportar cifrado"
+      },
+      "pasaje_origen": "L2TP",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-vpn-4",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "protocolo": "OpenVPN",
+        "capa_osi": "Capa de transporte/aplicación (TLS)",
+        "cifrado": "Sí (TLS/OpenSSL)",
+        "autenticacion": "Certificados / usuario-contraseña",
+        "observaciones": "Flexible; usa UDP o TCP; muy extendido en acceso remoto"
+      },
+      "pasaje_origen": "OpenVPN",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-vpn-5",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "protocolo": "WireGuard",
+        "capa_osi": "Capa de red (Nivel 3)",
+        "cifrado": "Sí (Noise protocol)",
+        "autenticacion": "Claves públicas (Curve25519)",
+        "observaciones": "Implementado como interfaz de red virtual en el kernel de Linux; alto rendimiento y bajo consumo"
+      },
+      "pasaje_origen": "WireGuard",
+      "ubicacion": {},
+      "verificado": false
+    }
+  ],
+  "verificado": false
+}

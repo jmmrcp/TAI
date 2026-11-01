@@ -1,0 +1,158 @@
+{
+  "id": "cuadro-medios-transmision",
+  "tema_id": "tema-29-comunicaciones-medios-de-transmision-redes-de-conmutacion-y-",
+  "tipo_dato": "clasificacion",
+  "titulo": "Medios de transmisión: guiados y no guiados",
+  "semilla": false,
+  "n_filas": 9,
+  "n_fuentes_distintas": 1,
+  "columnas": [
+    "medio",
+    "categoria",
+    "velocidad_tipica",
+    "distancia_tipica",
+    "uso_habitual"
+  ],
+  "columna_clave": "medio",
+  "columna_respuesta": "categoria",
+  "columna_contexto": "velocidad_tipica",
+  "columna_fuente": "fuente",
+  "filas": [
+    {
+      "id": "c-medios-1",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "medio": "Par trenzado (UTP/STP)",
+        "categoria": "Guiado",
+        "velocidad_tipica": "Hasta 10 Gbps (Cat 6a/7)",
+        "distancia_tipica": "100 m",
+        "uso_habitual": "LAN Ethernet, telefonía"
+      },
+      "pasaje_origen": "Medios de transmisión guiados",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-medios-2",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "medio": "Cable coaxial",
+        "categoria": "Guiado",
+        "velocidad_tipica": "Hasta 10 Gbps (DOCSIS)",
+        "distancia_tipica": "Km",
+        "uso_habitual": "TV por cable, banda ancha"
+      },
+      "pasaje_origen": "Medios de transmisión guiados",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-medios-3",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "medio": "Fibra óptica monomodo (SMF)",
+        "categoria": "Guiado",
+        "velocidad_tipica": "> 10 Gbps",
+        "distancia_tipica": "Decenas de km",
+        "uso_habitual": "Backbone, larga distancia"
+      },
+      "pasaje_origen": "Fibra óptica monomodo",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-medios-4",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "medio": "Fibra óptica multimodo (MMF)",
+        "categoria": "Guiado",
+        "velocidad_tipica": "1-100 Gbps",
+        "distancia_tipica": "550 m - 2 km",
+        "uso_habitual": "LAN de campus, centros de datos"
+      },
+      "pasaje_origen": "Fibra óptica multimodo",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-medios-5",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "medio": "Fibra óptica plástica (POF)",
+        "categoria": "Guiado",
+        "velocidad_tipica": "Hasta 1 Gbps",
+        "distancia_tipica": "50-100 m",
+        "uso_habitual": "Automoción, domótica, redes domésticas"
+      },
+      "pasaje_origen": "Fibra óptica plástica (POF)",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-medios-6",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "medio": "Radio (WiFi/Bluetooth)",
+        "categoria": "No guiado",
+        "velocidad_tipica": "Mbps-Gbps",
+        "distancia_tipica": "Decenas de metros",
+        "uso_habitual": "LAN inalámbrica, periféricos"
+      },
+      "pasaje_origen": "Medios no guiados por radio",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-medios-7",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "medio": "Microondas",
+        "categoria": "No guiado",
+        "velocidad_tipica": "Gbps",
+        "distancia_tipica": "Km (línea de vista)",
+        "uso_habitual": "Enlaces punto a punto"
+      },
+      "pasaje_origen": "Enlaces por microondas",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-medios-8",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "medio": "Satélite",
+        "categoria": "No guiado",
+        "velocidad_tipica": "Mbps-Gbps",
+        "distancia_tipica": "Global (GEO/LEO)",
+        "uso_habitual": "Broadcast, zonas remotas"
+      },
+      "pasaje_origen": "Comunicaciones por satélite",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-medios-9",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "medio": "Infrarrojo",
+        "categoria": "No guiado",
+        "velocidad_tipica": "Mbps",
+        "distancia_tipica": "Corta distancia",
+        "uso_habitual": "IrDA, mandos a distancia"
+      },
+      "pasaje_origen": "Comunicaciones por infrarrojo",
+      "ubicacion": {},
+      "verificado": false
+    }
+  ],
+  "verificado": false
+}

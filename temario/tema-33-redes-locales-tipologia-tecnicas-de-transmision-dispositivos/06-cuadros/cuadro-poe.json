@@ -1,0 +1,78 @@
+{
+  "id": "cuadro-poe",
+  "tema_id": "tema-33-redes-locales-tipologia-tecnicas-de-transmision-dispositivos",
+  "tipo_dato": "poe",
+  "titulo": "Power over Ethernet (PoE): estándares",
+  "semilla": false,
+  "n_filas": 4,
+  "n_fuentes_distintas": 1,
+  "columnas": [
+    "estandar",
+    "nombre",
+    "potencia_pd_w",
+    "notas"
+  ],
+  "columna_clave": "estandar",
+  "columna_respuesta": "nombre",
+  "columna_contexto": "potencia_pd_w",
+  "columna_fuente": "fuente",
+  "filas": [
+    {
+      "id": "c-poe-1",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "estandar": "IEEE 802.3af",
+        "nombre": "PoE (Tipo 1)",
+        "potencia_pd_w": "12,95 W",
+        "notas": "Primer estándar PoE activo"
+      },
+      "pasaje_origen": "PoE",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-poe-2",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "estandar": "IEEE 802.3at",
+        "nombre": "PoE+ (Tipo 2)",
+        "potencia_pd_w": "25,50 W",
+        "notas": "No es el último estándar activo"
+      },
+      "pasaje_origen": "PoE",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-poe-3",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "estandar": "IEEE 802.3bt",
+        "nombre": "PoE++ (Tipo 3 / Tipo 4)",
+        "potencia_pd_w": "51 W / 71 W",
+        "notas": "Se subdivide en Tipo 3 y Tipo 4"
+      },
+      "pasaje_origen": "PoE++",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-poe-4",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "estandar": "PoE pasivo",
+        "nombre": "PoE pasivo",
+        "potencia_pd_w": "Variable",
+        "notas": "No se adhiere a ningún estándar IEEE; alimentación constante"
+      },
+      "pasaje_origen": "PoE pasivo",
+      "ubicacion": {},
+      "verificado": false
+    }
+  ],
+  "verificado": false
+}

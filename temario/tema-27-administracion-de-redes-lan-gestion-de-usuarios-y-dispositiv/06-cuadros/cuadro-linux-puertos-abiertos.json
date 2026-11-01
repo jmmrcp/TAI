@@ -1,0 +1,86 @@
+{
+  "id": "cuadro-linux-puertos-abiertos",
+  "tema_id": "tema-27-administracion-de-redes-lan-gestion-de-usuarios-y-dispositiv",
+  "tipo_dato": "listado",
+  "titulo": "Linux: comandos para conocer puertos abiertos",
+  "semilla": false,
+  "n_filas": 5,
+  "n_fuentes_distintas": 1,
+  "columnas": [
+    "comando",
+    "descripcion",
+    "ejemplo"
+  ],
+  "columna_clave": "comando",
+  "columna_respuesta": "descripcion",
+  "columna_contexto": "ejemplo",
+  "columna_fuente": "fuente",
+  "filas": [
+    {
+      "id": "cuadro-linux-puertos-abiertos-1",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "comando": "ss -tuln",
+        "descripcion": "Muestra sockets en escucha (TCP/UDP) con puertos numéricos (iproute2)",
+        "ejemplo": "ss -tuln | grep LISTEN"
+      },
+      "pasaje_origen": "Puertos Linux",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "cuadro-linux-puertos-abiertos-2",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "comando": "netstat -tuln",
+        "descripcion": "Muestra conexiones y puertos en escucha (net-tools, legado)",
+        "ejemplo": "netstat -tuln"
+      },
+      "pasaje_origen": "Puertos Linux",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "cuadro-linux-puertos-abiertos-3",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "comando": "lsof -i -P -n",
+        "descripcion": "Lista procesos con archivos de red abiertos y sus puertos",
+        "ejemplo": "lsof -i :80"
+      },
+      "pasaje_origen": "Puertos Linux",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "cuadro-linux-puertos-abiertos-4",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "comando": "nmap -sT localhost",
+        "descripcion": "Escaneo de puertos TCP del propio host",
+        "ejemplo": "nmap -sT 127.0.0.1"
+      },
+      "pasaje_origen": "Puertos Linux",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "cuadro-linux-puertos-abiertos-5",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "comando": "fuser -n tcp 80",
+        "descripcion": "Identifica el proceso que usa un puerto TCP concreto",
+        "ejemplo": "fuser -n tcp 443"
+      },
+      "pasaje_origen": "Puertos Linux",
+      "ubicacion": {},
+      "verificado": false
+    }
+  ],
+  "verificado": false
+}

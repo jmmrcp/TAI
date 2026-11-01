@@ -1,0 +1,116 @@
+{
+  "id": "cuadro-pruebas-tipos",
+  "tema_id": "tema-23-repositorios-control-de-versiones-metodologias-pruebas-de-so",
+  "tipo_dato": "pruebas",
+  "titulo": "Tipos de pruebas de software",
+  "semilla": false,
+  "n_filas": 8,
+  "n_fuentes_distintas": 1,
+  "columnas": [
+    "tipo_prueba",
+    "objetivo"
+  ],
+  "columna_clave": "tipo_prueba",
+  "columna_respuesta": "objetivo",
+  "columna_contexto": "tipo_prueba",
+  "columna_fuente": "fuente",
+  "filas": [
+    {
+      "id": "c-pruebas-tipos-1",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "tipo_prueba": "Pruebas unitarias",
+        "objetivo": "Verifican componentes individuales de forma aislada."
+      },
+      "pasaje_origen": "unitarias",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-pruebas-tipos-2",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "tipo_prueba": "Pruebas de integración",
+        "objetivo": "Verifican que los componentes/subsistemas interactúan correctamente a través de sus interfaces."
+      },
+      "pasaje_origen": "integración",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-pruebas-tipos-3",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "tipo_prueba": "Pruebas del sistema",
+        "objetivo": "Verifican el sistema completo frente a los requisitos especificados."
+      },
+      "pasaje_origen": "sistema",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-pruebas-tipos-4",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "tipo_prueba": "Pruebas de aceptación",
+        "objetivo": "Validan la aceptación final por parte del usuario/cliente."
+      },
+      "pasaje_origen": "aceptación",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-pruebas-tipos-5",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "tipo_prueba": "Pruebas de regresión",
+        "objetivo": "Garantizan que los cambios no introducen errores en componentes no modificados."
+      },
+      "pasaje_origen": "regresión",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-pruebas-tipos-6",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "tipo_prueba": "Pruebas de rendimiento",
+        "objetivo": "Verifican que los tiempos de respuesta están dentro de los intervalos establecidos."
+      },
+      "pasaje_origen": "rendimiento",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-pruebas-tipos-7",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "tipo_prueba": "Pruebas de carga/estrés",
+        "objetivo": "Simulan escenarios de concurrencia de usuarios."
+      },
+      "pasaje_origen": "carga/estrés",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-pruebas-tipos-8",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "tipo_prueba": "Pruebas de caja negra/blanca",
+        "objetivo": "Caja negra: entradas/salidas; caja blanca: estructura interna."
+      },
+      "pasaje_origen": "caja",
+      "ubicacion": {},
+      "verificado": false
+    }
+  ],
+  "verificado": false
+}

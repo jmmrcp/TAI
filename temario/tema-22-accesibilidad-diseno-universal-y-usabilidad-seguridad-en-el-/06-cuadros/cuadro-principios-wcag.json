@@ -1,0 +1,73 @@
+{
+  "id": "cuadro-principios-wcag",
+  "tema_id": "tema-22-accesibilidad-diseno-universal-y-usabilidad-seguridad-en-el-",
+  "tipo_dato": "principios",
+  "titulo": "Principios de accesibilidad web (WCAG 2.1) — acrónimo POUR",
+  "semilla": false,
+  "n_filas": 4,
+  "n_fuentes_distintas": 1,
+  "columnas": [
+    "principio",
+    "sigla",
+    "descripcion"
+  ],
+  "columna_clave": "principio",
+  "columna_respuesta": "descripcion",
+  "columna_contexto": "sigla",
+  "columna_fuente": "fuente",
+  "filas": [
+    {
+      "id": "c-principios-wcag-1",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "principio": "Perceptible",
+        "sigla": "P",
+        "descripcion": "La información y los componentes de la interfaz de usuario deben presentarse de formas que los usuarios puedan percibir (alternativas textuales, multimedia, adaptable, distinguible)."
+      },
+      "pasaje_origen": "WCAG 2.1 — Principio 1",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-principios-wcag-2",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "principio": "Operable",
+        "sigla": "O",
+        "descripcion": "Los componentes de la interfaz y la navegación deben ser manejables por cualquier usuario (teclado, tiempo suficiente, sin convulsiones, navegable)."
+      },
+      "pasaje_origen": "WCAG 2.1 — Principio 2",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-principios-wcag-3",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "principio": "Comprensible",
+        "sigla": "U",
+        "descripcion": "La información y el manejo de la interfaz deben ser entendibles (legible, predecible, asistencia en la entrada de datos)."
+      },
+      "pasaje_origen": "WCAG 2.1 — Principio 3",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-principios-wcag-4",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "principio": "Robusto",
+        "sigla": "R",
+        "descripcion": "El contenido debe ser suficientemente robusto para ser interpretado de forma fiable por una amplia variedad de agentes de usuario, incluidas las tecnologías de asistencia."
+      },
+      "pasaje_origen": "WCAG 2.1 — Principio 4",
+      "ubicacion": {},
+      "verificado": false
+    }
+  ],
+  "verificado": false
+}

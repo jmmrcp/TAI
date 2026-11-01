@@ -1,0 +1,68 @@
+{
+  "id": "cuadro-ccn-cert-recomendaciones",
+  "tema_id": "tema-28-seguridad-de-sistemas-criptografia-firma-digital-cpd-inciden",
+  "tipo_dato": "recomendaciones",
+  "titulo": "Recomendaciones CCN-CERT: key exchange, MFA y contraseñas",
+  "semilla": false,
+  "n_filas": 4,
+  "n_fuentes_distintas": 1,
+  "columnas": [
+    "aspecto",
+    "requisito_recomendado"
+  ],
+  "columna_clave": "aspecto",
+  "columna_respuesta": "requisito_recomendado",
+  "columna_contexto": "aspecto",
+  "columna_fuente": "fuente",
+  "filas": [
+    {
+      "id": "c-ccn-cert-recomendaciones-1",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "aspecto": "Key Exchange (intercambio de claves)",
+        "requisito_recomendado": "Solo se autorizan métodos que proporcionen fortaleza de seguridad de al menos 112 bits."
+      },
+      "pasaje_origen": "112 bits",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-ccn-cert-recomendaciones-2",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "aspecto": "Autenticación Multi-Factor (MFA)",
+        "requisito_recomendado": "Debe combinar factores de categorías distintas (algo que sabes, tienes o eres). Dos biométricos no constituyen MFA."
+      },
+      "pasaje_origen": "MFA",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-ccn-cert-recomendaciones-3",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "aspecto": "Contraseña robusta",
+        "requisito_recomendado": "Usar frases cortas sin sentido (passphrases); evitar datos personales, apuntarlas en papel o longitudes mínimas insuficientes."
+      },
+      "pasaje_origen": "contraseña robusta",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-ccn-cert-recomendaciones-4",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "aspecto": "Tipos de ataque (definiciones)",
+        "requisito_recomendado": "Sniffing = captura de tráfico; Spoofing = suplantación de origen; DDoS = denegación distribuida; Barrido de puertos = reconocimiento de servicios."
+      },
+      "pasaje_origen": "tipos ataque",
+      "ubicacion": {},
+      "verificado": false
+    }
+  ],
+  "verificado": false
+}

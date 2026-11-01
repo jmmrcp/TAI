@@ -1,0 +1,50 @@
+{
+  "id": "cuadro-snapshot-vs-backup",
+  "tema_id": "tema-25-administracion-de-bd-almacenamiento-y-virtualizacion-backup-",
+  "tipo_dato": "almacenamiento",
+  "titulo": "Snapshot vs copia de seguridad en almacenamiento virtualizado",
+  "semilla": false,
+  "n_filas": 2,
+  "n_fuentes_distintas": 1,
+  "columnas": [
+    "concepto",
+    "naturaleza",
+    "dependencia",
+    "uso"
+  ],
+  "columna_clave": "concepto",
+  "columna_respuesta": "naturaleza",
+  "columna_contexto": "dependencia",
+  "columna_fuente": "fuente",
+  "filas": [
+    {
+      "id": "c-snap-1",
+      "fuente": "examenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "Snapshot",
+        "naturaleza": "Imagen instantanea (punto en el tiempo) del volumen/BD",
+        "dependencia": "Depende del volumen original (copy-on-write)",
+        "uso": "Reversion rapida, reporting, pruebas"
+      },
+      "pasaje_origen": "Instantaneas de Base de Datos",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-snap-2",
+      "fuente": "examenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "Backup",
+        "naturaleza": "Copia independiente de los datos",
+        "dependencia": "Independiente del origen",
+        "uso": "Recuperacion ante desastre y retencion"
+      },
+      "pasaje_origen": "Copias de seguridad",
+      "ubicacion": {},
+      "verificado": false
+    }
+  ],
+  "verificado": false
+}

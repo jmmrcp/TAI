@@ -1,0 +1,99 @@
+{
+  "id": "cuadro-topologias-red",
+  "tema_id": "tema-33-redes-locales-tipologia-tecnicas-de-transmision-dispositivos",
+  "tipo_dato": "topologias",
+  "titulo": "Topologías de red",
+  "semilla": false,
+  "n_filas": 6,
+  "n_fuentes_distintas": 1,
+  "columnas": [
+    "topologia",
+    "descripcion",
+    "caracteristica_clave"
+  ],
+  "columna_clave": "topologia",
+  "columna_respuesta": "descripcion",
+  "columna_contexto": "caracteristica_clave",
+  "columna_fuente": "fuente",
+  "filas": [
+    {
+      "id": "c-topo-1",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "topologia": "Bus",
+        "descripcion": "Todos los nodos conectados a un mismo cable (medio compartido)",
+        "caracteristica_clave": "Terminadores en los extremos absorben la señal y evitan reflexiones"
+      },
+      "pasaje_origen": "Topología física de bus",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-topo-2",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "topologia": "Estrella",
+        "descripcion": "Todos los nodos conectados a un nodo central",
+        "caracteristica_clave": "Fácil gestión; fallo de un nodo no afecta al resto"
+      },
+      "pasaje_origen": "Topología estrella",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-topo-3",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "topologia": "Anillo",
+        "descripcion": "Cada nodo conectado a dos vecinos formando un anillo",
+        "caracteristica_clave": "La señal circula en una dirección"
+      },
+      "pasaje_origen": "Topologías de red",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-topo-4",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "topologia": "Árbol",
+        "descripcion": "Jerarquía de redes en estrella",
+        "caracteristica_clave": "Escalable; combina varias estrellas"
+      },
+      "pasaje_origen": "Topologías de red",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-topo-5",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "topologia": "Malla",
+        "descripcion": "Cada nodo conectado a varios otros nodos",
+        "caracteristica_clave": "Alta redundancia y tolerancia a fallos"
+      },
+      "pasaje_origen": "Topologías de red",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-topo-6",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "topologia": "Punto a punto",
+        "descripcion": "Conexión directa entre dos nodos",
+        "caracteristica_clave": "Enlace dedicado sin compartición"
+      },
+      "pasaje_origen": "Topologías de red",
+      "ubicacion": {},
+      "verificado": false
+    }
+  ],
+  "verificado": false
+}

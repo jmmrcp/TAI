@@ -1,0 +1,50 @@
+{
+  "id": "cuadro-san-nas",
+  "tema_id": "tema-25-administracion-de-bd-almacenamiento-y-virtualizacion-backup-",
+  "tipo_dato": "almacenamiento",
+  "titulo": "SAN vs NAS: comparativa",
+  "semilla": false,
+  "n_filas": 2,
+  "n_fuentes_distintas": 1,
+  "columnas": [
+    "arquitectura",
+    "nivel_acceso",
+    "protocolos",
+    "uso_tipico"
+  ],
+  "columna_clave": "arquitectura",
+  "columna_respuesta": "nivel_acceso",
+  "columna_contexto": "protocolos",
+  "columna_fuente": "fuente",
+  "filas": [
+    {
+      "id": "c-san-1",
+      "fuente": "examenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "arquitectura": "SAN",
+        "nivel_acceso": "Bloque (block-level)",
+        "protocolos": "Fibre Channel, iSCSI, FCoE",
+        "uso_tipico": "Bases de datos y entornos de alto rendimiento"
+      },
+      "pasaje_origen": "Almacenamiento SAN y NAS",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-san-2",
+      "fuente": "examenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "arquitectura": "NAS",
+        "nivel_acceso": "Archivo (file-level)",
+        "protocolos": "SMB/CIFS, NFS",
+        "uso_tipico": "Acceso compartido de archivos en LAN"
+      },
+      "pasaje_origen": "Almacenamiento SAN y NAS",
+      "ubicacion": {},
+      "verificado": false
+    }
+  ],
+  "verificado": false
+}

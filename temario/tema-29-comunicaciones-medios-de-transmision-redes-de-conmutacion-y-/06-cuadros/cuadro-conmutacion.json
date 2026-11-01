@@ -1,0 +1,134 @@
+{
+  "id": "cuadro-conmutacion",
+  "tema_id": "tema-29-comunicaciones-medios-de-transmision-redes-de-conmutacion-y-",
+  "tipo_dato": "comparativa",
+  "titulo": "Conmutación de circuitos vs paquetes vs mensajes",
+  "semilla": false,
+  "n_filas": 8,
+  "n_fuentes_distintas": 1,
+  "columnas": [
+    "caracteristica",
+    "conmutacion_circuitos",
+    "conmutacion_paquetes",
+    "conmutacion_mensajes"
+  ],
+  "columna_clave": "caracteristica",
+  "columna_respuesta": "conmutacion_paquetes",
+  "columna_contexto": "conmutacion_circuitos",
+  "columna_fuente": "fuente",
+  "filas": [
+    {
+      "id": "c-conm-1",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "caracteristica": "Establecimiento de conexión",
+        "conmutacion_circuitos": "Sí (fase previa obligatoria)",
+        "conmutacion_paquetes": "No (envío independiente)",
+        "conmutacion_mensajes": "No (almacenar y reenviar)"
+      },
+      "pasaje_origen": "Tipos de conmutación",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-conm-2",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "caracteristica": "Ancho de banda",
+        "conmutacion_circuitos": "Reservado y dedicado",
+        "conmutacion_paquetes": "Compartido estadísticamente",
+        "conmutacion_mensajes": "Compartido"
+      },
+      "pasaje_origen": "Tipos de conmutación",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-conm-3",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "caracteristica": "Retardo",
+        "conmutacion_circuitos": "Bajo y constante",
+        "conmutacion_paquetes": "Variable (jitter)",
+        "conmutacion_mensajes": "Alto"
+      },
+      "pasaje_origen": "Tipos de conmutación",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-conm-4",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "caracteristica": "Eficiencia de uso",
+        "conmutacion_circuitos": "Baja (canal ocioso si no hay datos)",
+        "conmutacion_paquetes": "Alta",
+        "conmutacion_mensajes": "Media"
+      },
+      "pasaje_origen": "Tipos de conmutación",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-conm-5",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "caracteristica": "Orden de entrega",
+        "conmutacion_circuitos": "Garantizado",
+        "conmutacion_paquetes": "Puede variar (reordenación)",
+        "conmutacion_mensajes": "Garantizado"
+      },
+      "pasaje_origen": "Tipos de conmutación",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-conm-6",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "caracteristica": "Control de errores",
+        "conmutacion_circuitos": "Extremo a extremo",
+        "conmutacion_paquetes": "Por paquete (nodo a nodo)",
+        "conmutacion_mensajes": "Por mensaje"
+      },
+      "pasaje_origen": "Tipos de conmutación",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-conm-7",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "caracteristica": "Adecuado para",
+        "conmutacion_circuitos": "Voz y tiempo real",
+        "conmutacion_paquetes": "Datos y tráfico bursty",
+        "conmutacion_mensajes": "Correo y mensajería"
+      },
+      "pasaje_origen": "Tipos de conmutación",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-conm-8",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "caracteristica": "Ejemplos",
+        "conmutacion_circuitos": "RTC / PSTN",
+        "conmutacion_paquetes": "Internet (IP)",
+        "conmutacion_mensajes": "Correo electrónico, telegrafía"
+      },
+      "pasaje_origen": "Tipos de conmutación",
+      "ubicacion": {},
+      "verificado": false
+    }
+  ],
+  "verificado": false
+}

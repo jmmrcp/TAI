@@ -1,0 +1,80 @@
+{
+  "id": "cuadro-firma-digital",
+  "tema_id": "tema-28-seguridad-de-sistemas-criptografia-firma-digital-cpd-inciden",
+  "tipo_dato": "firma_digital",
+  "titulo": "Proceso y formatos de firma digital",
+  "semilla": false,
+  "n_filas": 5,
+  "n_fuentes_distintas": 1,
+  "columnas": [
+    "aspecto",
+    "descripcion"
+  ],
+  "columna_clave": "aspecto",
+  "columna_respuesta": "descripcion",
+  "columna_contexto": "aspecto",
+  "columna_fuente": "fuente",
+  "filas": [
+    {
+      "id": "c-firma-digital-1",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "aspecto": "Paso 1: resumen (hash)",
+        "descripcion": "La aplicación crea un resumen (hash) del documento a firmar."
+      },
+      "pasaje_origen": "hash",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-firma-digital-2",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "aspecto": "Paso 2: cifrado del resumen",
+        "descripcion": "Se cifra el resumen con la clave privada del firmante, generando la firma electrónica."
+      },
+      "pasaje_origen": "cifra resumen",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-firma-digital-3",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "aspecto": "Confidencialidad",
+        "descripcion": "La firma digital NO cifra el documento original; no garantiza confidencialidad."
+      },
+      "pasaje_origen": "FALSA confidencialidad",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-firma-digital-4",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "aspecto": "CAdES",
+        "descripcion": "Apropiado para firmar ficheros grandes, especialmente si la firma contiene el documento original."
+      },
+      "pasaje_origen": "CAdES",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-firma-digital-5",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "aspecto": "ECDSA",
+        "descripcion": "Algoritmo de firma digital (no estándar de cableado ni protocolo de enlace)."
+      },
+      "pasaje_origen": "ECDSA",
+      "ubicacion": {},
+      "verificado": false
+    }
+  ],
+  "verificado": false
+}

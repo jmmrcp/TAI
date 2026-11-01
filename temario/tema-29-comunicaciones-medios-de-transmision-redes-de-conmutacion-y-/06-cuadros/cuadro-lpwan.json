@@ -1,0 +1,128 @@
+{
+  "id": "cuadro-lpwan",
+  "tema_id": "tema-29-comunicaciones-medios-de-transmision-redes-de-conmutacion-y-",
+  "tipo_dato": "clasificacion",
+  "titulo": "Tecnologías LPWAN y no LPWAN",
+  "semilla": false,
+  "n_filas": 7,
+  "n_fuentes_distintas": 1,
+  "columnas": [
+    "tecnologia",
+    "es_lpwlan",
+    "banda",
+    "alcance",
+    "tasa_datos"
+  ],
+  "columna_clave": "tecnologia",
+  "columna_respuesta": "es_lpwlan",
+  "columna_contexto": "banda",
+  "columna_fuente": "fuente",
+  "filas": [
+    {
+      "id": "c-lpwan-1",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "tecnologia": "LoRaWAN",
+        "es_lpwlan": "Sí",
+        "banda": "ISM sub-GHz",
+        "alcance": "Km (rural)",
+        "tasa_datos": "kbps"
+      },
+      "pasaje_origen": "Redes LPWAN",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-lpwan-2",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "tecnologia": "Sigfox",
+        "es_lpwlan": "Sí",
+        "banda": "ISM sub-GHz",
+        "alcance": "Km",
+        "tasa_datos": "~100 bps"
+      },
+      "pasaje_origen": "Redes LPWAN",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-lpwan-3",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "tecnologia": "NB-IoT",
+        "es_lpwlan": "Sí",
+        "banda": "Banda licenciada LTE",
+        "alcance": "Km",
+        "tasa_datos": "Hasta 250 kbps"
+      },
+      "pasaje_origen": "Redes LPWAN celulares",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-lpwan-4",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "tecnologia": "LTE-M (Cat-M1)",
+        "es_lpwlan": "Sí",
+        "banda": "Banda licenciada LTE",
+        "alcance": "Km",
+        "tasa_datos": "Hasta 1 Mbps"
+      },
+      "pasaje_origen": "Redes LPWAN celulares",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-lpwan-5",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "tecnologia": "WiFi",
+        "es_lpwlan": "No",
+        "banda": "ISM 2.4 / 5 GHz",
+        "alcance": "Decenas de metros",
+        "tasa_datos": "Mbps-Gbps"
+      },
+      "pasaje_origen": "Redes WLAN",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-lpwan-6",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "tecnologia": "Bluetooth",
+        "es_lpwlan": "No",
+        "banda": "2.4 GHz",
+        "alcance": "Metros",
+        "tasa_datos": "Mbps"
+      },
+      "pasaje_origen": "Redes WPAN",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-lpwan-7",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "tecnologia": "Zigbee",
+        "es_lpwlan": "No",
+        "banda": "2.4 GHz",
+        "alcance": "Metros",
+        "tasa_datos": "kbps"
+      },
+      "pasaje_origen": "Redes WPAN",
+      "ubicacion": {},
+      "verificado": false
+    }
+  ],
+  "verificado": false
+}

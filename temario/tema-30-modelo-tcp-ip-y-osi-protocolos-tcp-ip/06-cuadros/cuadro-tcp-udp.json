@@ -1,0 +1,134 @@
+{
+  "id": "cuadro-tcp-udp",
+  "tema_id": "tema-30-modelo-tcp-ip-y-osi-protocolos-tcp-ip",
+  "tipo_dato": "protocolos",
+  "titulo": "TCP vs UDP: características comparadas",
+  "semilla": false,
+  "n_filas": 8,
+  "n_fuentes_distintas": 1,
+  "columnas": [
+    "caracteristica",
+    "tcp",
+    "udp",
+    "observacion"
+  ],
+  "columna_clave": "caracteristica",
+  "columna_respuesta": "tcp",
+  "columna_contexto": "udp",
+  "columna_fuente": "fuente",
+  "filas": [
+    {
+      "id": "c-tcpudp-1",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "caracteristica": "Orientación a conexión",
+        "tcp": "Sí (3-way handshake)",
+        "udp": "No (sin conexión)",
+        "observacion": "TCP establece sesión antes de transmitir"
+      },
+      "pasaje_origen": "TCP/UDP",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-tcpudp-2",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "caracteristica": "Fiabilidad / entrega",
+        "tcp": "Fiable, con ACK y retransmisión",
+        "udp": "No fiable, best-effort",
+        "observacion": "TCP garantiza entrega ordenada"
+      },
+      "pasaje_origen": "TCP/UDP",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-tcpudp-3",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "caracteristica": "Control de flujo y congestión",
+        "tcp": "Sí (ventana deslizante)",
+        "udp": "No",
+        "observacion": "TCP evita saturar receptor/red"
+      },
+      "pasaje_origen": "TCP/UDP",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-tcpudp-4",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "caracteristica": "Orden de llegada",
+        "tcp": "Mantiene el orden",
+        "udp": "No garantiza orden",
+        "observacion": "TCP numera segmentos"
+      },
+      "pasaje_origen": "TCP/UDP",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-tcpudp-5",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "caracteristica": "Cabecera",
+        "tcp": "20 bytes mínimo",
+        "udp": "8 bytes",
+        "observacion": "UDP más ligero"
+      },
+      "pasaje_origen": "TCP/UDP",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-tcpudp-6",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "caracteristica": "Multiplexación por puertos",
+        "tcp": "Sí (puertos 16 bits)",
+        "udp": "Sí (puertos 16 bits)",
+        "observacion": "Ambos usan puertos origen/destino"
+      },
+      "pasaje_origen": "TCP/UDP",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-tcpudp-7",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "caracteristica": "Uso típico",
+        "tcp": "Web, correo, transferencia fiable",
+        "udp": "DNS, VoIP, streaming, DHCP",
+        "observacion": "Según necesidad de fiabilidad"
+      },
+      "pasaje_origen": "TCP/UDP",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-tcpudp-8",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "caracteristica": "Afirmación INCORRECTA típica",
+        "tcp": "TCP no es orientado a datagramas",
+        "udp": "UDP no establece conexión",
+        "observacion": "No confundir: TCP = orientado a conexión; UDP = datagramas"
+      },
+      "pasaje_origen": "TCP/UDP",
+      "ubicacion": {},
+      "verificado": false
+    }
+  ],
+  "verificado": false
+}

@@ -1,0 +1,73 @@
+{
+  "id": "cuadro-pautas-perceptible",
+  "tema_id": "tema-22-accesibilidad-diseno-universal-y-usabilidad-seguridad-en-el-",
+  "tipo_dato": "pautas",
+  "titulo": "Pautas del principio Perceptible de WCAG 2.1",
+  "semilla": false,
+  "n_filas": 4,
+  "n_fuentes_distintas": 1,
+  "columnas": [
+    "pauta",
+    "objetivo",
+    "ejemplo"
+  ],
+  "columna_clave": "pauta",
+  "columna_respuesta": "objetivo",
+  "columna_contexto": "ejemplo",
+  "columna_fuente": "fuente",
+  "filas": [
+    {
+      "id": "c-pautas-perceptible-1",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "pauta": "Alternativas textuales",
+        "objetivo": "Proporcionar alternativas textuales para todo contenido no textual",
+        "ejemplo": "Atributo alt en imágenes"
+      },
+      "pasaje_origen": "WCAG 2.1 — Principio Perceptible",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-pautas-perceptible-2",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "pauta": "Medios temporodependientes",
+        "objetivo": "Proporcionar alternativas para contenidos multimedia sincronizados",
+        "ejemplo": "Subtítulos y audiodescripción"
+      },
+      "pasaje_origen": "WCAG 2.1 — Principio Perceptible",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-pautas-perceptible-3",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "pauta": "Adaptable",
+        "objetivo": "Presentar el contenido de diferentes formas sin perder información ni estructura",
+        "ejemplo": "HTML semántico y orden de lectura"
+      },
+      "pasaje_origen": "WCAG 2.1 — Principio Perceptible",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-pautas-perceptible-4",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "pauta": "Distinguible",
+        "objetivo": "Facilitar a los usuarios ver y oír el contenido, incluyendo la separación entre primer plano y fondo",
+        "ejemplo": "Contraste de color suficiente"
+      },
+      "pasaje_origen": "WCAG 2.1 — Principio Perceptible",
+      "ubicacion": {},
+      "verificado": false
+    }
+  ],
+  "verificado": false
+}

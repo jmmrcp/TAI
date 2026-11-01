@@ -1,0 +1,112 @@
+{
+  "id": "cuadro-mdm-modalidades-soluciones",
+  "tema_id": "tema-27-administracion-de-redes-lan-gestion-de-usuarios-y-dispositiv",
+  "tipo_dato": "listado",
+  "titulo": "Gestión de dispositivos móviles (MDM) e ITSM",
+  "semilla": false,
+  "n_filas": 7,
+  "n_fuentes_distintas": 1,
+  "columnas": [
+    "concepto",
+    "tipo",
+    "descripcion"
+  ],
+  "columna_clave": "concepto",
+  "columna_respuesta": "tipo",
+  "columna_contexto": "descripcion",
+  "columna_fuente": "fuente",
+  "filas": [
+    {
+      "id": "cuadro-mdm-modalidades-soluciones-1",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "BYOD",
+        "tipo": "Modalidad MDM",
+        "descripcion": "El usuario utiliza su propio dispositivo personal para tareas profesionales o educativas"
+      },
+      "pasaje_origen": "MDM",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "cuadro-mdm-modalidades-soluciones-2",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "COPE",
+        "tipo": "Modalidad MDM",
+        "descripcion": "La empresa proporciona el dispositivo y permite uso personal controlado"
+      },
+      "pasaje_origen": "MDM",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "cuadro-mdm-modalidades-soluciones-3",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "CYOD",
+        "tipo": "Modalidad MDM",
+        "descripcion": "El usuario elige su dispositivo entre una lista aprobada por la empresa"
+      },
+      "pasaje_origen": "MDM",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "cuadro-mdm-modalidades-soluciones-4",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "COBO",
+        "tipo": "Modalidad MDM",
+        "descripcion": "Dispositivo propiedad de la empresa usado solo para trabajo"
+      },
+      "pasaje_origen": "MDM",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "cuadro-mdm-modalidades-soluciones-5",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "Apple Business Manager / School Manager",
+        "tipo": "Solución exclusiva Apple",
+        "descripcion": "Gestión y despliegue centralizado de dispositivos Apple (DEP/VPP/MDM)"
+      },
+      "pasaje_origen": "MDM Apple",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "cuadro-mdm-modalidades-soluciones-6",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "Apple Configurator",
+        "tipo": "Solución exclusiva Apple",
+        "descripcion": "Configuración supervisada de dispositivos iOS/iPadOS/macOS"
+      },
+      "pasaje_origen": "MDM Apple",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "cuadro-mdm-modalidades-soluciones-7",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "ServiceNow / Remedy / ITIL",
+        "tipo": "ITSM",
+        "descripcion": "Sistemas de gestión de servicios de TI (incidencias, cambios, peticiones)"
+      },
+      "pasaje_origen": "ITSM",
+      "ubicacion": {},
+      "verificado": false
+    }
+  ],
+  "verificado": false
+}

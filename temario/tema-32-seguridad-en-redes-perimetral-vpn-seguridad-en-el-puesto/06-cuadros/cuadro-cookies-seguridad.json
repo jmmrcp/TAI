@@ -1,0 +1,92 @@
+{
+  "id": "cuadro-cookies-seguridad",
+  "tema_id": "tema-32-seguridad-en-redes-perimetral-vpn-seguridad-en-el-puesto",
+  "tipo_dato": "conceptos",
+  "titulo": "Atributos de seguridad en cookies (Set-Cookie)",
+  "semilla": false,
+  "n_filas": 5,
+  "n_fuentes_distintas": 1,
+  "columnas": [
+    "atributo",
+    "funcion",
+    "protege_contra",
+    "recomendacion"
+  ],
+  "columna_clave": "atributo",
+  "columna_respuesta": "funcion",
+  "columna_contexto": "protege_contra",
+  "columna_fuente": "fuente",
+  "filas": [
+    {
+      "id": "c-cookie-1",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "atributo": "HttpOnly",
+        "funcion": "Impide acceso a la cookie desde JavaScript (document.cookie)",
+        "protege_contra": "Robo de sesión vía XSS",
+        "recomendacion": "Activar en cookies de sesión"
+      },
+      "pasaje_origen": "HttpOnly",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-cookie-2",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "atributo": "Secure",
+        "funcion": "La cookie solo se envía por HTTPS",
+        "protege_contra": "Interceptación en claro (MITM)",
+        "recomendacion": "Activar siempre en producción"
+      },
+      "pasaje_origen": "Secure",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-cookie-3",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "atributo": "SameSite",
+        "funcion": "Controla envío de cookie en peticiones cross-site",
+        "protege_contra": "CSRF",
+        "recomendacion": "Strict o Lax según caso"
+      },
+      "pasaje_origen": "SameSite",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-cookie-4",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "atributo": "Expires/Max-Age",
+        "funcion": "Define caducidad de la cookie",
+        "protege_contra": "Persistencia excesiva",
+        "recomendacion": "Sesión o caducidad corta"
+      },
+      "pasaje_origen": "Caducidad",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-cookie-5",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "atributo": "Path/Domain",
+        "funcion": "Restringe ámbito de envío de la cookie",
+        "protege_contra": "Exposición innecesaria",
+        "recomendacion": "Ámbito mínimo necesario"
+      },
+      "pasaje_origen": "Ámbito",
+      "ubicacion": {},
+      "verificado": false
+    }
+  ],
+  "verificado": false
+}

@@ -1,0 +1,162 @@
+{
+  "id": "cuadro-protocolos-auxiliares",
+  "tema_id": "tema-30-modelo-tcp-ip-y-osi-protocolos-tcp-ip",
+  "tipo_dato": "protocolos",
+  "titulo": "Protocolos auxiliares: resolución, NAT y puertos típicos",
+  "semilla": false,
+  "n_filas": 10,
+  "n_fuentes_distintas": 1,
+  "columnas": [
+    "protocolo_servicio",
+    "funcion",
+    "detalle_clave",
+    "puerto_o_capa"
+  ],
+  "columna_clave": "protocolo_servicio",
+  "columna_respuesta": "funcion",
+  "columna_contexto": "detalle_clave",
+  "columna_fuente": "fuente",
+  "filas": [
+    {
+      "id": "c-aux-1",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "protocolo_servicio": "ARP",
+        "funcion": "Resuelve dirección IP a dirección MAC",
+        "detalle_clave": "Petición/respuesta en el segmento local",
+        "puerto_o_capa": "Capa 2/3 (sin puerto)"
+      },
+      "pasaje_origen": "Resolución de direcciones",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-aux-2",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "protocolo_servicio": "RARP",
+        "funcion": "Resuelve dirección MAC a dirección IP",
+        "detalle_clave": "Obsoleto; sustituido por DHCP/BOOTP",
+        "puerto_o_capa": "Capa 2/3"
+      },
+      "pasaje_origen": "Resolución de direcciones",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-aux-3",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "protocolo_servicio": "NAT estático",
+        "funcion": "Traducción 1:1 IP privada-pública",
+        "detalle_clave": "Mapeo fijo",
+        "puerto_o_capa": "Capa 3"
+      },
+      "pasaje_origen": "NAT",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-aux-4",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "protocolo_servicio": "PAT / NAPT",
+        "funcion": "Muchas IP privadas a una IP pública usando puertos",
+        "detalle_clave": "Sobrecarga de puertos",
+        "puerto_o_capa": "Capa 3/4"
+      },
+      "pasaje_origen": "NAT",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-aux-5",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "protocolo_servicio": "CG-NAT",
+        "funcion": "NAT de grado operador (RFC 6598)",
+        "detalle_clave": "Espacio 100.64.0.0/10; comparte IPv4 entre abonados; problemas con P2P/port forwarding",
+        "puerto_o_capa": "Capa 3"
+      },
+      "pasaje_origen": "CG-NAT",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-aux-6",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "protocolo_servicio": "Telnet",
+        "funcion": "Acceso remoto en texto",
+        "detalle_clave": "No cifrado",
+        "puerto_o_capa": "TCP 23"
+      },
+      "pasaje_origen": "Puertos",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-aux-7",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "protocolo_servicio": "SSH",
+        "funcion": "Acceso remoto seguro",
+        "detalle_clave": "Cifrado",
+        "puerto_o_capa": "TCP 22"
+      },
+      "pasaje_origen": "Puertos",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-aux-8",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "protocolo_servicio": "DNS",
+        "funcion": "Resolución de nombres",
+        "detalle_clave": "Consultas UDP, transferencia TCP",
+        "puerto_o_capa": "UDP/TCP 53"
+      },
+      "pasaje_origen": "Puertos",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-aux-9",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "protocolo_servicio": "HTTP / HTTPS",
+        "funcion": "Transferencia web",
+        "detalle_clave": "HTTPS con TLS",
+        "puerto_o_capa": "TCP 80 / 443"
+      },
+      "pasaje_origen": "Puertos",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-aux-10",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "protocolo_servicio": "SMTP / POP3 / IMAP",
+        "funcion": "Correo electrónico",
+        "detalle_clave": "Envío / descarga / acceso",
+        "puerto_o_capa": "TCP 25 / 110 / 143"
+      },
+      "pasaje_origen": "Puertos",
+      "ubicacion": {},
+      "verificado": false
+    }
+  ],
+  "verificado": false
+}

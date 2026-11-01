@@ -1,0 +1,68 @@
+{
+  "id": "cuadro-snmp-versiones",
+  "tema_id": "tema-27-administracion-de-redes-lan-gestion-de-usuarios-y-dispositiv",
+  "tipo_dato": "comparativa",
+  "titulo": "SNMP: versiones del protocolo",
+  "semilla": false,
+  "n_filas": 3,
+  "n_fuentes_distintas": 1,
+  "columnas": [
+    "version",
+    "seguridad",
+    "autenticacion",
+    "cifrado",
+    "observaciones"
+  ],
+  "columna_clave": "version",
+  "columna_respuesta": "seguridad",
+  "columna_contexto": "cifrado",
+  "columna_fuente": "fuente",
+  "filas": [
+    {
+      "id": "cuadro-snmp-versiones-1",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "version": "SNMPv1",
+        "seguridad": "Community string (texto plano)",
+        "autenticacion": "No",
+        "cifrado": "No",
+        "observaciones": "Primera versión (RFC 1157); uso legado"
+      },
+      "pasaje_origen": "SNMP versiones",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "cuadro-snmp-versiones-2",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "version": "SNMPv2c",
+        "seguridad": "Community string (texto plano)",
+        "autenticacion": "No",
+        "cifrado": "No",
+        "observaciones": "Mejoras de rendimiento; introduce GETBULK y notificaciones"
+      },
+      "pasaje_origen": "SNMP versiones",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "cuadro-snmp-versiones-3",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "version": "SNMPv3",
+        "seguridad": "USM (usuarios) + VACM (vistas)",
+        "autenticacion": "HMAC-MD5 / SHA",
+        "cifrado": "DES / AES",
+        "observaciones": "Última versión; seguridad, integridad y confidencialidad"
+      },
+      "pasaje_origen": "SNMP versiones",
+      "ubicacion": {},
+      "verificado": false
+    }
+  ],
+  "verificado": false
+}

@@ -1,0 +1,120 @@
+{
+  "id": "cuadro-ethernet-fibra",
+  "tema_id": "tema-29-comunicaciones-medios-de-transmision-redes-de-conmutacion-y-",
+  "tipo_dato": "clasificacion",
+  "titulo": "Tecnologías Ethernet sobre fibra óptica",
+  "semilla": false,
+  "n_filas": 7,
+  "n_fuentes_distintas": 1,
+  "columnas": [
+    "estandar",
+    "velocidad",
+    "medio",
+    "distancia_max"
+  ],
+  "columna_clave": "estandar",
+  "columna_respuesta": "velocidad",
+  "columna_contexto": "medio",
+  "columna_fuente": "fuente",
+  "filas": [
+    {
+      "id": "c-eth-1",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "estandar": "1000BASE-SX",
+        "velocidad": "1000 Mbps",
+        "medio": "Fibra multimodo",
+        "distancia_max": "550 m"
+      },
+      "pasaje_origen": "Ethernet sobre fibra multimodo",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-eth-2",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "estandar": "1000BASE-LX",
+        "velocidad": "1000 Mbps",
+        "medio": "Monomodo / multimodo",
+        "distancia_max": "5 km (SM) / 550 m (MM)"
+      },
+      "pasaje_origen": "Ethernet sobre fibra monomodo",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-eth-3",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "estandar": "10GBASE-SR",
+        "velocidad": "10 Gbps",
+        "medio": "Fibra multimodo",
+        "distancia_max": "300 m"
+      },
+      "pasaje_origen": "10 Gigabit Ethernet multimodo",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-eth-4",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "estandar": "10GBASE-LR",
+        "velocidad": "10 Gbps",
+        "medio": "Fibra monomodo",
+        "distancia_max": "10 km"
+      },
+      "pasaje_origen": "10 Gigabit Ethernet monomodo",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-eth-5",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "estandar": "40GBASE-SR4",
+        "velocidad": "40 Gbps",
+        "medio": "Fibra multimodo (4 vías)",
+        "distancia_max": "100-150 m"
+      },
+      "pasaje_origen": "40 Gigabit Ethernet multimodo",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-eth-6",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "estandar": "100GBASE-SR10",
+        "velocidad": "100 Gbps",
+        "medio": "Fibra multimodo (10 vías)",
+        "distancia_max": "100 m"
+      },
+      "pasaje_origen": "100 Gigabit Ethernet multimodo",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-eth-7",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "estandar": "QSFP+",
+        "velocidad": "40 Gbps agregados (4x10)",
+        "medio": "Fibra/cobre (módulo)",
+        "distancia_max": "Según óptica"
+      },
+      "pasaje_origen": "Formato QSFP+",
+      "ubicacion": {},
+      "verificado": false
+    }
+  ],
+  "verificado": false
+}

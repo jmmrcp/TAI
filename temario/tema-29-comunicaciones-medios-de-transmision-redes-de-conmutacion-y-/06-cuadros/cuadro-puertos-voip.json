@@ -1,0 +1,120 @@
+{
+  "id": "cuadro-puertos-voip",
+  "tema_id": "tema-29-comunicaciones-medios-de-transmision-redes-de-conmutacion-y-",
+  "tipo_dato": "puertos",
+  "titulo": "Puertos de telefonía IP y VoIP",
+  "semilla": false,
+  "n_filas": 7,
+  "n_fuentes_distintas": 1,
+  "columnas": [
+    "protocolo",
+    "puerto",
+    "transporte",
+    "funcion"
+  ],
+  "columna_clave": "protocolo",
+  "columna_respuesta": "puerto",
+  "columna_contexto": "funcion",
+  "columna_fuente": "fuente",
+  "filas": [
+    {
+      "id": "c-voip-1",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "protocolo": "SIP",
+        "puerto": "5060",
+        "transporte": "UDP/TCP",
+        "funcion": "Señalización de sesiones"
+      },
+      "pasaje_origen": "SIP Session Initiation Protocol",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-voip-2",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "protocolo": "SIP (TLS)",
+        "puerto": "5061",
+        "transporte": "TCP",
+        "funcion": "Señalización segura"
+      },
+      "pasaje_origen": "SIP sobre TLS (SIPS)",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-voip-3",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "protocolo": "RTP",
+        "puerto": "Rango dinámico (ej. 10000-20000)",
+        "transporte": "UDP",
+        "funcion": "Transporte de medios (voz/vídeo)"
+      },
+      "pasaje_origen": "Real-time Transport Protocol",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-voip-4",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "protocolo": "RTCP",
+        "puerto": "RTP+1",
+        "transporte": "UDP",
+        "funcion": "Control y calidad de RTP"
+      },
+      "pasaje_origen": "RTP Control Protocol",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-voip-5",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "protocolo": "H.323 (Q.931/H.225)",
+        "puerto": "1720",
+        "transporte": "TCP",
+        "funcion": "Señalización y control de llamadas"
+      },
+      "pasaje_origen": "H.323 y H.245",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-voip-6",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "protocolo": "MGCP",
+        "puerto": "2427 / 2727",
+        "transporte": "UDP",
+        "funcion": "Control de gateways de medios"
+      },
+      "pasaje_origen": "Media Gateway Control Protocol",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-voip-7",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "protocolo": "IAX2",
+        "puerto": "4569",
+        "transporte": "UDP",
+        "funcion": "Señalización y medios (Asterisk)"
+      },
+      "pasaje_origen": "Inter-Asterisk eXchange",
+      "ubicacion": {},
+      "verificado": false
+    }
+  ],
+  "verificado": false
+}

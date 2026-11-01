@@ -1,0 +1,268 @@
+{
+  "id": "cuadro-codigos-http",
+  "tema_id": "tema-31-internet-arquitectura-protocolos-http-https-y-ssl-tls",
+  "tipo_dato": "codigos_http",
+  "titulo": "Códigos de estado HTTP (clases y códigos clave)",
+  "semilla": false,
+  "n_filas": 19,
+  "n_fuentes_distintas": 1,
+  "columnas": [
+    "codigo",
+    "clase",
+    "significado"
+  ],
+  "columna_clave": "codigo",
+  "columna_respuesta": "significado",
+  "columna_contexto": "clase",
+  "columna_fuente": "fuente",
+  "filas": [
+    {
+      "id": "c-codigos-http-1",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "codigo": "1xx",
+        "clase": "Informativo",
+        "significado": "Respuestas provisionales (100 Continue, 101 Switching Protocols)"
+      },
+      "pasaje_origen": "Códigos de estado HTTP (clases y códigos clave)",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-codigos-http-2",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "codigo": "200",
+        "clase": "Éxito (2xx)",
+        "significado": "OK: petición correcta y respuesta con contenido"
+      },
+      "pasaje_origen": "Códigos de estado HTTP (clases y códigos clave)",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-codigos-http-3",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "codigo": "201",
+        "clase": "Éxito (2xx)",
+        "significado": "Created: recurso creado (típico tras POST)"
+      },
+      "pasaje_origen": "Códigos de estado HTTP (clases y códigos clave)",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-codigos-http-4",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "codigo": "204",
+        "clase": "Éxito (2xx)",
+        "significado": "No Content: éxito sin cuerpo de respuesta"
+      },
+      "pasaje_origen": "Códigos de estado HTTP (clases y códigos clave)",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-codigos-http-5",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "codigo": "301",
+        "clase": "Redirección (3xx)",
+        "significado": "Moved Permanently: redirección permanente"
+      },
+      "pasaje_origen": "Códigos de estado HTTP (clases y códigos clave)",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-codigos-http-6",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "codigo": "302",
+        "clase": "Redirección (3xx)",
+        "significado": "Found: redirección temporal"
+      },
+      "pasaje_origen": "Códigos de estado HTTP (clases y códigos clave)",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-codigos-http-7",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "codigo": "304",
+        "clase": "Redirección (3xx)",
+        "significado": "Not Modified: recurso no modificado (caché)"
+      },
+      "pasaje_origen": "Códigos de estado HTTP (clases y códigos clave)",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-codigos-http-8",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "codigo": "400",
+        "clase": "Error cliente (4xx)",
+        "significado": "Bad Request: petición malformada"
+      },
+      "pasaje_origen": "Códigos de estado HTTP (clases y códigos clave)",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-codigos-http-9",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "codigo": "401",
+        "clase": "Error cliente (4xx)",
+        "significado": "Unauthorized: requiere autenticación"
+      },
+      "pasaje_origen": "Códigos de estado HTTP (clases y códigos clave)",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-codigos-http-10",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "codigo": "403",
+        "clase": "Error cliente (4xx)",
+        "significado": "Forbidden: sin autorización para el recurso"
+      },
+      "pasaje_origen": "Códigos de estado HTTP (clases y códigos clave)",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-codigos-http-11",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "codigo": "404",
+        "clase": "Error cliente (4xx)",
+        "significado": "Not Found: recurso no encontrado"
+      },
+      "pasaje_origen": "Códigos de estado HTTP (clases y códigos clave)",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-codigos-http-12",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "codigo": "405",
+        "clase": "Error cliente (4xx)",
+        "significado": "Method Not Allowed: método no permitido"
+      },
+      "pasaje_origen": "Códigos de estado HTTP (clases y códigos clave)",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-codigos-http-13",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "codigo": "407",
+        "clase": "Error cliente (4xx)",
+        "significado": "Proxy Authentication Required"
+      },
+      "pasaje_origen": "Códigos de estado HTTP (clases y códigos clave)",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-codigos-http-14",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "codigo": "408",
+        "clase": "Error cliente (4xx)",
+        "significado": "Request Timeout: tiempo de espera agotado"
+      },
+      "pasaje_origen": "Códigos de estado HTTP (clases y códigos clave)",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-codigos-http-15",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "codigo": "500",
+        "clase": "Error servidor (5xx)",
+        "significado": "Internal Server Error: error interno del servidor"
+      },
+      "pasaje_origen": "Códigos de estado HTTP (clases y códigos clave)",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-codigos-http-16",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "codigo": "501",
+        "clase": "Error servidor (5xx)",
+        "significado": "Not Implemented: método no soportado"
+      },
+      "pasaje_origen": "Códigos de estado HTTP (clases y códigos clave)",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-codigos-http-17",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "codigo": "502",
+        "clase": "Error servidor (5xx)",
+        "significado": "Bad Gateway: respuesta inválida del upstream"
+      },
+      "pasaje_origen": "Códigos de estado HTTP (clases y códigos clave)",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-codigos-http-18",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "codigo": "503",
+        "clase": "Error servidor (5xx)",
+        "significado": "Service Unavailable: servicio no disponible"
+      },
+      "pasaje_origen": "Códigos de estado HTTP (clases y códigos clave)",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-codigos-http-19",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "codigo": "504",
+        "clase": "Error servidor (5xx)",
+        "significado": "Gateway Timeout: tiempo de espera del upstream"
+      },
+      "pasaje_origen": "Códigos de estado HTTP (clases y códigos clave)",
+      "ubicacion": {},
+      "verificado": false
+    }
+  ],
+  "verificado": false
+}

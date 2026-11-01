@@ -1,0 +1,112 @@
+{
+  "id": "cuadro-hipervisores",
+  "tema_id": "tema-25-administracion-de-bd-almacenamiento-y-virtualizacion-backup-",
+  "tipo_dato": "virtualizacion",
+  "titulo": "Hipervisores: tipo 1 (bare-metal) vs tipo 2 (hosted) y ejemplos",
+  "semilla": false,
+  "n_filas": 7,
+  "n_fuentes_distintas": 1,
+  "columnas": [
+    "hipervisor",
+    "tipo",
+    "descripcion"
+  ],
+  "columna_clave": "hipervisor",
+  "columna_respuesta": "tipo",
+  "columna_contexto": "descripcion",
+  "columna_fuente": "fuente",
+  "filas": [
+    {
+      "id": "c-hv-1",
+      "fuente": "examenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "hipervisor": "VMware ESXi",
+        "tipo": "Tipo 1 (bare-metal)",
+        "descripcion": "Se ejecuta directamente sobre el hardware sin SO anfitrion"
+      },
+      "pasaje_origen": "Virtualizacion de sistemas",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-hv-2",
+      "fuente": "examenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "hipervisor": "Xen",
+        "tipo": "Tipo 1 (bare-metal)",
+        "descripcion": "Hipervisor de codigo abierto para entornos servidor"
+      },
+      "pasaje_origen": "Virtualizacion de sistemas",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-hv-3",
+      "fuente": "examenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "hipervisor": "Microsoft Hyper-V",
+        "tipo": "Tipo 1 (bare-metal)",
+        "descripcion": "Rol de Windows Server que virtualiza directamente sobre hardware"
+      },
+      "pasaje_origen": "Virtualizacion de sistemas",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-hv-4",
+      "fuente": "examenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "hipervisor": "KVM",
+        "tipo": "Tipo 1 (bare-metal)",
+        "descripcion": "Modulo del kernel Linux que actua como hipervisor"
+      },
+      "pasaje_origen": "Virtualizacion de sistemas",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-hv-5",
+      "fuente": "examenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "hipervisor": "VMware Workstation",
+        "tipo": "Tipo 2 (hosted)",
+        "descripcion": "Se ejecuta sobre un SO anfitrion de escritorio"
+      },
+      "pasaje_origen": "Virtualizacion de sistemas",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-hv-6",
+      "fuente": "examenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "hipervisor": "Oracle VirtualBox",
+        "tipo": "Tipo 2 (hosted)",
+        "descripcion": "Hipervisor de escritorio multiplataforma sobre SO host"
+      },
+      "pasaje_origen": "Virtualizacion de sistemas",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-hv-7",
+      "fuente": "examenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "hipervisor": "Parallels Desktop",
+        "tipo": "Tipo 2 (hosted)",
+        "descripcion": "Virtualizacion de escritorio sobre macOS"
+      },
+      "pasaje_origen": "Virtualizacion de sistemas",
+      "ubicacion": {},
+      "verificado": false
+    }
+  ],
+  "verificado": false
+}

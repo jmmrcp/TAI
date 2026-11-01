@@ -1,0 +1,120 @@
+{
+  "id": "cuadro-http-evolucion",
+  "tema_id": "tema-31-internet-arquitectura-protocolos-http-https-y-ssl-tls",
+  "tipo_dato": "comparativa",
+  "titulo": "HTTP/1.1 vs HTTP/2 vs HTTP/3",
+  "semilla": false,
+  "n_filas": 7,
+  "n_fuentes_distintas": 1,
+  "columnas": [
+    "aspecto",
+    "http_1_1",
+    "http_2",
+    "http_3"
+  ],
+  "columna_clave": "aspecto",
+  "columna_respuesta": "http_2",
+  "columna_contexto": "http_1_1",
+  "columna_fuente": "fuente",
+  "filas": [
+    {
+      "id": "c-http-evolucion-1",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "aspecto": "Formato",
+        "http_1_1": "Texto",
+        "http_2": "Binario",
+        "http_3": "Binario (sobre QUIC/UDP)"
+      },
+      "pasaje_origen": "HTTP/1.1 vs HTTP/2 vs HTTP/3",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-http-evolucion-2",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "aspecto": "Multiplexación",
+        "http_1_1": "No (head-of-line blocking)",
+        "http_2": "Sí (streams)",
+        "http_3": "Sí (QUIC streams)"
+      },
+      "pasaje_origen": "HTTP/1.1 vs HTTP/2 vs HTTP/3",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-http-evolucion-3",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "aspecto": "Conexiones",
+        "http_1_1": "Múltiples TCP",
+        "http_2": "Una TCP",
+        "http_3": "QUIC/UDP"
+      },
+      "pasaje_origen": "HTTP/1.1 vs HTTP/2 vs HTTP/3",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-http-evolucion-4",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "aspecto": "Compresión cabeceras",
+        "http_1_1": "No",
+        "http_2": "HPACK",
+        "http_3": "QPACK"
+      },
+      "pasaje_origen": "HTTP/1.1 vs HTTP/2 vs HTTP/3",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-http-evolucion-5",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "aspecto": "Server push",
+        "http_1_1": "No",
+        "http_2": "Sí",
+        "http_3": "No (103 Early Hints)"
+      },
+      "pasaje_origen": "HTTP/1.1 vs HTTP/2 vs HTTP/3",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-http-evolucion-6",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "aspecto": "Seguridad",
+        "http_1_1": "TLS opcional",
+        "http_2": "TLS de facto",
+        "http_3": "TLS 1.3 integrado"
+      },
+      "pasaje_origen": "HTTP/1.1 vs HTTP/2 vs HTTP/3",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-http-evolucion-7",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "aspecto": "Identificador",
+        "http_1_1": "HTTP/1.1",
+        "http_2": "h2 (TLS) / h2c (TCP claro)",
+        "http_3": "h3"
+      },
+      "pasaje_origen": "HTTP/1.1 vs HTTP/2 vs HTTP/3",
+      "ubicacion": {},
+      "verificado": false
+    }
+  ],
+  "verificado": false
+}

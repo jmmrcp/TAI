@@ -1,0 +1,112 @@
+{
+  "id": "cuadro-diseno-universal",
+  "tema_id": "tema-22-accesibilidad-diseno-universal-y-usabilidad-seguridad-en-el-",
+  "tipo_dato": "principios",
+  "titulo": "Principios del Diseño Universal (7 principios)",
+  "semilla": false,
+  "n_filas": 7,
+  "n_fuentes_distintas": 1,
+  "columnas": [
+    "principio",
+    "descripcion",
+    "pauta_clave"
+  ],
+  "columna_clave": "principio",
+  "columna_respuesta": "descripcion",
+  "columna_contexto": "pauta_clave",
+  "columna_fuente": "fuente",
+  "filas": [
+    {
+      "id": "c-diseno-universal-1",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "principio": "Uso equitativo",
+        "descripcion": "El diseño es útil y vendible a personas con diversas capacidades",
+        "pauta_clave": "Misma calidad de uso para todos"
+      },
+      "pasaje_origen": "Diseño Universal — Principio 1",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-diseno-universal-2",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "principio": "Flexibilidad en el uso",
+        "descripcion": "El diseño se acomoda a un amplio rango de preferencias y habilidades individuales",
+        "pauta_clave": "Opciones de uso personalizables"
+      },
+      "pasaje_origen": "Diseño Universal — Principio 2",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-diseno-universal-3",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "principio": "Uso simple e intuitivo",
+        "descripcion": "El uso del diseño es fácil de entender, sin importar experiencia, conocimientos o nivel de concentración",
+        "pauta_clave": "Simplicidad y claridad"
+      },
+      "pasaje_origen": "Diseño Universal — Principio 3",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-diseno-universal-4",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "principio": "Información perceptible",
+        "descripcion": "El diseño comunica efectivamente la información necesaria al usuario",
+        "pauta_clave": "Redundancia sensorial"
+      },
+      "pasaje_origen": "Diseño Universal — Principio 4",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-diseno-universal-5",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "principio": "Tolerancia al error",
+        "descripcion": "El diseño minimiza los riesgos y las consecuencias adversas de acciones accidentales o involuntarias",
+        "pauta_clave": "Prevención y recuperación de errores"
+      },
+      "pasaje_origen": "Diseño Universal — Principio 5",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-diseno-universal-6",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "principio": "Bajo esfuerzo físico",
+        "descripcion": "El diseño puede usarse eficientemente y con un mínimo de fatiga",
+        "pauta_clave": "Esfuerzo mínimo requerido"
+      },
+      "pasaje_origen": "Diseño Universal — Principio 6",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-diseno-universal-7",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "principio": "Tamaño y espacio para aproximación y uso",
+        "descripcion": "Se proporciona tamaño y espacio apropiado para el acercamiento, alcance y uso",
+        "pauta_clave": "Dimensiones y espacio adecuados"
+      },
+      "pasaje_origen": "Diseño Universal — Principio 7",
+      "ubicacion": {},
+      "verificado": false
+    }
+  ],
+  "verificado": false
+}

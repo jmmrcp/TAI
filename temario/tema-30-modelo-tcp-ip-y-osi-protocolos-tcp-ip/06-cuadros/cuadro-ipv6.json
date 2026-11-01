@@ -1,0 +1,134 @@
+{
+  "id": "cuadro-ipv6",
+  "tema_id": "tema-30-modelo-tcp-ip-y-osi-protocolos-tcp-ip",
+  "tipo_dato": "direccionamiento",
+  "titulo": "IPv6: prefijos y campo Hop Limit",
+  "semilla": false,
+  "n_filas": 8,
+  "n_fuentes_distintas": 1,
+  "columnas": [
+    "tipo",
+    "prefijo",
+    "ambito_o_uso",
+    "observacion"
+  ],
+  "columna_clave": "tipo",
+  "columna_respuesta": "prefijo",
+  "columna_contexto": "ambito_o_uso",
+  "columna_fuente": "fuente",
+  "filas": [
+    {
+      "id": "c-ipv6-1",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "tipo": "Unicast global",
+        "prefijo": "2000::/3",
+        "ambito_o_uso": "Internet público",
+        "observacion": "Direcciones enrutables globalmente"
+      },
+      "pasaje_origen": "IPv6",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-ipv6-2",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "tipo": "Unique Local (ULA)",
+        "prefijo": "fc00::/7",
+        "ambito_o_uso": "Privado (similar RFC1918)",
+        "observacion": "No enrutable en Internet"
+      },
+      "pasaje_origen": "IPv6",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-ipv6-3",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "tipo": "Link-local",
+        "prefijo": "fe80::/10",
+        "ambito_o_uso": "Enlace local",
+        "observacion": "Autoconfiguración, vecinos"
+      },
+      "pasaje_origen": "IPv6",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-ipv6-4",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "tipo": "Multicast",
+        "prefijo": "ff00::/8",
+        "ambito_o_uso": "Uno a muchos",
+        "observacion": "ff02::1 todos los nodos; ff02::2 todos los routers"
+      },
+      "pasaje_origen": "IPv6",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-ipv6-5",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "tipo": "Loopback",
+        "prefijo": "::1/128",
+        "ambito_o_uso": "Local",
+        "observacion": "Equivalente a 127.0.0.1"
+      },
+      "pasaje_origen": "IPv6",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-ipv6-6",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "tipo": "Unspecified",
+        "prefijo": "::/128",
+        "ambito_o_uso": "Sin dirección",
+        "observacion": "Usado antes de asignar IP"
+      },
+      "pasaje_origen": "IPv6",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-ipv6-7",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "tipo": "Hop Limit (RFC 8200)",
+        "prefijo": "8 bits en cabecera fija",
+        "ambito_o_uso": "Evitar bucles",
+        "observacion": "Se decrementa en cada salto; paquete descartado al llegar a 0"
+      },
+      "pasaje_origen": "IPv6",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-ipv6-8",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "tipo": "Prefijo multicast (pregunta típica)",
+        "prefijo": "ff00::/8",
+        "ambito_o_uso": "Multicast",
+        "observacion": "Todo prefijo multicast IPv6 comienza por ff"
+      },
+      "pasaje_origen": "IPv6",
+      "ubicacion": {},
+      "verificado": false
+    }
+  ],
+  "verificado": false
+}

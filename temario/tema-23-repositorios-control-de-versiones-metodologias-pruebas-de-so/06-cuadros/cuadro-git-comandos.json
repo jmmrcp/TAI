@@ -1,0 +1,140 @@
+{
+  "id": "cuadro-git-comandos",
+  "tema_id": "tema-23-repositorios-control-de-versiones-metodologias-pruebas-de-so",
+  "tipo_dato": "comandos",
+  "titulo": "Comandos básicos de Git",
+  "semilla": false,
+  "n_filas": 10,
+  "n_fuentes_distintas": 1,
+  "columnas": [
+    "comando",
+    "accion"
+  ],
+  "columna_clave": "comando",
+  "columna_respuesta": "accion",
+  "columna_contexto": "comando",
+  "columna_fuente": "fuente",
+  "filas": [
+    {
+      "id": "c-git-comandos-1",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "comando": "git init",
+        "accion": "Inicializa un nuevo repositorio Git local."
+      },
+      "pasaje_origen": "git init",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-git-comandos-2",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "comando": "git clone <url>",
+        "accion": "Clona un repositorio remoto en el equipo local."
+      },
+      "pasaje_origen": "git clone",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-git-comandos-3",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "comando": "git add <archivo>",
+        "accion": "Prepara (stage) los cambios para el próximo commit."
+      },
+      "pasaje_origen": "git add",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-git-comandos-4",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "comando": "git commit -m \"msg\"",
+        "accion": "Guarda una instantánea del estado preparado en el historial."
+      },
+      "pasaje_origen": "git commit",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-git-comandos-5",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "comando": "git status",
+        "accion": "Muestra el estado de los archivos (modificados, preparados, etc.)."
+      },
+      "pasaje_origen": "git status",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-git-comandos-6",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "comando": "git log",
+        "accion": "Muestra el historial de commits."
+      },
+      "pasaje_origen": "git log",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-git-comandos-7",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "comando": "git tag",
+        "accion": "Lista o crea etiquetas que marcan puntos del historial (git tag -l lista)."
+      },
+      "pasaje_origen": "git tag",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-git-comandos-8",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "comando": "git fetch",
+        "accion": "Descarga cambios del remoto sin fusionarlos."
+      },
+      "pasaje_origen": "git fetch",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-git-comandos-9",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "comando": "git pull",
+        "accion": "Descarga y fusiona cambios del remoto en la rama actual."
+      },
+      "pasaje_origen": "git pull",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-git-comandos-10",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "comando": "git push",
+        "accion": "Sube los commits locales al repositorio remoto."
+      },
+      "pasaje_origen": "git push",
+      "ubicacion": {},
+      "verificado": false
+    }
+  ],
+  "verificado": false
+}

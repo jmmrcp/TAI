@@ -1,0 +1,143 @@
+{
+  "id": "cuadro-ipv4-clases-subnetting",
+  "tema_id": "tema-30-modelo-tcp-ip-y-osi-protocolos-tcp-ip",
+  "tipo_dato": "direccionamiento",
+  "titulo": "Clases IPv4 y ejemplo de subnetting",
+  "semilla": false,
+  "n_filas": 8,
+  "n_fuentes_distintas": 1,
+  "columnas": [
+    "clase_o_escenario",
+    "rango_primera_octava",
+    "mascara_por_defecto",
+    "bits_red_host",
+    "observacion"
+  ],
+  "columna_clave": "clase_o_escenario",
+  "columna_respuesta": "mascara_por_defecto",
+  "columna_contexto": "rango_primera_octava",
+  "columna_fuente": "fuente",
+  "filas": [
+    {
+      "id": "c-ipv4-1",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "clase_o_escenario": "Clase A",
+        "rango_primera_octava": "1 - 126",
+        "mascara_por_defecto": "255.0.0.0 (/8)",
+        "bits_red_host": "8 / 24",
+        "observacion": "Redes muy grandes; 127.0.0.0/8 reservado (loopback)"
+      },
+      "pasaje_origen": "Direccionamiento IPv4",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-ipv4-2",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "clase_o_escenario": "Clase B",
+        "rango_primera_octava": "128 - 191",
+        "mascara_por_defecto": "255.255.0.0 (/16)",
+        "bits_red_host": "16 / 16",
+        "observacion": "Redes medianas"
+      },
+      "pasaje_origen": "Direccionamiento IPv4",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-ipv4-3",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "clase_o_escenario": "Clase C",
+        "rango_primera_octava": "192 - 223",
+        "mascara_por_defecto": "255.255.255.0 (/24)",
+        "bits_red_host": "24 / 8",
+        "observacion": "Redes pequeñas"
+      },
+      "pasaje_origen": "Direccionamiento IPv4",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-ipv4-4",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "clase_o_escenario": "Clase D",
+        "rango_primera_octava": "224 - 239",
+        "mascara_por_defecto": "Multicast (sin máscara clásica)",
+        "bits_red_host": "—",
+        "observacion": "Direcciones multicast"
+      },
+      "pasaje_origen": "Direccionamiento IPv4",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-ipv4-5",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "clase_o_escenario": "Clase E",
+        "rango_primera_octava": "240 - 255",
+        "mascara_por_defecto": "Reservado/experimental",
+        "bits_red_host": "—",
+        "observacion": "Uso futuro/experimental"
+      },
+      "pasaje_origen": "Direccionamiento IPv4",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-ipv4-6",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "clase_o_escenario": "Subnetting: 10.0.0.0/8 para 600 subredes",
+        "rango_primera_octava": "10.x.x.x",
+        "mascara_por_defecto": "255.255.192.0 (/18)",
+        "bits_red_host": "10 bits subred / 14 bits host",
+        "observacion": "2^10=1024 subredes (>=600); hosts por subred = 2^14-2 = 16382"
+      },
+      "pasaje_origen": "Subnetting IPv4",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-ipv4-7",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "clase_o_escenario": "Subnetting: 192.168.1.0/24 para 4 subredes",
+        "rango_primera_octava": "192.168.1.x",
+        "mascara_por_defecto": "255.255.255.192 (/26)",
+        "bits_red_host": "2 bits subred / 6 bits host",
+        "observacion": "2^2=4 subredes; hosts por subred = 2^6-2 = 62"
+      },
+      "pasaje_origen": "Subnetting IPv4",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-ipv4-8",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "clase_o_escenario": "Direcciones asignables a host",
+        "rango_primera_octava": "cualquier red",
+        "mascara_por_defecto": "distinta de red y broadcast",
+        "bits_red_host": "host != todo 0 / todo 1",
+        "observacion": "La dirección de red (host todo 0) y broadcast (host todo 1) no son asignables a hosts"
+      },
+      "pasaje_origen": "Direccionamiento IPv4",
+      "ubicacion": {},
+      "verificado": false
+    }
+  ],
+  "verificado": false
+}

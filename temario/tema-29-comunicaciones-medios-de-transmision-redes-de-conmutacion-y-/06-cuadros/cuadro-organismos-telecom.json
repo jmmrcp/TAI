@@ -1,0 +1,99 @@
+{
+  "id": "cuadro-organismos-telecom",
+  "tema_id": "tema-29-comunicaciones-medios-de-transmision-redes-de-conmutacion-y-",
+  "tipo_dato": "organo",
+  "titulo": "Organismos de telecomunicaciones y estandarización",
+  "semilla": false,
+  "n_filas": 6,
+  "n_fuentes_distintas": 1,
+  "columnas": [
+    "organismo",
+    "ambito",
+    "funcion_principal"
+  ],
+  "columna_clave": "organismo",
+  "columna_respuesta": "ambito",
+  "columna_contexto": "funcion_principal",
+  "columna_fuente": "fuente",
+  "filas": [
+    {
+      "id": "c-org-1",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "organismo": "ITU",
+        "ambito": "ONU (internacional)",
+        "funcion_principal": "Regulación internacional de telecomunicaciones entre administraciones y operadores"
+      },
+      "pasaje_origen": "Organismo especializado de la ONU",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-org-2",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "organismo": "ETSI",
+        "ambito": "Europa",
+        "funcion_principal": "Elaboración de estándares de telecomunicaciones en Europa"
+      },
+      "pasaje_origen": "Estandarización europea",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-org-3",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "organismo": "IEEE",
+        "ambito": "Internacional",
+        "funcion_principal": "Estándares de redes (familia 802) y electrónica"
+      },
+      "pasaje_origen": "Estandarización de redes",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-org-4",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "organismo": "IETF",
+        "ambito": "Internacional",
+        "funcion_principal": "Estándares de Internet (RFC) y protocolos TCP/IP"
+      },
+      "pasaje_origen": "Estandarización de Internet",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-org-5",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "organismo": "3GPP",
+        "ambito": "Internacional",
+        "funcion_principal": "Especificaciones de sistemas móviles (LTE, 5G)"
+      },
+      "pasaje_origen": "Estandarización móvil",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-org-6",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "organismo": "ISO",
+        "ambito": "Internacional",
+        "funcion_principal": "Estándares generales (modelo OSI, ISO/IEC)"
+      },
+      "pasaje_origen": "Estandarización general",
+      "ubicacion": {},
+      "verificado": false
+    }
+  ],
+  "verificado": false
+}

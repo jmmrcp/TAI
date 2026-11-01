@@ -1,0 +1,128 @@
+{
+  "id": "cuadro-capas-osi-tcpip",
+  "tema_id": "tema-30-modelo-tcp-ip-y-osi-protocolos-tcp-ip",
+  "tipo_dato": "capas",
+  "titulo": "Modelo OSI (7 capas) vs modelo TCP/IP (4 capas)",
+  "semilla": false,
+  "n_filas": 7,
+  "n_fuentes_distintas": 1,
+  "columnas": [
+    "capa_osi",
+    "numero",
+    "funcion_principal",
+    "capa_tcpip",
+    "protocolos_ejemplo"
+  ],
+  "columna_clave": "capa_osi",
+  "columna_respuesta": "capa_tcpip",
+  "columna_contexto": "funcion_principal",
+  "columna_fuente": "fuente",
+  "filas": [
+    {
+      "id": "c-capas-1",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "capa_osi": "Física",
+        "numero": "1",
+        "funcion_principal": "Transmisión de bits por el medio físico",
+        "capa_tcpip": "Acceso a red",
+        "protocolos_ejemplo": "Ethernet, Wi-Fi, PPP"
+      },
+      "pasaje_origen": "Modelo OSI/TCP-IP",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-capas-2",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "capa_osi": "Enlace de datos",
+        "numero": "2",
+        "funcion_principal": "Tramas, direccionamiento MAC, detección de errores",
+        "capa_tcpip": "Acceso a red",
+        "protocolos_ejemplo": "Ethernet, ARP, PPP"
+      },
+      "pasaje_origen": "Modelo OSI/TCP-IP",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-capas-3",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "capa_osi": "Red",
+        "numero": "3",
+        "funcion_principal": "Direccionamiento lógico y enrutamiento",
+        "capa_tcpip": "Internet",
+        "protocolos_ejemplo": "IP, ICMP, IGMP"
+      },
+      "pasaje_origen": "Modelo OSI/TCP-IP",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-capas-4",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "capa_osi": "Transporte",
+        "numero": "4",
+        "funcion_principal": "Comunicación extremo a extremo, fiabilidad",
+        "capa_tcpip": "Transporte",
+        "protocolos_ejemplo": "TCP, UDP"
+      },
+      "pasaje_origen": "Modelo OSI/TCP-IP",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-capas-5",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "capa_osi": "Sesión",
+        "numero": "5",
+        "funcion_principal": "Establecimiento, gestión y cierre de sesiones",
+        "capa_tcpip": "Aplicación",
+        "protocolos_ejemplo": "NetBIOS, RPC"
+      },
+      "pasaje_origen": "Modelo OSI/TCP-IP",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-capas-6",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "capa_osi": "Presentación",
+        "numero": "6",
+        "funcion_principal": "Negociación de sintaxis de transferencia; transformaciones de datos (cifrado, compresión)",
+        "capa_tcpip": "Aplicación",
+        "protocolos_ejemplo": "TLS/SSL (conceptual), XDR"
+      },
+      "pasaje_origen": "Modelo OSI/TCP-IP",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-capas-7",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "capa_osi": "Aplicación",
+        "numero": "7",
+        "funcion_principal": "Servicios de red al usuario final",
+        "capa_tcpip": "Aplicación",
+        "protocolos_ejemplo": "HTTP, FTP, SMTP, DNS, Telnet"
+      },
+      "pasaje_origen": "Modelo OSI/TCP-IP",
+      "ubicacion": {},
+      "verificado": false
+    }
+  ],
+  "verificado": false
+}

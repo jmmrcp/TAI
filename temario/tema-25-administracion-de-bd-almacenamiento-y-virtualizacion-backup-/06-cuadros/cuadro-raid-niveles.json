@@ -1,0 +1,92 @@
+{
+  "id": "cuadro-raid-niveles",
+  "tema_id": "tema-25-administracion-de-bd-almacenamiento-y-virtualizacion-backup-",
+  "tipo_dato": "raid",
+  "titulo": "Niveles RAID: caracteristicas y tolerancia a fallos",
+  "semilla": false,
+  "n_filas": 5,
+  "n_fuentes_distintas": 1,
+  "columnas": [
+    "nivel",
+    "tecnica",
+    "tolerancia_fallos",
+    "min_discos"
+  ],
+  "columna_clave": "nivel",
+  "columna_respuesta": "tolerancia_fallos",
+  "columna_contexto": "tecnica",
+  "columna_fuente": "fuente",
+  "filas": [
+    {
+      "id": "c-raid-1",
+      "fuente": "examenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "nivel": "RAID 0",
+        "tecnica": "Striping sin redundancia",
+        "tolerancia_fallos": "0",
+        "min_discos": "2"
+      },
+      "pasaje_origen": "Sistemas RAID",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-raid-2",
+      "fuente": "examenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "nivel": "RAID 1",
+        "tecnica": "Mirroring (espejo)",
+        "tolerancia_fallos": "1 (hasta n-1 en mirror)",
+        "min_discos": "2"
+      },
+      "pasaje_origen": "Sistemas RAID",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-raid-3",
+      "fuente": "examenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "nivel": "RAID 5",
+        "tecnica": "Striping con paridad distribuida (acceso independiente)",
+        "tolerancia_fallos": "1",
+        "min_discos": "3"
+      },
+      "pasaje_origen": "Sistemas RAID",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-raid-4",
+      "fuente": "examenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "nivel": "RAID 6",
+        "tecnica": "Striping con doble paridad distribuida",
+        "tolerancia_fallos": "2",
+        "min_discos": "4"
+      },
+      "pasaje_origen": "Sistemas RAID",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-raid-5",
+      "fuente": "examenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "nivel": "RAID 10",
+        "tecnica": "Mirroring + striping",
+        "tolerancia_fallos": "1 por mirror (hasta n/2)",
+        "min_discos": "4"
+      },
+      "pasaje_origen": "Sistemas RAID",
+      "ubicacion": {},
+      "verificado": false
+    }
+  ],
+  "verificado": false
+}

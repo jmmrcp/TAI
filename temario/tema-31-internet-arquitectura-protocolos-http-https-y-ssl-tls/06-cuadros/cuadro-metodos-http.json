@@ -1,0 +1,148 @@
+{
+  "id": "cuadro-metodos-http",
+  "tema_id": "tema-31-internet-arquitectura-protocolos-http-https-y-ssl-tls",
+  "tipo_dato": "metodos_http",
+  "titulo": "Métodos HTTP: seguridad e idempotencia",
+  "semilla": false,
+  "n_filas": 9,
+  "n_fuentes_distintas": 1,
+  "columnas": [
+    "metodo",
+    "seguro",
+    "idempotente",
+    "descripcion"
+  ],
+  "columna_clave": "metodo",
+  "columna_respuesta": "idempotente",
+  "columna_contexto": "seguro",
+  "columna_fuente": "fuente",
+  "filas": [
+    {
+      "id": "c-metodos-http-1",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "metodo": "GET",
+        "seguro": "Sí",
+        "idempotente": "Sí",
+        "descripcion": "Obtiene un recurso; no modifica estado"
+      },
+      "pasaje_origen": "Métodos HTTP: seguridad e idempotencia",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-metodos-http-2",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "metodo": "HEAD",
+        "seguro": "Sí",
+        "idempotente": "Sí",
+        "descripcion": "Como GET pero solo cabeceras"
+      },
+      "pasaje_origen": "Métodos HTTP: seguridad e idempotencia",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-metodos-http-3",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "metodo": "OPTIONS",
+        "seguro": "Sí",
+        "idempotente": "Sí",
+        "descripcion": "Describe métodos soportados (CORS/preflight)"
+      },
+      "pasaje_origen": "Métodos HTTP: seguridad e idempotencia",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-metodos-http-4",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "metodo": "TRACE",
+        "seguro": "Sí",
+        "idempotente": "Sí",
+        "descripcion": "Eco de la petición (diagnóstico)"
+      },
+      "pasaje_origen": "Métodos HTTP: seguridad e idempotencia",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-metodos-http-5",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "metodo": "POST",
+        "seguro": "No",
+        "idempotente": "No",
+        "descripcion": "Envía datos / crea recurso; no idempotente"
+      },
+      "pasaje_origen": "Métodos HTTP: seguridad e idempotencia",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-metodos-http-6",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "metodo": "PUT",
+        "seguro": "No",
+        "idempotente": "Sí",
+        "descripcion": "Crea o reemplaza recurso completo"
+      },
+      "pasaje_origen": "Métodos HTTP: seguridad e idempotencia",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-metodos-http-7",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "metodo": "DELETE",
+        "seguro": "No",
+        "idempotente": "Sí",
+        "descripcion": "Elimina un recurso"
+      },
+      "pasaje_origen": "Métodos HTTP: seguridad e idempotencia",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-metodos-http-8",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "metodo": "PATCH",
+        "seguro": "No",
+        "idempotente": "No (en general)",
+        "descripcion": "Modificación parcial de un recurso"
+      },
+      "pasaje_origen": "Métodos HTTP: seguridad e idempotencia",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-metodos-http-9",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "metodo": "CONNECT",
+        "seguro": "No",
+        "idempotente": "No",
+        "descripcion": "Establece túnel (proxy HTTPS)"
+      },
+      "pasaje_origen": "Métodos HTTP: seguridad e idempotencia",
+      "ubicacion": {},
+      "verificado": false
+    }
+  ],
+  "verificado": false
+}

@@ -1,0 +1,113 @@
+{
+  "id": "cuadro-enrutamiento",
+  "tema_id": "tema-30-modelo-tcp-ip-y-osi-protocolos-tcp-ip",
+  "tipo_dato": "protocolos",
+  "titulo": "Protocolos de enrutamiento: algoritmo y métrica",
+  "semilla": false,
+  "n_filas": 6,
+  "n_fuentes_distintas": 1,
+  "columnas": [
+    "protocolo",
+    "algoritmo",
+    "ambito",
+    "metrica",
+    "transporte"
+  ],
+  "columna_clave": "protocolo",
+  "columna_respuesta": "algoritmo",
+  "columna_contexto": "metrica",
+  "columna_fuente": "fuente",
+  "filas": [
+    {
+      "id": "c-enr-1",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "protocolo": "RIP (v1/v2)",
+        "algoritmo": "Vector de distancia",
+        "ambito": "Interior (IGP)",
+        "metrica": "Saltos (máx. 15)",
+        "transporte": "UDP 520"
+      },
+      "pasaje_origen": "Enrutamiento",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-enr-2",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "protocolo": "OSPF",
+        "algoritmo": "Estado de enlace (link-state)",
+        "ambito": "Interior (IGP)",
+        "metrica": "Coste (ancho de banda)",
+        "transporte": "IP protocolo 89"
+      },
+      "pasaje_origen": "Enrutamiento",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-enr-3",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "protocolo": "IS-IS",
+        "algoritmo": "Estado de enlace",
+        "ambito": "Interior (IGP)",
+        "metrica": "Coste",
+        "transporte": "Capa 2/CLNP"
+      },
+      "pasaje_origen": "Enrutamiento",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-enr-4",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "protocolo": "BGP",
+        "algoritmo": "Vector de caminos (path-vector)",
+        "ambito": "Exterior (EGP)",
+        "metrica": "Atributos (AS_PATH, etc.)",
+        "transporte": "TCP 179"
+      },
+      "pasaje_origen": "Enrutamiento",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-enr-5",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "protocolo": "EIGRP",
+        "algoritmo": "Vector de distancia avanzado (DUAL)",
+        "ambito": "Interior (Cisco)",
+        "metrica": "Compuesta (ancho banda, retardo)",
+        "transporte": "IP protocolo 88"
+      },
+      "pasaje_origen": "Enrutamiento",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-enr-6",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "protocolo": "IGRP",
+        "algoritmo": "Vector de distancia",
+        "ambito": "Interior (Cisco, obsoleto)",
+        "metrica": "Compuesta",
+        "transporte": "IP protocolo 9"
+      },
+      "pasaje_origen": "Enrutamiento",
+      "ubicacion": {},
+      "verificado": false
+    }
+  ],
+  "verificado": false
+}

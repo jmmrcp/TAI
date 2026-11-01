@@ -1,0 +1,112 @@
+{
+  "id": "cuadro-snmp-comandos-pdu",
+  "tema_id": "tema-27-administracion-de-redes-lan-gestion-de-usuarios-y-dispositiv",
+  "tipo_dato": "listado",
+  "titulo": "SNMP: comandos y PDUs principales",
+  "semilla": false,
+  "n_filas": 7,
+  "n_fuentes_distintas": 1,
+  "columnas": [
+    "comando",
+    "tipo",
+    "descripcion"
+  ],
+  "columna_clave": "comando",
+  "columna_respuesta": "tipo",
+  "columna_contexto": "descripcion",
+  "columna_fuente": "fuente",
+  "filas": [
+    {
+      "id": "cuadro-snmp-comandos-pdu-1",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "comando": "GET",
+        "tipo": "Solicitud",
+        "descripcion": "Recupera el valor de una o varias variables (OID) concretas"
+      },
+      "pasaje_origen": "Comandos SNMP",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "cuadro-snmp-comandos-pdu-2",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "comando": "GETNEXT",
+        "tipo": "Solicitud",
+        "descripcion": "Recupera el siguiente OID en el árbol MIB (recorrido lexicográfico)"
+      },
+      "pasaje_origen": "Comandos SNMP",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "cuadro-snmp-comandos-pdu-3",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "comando": "GETBULK",
+        "tipo": "Solicitud",
+        "descripcion": "Recupera datos voluminosos de una tabla MIB grande de forma eficiente (v2c/v3)"
+      },
+      "pasaje_origen": "Comandos SNMP",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "cuadro-snmp-comandos-pdu-4",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "comando": "SET",
+        "tipo": "Solicitud",
+        "descripcion": "Modifica el valor de una variable gestionada en el agente"
+      },
+      "pasaje_origen": "Comandos SNMP",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "cuadro-snmp-comandos-pdu-5",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "comando": "TRAP",
+        "tipo": "Notificación no solicitada",
+        "descripcion": "Mensaje que el agente envía al gestor ante un evento inesperado (sin confirmación)"
+      },
+      "pasaje_origen": "Comandos SNMP",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "cuadro-snmp-comandos-pdu-6",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "comando": "INFORM",
+        "tipo": "Notificación confirmada",
+        "descripcion": "Notificación del agente con acuse de recibo del gestor"
+      },
+      "pasaje_origen": "Comandos SNMP",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "cuadro-snmp-comandos-pdu-7",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "comando": "RESPONSE",
+        "tipo": "Respuesta",
+        "descripcion": "Respuesta del agente a una solicitud GET/SET"
+      },
+      "pasaje_origen": "Comandos SNMP",
+      "ubicacion": {},
+      "verificado": false
+    }
+  ],
+  "verificado": false
+}
