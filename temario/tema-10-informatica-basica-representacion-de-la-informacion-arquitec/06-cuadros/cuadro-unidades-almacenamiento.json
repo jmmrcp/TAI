@@ -1,0 +1,138 @@
+{
+  "id": "cuadro-unidades-almacenamiento",
+  "tema_id": "tema-10-informatica-basica-representacion-de-la-informacion-arquitec",
+  "tipo_dato": "unidades",
+  "titulo": "Unidades de medida de almacenamiento (orden creciente de capacidad)",
+  "semilla": false,
+  "n_filas": 9,
+  "n_fuentes_distintas": 1,
+  "columnas": [
+    "unidad",
+    "abreviatura",
+    "equivalencia"
+  ],
+  "columna_clave": "unidad",
+  "columna_respuesta": "equivalencia",
+  "columna_contexto": "abreviatura",
+  "columna_fuente": "fuente",
+  "filas": [
+    {
+      "id": "c-unidades-1",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "unidad": "bit",
+        "abreviatura": "b",
+        "equivalencia": "unidad mínima de información (0/1)"
+      },
+      "pasaje_origen": "Representación de la información",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-unidades-2",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "unidad": "byte (octeto)",
+        "abreviatura": "B",
+        "equivalencia": "8 bits"
+      },
+      "pasaje_origen": "Representación de la información",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-unidades-3",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "unidad": "kilobyte",
+        "abreviatura": "KB",
+        "equivalencia": "1024 bytes"
+      },
+      "pasaje_origen": "Unidades de almacenamiento",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-unidades-4",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "unidad": "megabyte",
+        "abreviatura": "MB",
+        "equivalencia": "1024 KB"
+      },
+      "pasaje_origen": "Unidades de almacenamiento",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-unidades-5",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "unidad": "gigabyte",
+        "abreviatura": "GB",
+        "equivalencia": "1024 MB"
+      },
+      "pasaje_origen": "Unidades de almacenamiento",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-unidades-6",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "unidad": "terabyte",
+        "abreviatura": "TB",
+        "equivalencia": "1024 GB"
+      },
+      "pasaje_origen": "Unidades de almacenamiento",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-unidades-7",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "unidad": "petabyte",
+        "abreviatura": "PB",
+        "equivalencia": "1024 TB"
+      },
+      "pasaje_origen": "Unidades de almacenamiento",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-unidades-8",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "unidad": "exabyte",
+        "abreviatura": "EB",
+        "equivalencia": "1024 PB"
+      },
+      "pasaje_origen": "Unidades de almacenamiento",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-unidades-9",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "unidad": "zettabyte",
+        "abreviatura": "ZB",
+        "equivalencia": "1024 EB"
+      },
+      "pasaje_origen": "Unidades de almacenamiento",
+      "ubicacion": {},
+      "verificado": false
+    }
+  ],
+  "verificado": false
+}

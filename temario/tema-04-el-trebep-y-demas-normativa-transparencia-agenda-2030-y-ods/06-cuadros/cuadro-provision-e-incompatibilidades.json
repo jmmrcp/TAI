@@ -1,0 +1,99 @@
+{
+  "id": "cuadro-provision-e-incompatibilidades",
+  "tema_id": "tema-04-el-trebep-y-demas-normativa-transparencia-agenda-2030-y-ods",
+  "tipo_dato": "provision",
+  "titulo": "Provisión de puestos (TREBEP art. 78) e incompatibilidades (Ley 53/1984 art. 18)",
+  "semilla": false,
+  "n_filas": 6,
+  "n_fuentes_distintas": 1,
+  "columnas": [
+    "concepto",
+    "es_principio_o_inscripcion",
+    "norma"
+  ],
+  "columna_clave": "concepto",
+  "columna_respuesta": "es_principio_o_inscripcion",
+  "columna_contexto": "norma",
+  "columna_fuente": "fuente",
+  "filas": [
+    {
+      "id": "c-prov-1",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "Igualdad",
+        "es_principio_o_inscripcion": "Sí (principio de provisión)",
+        "norma": "RDL 5/2015 (TREBEP), art. 78.1"
+      },
+      "pasaje_origen": "Examen TAI 2026 modelos A/B, teórica 8",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-prov-2",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "Mérito",
+        "es_principio_o_inscripcion": "Sí (principio de provisión)",
+        "norma": "RDL 5/2015 (TREBEP), art. 78.1"
+      },
+      "pasaje_origen": "Examen TAI 2026 modelos A/B, teórica 8",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-prov-3",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "Capacidad",
+        "es_principio_o_inscripcion": "Sí (principio de provisión)",
+        "norma": "RDL 5/2015 (TREBEP), art. 78.1"
+      },
+      "pasaje_origen": "Examen TAI 2026 modelos A/B, teórica 8",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-prov-4",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "Publicidad",
+        "es_principio_o_inscripcion": "Sí (principio de provisión)",
+        "norma": "RDL 5/2015 (TREBEP), art. 78.1"
+      },
+      "pasaje_origen": "Examen TAI 2026 modelos A/B, teórica 8",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-prov-5",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "Conocimiento",
+        "es_principio_o_inscripcion": "No (no es principio de provisión)",
+        "norma": "RDL 5/2015 (TREBEP), art. 78.1"
+      },
+      "pasaje_origen": "Examen TAI 2026 modelos A/B, teórica 8",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-prov-6",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "Inscripción de resoluciones de compatibilidad",
+        "es_principio_o_inscripcion": "En los Registros de Personal correspondientes",
+        "norma": "Ley 53/1984, art. 18"
+      },
+      "pasaje_origen": "Examen TAI 2023 teórica 8 / 2026 modelo C teórica 9",
+      "ubicacion": {},
+      "verificado": false
+    }
+  ],
+  "verificado": false
+}

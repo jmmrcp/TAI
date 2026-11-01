@@ -1,0 +1,138 @@
+{
+  "id": "cuadro-sede-electronica-servicios",
+  "tema_id": "tema-09-instrumentos-para-el-acceso-electronico-sedes-infraestructur",
+  "tipo_dato": "lista",
+  "titulo": "Servicios mínimos de las sedes electrónicas (art. 11.2 RD 203/2021)",
+  "semilla": false,
+  "n_filas": 9,
+  "n_fuentes_distintas": 1,
+  "columnas": [
+    "letra",
+    "servicio",
+    "referencia"
+  ],
+  "columna_clave": "letra",
+  "columna_respuesta": "servicio",
+  "columna_contexto": "referencia",
+  "columna_fuente": "fuente",
+  "filas": [
+    {
+      "id": "c-sede-serv-1",
+      "fuente": "Real Decreto 203/2021",
+      "fuente_tipo": "articulo",
+      "valores": {
+        "letra": "a)",
+        "servicio": "Un acceso a los servicios y trámites disponibles en la sede, con indicación de los plazos máximos de duración de los procedimientos, excluyendo las posibles ampliaciones o suspensiones que en su caso pudiera acordar el órgano competente.",
+        "referencia": "Art. 11.2.a"
+      },
+      "pasaje_origen": "Art. 11.2.a",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-sede-serv-2",
+      "fuente": "Real Decreto 203/2021",
+      "fuente_tipo": "articulo",
+      "valores": {
+        "letra": "b)",
+        "servicio": "Un enlace para la formulación de sugerencias y quejas ante los órganos que en cada caso resulten competentes.",
+        "referencia": "Art. 11.2.b"
+      },
+      "pasaje_origen": "Art. 11.2.b",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-sede-serv-3",
+      "fuente": "Real Decreto 203/2021",
+      "fuente_tipo": "articulo",
+      "valores": {
+        "letra": "c)",
+        "servicio": "Los mecanismos de comunicación y procedimiento de reclamación establecidos al respecto de los requisitos de accesibilidad de los sitios web y aplicaciones móviles del sector público.",
+        "referencia": "Art. 11.2.c"
+      },
+      "pasaje_origen": "Art. 11.2.c",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-sede-serv-4",
+      "fuente": "Real Decreto 203/2021",
+      "fuente_tipo": "articulo",
+      "valores": {
+        "letra": "d)",
+        "servicio": "Un sistema de verificación de los certificados de la sede electrónica.",
+        "referencia": "Art. 11.2.d"
+      },
+      "pasaje_origen": "Art. 11.2.d",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-sede-serv-5",
+      "fuente": "Real Decreto 203/2021",
+      "fuente_tipo": "articulo",
+      "valores": {
+        "letra": "e)",
+        "servicio": "Un sistema de verificación de los sellos electrónicos de los órganos, organismos públicos o entidades de derecho público que abarque la sede electrónica o sede electrónica asociada.",
+        "referencia": "Art. 11.2.e"
+      },
+      "pasaje_origen": "Art. 11.2.e",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-sede-serv-6",
+      "fuente": "Real Decreto 203/2021",
+      "fuente_tipo": "articulo",
+      "valores": {
+        "letra": "f)",
+        "servicio": "Un servicio de comprobación de la autenticidad e integridad de los documentos emitidos por los órganos, organismos públicos o entidades de derecho público comprendidos en el ámbito de la sede, firmados por cualquiera de los sistemas de firma conformes a la Ley 40/2015 y para los cuales se haya generado un código seguro de verificación (CSV).",
+        "referencia": "Art. 11.2.f"
+      },
+      "pasaje_origen": "Art. 11.2.f",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-sede-serv-7",
+      "fuente": "Real Decreto 203/2021",
+      "fuente_tipo": "articulo",
+      "valores": {
+        "letra": "g)",
+        "servicio": "Un acceso a los modelos y sistemas de presentación masiva, de uso voluntario, que permitan presentar simultáneamente varias solicitudes en la forma que establezca, en su caso, cada Administración, organismo público o entidad de derecho público titular.",
+        "referencia": "Art. 11.2.g"
+      },
+      "pasaje_origen": "Art. 11.2.g",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-sede-serv-8",
+      "fuente": "Real Decreto 203/2021",
+      "fuente_tipo": "articulo",
+      "valores": {
+        "letra": "h)",
+        "servicio": "El acceso a los modelos normalizados de presentación de solicitudes que establezca, en su caso, cada Administración u organismo público o entidad de derecho público titular.",
+        "referencia": "Art. 11.2.h"
+      },
+      "pasaje_origen": "Art. 11.2.h",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-sede-serv-9",
+      "fuente": "Real Decreto 203/2021",
+      "fuente_tipo": "articulo",
+      "valores": {
+        "letra": "i)",
+        "servicio": "Un servicio de consulta del directorio geográfico de oficinas de asistencia en materia de registros, que permita al interesado identificar la más próxima a su dirección de consulta.",
+        "referencia": "Art. 11.2.i"
+      },
+      "pasaje_origen": "Art. 11.2.i",
+      "ubicacion": {},
+      "verificado": false
+    }
+  ],
+  "verificado": false
+}

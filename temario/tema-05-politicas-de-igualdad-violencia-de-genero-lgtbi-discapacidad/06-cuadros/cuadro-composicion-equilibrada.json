@@ -1,0 +1,47 @@
+{
+  "id": "cuadro-composicion-equilibrada",
+  "tema_id": "tema-05-politicas-de-igualdad-violencia-de-genero-lgtbi-discapacidad",
+  "tipo_dato": "porcentajes",
+  "titulo": "Composición equilibrada (disp. adic. 1.ª LO 3/2007)",
+  "semilla": false,
+  "n_filas": 2,
+  "n_fuentes_distintas": 1,
+  "columnas": [
+    "sexo",
+    "minimo_porcentaje",
+    "maximo_porcentaje"
+  ],
+  "columna_clave": "sexo",
+  "columna_respuesta": "maximo_porcentaje",
+  "columna_contexto": "minimo_porcentaje",
+  "columna_fuente": "fuente",
+  "filas": [
+    {
+      "id": "c-composicion-equilibrada-1",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "sexo": "Mujeres",
+        "minimo_porcentaje": "40%",
+        "maximo_porcentaje": "60%"
+      },
+      "pasaje_origen": "Disposición adicional primera LO 3/2007: composición equilibrada es presencia de mujeres y hombres de forma que las personas de cada sexo no superen el 60% ni sean menos del 40%",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-composicion-equilibrada-2",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "sexo": "Hombres",
+        "minimo_porcentaje": "40%",
+        "maximo_porcentaje": "60%"
+      },
+      "pasaje_origen": "Disposición adicional primera LO 3/2007",
+      "ubicacion": {},
+      "verificado": false
+    }
+  ],
+  "verificado": false
+}

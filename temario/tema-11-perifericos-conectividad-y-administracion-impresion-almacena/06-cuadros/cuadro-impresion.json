@@ -1,0 +1,138 @@
+{
+  "id": "cuadro-impresion",
+  "tema_id": "tema-11-perifericos-conectividad-y-administracion-impresion-almacena",
+  "tipo_dato": "referencia",
+  "titulo": "Impresión: protocolos y administración",
+  "semilla": false,
+  "n_filas": 9,
+  "n_fuentes_distintas": 1,
+  "columnas": [
+    "concepto",
+    "descripcion",
+    "detalle"
+  ],
+  "columna_clave": "concepto",
+  "columna_respuesta": "descripcion",
+  "columna_contexto": "detalle",
+  "columna_fuente": "fuente",
+  "filas": [
+    {
+      "id": "c-imp-1",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "IPP",
+        "descripcion": "Internet Printing Protocol",
+        "detalle": "Protocolo estándar (RFC 2910/2911) para imprimir y gestionar trabajos vía HTTP/HTTPS"
+      },
+      "pasaje_origen": "IPP",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-imp-2",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "Spooler",
+        "descripcion": "Servicio de cola de impresión",
+        "detalle": "Almacena trabajos temporalmente y los envía a la impresora"
+      },
+      "pasaje_origen": "Administración impresión",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-imp-3",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "Cola de impresión",
+        "descripcion": "Lista de trabajos pendientes",
+        "detalle": "Gestión FIFO/prioridades; pausa/reanudación"
+      },
+      "pasaje_origen": "Administración impresión",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-imp-4",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "Driver de impresora",
+        "descripcion": "Controlador de dispositivo",
+        "detalle": "Software que traduce comandos del SO al lenguaje de la impresora"
+      },
+      "pasaje_origen": "Controlador de dispositivo periférico",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-imp-5",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "CUPS",
+        "descripcion": "Common Unix Printing System",
+        "detalle": "Sistema de impresión estándar en Linux/Unix (usa IPP)"
+      },
+      "pasaje_origen": "Administración impresión",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-imp-6",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "PCL",
+        "descripcion": "Printer Command Language (HP)",
+        "detalle": "Lenguaje de descripción de página para impresoras"
+      },
+      "pasaje_origen": "Administración impresión",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-imp-7",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "PostScript",
+        "descripcion": "Lenguaje de descripción de página (Adobe)",
+        "detalle": "Independiente del dispositivo; usado en impresión profesional"
+      },
+      "pasaje_origen": "Administración impresión",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-imp-8",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "Controlador de dispositivo periférico",
+        "descripcion": "Software/driver",
+        "detalle": "Permite al SO comunicarse y controlar el hardware periférico"
+      },
+      "pasaje_origen": "Controlador de dispositivo periférico",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-imp-9",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "Gestión remota de impresión",
+        "descripcion": "IPP / Web",
+        "detalle": "Monitorización de estado, cancelación de trabajos, configuración"
+      },
+      "pasaje_origen": "IPP",
+      "ubicacion": {},
+      "verificado": false
+    }
+  ],
+  "verificado": false
+}

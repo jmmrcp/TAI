@@ -1,0 +1,104 @@
+{
+  "id": "cuadro-agenda-digital",
+  "tema_id": "tema-06-la-sociedad-de-la-informacion-identidad-y-firma-electronica-",
+  "tipo_dato": "lista",
+  "titulo": "Agenda Digital y factura electrónica",
+  "semilla": false,
+  "n_filas": 7,
+  "n_fuentes_distintas": 1,
+  "columnas": [
+    "concepto",
+    "detalle"
+  ],
+  "columna_clave": "concepto",
+  "columna_respuesta": "detalle",
+  "columna_contexto": "",
+  "columna_fuente": "fuente",
+  "filas": [
+    {
+      "id": "c-ag-1",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "Plan Avanza",
+        "detalle": "Primera iniciativa del Gobierno de España para el desarrollo de la Sociedad de la Información (2005)"
+      },
+      "pasaje_origen": "Agenda Digital",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-ag-2",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "Agenda Digital para España",
+        "detalle": "Aprobada por el Consejo de Ministros el 15 de febrero de 2013"
+      },
+      "pasaje_origen": "Agenda Digital",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-ag-3",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "España Digital 2025",
+        "detalle": "10 ejes estratégicos"
+      },
+      "pasaje_origen": "Agenda España Digital 2025",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-ag-4",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "España Digital 2026",
+        "detalle": "10 ejes estratégicos y 2 ejes transversales (colaboración público-privada y cogobernanza)"
+      },
+      "pasaje_origen": "Agenda España Digital 2026",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-ag-5",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "Plan de Digitalización de las AAPP",
+        "detalle": "Componente 11 del Plan de Recuperación, Transformación y Resiliencia (modernización de las Administraciones Públicas)"
+      },
+      "pasaje_origen": "Plan Digitalización AAPP",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-ag-6",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "Factura electrónica (Ley 56/2007 art. 1)",
+        "detalle": "Documento electrónico que cumple los requisitos legales y garantiza autenticidad del origen e integridad del contenido; obligatoria en la contratación pública"
+      },
+      "pasaje_origen": "Ley 56/2007 art. 1",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-ag-7",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "Interoperabilidad de factura electrónica",
+        "detalle": "Debe permitir su lectura y tratamiento automatizado por sistemas informáticos"
+      },
+      "pasaje_origen": "Ley 56/2007 art. 1",
+      "ubicacion": {},
+      "verificado": false
+    }
+  ],
+  "verificado": false
+}

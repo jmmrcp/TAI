@@ -1,0 +1,138 @@
+{
+  "id": "cuadro-comision-transparencia-buen-gobierno",
+  "tema_id": "tema-04-el-trebep-y-demas-normativa-transparencia-agenda-2030-y-ods",
+  "tipo_dato": "organos",
+  "titulo": "Miembros de la Comisión de Transparencia y Buen Gobierno (Ley 19/2013, art. 36)",
+  "semilla": false,
+  "n_filas": 9,
+  "n_fuentes_distintas": 1,
+  "columnas": [
+    "miembro",
+    "es_miembro",
+    "norma"
+  ],
+  "columna_clave": "miembro",
+  "columna_respuesta": "es_miembro",
+  "columna_contexto": "norma",
+  "columna_fuente": "fuente",
+  "filas": [
+    {
+      "id": "c-ctbg-1",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "miembro": "Presidente del Consejo",
+        "es_miembro": "Sí",
+        "norma": "Ley 19/2013, art. 36.2.a"
+      },
+      "pasaje_origen": "Ley 19/2013, art. 36",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-ctbg-2",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "miembro": "Un Diputado",
+        "es_miembro": "Sí",
+        "norma": "Ley 19/2013, art. 36.2.b"
+      },
+      "pasaje_origen": "Ley 19/2013, art. 36",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-ctbg-3",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "miembro": "Un Senador",
+        "es_miembro": "Sí",
+        "norma": "Ley 19/2013, art. 36.2.c"
+      },
+      "pasaje_origen": "Ley 19/2013, art. 36",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-ctbg-4",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "miembro": "Representante del Tribunal de Cuentas",
+        "es_miembro": "Sí",
+        "norma": "Ley 19/2013, art. 36.2.d"
+      },
+      "pasaje_origen": "Ley 19/2013, art. 36",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-ctbg-5",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "miembro": "Representante del Defensor del Pueblo",
+        "es_miembro": "Sí",
+        "norma": "Ley 19/2013, art. 36.2.e"
+      },
+      "pasaje_origen": "Examen TAI 2026 modelos A/B, teórica 9/7",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-ctbg-6",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "miembro": "Representante de la Agencia Española de Protección de Datos",
+        "es_miembro": "Sí",
+        "norma": "Ley 19/2013, art. 36.2.f"
+      },
+      "pasaje_origen": "Ley 19/2013, art. 36",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-ctbg-7",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "miembro": "Representante de la Secretaría de Estado de Administraciones Públicas",
+        "es_miembro": "Sí",
+        "norma": "Ley 19/2013, art. 36.2.g"
+      },
+      "pasaje_origen": "Ley 19/2013, art. 36",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-ctbg-8",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "miembro": "Representante de la Autoridad Independiente de Responsabilidad Fiscal",
+        "es_miembro": "Sí",
+        "norma": "Ley 19/2013, art. 36.2.h"
+      },
+      "pasaje_origen": "Ley 19/2013, art. 36",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-ctbg-9",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "miembro": "Representante de la Subsecretaría de Estado de Administraciones Públicas",
+        "es_miembro": "No",
+        "norma": "Ley 19/2013, art. 36.2.g"
+      },
+      "pasaje_origen": "Examen TAI 2021, teórica 7",
+      "ubicacion": {},
+      "verificado": false
+    }
+  ],
+  "verificado": false
+}

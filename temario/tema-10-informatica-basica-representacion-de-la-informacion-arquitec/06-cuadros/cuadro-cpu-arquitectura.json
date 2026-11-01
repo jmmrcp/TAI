@@ -1,0 +1,255 @@
+{
+  "id": "cuadro-cpu-arquitectura",
+  "tema_id": "tema-10-informatica-basica-representacion-de-la-informacion-arquitec",
+  "tipo_dato": "cpu",
+  "titulo": "CPU, buses, caché y arquitecturas de ordenadores",
+  "semilla": false,
+  "n_filas": 18,
+  "n_fuentes_distintas": 1,
+  "columnas": [
+    "elemento",
+    "tipo",
+    "descripcion"
+  ],
+  "columna_clave": "elemento",
+  "columna_respuesta": "descripcion",
+  "columna_contexto": "tipo",
+  "columna_fuente": "fuente",
+  "filas": [
+    {
+      "id": "c-cpu-1",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "elemento": "ALU",
+        "tipo": "componente CPU",
+        "descripcion": "Unidad Aritmético-Lógica: realiza operaciones aritméticas y lógicas; forma parte de la CPU"
+      },
+      "pasaje_origen": "La ALU es una parte de",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-cpu-2",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "elemento": "Unidad de Control (UC)",
+        "tipo": "componente CPU",
+        "descripcion": "Decodifica instrucciones y coordina el funcionamiento de la CPU"
+      },
+      "pasaje_origen": "Unidad de control",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-cpu-3",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "elemento": "Registro de instrucción (IR)",
+        "tipo": "registro",
+        "descripcion": "Almacena la instrucción que se está ejecutando en la unidad de control"
+      },
+      "pasaje_origen": "Registro de instrucción",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-cpu-4",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "elemento": "Contador de programa (PC)",
+        "tipo": "registro",
+        "descripcion": "Guarda la dirección de la siguiente instrucción a ejecutar"
+      },
+      "pasaje_origen": "Registros de la CPU",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-cpu-5",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "elemento": "MAR / MDR",
+        "tipo": "registro",
+        "descripcion": "MAR: dirección de memoria; MDR: dato leído/escrito en memoria"
+      },
+      "pasaje_origen": "Registros de la CPU",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-cpu-6",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "elemento": "Bus de datos",
+        "tipo": "bus",
+        "descripcion": "Transporta los datos entre CPU, memoria y E/S"
+      },
+      "pasaje_origen": "Bus del sistema",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-cpu-7",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "elemento": "Bus de direcciones",
+        "tipo": "bus",
+        "descripcion": "Transporta las direcciones de memoria a acceder"
+      },
+      "pasaje_origen": "Bus del sistema",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-cpu-8",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "elemento": "Bus de control",
+        "tipo": "bus",
+        "descripcion": "Transporta señales de control y sincronización"
+      },
+      "pasaje_origen": "Bus del sistema",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-cpu-9",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "elemento": "Caché L1",
+        "tipo": "memoria caché",
+        "descripcion": "Integrada en el núcleo; la más rápida y de menor capacidad"
+      },
+      "pasaje_origen": "Nivel de caché L1",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-cpu-10",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "elemento": "Caché L2",
+        "tipo": "memoria caché",
+        "descripcion": "Más capacidad que L1, algo más lenta; puede ser por núcleo"
+      },
+      "pasaje_origen": "Jerarquía de caché",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-cpu-11",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "elemento": "Caché L3",
+        "tipo": "memoria caché",
+        "descripcion": "Compartida entre núcleos; mayor capacidad y más lenta"
+      },
+      "pasaje_origen": "Jerarquía de caché",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-cpu-12",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "elemento": "Von Neumann",
+        "tipo": "arquitectura",
+        "descripcion": "Memoria única para instrucciones y datos; programa almacenado"
+      },
+      "pasaje_origen": "Arquitectura de ordenadores",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-cpu-13",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "elemento": "Harvard",
+        "tipo": "arquitectura",
+        "descripcion": "Memorias y buses separados para instrucciones y datos"
+      },
+      "pasaje_origen": "Arquitectura Harvard",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-cpu-14",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "elemento": "CISC",
+        "tipo": "arquitectura",
+        "descripcion": "Instrucciones complejas de longitud variable, microcódigo"
+      },
+      "pasaje_origen": "Modelo CISC",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-cpu-15",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "elemento": "RISC",
+        "tipo": "arquitectura",
+        "descripcion": "Instrucciones simples de longitud fija, arquitectura load/store"
+      },
+      "pasaje_origen": "Arquitectura RISC",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-cpu-16",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "elemento": "ARM",
+        "tipo": "arquitectura",
+        "descripcion": "Familia RISC de bajo consumo, dominante en móviles"
+      },
+      "pasaje_origen": "Arquitectura ARM",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-cpu-17",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "elemento": "Taxonomía de Flynn",
+        "tipo": "clasificación",
+        "descripcion": "Clasifica por flujos de instrucciones y datos: SISD, SIMD, MISD, MIMD"
+      },
+      "pasaje_origen": "Taxonomía de Flynn",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-cpu-18",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "elemento": "Tecnología de interfaz hardware",
+        "tipo": "interfaz",
+        "descripcion": "USB, HDMI, PCIe, SATA, etc. conectan la placa con periféricos"
+      },
+      "pasaje_origen": "Interfaz hardware",
+      "ubicacion": {},
+      "verificado": false
+    }
+  ],
+  "verificado": false
+}

@@ -1,0 +1,60 @@
+{
+  "id": "cuadro-prescripcion-sanciones-lopdgdd",
+  "tema_id": "tema-07-la-proteccion-de-datos-personales-derechos-digitales",
+  "tipo_dato": "plazos",
+  "titulo": "Prescripción de las sanciones en la LOPDGDD (art. 78)",
+  "semilla": false,
+  "n_filas": 3,
+  "n_fuentes_distintas": 1,
+  "columnas": [
+    "tramo_sancion",
+    "plazo_prescripcion",
+    "inicio_plazo"
+  ],
+  "columna_clave": "tramo_sancion",
+  "columna_respuesta": "plazo_prescripcion",
+  "columna_contexto": "inicio_plazo",
+  "columna_fuente": "fuente",
+  "filas": [
+    {
+      "id": "c-pres-1",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "tramo_sancion": "Importe igual o inferior a 40.000 euros",
+        "plazo_prescripcion": "1 año",
+        "inicio_plazo": "Desde el día siguiente a que sea ejecutable la resolución o haya transcurrido el plazo para recurrirla"
+      },
+      "pasaje_origen": "Art. 78.1.a LOPDGDD",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-pres-2",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "tramo_sancion": "Importe entre 40.001 y 300.000 euros",
+        "plazo_prescripcion": "2 años",
+        "inicio_plazo": "Desde el día siguiente a que sea ejecutable la resolución o haya transcurrido el plazo para recurrirla"
+      },
+      "pasaje_origen": "Art. 78.1.b LOPDGDD",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-pres-3",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "tramo_sancion": "Importe superior a 300.000 euros",
+        "plazo_prescripcion": "3 años",
+        "inicio_plazo": "Desde el día siguiente a que sea ejecutable la resolución o haya transcurrido el plazo para recurrirla"
+      },
+      "pasaje_origen": "Art. 78.1.c LOPDGDD",
+      "ubicacion": {},
+      "verificado": false
+    }
+  ],
+  "verificado": false
+}

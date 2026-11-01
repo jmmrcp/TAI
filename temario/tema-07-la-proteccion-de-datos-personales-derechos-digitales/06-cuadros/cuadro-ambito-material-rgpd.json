@@ -1,0 +1,99 @@
+{
+  "id": "cuadro-ambito-material-rgpd",
+  "tema_id": "tema-07-la-proteccion-de-datos-personales-derechos-digitales",
+  "tipo_dato": "lista",
+  "titulo": "Ámbito de aplicación material del RGPD (art. 2)",
+  "semilla": false,
+  "n_filas": 6,
+  "n_fuentes_distintas": 1,
+  "columnas": [
+    "supuesto",
+    "aplicacion",
+    "base_legal"
+  ],
+  "columna_clave": "supuesto",
+  "columna_respuesta": "aplicacion",
+  "columna_contexto": "base_legal",
+  "columna_fuente": "fuente",
+  "filas": [
+    {
+      "id": "c-amb-1",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "supuesto": "Tratamiento total o parcialmente automatizado de datos personales",
+        "aplicacion": "Sí, se aplica",
+        "base_legal": "Art. 2.1 RGPD"
+      },
+      "pasaje_origen": "Ámbito material RGPD",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-amb-2",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "supuesto": "Tratamiento no automatizado contenido o destinado a ser incluido en un fichero",
+        "aplicacion": "Sí, se aplica",
+        "base_legal": "Art. 2.1 RGPD"
+      },
+      "pasaje_origen": "Ámbito material RGPD",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-amb-3",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "supuesto": "Actividad no comprendida en el ámbito del Derecho de la Unión",
+        "aplicacion": "No se aplica",
+        "base_legal": "Art. 2.2.a RGPD"
+      },
+      "pasaje_origen": "Ámbito material RGPD",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-amb-4",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "supuesto": "Tratamiento por Estados miembros en PESC",
+        "aplicacion": "No se aplica",
+        "base_legal": "Art. 2.2.b RGPD"
+      },
+      "pasaje_origen": "Ámbito material RGPD",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-amb-5",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "supuesto": "Actividad exclusivamente personal o doméstica",
+        "aplicacion": "No se aplica",
+        "base_legal": "Art. 2.2.c RGPD"
+      },
+      "pasaje_origen": "Ámbito material RGPD",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-amb-6",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "supuesto": "Autoridades competentes con fines penales o seguridad pública",
+        "aplicacion": "No se aplica; rige la Directiva (UE) 2016/680",
+        "base_legal": "Art. 2.2.d RGPD"
+      },
+      "pasaje_origen": "Ámbito material RGPD",
+      "ubicacion": {},
+      "verificado": false
+    }
+  ],
+  "verificado": false
+}

@@ -1,0 +1,92 @@
+{
+  "id": "cuadro-eidas-identificacion",
+  "tema_id": "tema-06-la-sociedad-de-la-informacion-identidad-y-firma-electronica-",
+  "tipo_dato": "lista",
+  "titulo": "eIDAS y Ley 6/2020: identificación electrónica y certificados cualificados",
+  "semilla": false,
+  "n_filas": 6,
+  "n_fuentes_distintas": 1,
+  "columnas": [
+    "concepto",
+    "detalle"
+  ],
+  "columna_clave": "concepto",
+  "columna_respuesta": "detalle",
+  "columna_contexto": "",
+  "columna_fuente": "fuente",
+  "filas": [
+    {
+      "id": "c-eid-1",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "Niveles de aseguramiento (art. 8 eIDAS)",
+        "detalle": "Bajo, substancial y alto"
+      },
+      "pasaje_origen": "eIDAS art. 8",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-eid-2",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "Anexo III eIDAS (certificados cualificados de sello electrónico)",
+        "detalle": "Conjunto de datos que representan de manera inequívoca a la persona jurídica y demás datos del certificado"
+      },
+      "pasaje_origen": "eIDAS Anexo III",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-eid-3",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "Vigencia certificados cualificados (Ley 6/2020 art. 4)",
+        "detalle": "No superior a 5 años"
+      },
+      "pasaje_origen": "Ley 6/2020 art. 4",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-eid-4",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "Pseudónimo en certificados (Ley 6/2020 art. 6)",
+        "detalle": "Permitido en certificados de firma electrónica y autenticación de sitio web a personas físicas, constando como tal de forma inequívoca"
+      },
+      "pasaje_origen": "Ley 6/2020 art. 6",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-eid-5",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "Identificación del solicitante (Ley 6/2020 art. 7)",
+        "detalle": "Personación ante verificadores con DNI/pasaporte; también legitimación notarial o vídeo-identificación equivalente"
+      },
+      "pasaje_origen": "Ley 6/2020 art. 7",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-eid-6",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "Obligación del prestador con pseudónimo",
+        "detalle": "Debe poder determinar la identidad real del titular y conservar la documentación acreditativa"
+      },
+      "pasaje_origen": "Ley 6/2020 arts. 6-7",
+      "ubicacion": {},
+      "verificado": false
+    }
+  ],
+  "verificado": false
+}

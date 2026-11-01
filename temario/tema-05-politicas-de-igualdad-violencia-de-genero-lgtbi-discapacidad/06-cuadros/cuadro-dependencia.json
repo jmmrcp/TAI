@@ -1,0 +1,73 @@
+{
+  "id": "cuadro-dependencia",
+  "tema_id": "tema-05-politicas-de-igualdad-violencia-de-genero-lgtbi-discapacidad",
+  "tipo_dato": "grados_dependencia",
+  "titulo": "Grados y revisabilidad de la dependencia (Ley 39/2006)",
+  "semilla": false,
+  "n_filas": 4,
+  "n_fuentes_distintas": 1,
+  "columnas": [
+    "aspecto",
+    "detalle",
+    "articulo"
+  ],
+  "columna_clave": "aspecto",
+  "columna_respuesta": "detalle",
+  "columna_contexto": "articulo",
+  "columna_fuente": "fuente",
+  "filas": [
+    {
+      "id": "c-dependencia-1",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "aspecto": "Grado I - Dependencia moderada",
+        "detalle": "Necesita ayuda para realizar varias actividades básicas de la vida diaria, al menos una vez al día, o tiene necesidades de apoyo intermitente o limitado para su autonomía personal",
+        "articulo": "art. 26"
+      },
+      "pasaje_origen": "Art. 26 Ley 39/2006: clasificación de los grados de dependencia",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-dependencia-2",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "aspecto": "Grado II - Dependencia severa",
+        "detalle": "Necesita ayuda para realizar varias actividades básicas de la vida diaria dos o tres veces al día, pero no requiere el apoyo permanente de un cuidador, o tiene necesidades de apoyo extenso para su autonomía personal",
+        "articulo": "art. 26"
+      },
+      "pasaje_origen": "Art. 26 Ley 39/2006",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-dependencia-3",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "aspecto": "Grado III - Gran dependencia",
+        "detalle": "Necesita ayuda para realizar varias actividades básicas de la vida diaria varias veces al día y, por su pérdida total de autonomía, precisa el apoyo indispensable y continuo de otra persona o tiene necesidades de apoyo generalizado",
+        "articulo": "art. 26"
+      },
+      "pasaje_origen": "Art. 26 Ley 39/2006",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-dependencia-4",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "aspecto": "Revisabilidad del grado",
+        "detalle": "A instancia del interesado, de sus representantes o de oficio por las Administraciones Públicas competentes",
+        "articulo": "art. 30"
+      },
+      "pasaje_origen": "Art. 30 Ley 39/2006: revisabilidad del grado de dependencia",
+      "ubicacion": {},
+      "verificado": false
+    }
+  ],
+  "verificado": false
+}

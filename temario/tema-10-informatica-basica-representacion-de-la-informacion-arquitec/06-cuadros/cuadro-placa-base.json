@@ -1,0 +1,116 @@
+{
+  "id": "cuadro-placa-base",
+  "tema_id": "tema-10-informatica-basica-representacion-de-la-informacion-arquitec",
+  "tipo_dato": "hardware",
+  "titulo": "Componentes principales de la placa base",
+  "semilla": false,
+  "n_filas": 8,
+  "n_fuentes_distintas": 1,
+  "columnas": [
+    "componente",
+    "funcion"
+  ],
+  "columna_clave": "componente",
+  "columna_respuesta": "funcion",
+  "columna_contexto": "componente",
+  "columna_fuente": "fuente",
+  "filas": [
+    {
+      "id": "c-pb-1",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "componente": "Socket de CPU",
+        "funcion": "Aloja y conecta el procesador a la placa base"
+      },
+      "pasaje_origen": "Componentes de la placa base",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-pb-2",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "componente": "Chipset",
+        "funcion": "Gestiona la comunicación entre CPU, memoria y periféricos"
+      },
+      "pasaje_origen": "Componentes de la placa base",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-pb-3",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "componente": "BIOS/UEFI",
+        "funcion": "Firmware de arranque e inicialización del hardware"
+      },
+      "pasaje_origen": "Componentes de la placa base",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-pb-4",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "componente": "Ranuras de memoria (DIMM)",
+        "funcion": "Alojan los módulos de RAM"
+      },
+      "pasaje_origen": "Componentes de la placa base",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-pb-5",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "componente": "Ranuras de expansión (PCIe)",
+        "funcion": "Permiten añadir tarjetas (GPU, red, etc.)"
+      },
+      "pasaje_origen": "Componentes de la placa base",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-pb-6",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "componente": "Conectores de alimentación",
+        "funcion": "Distribuyen energía desde la fuente a la placa"
+      },
+      "pasaje_origen": "Componentes de la placa base",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-pb-7",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "componente": "Puertos de E/S (USB, HDMI, etc.)",
+        "funcion": "Conexión con periféricos externos"
+      },
+      "pasaje_origen": "Componentes de la placa base",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-pb-8",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "componente": "Batería CMOS",
+        "funcion": "Mantiene la configuración del BIOS y el reloj en tiempo real"
+      },
+      "pasaje_origen": "Componentes de la placa base",
+      "ubicacion": {},
+      "verificado": false
+    }
+  ],
+  "verificado": false
+}

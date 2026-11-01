@@ -1,0 +1,92 @@
+{
+  "id": "cuadro-cl@ve",
+  "tema_id": "tema-06-la-sociedad-de-la-informacion-identidad-y-firma-electronica-",
+  "tipo_dato": "lista",
+  "titulo": "Sistema Cl@ve: modalidades y registro",
+  "semilla": false,
+  "n_filas": 6,
+  "n_fuentes_distintas": 1,
+  "columnas": [
+    "concepto",
+    "detalle"
+  ],
+  "columna_clave": "concepto",
+  "columna_respuesta": "detalle",
+  "columna_contexto": "",
+  "columna_fuente": "fuente",
+  "filas": [
+    {
+      "id": "c-cla-1",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "Ámbito",
+        "detalle": "Sistema común de identificación, autenticación y firma electrónica para el Sector Público Administrativo Estatal"
+      },
+      "pasaje_origen": "Cl@ve",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-cla-2",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "Registro previo",
+        "detalle": "Requiere registro previo para ser usuario"
+      },
+      "pasaje_origen": "Cl@ve",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-cla-3",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "Modalidades",
+        "detalle": "Cl@ve PIN (ocasional) y Cl@ve Permanente"
+      },
+      "pasaje_origen": "Resolución 14/12/2015 Cl@ve",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-cla-4",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "Niveles de registro",
+        "detalle": "Básico y Avanzado"
+      },
+      "pasaje_origen": "Cl@ve",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-cla-5",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "Órgano responsable",
+        "detalle": "Dirección de Tecnologías de la Información y las Comunicaciones (DTIC)"
+      },
+      "pasaje_origen": "Cl@ve",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-cla-6",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "Prescripciones técnicas",
+        "detalle": "Resolución de 14 de diciembre de 2015 (DTIC)"
+      },
+      "pasaje_origen": "Cl@ve",
+      "ubicacion": {},
+      "verificado": false
+    }
+  ],
+  "verificado": false
+}

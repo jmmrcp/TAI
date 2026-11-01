@@ -1,0 +1,148 @@
+{
+  "id": "cuadro-usb-velocidades",
+  "tema_id": "tema-11-perifericos-conectividad-y-administracion-impresion-almacena",
+  "tipo_dato": "referencia",
+  "titulo": "Versiones USB y velocidades de transferencia",
+  "semilla": false,
+  "n_filas": 9,
+  "n_fuentes_distintas": 1,
+  "columnas": [
+    "version",
+    "nombre_comercial",
+    "velocidad_max",
+    "conector_tipico"
+  ],
+  "columna_clave": "version",
+  "columna_respuesta": "velocidad_max",
+  "columna_contexto": "nombre_comercial",
+  "columna_fuente": "fuente",
+  "filas": [
+    {
+      "id": "c-usb-1",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "version": "USB 1.0",
+        "nombre_comercial": "Low Speed",
+        "velocidad_max": "1.5 Mbps",
+        "conector_tipico": "Type-A/B"
+      },
+      "pasaje_origen": "Norma USB",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-usb-2",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "version": "USB 1.1",
+        "nombre_comercial": "Full Speed",
+        "velocidad_max": "12 Mbps",
+        "conector_tipico": "Type-A/B"
+      },
+      "pasaje_origen": "Norma USB",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-usb-3",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "version": "USB 2.0",
+        "nombre_comercial": "Hi-Speed",
+        "velocidad_max": "480 Mbps",
+        "conector_tipico": "Type-A/B/Mini/Micro"
+      },
+      "pasaje_origen": "Norma USB",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-usb-4",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "version": "USB 3.0 / 3.1 Gen1 / 3.2 Gen1",
+        "nombre_comercial": "SuperSpeed",
+        "velocidad_max": "5 Gbps",
+        "conector_tipico": "Type-A (azul)/Type-C"
+      },
+      "pasaje_origen": "Norma USB",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-usb-5",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "version": "USB 3.1 Gen2 / 3.2 Gen2",
+        "nombre_comercial": "SuperSpeed+",
+        "velocidad_max": "10 Gbps",
+        "conector_tipico": "Type-C"
+      },
+      "pasaje_origen": "Norma USB",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-usb-6",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "version": "USB 3.2 Gen2x2",
+        "nombre_comercial": "SuperSpeed 20Gbps",
+        "velocidad_max": "20 Gbps",
+        "conector_tipico": "Type-C"
+      },
+      "pasaje_origen": "Norma USB",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-usb-7",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "version": "USB4",
+        "nombre_comercial": "USB4",
+        "velocidad_max": "40 Gbps",
+        "conector_tipico": "Type-C"
+      },
+      "pasaje_origen": "Velocidad máxima USB 4.0",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-usb-8",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "version": "USB4 v2",
+        "nombre_comercial": "USB4 2.0",
+        "velocidad_max": "80 Gbps",
+        "conector_tipico": "Type-C"
+      },
+      "pasaje_origen": "Norma USB",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-usb-9",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "version": "Thunderbolt 3/4",
+        "nombre_comercial": "Thunderbolt",
+        "velocidad_max": "40 Gbps",
+        "conector_tipico": "Type-C"
+      },
+      "pasaje_origen": "Thunderbolt 3 transferencias",
+      "ubicacion": {},
+      "verificado": false
+    }
+  ],
+  "verificado": false
+}

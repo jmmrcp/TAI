@@ -1,0 +1,112 @@
+{
+  "id": "cuadro-principios-rgpd",
+  "tema_id": "tema-07-la-proteccion-de-datos-personales-derechos-digitales",
+  "tipo_dato": "lista",
+  "titulo": "Principios relativos al tratamiento de datos personales (art. 5 RGPD)",
+  "semilla": false,
+  "n_filas": 7,
+  "n_fuentes_distintas": 1,
+  "columnas": [
+    "principio",
+    "articulo",
+    "contenido"
+  ],
+  "columna_clave": "principio",
+  "columna_respuesta": "contenido",
+  "columna_contexto": "articulo",
+  "columna_fuente": "fuente",
+  "filas": [
+    {
+      "id": "c-prin-1",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "principio": "Licitud, lealtad y transparencia",
+        "articulo": "Art. 5.1.a",
+        "contenido": "Los datos se tratarán de manera lícita, leal y transparente en relación con el interesado"
+      },
+      "pasaje_origen": "Principios del tratamiento",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-prin-2",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "principio": "Limitación de la finalidad",
+        "articulo": "Art. 5.1.b",
+        "contenido": "Recogidos con fines determinados, explícitos y legítimos; no tratamiento posterior incompatible"
+      },
+      "pasaje_origen": "Principios del tratamiento",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-prin-3",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "principio": "Minimización de datos",
+        "articulo": "Art. 5.1.c",
+        "contenido": "Adecuados, pertinentes y limitados a lo necesario en relación con los fines para los que se tratan"
+      },
+      "pasaje_origen": "Principios del tratamiento",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-prin-4",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "principio": "Exactitud",
+        "articulo": "Art. 5.1.d",
+        "contenido": "Exactos y, si fuera necesario, actualizados; inexactos se suprimen o rectifican sin dilación"
+      },
+      "pasaje_origen": "Principios del tratamiento",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-prin-5",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "principio": "Limitación del plazo de conservación",
+        "articulo": "Art. 5.1.e",
+        "contenido": "Conservados de forma que se permita la identificación solo durante el tiempo necesario para los fines"
+      },
+      "pasaje_origen": "Principios del tratamiento",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-prin-6",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "principio": "Integridad y confidencialidad",
+        "articulo": "Art. 5.1.f",
+        "contenido": "Tratados con seguridad adecuada: protección frente a tratamiento no autorizado o ilícito, pérdida, destrucción o daño accidental"
+      },
+      "pasaje_origen": "Principios del tratamiento",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-prin-7",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "principio": "Responsabilidad proactiva (accountability)",
+        "articulo": "Art. 5.2",
+        "contenido": "El responsable es responsable del cumplimiento y debe ser capaz de demostrarlo"
+      },
+      "pasaje_origen": "Principios del tratamiento",
+      "ubicacion": {},
+      "verificado": false
+    }
+  ],
+  "verificado": false
+}

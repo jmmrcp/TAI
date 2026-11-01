@@ -1,0 +1,177 @@
+{
+  "id": "cuadro-hdd-vs-ssd",
+  "tema_id": "tema-11-perifericos-conectividad-y-administracion-impresion-almacena",
+  "tipo_dato": "comparativa",
+  "titulo": "HDD vs SSD: comparativa de almacenamiento",
+  "semilla": false,
+  "n_filas": 12,
+  "n_fuentes_distintas": 1,
+  "columnas": [
+    "caracteristica",
+    "hdd",
+    "ssd"
+  ],
+  "columna_clave": "caracteristica",
+  "columna_respuesta": "hdd",
+  "columna_contexto": "ssd",
+  "columna_fuente": "fuente",
+  "filas": [
+    {
+      "id": "c-hdd-1",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "caracteristica": "Tecnología",
+        "hdd": "Magnética (platos giratorios)",
+        "ssd": "Memoria flash (NAND)"
+      },
+      "pasaje_origen": "SSD qué es",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-hdd-2",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "caracteristica": "Partes móviles",
+        "hdd": "Sí (cabezal y platos)",
+        "ssd": "No"
+      },
+      "pasaje_origen": "Características SSD",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-hdd-3",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "caracteristica": "Velocidad de acceso",
+        "hdd": "Menor (ms de seek)",
+        "ssd": "Mayor (microsegundos)"
+      },
+      "pasaje_origen": "Características SSD",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-hdd-4",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "caracteristica": "Latencia rotacional",
+        "hdd": "Depende de RPM (4-8 ms)",
+        "ssd": "No aplica"
+      },
+      "pasaje_origen": "Latencia rotacional HDD",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-hdd-5",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "caracteristica": "Consumo energético",
+        "hdd": "Mayor",
+        "ssd": "Menor"
+      },
+      "pasaje_origen": "Características SSD",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-hdd-6",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "caracteristica": "Ruido",
+        "hdd": "Sí (vibración)",
+        "ssd": "Silencioso"
+      },
+      "pasaje_origen": "Características SSD",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-hdd-7",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "caracteristica": "Resistencia a golpes",
+        "hdd": "Baja",
+        "ssd": "Alta"
+      },
+      "pasaje_origen": "Características SSD",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-hdd-8",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "caracteristica": "Precio por GB",
+        "hdd": "Más barato",
+        "ssd": "Más caro"
+      },
+      "pasaje_origen": "Características SSD",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-hdd-9",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "caracteristica": "Vida útil",
+        "hdd": "Mecánica (desgaste)",
+        "ssd": "Ciclos de escritura (P/E)"
+      },
+      "pasaje_origen": "Características SSD",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-hdd-10",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "caracteristica": "Interfaces típicas",
+        "hdd": "SATA, SAS",
+        "ssd": "SATA, NVMe/PCIe, USB"
+      },
+      "pasaje_origen": "Interfaces SSD",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-hdd-11",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "caracteristica": "Definición SSD",
+        "hdd": "Disco duro mecánico",
+        "ssd": "Unidad de estado sólido (Solid State Drive)"
+      },
+      "pasaje_origen": "SSD qué es",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-hdd-12",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "caracteristica": "Latencia rotacional (fórmula)",
+        "hdd": "60000/(2*RPM) ms",
+        "ssd": "No aplica"
+      },
+      "pasaje_origen": "Latencia rotacional HDD",
+      "ubicacion": {},
+      "verificado": false
+    }
+  ],
+  "verificado": false
+}

@@ -1,0 +1,112 @@
+{
+  "id": "cuadro-formatos-estandares",
+  "tema_id": "tema-10-informatica-basica-representacion-de-la-informacion-arquitec",
+  "tipo_dato": "formatos",
+  "titulo": "Formatos y estándares de representación de la información",
+  "semilla": false,
+  "n_filas": 7,
+  "n_fuentes_distintas": 1,
+  "columnas": [
+    "formato",
+    "tipo",
+    "caracteristica_clave"
+  ],
+  "columna_clave": "formato",
+  "columna_respuesta": "caracteristica_clave",
+  "columna_contexto": "tipo",
+  "columna_fuente": "fuente",
+  "filas": [
+    {
+      "id": "c-fmt-1",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "formato": "PDF",
+        "tipo": "documento (ISO 32000)",
+        "caracteristica_clave": "Representa documentos con texto, imágenes y vectores; independiente del dispositivo"
+      },
+      "pasaje_origen": "Estándares PDF",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-fmt-2",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "formato": "PDF/A",
+        "tipo": "subconjunto PDF",
+        "caracteristica_clave": "Archivado a largo plazo: prohíbe cifrado y dependencias externas, incrusta fuentes"
+      },
+      "pasaje_origen": "Estándares PDF",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-fmt-3",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "formato": "PDF/X",
+        "tipo": "subconjunto PDF",
+        "caracteristica_clave": "Intercambio de datos para impresión/preprensa"
+      },
+      "pasaje_origen": "Estándares PDF",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-fmt-4",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "formato": "JPEG",
+        "tipo": "imagen",
+        "caracteristica_clave": "Compresión con pérdida (DCT), color de 24 bits; no soporta transparencia en su forma original"
+      },
+      "pasaje_origen": "Formato de imagen JPEG",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-fmt-5",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "formato": "CSV",
+        "tipo": "texto (RFC 4180)",
+        "caracteristica_clave": "Campos separados por comas, registros por CRLF, campos entrecomillables"
+      },
+      "pasaje_origen": "Formato CSV RFC 4180",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-fmt-6",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "formato": "JSON",
+        "tipo": "texto (RFC 8259)",
+        "caracteristica_clave": "UTF-8, pares clave-valor y arrays; sin comentarios; valor de nivel superior libre"
+      },
+      "pasaje_origen": "Estándar JSON RFC 8259",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-fmt-7",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "formato": "AV1",
+        "tipo": "códec de vídeo",
+        "caracteristica_clave": "Códec de vídeo abierto y libre de royalties (AOMedia), sucesor de VP9"
+      },
+      "pasaje_origen": "AV1 es un",
+      "ubicacion": {},
+      "verificado": false
+    }
+  ],
+  "verificado": false
+}

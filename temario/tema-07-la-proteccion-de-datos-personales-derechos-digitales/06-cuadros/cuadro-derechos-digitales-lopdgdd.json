@@ -1,0 +1,255 @@
+{
+  "id": "cuadro-derechos-digitales-lopdgdd",
+  "tema_id": "tema-07-la-proteccion-de-datos-personales-derechos-digitales",
+  "tipo_dato": "lista",
+  "titulo": "Derechos digitales en el Título X de la LOPDGDD (arts. 79-96)",
+  "semilla": false,
+  "n_filas": 18,
+  "n_fuentes_distintas": 1,
+  "columnas": [
+    "articulo",
+    "derecho_digital",
+    "resumen"
+  ],
+  "columna_clave": "derecho_digital",
+  "columna_respuesta": "resumen",
+  "columna_contexto": "articulo",
+  "columna_fuente": "fuente",
+  "filas": [
+    {
+      "id": "c-dd-1",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "articulo": "Art. 79",
+        "derecho_digital": "Derechos en la Era digital",
+        "resumen": "Los derechos y libertades constitucionales y de tratados son plenamente aplicables en Internet; los prestadores contribuyen a garantizarlos"
+      },
+      "pasaje_origen": "Título X LOPDGDD",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-dd-2",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "articulo": "Art. 80",
+        "derecho_digital": "Neutralidad de Internet",
+        "resumen": "Servicio transparente sin discriminación por motivos técnicos o económicos"
+      },
+      "pasaje_origen": "Título X LOPDGDD",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-dd-3",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "articulo": "Art. 81",
+        "derecho_digital": "Acceso universal a Internet",
+        "resumen": "Acceso universal, asequible, de calidad y no discriminatorio para toda la población"
+      },
+      "pasaje_origen": "Título X LOPDGDD",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-dd-4",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "articulo": "Art. 82",
+        "derecho_digital": "Seguridad digital",
+        "resumen": "Seguridad de las comunicaciones transmitidas y recibidas por Internet"
+      },
+      "pasaje_origen": "Título X LOPDGDD",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-dd-5",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "articulo": "Art. 83",
+        "derecho_digital": "Educación digital",
+        "resumen": "Inserción del alumnado en la sociedad digital y formación segura y respetuosa con derechos fundamentales"
+      },
+      "pasaje_origen": "Título X LOPDGDD",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-dd-6",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "articulo": "Art. 84",
+        "derecho_digital": "Protección de menores en Internet",
+        "resumen": "Uso equilibrado y responsable de dispositivos digitales; intervención del Ministerio Fiscal ante intromisiones"
+      },
+      "pasaje_origen": "Título X LOPDGDD",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-dd-7",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "articulo": "Art. 85",
+        "derecho_digital": "Rectificación en Internet",
+        "resumen": "Libertad de expresión y protocolos para el ejercicio del derecho de rectificación en redes"
+      },
+      "pasaje_origen": "Título X LOPDGDD",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-dd-8",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "articulo": "Art. 86",
+        "derecho_digital": "Actualización de informaciones",
+        "resumen": "Solicitar aviso de actualización junto a noticias que ya no reflejan la situación actual"
+      },
+      "pasaje_origen": "Título X LOPDGDD",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-dd-9",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "articulo": "Art. 87",
+        "derecho_digital": "Intimidad y dispositivos digitales en el trabajo",
+        "resumen": "Protección de la intimidad en el uso de dispositivos digitales puestos por el empleador"
+      },
+      "pasaje_origen": "Título X LOPDGDD",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-dd-10",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "articulo": "Art. 88",
+        "derecho_digital": "Desconexión digital laboral",
+        "resumen": "Derecho a la desconexión fuera del tiempo de trabajo para respetar descanso e intimidad"
+      },
+      "pasaje_origen": "Título X LOPDGDD",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-dd-11",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "articulo": "Art. 89",
+        "derecho_digital": "Videovigilancia y grabación de sonidos en el trabajo",
+        "resumen": "Límites al tratamiento de imágenes/sonidos en el centro de trabajo; prohibición en zonas de descanso"
+      },
+      "pasaje_origen": "Título X LOPDGDD",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-dd-12",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "articulo": "Art. 90",
+        "derecho_digital": "Geolocalización laboral",
+        "resumen": "Control mediante geolocalización con información previa y ejercicio de derechos"
+      },
+      "pasaje_origen": "Título X LOPDGDD",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-dd-13",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "articulo": "Art. 91",
+        "derecho_digital": "Derechos digitales en negociación colectiva",
+        "resumen": "Los convenios colectivos pueden establecer garantías adicionales"
+      },
+      "pasaje_origen": "Título X LOPDGDD",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-dd-14",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "articulo": "Art. 92",
+        "derecho_digital": "Protección de datos de menores en Internet",
+        "resumen": "Garantía del interés superior del menor en la publicación/difusión de sus datos"
+      },
+      "pasaje_origen": "Título X LOPDGDD",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-dd-15",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "articulo": "Art. 93",
+        "derecho_digital": "Olvido en búsquedas de Internet",
+        "resumen": "Eliminación de enlaces en resultados de búsqueda cuando la información sea inadecuada/inexacta/no pertinente/excesiva"
+      },
+      "pasaje_origen": "Título X LOPDGDD",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-dd-16",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "articulo": "Art. 94",
+        "derecho_digital": "Olvido en redes sociales",
+        "resumen": "Supresión de datos personales publicados en redes sociales a solicitud del usuario"
+      },
+      "pasaje_origen": "Título X LOPDGDD",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-dd-17",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "articulo": "Art. 95",
+        "derecho_digital": "Portabilidad en redes sociales",
+        "resumen": "Recibir y transmitir contenidos facilitados a prestadores de redes sociales"
+      },
+      "pasaje_origen": "Título X LOPDGDD",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-dd-18",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "articulo": "Art. 96",
+        "derecho_digital": "Testamento digital",
+        "resumen": "Acceso a contenidos de personas fallecidas por familiares/herederos/albacea; instrucciones sobre utilización, destino o supresión"
+      },
+      "pasaje_origen": "Título X LOPDGDD",
+      "ubicacion": {},
+      "verificado": false
+    }
+  ],
+  "verificado": false
+}

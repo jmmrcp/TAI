@@ -1,0 +1,162 @@
+{
+  "id": "cuadro-ssd-interfaces",
+  "tema_id": "tema-11-perifericos-conectividad-y-administracion-impresion-almacena",
+  "tipo_dato": "comparativa",
+  "titulo": "Interfaces y formatos de conexión para SSD",
+  "semilla": false,
+  "n_filas": 10,
+  "n_fuentes_distintas": 1,
+  "columnas": [
+    "interfaz",
+    "descripcion",
+    "velocidad_aprox",
+    "uso_tipico"
+  ],
+  "columna_clave": "interfaz",
+  "columna_respuesta": "descripcion",
+  "columna_contexto": "velocidad_aprox",
+  "columna_fuente": "fuente",
+  "filas": [
+    {
+      "id": "c-ssd-1",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "interfaz": "SATA III",
+        "descripcion": "Bus serie estándar para almacenamiento (Serial ATA)",
+        "velocidad_aprox": "6 Gbps (≈550 MB/s)",
+        "uso_tipico": "SSD 2.5\" y HDD"
+      },
+      "pasaje_origen": "Almacenamiento en disco mediante bus serie",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-ssd-2",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "interfaz": "SAS",
+        "descripcion": "Serial Attached SCSI, orientado a servidores",
+        "velocidad_aprox": "12 Gbps",
+        "uso_tipico": "Entornos empresariales"
+      },
+      "pasaje_origen": "Tipos de conexión",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-ssd-3",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "interfaz": "NVMe (PCIe)",
+        "descripcion": "Protocolo de acceso a SSD sobre bus PCIe",
+        "velocidad_aprox": "PCIe 3.0 x4 ≈3.5 GB/s; 4.0 x4 ≈7 GB/s",
+        "uso_tipico": "SSD M.2 / U.2 de alto rendimiento"
+      },
+      "pasaje_origen": "Formato de interfaz SSD",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-ssd-4",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "interfaz": "PCIe (tarjeta)",
+        "descripcion": "SSD en tarjeta de expansión directa sobre PCIe",
+        "velocidad_aprox": "Según generación PCIe",
+        "uso_tipico": "Workstations/servidores"
+      },
+      "pasaje_origen": "Tipos de conexión",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-ssd-5",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "interfaz": "M.2",
+        "descripcion": "Factor de forma (no protocolo); soporta SATA o NVMe",
+        "velocidad_aprox": "Depende del protocolo subyacente",
+        "uso_tipico": "Portátiles y placas base modernas"
+      },
+      "pasaje_origen": "Formato de interfaz SSD",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-ssd-6",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "interfaz": "mSATA",
+        "descripcion": "Factor de forma mini-SATA (legacy)",
+        "velocidad_aprox": "SATA III 6 Gbps",
+        "uso_tipico": "Equipos antiguos/ultraportátiles"
+      },
+      "pasaje_origen": "Formato de interfaz SSD",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-ssd-7",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "interfaz": "U.2",
+        "descripcion": "Formato 2.5\" con conexión NVMe (cable SFF-8639)",
+        "velocidad_aprox": "PCIe/NVMe",
+        "uso_tipico": "Servidores y workstations"
+      },
+      "pasaje_origen": "Formato de interfaz SSD",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-ssd-8",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "interfaz": "USB (externo)",
+        "descripcion": "SSD portátil conectado por USB 3.x/4",
+        "velocidad_aprox": "Hasta 40 Gbps (USB4)",
+        "uso_tipico": "Almacenamiento externo"
+      },
+      "pasaje_origen": "Tipos de conexión",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-ssd-9",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "interfaz": "Thunderbolt",
+        "descripcion": "Conexión de alta velocidad (Intel/Apple) para almacenamiento externo",
+        "velocidad_aprox": "40 Gbps (TB3/TB4)",
+        "uso_tipico": "SSD externos de alto rendimiento"
+      },
+      "pasaje_origen": "Thunderbolt 3 transferencias",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-ssd-10",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "interfaz": "IDE/PATA (NO válida)",
+        "descripcion": "Bus paralelo legacy; no es interfaz válida para SSD modernos",
+        "velocidad_aprox": "Hasta 133 MB/s (UDMA)",
+        "uso_tipico": "Discos antiguos (no SSD)"
+      },
+      "pasaje_origen": "Cuál NO es interfaz válida para SSD",
+      "ubicacion": {},
+      "verificado": false
+    }
+  ],
+  "verificado": false
+}

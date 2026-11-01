@@ -1,0 +1,125 @@
+{
+  "id": "cuadro-infraestructuras-comunes",
+  "tema_id": "tema-09-instrumentos-para-el-acceso-electronico-sedes-infraestructur",
+  "tipo_dato": "lista",
+  "titulo": "Infraestructuras comunes del sector público (RD 203/2021 y exámenes oficiales)",
+  "semilla": false,
+  "n_filas": 8,
+  "n_fuentes_distintas": 2,
+  "columnas": [
+    "infraestructura",
+    "funcionalidad_principal",
+    "referencia"
+  ],
+  "columna_clave": "infraestructura",
+  "columna_respuesta": "funcionalidad_principal",
+  "columna_contexto": "referencia",
+  "columna_fuente": "fuente",
+  "filas": [
+    {
+      "id": "c-infra-1",
+      "fuente": "Real Decreto 203/2021",
+      "fuente_tipo": "articulo",
+      "valores": {
+        "infraestructura": "DIR3",
+        "funcionalidad_principal": "Inventario unificado y común de las unidades orgánicas y oficinas asociadas de las Administraciones Públicas.",
+        "referencia": "Art. 9.1.b RD 203/2021"
+      },
+      "pasaje_origen": "Art. 9.1.b RD 203/2021",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-infra-2",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "infraestructura": "Port@firmas AGE",
+        "funcionalidad_principal": "Solución horizontal de firma electrónica en flujos de trabajo; admite CAdES, XAdES y PAdES; integración con los sistemas de información del organismo a través de servicios web.",
+        "referencia": "Examen oficial TAI"
+      },
+      "pasaje_origen": "Examen oficial TAI",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-infra-3",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "infraestructura": "eVisor",
+        "funcionalidad_principal": "Aplicación web de generación de copia auténtica en papel de documentos con firma electrónica y de justificantes de firma electrónica.",
+        "referencia": "Examen oficial TAI"
+      },
+      "pasaje_origen": "Examen oficial TAI",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-infra-4",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "infraestructura": "Nodo eIDAS",
+        "funcionalidad_principal": "Intercambio de mensajes de autenticación con los nodos de otros Estados miembros conforme al estándar SAML 2.0 y a las especificaciones de la red eIDAS; integración de las AAPP españolas a través de Cl@ve.",
+        "referencia": "Examen oficial TAI"
+      },
+      "pasaje_origen": "Examen oficial TAI",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-infra-5",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "infraestructura": "Portfolio SCSPv3",
+        "funcionalidad_principal": "Sustitución de Certificados en Soporte Papel; productos: Librerías SCSPv3, Cliente Ligero SCSPv3 y SCSP-WS (SCSP-SOAP no es un producto del portfolio).",
+        "referencia": "Examen oficial TAI"
+      },
+      "pasaje_origen": "Examen oficial TAI",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-infra-6",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "infraestructura": "Plataforma de Intermediación de Datos (PID)",
+        "funcionalidad_principal": "Intermediación de datos entre AAPP; servicios de verificación y consulta de datos, en cumplimiento del art. 28.2 de la Ley 39/2015.",
+        "referencia": "Examen oficial TAI"
+      },
+      "pasaje_origen": "Examen oficial TAI",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-infra-7",
+      "fuente": "Real Decreto 203/2021",
+      "fuente_tipo": "articulo",
+      "valores": {
+        "infraestructura": "Carpeta Ciudadana",
+        "funcionalidad_principal": "Área personalizada del ciudadano en el sector público estatal; accesible a través de la sede electrónica del PAGe; seguimiento de tramitación, acceso a comunicaciones y notificaciones, conocimiento de datos obrantes y obtención de certificaciones.",
+        "referencia": "Art. 8 RD 203/2021"
+      },
+      "pasaje_origen": "Art. 8 RD 203/2021",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-infra-8",
+      "fuente": "Real Decreto 203/2021",
+      "fuente_tipo": "articulo",
+      "valores": {
+        "infraestructura": "Registro de Funcionarios Habilitados (RFH)",
+        "funcionalidad_principal": "Registro de funcionarios habilitados para la identificación y firma electrónica de personas interesadas y para la expedición de copias auténticas; interoperable con sistemas equivalentes de CC.AA. y entidades locales.",
+        "referencia": "Art. 31 RD 203/2021"
+      },
+      "pasaje_origen": "Art. 31 RD 203/2021",
+      "ubicacion": {},
+      "verificado": false
+    }
+  ],
+  "verificado": false
+}

@@ -1,0 +1,86 @@
+{
+  "id": "cuadro-mandatos",
+  "tema_id": "tema-02-las-cortes-generales-el-tribunal-constitucional-el-defensor-",
+  "tipo_dato": "mandato",
+  "titulo": "Mandatos de cargos (Cortes, TC y Defensor del Pueblo)",
+  "semilla": false,
+  "n_filas": 5,
+  "n_fuentes_distintas": 1,
+  "columnas": [
+    "cargo",
+    "duracion",
+    "referencia"
+  ],
+  "columna_clave": "cargo",
+  "columna_respuesta": "duracion",
+  "columna_contexto": "referencia",
+  "columna_fuente": "fuente",
+  "filas": [
+    {
+      "id": "c-mandatos-1",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "cargo": "Diputados (Congreso)",
+        "duracion": "4 años",
+        "referencia": "art. 68.4"
+      },
+      "pasaje_origen": "art. 68.4",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-mandatos-2",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "cargo": "Senadores",
+        "duracion": "4 años",
+        "referencia": "art. 69.6"
+      },
+      "pasaje_origen": "art. 69.6",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-mandatos-3",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "cargo": "Magistrados del Tribunal Constitucional",
+        "duracion": "9 años (renovación por tercios cada 3)",
+        "referencia": "art. 159.3"
+      },
+      "pasaje_origen": "art. 159.3",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-mandatos-4",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "cargo": "Presidente del Tribunal Constitucional",
+        "duracion": "3 años",
+        "referencia": "art. 160"
+      },
+      "pasaje_origen": "art. 160",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-mandatos-5",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "cargo": "Defensor del Pueblo",
+        "duracion": "5 años",
+        "referencia": "art. 2.1 LO 3/1981"
+      },
+      "pasaje_origen": "art. 2.1 LO 3/1981",
+      "ubicacion": {},
+      "verificado": false
+    }
+  ],
+  "verificado": false
+}

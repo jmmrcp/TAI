@@ -1,0 +1,86 @@
+{
+  "id": "cuadro-dpo-lopdgdd",
+  "tema_id": "tema-07-la-proteccion-de-datos-personales-derechos-digitales",
+  "tipo_dato": "lista",
+  "titulo": "Delegado de protección de datos en la LOPDGDD (art. 34)",
+  "semilla": false,
+  "n_filas": 5,
+  "n_fuentes_distintas": 1,
+  "columnas": [
+    "aspecto",
+    "detalle",
+    "base_legal"
+  ],
+  "columna_clave": "aspecto",
+  "columna_respuesta": "detalle",
+  "columna_contexto": "base_legal",
+  "columna_fuente": "fuente",
+  "filas": [
+    {
+      "id": "c-dpo-1",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "aspecto": "Designación obligatoria",
+        "detalle": "Entidades enumeradas en el art. 34.1 (centros docentes, sanidad, financieras, etc.)",
+        "base_legal": "Art. 34.1 LOPDGDD"
+      },
+      "pasaje_origen": "DPO LOPDGDD",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-dpo-2",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "aspecto": "Designación voluntaria",
+        "detalle": "Resto de responsables/encargados; sometido al régimen del RGPD y la LOPDGDD",
+        "base_legal": "Art. 34.2 LOPDGDD"
+      },
+      "pasaje_origen": "DPO LOPDGDD",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-dpo-3",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "aspecto": "Comunicación a la AEPD",
+        "detalle": "Plazo de 10 días para comunicar designaciones, nombramientos y ceses",
+        "base_legal": "Art. 34.3 LOPDGDD"
+      },
+      "pasaje_origen": "DPO LOPDGDD",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-dpo-4",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "aspecto": "Lista pública",
+        "detalle": "La AEPD y las autoridades autonómicas mantienen lista actualizada accesible por medios electrónicos",
+        "base_legal": "Art. 34.4 LOPDGDD"
+      },
+      "pasaje_origen": "DPO LOPDGDD",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-dpo-5",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "aspecto": "Dedicación",
+        "detalle": "Completa o a tiempo parcial según volumen de tratamientos, categoría de datos y riesgos",
+        "base_legal": "Art. 34.5 LOPDGDD"
+      },
+      "pasaje_origen": "DPO LOPDGDD",
+      "ubicacion": {},
+      "verificado": false
+    }
+  ],
+  "verificado": false
+}

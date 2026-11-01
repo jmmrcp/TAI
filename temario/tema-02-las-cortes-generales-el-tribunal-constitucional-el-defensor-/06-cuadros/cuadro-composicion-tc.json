@@ -1,0 +1,86 @@
+{
+  "id": "cuadro-composicion-tc",
+  "tema_id": "tema-02-las-cortes-generales-el-tribunal-constitucional-el-defensor-",
+  "tipo_dato": "composicion",
+  "titulo": "Composición del Tribunal Constitucional (art. 159 CE)",
+  "semilla": false,
+  "n_filas": 5,
+  "n_fuentes_distintas": 1,
+  "columnas": [
+    "organo_designante",
+    "n_magistrados",
+    "mayoria"
+  ],
+  "columna_clave": "organo_designante",
+  "columna_respuesta": "n_magistrados",
+  "columna_contexto": "mayoria",
+  "columna_fuente": "fuente",
+  "filas": [
+    {
+      "id": "c-composicion-tc-1",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "organo_designante": "Congreso de los Diputados",
+        "n_magistrados": "4",
+        "mayoria": "Mayoría de 3/5"
+      },
+      "pasaje_origen": "art. 159.1",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-composicion-tc-2",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "organo_designante": "Senado",
+        "n_magistrados": "4",
+        "mayoria": "Mayoría de 3/5"
+      },
+      "pasaje_origen": "art. 159.1",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-composicion-tc-3",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "organo_designante": "Gobierno",
+        "n_magistrados": "2",
+        "mayoria": "—"
+      },
+      "pasaje_origen": "art. 159.1",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-composicion-tc-4",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "organo_designante": "Consejo General del Poder Judicial",
+        "n_magistrados": "2",
+        "mayoria": "—"
+      },
+      "pasaje_origen": "art. 159.1",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-composicion-tc-5",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "organo_designante": "Total",
+        "n_magistrados": "12",
+        "mayoria": "—"
+      },
+      "pasaje_origen": "art. 159.1",
+      "ubicacion": {},
+      "verificado": false
+    }
+  ],
+  "verificado": false
+}

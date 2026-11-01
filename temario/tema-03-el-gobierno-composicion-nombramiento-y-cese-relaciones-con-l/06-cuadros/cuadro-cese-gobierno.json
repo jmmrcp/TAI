@@ -1,0 +1,138 @@
+{
+  "id": "cuadro-cese-gobierno",
+  "tema_id": "tema-03-el-gobierno-composicion-nombramiento-y-cese-relaciones-con-l",
+  "tipo_dato": "cese",
+  "titulo": "Cese del Gobierno y Gobierno en funciones (art. 101 CE; art. 21 Ley 50/1997)",
+  "semilla": false,
+  "n_filas": 9,
+  "n_fuentes_distintas": 1,
+  "columnas": [
+    "aspecto",
+    "descripcion",
+    "base_legal"
+  ],
+  "columna_clave": "aspecto",
+  "columna_respuesta": "descripcion",
+  "columna_contexto": "base_legal",
+  "columna_fuente": "fuente",
+  "filas": [
+    {
+      "id": "c-cese-1",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "aspecto": "Causa 1: elecciones generales",
+        "descripcion": "El Gobierno cesa tras la celebración de elecciones generales.",
+        "base_legal": "Art. 101 CE; art. 21.1 Ley 50/1997"
+      },
+      "pasaje_origen": "Artículo 101 CE",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-cese-2",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "aspecto": "Causa 2: pérdida de confianza parlamentaria",
+        "descripcion": "Pérdida de confianza parlamentaria prevista en la Constitución (moción de censura o cuestión de confianza no superada).",
+        "base_legal": "Art. 101 CE; art. 112-114 CE"
+      },
+      "pasaje_origen": "Artículo 101 CE",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-cese-3",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "aspecto": "Causa 3: dimisión del Presidente",
+        "descripcion": "Dimisión del Presidente del Gobierno.",
+        "base_legal": "Art. 101 CE; art. 21.1 Ley 50/1997"
+      },
+      "pasaje_origen": "Artículo 101 CE",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-cese-4",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "aspecto": "Causa 4: fallecimiento del Presidente",
+        "descripcion": "Fallecimiento del Presidente del Gobierno.",
+        "base_legal": "Art. 101 CE; art. 21.1 Ley 50/1997"
+      },
+      "pasaje_origen": "Artículo 101 CE",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-cese-5",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "aspecto": "Gobierno en funciones: gestión",
+        "descripcion": "El Gobierno cesante continúa en funciones hasta la toma de posesión del nuevo Gobierno; limita su gestión al despacho ordinario de los asuntos públicos, salvo urgencia acreditada o interés general.",
+        "base_legal": "Art. 21.2-3 Ley 50/1997"
+      },
+      "pasaje_origen": "Artículo 21.2-3",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-cese-6",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "aspecto": "Presidente en funciones: facultades vedadas",
+        "descripcion": "No puede proponer la disolución de las Cámaras o de las Cortes Generales, plantear la cuestión de confianza ni proponer la convocatoria de un referéndum consultivo.",
+        "base_legal": "Art. 21.4 Ley 50/1997"
+      },
+      "pasaje_origen": "Artículo 21.4",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-cese-7",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "aspecto": "Gobierno en funciones: facultades vedadas",
+        "descripcion": "No puede aprobar el Proyecto de Ley de Presupuestos Generales del Estado ni presentar proyectos de ley al Congreso o al Senado.",
+        "base_legal": "Art. 21.5 Ley 50/1997"
+      },
+      "pasaje_origen": "Artículo 21.5",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-cese-8",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "aspecto": "Delegaciones legislativas",
+        "descripcion": "Las delegaciones legislativas otorgadas por las Cortes Generales quedan en suspenso mientras el Gobierno esté en funciones por elecciones generales.",
+        "base_legal": "Art. 21.6 Ley 50/1997"
+      },
+      "pasaje_origen": "Artículo 21.6",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-cese-9",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "aspecto": "Función del Gobierno en funciones",
+        "descripcion": "Facilitar el normal desarrollo del proceso de formación del nuevo Gobierno y el traspaso de poderes al mismo.",
+        "base_legal": "Art. 21.3 Ley 50/1997"
+      },
+      "pasaje_origen": "Artículo 21.3",
+      "ubicacion": {},
+      "verificado": false
+    }
+  ],
+  "verificado": false
+}

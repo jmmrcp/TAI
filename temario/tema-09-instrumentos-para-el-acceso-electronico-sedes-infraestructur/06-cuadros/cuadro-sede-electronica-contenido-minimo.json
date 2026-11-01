@@ -1,0 +1,138 @@
+{
+  "id": "cuadro-sede-electronica-contenido-minimo",
+  "tema_id": "tema-09-instrumentos-para-el-acceso-electronico-sedes-infraestructur",
+  "tipo_dato": "lista",
+  "titulo": "Contenido mínimo de las sedes electrónicas (art. 11.1 RD 203/2021)",
+  "semilla": false,
+  "n_filas": 9,
+  "n_fuentes_distintas": 1,
+  "columnas": [
+    "letra",
+    "contenido_minimo",
+    "referencia"
+  ],
+  "columna_clave": "letra",
+  "columna_respuesta": "contenido_minimo",
+  "columna_contexto": "referencia",
+  "columna_fuente": "fuente",
+  "filas": [
+    {
+      "id": "c-sede-cont-1",
+      "fuente": "Real Decreto 203/2021",
+      "fuente_tipo": "articulo",
+      "valores": {
+        "letra": "a)",
+        "contenido_minimo": "La identificación de la sede electrónica o sede electrónica asociada, así como del órgano u organismo titular y de los órganos competentes para la gestión de la información, servicios, procedimientos y trámites puestos a disposición en ella.",
+        "referencia": "Art. 11.1.a"
+      },
+      "pasaje_origen": "Art. 11.1.a",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-sede-cont-2",
+      "fuente": "Real Decreto 203/2021",
+      "fuente_tipo": "articulo",
+      "valores": {
+        "letra": "b)",
+        "contenido_minimo": "La identificación del acto o disposición de creación y el acceso al mismo, directamente o mediante enlace a su publicación en el Boletín Oficial correspondiente.",
+        "referencia": "Art. 11.1.b"
+      },
+      "pasaje_origen": "Art. 11.1.b",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-sede-cont-3",
+      "fuente": "Real Decreto 203/2021",
+      "fuente_tipo": "articulo",
+      "valores": {
+        "letra": "c)",
+        "contenido_minimo": "La información necesaria para la correcta utilización de la sede, incluyendo su mapa o información equivalente, con especificación de la estructura de navegación y las distintas secciones disponibles, así como la relativa a propiedad intelectual, protección de datos personales y accesibilidad.",
+        "referencia": "Art. 11.1.c"
+      },
+      "pasaje_origen": "Art. 11.1.c",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-sede-cont-4",
+      "fuente": "Real Decreto 203/2021",
+      "fuente_tipo": "articulo",
+      "valores": {
+        "letra": "d)",
+        "contenido_minimo": "La relación de sistemas de identificación y firma electrónica que sean admitidos o utilizados en la misma.",
+        "referencia": "Art. 11.1.d"
+      },
+      "pasaje_origen": "Art. 11.1.d",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-sede-cont-5",
+      "fuente": "Real Decreto 203/2021",
+      "fuente_tipo": "articulo",
+      "valores": {
+        "letra": "e)",
+        "contenido_minimo": "La normativa reguladora del Registro al que se acceda a través de la sede electrónica.",
+        "referencia": "Art. 11.1.e"
+      },
+      "pasaje_origen": "Art. 11.1.e",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-sede-cont-6",
+      "fuente": "Real Decreto 203/2021",
+      "fuente_tipo": "articulo",
+      "valores": {
+        "letra": "f)",
+        "contenido_minimo": "La fecha y hora oficial, así como el calendario de días inhábiles a efectos del cómputo de plazos aplicable a la Administración en que se integre el órgano, organismo público o entidad titular.",
+        "referencia": "Art. 11.1.f"
+      },
+      "pasaje_origen": "Art. 11.1.f",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-sede-cont-7",
+      "fuente": "Real Decreto 203/2021",
+      "fuente_tipo": "articulo",
+      "valores": {
+        "letra": "g)",
+        "contenido_minimo": "Información acerca de cualquier incidencia técnica que imposibilite el funcionamiento ordinario del sistema o aplicación correspondiente, así como de la ampliación del plazo no vencido que, en su caso, haya acordado el órgano competente.",
+        "referencia": "Art. 11.1.g"
+      },
+      "pasaje_origen": "Art. 11.1.g",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-sede-cont-8",
+      "fuente": "Real Decreto 203/2021",
+      "fuente_tipo": "articulo",
+      "valores": {
+        "letra": "h)",
+        "contenido_minimo": "Relación actualizada de los servicios, procedimientos y trámites disponibles en la sede electrónica.",
+        "referencia": "Art. 11.1.h"
+      },
+      "pasaje_origen": "Art. 11.1.h",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-sede-cont-9",
+      "fuente": "Real Decreto 203/2021",
+      "fuente_tipo": "articulo",
+      "valores": {
+        "letra": "i)",
+        "contenido_minimo": "Relación actualizada de las actuaciones administrativas automatizadas vinculadas a los servicios, procedimientos y trámites descritos en la letra anterior, con descripción de su diseño y funcionamiento, mecanismos de rendición de cuentas y transparencia, y datos utilizados en su configuración y aprendizaje.",
+        "referencia": "Art. 11.1.i"
+      },
+      "pasaje_origen": "Art. 11.1.i",
+      "ubicacion": {},
+      "verificado": false
+    }
+  ],
+  "verificado": false
+}

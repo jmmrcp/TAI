@@ -1,0 +1,203 @@
+{
+  "id": "cuadro-funciones-presidente",
+  "tema_id": "tema-03-el-gobierno-composicion-nombramiento-y-cese-relaciones-con-l",
+  "tipo_dato": "funciones",
+  "titulo": "Funciones del Presidente del Gobierno (art. 2.2 Ley 50/1997)",
+  "semilla": false,
+  "n_filas": 14,
+  "n_fuentes_distintas": 1,
+  "columnas": [
+    "letra",
+    "funcion",
+    "observacion"
+  ],
+  "columna_clave": "letra",
+  "columna_respuesta": "funcion",
+  "columna_contexto": "observacion",
+  "columna_fuente": "fuente",
+  "filas": [
+    {
+      "id": "c-funcpres-1",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "letra": "a",
+        "funcion": "Representar al Gobierno.",
+        "observacion": "Representación institucional del Gobierno."
+      },
+      "pasaje_origen": "Artículo 2.2.a Ley 50/1997",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-funcpres-2",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "letra": "b",
+        "funcion": "Establecer el programa político y determinar las directrices de la política interior y exterior, velando por su cumplimiento.",
+        "observacion": "Principio de dirección presidencial."
+      },
+      "pasaje_origen": "Artículo 2.2.b Ley 50/1997",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-funcpres-3",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "letra": "c",
+        "funcion": "Proponer al Rey, previa deliberación del Consejo de Ministros, la disolución del Congreso, del Senado o de las Cortes Generales.",
+        "observacion": "No ejercitable por el Presidente en funciones (art. 21.4.a)."
+      },
+      "pasaje_origen": "Artículo 2.2.c Ley 50/1997",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-funcpres-4",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "letra": "d",
+        "funcion": "Plantear ante el Congreso de los Diputados, previa deliberación del Consejo de Ministros, la cuestión de confianza.",
+        "observacion": "No ejercitable por el Presidente en funciones (art. 21.4.b)."
+      },
+      "pasaje_origen": "Artículo 2.2.d Ley 50/1997",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-funcpres-5",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "letra": "e",
+        "funcion": "Proponer al Rey la convocatoria de un referéndum consultivo, previa autorización del Congreso de los Diputados.",
+        "observacion": "No ejercitable por el Presidente en funciones (art. 21.4.c)."
+      },
+      "pasaje_origen": "Artículo 2.2.e Ley 50/1997",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-funcpres-6",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "letra": "f",
+        "funcion": "Dirigir la política de defensa y ejercer respecto de las Fuerzas Armadas las funciones previstas en la legislación de defensa nacional y organización militar.",
+        "observacion": "Competencia exclusiva del Presidente."
+      },
+      "pasaje_origen": "Artículo 2.2.f Ley 50/1997",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-funcpres-7",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "letra": "g",
+        "funcion": "Convocar, presidir y fijar el orden del día de las reuniones del Consejo de Ministros, sin perjuicio de lo previsto en el art. 62.g) CE.",
+        "observacion": "La Secretaría corresponde al Ministro de la Presidencia (art. 18.1)."
+      },
+      "pasaje_origen": "Artículo 2.2.g Ley 50/1997",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-funcpres-8",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "letra": "h",
+        "funcion": "Refrendar, en su caso, los actos del Rey y someterle, para su sanción, las leyes y demás normas con rango de ley (arts. 64 y 91 CE).",
+        "observacion": "Refrendo de actos regios."
+      },
+      "pasaje_origen": "Artículo 2.2.h Ley 50/1997",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-funcpres-9",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "letra": "i",
+        "funcion": "Interponer el recurso de inconstitucionalidad.",
+        "observacion": "Control constitucional."
+      },
+      "pasaje_origen": "Artículo 2.2.i Ley 50/1997",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-funcpres-10",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "letra": "j",
+        "funcion": "Crear, modificar y suprimir, por Real Decreto, los Departamentos Ministeriales y las Secretarías de Estado; aprobar la estructura orgánica de la Presidencia del Gobierno.",
+        "observacion": "Organización del Gobierno."
+      },
+      "pasaje_origen": "Artículo 2.2.j Ley 50/1997",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-funcpres-11",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "letra": "k",
+        "funcion": "Proponer al Rey el nombramiento y separación de los Vicepresidentes y de los Ministros.",
+        "observacion": "Nombramiento de miembros del Gobierno (art. 12.2)."
+      },
+      "pasaje_origen": "Artículo 2.2.k Ley 50/1997",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-funcpres-12",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "letra": "l",
+        "funcion": "Resolver los conflictos de atribuciones que puedan surgir entre los distintos Ministerios.",
+        "observacion": "Coordinación interministerial."
+      },
+      "pasaje_origen": "Artículo 2.2.l Ley 50/1997",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-funcpres-13",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "letra": "m",
+        "funcion": "Impartir instrucciones a los demás miembros del Gobierno.",
+        "observacion": "Dirección política."
+      },
+      "pasaje_origen": "Artículo 2.2.m Ley 50/1997",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-funcpres-14",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "letra": "n",
+        "funcion": "Ejercer cuantas otras atribuciones le confieran la Constitución y las leyes.",
+        "observacion": "Cláusula residual."
+      },
+      "pasaje_origen": "Artículo 2.2.n Ley 50/1997",
+      "ubicacion": {},
+      "verificado": false
+    }
+  ],
+  "verificado": false
+}

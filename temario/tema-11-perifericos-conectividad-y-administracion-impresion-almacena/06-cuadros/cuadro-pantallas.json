@@ -1,0 +1,151 @@
+{
+  "id": "cuadro-pantallas",
+  "tema_id": "tema-11-perifericos-conectividad-y-administracion-impresion-almacena",
+  "tipo_dato": "referencia",
+  "titulo": "Pantallas: paneles LCD y resoluciones",
+  "semilla": false,
+  "n_filas": 10,
+  "n_fuentes_distintas": 1,
+  "columnas": [
+    "elemento",
+    "categoria",
+    "descripcion"
+  ],
+  "columna_clave": "elemento",
+  "columna_respuesta": "categoria",
+  "columna_contexto": "descripcion",
+  "columna_fuente": "fuente",
+  "filas": [
+    {
+      "id": "c-pant-1",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "elemento": "TN",
+        "categoria": "Panel LCD",
+        "descripcion": "Twisted Nematic: tiempo de respuesta bajo, ángulos de visión reducidos, económico"
+      },
+      "pasaje_origen": "Tipo de panel LCD",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-pant-2",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "elemento": "IPS",
+        "categoria": "Panel LCD",
+        "descripcion": "In-Plane Switching: mejor color y ángulos de visión, mayor consumo"
+      },
+      "pasaje_origen": "Tipo de panel LCD",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-pant-3",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "elemento": "VA",
+        "categoria": "Panel LCD",
+        "descripcion": "Vertical Alignment: alto contraste, ángulos intermedios"
+      },
+      "pasaje_origen": "Tipo de panel LCD",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-pant-4",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "elemento": "HD",
+        "categoria": "Resolución",
+        "descripcion": "1280 x 720 (720p)"
+      },
+      "pasaje_origen": "Resolución válida pantalla",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-pant-5",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "elemento": "Full HD (FHD)",
+        "categoria": "Resolución",
+        "descripcion": "1920 x 1080 (1080p)"
+      },
+      "pasaje_origen": "Resolución válida pantalla",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-pant-6",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "elemento": "QHD / 2K",
+        "categoria": "Resolución",
+        "descripcion": "2560 x 1440"
+      },
+      "pasaje_origen": "Resolución válida pantalla",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-pant-7",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "elemento": "4K UHD",
+        "categoria": "Resolución",
+        "descripcion": "3840 x 2160"
+      },
+      "pasaje_origen": "Resolución válida pantalla",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-pant-8",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "elemento": "8K UHD",
+        "categoria": "Resolución",
+        "descripcion": "7680 x 4320"
+      },
+      "pasaje_origen": "Resolución válida pantalla",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-pant-9",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "elemento": "WUXGA",
+        "categoria": "Resolución",
+        "descripcion": "1920 x 1200 (16:10)"
+      },
+      "pasaje_origen": "Resolución válida pantalla",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-pant-10",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "elemento": "UXGA",
+        "categoria": "Resolución",
+        "descripcion": "1600 x 1200"
+      },
+      "pasaje_origen": "Resolución válida pantalla",
+      "ubicacion": {},
+      "verificado": false
+    }
+  ],
+  "verificado": false
+}

@@ -1,0 +1,134 @@
+{
+  "id": "cuadro-funciones-logicas",
+  "tema_id": "tema-10-informatica-basica-representacion-de-la-informacion-arquitec",
+  "tipo_dato": "logica",
+  "titulo": "Funciones lógicas básicas (resultado para a=0, b=1)",
+  "semilla": false,
+  "n_filas": 8,
+  "n_fuentes_distintas": 1,
+  "columnas": [
+    "funcion",
+    "expresion",
+    "resultado_a0_b1",
+    "descripcion"
+  ],
+  "columna_clave": "funcion",
+  "columna_respuesta": "resultado_a0_b1",
+  "columna_contexto": "expresion",
+  "columna_fuente": "fuente",
+  "filas": [
+    {
+      "id": "c-logica-1",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "funcion": "AND (Y)",
+        "expresion": "a ∧ b",
+        "resultado_a0_b1": "0",
+        "descripcion": "Vale 1 solo si ambas entradas son 1"
+      },
+      "pasaje_origen": "Funciones lógicas básicas",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-logica-2",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "funcion": "OR (O)",
+        "expresion": "a ∨ b",
+        "resultado_a0_b1": "1",
+        "descripcion": "Vale 1 si al menos una entrada es 1"
+      },
+      "pasaje_origen": "Funciones lógicas básicas",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-logica-3",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "funcion": "NOT (NO) de a",
+        "expresion": "¬a",
+        "resultado_a0_b1": "1",
+        "descripcion": "Invierte el valor de la entrada"
+      },
+      "pasaje_origen": "Funciones lógicas básicas",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-logica-4",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "funcion": "NOT (NO) de b",
+        "expresion": "¬b",
+        "resultado_a0_b1": "0",
+        "descripcion": "Invierte el valor de la entrada"
+      },
+      "pasaje_origen": "Funciones lógicas básicas",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-logica-5",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "funcion": "XOR (O exclusivo)",
+        "expresion": "a ⊕ b",
+        "resultado_a0_b1": "1",
+        "descripcion": "Vale 1 si las entradas son distintas"
+      },
+      "pasaje_origen": "Funciones lógicas básicas",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-logica-6",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "funcion": "NAND",
+        "expresion": "¬(a ∧ b)",
+        "resultado_a0_b1": "1",
+        "descripcion": "Negación de AND"
+      },
+      "pasaje_origen": "Funciones lógicas básicas",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-logica-7",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "funcion": "NOR",
+        "expresion": "¬(a ∨ b)",
+        "resultado_a0_b1": "0",
+        "descripcion": "Negación de OR"
+      },
+      "pasaje_origen": "Funciones lógicas básicas",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-logica-8",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "funcion": "XNOR (equivalencia)",
+        "expresion": "¬(a ⊕ b)",
+        "resultado_a0_b1": "0",
+        "descripcion": "Vale 1 si las entradas son iguales"
+      },
+      "pasaje_origen": "Funciones lógicas básicas",
+      "ubicacion": {},
+      "verificado": false
+    }
+  ],
+  "verificado": false
+}

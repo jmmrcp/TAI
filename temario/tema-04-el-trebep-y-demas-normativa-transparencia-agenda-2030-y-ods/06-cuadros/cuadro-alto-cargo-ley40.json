@@ -1,0 +1,112 @@
+{
+  "id": "cuadro-alto-cargo-ley40",
+  "tema_id": "tema-04-el-trebep-y-demas-normativa-transparencia-agenda-2030-y-ods",
+  "tipo_dato": "alto_cargo",
+  "titulo": "Condición de alto cargo (Ley 40/2015)",
+  "semilla": false,
+  "n_filas": 7,
+  "n_fuentes_distintas": 1,
+  "columnas": [
+    "cargo",
+    "condicion_alto_cargo",
+    "norma"
+  ],
+  "columna_clave": "cargo",
+  "columna_respuesta": "condicion_alto_cargo",
+  "columna_contexto": "norma",
+  "columna_fuente": "fuente",
+  "filas": [
+    {
+      "id": "c-alto-1",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "cargo": "Presidente / Vicepresidente del Gobierno",
+        "condicion_alto_cargo": "Sí",
+        "norma": "Ley 40/2015"
+      },
+      "pasaje_origen": "Ley 40/2015, art. 54",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-alto-2",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "cargo": "Ministro",
+        "condicion_alto_cargo": "Sí",
+        "norma": "Ley 40/2015"
+      },
+      "pasaje_origen": "Examen TAI 2018, teórica 8",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-alto-3",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "cargo": "Secretario de Estado",
+        "condicion_alto_cargo": "Sí",
+        "norma": "Ley 40/2015"
+      },
+      "pasaje_origen": "Ley 40/2015, art. 54",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-alto-4",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "cargo": "Subsecretario",
+        "condicion_alto_cargo": "Sí",
+        "norma": "Ley 40/2015"
+      },
+      "pasaje_origen": "Examen TAI 2018, teórica 8",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-alto-5",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "cargo": "Secretario general técnico",
+        "condicion_alto_cargo": "Sí",
+        "norma": "Ley 40/2015"
+      },
+      "pasaje_origen": "Examen TAI 2018, teórica 8",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-alto-6",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "cargo": "Director general",
+        "condicion_alto_cargo": "Sí",
+        "norma": "Ley 40/2015"
+      },
+      "pasaje_origen": "Ley 40/2015, art. 54",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-alto-7",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "cargo": "Subdirector general",
+        "condicion_alto_cargo": "No",
+        "norma": "Ley 40/2015"
+      },
+      "pasaje_origen": "Examen TAI 2018, teórica 8",
+      "ubicacion": {},
+      "verificado": false
+    }
+  ],
+  "verificado": false
+}

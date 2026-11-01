@@ -1,0 +1,307 @@
+{
+  "id": "cuadro-agenda-2030-ods",
+  "tema_id": "tema-04-el-trebep-y-demas-normativa-transparencia-agenda-2030-y-ods",
+  "tipo_dato": "agenda2030",
+  "titulo": "Agenda 2030 para el Desarrollo Sostenible y ODS",
+  "semilla": false,
+  "n_filas": 22,
+  "n_fuentes_distintas": 1,
+  "columnas": [
+    "dato",
+    "valor",
+    "norma"
+  ],
+  "columna_clave": "dato",
+  "columna_respuesta": "valor",
+  "columna_contexto": "norma",
+  "columna_fuente": "fuente",
+  "filas": [
+    {
+      "id": "c-agenda-1",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "dato": "Año de aprobación de la Agenda 2030",
+        "valor": "2015",
+        "norma": "Res. 70/1 ONU"
+      },
+      "pasaje_origen": "Examen TAI 2018, teórica 6",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-agenda-2",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "dato": "Número de ODS",
+        "valor": "17",
+        "norma": "Res. 70/1 ONU"
+      },
+      "pasaje_origen": "Examen TAI 2021, teórica 6",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-agenda-3",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "dato": "Número de metas",
+        "valor": "169",
+        "norma": "Res. 70/1 ONU"
+      },
+      "pasaje_origen": "Conceptos clave tema 04",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-agenda-4",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "dato": "Las 5 P",
+        "valor": "Personas, Planeta, Prosperidad, Paz, Alianzas",
+        "norma": "Res. 70/1 ONU"
+      },
+      "pasaje_origen": "Conceptos clave tema 04",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-agenda-5",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "dato": "ODS 1",
+        "valor": "Erradicación de la pobreza",
+        "norma": "Res. 70/1 ONU"
+      },
+      "pasaje_origen": "Examen TAI 2026 modelos A/B, teórica 7/9",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-agenda-6",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "dato": "ODS 2",
+        "valor": "Hambre cero",
+        "norma": "Res. 70/1 ONU"
+      },
+      "pasaje_origen": "Conceptos clave tema 04",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-agenda-7",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "dato": "ODS 3",
+        "valor": "Salud y bienestar",
+        "norma": "Res. 70/1 ONU"
+      },
+      "pasaje_origen": "Conceptos clave tema 04",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-agenda-8",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "dato": "ODS 4",
+        "valor": "Educación de calidad",
+        "norma": "Res. 70/1 ONU"
+      },
+      "pasaje_origen": "Conceptos clave tema 04",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-agenda-9",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "dato": "ODS 5",
+        "valor": "Igualdad de género",
+        "norma": "Res. 70/1 ONU"
+      },
+      "pasaje_origen": "Conceptos clave tema 04",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-agenda-10",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "dato": "ODS 6",
+        "valor": "Agua limpia y saneamiento",
+        "norma": "Res. 70/1 ONU"
+      },
+      "pasaje_origen": "Conceptos clave tema 04",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-agenda-11",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "dato": "ODS 7",
+        "valor": "Energía asequible y no contaminante",
+        "norma": "Res. 70/1 ONU"
+      },
+      "pasaje_origen": "Conceptos clave tema 04",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-agenda-12",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "dato": "ODS 8",
+        "valor": "Trabajo decente y crecimiento económico",
+        "norma": "Res. 70/1 ONU"
+      },
+      "pasaje_origen": "Conceptos clave tema 04",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-agenda-13",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "dato": "ODS 9",
+        "valor": "Industria, innovación e infraestructura",
+        "norma": "Res. 70/1 ONU"
+      },
+      "pasaje_origen": "Conceptos clave tema 04",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-agenda-14",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "dato": "ODS 10",
+        "valor": "Reducción de las desigualdades",
+        "norma": "Res. 70/1 ONU"
+      },
+      "pasaje_origen": "Conceptos clave tema 04",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-agenda-15",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "dato": "ODS 11",
+        "valor": "Ciudades y comunidades sostenibles",
+        "norma": "Res. 70/1 ONU"
+      },
+      "pasaje_origen": "Conceptos clave tema 04",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-agenda-16",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "dato": "ODS 12",
+        "valor": "Producción y consumo responsables",
+        "norma": "Res. 70/1 ONU"
+      },
+      "pasaje_origen": "Conceptos clave tema 04",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-agenda-17",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "dato": "ODS 13",
+        "valor": "Acción por el clima",
+        "norma": "Res. 70/1 ONU"
+      },
+      "pasaje_origen": "Conceptos clave tema 04",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-agenda-18",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "dato": "ODS 14",
+        "valor": "Vida submarina",
+        "norma": "Res. 70/1 ONU"
+      },
+      "pasaje_origen": "Conceptos clave tema 04",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-agenda-19",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "dato": "ODS 15",
+        "valor": "Vida de ecosistemas terrestres",
+        "norma": "Res. 70/1 ONU"
+      },
+      "pasaje_origen": "Conceptos clave tema 04",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-agenda-20",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "dato": "ODS 16",
+        "valor": "Paz, justicia e instituciones sólidas",
+        "norma": "Res. 70/1 ONU"
+      },
+      "pasaje_origen": "Conceptos clave tema 04",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-agenda-21",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "dato": "ODS 17",
+        "valor": "Alianzas para lograr los objetivos",
+        "norma": "Res. 70/1 ONU"
+      },
+      "pasaje_origen": "Conceptos clave tema 04",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-agenda-22",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "dato": "NO es ODS oficial (ejemplo)",
+        "valor": "Aguas residuales y saneamiento (el oficial es 'Agua limpia y saneamiento')",
+        "norma": "Res. 70/1 ONU"
+      },
+      "pasaje_origen": "Examen TAI 2021, teórica 6",
+      "ubicacion": {},
+      "verificado": false
+    }
+  ],
+  "verificado": false
+}

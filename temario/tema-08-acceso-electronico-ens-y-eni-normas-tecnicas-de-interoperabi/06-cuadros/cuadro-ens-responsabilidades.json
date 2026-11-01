@@ -1,0 +1,73 @@
+{
+  "id": "cuadro-ens-responsabilidades",
+  "tema_id": "tema-08-acceso-electronico-ens-y-eni-normas-tecnicas-de-interoperabi",
+  "tipo_dato": "lista",
+  "titulo": "Responsables de la seguridad en el ENS (Art. 13 RD 311/2022)",
+  "semilla": false,
+  "n_filas": 4,
+  "n_fuentes_distintas": 1,
+  "columnas": [
+    "responsable",
+    "funcion",
+    "articulo"
+  ],
+  "columna_clave": "responsable",
+  "columna_respuesta": "funcion",
+  "columna_contexto": "articulo",
+  "columna_fuente": "fuente",
+  "filas": [
+    {
+      "id": "c-ens-responsabilidades-1",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "responsable": "Responsable de la información",
+        "funcion": "Determina los requisitos de la información tratada",
+        "articulo": "Art. 13.2.a RD 311/2022"
+      },
+      "pasaje_origen": "Art. 13 RD 311/2022",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-ens-responsabilidades-2",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "responsable": "Responsable del servicio",
+        "funcion": "Determina los requisitos de los servicios prestados",
+        "articulo": "Art. 13.2.b RD 311/2022"
+      },
+      "pasaje_origen": "Art. 13 RD 311/2022",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-ens-responsabilidades-3",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "responsable": "Responsable de la seguridad",
+        "funcion": "Determina las decisiones para satisfacer los requisitos de seguridad; supervisa la implantación de las medidas; reporta sobre estas cuestiones",
+        "articulo": "Art. 13.2.c RD 311/2022"
+      },
+      "pasaje_origen": "Art. 13 RD 311/2022",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-ens-responsabilidades-4",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "responsable": "Responsable del sistema",
+        "funcion": "Por sí o a través de recursos propios o contratados, desarrolla la forma concreta de implementar la seguridad en el sistema y supervisa la operación diaria; puede delegar en administradores u operadores",
+        "articulo": "Art. 13.2.d RD 311/2022"
+      },
+      "pasaje_origen": "Art. 13 RD 311/2022",
+      "ubicacion": {},
+      "verificado": false
+    }
+  ],
+  "verificado": false
+}

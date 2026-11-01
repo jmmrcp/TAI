@@ -1,0 +1,99 @@
+{
+  "id": "cuadro-planes-igualdad",
+  "tema_id": "tema-05-politicas-de-igualdad-violencia-de-genero-lgtbi-discapacidad",
+  "tipo_dato": "planes_igualdad",
+  "titulo": "Planes de igualdad y criterios de actuación (LO 3/2007)",
+  "semilla": false,
+  "n_filas": 6,
+  "n_fuentes_distintas": 1,
+  "columnas": [
+    "aspecto",
+    "detalle",
+    "articulo"
+  ],
+  "columna_clave": "aspecto",
+  "columna_respuesta": "detalle",
+  "columna_contexto": "articulo",
+  "columna_fuente": "fuente",
+  "filas": [
+    {
+      "id": "c-planes-igualdad-1",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "aspecto": "Obligatoriedad",
+        "detalle": "Empresas de 50 o más trabajadores deben elaborar y aplicar un plan de igualdad",
+        "articulo": "art. 45"
+      },
+      "pasaje_origen": "Art. 45 LO 3/2007: obligación de elaborar planes de igualdad",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-planes-igualdad-2",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "aspecto": "Contenido",
+        "detalle": "Diagnóstico negociado y medidas evaluables en selección, formación, retribuciones, acoso, etc.",
+        "articulo": "art. 46"
+      },
+      "pasaje_origen": "Art. 46 LO 3/2007: concepto y contenido de los planes de igualdad",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-planes-igualdad-3",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "aspecto": "Auditoría salarial",
+        "detalle": "Materia obligatoria del diagnóstico de los planes de igualdad",
+        "articulo": "art. 46.2"
+      },
+      "pasaje_origen": "Art. 46.2 LO 3/2007",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-planes-igualdad-4",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "aspecto": "Fomento voluntario",
+        "detalle": "Medidas de fomento, especialmente dirigidas a las pequeñas y medianas empresas, con apoyo técnico necesario",
+        "articulo": "art. 49"
+      },
+      "pasaje_origen": "Art. 49 LO 3/2007: apoyo para la implantación voluntaria de planes de igualdad",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-planes-igualdad-5",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "aspecto": "Distintivo empresarial",
+        "detalle": "Ministerio de Trabajo crea distintivo para empresas destacadas en igualdad",
+        "articulo": "art. 50"
+      },
+      "pasaje_origen": "Art. 50 LO 3/2007",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-planes-igualdad-6",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "aspecto": "Criterio AA.PP. (retribuciones)",
+        "detalle": "Establecer medidas efectivas para eliminar cualquier discriminación retributiva, directa o indirecta, por razón de sexo",
+        "articulo": "art. 51"
+      },
+      "pasaje_origen": "Art. 51 LO 3/2007: criterios de actuación de las Administraciones públicas",
+      "ubicacion": {},
+      "verificado": false
+    }
+  ],
+  "verificado": false
+}

@@ -1,0 +1,99 @@
+{
+  "id": "cuadro-registro-funcionarios-habilitados",
+  "tema_id": "tema-09-instrumentos-para-el-acceso-electronico-sedes-infraestructur",
+  "tipo_dato": "lista",
+  "titulo": "Registro de Funcionarios Habilitados (art. 31 RD 203/2021)",
+  "semilla": false,
+  "n_filas": 6,
+  "n_fuentes_distintas": 1,
+  "columnas": [
+    "elemento",
+    "descripcion",
+    "referencia"
+  ],
+  "columna_clave": "elemento",
+  "columna_respuesta": "descripcion",
+  "columna_contexto": "referencia",
+  "columna_fuente": "fuente",
+  "filas": [
+    {
+      "id": "c-rfh-1",
+      "fuente": "Real Decreto 203/2021",
+      "fuente_tipo": "articulo",
+      "valores": {
+        "elemento": "RFH 1",
+        "descripcion": "Personal funcionario habilitado para la identificación y firma electrónica de las personas interesadas en los trámites y procedimientos que se determinen por el ministerio, organismo o entidad competente para su tramitación.",
+        "referencia": "Art. 31.1.a"
+      },
+      "pasaje_origen": "Art. 31.1.a",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-rfh-2",
+      "fuente": "Real Decreto 203/2021",
+      "fuente_tipo": "articulo",
+      "valores": {
+        "elemento": "RFH 2",
+        "descripcion": "Personal funcionario habilitado para la expedición de copias auténticas; habilitación conferida por los órganos a los que corresponda la emisión de los documentos originales, su custodia o archivo.",
+        "referencia": "Art. 31.1.b"
+      },
+      "pasaje_origen": "Art. 31.1.b",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-rfh-3",
+      "fuente": "Real Decreto 203/2021",
+      "fuente_tipo": "articulo",
+      "valores": {
+        "elemento": "RFH 3",
+        "descripcion": "Personal funcionario habilitado que presta servicio en las oficinas de asistencia en materia de registros de la AGE, para la identificación y firma electrónica de las personas interesadas y la expedición de copias auténticas electrónicas de los documentos que presenten.",
+        "referencia": "Art. 31.1.c"
+      },
+      "pasaje_origen": "Art. 31.1.c",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-rfh-4",
+      "fuente": "Real Decreto 203/2021",
+      "fuente_tipo": "articulo",
+      "valores": {
+        "elemento": "RFH 4",
+        "descripcion": "Gestión del Registro por la Secretaría de Estado de Política Territorial y Función Pública, en colaboración con la Secretaría General de Administración Digital; interoperable con sistemas equivalentes ya existentes en la AGE.",
+        "referencia": "Art. 31.2"
+      },
+      "pasaje_origen": "Art. 31.2",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-rfh-5",
+      "fuente": "Real Decreto 203/2021",
+      "fuente_tipo": "articulo",
+      "valores": {
+        "elemento": "RFH 5",
+        "descripcion": "Interoperabilidad plena con los registros u otros sistemas equivalentes que se creen por las comunidades autónomas y las entidades locales, a efectos de comprobar la validez de las habilitaciones.",
+        "referencia": "Art. 31.3"
+      },
+      "pasaje_origen": "Art. 31.3",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-rfh-6",
+      "fuente": "Real Decreto 203/2021",
+      "fuente_tipo": "articulo",
+      "valores": {
+        "elemento": "RFH 6",
+        "descripcion": "Regulación del funcionamiento del Registro mediante orden conjunta del titular del Ministerio de Política Territorial y Función Pública y del titular del Ministerio de Asuntos Económicos y Transformación Digital.",
+        "referencia": "Art. 31.4"
+      },
+      "pasaje_origen": "Art. 31.4",
+      "ubicacion": {},
+      "verificado": false
+    }
+  ],
+  "verificado": false
+}

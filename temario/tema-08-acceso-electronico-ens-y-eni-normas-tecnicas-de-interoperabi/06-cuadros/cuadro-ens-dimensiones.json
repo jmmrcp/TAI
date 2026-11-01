@@ -1,0 +1,86 @@
+{
+  "id": "cuadro-ens-dimensiones",
+  "tema_id": "tema-08-acceso-electronico-ens-y-eni-normas-tecnicas-de-interoperabi",
+  "tipo_dato": "lista",
+  "titulo": "Dimensiones de seguridad del ENS (Anexo I RD 311/2022)",
+  "semilla": false,
+  "n_filas": 5,
+  "n_fuentes_distintas": 1,
+  "columnas": [
+    "dimension",
+    "inicial",
+    "definicion"
+  ],
+  "columna_clave": "dimension",
+  "columna_respuesta": "definicion",
+  "columna_contexto": "inicial",
+  "columna_fuente": "fuente",
+  "filas": [
+    {
+      "id": "c-ens-dimensiones-1",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "dimension": "Confidencialidad",
+        "inicial": "C",
+        "definicion": "Propiedad o característica consistente en que la información no se pone a disposición ni se revela a individuos, entidades o procesos no autorizados"
+      },
+      "pasaje_origen": "Anexo I RD 311/2022",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-ens-dimensiones-2",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "dimension": "Integridad",
+        "inicial": "I",
+        "definicion": "Propiedad o característica consistente en que la información no ha sido alterada de manera no autorizada"
+      },
+      "pasaje_origen": "Anexo I RD 311/2022",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-ens-dimensiones-3",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "dimension": "Trazabilidad",
+        "inicial": "T",
+        "definicion": "Propiedad o característica consistente en que las actuaciones de una entidad (persona o proceso) pueden ser trazadas de forma indiscutible hasta dicha entidad"
+      },
+      "pasaje_origen": "Anexo I RD 311/2022",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-ens-dimensiones-4",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "dimension": "Autenticidad",
+        "inicial": "A",
+        "definicion": "Propiedad o característica consistente en que una entidad es quien dice ser"
+      },
+      "pasaje_origen": "Anexo I RD 311/2022",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-ens-dimensiones-5",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "dimension": "Disponibilidad",
+        "inicial": "D",
+        "definicion": "Propiedad o característica consistente en que la información y los servicios son accesibles y utilizables cuando se requiere por una entidad autorizada"
+      },
+      "pasaje_origen": "Anexo I RD 311/2022",
+      "ubicacion": {},
+      "verificado": false
+    }
+  ],
+  "verificado": false
+}

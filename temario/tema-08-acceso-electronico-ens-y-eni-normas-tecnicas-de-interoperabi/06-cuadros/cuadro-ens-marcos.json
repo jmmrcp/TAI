@@ -1,0 +1,60 @@
+{
+  "id": "cuadro-ens-marcos",
+  "tema_id": "tema-08-acceso-electronico-ens-y-eni-normas-tecnicas-de-interoperabi",
+  "tipo_dato": "lista",
+  "titulo": "Marcos de medidas de seguridad del ENS (Anexo II RD 311/2022)",
+  "semilla": false,
+  "n_filas": 3,
+  "n_fuentes_distintas": 1,
+  "columnas": [
+    "marco",
+    "descripcion",
+    "medidas_ejemplo"
+  ],
+  "columna_clave": "marco",
+  "columna_respuesta": "descripcion",
+  "columna_contexto": "medidas_ejemplo",
+  "columna_fuente": "fuente",
+  "filas": [
+    {
+      "id": "c-ens-marcos-1",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "marco": "Marco organizativo",
+        "descripcion": "Conjunto de medidas relacionadas con la organización global de la seguridad del sistema de información",
+        "medidas_ejemplo": "Política de seguridad, gestión de personal, autorización y control de accesos, protección de instalaciones"
+      },
+      "pasaje_origen": "Anexo II RD 311/2022",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-ens-marcos-2",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "marco": "Marco operacional",
+        "descripcion": "Medidas a tomar para proteger la operación del sistema como conjunto integral de componentes para un fin",
+        "medidas_ejemplo": "Planificación (análisis de riesgos), protección (control de acceso, cifrado), explotación (monitorización, copias de seguridad)"
+      },
+      "pasaje_origen": "Anexo II RD 311/2022",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-ens-marcos-3",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "marco": "Medidas de protección",
+        "descripcion": "Medidas que se centran en proteger activos concretos, según su naturaleza y la calidad exigida por el nivel de seguridad de las dimensiones afectadas",
+        "medidas_ejemplo": "Protección de la información almacenada y en tránsito, integridad y actualización del sistema, mínimo privilegio"
+      },
+      "pasaje_origen": "Anexo II RD 311/2022",
+      "ubicacion": {},
+      "verificado": false
+    }
+  ],
+  "verificado": false
+}

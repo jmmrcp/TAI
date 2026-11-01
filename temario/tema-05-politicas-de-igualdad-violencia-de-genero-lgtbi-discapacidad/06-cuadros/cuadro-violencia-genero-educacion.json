@@ -1,0 +1,73 @@
+{
+  "id": "cuadro-violencia-genero-educacion",
+  "tema_id": "tema-05-politicas-de-igualdad-violencia-de-genero-lgtbi-discapacidad",
+  "tipo_dato": "violencia_genero_educacion",
+  "titulo": "Principios y valores del sistema educativo (art. 4 LO 1/2004)",
+  "semilla": false,
+  "n_filas": 4,
+  "n_fuentes_distintas": 1,
+  "columnas": [
+    "nivel_educativo",
+    "aportacion",
+    "articulo"
+  ],
+  "columna_clave": "nivel_educativo",
+  "columna_respuesta": "aportacion",
+  "columna_contexto": "articulo",
+  "columna_fuente": "fuente",
+  "filas": [
+    {
+      "id": "c-violencia-genero-educacion-1",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "nivel_educativo": "Educación Infantil",
+        "aportacion": "Resolución pacífica de conflictos y comprensión y respeto de la igualdad entre mujeres y hombres",
+        "articulo": "art. 4"
+      },
+      "pasaje_origen": "Art. 4 LO 1/2004: principios y valores del sistema educativo",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-violencia-genero-educacion-2",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "nivel_educativo": "Educación Primaria",
+        "aportacion": "Relacionarse pacíficamente y conocer, valorar y respetar la igualdad de oportunidades y la no discriminación",
+        "articulo": "art. 4"
+      },
+      "pasaje_origen": "Art. 4 LO 1/2004",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-violencia-genero-educacion-3",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "nivel_educativo": "Educación Secundaria",
+        "aportacion": "Consolidar madurez personal, social y moral; actuar con responsabilidad y autonomía; analizar y valorar críticamente las desigualdades de sexo",
+        "articulo": "art. 4"
+      },
+      "pasaje_origen": "Art. 4 LO 1/2004",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-violencia-genero-educacion-4",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "nivel_educativo": "Universidades",
+        "aportacion": "Incluir y fomentar en todos los ámbitos académicos la formación, la docencia y la investigación en igualdad de género y no discriminación de forma transversal",
+        "articulo": "art. 4"
+      },
+      "pasaje_origen": "Art. 4 LO 1/2004: respuesta correcta en exámenes oficiales",
+      "ubicacion": {},
+      "verificado": false
+    }
+  ],
+  "verificado": false
+}

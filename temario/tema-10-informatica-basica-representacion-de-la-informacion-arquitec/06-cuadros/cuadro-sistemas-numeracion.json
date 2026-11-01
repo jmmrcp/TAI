@@ -1,0 +1,78 @@
+{
+  "id": "cuadro-sistemas-numeracion",
+  "tema_id": "tema-10-informatica-basica-representacion-de-la-informacion-arquitec",
+  "tipo_dato": "numeracion",
+  "titulo": "Sistemas de numeración y dígitos válidos",
+  "semilla": false,
+  "n_filas": 4,
+  "n_fuentes_distintas": 1,
+  "columnas": [
+    "sistema",
+    "base",
+    "digitos_validos",
+    "ejemplo"
+  ],
+  "columna_clave": "sistema",
+  "columna_respuesta": "digitos_validos",
+  "columna_contexto": "base",
+  "columna_fuente": "fuente",
+  "filas": [
+    {
+      "id": "c-num-1",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "sistema": "Decimal",
+        "base": "10",
+        "digitos_validos": "0-9",
+        "ejemplo": "255"
+      },
+      "pasaje_origen": "Sistemas de numeración",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-num-2",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "sistema": "Binario",
+        "base": "2",
+        "digitos_validos": "0, 1",
+        "ejemplo": "11111111"
+      },
+      "pasaje_origen": "Sistemas de numeración",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-num-3",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "sistema": "Octal",
+        "base": "8",
+        "digitos_validos": "0-7",
+        "ejemplo": "377"
+      },
+      "pasaje_origen": "Sistemas de numeración",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-num-4",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "sistema": "Hexadecimal",
+        "base": "16",
+        "digitos_validos": "0-9, A-F (a-f)",
+        "ejemplo": "FF"
+      },
+      "pasaje_origen": "Sistemas de numeración",
+      "ubicacion": {},
+      "verificado": false
+    }
+  ],
+  "verificado": false
+}

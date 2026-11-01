@@ -1,0 +1,60 @@
+{
+  "id": "cuadro-discapacidad",
+  "tema_id": "tema-05-politicas-de-igualdad-violencia-de-genero-lgtbi-discapacidad",
+  "tipo_dato": "discapacidad",
+  "titulo": "Discapacidad: grado mínimo y medidas de inclusión (RDL 1/2013)",
+  "semilla": false,
+  "n_filas": 3,
+  "n_fuentes_distintas": 1,
+  "columnas": [
+    "concepto",
+    "valor",
+    "norma"
+  ],
+  "columna_clave": "concepto",
+  "columna_respuesta": "valor",
+  "columna_contexto": "norma",
+  "columna_fuente": "fuente",
+  "filas": [
+    {
+      "id": "c-discapacidad-1",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "Grado mínimo para consideración de persona con discapacidad",
+        "valor": "33%",
+        "norma": "art. 4.2 RDL 1/2013"
+      },
+      "pasaje_origen": "Art. 4.2 RDL 1/2013: grado mínimo reconocido a partir del cual se tiene la consideración de persona con discapacidad",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-discapacidad-2",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "Cuota de reserva de empleo",
+        "valor": "Al menos el 2% de la plantilla en empresas de 50 o más trabajadores",
+        "norma": "art. 42 RDL 1/2013"
+      },
+      "pasaje_origen": "Art. 42 RDL 1/2013: reserva de empleo para personas con discapacidad",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-discapacidad-3",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "Medidas alternativas",
+        "valor": "Empresas que no puedan cumplir la cuota pueden aplicar medidas alternativas comunicadas a la autoridad laboral",
+        "norma": "art. 42 RDL 1/2013"
+      },
+      "pasaje_origen": "Art. 42 RDL 1/2013",
+      "ubicacion": {},
+      "verificado": false
+    }
+  ],
+  "verificado": false
+}

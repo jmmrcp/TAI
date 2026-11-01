@@ -1,0 +1,229 @@
+{
+  "id": "cuadro-consejo-ministros",
+  "tema_id": "tema-03-el-gobierno-composicion-nombramiento-y-cese-relaciones-con-l",
+  "tipo_dato": "funciones",
+  "titulo": "Consejo de Ministros: funciones y organización (arts. 5 y 18 Ley 50/1997)",
+  "semilla": false,
+  "n_filas": 16,
+  "n_fuentes_distintas": 1,
+  "columnas": [
+    "elemento",
+    "contenido",
+    "base_legal"
+  ],
+  "columna_clave": "elemento",
+  "columna_respuesta": "contenido",
+  "columna_contexto": "base_legal",
+  "columna_fuente": "fuente",
+  "filas": [
+    {
+      "id": "c-cm-1",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "elemento": "Función a",
+        "contenido": "Aprobar los proyectos de ley y su remisión al Congreso de los Diputados o, en su caso, al Senado.",
+        "base_legal": "Art. 5.1.a Ley 50/1997"
+      },
+      "pasaje_origen": "Artículo 5.1.a",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-cm-2",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "elemento": "Función b",
+        "contenido": "Aprobar el Proyecto de Ley de Presupuestos Generales del Estado.",
+        "base_legal": "Art. 5.1.b Ley 50/1997"
+      },
+      "pasaje_origen": "Artículo 5.1.b",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-cm-3",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "elemento": "Función c",
+        "contenido": "Aprobar los Reales Decretos-leyes y los Reales Decretos Legislativos.",
+        "base_legal": "Art. 5.1.c Ley 50/1997"
+      },
+      "pasaje_origen": "Artículo 5.1.c",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-cm-4",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "elemento": "Función d",
+        "contenido": "Acordar la negociación y firma de Tratados internacionales, así como su aplicación provisional.",
+        "base_legal": "Art. 5.1.d Ley 50/1997"
+      },
+      "pasaje_origen": "Artículo 5.1.d",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-cm-5",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "elemento": "Función e",
+        "contenido": "Remitir los Tratados internacionales a las Cortes Generales (arts. 94 y 96.2 CE).",
+        "base_legal": "Art. 5.1.e Ley 50/1997"
+      },
+      "pasaje_origen": "Artículo 5.1.e",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-cm-6",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "elemento": "Función f",
+        "contenido": "Declarar los estados de alarma y de excepción y proponer al Congreso la declaración del estado de sitio.",
+        "base_legal": "Art. 5.1.f Ley 50/1997"
+      },
+      "pasaje_origen": "Artículo 5.1.f",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-cm-7",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "elemento": "Función g",
+        "contenido": "Disponer la emisión de Deuda Pública o contraer crédito, cuando haya sido autorizado por una Ley.",
+        "base_legal": "Art. 5.1.g Ley 50/1997"
+      },
+      "pasaje_origen": "Artículo 5.1.g",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-cm-8",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "elemento": "Función h",
+        "contenido": "Aprobar los reglamentos para el desarrollo y ejecución de las leyes (previo dictamen del Consejo de Estado) y demás disposiciones reglamentarias.",
+        "base_legal": "Art. 5.1.h Ley 50/1997"
+      },
+      "pasaje_origen": "Artículo 5.1.h",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-cm-9",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "elemento": "Función i",
+        "contenido": "Crear, modificar y suprimir los órganos directivos de los Departamentos Ministeriales.",
+        "base_legal": "Art. 5.1.i Ley 50/1997"
+      },
+      "pasaje_origen": "Artículo 5.1.i",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-cm-10",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "elemento": "Función j",
+        "contenido": "Adoptar programas, planes y directrices vinculantes para todos los órganos de la Administración General del Estado.",
+        "base_legal": "Art. 5.1.j Ley 50/1997"
+      },
+      "pasaje_origen": "Artículo 5.1.j",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-cm-11",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "elemento": "Función k",
+        "contenido": "Ejercer cuantas otras atribuciones le confieran la Constitución, las leyes y cualquier otra disposición.",
+        "base_legal": "Art. 5.1.k Ley 50/1997"
+      },
+      "pasaje_origen": "Artículo 5.1.k",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-cm-12",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "elemento": "Secretario",
+        "contenido": "Actúa como Secretario el Ministro de la Presidencia.",
+        "base_legal": "Art. 18.1 Ley 50/1997"
+      },
+      "pasaje_origen": "Artículo 18.1",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-cm-13",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "elemento": "Convocatoria y presidencia",
+        "contenido": "El Presidente del Gobierno convoca y preside las reuniones.",
+        "base_legal": "Art. 18.1 Ley 50/1997"
+      },
+      "pasaje_origen": "Artículo 18.1",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-cm-14",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "elemento": "Deliberaciones",
+        "contenido": "Serán secretas.",
+        "base_legal": "Art. 5.3 Ley 50/1997"
+      },
+      "pasaje_origen": "Artículo 5.3",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-cm-15",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "elemento": "Acta",
+        "contenido": "Figurarán circunstancias de tiempo y lugar, relación de asistentes, acuerdos adoptados e informes presentados.",
+        "base_legal": "Art. 18.4 Ley 50/1997"
+      },
+      "pasaje_origen": "Artículo 18.4",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-cm-16",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "elemento": "Asistencia",
+        "contenido": "Podrán asistir los Secretarios de Estado y, excepcionalmente, otros altos cargos cuando sean convocados.",
+        "base_legal": "Art. 5.2 Ley 50/1997"
+      },
+      "pasaje_origen": "Artículo 5.2",
+      "ubicacion": {},
+      "verificado": false
+    }
+  ],
+  "verificado": false
+}

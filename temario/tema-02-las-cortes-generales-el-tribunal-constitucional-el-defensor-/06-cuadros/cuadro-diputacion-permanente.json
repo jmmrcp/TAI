@@ -1,0 +1,80 @@
+{
+  "id": "cuadro-diputacion-permanente",
+  "tema_id": "tema-02-las-cortes-generales-el-tribunal-constitucional-el-defensor-",
+  "tipo_dato": "composicion",
+  "titulo": "Diputación Permanente (art. 78 CE)",
+  "semilla": false,
+  "n_filas": 5,
+  "n_fuentes_distintas": 1,
+  "columnas": [
+    "aspecto",
+    "detalle"
+  ],
+  "columna_clave": "aspecto",
+  "columna_respuesta": "detalle",
+  "columna_contexto": null,
+  "columna_fuente": "fuente",
+  "filas": [
+    {
+      "id": "c-diputacion-permanente-1",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "aspecto": "Composición",
+        "detalle": "Mínimo 21 miembros por Cámara, representando a los grupos parlamentarios en proporción a su importancia numérica"
+      },
+      "pasaje_origen": "art. 78.1",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-diputacion-permanente-2",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "aspecto": "Presidencia",
+        "detalle": "Presidente de la Cámara respectiva"
+      },
+      "pasaje_origen": "art. 78.1",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-diputacion-permanente-3",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "aspecto": "Funciones",
+        "detalle": "La del art. 73 (sesiones extraordinarias); asumir facultades de las Cámaras (arts. 86 y 116) si disueltas o expirado mandato; velar por los poderes de las Cámaras cuando no estén reunidas"
+      },
+      "pasaje_origen": "art. 78.2",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-diputacion-permanente-4",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "aspecto": "Continuidad",
+        "detalle": "Expirado el mandato o en caso de disolución, sigue ejerciendo sus funciones hasta la constitución de las nuevas Cortes Generales"
+      },
+      "pasaje_origen": "art. 78.3",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-diputacion-permanente-5",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "aspecto": "Rendición de cuentas",
+        "detalle": "Reunida la Cámara, da cuenta de los asuntos tratados y de sus decisiones"
+      },
+      "pasaje_origen": "art. 78.4",
+      "ubicacion": {},
+      "verificado": false
+    }
+  ],
+  "verificado": false
+}

@@ -1,0 +1,177 @@
+{
+  "id": "cuadro-mocion-censura-cuestion-confianza",
+  "tema_id": "tema-03-el-gobierno-composicion-nombramiento-y-cese-relaciones-con-l",
+  "tipo_dato": "relaciones_cortes",
+  "titulo": "Relaciones con las Cortes: moción de censura, cuestión de confianza y disolución (arts. 112-115 CE; art. 2 Ley 50/1997)",
+  "semilla": false,
+  "n_filas": 12,
+  "n_fuentes_distintas": 1,
+  "columnas": [
+    "mecanismo",
+    "descripcion",
+    "base_legal"
+  ],
+  "columna_clave": "mecanismo",
+  "columna_respuesta": "descripcion",
+  "columna_contexto": "base_legal",
+  "columna_fuente": "fuente",
+  "filas": [
+    {
+      "id": "c-mc-1",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "mecanismo": "Moción de censura: propuesta",
+        "descripcion": "Debe ser propuesta por al menos una décima parte de los diputados.",
+        "base_legal": "Art. 113.1 CE"
+      },
+      "pasaje_origen": "Artículo 113.1 CE",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-mc-2",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "mecanismo": "Moción de censura: candidato",
+        "descripcion": "Debe incluir un candidato a la Presidencia del Gobierno.",
+        "base_legal": "Art. 113.2 CE"
+      },
+      "pasaje_origen": "Artículo 113.2 CE",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-mc-3",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "mecanismo": "Moción de censura: debate y votación",
+        "descripcion": "No podrá ser votada hasta que transcurran cinco días desde su presentación; el debate podrá incluir una propuesta alternativa.",
+        "base_legal": "Art. 113.2 CE"
+      },
+      "pasaje_origen": "Artículo 113.2 CE",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-mc-4",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "mecanismo": "Moción de censura: mayoría",
+        "descripcion": "Para su aprobación se requiere mayoría absoluta del Congreso.",
+        "base_legal": "Art. 113.3 CE"
+      },
+      "pasaje_origen": "Artículo 113.3 CE",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-mc-5",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "mecanismo": "Moción de censura: efecto si se aprueba",
+        "descripcion": "El Gobierno dimite y el Rey nombra Presidente al candidato propuesto en la moción.",
+        "base_legal": "Art. 113.3 CE; art. 99 CE"
+      },
+      "pasaje_origen": "Artículo 113.3 CE",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-mc-6",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "mecanismo": "Moción de censura: si no se aprueba",
+        "descripcion": "Los proponentes no pueden presentar otra moción de censura en el mismo período de sesiones.",
+        "base_legal": "Art. 113.3 CE"
+      },
+      "pasaje_origen": "Artículo 113.3 CE",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-mc-7",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "mecanismo": "Cuestión de confianza: planteamiento",
+        "descripcion": "El Presidente del Gobierno, previa deliberación del Consejo de Ministros, puede plantearla ante el Congreso sobre su programa o una declaración de política general.",
+        "base_legal": "Art. 112 CE; art. 2.2.d Ley 50/1997"
+      },
+      "pasaje_origen": "Artículo 112 CE",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-mc-8",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "mecanismo": "Cuestión de confianza: mayoría",
+        "descripcion": "Se entiende otorgada si vota a favor la mayoría simple de los diputados.",
+        "base_legal": "Art. 112 CE"
+      },
+      "pasaje_origen": "Artículo 112 CE",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-mc-9",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "mecanismo": "Cuestión de confianza: efecto si no se obtiene",
+        "descripcion": "El Gobierno dimite y el Presidente propone al Rey la disolución o el nombramiento de nuevo Presidente según los casos.",
+        "base_legal": "Art. 112 CE; art. 101 CE"
+      },
+      "pasaje_origen": "Artículo 112 CE",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-mc-10",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "mecanismo": "Disolución de Cortes",
+        "descripcion": "El Presidente del Gobierno, previa deliberación del Consejo de Ministros, propone al Rey la disolución del Congreso, del Senado o de las Cortes Generales.",
+        "base_legal": "Art. 2.2.c Ley 50/1997; art. 115 CE"
+      },
+      "pasaje_origen": "Artículo 2.2.c Ley 50/1997",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-mc-11",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "mecanismo": "Responsabilidad solidaria",
+        "descripcion": "El Gobierno responde solidariamente de su gestión política ante el Congreso de los Diputados.",
+        "base_legal": "Art. 108 CE"
+      },
+      "pasaje_origen": "Artículo 108 CE",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-mc-12",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "mecanismo": "Control parlamentario",
+        "descripcion": "Las Cortes Generales controlan la acción del Gobierno mediante preguntas, interpelaciones y comisiones de investigación.",
+        "base_legal": "Arts. 109-111 CE"
+      },
+      "pasaje_origen": "Artículos 109-111 CE",
+      "ubicacion": {},
+      "verificado": false
+    }
+  ],
+  "verificado": false
+}

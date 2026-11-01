@@ -1,0 +1,99 @@
+{
+  "id": "cuadro-discriminacion-tipos",
+  "tema_id": "tema-05-politicas-de-igualdad-violencia-de-genero-lgtbi-discapacidad",
+  "tipo_dato": "discriminacion",
+  "titulo": "Tipos de discriminación por razón de sexo (LO 3/2007)",
+  "semilla": false,
+  "n_filas": 6,
+  "n_fuentes_distintas": 1,
+  "columnas": [
+    "tipo",
+    "definicion",
+    "articulo"
+  ],
+  "columna_clave": "tipo",
+  "columna_respuesta": "definicion",
+  "columna_contexto": "articulo",
+  "columna_fuente": "fuente",
+  "filas": [
+    {
+      "id": "c-discriminacion-tipos-1",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "tipo": "Discriminación directa",
+        "definicion": "Trato menos favorable a una persona por razón de sexo respecto de otra en situación comparable",
+        "articulo": "art. 6.1"
+      },
+      "pasaje_origen": "Art. 6.1 LO 3/2007",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-discriminacion-tipos-2",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "tipo": "Discriminación indirecta",
+        "definicion": "Disposición, criterio o práctica aparentemente neutra que causa desventaja particular por razón de sexo",
+        "articulo": "art. 6.2"
+      },
+      "pasaje_origen": "Art. 6.2 LO 3/2007",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-discriminacion-tipos-3",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "tipo": "Acoso sexual",
+        "definicion": "Comportamiento verbal o físico de naturaleza sexual no deseado con propósito o efecto de atentar contra la dignidad o crear entorno hostil",
+        "articulo": "art. 7"
+      },
+      "pasaje_origen": "Art. 7 LO 3/2007",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-discriminacion-tipos-4",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "tipo": "Acoso por razón de sexo",
+        "definicion": "Comportamiento no deseado relacionado con el sexo con propósito o efecto de atentar contra la dignidad o crear entorno intimidatorio",
+        "articulo": "art. 7"
+      },
+      "pasaje_origen": "Art. 7 LO 3/2007",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-discriminacion-tipos-5",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "tipo": "Discriminación por embarazo o maternidad",
+        "definicion": "Constituye discriminación directa por razón de sexo todo trato desfavorable a las mujeres relacionado con el embarazo o la maternidad",
+        "articulo": "art. 8"
+      },
+      "pasaje_origen": "Art. 8 LO 3/2007",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-discriminacion-tipos-6",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "tipo": "Indemnidad frente a represalias",
+        "definicion": "Cualquier trato adverso o efecto negativo por presentar queja, reclamación, denuncia, demanda o recurso destinados a impedir la discriminación se considera discriminación por razón de sexo",
+        "articulo": "art. 9"
+      },
+      "pasaje_origen": "Art. 9 LO 3/2007",
+      "ubicacion": {},
+      "verificado": false
+    }
+  ],
+  "verificado": false
+}

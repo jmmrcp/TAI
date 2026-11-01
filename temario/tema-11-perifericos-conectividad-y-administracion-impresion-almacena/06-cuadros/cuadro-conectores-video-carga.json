@@ -1,0 +1,134 @@
+{
+  "id": "cuadro-conectores-video-carga",
+  "tema_id": "tema-11-perifericos-conectividad-y-administracion-impresion-almacena",
+  "tipo_dato": "referencia",
+  "titulo": "Conectores de vídeo, datos y carga",
+  "semilla": false,
+  "n_filas": 8,
+  "n_fuentes_distintas": 1,
+  "columnas": [
+    "conector",
+    "tipo",
+    "ancho_banda_max",
+    "notas"
+  ],
+  "columna_clave": "conector",
+  "columna_respuesta": "tipo",
+  "columna_contexto": "ancho_banda_max",
+  "columna_fuente": "fuente",
+  "filas": [
+    {
+      "id": "c-conn-1",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "conector": "HDMI 2.1",
+        "tipo": "Vídeo/audio digital",
+        "ancho_banda_max": "48 Gbps",
+        "notas": "Hasta 10K@120Hz / 8K@60Hz; eARC"
+      },
+      "pasaje_origen": "Ancho de banda HDMI 2.1",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-conn-2",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "conector": "HDMI 2.0",
+        "tipo": "Vídeo/audio digital",
+        "ancho_banda_max": "18 Gbps",
+        "notas": "4K@60Hz"
+      },
+      "pasaje_origen": "Conectores de vídeo",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-conn-3",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "conector": "DisplayPort 2.0/2.1",
+        "tipo": "Vídeo/audio digital",
+        "ancho_banda_max": "80 Gbps",
+        "notas": "UTB (Ultra High Bit Rate)"
+      },
+      "pasaje_origen": "Conectores de vídeo",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-conn-4",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "conector": "DVI",
+        "tipo": "Vídeo digital (legacy)",
+        "ancho_banda_max": "Hasta 9.9 Gbps (dual link)",
+        "notas": "Single/dual link"
+      },
+      "pasaje_origen": "Conectores de vídeo",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-conn-5",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "conector": "VGA",
+        "tipo": "Vídeo analógico",
+        "ancho_banda_max": "N/A (analógico)",
+        "notas": "Legacy, DB-15"
+      },
+      "pasaje_origen": "Conectores de vídeo",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-conn-6",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "conector": "Thunderbolt 3/4",
+        "tipo": "Datos/vídeo/carga",
+        "ancho_banda_max": "40 Gbps",
+        "notas": "Type-C, PCIe/DisplayPort tunneling"
+      },
+      "pasaje_origen": "Thunderbolt 3 transferencias",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-conn-7",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "conector": "Lightning",
+        "tipo": "Carga y datos (Apple)",
+        "ancho_banda_max": "USB 2.0 (480 Mbps)",
+        "notas": "Creado por Apple; reversible"
+      },
+      "pasaje_origen": "Conector Apple carga y datos",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-conn-8",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "conector": "USB-C",
+        "tipo": "Carga/datos/vídeo",
+        "ancho_banda_max": "Hasta 80 Gbps (USB4 v2)",
+        "notas": "Reversible; soporta DP Alt Mode"
+      },
+      "pasaje_origen": "Tipos de conexión",
+      "ubicacion": {},
+      "verificado": false
+    }
+  ],
+  "verificado": false
+}

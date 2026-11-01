@@ -1,0 +1,73 @@
+{
+  "id": "cuadro-clasificacion-empleados-publicos",
+  "tema_id": "tema-04-el-trebep-y-demas-normativa-transparencia-agenda-2030-y-ods",
+  "tipo_dato": "clasificacion",
+  "titulo": "Clasificación de los empleados públicos (TREBEP, art. 8)",
+  "semilla": false,
+  "n_filas": 4,
+  "n_fuentes_distintas": 1,
+  "columnas": [
+    "clase_empleado",
+    "descripcion",
+    "norma"
+  ],
+  "columna_clave": "clase_empleado",
+  "columna_respuesta": "descripcion",
+  "columna_contexto": "norma",
+  "columna_fuente": "fuente",
+  "filas": [
+    {
+      "id": "c-clasificacion-1",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "clase_empleado": "Funcionarios de carrera",
+        "descripcion": "Nombramiento permanente con plena vinculación estatutaria; acceso por proceso selectivo",
+        "norma": "RDL 5/2015 (TREBEP), art. 9"
+      },
+      "pasaje_origen": "Examen TAI 2018, teórica 9",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-clasificacion-2",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "clase_empleado": "Funcionarios interinos",
+        "descripcion": "Nombramiento temporal para necesidades urgentes o sustitución",
+        "norma": "RDL 5/2015 (TREBEP), art. 10"
+      },
+      "pasaje_origen": "Examen TAI 2018, teórica 9",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-clasificacion-3",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "clase_empleado": "Personal laboral",
+        "descripcion": "Sujeto a relación laboral; fijo, por tiempo indefinido o temporal",
+        "norma": "RDL 5/2015 (TREBEP), art. 11"
+      },
+      "pasaje_origen": "Examen TAI 2018, teórica 9",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-clasificacion-4",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "clase_empleado": "Personal eventual",
+        "descripcion": "Nombramiento libre para funciones de confianza; sin carrera",
+        "norma": "RDL 5/2015 (TREBEP), art. 12"
+      },
+      "pasaje_origen": "Examen TAI 2018, teórica 9",
+      "ubicacion": {},
+      "verificado": false
+    }
+  ],
+  "verificado": false
+}

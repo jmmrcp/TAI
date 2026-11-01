@@ -1,0 +1,99 @@
+{
+  "id": "cuadro-dni-validez",
+  "tema_id": "tema-06-la-sociedad-de-la-informacion-identidad-y-firma-electronica-",
+  "tipo_dato": "plazos",
+  "titulo": "Validez del DNI y de sus certificados electrónicos",
+  "semilla": false,
+  "n_filas": 6,
+  "n_fuentes_distintas": 1,
+  "columnas": [
+    "sujeto",
+    "edad",
+    "validez"
+  ],
+  "columna_clave": "sujeto",
+  "columna_respuesta": "validez",
+  "columna_contexto": "edad",
+  "columna_fuente": "fuente",
+  "filas": [
+    {
+      "id": "c-dni-1",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "sujeto": "Titular del DNI",
+        "edad": "Menor de 5 años",
+        "validez": "2 años"
+      },
+      "pasaje_origen": "Validez DNIe (portal DNI)",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-dni-2",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "sujeto": "Titular del DNI",
+        "edad": "De 5 a menos de 30 años",
+        "validez": "5 años"
+      },
+      "pasaje_origen": "Validez DNIe (portal DNI)",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-dni-3",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "sujeto": "Titular del DNI",
+        "edad": "De 30 a menos de 70 años",
+        "validez": "10 años"
+      },
+      "pasaje_origen": "Validez DNIe (portal DNI)",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-dni-4",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "sujeto": "Titular del DNI",
+        "edad": "70 años o más",
+        "validez": "Más de 10 años (se consigna fecha de caducidad)"
+      },
+      "pasaje_origen": "Validez DNIe (portal DNI)",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-dni-5",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "sujeto": "Certificados electrónicos del DNIe v3.0",
+        "edad": "—",
+        "validez": "24 meses (2 años)"
+      },
+      "pasaje_origen": "DNIe v3.0 (portal DNI)",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-dni-6",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "sujeto": "Certificados electrónicos reconocidos del DNI (legislación)",
+        "edad": "—",
+        "validez": "No superior a 4 años (RD 1553/2005 art. 11, mod. RD 414/2015)"
+      },
+      "pasaje_origen": "Vigencia certificados DNI",
+      "ubicacion": {},
+      "verificado": false
+    }
+  ],
+  "verificado": false
+}

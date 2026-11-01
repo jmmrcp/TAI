@@ -1,0 +1,152 @@
+{
+  "id": "cuadro-dnie-v30",
+  "tema_id": "tema-06-la-sociedad-de-la-informacion-identidad-y-firma-electronica-",
+  "tipo_dato": "ficha",
+  "titulo": "DNIe v3.0: características técnicas",
+  "semilla": false,
+  "n_filas": 11,
+  "n_fuentes_distintas": 1,
+  "columnas": [
+    "aspecto",
+    "detalle"
+  ],
+  "columna_clave": "aspecto",
+  "columna_respuesta": "detalle",
+  "columna_contexto": "",
+  "columna_fuente": "fuente",
+  "filas": [
+    {
+      "id": "c-dnie-1",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "aspecto": "Versión / soporte",
+        "detalle": "DNIe v3.0 con chip de doble interfaz (contacto + NFC)"
+      },
+      "pasaje_origen": "DNIe v3.0",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-dnie-2",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "aspecto": "Certificados incorporados",
+        "detalle": "Certificado de autenticación y certificado de firma electrónica"
+      },
+      "pasaje_origen": "DNIe v3.0",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-dnie-3",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "aspecto": "Validez de los certificados",
+        "detalle": "24 meses"
+      },
+      "pasaje_origen": "DNIe v3.0",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-dnie-4",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "aspecto": "Cifrado asimétrico",
+        "detalle": "RSA (claves de 2048 bits)"
+      },
+      "pasaje_origen": "Algoritmos DNIe v3.0",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-dnie-5",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "aspecto": "Función hash",
+        "detalle": "SHA-256"
+      },
+      "pasaje_origen": "Algoritmos DNIe v3.0",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-dnie-6",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "aspecto": "Cifrado simétrico",
+        "detalle": "Triple DES y AES"
+      },
+      "pasaje_origen": "Algoritmos DNIe v3.0",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-dnie-7",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "aspecto": "PKI del DNIe",
+        "detalle": "AC raíz RSA 4096 bits; AC subordinadas RSA 2048/4096 bits"
+      },
+      "pasaje_origen": "PKI DNIe",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-dnie-8",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "aspecto": "Middleware Android (NFC)",
+        "detalle": "DNIeDroid"
+      },
+      "pasaje_origen": "DNIe Android NFC",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-dnie-9",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "aspecto": "Zona de seguridad: datos de filiación",
+        "detalle": "Datos de filiación del titular"
+      },
+      "pasaje_origen": "Zona de seguridad DNIe",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-dnie-10",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "aspecto": "Zona de seguridad: fotografía",
+        "detalle": "Fotografía del titular"
+      },
+      "pasaje_origen": "Zona de seguridad DNIe",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-dnie-11",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "aspecto": "Zona de seguridad: firma manuscrita",
+        "detalle": "Firma manuscrita digitalizada"
+      },
+      "pasaje_origen": "Zona de seguridad DNIe",
+      "ubicacion": {},
+      "verificado": false
+    }
+  ],
+  "verificado": false
+}

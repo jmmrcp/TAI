@@ -1,0 +1,116 @@
+{
+  "id": "cuadro-plazos",
+  "tema_id": "tema-02-las-cortes-generales-el-tribunal-constitucional-el-defensor-",
+  "tipo_dato": "plazo",
+  "titulo": "Plazos relevantes (Cortes, TC y Defensor del Pueblo)",
+  "semilla": false,
+  "n_filas": 8,
+  "n_fuentes_distintas": 1,
+  "columnas": [
+    "acto",
+    "plazo"
+  ],
+  "columna_clave": "acto",
+  "columna_respuesta": "plazo",
+  "columna_contexto": null,
+  "columna_fuente": "fuente",
+  "filas": [
+    {
+      "id": "c-plazos-1",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "acto": "Ratificar o levantar la suspensión por impugnación de CCAA (art. 161.2)",
+        "plazo": "No superior a 5 meses"
+      },
+      "pasaje_origen": "art. 161.2",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-plazos-2",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "acto": "Presentar queja ante el Defensor del Pueblo",
+        "plazo": "1 año desde el conocimiento de los hechos"
+      },
+      "pasaje_origen": "art. 15 LO 3/1981",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-plazos-3",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "acto": "Informe de la Administración al Defensor",
+        "plazo": "15 días (ampliable)"
+      },
+      "pasaje_origen": "art. 18.1 LO 3/1981",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-plazos-4",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "acto": "Respuesta del funcionario al Defensor",
+        "plazo": "Mínimo 10 días, prorrogable por la mitad"
+      },
+      "pasaje_origen": "art. 20.2 LO 3/1981",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-plazos-5",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "acto": "Respuesta de autoridades a recomendaciones del Defensor",
+        "plazo": "1 mes"
+      },
+      "pasaje_origen": "art. 30.1 LO 3/1981",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-plazos-6",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "acto": "Iniciar procedimiento tras vacante del Defensor",
+        "plazo": "1 mes"
+      },
+      "pasaje_origen": "art. 5.3 LO 3/1981",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-plazos-7",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "acto": "Convocatoria de elecciones al Congreso tras terminación del mandato",
+        "plazo": "Entre 30 y 60 días"
+      },
+      "pasaje_origen": "art. 68.4",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-plazos-8",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "acto": "Convocatoria del Congreso electo",
+        "plazo": "25 días desde las elecciones"
+      },
+      "pasaje_origen": "art. 68.4",
+      "ubicacion": {},
+      "verificado": false
+    }
+  ],
+  "verificado": false
+}

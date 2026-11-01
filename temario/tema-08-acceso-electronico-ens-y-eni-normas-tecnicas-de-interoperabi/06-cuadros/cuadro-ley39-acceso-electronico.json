@@ -1,0 +1,99 @@
+{
+  "id": "cuadro-ley39-acceso-electronico",
+  "tema_id": "tema-08-acceso-electronico-ens-y-eni-normas-tecnicas-de-interoperabi",
+  "tipo_dato": "lista",
+  "titulo": "Acceso electrónico: personas obligadas, plazos, notificaciones y firma (Ley 39/2015 y 40/2015)",
+  "semilla": false,
+  "n_filas": 6,
+  "n_fuentes_distintas": 1,
+  "columnas": [
+    "aspecto",
+    "regulacion",
+    "contenido"
+  ],
+  "columna_clave": "aspecto",
+  "columna_respuesta": "contenido",
+  "columna_contexto": "regulacion",
+  "columna_fuente": "fuente",
+  "filas": [
+    {
+      "id": "c-ley39-acceso-electronico-1",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "aspecto": "Personas físicas no obligadas",
+        "regulacion": "Ley 39/2015",
+        "contenido": "Las personas físicas que no estén obligadas a relacionarse electrónicamente con las AA.PP. podrán elegir en todo momento si se comunican por medios electrónicos o no; si optan por vía electrónica quedan obligadas a relacionarse así"
+      },
+      "pasaje_origen": "Ley 39/2015",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-ley39-acceso-electronico-2",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "aspecto": "Sujetos obligados a relacionarse electrónicamente",
+        "regulacion": "Ley 39/2015",
+        "contenido": "Personas jurídicas, entidades sin personalidad jurídica, profesionales colegiados, empleados públicos, representantes de obligados, y personas que perciban ayudas o subvenciones"
+      },
+      "pasaje_origen": "Ley 39/2015",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-ley39-acceso-electronico-3",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "aspecto": "Cómputo de plazos en días",
+        "regulacion": "Art. 30 Ley 39/2015",
+        "contenido": "Los plazos señalados en días se entienden como días naturales, salvo que por Ley o en el Derecho de la UE se exprese otro cómputo; plazos en meses o años se computan de fecha a fecha; si el último día es inhábil se prorroga al primer día hábil siguiente"
+      },
+      "pasaje_origen": "Art. 30 Ley 39/2015",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-ley39-acceso-electronico-4",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "aspecto": "Notificaciones electrónicas",
+        "regulacion": "Arts. 40-43 Ley 39/2015",
+        "contenido": "Obligatorias por medios electrónicos para sujetos obligados; se entenderán rechazadas si no se accede a su contenido en 10 días naturales; la fecha de notificación es la de acceso al contenido"
+      },
+      "pasaje_origen": "Ley 39/2015",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-ley39-acceso-electronico-5",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "aspecto": "Uso obligatorio de firma por las AA.PP.",
+        "regulacion": "Art. 11 Ley 39/2015",
+        "contenido": "Las Administraciones Públicas utilizarán medios electrónicos en sus relaciones con los sujetos obligados a relacionarse electrónicamente; no podrán exigir a los interesados la presentación de documentos originales salvo en los casos legalmente previstos"
+      },
+      "pasaje_origen": "Art. 11 Ley 39/2015",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-ley39-acceso-electronico-6",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "aspecto": "Definición del ENI",
+        "regulacion": "Ley 40/2015",
+        "contenido": "El Esquema Nacional de Interoperabilidad es el conjunto de criterios y recomendaciones que deberán ser tenidos en cuenta por las Administraciones Públicas para la toma de decisiones tecnológicas que garanticen la interoperabilidad"
+      },
+      "pasaje_origen": "Ley 40/2015",
+      "ubicacion": {},
+      "verificado": false
+    }
+  ],
+  "verificado": false
+}

@@ -1,0 +1,92 @@
+{
+  "id": "cuadro-canales-asistencia",
+  "tema_id": "tema-09-instrumentos-para-el-acceso-electronico-sedes-infraestructur",
+  "tipo_dato": "lista",
+  "titulo": "Canales de asistencia para el acceso a los servicios electrónicos (art. 4 RD 203/2021)",
+  "semilla": false,
+  "n_filas": 6,
+  "n_fuentes_distintas": 1,
+  "columnas": [
+    "canal",
+    "referencia"
+  ],
+  "columna_clave": "canal",
+  "columna_respuesta": "canal",
+  "columna_contexto": "referencia",
+  "columna_fuente": "fuente",
+  "filas": [
+    {
+      "id": "c-canal-1",
+      "fuente": "Real Decreto 203/2021",
+      "fuente_tipo": "articulo",
+      "valores": {
+        "canal": "Presencial, a través de las oficinas de asistencia que se determinen.",
+        "referencia": "Art. 4.a"
+      },
+      "pasaje_origen": "Art. 4.a",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-canal-2",
+      "fuente": "Real Decreto 203/2021",
+      "fuente_tipo": "articulo",
+      "valores": {
+        "canal": "Portales de internet y sedes electrónicas.",
+        "referencia": "Art. 4.b"
+      },
+      "pasaje_origen": "Art. 4.b",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-canal-3",
+      "fuente": "Real Decreto 203/2021",
+      "fuente_tipo": "articulo",
+      "valores": {
+        "canal": "Redes sociales.",
+        "referencia": "Art. 4.c"
+      },
+      "pasaje_origen": "Art. 4.c",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-canal-4",
+      "fuente": "Real Decreto 203/2021",
+      "fuente_tipo": "articulo",
+      "valores": {
+        "canal": "Telefónico.",
+        "referencia": "Art. 4.d"
+      },
+      "pasaje_origen": "Art. 4.d",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-canal-5",
+      "fuente": "Real Decreto 203/2021",
+      "fuente_tipo": "articulo",
+      "valores": {
+        "canal": "Correo electrónico.",
+        "referencia": "Art. 4.e"
+      },
+      "pasaje_origen": "Art. 4.e",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-canal-6",
+      "fuente": "Real Decreto 203/2021",
+      "fuente_tipo": "articulo",
+      "valores": {
+        "canal": "Cualquier otro canal que pueda establecerse de acuerdo con lo previsto en el artículo 12 de la Ley 39/2015, de 1 de octubre.",
+        "referencia": "Art. 4.f"
+      },
+      "pasaje_origen": "Art. 4.f",
+      "ubicacion": {},
+      "verificado": false
+    }
+  ],
+  "verificado": false
+}

@@ -1,0 +1,140 @@
+{
+  "id": "cuadro-defensor-pueblo",
+  "tema_id": "tema-02-las-cortes-generales-el-tribunal-constitucional-el-defensor-",
+  "tipo_dato": "organo",
+  "titulo": "Defensor del Pueblo: requisitos, designación e incompatibilidades",
+  "semilla": false,
+  "n_filas": 10,
+  "n_fuentes_distintas": 1,
+  "columnas": [
+    "aspecto",
+    "detalle"
+  ],
+  "columna_clave": "aspecto",
+  "columna_respuesta": "detalle",
+  "columna_contexto": null,
+  "columna_fuente": "fuente",
+  "filas": [
+    {
+      "id": "c-defensor-pueblo-1",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "aspecto": "Regulación",
+        "detalle": "Ley Orgánica 3/1981, de 6 de abril (art. 54 CE)"
+      },
+      "pasaje_origen": "art. 54",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-defensor-pueblo-2",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "aspecto": "Calidad",
+        "detalle": "Alto comisionado de las Cortes Generales"
+      },
+      "pasaje_origen": "art. 54; art. 1 LO 3/1981",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-defensor-pueblo-3",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "aspecto": "Designación",
+        "detalle": "Por las Cortes Generales (3/5 Congreso + 3/5 Senado; si no, 3/5 Congreso + mayoría absoluta Senado)"
+      },
+      "pasaje_origen": "art. 2.3-2.5 LO 3/1981",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-defensor-pueblo-4",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "aspecto": "Mandato",
+        "detalle": "5 años (art. 2.1 LO 3/1981)"
+      },
+      "pasaje_origen": "art. 2.1 LO 3/1981",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-defensor-pueblo-5",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "aspecto": "Requisitos",
+        "detalle": "Español mayor de edad en pleno disfrute de derechos civiles y políticos (art. 3 LO 3/1981)"
+      },
+      "pasaje_origen": "art. 3 LO 3/1981",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-defensor-pueblo-6",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "aspecto": "Incompatibilidades",
+        "detalle": "Mandato representativo, cargo político, servicio activo en Administración, afiliación a partido, carrera judicial/fiscal, actividad profesional/mercantil (art. 7 LO 3/1981)"
+      },
+      "pasaje_origen": "art. 7 LO 3/1981",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-defensor-pueblo-7",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "aspecto": "Inviolabilidad",
+        "detalle": "Inviolable por opiniones y actos en ejercicio del cargo (art. 6 LO 3/1981)"
+      },
+      "pasaje_origen": "art. 6 LO 3/1981",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-defensor-pueblo-8",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "aspecto": "Legitimación",
+        "detalle": "Recurso de inconstitucionalidad y amparo (art. 29 LO 3/1981; art. 162.1.a CE)"
+      },
+      "pasaje_origen": "art. 29 LO 3/1981",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-defensor-pueblo-9",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "aspecto": "Actividad ininterrumpida",
+        "detalle": "No se interrumpe si Cortes disueltas o mandato expirado; se dirige a las Diputaciones Permanentes (art. 11 LO 3/1981)"
+      },
+      "pasaje_origen": "art. 11 LO 3/1981",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-defensor-pueblo-10",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "aspecto": "Informe anual",
+        "detalle": "A las Cortes Generales en período ordinario de sesiones (art. 32.1 LO 3/1981)"
+      },
+      "pasaje_origen": "art. 32.1 LO 3/1981",
+      "ubicacion": {},
+      "verificado": false
+    }
+  ],
+  "verificado": false
+}

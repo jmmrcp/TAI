@@ -1,0 +1,73 @@
+{
+  "id": "cuadro-ens-incidente-niveles",
+  "tema_id": "tema-08-acceso-electronico-ens-y-eni-normas-tecnicas-de-interoperabi",
+  "tipo_dato": "lista",
+  "titulo": "Incidente de seguridad y niveles de seguridad del ENS (RD 311/2022)",
+  "semilla": false,
+  "n_filas": 4,
+  "n_fuentes_distintas": 1,
+  "columnas": [
+    "elemento",
+    "clasificacion",
+    "descripcion"
+  ],
+  "columna_clave": "elemento",
+  "columna_respuesta": "descripcion",
+  "columna_contexto": "clasificacion",
+  "columna_fuente": "fuente",
+  "filas": [
+    {
+      "id": "c-ens-incidente-niveles-1",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "elemento": "Incidente de seguridad (compromiso de la seguridad)",
+        "clasificacion": "Definición",
+        "descripcion": "Incidente de seguridad en el que, debido a una violación de las medidas técnicas u organizativas de seguridad, una información o un servicio quedan expuestos, o potencialmente expuestos, a un acceso no autorizado"
+      },
+      "pasaje_origen": "Glosario RD 311/2022",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-ens-incidente-niveles-2",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "elemento": "Nivel BAJO",
+        "clasificacion": "Nivel de seguridad",
+        "descripcion": "Las consecuencias de un incidente de seguridad suponen un perjuicio limitado sobre las funciones de la organización, sus activos o los individuos afectados"
+      },
+      "pasaje_origen": "Anexo I RD 311/2022",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-ens-incidente-niveles-3",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "elemento": "Nivel MEDIO",
+        "clasificacion": "Nivel de seguridad",
+        "descripcion": "Las consecuencias de un incidente de seguridad suponen un perjuicio grave sobre las funciones de la organización, sus activos o los individuos afectados"
+      },
+      "pasaje_origen": "Anexo I RD 311/2022",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-ens-incidente-niveles-4",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "elemento": "Nivel ALTO",
+        "clasificacion": "Nivel de seguridad",
+        "descripcion": "Las consecuencias de un incidente de seguridad suponen un perjuicio muy grave sobre las funciones de la organización, sus activos o los individuos afectados"
+      },
+      "pasaje_origen": "Anexo I RD 311/2022",
+      "ubicacion": {},
+      "verificado": false
+    }
+  ],
+  "verificado": false
+}

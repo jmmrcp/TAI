@@ -1,0 +1,99 @@
+{
+  "id": "cuadro-investidura-presidente",
+  "tema_id": "tema-03-el-gobierno-composicion-nombramiento-y-cese-relaciones-con-l",
+  "tipo_dato": "procedimiento",
+  "titulo": "Investidura del Presidente del Gobierno (art. 99 CE)",
+  "semilla": false,
+  "n_filas": 6,
+  "n_fuentes_distintas": 1,
+  "columnas": [
+    "hito",
+    "requisito",
+    "base_legal"
+  ],
+  "columna_clave": "hito",
+  "columna_respuesta": "requisito",
+  "columna_contexto": "base_legal",
+  "columna_fuente": "fuente",
+  "filas": [
+    {
+      "id": "c-inv-1",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "hito": "Propuesta del candidato",
+        "requisito": "El Rey, previa consulta con los representantes de los grupos políticos con representación parlamentaria y a través del Presidente del Congreso, propone un candidato a la Presidencia del Gobierno.",
+        "base_legal": "Art. 99.1 CE"
+      },
+      "pasaje_origen": "Artículo 99.1 CE",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-inv-2",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "hito": "Primera votación",
+        "requisito": "El candidato expone su programa político ante el Congreso y se vota; se requiere mayoría absoluta del Congreso.",
+        "base_legal": "Art. 99.2-3 CE"
+      },
+      "pasaje_origen": "Artículo 99.2-3 CE",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-inv-3",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "hito": "Segunda votación",
+        "requisito": "Si no obtiene mayoría absoluta, nueva votación 48 horas después; la confianza se otorga por mayoría simple.",
+        "base_legal": "Art. 99.3 CE"
+      },
+      "pasaje_origen": "Artículo 99.3 CE",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-inv-4",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "hito": "Sucesivas propuestas",
+        "requisito": "Si no obtiene la confianza, se tramitan sucesivas propuestas en la forma prevista.",
+        "base_legal": "Art. 99.4 CE"
+      },
+      "pasaje_origen": "Artículo 99.4 CE",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-inv-5",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "hito": "Plazo y disolución",
+        "requisito": "Si transcurrido el plazo de dos meses desde la primera votación no se ha otorgado la confianza, el Rey disuelve las Cortes y convoca nuevas elecciones.",
+        "base_legal": "Art. 99.5 CE"
+      },
+      "pasaje_origen": "Artículo 99.5 CE",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-inv-6",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "hito": "Nombramiento",
+        "requisito": "Tras la investidura, el Rey nombra al candidato Presidente del Gobierno.",
+        "base_legal": "Art. 99.6 CE"
+      },
+      "pasaje_origen": "Artículo 99.6 CE",
+      "ubicacion": {},
+      "verificado": false
+    }
+  ],
+  "verificado": false
+}

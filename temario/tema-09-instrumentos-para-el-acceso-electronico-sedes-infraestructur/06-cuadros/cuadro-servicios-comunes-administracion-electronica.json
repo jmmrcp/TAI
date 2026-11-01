@@ -1,0 +1,73 @@
+{
+  "id": "cuadro-servicios-comunes-administracion-electronica",
+  "tema_id": "tema-09-instrumentos-para-el-acceso-electronico-sedes-infraestructur",
+  "tipo_dato": "lista",
+  "titulo": "Servicios comunes en materia de Administración Electrónica",
+  "semilla": false,
+  "n_filas": 4,
+  "n_fuentes_distintas": 1,
+  "columnas": [
+    "servicio",
+    "funcionalidad",
+    "referencia"
+  ],
+  "columna_clave": "servicio",
+  "columna_respuesta": "funcionalidad",
+  "columna_contexto": "referencia",
+  "columna_fuente": "fuente",
+  "filas": [
+    {
+      "id": "c-servcom-1",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "servicio": "NEDAES",
+        "funcionalidad": "Gestión de la nómina de empleados públicos (solución común de la AGE).",
+        "referencia": "Examen oficial TAI"
+      },
+      "pasaje_origen": "Examen oficial TAI",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-servcom-2",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "servicio": "SERVINOMINA",
+        "funcionalidad": "Visualización de nóminas de los empleados públicos en el Portal Funciona (no gestión completa de la nómina).",
+        "referencia": "Examen oficial TAI"
+      },
+      "pasaje_origen": "Examen oficial TAI",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-servcom-3",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "servicio": "CIRCAB",
+        "funcionalidad": "Herramienta de trabajo en grupo para el intercambio de información y el trabajo colaborativo.",
+        "referencia": "Examen oficial TAI"
+      },
+      "pasaje_origen": "Examen oficial TAI",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-servcom-4",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "servicio": "ENVIA",
+        "funcionalidad": "Aplicación para el envío de ficheros de gran volumen entre usuarios.",
+        "referencia": "Examen oficial TAI"
+      },
+      "pasaje_origen": "Examen oficial TAI",
+      "ubicacion": {},
+      "verificado": false
+    }
+  ],
+  "verificado": false
+}

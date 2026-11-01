@@ -1,0 +1,125 @@
+{
+  "id": "cuadro-derechos-interesado-rgpd",
+  "tema_id": "tema-07-la-proteccion-de-datos-personales-derechos-digitales",
+  "tipo_dato": "lista",
+  "titulo": "Derechos del interesado en el RGPD (arts. 13-22)",
+  "semilla": false,
+  "n_filas": 8,
+  "n_fuentes_distintas": 1,
+  "columnas": [
+    "derecho",
+    "articulo",
+    "contenido"
+  ],
+  "columna_clave": "derecho",
+  "columna_respuesta": "contenido",
+  "columna_contexto": "articulo",
+  "columna_fuente": "fuente",
+  "filas": [
+    {
+      "id": "c-der-1",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "derecho": "Información",
+        "articulo": "Arts. 13-14",
+        "contenido": "Derecho a ser informado de forma transparente sobre el tratamiento de sus datos"
+      },
+      "pasaje_origen": "Derechos del interesado",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-der-2",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "derecho": "Acceso",
+        "articulo": "Art. 15",
+        "contenido": "Obtener confirmación y acceso a los datos personales que se tratan"
+      },
+      "pasaje_origen": "Derechos del interesado",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-der-3",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "derecho": "Rectificación",
+        "articulo": "Art. 16",
+        "contenido": "Rectificar datos inexactos o completar los incompletos"
+      },
+      "pasaje_origen": "Derechos del interesado",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-der-4",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "derecho": "Supresión (olvido)",
+        "articulo": "Art. 17",
+        "contenido": "Obtener la supresión de los datos cuando ya no sean necesarios o se retire el consentimiento, entre otros"
+      },
+      "pasaje_origen": "Derechos del interesado",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-der-5",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "derecho": "Limitación del tratamiento",
+        "articulo": "Art. 18",
+        "contenido": "Limitar el tratamiento en los supuestos previstos (impugnación exactitud, tratamiento ilícito, etc.)"
+      },
+      "pasaje_origen": "Derechos del interesado",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-der-6",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "derecho": "Portabilidad",
+        "articulo": "Art. 20",
+        "contenido": "Recibir los datos en formato estructurado, de uso común y lectura mecánica y transmitirlos a otro responsable"
+      },
+      "pasaje_origen": "Derechos del interesado",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-der-7",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "derecho": "Oposición",
+        "articulo": "Art. 21",
+        "contenido": "Oponerse al tratamiento por motivos relacionados con su situación particular, incluido el marketing directo"
+      },
+      "pasaje_origen": "Derechos del interesado",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-der-8",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "derecho": "Decisiones automatizadas",
+        "articulo": "Art. 22",
+        "contenido": "No ser objeto de una decisión basada únicamente en tratamiento automatizado, incluida la elaboración de perfiles, que produzca efectos jurídicos o le afecte significativamente"
+      },
+      "pasaje_origen": "Derechos del interesado",
+      "ubicacion": {},
+      "verificado": false
+    }
+  ],
+  "verificado": false
+}

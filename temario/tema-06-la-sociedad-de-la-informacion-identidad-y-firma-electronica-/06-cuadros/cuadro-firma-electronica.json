@@ -1,0 +1,92 @@
+{
+  "id": "cuadro-firma-electronica",
+  "tema_id": "tema-06-la-sociedad-de-la-informacion-identidad-y-firma-electronica-",
+  "tipo_dato": "lista",
+  "titulo": "Firma electrónica: formatos y validación",
+  "semilla": false,
+  "n_filas": 6,
+  "n_fuentes_distintas": 1,
+  "columnas": [
+    "concepto",
+    "detalle"
+  ],
+  "columna_clave": "concepto",
+  "columna_respuesta": "detalle",
+  "columna_contexto": "",
+  "columna_fuente": "fuente",
+  "filas": [
+    {
+      "id": "c-fir-1",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "Formatos estandarizados de firma",
+        "detalle": "CAdES (CMS), XAdES (XML), PAdES (PDF) y ASiC (contenedores)"
+      },
+      "pasaje_origen": "Formatos de firma electrónica",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-fir-2",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "PAdES",
+        "detalle": "Formato de firma electrónica avanzada para documentos PDF (ETSI/ISO), no formato propietario de Microsoft Office"
+      },
+      "pasaje_origen": "Firma electrónica incorrecta",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-fir-3",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "Modalidades de XAdES",
+        "detalle": "Firmas detached (despegadas), enveloping (envolventes) y enveloped (envueltas)"
+      },
+      "pasaje_origen": "XAdES",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-fir-4",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "Co-firma",
+        "detalle": "Firma múltiple en la que todos los firmantes están al mismo nivel y el orden no importa"
+      },
+      "pasaje_origen": "Firma electrónica",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-fir-5",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "Firma LTV",
+        "detalle": "Añade los certificados y la información de revocación para validación a largo plazo"
+      },
+      "pasaje_origen": "Validación a largo plazo",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-fir-6",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "Tipos de firma electrónica (eIDAS)",
+        "detalle": "Firma electrónica, firma electrónica avanzada y firma electrónica cualificada"
+      },
+      "pasaje_origen": "eIDAS",
+      "ubicacion": {},
+      "verificado": false
+    }
+  ],
+  "verificado": false
+}

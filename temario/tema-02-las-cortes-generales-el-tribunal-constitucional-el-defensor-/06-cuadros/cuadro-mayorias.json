@@ -1,0 +1,92 @@
+{
+  "id": "cuadro-mayorias",
+  "tema_id": "tema-02-las-cortes-generales-el-tribunal-constitucional-el-defensor-",
+  "tipo_dato": "mayoria",
+  "titulo": "Mayorías relevantes (Cortes, TC y Defensor del Pueblo)",
+  "semilla": false,
+  "n_filas": 6,
+  "n_fuentes_distintas": 1,
+  "columnas": [
+    "materia",
+    "mayoria"
+  ],
+  "columna_clave": "materia",
+  "columna_respuesta": "mayoria",
+  "columna_contexto": null,
+  "columna_fuente": "fuente",
+  "filas": [
+    {
+      "id": "c-mayorias-1",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "materia": "Elección de magistrados del TC (Congreso/Senado)",
+        "mayoria": "Mayoría de 3/5"
+      },
+      "pasaje_origen": "art. 159.1",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-mayorias-2",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "materia": "Elección del Defensor del Pueblo (Congreso)",
+        "mayoria": "3/5 de los miembros"
+      },
+      "pasaje_origen": "art. 2.4 LO 3/1981",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-mayorias-3",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "materia": "Ratificación del Defensor del Pueblo (Senado)",
+        "mayoria": "3/5 (o mayoría absoluta si no se alcanzó 3/5 en Congreso)"
+      },
+      "pasaje_origen": "art. 2.4-2.5 LO 3/1981",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-mayorias-4",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "materia": "Reglamentos de las Cámaras y su reforma",
+        "mayoria": "Mayoría absoluta"
+      },
+      "pasaje_origen": "art. 72.1",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-mayorias-5",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "materia": "Reglamento de las Cortes (sesiones conjuntas)",
+        "mayoria": "Mayoría absoluta de cada Cámara"
+      },
+      "pasaje_origen": "art. 72.2",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-mayorias-6",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "materia": "Acuerdos de las Cámaras",
+        "mayoria": "Mayoría de los miembros presentes (salvo mayorías especiales)"
+      },
+      "pasaje_origen": "art. 79.2",
+      "ubicacion": {},
+      "verificado": false
+    }
+  ],
+  "verificado": false
+}

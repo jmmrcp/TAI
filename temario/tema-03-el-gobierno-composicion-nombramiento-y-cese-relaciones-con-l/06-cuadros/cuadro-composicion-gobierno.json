@@ -1,0 +1,106 @@
+{
+  "id": "cuadro-composicion-gobierno",
+  "tema_id": "tema-03-el-gobierno-composicion-nombramiento-y-cese-relaciones-con-l",
+  "tipo_dato": "composicion",
+  "titulo": "Composición del Gobierno y órganos de colaboración y apoyo (art. 1, 3, 4 y 7 Ley 50/1997)",
+  "semilla": false,
+  "n_filas": 6,
+  "n_fuentes_distintas": 1,
+  "columnas": [
+    "organo",
+    "es_miembro_gobierno",
+    "base_legal",
+    "observacion"
+  ],
+  "columna_clave": "organo",
+  "columna_respuesta": "es_miembro_gobierno",
+  "columna_contexto": "base_legal",
+  "columna_fuente": "fuente",
+  "filas": [
+    {
+      "id": "c-composicion-1",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "organo": "Presidente del Gobierno",
+        "es_miembro_gobierno": "Sí",
+        "base_legal": "Art. 1.2 Ley 50/1997; art. 98 CE",
+        "observacion": "Dirige la acción del Gobierno y coordina las funciones de los demás miembros; nombrado por el Rey tras la investidura (art. 99 CE)."
+      },
+      "pasaje_origen": "Artículo 1.2 y 2 Ley 50/1997",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-composicion-2",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "organo": "Vicepresidente(s) del Gobierno",
+        "es_miembro_gobierno": "Sí (cuando existan)",
+        "base_legal": "Art. 1.2 y 3 Ley 50/1997",
+        "observacion": "Existencia disponible; nombrados y separados por el Rey a propuesta del Presidente. La separación lleva aparejada la extinción del órgano salvo sustitución simultánea."
+      },
+      "pasaje_origen": "Artículo 3 Ley 50/1997",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-composicion-3",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "organo": "Ministros (con cartera)",
+        "es_miembro_gobierno": "Sí",
+        "base_legal": "Art. 1.2 y 4.1 Ley 50/1997",
+        "observacion": "Titulares de Departamentos Ministeriales; competencia y responsabilidad en su esfera. Nombrados y separados por el Rey a propuesta del Presidente."
+      },
+      "pasaje_origen": "Artículo 4.1 Ley 50/1997",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-composicion-4",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "organo": "Ministros sin cartera",
+        "es_miembro_gobierno": "Sí",
+        "base_legal": "Art. 4.2 Ley 50/1997",
+        "observacion": "Miembros del Gobierno con responsabilidad de determinadas funciones gubernamentales; su ámbito se determina por Real Decreto. Su separación lleva aparejada la extinción del órgano."
+      },
+      "pasaje_origen": "Artículo 4.2 Ley 50/1997",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-composicion-5",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "organo": "Secretarios de Estado",
+        "es_miembro_gobierno": "No",
+        "base_legal": "Art. 7 Ley 50/1997",
+        "observacion": "Órganos superiores de la Administración General del Estado de colaboración y apoyo; no forman parte del Gobierno. Nombrados y separados por Real Decreto del Consejo de Ministros."
+      },
+      "pasaje_origen": "Artículo 7 Ley 50/1997",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-composicion-6",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "organo": "Comisiones Delegadas del Gobierno",
+        "es_miembro_gobierno": "Órganos colegiados del Gobierno",
+        "base_legal": "Art. 6 Ley 50/1997",
+        "observacion": "Creadas, modificadas y suprimidas por el Consejo de Ministros mediante Real Decreto, a propuesta del Presidente del Gobierno."
+      },
+      "pasaje_origen": "Artículo 6 Ley 50/1997",
+      "ubicacion": {},
+      "verificado": false
+    }
+  ],
+  "verificado": false
+}

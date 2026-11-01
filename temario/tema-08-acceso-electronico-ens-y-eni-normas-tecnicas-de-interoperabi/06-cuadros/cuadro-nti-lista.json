@@ -1,0 +1,218 @@
+{
+  "id": "cuadro-nti-lista",
+  "tema_id": "tema-08-acceso-electronico-ens-y-eni-normas-tecnicas-de-interoperabi",
+  "tipo_dato": "lista",
+  "titulo": "Normas Técnicas de Interoperabilidad (NTI) e instrumentos para la interoperabilidad del ENI",
+  "semilla": false,
+  "n_filas": 14,
+  "n_fuentes_distintas": 1,
+  "columnas": [
+    "codigo",
+    "nombre",
+    "categoria",
+    "contenido_clave"
+  ],
+  "columna_clave": "nombre",
+  "columna_respuesta": "contenido_clave",
+  "columna_contexto": "codigo",
+  "columna_fuente": "fuente",
+  "filas": [
+    {
+      "id": "c-nti-lista-1",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "codigo": "a",
+        "nombre": "Catálogo de estándares",
+        "categoria": "NTI",
+        "contenido_clave": "Establece conjunto de estándares que satisfacen el art. 11 de forma estructurada con criterios de selección y ciclo de vida; revisión al menos anual; incluye categoría 'Formatos ficheros - Imagen y/o texto' (CSV, HTML, CSS, JPEG, MHTML, ODF, OOXML Strict, PDF, PDFA, PNG, RTF, SVG, TIFF, TXT)"
+      },
+      "pasaje_origen": "Disposición Adicional Primera RD 4/2010",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-nti-lista-2",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "codigo": "b",
+        "nombre": "Documento electrónico",
+        "categoria": "NTI",
+        "contenido_clave": "Metadatos mínimos obligatorios, asociación de datos/metadatos de firma o sellado de tiempo, otros metadatos complementarios; formatos de documento"
+      },
+      "pasaje_origen": "Disposición Adicional Primera RD 4/2010",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-nti-lista-3",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "codigo": "c",
+        "nombre": "Digitalización de documentos",
+        "categoria": "NTI",
+        "contenido_clave": "Formatos y estándares aplicables, niveles de calidad, condiciones técnicas y metadatos; resolución mínima 200 ppp para imágenes electrónicas"
+      },
+      "pasaje_origen": "Disposición Adicional Primera RD 4/2010",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-nti-lista-4",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "codigo": "d",
+        "nombre": "Expediente electrónico",
+        "categoria": "NTI",
+        "contenido_clave": "Estructura y formato del expediente electrónico; especificaciones de servicios de remisión y puesta a disposición"
+      },
+      "pasaje_origen": "Disposición Adicional Primera RD 4/2010",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-nti-lista-5",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "codigo": "e",
+        "nombre": "Política de firma electrónica y de certificados",
+        "categoria": "NTI",
+        "contenido_clave": "Formatos de firma (CAdES, XAdES, PAdES), algoritmos y longitudes mínimas de claves, reglas de creación/validación, gestión de políticas, sellos de tiempo, normalización de representación"
+      },
+      "pasaje_origen": "Disposición Adicional Primera RD 4/2010",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-nti-lista-6",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "codigo": "f",
+        "nombre": "Protocolos de intermediación de datos",
+        "categoria": "NTI",
+        "contenido_clave": "Especificaciones de protocolos de intermediación de datos; roles Cedente/Emisor/Cesionario/Requirente; plataforma de intermediación; SCSP; trazabilidad"
+      },
+      "pasaje_origen": "Disposición Adicional Primera RD 4/2010",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-nti-lista-7",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "codigo": "g",
+        "nombre": "Relación de modelos de datos comunes",
+        "categoria": "NTI",
+        "contenido_clave": "Modelos de datos comunes en la Administración y relativos a materias sujetas a intercambio de información con ciudadanos y otras administraciones; publicación en CISE"
+      },
+      "pasaje_origen": "Disposición Adicional Primera RD 4/2010",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-nti-lista-8",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "codigo": "h",
+        "nombre": "Política de gestión de documentos electrónicos",
+        "categoria": "NTI",
+        "contenido_clave": "Directrices para asignación de responsabilidades, programas, procesos y controles de gestión de documentos y administración de repositorios electrónicos"
+      },
+      "pasaje_origen": "Disposición Adicional Primera RD 4/2010",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-nti-lista-9",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "codigo": "i",
+        "nombre": "Requisitos de conexión a la Red de comunicaciones",
+        "categoria": "NTI",
+        "contenido_clave": "Requisitos de conexión a la Red de comunicaciones de las Administraciones públicas españolas"
+      },
+      "pasaje_origen": "Disposición Adicional Primera RD 4/2010",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-nti-lista-10",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "codigo": "j",
+        "nombre": "Procedimientos de copiado auténtico y conversión",
+        "categoria": "NTI",
+        "contenido_clave": "Copia auténtica y conversión entre documentos electrónicos y desde papel/otros medios físicos a formatos electrónicos"
+      },
+      "pasaje_origen": "Disposición Adicional Primera RD 4/2010",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-nti-lista-11",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "codigo": "k",
+        "nombre": "Modelo de Datos para el intercambio de asientos registrales",
+        "categoria": "NTI",
+        "contenido_clave": "Aspectos funcionales y técnicos para intercambio de asientos registrales, gestión de errores y excepciones, anexos, requerimientos tecnológicos y transformaciones de formatos"
+      },
+      "pasaje_origen": "Disposición Adicional Primera RD 4/2010",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-nti-lista-12",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "codigo": "-",
+        "nombre": "Inventario de procedimientos administrativos y servicios prestados",
+        "categoria": "Instrumento para la interoperabilidad (NO es NTI)",
+        "contenido_clave": "Contendrá información de procedimientos y servicios clasificada con nivel de informatización e interfaces para interacción/integración"
+      },
+      "pasaje_origen": "Disposición Adicional Primera RD 4/2010",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-nti-lista-13",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "codigo": "-",
+        "nombre": "Centro de interoperabilidad semántica de la Administración (CISE)",
+        "categoria": "Instrumento para la interoperabilidad (NO es NTI)",
+        "contenido_clave": "Publicará modelos de datos de intercambio comunes y sectoriales con definiciones y codificaciones; funciones de repositorio, generación de formatos, colaboración, publicación y difusión"
+      },
+      "pasaje_origen": "Disposición Adicional Primera RD 4/2010",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-nti-lista-14",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "codigo": "-",
+        "nombre": "Directorio de aplicaciones para su libre reutilización",
+        "categoria": "Instrumento para la interoperabilidad (NO es NTI)",
+        "contenido_clave": "Relación de aplicaciones reutilizables con datos descriptivos (nombre, descripción, uso, licencia, estándares abiertos, estado de desarrollo)"
+      },
+      "pasaje_origen": "Disposición Adicional Primera RD 4/2010",
+      "ubicacion": {},
+      "verificado": false
+    }
+  ],
+  "verificado": false
+}
