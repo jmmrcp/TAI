@@ -1,0 +1,99 @@
+{
+  "id": "cuadro-arquitectura-android",
+  "tema_id": "tema-13-sistemas-operativos-windows-unix-linux-moviles",
+  "tipo_dato": "arquitectura",
+  "titulo": "Arquitectura en capas de Android",
+  "semilla": false,
+  "n_filas": 6,
+  "n_fuentes_distintas": 1,
+  "columnas": [
+    "capa",
+    "componentes",
+    "funcion"
+  ],
+  "columna_clave": "capa",
+  "columna_respuesta": "componentes",
+  "columna_contexto": "funcion",
+  "columna_fuente": "fuente",
+  "filas": [
+    {
+      "id": "c-arquitectura-android-1",
+      "fuente": "examenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "capa": "Linux Kernel",
+        "componentes": "Kernel Linux, drivers, gestion de memoria y procesos",
+        "funcion": "Base del sistema y abstraccion del hardware"
+      },
+      "pasaje_origen": "Preguntas oficiales TAI tema 13",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-arquitectura-android-2",
+      "fuente": "examenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "capa": "HAL (Hardware Abstraction Layer)",
+        "componentes": "Vendor HAL, Supplicant HAL, Hostapd HAL (Wi-Fi); otros HAL",
+        "funcion": "Interfaz estandar entre framework y hardware"
+      },
+      "pasaje_origen": "Preguntas oficiales TAI tema 13",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-arquitectura-android-3",
+      "fuente": "examenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "capa": "Android Runtime (ART)",
+        "componentes": "Maquina virtual ART, compilacion AOT/JIT, bibliotecas core",
+        "funcion": "Ejecucion de aplicaciones (bytecode .dex)"
+      },
+      "pasaje_origen": "Preguntas oficiales TAI tema 13",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-arquitectura-android-4",
+      "fuente": "examenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "capa": "Bibliotecas nativas",
+        "componentes": "libc, SSL, SQLite, OpenGL, etc.",
+        "funcion": "Servicios de bajo nivel para el framework"
+      },
+      "pasaje_origen": "Preguntas oficiales TAI tema 13",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-arquitectura-android-5",
+      "fuente": "examenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "capa": "Framework Java API",
+        "componentes": "Activity Manager, Window Manager, Content Providers, etc.",
+        "funcion": "APIs para desarrollo de aplicaciones"
+      },
+      "pasaje_origen": "Preguntas oficiales TAI tema 13",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-arquitectura-android-6",
+      "fuente": "examenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "capa": "Aplicaciones",
+        "componentes": "Apps del sistema y de terceros (.apk)",
+        "funcion": "Interaccion con el usuario"
+      },
+      "pasaje_origen": "Preguntas oficiales TAI tema 13",
+      "ubicacion": {},
+      "verificado": false
+    }
+  ],
+  "verificado": false
+}

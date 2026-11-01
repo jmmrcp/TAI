@@ -1,0 +1,190 @@
+{
+  "id": "cuadro-reglas-codd",
+  "tema_id": "tema-15-modelado-de-datos-diseno-de-bd-modelo-relacional-normalizaci",
+  "tipo_dato": "reglas_codd",
+  "titulo": "Reglas de Codd del modelo relacional (0-12)",
+  "semilla": false,
+  "n_filas": 13,
+  "n_fuentes_distintas": 1,
+  "columnas": [
+    "regla",
+    "nombre",
+    "descripcion"
+  ],
+  "columna_clave": "regla",
+  "columna_respuesta": "descripcion",
+  "columna_contexto": "nombre",
+  "columna_fuente": "fuente",
+  "filas": [
+    {
+      "id": "c-reglas-codd-1",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "regla": "Regla 0",
+        "nombre": "Regla fundamental (The Information Rule)",
+        "descripcion": "Toda la información de la BD (datos y metadatos) se representa de un único modo: valores en tablas (relaciones)."
+      },
+      "pasaje_origen": "Regla fundamental del modelo relacional",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-reglas-codd-2",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "regla": "Regla 1",
+        "nombre": "Regla de la información",
+        "descripcion": "Toda la información se representa explícitamente en tablas; no hay información oculta fuera de ellas."
+      },
+      "pasaje_origen": "Representación tabular",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-reglas-codd-3",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "regla": "Regla 2",
+        "nombre": "Regla de acceso garantizado",
+        "descripcion": "Todo dato atómico se accede lógicamente por nombre de tabla + clave primaria + nombre de columna."
+      },
+      "pasaje_origen": "Acceso por PK+columna",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-reglas-codd-4",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "regla": "Regla 3",
+        "nombre": "Tratamiento sistemático de valores nulos",
+        "descripcion": "Los nulos se soportan de forma sistemática para representar información desconocida/inaplicable, independiente del tipo de dato."
+      },
+      "pasaje_origen": "Valores nulos",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-reglas-codd-5",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "regla": "Regla 4",
+        "nombre": "Catálogo dinámico en línea",
+        "descripcion": "El catálogo (diccionario de datos) se basa en el modelo relacional y se consulta con el mismo lenguaje que los datos."
+      },
+      "pasaje_origen": "Diccionario de datos",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-reglas-codd-6",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "regla": "Regla 5",
+        "nombre": "Sublenguaje de datos completo",
+        "descripcion": "Debe existir al menos un lenguaje (p. ej. SQL) que soporte definición, manipulación, integridad, vistas y transacciones."
+      },
+      "pasaje_origen": "SQL completo",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-reglas-codd-7",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "regla": "Regla 6",
+        "nombre": "Actualización de vistas",
+        "descripcion": "Todas las vistas teóricamente actualizables deben ser actualizables por el sistema."
+      },
+      "pasaje_origen": "Vistas actualizables",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-reglas-codd-8",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "regla": "Regla 7",
+        "nombre": "Inserción/actualización/eliminación de alto nivel",
+        "descripcion": "Operaciones sobre conjuntos de filas, no solo fila a fila."
+      },
+      "pasaje_origen": "DML de conjunto",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-reglas-codd-9",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "regla": "Regla 8",
+        "nombre": "Independencia física de los datos",
+        "descripcion": "Los programas no se ven afectados por cambios en el almacenamiento físico (índices, estructuras)."
+      },
+      "pasaje_origen": "Independencia física",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-reglas-codd-10",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "regla": "Regla 9",
+        "nombre": "Independencia lógica de los datos",
+        "descripcion": "Los programas no se ven afectados por cambios en el esquema conceptual (añadir tablas/columnas)."
+      },
+      "pasaje_origen": "Independencia lógica",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-reglas-codd-11",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "regla": "Regla 10",
+        "nombre": "Independencia de la integridad",
+        "descripcion": "Las restricciones de integridad se definen en el catálogo y no en los programas de aplicación."
+      },
+      "pasaje_origen": "Integridad en catálogo",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-reglas-codd-12",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "regla": "Regla 11",
+        "nombre": "Independencia de la distribución",
+        "descripcion": "El usuario no debe percibir si la BD es distribuida; el SGBD oculta la distribución."
+      },
+      "pasaje_origen": "Transparencia distribución",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-reglas-codd-13",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "regla": "Regla 12",
+        "nombre": "Regla de no subversión",
+        "descripcion": "Si el sistema ofrece interfaz de bajo nivel, no puede usarse para saltarse las reglas de integridad/seguridad del modelo relacional."
+      },
+      "pasaje_origen": "No subversión",
+      "ubicacion": {},
+      "verificado": false
+    }
+  ],
+  "verificado": false
+}

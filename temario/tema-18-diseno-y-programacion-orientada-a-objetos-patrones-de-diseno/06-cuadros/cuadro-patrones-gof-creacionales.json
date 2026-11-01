@@ -1,0 +1,86 @@
+{
+  "id": "cuadro-patrones-gof-creacionales",
+  "tema_id": "tema-18-diseno-y-programacion-orientada-a-objetos-patrones-de-diseno",
+  "tipo_dato": "patrones",
+  "titulo": "Patrones de diseño GoF creacionales",
+  "semilla": false,
+  "n_filas": 5,
+  "n_fuentes_distintas": 1,
+  "columnas": [
+    "patron",
+    "proposito",
+    "caracteristica_clave"
+  ],
+  "columna_clave": "patron",
+  "columna_respuesta": "proposito",
+  "columna_contexto": "caracteristica_clave",
+  "columna_fuente": "fuente",
+  "filas": [
+    {
+      "id": "c-patrones-creacionales-1",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "patron": "Abstract Factory",
+        "proposito": "Proporcionar una interfaz para crear familias de objetos relacionados o dependientes sin especificar sus clases concretas",
+        "caracteristica_clave": "Familias de productos; se diferencia de Factory Method porque define fábricas de familias, no un solo producto"
+      },
+      "pasaje_origen": "Patrones de diseño GoF",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-patrones-creacionales-2",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "patron": "Builder",
+        "proposito": "Separar la construcción de un objeto complejo de su representación, permitiendo distintas representaciones",
+        "caracteristica_clave": "Construcción paso a paso; director opcional"
+      },
+      "pasaje_origen": "Patrones de diseño GoF",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-patrones-creacionales-3",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "patron": "Factory Method",
+        "proposito": "Definir una interfaz para crear un objeto, dejando a las subclases decidir qué clase instanciar",
+        "caracteristica_clave": "Delega la instanciación en subclases; un solo producto"
+      },
+      "pasaje_origen": "Patrones de diseño GoF",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-patrones-creacionales-4",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "patron": "Prototype",
+        "proposito": "Especificar los tipos de objetos a crear mediante una instancia prototípica y crear nuevos objetos copiándola",
+        "caracteristica_clave": "Clonación; evita constructores costosos"
+      },
+      "pasaje_origen": "Patrones de diseño GoF",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-patrones-creacionales-5",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "patron": "Singleton",
+        "proposito": "Garantizar que una clase tiene una única instancia y proporcionar un punto de acceso global a ella",
+        "caracteristica_clave": "Constructor privado; instancia estática"
+      },
+      "pasaje_origen": "Patrones de diseño GoF",
+      "ubicacion": {},
+      "verificado": false
+    }
+  ],
+  "verificado": false
+}

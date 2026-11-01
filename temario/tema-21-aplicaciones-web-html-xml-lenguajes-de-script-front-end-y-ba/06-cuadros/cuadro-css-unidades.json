@@ -1,0 +1,177 @@
+{
+  "id": "cuadro-css-unidades",
+  "tema_id": "tema-21-aplicaciones-web-html-xml-lenguajes-de-script-front-end-y-ba",
+  "tipo_dato": "unidades",
+  "titulo": "CSS3: unidades de medida relativas y absolutas",
+  "semilla": false,
+  "n_filas": 12,
+  "n_fuentes_distintas": 1,
+  "columnas": [
+    "unidad",
+    "tipo",
+    "descripcion"
+  ],
+  "columna_clave": "unidad",
+  "columna_respuesta": "tipo",
+  "columna_contexto": "descripcion",
+  "columna_fuente": "fuente",
+  "filas": [
+    {
+      "id": "c-css-1",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "unidad": "em",
+        "tipo": "Relativa",
+        "descripcion": "Respecto al tamaño de fuente del elemento"
+      },
+      "pasaje_origen": "CSS3 unidades",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-css-2",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "unidad": "rem",
+        "tipo": "Relativa",
+        "descripcion": "Respecto al tamaño de fuente raíz (html)"
+      },
+      "pasaje_origen": "CSS3 unidades",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-css-3",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "unidad": "%",
+        "tipo": "Relativa",
+        "descripcion": "Respecto al contenedor padre"
+      },
+      "pasaje_origen": "CSS3 unidades",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-css-4",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "unidad": "vw / vh",
+        "tipo": "Relativa",
+        "descripcion": "1% del ancho/alto del viewport"
+      },
+      "pasaje_origen": "CSS3 unidades",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-css-5",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "unidad": "vmin / vmax",
+        "tipo": "Relativa",
+        "descripcion": "1% del lado menor/mayor del viewport"
+      },
+      "pasaje_origen": "CSS3 unidades",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-css-6",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "unidad": "ch / ex",
+        "tipo": "Relativa",
+        "descripcion": "Respecto al ancho de '0' / altura de 'x'"
+      },
+      "pasaje_origen": "CSS3 unidades",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-css-7",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "unidad": "px",
+        "tipo": "Absoluta",
+        "descripcion": "Píxel CSS (relativo al dispositivo, pero clasificado absoluto)"
+      },
+      "pasaje_origen": "CSS3 unidades",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-css-8",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "unidad": "cm / mm / in",
+        "tipo": "Absoluta",
+        "descripcion": "Longitudes físicas (centímetro, milímetro, pulgada)"
+      },
+      "pasaje_origen": "CSS3 unidades",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-css-9",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "unidad": "pt / pc",
+        "tipo": "Absoluta",
+        "descripcion": "Punto (1/72 in) / pica (12 pt)"
+      },
+      "pasaje_origen": "CSS3 unidades",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-css-10",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "unidad": "deg / rad / grad / turn",
+        "tipo": "Absoluta (ángulos)",
+        "descripcion": "Unidades angulares"
+      },
+      "pasaje_origen": "CSS3 unidades",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-css-11",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "unidad": "s / ms",
+        "tipo": "Absoluta (tiempo)",
+        "descripcion": "Segundos / milisegundos"
+      },
+      "pasaje_origen": "CSS3 unidades",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-css-12",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "unidad": "dpi / dpcm / dppx",
+        "tipo": "Absoluta (resolución)",
+        "descripcion": "Resolución de salida"
+      },
+      "pasaje_origen": "CSS3 unidades",
+      "ubicacion": {},
+      "verificado": false
+    }
+  ],
+  "verificado": false
+}

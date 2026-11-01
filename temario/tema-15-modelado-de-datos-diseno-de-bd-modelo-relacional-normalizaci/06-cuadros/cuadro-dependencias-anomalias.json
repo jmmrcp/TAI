@@ -1,0 +1,164 @@
+{
+  "id": "cuadro-dependencias-anomalias",
+  "tema_id": "tema-15-modelado-de-datos-diseno-de-bd-modelo-relacional-normalizaci",
+  "tipo_dato": "dependencias_anomalias",
+  "titulo": "Dependencias funcionales y anomalías de bases de datos",
+  "semilla": false,
+  "n_filas": 11,
+  "n_fuentes_distintas": 1,
+  "columnas": [
+    "concepto",
+    "definicion",
+    "tipo"
+  ],
+  "columna_clave": "concepto",
+  "columna_respuesta": "definicion",
+  "columna_contexto": "tipo",
+  "columna_fuente": "fuente",
+  "filas": [
+    {
+      "id": "c-dependencias-anomalias-1",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "Dependencia funcional X→Y",
+        "definicion": "Para cada valor de X existe un único valor de Y en la relación.",
+        "tipo": "Funcional"
+      },
+      "pasaje_origen": "Dependencia funcional",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-dependencias-anomalias-2",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "Dependencia funcional trivial",
+        "definicion": "X→Y es trivial si Y ⊆ X.",
+        "tipo": "Funcional"
+      },
+      "pasaje_origen": "DF trivial",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-dependencias-anomalias-3",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "Dependencia funcional completa",
+        "definicion": "Y depende de toda la clave compuesta X, no de una parte de ella.",
+        "tipo": "Funcional"
+      },
+      "pasaje_origen": "DF completa",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-dependencias-anomalias-4",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "Dependencia funcional transitiva",
+        "definicion": "X→Y y Y→Z (Y no clave) implica X→Z (transitiva).",
+        "tipo": "Funcional"
+      },
+      "pasaje_origen": "DF transitiva",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-dependencias-anomalias-5",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "Dependencia multivaluada X→→Y",
+        "definicion": "Para un valor de X hay un conjunto de valores de Y independiente de otros atributos.",
+        "tipo": "Multivaluada"
+      },
+      "pasaje_origen": "Dependencia multivaluada",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-dependencias-anomalias-6",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "Dependencia de join",
+        "definicion": "La relación se puede reconstruir sin pérdida a partir de la join de sus proyecciones.",
+        "tipo": "Join"
+      },
+      "pasaje_origen": "Dependencia de join",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-dependencias-anomalias-7",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "Descomposición sin pérdida",
+        "definicion": "Una relación se reconstruye sin pérdida de información a partir de la combinación (join) de algunas de sus proyecciones.",
+        "tipo": "Normalización"
+      },
+      "pasaje_origen": "Lossless join",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-dependencias-anomalias-8",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "Preservación de dependencias",
+        "definicion": "Las dependencias funcionales originales se mantienen en las proyecciones resultantes.",
+        "tipo": "Normalización"
+      },
+      "pasaje_origen": "Preservación de DF",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-dependencias-anomalias-9",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "Anomalía de inserción",
+        "definicion": "No se puede insertar un hecho sin conocer otros datos (p. ej. alumno sin curso).",
+        "tipo": "Anomalía"
+      },
+      "pasaje_origen": "Anomalía de inserción",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-dependencias-anomalias-10",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "Anomalía de actualización",
+        "definicion": "Modificar un dato exige actualizar múltiples filas; riesgo de inconsistencia.",
+        "tipo": "Anomalía"
+      },
+      "pasaje_origen": "Anomalía de actualización",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-dependencias-anomalias-11",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "Anomalía de eliminación",
+        "definicion": "Eliminar una fila borra información no relacionada (p. ej. último alumno de un curso).",
+        "tipo": "Anomalía"
+      },
+      "pasaje_origen": "Anomalía de eliminación",
+      "ubicacion": {},
+      "verificado": false
+    }
+  ],
+  "verificado": false
+}

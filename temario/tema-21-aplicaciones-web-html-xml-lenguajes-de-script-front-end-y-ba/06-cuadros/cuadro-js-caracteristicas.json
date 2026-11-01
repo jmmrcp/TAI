@@ -1,0 +1,140 @@
+{
+  "id": "cuadro-js-caracteristicas",
+  "tema_id": "tema-21-aplicaciones-web-html-xml-lenguajes-de-script-front-end-y-ba",
+  "tipo_dato": "conceptos",
+  "titulo": "JavaScript: características y frameworks",
+  "semilla": false,
+  "n_filas": 10,
+  "n_fuentes_distintas": 1,
+  "columnas": [
+    "concepto",
+    "detalle"
+  ],
+  "columna_clave": "concepto",
+  "columna_respuesta": "detalle",
+  "columna_contexto": "concepto",
+  "columna_fuente": "fuente",
+  "filas": [
+    {
+      "id": "c-js-1",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "Tipado",
+        "detalle": "Débilmente tipado y dinámico"
+      },
+      "pasaje_origen": "Características JavaScript",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-js-2",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "Paradigma",
+        "detalle": "Multiparadigma: imperativo, funcional y orientado a prototipos"
+      },
+      "pasaje_origen": "Características JavaScript",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-js-3",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "Ejecución",
+        "detalle": "Interpretado (JIT) en el navegador; single-threaded con event loop"
+      },
+      "pasaje_origen": "Características JavaScript",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-js-4",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "Estándar",
+        "detalle": "ECMAScript (ECMA-262)"
+      },
+      "pasaje_origen": "Estándar JavaScript",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-js-5",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "Frameworks front-end",
+        "detalle": "React, Angular, Vue, Svelte, Ember"
+      },
+      "pasaje_origen": "Frameworks JavaScript",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-js-6",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "Librerías",
+        "detalle": "jQuery, Lodash, D3.js, Axios"
+      },
+      "pasaje_origen": "Librerías JavaScript",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-js-7",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "NO es framework JS",
+        "detalle": "Django, Laravel, Spring, Ruby on Rails (back-end)"
+      },
+      "pasaje_origen": "Frameworks JavaScript",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-js-8",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "Runtime servidor",
+        "detalle": "Node.js (V8)"
+      },
+      "pasaje_origen": "Node.js",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-js-9",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "Evento ratón",
+        "detalle": "onmouseover / mouseenter para efecto al situar puntero"
+      },
+      "pasaje_origen": "Eventos HTML",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-js-10",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "Motor web Mozilla",
+        "detalle": "Gecko"
+      },
+      "pasaje_origen": "Motores web",
+      "ubicacion": {},
+      "verificado": false
+    }
+  ],
+  "verificado": false
+}

@@ -1,0 +1,106 @@
+{
+  "id": "cuadro-organizacion-ficheros",
+  "tema_id": "tema-12-tipos-abstractos-y-estructuras-de-datos-algoritmos-organizac",
+  "tipo_dato": "organizacion_ficheros",
+  "titulo": "Organizaciones de ficheros",
+  "semilla": false,
+  "n_filas": 6,
+  "n_fuentes_distintas": 1,
+  "columnas": [
+    "organizacion",
+    "tipo_acceso",
+    "estructura",
+    "ventaja_clave"
+  ],
+  "columna_clave": "organizacion",
+  "columna_respuesta": "tipo_acceso",
+  "columna_contexto": "estructura",
+  "columna_fuente": "fuente",
+  "filas": [
+    {
+      "id": "c-fic-1",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "organizacion": "Secuencial",
+        "tipo_acceso": "Secuencial",
+        "estructura": "Registros consecutivos",
+        "ventaja_clave": "Simple y alto rendimiento en lectura total"
+      },
+      "pasaje_origen": "Organización de ficheros",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-fic-2",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "organizacion": "Directa / aleatoria (hash)",
+        "tipo_acceso": "Directo por clave",
+        "estructura": "Tabla hash",
+        "ventaja_clave": "Acceso O(1) promedio"
+      },
+      "pasaje_origen": "Organización de ficheros",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-fic-3",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "organizacion": "Indexada secuencial (ISAM)",
+        "tipo_acceso": "Secuencial + directo",
+        "estructura": "Índice + datos",
+        "ventaja_clave": "Equilibrio lectura/escritura"
+      },
+      "pasaje_origen": "Organización de ficheros",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-fic-4",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "organizacion": "Árbol B / B+",
+        "tipo_acceso": "Indexado multinivel",
+        "estructura": "Árbol balanceado",
+        "ventaja_clave": "Búsquedas y rangos eficientes"
+      },
+      "pasaje_origen": "Organización de ficheros",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-fic-5",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "organizacion": "Heap (montículo de fichero)",
+        "tipo_acceso": "No ordenado",
+        "estructura": "Páginas de registros",
+        "ventaja_clave": "Inserción rápida"
+      },
+      "pasaje_origen": "Organización de ficheros",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-fic-6",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "organizacion": "Invertida",
+        "tipo_acceso": "Por término",
+        "estructura": "Índice invertido (postings)",
+        "ventaja_clave": "Recuperación de información"
+      },
+      "pasaje_origen": "Organización de ficheros",
+      "ubicacion": {},
+      "verificado": false
+    }
+  ],
+  "verificado": false
+}

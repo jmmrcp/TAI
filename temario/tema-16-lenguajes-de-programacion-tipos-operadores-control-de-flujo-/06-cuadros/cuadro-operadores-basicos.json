@@ -1,0 +1,134 @@
+{
+  "id": "cuadro-operadores-basicos",
+  "tema_id": "tema-16-lenguajes-de-programacion-tipos-operadores-control-de-flujo-",
+  "tipo_dato": "operadores",
+  "titulo": "Operadores básicos en lenguajes de programación",
+  "semilla": false,
+  "n_filas": 8,
+  "n_fuentes_distintas": 1,
+  "columnas": [
+    "operador",
+    "lenguaje",
+    "significado",
+    "ejemplo"
+  ],
+  "columna_clave": "operador",
+  "columna_respuesta": "significado",
+  "columna_contexto": "lenguaje",
+  "columna_fuente": "fuente",
+  "filas": [
+    {
+      "id": "c-op-1",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "operador": "==",
+        "lenguaje": "Java / C++",
+        "significado": "Igualdad de valores (primitivos); en objetos compara referencias",
+        "ejemplo": "a == b"
+      },
+      "pasaje_origen": "Operador == en Java",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-op-2",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "operador": "^",
+        "lenguaje": "Java / C++",
+        "significado": "XOR bit a bit (NO potencia)",
+        "ejemplo": "6 ^ 3 == 5"
+      },
+      "pasaje_origen": "Operación x^y en Java",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-op-3",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "operador": "*",
+        "lenguaje": "Python",
+        "significado": "Repetición de secuencias (strings/listas) además de multiplicación",
+        "ejemplo": "\"Java\"*4"
+      },
+      "pasaje_origen": "print(\"Java\"*4+\"Linux\")",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-op-4",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "operador": "?:",
+        "lenguaje": "Java / C++ / JS",
+        "significado": "Operador ternario condicional",
+        "ejemplo": "(cond) ? a : b"
+      },
+      "pasaje_origen": "Expresión condicional JS",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-op-5",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "operador": "&& / || / !",
+        "lenguaje": "Java / C++ / JS",
+        "significado": "AND, OR y NOT lógicos (cortocircuito en && y ||)",
+        "ejemplo": "a && b || !c"
+      },
+      "pasaje_origen": "Operaciones lógicas",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-op-6",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "operador": "+ (concatenación)",
+        "lenguaje": "Java / JS / Python",
+        "significado": "Concatenación de cadenas cuando al menos un operando es string",
+        "ejemplo": "\"Java\" + \"Linux\""
+      },
+      "pasaje_origen": "Operadores de cadena",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-op-7",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "operador": "instanceof",
+        "lenguaje": "Java",
+        "significado": "Comprueba si un objeto es instancia de una clase/interfaz",
+        "ejemplo": "obj instanceof String"
+      },
+      "pasaje_origen": "Operadores Java",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-op-8",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "operador": "typeof",
+        "lenguaje": "JavaScript",
+        "significado": "Devuelve el tipo del operando como cadena",
+        "ejemplo": "typeof x"
+      },
+      "pasaje_origen": "Operadores JavaScript",
+      "ubicacion": {},
+      "verificado": false
+    }
+  ],
+  "verificado": false
+}

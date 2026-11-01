@@ -1,0 +1,125 @@
+{
+  "id": "cuadro-conceptos-bd",
+  "tema_id": "tema-14-sgbd-relacionales-orientados-a-objetos-y-nosql",
+  "tipo_dato": "conceptos_bd",
+  "titulo": "Conceptos de bases de datos relacionales y Oracle",
+  "semilla": false,
+  "n_filas": 8,
+  "n_fuentes_distintas": 1,
+  "columnas": [
+    "concepto",
+    "definicion",
+    "valor_correcto"
+  ],
+  "columna_clave": "concepto",
+  "columna_respuesta": "definicion",
+  "columna_contexto": "valor_correcto",
+  "columna_fuente": "fuente",
+  "filas": [
+    {
+      "id": "c-cbd-1",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "Clave primaria",
+        "definicion": "Campo o combinación de campos que identifica de forma única cada fila de una tabla",
+        "valor_correcto": "Sí"
+      },
+      "pasaje_origen": "Examen TAI 2026 modelo C, teórica 33",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-cbd-2",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "Dominio",
+        "definicion": "Conjunto válido de valores que puede tomar un atributo",
+        "valor_correcto": "Sí"
+      },
+      "pasaje_origen": "Examen TAI 2026 modelo C, teórica 33",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-cbd-3",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "Superclave",
+        "definicion": "Conjunto de atributos que identifica unívocamente cada tupla de una relación",
+        "valor_correcto": "Sí"
+      },
+      "pasaje_origen": "Examen TAI 2026 modelo C, teórica 33",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-cbd-4",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "Almacenamiento relacional",
+        "definicion": "Método simple de clave-valor",
+        "valor_correcto": "No (las bases de datos relacionales no usan un método simple clave-valor)"
+      },
+      "pasaje_origen": "Examen TAI 2026 modelo C, teórica 33",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-cbd-5",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "Tablespace (Oracle)",
+        "definicion": "Unidad lógica de almacenamiento",
+        "valor_correcto": "Sí (afirmación correcta)"
+      },
+      "pasaje_origen": "Examen TAI 2018, teórica 39",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-cbd-6",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "Datafile (Oracle)",
+        "definicion": "Archivo físico de datos",
+        "valor_correcto": "No puede pertenecer a varios tablespace"
+      },
+      "pasaje_origen": "Examen TAI 2018, teórica 39",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-cbd-7",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "Segmento (Oracle)",
+        "definicion": "Objeto de base de datos (tabla, índice)",
+        "valor_correcto": "No es la unidad mínima de almacenamiento físico"
+      },
+      "pasaje_origen": "Examen TAI 2018, teórica 39",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-cbd-8",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "Extensión (Oracle)",
+        "definicion": "Bloques contiguos asignados a un segmento",
+        "valor_correcto": "No es una agrupación de índices multinivel"
+      },
+      "pasaje_origen": "Examen TAI 2018, teórica 39",
+      "ubicacion": {},
+      "verificado": false
+    }
+  ],
+  "verificado": false
+}

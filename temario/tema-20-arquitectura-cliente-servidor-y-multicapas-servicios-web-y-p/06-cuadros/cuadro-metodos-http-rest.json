@@ -1,0 +1,115 @@
+{
+  "id": "cuadro-metodos-http-rest",
+  "tema_id": "tema-20-arquitectura-cliente-servidor-y-multicapas-servicios-web-y-p",
+  "tipo_dato": "comparativa",
+  "titulo": "Métodos HTTP en REST: seguridad e idempotencia",
+  "semilla": false,
+  "n_filas": 7,
+  "n_fuentes_distintas": 1,
+  "columnas": ["metodo", "seguro", "idempotente", "uso_principal"],
+  "columna_clave": "metodo",
+  "columna_respuesta": "seguro",
+  "columna_contexto": "idempotente",
+  "columna_fuente": "fuente",
+  "filas": [
+    {
+      "id": "c-http-1",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "metodo": "GET",
+        "seguro": "Sí",
+        "idempotente": "Sí",
+        "uso_principal": "Obtener un recurso"
+      },
+      "pasaje_origen": "Métodos HTTP",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-http-2",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "metodo": "HEAD",
+        "seguro": "Sí",
+        "idempotente": "Sí",
+        "uso_principal": "Obtener solo cabeceras"
+      },
+      "pasaje_origen": "Métodos HTTP",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-http-3",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "metodo": "OPTIONS",
+        "seguro": "Sí",
+        "idempotente": "Sí",
+        "uso_principal": "Consultar capacidades del recurso"
+      },
+      "pasaje_origen": "Métodos HTTP",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-http-4",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "metodo": "POST",
+        "seguro": "No",
+        "idempotente": "No",
+        "uso_principal": "Crear un recurso"
+      },
+      "pasaje_origen": "Métodos HTTP",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-http-5",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "metodo": "PUT",
+        "seguro": "No",
+        "idempotente": "Sí",
+        "uso_principal": "Reemplazar un recurso completo"
+      },
+      "pasaje_origen": "Métodos HTTP idempotente",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-http-6",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "metodo": "PATCH",
+        "seguro": "No",
+        "idempotente": "No",
+        "uso_principal": "Actualización parcial"
+      },
+      "pasaje_origen": "Métodos HTTP",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-http-7",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "metodo": "DELETE",
+        "seguro": "No",
+        "idempotente": "Sí",
+        "uso_principal": "Eliminar un recurso"
+      },
+      "pasaje_origen": "Métodos HTTP",
+      "ubicacion": {},
+      "verificado": false
+    }
+  ],
+  "verificado": false
+}

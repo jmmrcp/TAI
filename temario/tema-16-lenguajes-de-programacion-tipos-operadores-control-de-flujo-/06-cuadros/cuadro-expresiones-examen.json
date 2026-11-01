@@ -1,0 +1,92 @@
+{
+  "id": "cuadro-expresiones-examen",
+  "tema_id": "tema-16-lenguajes-de-programacion-tipos-operadores-control-de-flujo-",
+  "tipo_dato": "ejemplos",
+  "titulo": "Expresiones de examen resueltas",
+  "semilla": false,
+  "n_filas": 5,
+  "n_fuentes_distintas": 1,
+  "columnas": [
+    "expresion",
+    "lenguaje",
+    "resultado",
+    "explicacion"
+  ],
+  "columna_clave": "expresion",
+  "columna_respuesta": "resultado",
+  "columna_contexto": "lenguaje",
+  "columna_fuente": "fuente",
+  "filas": [
+    {
+      "id": "c-ex-1",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "expresion": "x=6, y=3; x^y",
+        "lenguaje": "Java",
+        "resultado": "5",
+        "explicacion": "^ es XOR bit a bit: 110 XOR 011 = 101 (5)"
+      },
+      "pasaje_origen": "En JAVA, x=6 e y=3, x^y",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-ex-2",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "expresion": "print(\"Java\"*4+\"Linux\")",
+        "lenguaje": "Python 3.7",
+        "resultado": "JavaJavaJavaJavaLinux",
+        "explicacion": "* repite la cadena 4 veces; + concatena"
+      },
+      "pasaje_origen": "En Python 3.7, print(\"Java\"*4+\"Linux\")",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-ex-4",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "expresion": "a=1, b=2, c=3, d=1; a==d && b<c",
+        "lenguaje": "Genérico",
+        "resultado": "true",
+        "explicacion": "1==1 verdadero y 2<3 verdadero"
+      },
+      "pasaje_origen": "Operación lógica true",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-ex-5",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "expresion": "x=0; while x<100 do (x=x+1; print x; x=x-1;)",
+        "lenguaje": "Genérico",
+        "resultado": "Bucle infinito",
+        "explicacion": "x vuelve a 0 cada iteración, condición siempre cierta"
+      },
+      "pasaje_origen": "Programa de examen",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-ex-6",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "expresion": "do...while",
+        "lenguaje": "C++",
+        "resultado": "Ejecuta el cuerpo al menos una vez",
+        "explicacion": "Condición se evalúa al final del bucle"
+      },
+      "pasaje_origen": "Bucle do...while en C++",
+      "ubicacion": {},
+      "verificado": false
+    }
+  ],
+  "verificado": false
+}

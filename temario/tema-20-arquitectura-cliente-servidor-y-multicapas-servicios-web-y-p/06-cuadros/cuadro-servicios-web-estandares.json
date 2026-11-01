@@ -1,0 +1,95 @@
+{
+  "id": "cuadro-servicios-web-estandares",
+  "tema_id": "tema-20-arquitectura-cliente-servidor-y-multicapas-servicios-web-y-p",
+  "tipo_dato": "tecnologias",
+  "titulo": "Estándares y tecnologías de servicios web",
+  "semilla": false,
+  "n_filas": 6,
+  "n_fuentes_distintas": 1,
+  "columnas": ["tecnologia", "categoria", "descripcion"],
+  "columna_clave": "tecnologia",
+  "columna_respuesta": "categoria",
+  "columna_contexto": "descripcion",
+  "columna_fuente": "fuente",
+  "filas": [
+    {
+      "id": "c-ws-1",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "tecnologia": "REST",
+        "categoria": "Arquitectura",
+        "descripcion": "Estilo arquitectónico basado en recursos, URIs y métodos HTTP; sin estado."
+      },
+      "pasaje_origen": "Arquitectura REST",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-ws-2",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "tecnologia": "SOAP",
+        "categoria": "Protocolo de mensajería",
+        "descripcion": "Protocolo basado en XML con Envelope/Header/Body; versión actual 1.2."
+      },
+      "pasaje_origen": "Mensaje SOAP",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-ws-3",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "tecnologia": "WSDL",
+        "categoria": "Descripción de servicio",
+        "descripcion": "Lenguaje XML para describir servicios web a partir de un modelo abstracto (WSDL 2.0)."
+      },
+      "pasaje_origen": "Finalidad WSDL 2.0",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-ws-4",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "tecnologia": "WSIL",
+        "categoria": "Descubrimiento",
+        "descripcion": "Método alternativo al descubrimiento de servicios web (alternativa a UDDI)."
+      },
+      "pasaje_origen": "WSIL",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-ws-5",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "tecnologia": "UDDI",
+        "categoria": "Registro",
+        "descripcion": "Especificación para publicar y encontrar información sobre servicios web (no usada por REST)."
+      },
+      "pasaje_origen": "Servicios REST",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-ws-6",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "tecnologia": "WS-SecureConversation",
+        "categoria": "Seguridad (OASIS)",
+        "descripcion": "Estándar OASIS para establecer y compartir contextos de seguridad y obtener claves."
+      },
+      "pasaje_origen": "Estándar OASIS",
+      "ubicacion": {},
+      "verificado": false
+    }
+  ],
+  "verificado": false
+}

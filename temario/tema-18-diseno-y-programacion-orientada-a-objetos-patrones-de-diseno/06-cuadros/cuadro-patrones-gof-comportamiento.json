@@ -1,0 +1,164 @@
+{
+  "id": "cuadro-patrones-gof-comportamiento",
+  "tema_id": "tema-18-diseno-y-programacion-orientada-a-objetos-patrones-de-diseno",
+  "tipo_dato": "patrones",
+  "titulo": "Patrones de diseño GoF de comportamiento",
+  "semilla": false,
+  "n_filas": 11,
+  "n_fuentes_distintas": 1,
+  "columnas": [
+    "patron",
+    "proposito",
+    "caracteristica_clave"
+  ],
+  "columna_clave": "patron",
+  "columna_respuesta": "proposito",
+  "columna_contexto": "caracteristica_clave",
+  "columna_fuente": "fuente",
+  "filas": [
+    {
+      "id": "c-patrones-comportamiento-1",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "patron": "Chain of Responsibility",
+        "proposito": "Evitar acoplar el emisor de una petición a su receptor, dando a varios objetos la oportunidad de tratarla",
+        "caracteristica_clave": "Cadena de handlers"
+      },
+      "pasaje_origen": "Patrones de diseño GoF",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-patrones-comportamiento-2",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "patron": "Command",
+        "proposito": "Encapsular una petición como un objeto, permitiendo parametrizar clientes, encolar o registrar peticiones y soportar deshacer",
+        "caracteristica_clave": "Objeto comando; soporte undo/redo"
+      },
+      "pasaje_origen": "Patrones de diseño GoF",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-patrones-comportamiento-3",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "patron": "Interpreter",
+        "proposito": "Dado un lenguaje, definir una representación para su gramática junto con un intérprete que la usa",
+        "caracteristica_clave": "Árbol de sintaxis abstracta"
+      },
+      "pasaje_origen": "Patrones de diseño GoF",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-patrones-comportamiento-4",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "patron": "Iterator",
+        "proposito": "Proporcionar un modo de acceder secuencialmente a los elementos de un agregado sin exponer su representación interna",
+        "caracteristica_clave": "Cursor externo; independiente del agregado"
+      },
+      "pasaje_origen": "Patrones de diseño GoF",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-patrones-comportamiento-5",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "patron": "Mediator",
+        "proposito": "Definir un objeto que encapsula cómo interactúan un conjunto de objetos, promoviendo acoplamiento débil",
+        "caracteristica_clave": "Objeto mediador central"
+      },
+      "pasaje_origen": "Patrones de diseño GoF",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-patrones-comportamiento-6",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "patron": "Memento",
+        "proposito": "Capturar y externalizar el estado interno de un objeto sin violar la encapsulación, para poder restaurarlo después",
+        "caracteristica_clave": "Snapshot del estado"
+      },
+      "pasaje_origen": "Patrones de diseño GoF",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-patrones-comportamiento-7",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "patron": "Observer",
+        "proposito": "Definir una dependencia uno-a-muchos de modo que, cuando un objeto cambia de estado, todos sus dependientes son notificados automáticamente",
+        "caracteristica_clave": "Notificación automática; acoplamiento débil sujeto-observador"
+      },
+      "pasaje_origen": "Patrones de diseño GoF",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-patrones-comportamiento-8",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "patron": "State",
+        "proposito": "Permitir que un objeto altere su comportamiento cuando su estado interno cambia, pareciendo cambiar de clase",
+        "caracteristica_clave": "Comportamiento dependiente del estado"
+      },
+      "pasaje_origen": "Patrones de diseño GoF",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-patrones-comportamiento-9",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "patron": "Strategy",
+        "proposito": "Definir una familia de algoritmos, encapsular cada uno y hacerlos intercambiables",
+        "caracteristica_clave": "Algoritmo intercambiable en tiempo de ejecución"
+      },
+      "pasaje_origen": "Patrones de diseño GoF",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-patrones-comportamiento-10",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "patron": "Template Method",
+        "proposito": "Definir el esqueleto de un algoritmo en una operación, delegando algunos pasos en las subclases",
+        "caracteristica_clave": "Esqueleto fijo; pasos variables en subclases"
+      },
+      "pasaje_origen": "Patrones de diseño GoF",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-patrones-comportamiento-11",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "patron": "Visitor",
+        "proposito": "Representar una operación a realizar sobre los elementos de una estructura de objetos, permitiendo definir nuevas operaciones sin cambiar las clases",
+        "caracteristica_clave": "Doble despacho; nuevas operaciones sin modificar elementos"
+      },
+      "pasaje_origen": "Patrones de diseño GoF",
+      "ubicacion": {},
+      "verificado": false
+    }
+  ],
+  "verificado": false
+}

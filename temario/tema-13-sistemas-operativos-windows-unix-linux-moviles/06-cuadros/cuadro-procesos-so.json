@@ -1,0 +1,151 @@
+{
+  "id": "cuadro-procesos-so",
+  "tema_id": "tema-13-sistemas-operativos-windows-unix-linux-moviles",
+  "tipo_dato": "procesos",
+  "titulo": "Procesos, planificacion e hilos en sistemas operativos",
+  "semilla": false,
+  "n_filas": 10,
+  "n_fuentes_distintas": 1,
+  "columnas": [
+    "concepto",
+    "descripcion",
+    "ejemplo_clave"
+  ],
+  "columna_clave": "concepto",
+  "columna_respuesta": "descripcion",
+  "columna_contexto": "ejemplo_clave",
+  "columna_fuente": "fuente",
+  "filas": [
+    {
+      "id": "c-procesos-so-1",
+      "fuente": "examenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "PCB (Process Control Block)",
+        "descripcion": "Estructura de datos con informacion de un proceso (estado, PID, registros, etc.)",
+        "ejemplo_clave": "Bloque de control de proceso"
+      },
+      "pasaje_origen": "Preguntas oficiales TAI tema 13",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-procesos-so-2",
+      "fuente": "examenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "Planificador a largo plazo",
+        "descripcion": "Selecciona procesos para cargar en memoria principal",
+        "ejemplo_clave": "Job scheduler"
+      },
+      "pasaje_origen": "Preguntas oficiales TAI tema 13",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-procesos-so-3",
+      "fuente": "examenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "Planificador a corto plazo (CPU scheduler)",
+        "descripcion": "Decide que proceso entra en la CPU para su ejecucion",
+        "ejemplo_clave": "Decide proceso en procesador"
+      },
+      "pasaje_origen": "Preguntas oficiales TAI tema 13",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-procesos-so-4",
+      "fuente": "examenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "Planificador a medio plazo",
+        "descripcion": "Gestiona swapping entre memoria principal y secundaria",
+        "ejemplo_clave": "Suspension/reactivacion"
+      },
+      "pasaje_origen": "Preguntas oficiales TAI tema 13",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-procesos-so-5",
+      "fuente": "examenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "Hilos (threads)",
+        "descripcion": "Permiten que un proceso ejecute multiples tareas de forma concurrente",
+        "ejemplo_clave": "Multihilo"
+      },
+      "pasaje_origen": "Preguntas oficiales TAI tema 13",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-procesos-so-6",
+      "fuente": "examenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "Round Robin",
+        "descripcion": "Asigna un quantum de tiempo de CPU a cada proceso",
+        "ejemplo_clave": "Quantum fijo"
+      },
+      "pasaje_origen": "Preguntas oficiales TAI tema 13",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-procesos-so-7",
+      "fuente": "examenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "FCFS / SJF",
+        "descripcion": "FCFS por orden de llegada; SJF por menor rafaga de CPU",
+        "ejemplo_clave": "No apropiativos"
+      },
+      "pasaje_origen": "Preguntas oficiales TAI tema 13",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-procesos-so-8",
+      "fuente": "examenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "Estados de proceso",
+        "descripcion": "Nuevo, listo, ejecucion, bloqueado y terminado",
+        "ejemplo_clave": "Ciclo de vida"
+      },
+      "pasaje_origen": "Preguntas oficiales TAI tema 13",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-procesos-so-9",
+      "fuente": "examenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "Identificadores de proceso (Linux)",
+        "descripcion": "PID, PPID, UID, GID y otros datos del proceso",
+        "ejemplo_clave": "ps, /proc"
+      },
+      "pasaje_origen": "Preguntas oficiales TAI tema 13",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-procesos-so-10",
+      "fuente": "examenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "Dispatcher",
+        "descripcion": "Modulo que efectua el cambio de contexto entre procesos",
+        "ejemplo_clave": "Context switch"
+      },
+      "pasaje_origen": "Preguntas oficiales TAI tema 13",
+      "ubicacion": {},
+      "verificado": false
+    }
+  ],
+  "verificado": false
+}

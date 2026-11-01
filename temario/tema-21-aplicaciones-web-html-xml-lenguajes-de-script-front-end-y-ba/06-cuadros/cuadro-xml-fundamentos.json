@@ -1,0 +1,128 @@
+{
+  "id": "cuadro-xml-fundamentos",
+  "tema_id": "tema-21-aplicaciones-web-html-xml-lenguajes-de-script-front-end-y-ba",
+  "tipo_dato": "conceptos",
+  "titulo": "XML: fundamentos y reglas de documento bien formado",
+  "semilla": false,
+  "n_filas": 9,
+  "n_fuentes_distintas": 1,
+  "columnas": [
+    "concepto",
+    "detalle"
+  ],
+  "columna_clave": "concepto",
+  "columna_respuesta": "detalle",
+  "columna_contexto": "concepto",
+  "columna_fuente": "fuente",
+  "filas": [
+    {
+      "id": "c-xml-1",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "Elementos raíz",
+        "detalle": "Un documento XML bien formado tiene exactamente un elemento raíz"
+      },
+      "pasaje_origen": "Especificación XML W3C",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-xml-2",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "Comentarios",
+        "detalle": "<!-- ... --> (igual que HTML)"
+      },
+      "pasaje_origen": "Sintaxis XML",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-xml-3",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "Case sensitivity",
+        "detalle": "XML distingue mayúsculas/minúsculas en etiquetas y atributos"
+      },
+      "pasaje_origen": "Sintaxis XML",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-xml-4",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "Anidamiento",
+        "detalle": "Etiquetas correctamente anidadas y cerradas"
+      },
+      "pasaje_origen": "Documento bien formado",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-xml-5",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "Atributos",
+        "detalle": "Valores entre comillas (simples o dobles)"
+      },
+      "pasaje_origen": "Sintaxis XML",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-xml-6",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "Declaración XML",
+        "detalle": "<?xml version=\"1.0\" encoding=\"UTF-8\"?> (opcional, debe ir primero)"
+      },
+      "pasaje_origen": "Prólogo XML",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-xml-7",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "API Java para XML",
+        "detalle": "DOM, SAX, StAX, JAXB, JAXP"
+      },
+      "pasaje_origen": "Procesamiento XML en Java",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-xml-8",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "XOP (XML-binary Optimized Packaging)",
+        "detalle": "Mecanismo para incluir datos binarios en mensajes SOAP; relacionado con MTOM"
+      },
+      "pasaje_origen": "XOP / MTOM",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-xml-9",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "Validación",
+        "detalle": "DTD o XML Schema (XSD) para validar estructura"
+      },
+      "pasaje_origen": "Validación XML",
+      "ubicacion": {},
+      "verificado": false
+    }
+  ],
+  "verificado": false
+}

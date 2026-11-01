@@ -1,0 +1,203 @@
+{
+  "id": "cuadro-er-extendido-metrica",
+  "tema_id": "tema-15-modelado-de-datos-diseno-de-bd-modelo-relacional-normalizaci",
+  "tipo_dato": "er_extendido",
+  "titulo": "Modelo Entidad/Relación Extendido según Métrica v3",
+  "semilla": false,
+  "n_filas": 14,
+  "n_fuentes_distintas": 1,
+  "columnas": [
+    "concepto",
+    "definicion",
+    "ejemplo_notacion"
+  ],
+  "columna_clave": "concepto",
+  "columna_respuesta": "definicion",
+  "columna_contexto": "ejemplo_notacion",
+  "columna_fuente": "fuente",
+  "filas": [
+    {
+      "id": "c-er-extendido-metrica-1",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "Entidad (tipo)",
+        "definicion": "Conjunto de objetos del dominio con propiedades comunes que se distinguen unívocamente.",
+        "ejemplo_notacion": "Rectángulo"
+      },
+      "pasaje_origen": "Entidad en E/R",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-er-extendido-metrica-2",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "Relación (tipo)",
+        "definicion": "Asociación con nombre y semántica entre dos o más tipos de entidad.",
+        "ejemplo_notacion": "Rombo"
+      },
+      "pasaje_origen": "Relación en E/R",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-er-extendido-metrica-3",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "Atributo",
+        "definicion": "Propiedad que describe a una entidad o a una relación.",
+        "ejemplo_notacion": "Elipse"
+      },
+      "pasaje_origen": "Atributo",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-er-extendido-metrica-4",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "Atributo compuesto",
+        "definicion": "Atributo formado por subatributos con estructura interna (p. ej. dirección).",
+        "ejemplo_notacion": "Elipse con subelipses"
+      },
+      "pasaje_origen": "Atributo compuesto",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-er-extendido-metrica-5",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "Atributo multivaluado",
+        "definicion": "Atributo que puede tomar varios valores para una misma instancia.",
+        "ejemplo_notacion": "Elipse doble"
+      },
+      "pasaje_origen": "Atributo multivaluado",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-er-extendido-metrica-6",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "Atributo derivado",
+        "definicion": "Atributo cuyo valor se calcula a partir de otros atributos; no se almacena.",
+        "ejemplo_notacion": "Elipse discontinua"
+      },
+      "pasaje_origen": "Atributo derivado",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-er-extendido-metrica-7",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "Cardinalidad",
+        "definicion": "Número de instancias de una entidad que pueden asociarse con una instancia de otra (1:1, 1:N, N:M).",
+        "ejemplo_notacion": "Etiqueta en la relación"
+      },
+      "pasaje_origen": "Cardinalidad",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-er-extendido-metrica-8",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "Participación",
+        "definicion": "Indica si la participación de una entidad en la relación es total (obligatoria) o parcial (opcional).",
+        "ejemplo_notacion": "Línea doble = total"
+      },
+      "pasaje_origen": "Participación",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-er-extendido-metrica-9",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "Rol",
+        "definicion": "Nombre que toma una entidad en una relación; útil en autorrelaciones.",
+        "ejemplo_notacion": "Etiqueta sobre la línea"
+      },
+      "pasaje_origen": "Rol",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-er-extendido-metrica-10",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "Generalización",
+        "definicion": "Abstracción que agrupa subtipos en un supertipo común (de abajo a arriba).",
+        "ejemplo_notacion": "Triángulo ISA"
+      },
+      "pasaje_origen": "Generalización",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-er-extendido-metrica-11",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "Especialización",
+        "definicion": "Refinamiento de un supertipo en subtipos con atributos/relaciones propias (de arriba a abajo).",
+        "ejemplo_notacion": "Triángulo ISA"
+      },
+      "pasaje_origen": "Especialización",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-er-extendido-metrica-12",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "Categoría (unión)",
+        "definicion": "Entidad subconjunto de la unión de varias entidades de dominios independientes que coyunturalmente se asocian.",
+        "ejemplo_notacion": "Círculo con U"
+      },
+      "pasaje_origen": "Categoría en E/R extendido",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-er-extendido-metrica-13",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "Agregación",
+        "definicion": "Mecanismo para tratar una relación como entidad y permitirle participar en otra relación.",
+        "ejemplo_notacion": "Rectángulo envolvente"
+      },
+      "pasaje_origen": "Agregación",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-er-extendido-metrica-14",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "Clave",
+        "definicion": "Atributo(s) que identifican unívocamente las instancias de un tipo de entidad.",
+        "ejemplo_notacion": "Subrayado"
+      },
+      "pasaje_origen": "Clave",
+      "ubicacion": {},
+      "verificado": false
+    }
+  ],
+  "verificado": false
+}

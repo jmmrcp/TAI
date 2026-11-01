@@ -1,0 +1,138 @@
+{
+  "id": "cuadro-permisos-linux",
+  "tema_id": "tema-13-sistemas-operativos-windows-unix-linux-moviles",
+  "tipo_dato": "permisos",
+  "titulo": "Permisos de archivos en Linux (chmod octal)",
+  "semilla": false,
+  "n_filas": 9,
+  "n_fuentes_distintas": 1,
+  "columnas": [
+    "valor_octal",
+    "notacion_simbolica",
+    "descripcion"
+  ],
+  "columna_clave": "valor_octal",
+  "columna_respuesta": "notacion_simbolica",
+  "columna_contexto": "descripcion",
+  "columna_fuente": "fuente",
+  "filas": [
+    {
+      "id": "c-permisos-linux-1",
+      "fuente": "examenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "valor_octal": "0",
+        "notacion_simbolica": "---",
+        "descripcion": "Sin permisos"
+      },
+      "pasaje_origen": "Preguntas oficiales TAI tema 13",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-permisos-linux-2",
+      "fuente": "examenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "valor_octal": "1",
+        "notacion_simbolica": "--x",
+        "descripcion": "Solo ejecucion"
+      },
+      "pasaje_origen": "Preguntas oficiales TAI tema 13",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-permisos-linux-3",
+      "fuente": "examenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "valor_octal": "2",
+        "notacion_simbolica": "-w-",
+        "descripcion": "Solo escritura"
+      },
+      "pasaje_origen": "Preguntas oficiales TAI tema 13",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-permisos-linux-4",
+      "fuente": "examenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "valor_octal": "3",
+        "notacion_simbolica": "-wx",
+        "descripcion": "Escritura y ejecucion"
+      },
+      "pasaje_origen": "Preguntas oficiales TAI tema 13",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-permisos-linux-5",
+      "fuente": "examenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "valor_octal": "4",
+        "notacion_simbolica": "r--",
+        "descripcion": "Solo lectura"
+      },
+      "pasaje_origen": "Preguntas oficiales TAI tema 13",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-permisos-linux-6",
+      "fuente": "examenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "valor_octal": "5",
+        "notacion_simbolica": "r-x",
+        "descripcion": "Lectura y ejecucion"
+      },
+      "pasaje_origen": "Preguntas oficiales TAI tema 13",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-permisos-linux-7",
+      "fuente": "examenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "valor_octal": "6",
+        "notacion_simbolica": "rw-",
+        "descripcion": "Lectura y escritura"
+      },
+      "pasaje_origen": "Preguntas oficiales TAI tema 13",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-permisos-linux-8",
+      "fuente": "examenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "valor_octal": "7",
+        "notacion_simbolica": "rwx",
+        "descripcion": "Lectura, escritura y ejecucion"
+      },
+      "pasaje_origen": "Preguntas oficiales TAI tema 13",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-permisos-linux-9",
+      "fuente": "examenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "valor_octal": "640",
+        "notacion_simbolica": "rw-r-----",
+        "descripcion": "Propietario lectura/escritura, grupo lectura, otros sin permisos"
+      },
+      "pasaje_origen": "Preguntas oficiales TAI tema 13",
+      "ubicacion": {},
+      "verificado": false
+    }
+  ],
+  "verificado": false
+}

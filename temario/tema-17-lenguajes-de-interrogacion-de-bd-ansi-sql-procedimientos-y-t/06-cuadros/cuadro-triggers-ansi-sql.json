@@ -1,0 +1,99 @@
+{
+  "id": "cuadro-triggers-ansi-sql",
+  "tema_id": "tema-17-lenguajes-de-interrogacion-de-bd-ansi-sql-procedimientos-y-t",
+  "tipo_dato": "triggers",
+  "titulo": "Disparadores (triggers): ANSI SQL y SQL Server",
+  "semilla": false,
+  "n_filas": 6,
+  "n_fuentes_distintas": 1,
+  "columnas": [
+    "aspecto",
+    "ansi_sql",
+    "sql_server"
+  ],
+  "columna_clave": "aspecto",
+  "columna_respuesta": "ansi_sql",
+  "columna_contexto": "sql_server",
+  "columna_fuente": "fuente",
+  "filas": [
+    {
+      "id": "c-trg-1",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "aspecto": "Momento de disparo",
+        "ansi_sql": "BEFORE, AFTER",
+        "sql_server": "AFTER (FOR), INSTEAD OF (DML)"
+      },
+      "pasaje_origen": "Triggers ANSI SQL",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-trg-2",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "aspecto": "Granularidad",
+        "ansi_sql": "FOR EACH ROW / FOR EACH STATEMENT",
+        "sql_server": "Nivel de sentencia (implícito)"
+      },
+      "pasaje_origen": "Triggers ANSI SQL",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-trg-3",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "aspecto": "Eventos",
+        "ansi_sql": "INSERT, UPDATE, DELETE",
+        "sql_server": "INSERT, UPDATE, DELETE"
+      },
+      "pasaje_origen": "Triggers SQL",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-trg-4",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "aspecto": "Validar antes del evento",
+        "ansi_sql": "CREATE TRIGGER ... BEFORE ... ON tabla",
+        "sql_server": "INSTEAD OF (o validación en AFTER)"
+      },
+      "pasaje_origen": "Trigger BEFORE ANSI",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-trg-5",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "aspecto": "Cambio de columna concreta",
+        "ansi_sql": "BEFORE UPDATE OF Salario ON Empleados",
+        "sql_server": "UPDATE(col) en trigger AFTER"
+      },
+      "pasaje_origen": "Trigger UPDATE OF columna",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-trg-6",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "aspecto": "Tipos adicionales",
+        "ansi_sql": "Triggers DML sobre tablas/vistas",
+        "sql_server": "DDL triggers, logon triggers"
+      },
+      "pasaje_origen": "Triggers SQL Server",
+      "ubicacion": {},
+      "verificado": false
+    }
+  ],
+  "verificado": false
+}

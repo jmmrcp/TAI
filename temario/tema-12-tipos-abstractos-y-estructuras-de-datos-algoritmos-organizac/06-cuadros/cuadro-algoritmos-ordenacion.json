@@ -1,0 +1,158 @@
+{
+  "id": "cuadro-algoritmos-ordenacion",
+  "tema_id": "tema-12-tipos-abstractos-y-estructuras-de-datos-algoritmos-organizac",
+  "tipo_dato": "algoritmos_ordenacion",
+  "titulo": "Algoritmos de ordenación: complejidad y propiedades",
+  "semilla": false,
+  "n_filas": 9,
+  "n_fuentes_distintas": 1,
+  "columnas": [
+    "algoritmo",
+    "complejidad_media",
+    "complejidad_peor",
+    "estable",
+    "tiempo_lineal"
+  ],
+  "columna_clave": "algoritmo",
+  "columna_respuesta": "tiempo_lineal",
+  "columna_contexto": "complejidad_media",
+  "columna_fuente": "fuente",
+  "filas": [
+    {
+      "id": "c-ord-1",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "algoritmo": "Burbuja (Bubble sort)",
+        "complejidad_media": "O(n^2)",
+        "complejidad_peor": "O(n^2)",
+        "estable": "Sí",
+        "tiempo_lineal": "No"
+      },
+      "pasaje_origen": "Algoritmos de ordenación",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-ord-2",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "algoritmo": "Inserción (Insertion sort)",
+        "complejidad_media": "O(n^2)",
+        "complejidad_peor": "O(n^2)",
+        "estable": "Sí",
+        "tiempo_lineal": "No (mejor caso O(n))"
+      },
+      "pasaje_origen": "Algoritmos de ordenación",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-ord-3",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "algoritmo": "Selección (Selection sort)",
+        "complejidad_media": "O(n^2)",
+        "complejidad_peor": "O(n^2)",
+        "estable": "No",
+        "tiempo_lineal": "No"
+      },
+      "pasaje_origen": "Algoritmos de ordenación",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-ord-4",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "algoritmo": "Mezcla (Merge sort)",
+        "complejidad_media": "O(n log n)",
+        "complejidad_peor": "O(n log n)",
+        "estable": "Sí",
+        "tiempo_lineal": "No"
+      },
+      "pasaje_origen": "Algoritmos de ordenación",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-ord-5",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "algoritmo": "Rápido (Quick sort)",
+        "complejidad_media": "O(n log n)",
+        "complejidad_peor": "O(n^2)",
+        "estable": "No",
+        "tiempo_lineal": "No"
+      },
+      "pasaje_origen": "Algoritmos de ordenación",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-ord-6",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "algoritmo": "Montículos (Heap sort)",
+        "complejidad_media": "O(n log n)",
+        "complejidad_peor": "O(n log n)",
+        "estable": "No",
+        "tiempo_lineal": "No"
+      },
+      "pasaje_origen": "Algoritmos de ordenación",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-ord-7",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "algoritmo": "Por conteo (Counting sort)",
+        "complejidad_media": "O(n + k)",
+        "complejidad_peor": "O(n + k)",
+        "estable": "Sí",
+        "tiempo_lineal": "Sí"
+      },
+      "pasaje_origen": "Algoritmos de ordenación lineal",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-ord-8",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "algoritmo": "Radix sort",
+        "complejidad_media": "O(d (n + k))",
+        "complejidad_peor": "O(d (n + k))",
+        "estable": "Sí",
+        "tiempo_lineal": "Sí"
+      },
+      "pasaje_origen": "Algoritmos de ordenación lineal",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-ord-9",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "algoritmo": "Por cestas (Bucket sort)",
+        "complejidad_media": "O(n + k)",
+        "complejidad_peor": "O(n^2)",
+        "estable": "Sí",
+        "tiempo_lineal": "Sí (caso medio)"
+      },
+      "pasaje_origen": "Algoritmos de ordenación lineal",
+      "ubicacion": {},
+      "verificado": false
+    }
+  ],
+  "verificado": false
+}

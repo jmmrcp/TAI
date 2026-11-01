@@ -1,0 +1,134 @@
+{
+  "id": "cuadro-tad-basicos",
+  "tema_id": "tema-12-tipos-abstractos-y-estructuras-de-datos-algoritmos-organizac",
+  "tipo_dato": "tad",
+  "titulo": "Tipos abstractos de datos (TAD) básicos",
+  "semilla": false,
+  "n_filas": 8,
+  "n_fuentes_distintas": 1,
+  "columnas": [
+    "tad",
+    "principio",
+    "operaciones",
+    "uso_tipico"
+  ],
+  "columna_clave": "tad",
+  "columna_respuesta": "operaciones",
+  "columna_contexto": "principio",
+  "columna_fuente": "fuente",
+  "filas": [
+    {
+      "id": "c-tad-1",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "tad": "Pila (Stack)",
+        "principio": "LIFO: último en entrar, primero en salir",
+        "operaciones": "push, pop, top/peek, isEmpty",
+        "uso_tipico": "Evaluación de expresiones, llamadas recursivas, deshacer (undo)"
+      },
+      "pasaje_origen": "TAD Pila",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-tad-2",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "tad": "Cola (Queue)",
+        "principio": "FIFO: primero en entrar, primero en salir",
+        "operaciones": "enqueue, dequeue, front, isEmpty",
+        "uso_tipico": "Buffers, planificación de procesos, BFS"
+      },
+      "pasaje_origen": "TAD Cola",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-tad-3",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "tad": "Cola de prioridad",
+        "principio": "Sale el elemento de mayor (o menor) prioridad",
+        "operaciones": "insert, extract-min/max, peek",
+        "uso_tipico": "Dijkstra, planificación, heaps"
+      },
+      "pasaje_origen": "TAD Cola de prioridad",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-tad-4",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "tad": "Lista lineal",
+        "principio": "Secuencia ordenada de elementos",
+        "operaciones": "insert, delete, search, get(i)",
+        "uso_tipico": "Implementación con arrays o listas enlazadas"
+      },
+      "pasaje_origen": "TAD Lista",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-tad-5",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "tad": "Conjunto (Set)",
+        "principio": "Colección de elementos únicos sin orden",
+        "operaciones": "add, remove, contains, union, intersección",
+        "uso_tipico": "Membresía, eliminación de duplicados"
+      },
+      "pasaje_origen": "TAD Conjunto",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-tad-6",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "tad": "Diccionario / Mapa (Map)",
+        "principio": "Asociación clave-valor",
+        "operaciones": "put, get, remove, containsKey",
+        "uso_tipico": "Tablas hash, árboles de búsqueda (BST)"
+      },
+      "pasaje_origen": "TAD Diccionario",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-tad-7",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "tad": "Árbol",
+        "principio": "Estructura jerárquica (nodo raíz y subárboles)",
+        "operaciones": "insert, search, delete, recorridos",
+        "uso_tipico": "BST, árboles balanceados, heaps"
+      },
+      "pasaje_origen": "TAD Árbol",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-tad-8",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "tad": "Grafo",
+        "principio": "Vértices y aristas (dirigido/no dirigido, ponderado)",
+        "operaciones": "addVertex, addEdge, BFS, DFS",
+        "uso_tipico": "Redes, rutas, dependencias"
+      },
+      "pasaje_origen": "TAD Grafo",
+      "ubicacion": {},
+      "verificado": false
+    }
+  ],
+  "verificado": false
+}

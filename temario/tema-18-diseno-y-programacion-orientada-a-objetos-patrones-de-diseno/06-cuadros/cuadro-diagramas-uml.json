@@ -1,0 +1,203 @@
+{
+  "id": "cuadro-diagramas-uml",
+  "tema_id": "tema-18-diseno-y-programacion-orientada-a-objetos-patrones-de-diseno",
+  "tipo_dato": "uml",
+  "titulo": "Diagramas UML 2.5 (estructura vs comportamiento)",
+  "semilla": false,
+  "n_filas": 14,
+  "n_fuentes_distintas": 1,
+  "columnas": [
+    "diagrama",
+    "categoria",
+    "uso_principal"
+  ],
+  "columna_clave": "diagrama",
+  "columna_respuesta": "categoria",
+  "columna_contexto": "uso_principal",
+  "columna_fuente": "fuente",
+  "filas": [
+    {
+      "id": "c-diagramas-uml-1",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "diagrama": "Clases",
+        "categoria": "Estructura",
+        "uso_principal": "Estructura estática: clases, atributos, métodos y relaciones"
+      },
+      "pasaje_origen": "UML 2.5",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-diagramas-uml-2",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "diagrama": "Componentes",
+        "categoria": "Estructura",
+        "uso_principal": "Componentes software y sus dependencias/provistos"
+      },
+      "pasaje_origen": "UML 2.5",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-diagramas-uml-3",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "diagrama": "Estructura compuesta",
+        "categoria": "Estructura",
+        "uso_principal": "Estructura interna de un clasificador y colaboración de partes"
+      },
+      "pasaje_origen": "UML 2.5",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-diagramas-uml-4",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "diagrama": "Despliegue",
+        "categoria": "Estructura",
+        "uso_principal": "Nodos físicos y artefactos desplegados"
+      },
+      "pasaje_origen": "UML 2.5",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-diagramas-uml-5",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "diagrama": "Objetos",
+        "categoria": "Estructura",
+        "uso_principal": "Instancias y sus enlaces en un instante"
+      },
+      "pasaje_origen": "UML 2.5",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-diagramas-uml-6",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "diagrama": "Paquetes",
+        "categoria": "Estructura",
+        "uso_principal": "Organización de elementos en paquetes y dependencias"
+      },
+      "pasaje_origen": "UML 2.5",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-diagramas-uml-7",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "diagrama": "Perfil",
+        "categoria": "Estructura",
+        "uso_principal": "Mecanismo de extensión (estereotipos, etiquetas, restricciones)"
+      },
+      "pasaje_origen": "UML 2.5",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-diagramas-uml-8",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "diagrama": "Actividad",
+        "categoria": "Comportamiento",
+        "uso_principal": "Flujo de control y acciones"
+      },
+      "pasaje_origen": "UML 2.5",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-diagramas-uml-9",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "diagrama": "Máquina de estados",
+        "categoria": "Comportamiento",
+        "uso_principal": "Estados, transiciones y eventos de un objeto"
+      },
+      "pasaje_origen": "UML 2.5",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-diagramas-uml-10",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "diagrama": "Casos de uso",
+        "categoria": "Comportamiento",
+        "uso_principal": "Funcionalidad desde perspectiva del actor"
+      },
+      "pasaje_origen": "UML 2.5",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-diagramas-uml-11",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "diagrama": "Secuencia",
+        "categoria": "Interacción",
+        "uso_principal": "Interacción entre objetos mediante mensajes ordenados en el tiempo"
+      },
+      "pasaje_origen": "UML 2.5",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-diagramas-uml-12",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "diagrama": "Comunicación",
+        "categoria": "Interacción",
+        "uso_principal": "Interacción entre objetos enfocada en relaciones estructurales y mensajes"
+      },
+      "pasaje_origen": "UML 2.5",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-diagramas-uml-13",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "diagrama": "Panorama de interacción",
+        "categoria": "Interacción",
+        "uso_principal": "Vista general del flujo de control entre diagramas de interacción"
+      },
+      "pasaje_origen": "UML 2.5",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-diagramas-uml-14",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "diagrama": "Tiempos",
+        "categoria": "Interacción",
+        "uso_principal": "Interacción con restricciones temporales entre objetos"
+      },
+      "pasaje_origen": "UML 2.5",
+      "ubicacion": {},
+      "verificado": false
+    }
+  ],
+  "verificado": false
+}

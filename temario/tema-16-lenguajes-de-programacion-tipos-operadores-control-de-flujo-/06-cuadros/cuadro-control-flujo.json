@@ -1,0 +1,134 @@
+{
+  "id": "cuadro-control-flujo",
+  "tema_id": "tema-16-lenguajes-de-programacion-tipos-operadores-control-de-flujo-",
+  "tipo_dato": "control_flujo",
+  "titulo": "Estructuras de control de flujo",
+  "semilla": false,
+  "n_filas": 8,
+  "n_fuentes_distintas": 1,
+  "columnas": [
+    "estructura",
+    "lenguaje",
+    "caracteristica",
+    "ejemplo"
+  ],
+  "columna_clave": "estructura",
+  "columna_respuesta": "caracteristica",
+  "columna_contexto": "lenguaje",
+  "columna_fuente": "fuente",
+  "filas": [
+    {
+      "id": "c-cf-1",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "estructura": "if / else",
+        "lenguaje": "Python",
+        "caracteristica": "El bloque se delimita por indentación (sin llaves)",
+        "ejemplo": "if cond:\n    bloque"
+      },
+      "pasaje_origen": "Sentencia if en Python",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-cf-2",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "estructura": "if / else",
+        "lenguaje": "Java / C++",
+        "caracteristica": "Bloque delimitado por llaves { }",
+        "ejemplo": "if (cond) { ... } else { ... }"
+      },
+      "pasaje_origen": "Sentencia if en Java/C++",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-cf-3",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "estructura": "while",
+        "lenguaje": "Genérico",
+        "caracteristica": "Bucle pre-test: evalúa condición antes de cada iteración",
+        "ejemplo": "while (cond) { ... }"
+      },
+      "pasaje_origen": "Bucle while",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-cf-4",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "estructura": "do...while",
+        "lenguaje": "C++ / Java",
+        "caracteristica": "Bucle post-test: ejecuta al menos una vez el cuerpo",
+        "ejemplo": "do { ... } while (cond);"
+      },
+      "pasaje_origen": "Bucle do...while en C++",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-cf-5",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "estructura": "for",
+        "lenguaje": "Genérico",
+        "caracteristica": "Bucle con inicialización, condición e incremento",
+        "ejemplo": "for (i=0; i<n; i++) { ... }"
+      },
+      "pasaje_origen": "Bucle for",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-cf-6",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "estructura": "switch / case",
+        "lenguaje": "Java / C++ / JS",
+        "caracteristica": "Selección múltiple por valor discreto",
+        "ejemplo": "switch (x) { case 1: ...; break; }"
+      },
+      "pasaje_origen": "Control de flujo",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-cf-7",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "estructura": "break / continue",
+        "lenguaje": "Genérico",
+        "caracteristica": "break sale del bucle; continue salta a la siguiente iteración",
+        "ejemplo": "break; / continue;"
+      },
+      "pasaje_origen": "Control de flujo",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-cf-8",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "estructura": "Bucle infinito",
+        "lenguaje": "Genérico",
+        "caracteristica": "Condición que nunca se hace falsa (p. ej. incrementar y decrementar la misma variable)",
+        "ejemplo": "while x<100 do (x=x+1; print x; x=x-1;)"
+      },
+      "pasaje_origen": "Programa de examen",
+      "ubicacion": {},
+      "verificado": false
+    }
+  ],
+  "verificado": false
+}

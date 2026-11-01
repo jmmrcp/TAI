@@ -1,0 +1,177 @@
+{
+  "id": "cuadro-directorios-linux",
+  "tema_id": "tema-13-sistemas-operativos-windows-unix-linux-moviles",
+  "tipo_dato": "directorios",
+  "titulo": "Directorios principales en Linux/Unix (FHS)",
+  "semilla": false,
+  "n_filas": 12,
+  "n_fuentes_distintas": 1,
+  "columnas": [
+    "directorio",
+    "contenido_principal",
+    "ejemplo"
+  ],
+  "columna_clave": "directorio",
+  "columna_respuesta": "contenido_principal",
+  "columna_contexto": "ejemplo",
+  "columna_fuente": "fuente",
+  "filas": [
+    {
+      "id": "c-directorios-linux-1",
+      "fuente": "examenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "directorio": "/bin",
+        "contenido_principal": "Binarios esenciales del sistema",
+        "ejemplo": "ls, cp, mv"
+      },
+      "pasaje_origen": "Preguntas oficiales TAI tema 13",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-directorios-linux-2",
+      "fuente": "examenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "directorio": "/etc",
+        "contenido_principal": "Ficheros de configuracion del sistema y aplicaciones",
+        "ejemplo": "/etc/passwd, /etc/fstab"
+      },
+      "pasaje_origen": "Preguntas oficiales TAI tema 13",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-directorios-linux-3",
+      "fuente": "examenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "directorio": "/home",
+        "contenido_principal": "Directorios personales de los usuarios",
+        "ejemplo": "/home/usuario"
+      },
+      "pasaje_origen": "Preguntas oficiales TAI tema 13",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-directorios-linux-4",
+      "fuente": "examenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "directorio": "/root",
+        "contenido_principal": "Directorio personal del superusuario (root)",
+        "ejemplo": "/root/.bashrc"
+      },
+      "pasaje_origen": "Preguntas oficiales TAI tema 13",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-directorios-linux-5",
+      "fuente": "examenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "directorio": "/usr",
+        "contenido_principal": "Programas y utilidades de usuario (no esenciales)",
+        "ejemplo": "/usr/bin, /usr/lib"
+      },
+      "pasaje_origen": "Preguntas oficiales TAI tema 13",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-directorios-linux-6",
+      "fuente": "examenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "directorio": "/var",
+        "contenido_principal": "Datos variables (logs, colas, caches)",
+        "ejemplo": "/var/log, /var/spool"
+      },
+      "pasaje_origen": "Preguntas oficiales TAI tema 13",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-directorios-linux-7",
+      "fuente": "examenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "directorio": "/tmp",
+        "contenido_principal": "Ficheros temporales",
+        "ejemplo": "/tmp/sesion123"
+      },
+      "pasaje_origen": "Preguntas oficiales TAI tema 13",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-directorios-linux-8",
+      "fuente": "examenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "directorio": "/dev",
+        "contenido_principal": "Ficheros de dispositivos (nodos de dispositivo)",
+        "ejemplo": "/dev/sda, /dev/null"
+      },
+      "pasaje_origen": "Preguntas oficiales TAI tema 13",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-directorios-linux-9",
+      "fuente": "examenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "directorio": "/proc",
+        "contenido_principal": "Sistema de ficheros virtual con info de procesos y kernel",
+        "ejemplo": "/proc/1234/status"
+      },
+      "pasaje_origen": "Preguntas oficiales TAI tema 13",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-directorios-linux-10",
+      "fuente": "examenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "directorio": "/lib",
+        "contenido_principal": "Bibliotecas compartidas esenciales",
+        "ejemplo": "/lib/libc.so"
+      },
+      "pasaje_origen": "Preguntas oficiales TAI tema 13",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-directorios-linux-11",
+      "fuente": "examenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "directorio": "/opt",
+        "contenido_principal": "Software adicional opcional instalado manualmente",
+        "ejemplo": "/opt/app"
+      },
+      "pasaje_origen": "Preguntas oficiales TAI tema 13",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-directorios-linux-12",
+      "fuente": "examenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "directorio": "/sbin",
+        "contenido_principal": "Binarios de administracion del sistema",
+        "ejemplo": "fdisk, iptables"
+      },
+      "pasaje_origen": "Preguntas oficiales TAI tema 13",
+      "ubicacion": {},
+      "verificado": false
+    }
+  ],
+  "verificado": false
+}

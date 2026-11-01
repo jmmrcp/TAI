@@ -1,0 +1,86 @@
+{
+  "id": "cuadro-dotnet-persistencia-datos",
+  "tema_id": "tema-19-arquitectura-java-ee-jakarta-ee-y-plataforma-net",
+  "tipo_dato": "persistencia",
+  "titulo": "Persistencia y acceso a datos en .NET (ADO.NET / EF Core / POCO)",
+  "semilla": false,
+  "n_filas": 5,
+  "n_fuentes_distintas": 1,
+  "columnas": [
+    "concepto",
+    "tipo",
+    "descripcion"
+  ],
+  "columna_clave": "concepto",
+  "columna_respuesta": "tipo",
+  "columna_contexto": "descripcion",
+  "columna_fuente": "fuente",
+  "filas": [
+    {
+      "id": "c-pers-1",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "ADO.NET",
+        "tipo": "API de acceso a datos",
+        "descripcion": "Conjunto de clases para acceso a datos (no es un proveedor)"
+      },
+      "pasaje_origen": "<origen>",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-pers-2",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "SqlClient / OleDb / Odbc",
+        "tipo": "Proveedores de datos",
+        "descripcion": "Proveedores de datos del framework .NET"
+      },
+      "pasaje_origen": "<origen>",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-pers-3",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "Entity Framework Core",
+        "tipo": "ORM",
+        "descripcion": "Mapeo objeto-relacional en .NET"
+      },
+      "pasaje_origen": "<origen>",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-pers-4",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "POCO",
+        "tipo": "Plain Old CLR Object",
+        "descripcion": "Objeto simple sin dependencias del framework"
+      },
+      "pasaje_origen": "<origen>",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-pers-5",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "Ensamblado (Assembly)",
+        "tipo": "Unidad de implementación",
+        "descripcion": "Contiene manifiesto, metadatos y CIL; versionado y seguridad"
+      },
+      "pasaje_origen": "<origen>",
+      "ubicacion": {},
+      "verificado": false
+    }
+  ],
+  "verificado": false
+}

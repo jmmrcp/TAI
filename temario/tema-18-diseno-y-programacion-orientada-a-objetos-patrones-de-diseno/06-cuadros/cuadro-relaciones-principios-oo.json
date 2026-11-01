@@ -1,0 +1,229 @@
+{
+  "id": "cuadro-relaciones-principios-oo",
+  "tema_id": "tema-18-diseno-y-programacion-orientada-a-objetos-patrones-de-diseno",
+  "tipo_dato": "conceptos",
+  "titulo": "Relaciones UML/Métrica v3, acoplamiento y principios de diseño OO",
+  "semilla": false,
+  "n_filas": 16,
+  "n_fuentes_distintas": 1,
+  "columnas": [
+    "concepto",
+    "tipo",
+    "descripcion"
+  ],
+  "columna_clave": "concepto",
+  "columna_respuesta": "tipo",
+  "columna_contexto": "descripcion",
+  "columna_fuente": "fuente",
+  "filas": [
+    {
+      "id": "c-rel-1",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "Generalización",
+        "tipo": "Relación",
+        "descripcion": "Relación jerárquica is-a entre superclase y subclase (herencia)"
+      },
+      "pasaje_origen": "UML / Métrica v3",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-rel-2",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "Realización",
+        "tipo": "Relación",
+        "descripcion": "Relación entre una clase y un interface que implementa (implements)"
+      },
+      "pasaje_origen": "UML / Métrica v3",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-rel-3",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "Asociación",
+        "tipo": "Relación",
+        "descripcion": "Relación estructural entre clases; puede tener multiplicidad y navegabilidad"
+      },
+      "pasaje_origen": "UML / Métrica v3",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-rel-4",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "Agregación",
+        "tipo": "Relación",
+        "descripcion": "Relación todo-parte débil: las partes pueden existir independientemente del todo (rombo hueco)"
+      },
+      "pasaje_origen": "UML / Métrica v3",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-rel-5",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "Composición",
+        "tipo": "Relación",
+        "descripcion": "Relación todo-parte fuerte: el todo posee las partes y estas no existen sin él (rombo relleno); relación jerárquica totalidad-partes"
+      },
+      "pasaje_origen": "UML / Métrica v3",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-rel-6",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "Dependencia",
+        "tipo": "Relación",
+        "descripcion": "Uso puntual de otra clase; cambio en la usada puede afectar a la que depende (flecha discontinua)"
+      },
+      "pasaje_origen": "UML / Métrica v3",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-rel-7",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "Acoplamiento común (common coupling)",
+        "tipo": "Acoplamiento",
+        "descripcion": "Varios módulos comparten una estructura global de datos"
+      },
+      "pasaje_origen": "Diseño modular",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-rel-8",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "Cohesión funcional",
+        "tipo": "Cohesión",
+        "descripcion": "Todos los elementos del módulo contribuyen a una única tarea bien definida (máxima cohesión)"
+      },
+      "pasaje_origen": "Diseño modular",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-rel-9",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "GRASP",
+        "tipo": "Patrones de responsabilidad",
+        "descripcion": "Patrones generales de software para asignación de responsabilidades: Information Expert, Creator, Controller, Low Coupling, High Cohesion, Polymorphism, Pure Fabrication, Indirection, Protected Variations"
+      },
+      "pasaje_origen": "Diseño OO",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-rel-10",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "Principio de inversión de dependencias (DIP)",
+        "tipo": "Principio SOLID",
+        "descripcion": "Las clases de alto nivel no deben depender de las de bajo nivel; ambas deben depender de abstracciones"
+      },
+      "pasaje_origen": "Diseño OO",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-rel-11",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "Observer",
+        "tipo": "Patrón de comportamiento",
+        "descripcion": "Notifica automáticamente a múltiples objetos sobre cambios de estado de un sujeto, manteniendo acoplamiento débil"
+      },
+      "pasaje_origen": "Patrones GoF",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-rel-12",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "Composite",
+        "tipo": "Patrón estructural",
+        "descripcion": "Compone objetos en estructuras de árbol para representar jerarquías parte-todo, tratando individual y compuesto uniformemente"
+      },
+      "pasaje_origen": "Patrones GoF",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-rel-13",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "Encapsulación",
+        "tipo": "Característica OO",
+        "descripcion": "Ocultación de la implementación interna; acceso mediante interfaz pública"
+      },
+      "pasaje_origen": "Modelo OO",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-rel-14",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "Herencia",
+        "tipo": "Característica OO",
+        "descripcion": "Mecanismo de reutilización y especialización mediante generalización"
+      },
+      "pasaje_origen": "Modelo OO",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-rel-15",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "Polimorfismo",
+        "tipo": "Característica OO",
+        "descripcion": "Capacidad de un objeto de responder de distintas formas a un mismo mensaje según su tipo real"
+      },
+      "pasaje_origen": "Modelo OO",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-rel-16",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "Abstracción",
+        "tipo": "Característica OO",
+        "descripcion": "Modelado de entidades del dominio destacando propiedades relevantes y ocultando detalles"
+      },
+      "pasaje_origen": "Modelo OO",
+      "ubicacion": {},
+      "verificado": false
+    }
+  ],
+  "verificado": false
+}

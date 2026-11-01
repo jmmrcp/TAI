@@ -1,0 +1,99 @@
+{
+  "id": "cuadro-transacciones-savepoint",
+  "tema_id": "tema-17-lenguajes-de-interrogacion-de-bd-ansi-sql-procedimientos-y-t",
+  "tipo_dato": "transacciones",
+  "titulo": "Transacciones, ROLLBACK y SAVEPOINT",
+  "semilla": false,
+  "n_filas": 6,
+  "n_fuentes_distintas": 1,
+  "columnas": [
+    "operacion",
+    "efecto",
+    "sentencia"
+  ],
+  "columna_clave": "operacion",
+  "columna_respuesta": "efecto",
+  "columna_contexto": "sentencia",
+  "columna_fuente": "fuente",
+  "filas": [
+    {
+      "id": "c-tx-1",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "operacion": "Iniciar transacción",
+        "efecto": "Comienzo del bloque transaccional",
+        "sentencia": "BEGIN TRANSACTION / START TRANSACTION"
+      },
+      "pasaje_origen": "Transacciones SQL",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-tx-2",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "operacion": "Confirmar",
+        "efecto": "Persistir todos los cambios",
+        "sentencia": "COMMIT"
+      },
+      "pasaje_origen": "Transacciones SQL",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-tx-3",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "operacion": "Revertir todo",
+        "efecto": "Deshacer cambios desde el inicio de la transacción o savepoint",
+        "sentencia": "ROLLBACK [TO SAVEPOINT nombre]"
+      },
+      "pasaje_origen": "ROLLBACK SQL",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-tx-4",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "operacion": "Punto de recuperación",
+        "efecto": "Marcar un punto intermedio (Oracle: SAVEPOINT)",
+        "sentencia": "SAVEPOINT nombre"
+      },
+      "pasaje_origen": "Savepoint Oracle",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-tx-5",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "operacion": "Revertir parcial",
+        "efecto": "Deshacer hasta el savepoint indicado",
+        "sentencia": "ROLLBACK TO SAVEPOINT nombre"
+      },
+      "pasaje_origen": "Savepoint Oracle",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-tx-6",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "operacion": "Eliminar datos sin borrar tabla",
+        "efecto": "Vaciar filas conservando definición",
+        "sentencia": "DELETE FROM tabla; (o) TRUNCATE TABLE tabla"
+      },
+      "pasaje_origen": "Eliminar datos SQL",
+      "ubicacion": {},
+      "verificado": false
+    }
+  ],
+  "verificado": false
+}

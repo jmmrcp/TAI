@@ -1,0 +1,73 @@
+{
+  "id": "cuadro-tipologia-sentencias-sql",
+  "tema_id": "tema-17-lenguajes-de-interrogacion-de-bd-ansi-sql-procedimientos-y-t",
+  "tipo_dato": "tipologia",
+  "titulo": "Tipología de sentencias SQL (DDL, DML, DCL, TCL)",
+  "semilla": false,
+  "n_filas": 4,
+  "n_fuentes_distintas": 1,
+  "columnas": [
+    "categoria",
+    "comandos_principales",
+    "funcion"
+  ],
+  "columna_clave": "categoria",
+  "columna_respuesta": "comandos_principales",
+  "columna_contexto": "funcion",
+  "columna_fuente": "fuente",
+  "filas": [
+    {
+      "id": "c-tipologia-1",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "categoria": "DDL (Data Definition Language)",
+        "comandos_principales": "CREATE, ALTER, DROP, TRUNCATE",
+        "funcion": "Definir y modificar la estructura de objetos (tablas, vistas, índices)"
+      },
+      "pasaje_origen": "Tipología de sentencias SQL",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-tipologia-2",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "categoria": "DML (Data Manipulation Language)",
+        "comandos_principales": "SELECT, INSERT, UPDATE, DELETE, MERGE",
+        "funcion": "Consultar y manipular los datos almacenados"
+      },
+      "pasaje_origen": "Comandos DML SQL",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-tipologia-3",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "categoria": "DCL (Data Control Language)",
+        "comandos_principales": "GRANT, REVOKE, DENY (Transact-SQL)",
+        "funcion": "Controlar permisos y acceso a los objetos"
+      },
+      "pasaje_origen": "DENY en Transact-SQL",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-tipologia-4",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "categoria": "TCL (Transaction Control Language)",
+        "comandos_principales": "COMMIT, ROLLBACK, SAVEPOINT, SET TRANSACTION",
+        "funcion": "Gestionar transacciones y puntos de recuperación"
+      },
+      "pasaje_origen": "Transacciones SQL",
+      "ubicacion": {},
+      "verificado": false
+    }
+  ],
+  "verificado": false
+}

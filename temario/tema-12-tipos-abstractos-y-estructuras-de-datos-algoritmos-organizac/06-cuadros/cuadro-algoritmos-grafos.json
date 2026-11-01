@@ -1,0 +1,134 @@
+{
+  "id": "cuadro-algoritmos-grafos",
+  "tema_id": "tema-12-tipos-abstractos-y-estructuras-de-datos-algoritmos-organizac",
+  "tipo_dato": "algoritmos_grafos",
+  "titulo": "Algoritmos sobre grafos",
+  "semilla": false,
+  "n_filas": 8,
+  "n_fuentes_distintas": 1,
+  "columnas": [
+    "algoritmo",
+    "problema",
+    "complejidad",
+    "requisito"
+  ],
+  "columna_clave": "algoritmo",
+  "columna_respuesta": "problema",
+  "columna_contexto": "complejidad",
+  "columna_fuente": "fuente",
+  "filas": [
+    {
+      "id": "c-gra-1",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "algoritmo": "BFS (búsqueda en anchura)",
+        "problema": "Recorrido / alcance en grafo no ponderado",
+        "complejidad": "O(V + E)",
+        "requisito": "Cola"
+      },
+      "pasaje_origen": "Algoritmos de grafos",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-gra-2",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "algoritmo": "DFS (búsqueda en profundidad)",
+        "problema": "Recorrido / detección de ciclos",
+        "complejidad": "O(V + E)",
+        "requisito": "Pila / recursión"
+      },
+      "pasaje_origen": "Algoritmos de grafos",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-gra-3",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "algoritmo": "Dijkstra",
+        "problema": "Camino mínimo desde un origen",
+        "complejidad": "O((V + E) log V)",
+        "requisito": "Pesos no negativos, cola de prioridad"
+      },
+      "pasaje_origen": "Algoritmos de grafos",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-gra-4",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "algoritmo": "Bellman-Ford",
+        "problema": "Camino mínimo con pesos negativos",
+        "complejidad": "O(V · E)",
+        "requisito": "Detección de ciclos negativos"
+      },
+      "pasaje_origen": "Algoritmos de grafos",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-gra-5",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "algoritmo": "Floyd-Warshall",
+        "problema": "Caminos mínimos entre todos los pares",
+        "complejidad": "O(V^3)",
+        "requisito": "Matriz de adyacencia"
+      },
+      "pasaje_origen": "Algoritmos de grafos",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-gra-6",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "algoritmo": "Kruskal",
+        "problema": "Árbol de expansión mínima (MST)",
+        "complejidad": "O(E log E)",
+        "requisito": "Unión-búsqueda (DSU)"
+      },
+      "pasaje_origen": "Algoritmos de grafos",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-gra-7",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "algoritmo": "Prim",
+        "problema": "Árbol de expansión mínima (MST)",
+        "complejidad": "O((V + E) log V)",
+        "requisito": "Cola de prioridad"
+      },
+      "pasaje_origen": "Algoritmos de grafos",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-gra-8",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "algoritmo": "Ordenación topológica",
+        "problema": "Orden lineal de un DAG",
+        "complejidad": "O(V + E)",
+        "requisito": "Grafo acíclico dirigido"
+      },
+      "pasaje_origen": "Algoritmos de grafos",
+      "ubicacion": {},
+      "verificado": false
+    }
+  ],
+  "verificado": false
+}

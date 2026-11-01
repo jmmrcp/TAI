@@ -1,0 +1,112 @@
+{
+  "id": "cuadro-patrones-gof-estructurales",
+  "tema_id": "tema-18-diseno-y-programacion-orientada-a-objetos-patrones-de-diseno",
+  "tipo_dato": "patrones",
+  "titulo": "Patrones de diseño GoF estructurales",
+  "semilla": false,
+  "n_filas": 7,
+  "n_fuentes_distintas": 1,
+  "columnas": [
+    "patron",
+    "proposito",
+    "caracteristica_clave"
+  ],
+  "columna_clave": "patron",
+  "columna_respuesta": "proposito",
+  "columna_contexto": "caracteristica_clave",
+  "columna_fuente": "fuente",
+  "filas": [
+    {
+      "id": "c-patrones-estructurales-1",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "patron": "Adapter",
+        "proposito": "Convertir la interfaz de una clase en otra interfaz que el cliente espera, permitiendo colaborar a clases incompatibles",
+        "caracteristica_clave": "Wrapper de interfaz"
+      },
+      "pasaje_origen": "Patrones de diseño GoF",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-patrones-estructurales-2",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "patron": "Bridge",
+        "proposito": "Desacoplar una abstracción de su implementación para que ambas puedan variar independientemente",
+        "caracteristica_clave": "Dos jerarquías paralelas"
+      },
+      "pasaje_origen": "Patrones de diseño GoF",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-patrones-estructurales-3",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "patron": "Composite",
+        "proposito": "Componer objetos en estructuras de árbol para representar jerarquías parte-todo, tratando individual y compuesto uniformemente",
+        "caracteristica_clave": "Tratamiento uniforme hoja/composite; estructura recursiva"
+      },
+      "pasaje_origen": "Patrones de diseño GoF",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-patrones-estructurales-4",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "patron": "Decorator",
+        "proposito": "Añadir responsabilidades a un objeto dinámicamente, alternativa flexible a la herencia para extender funcionalidad",
+        "caracteristica_clave": "Envoltorio (wrapper) que delega y añade comportamiento"
+      },
+      "pasaje_origen": "Patrones de diseño GoF",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-patrones-estructurales-5",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "patron": "Facade",
+        "proposito": "Proporcionar una interfaz unificada y simplificada a un conjunto de interfaces de un subsistema",
+        "caracteristica_clave": "Punto de entrada único al subsistema"
+      },
+      "pasaje_origen": "Patrones de diseño GoF",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-patrones-estructurales-6",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "patron": "Flyweight",
+        "proposito": "Usar compartición para soportar eficientemente grandes cantidades de objetos de granularidad fina",
+        "caracteristica_clave": "Estado intrínseco compartido"
+      },
+      "pasaje_origen": "Patrones de diseño GoF",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-patrones-estructurales-7",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "patron": "Proxy",
+        "proposito": "Proporcionar un sustituto o intermediario que controle el acceso a un objeto",
+        "caracteristica_clave": "Control de acceso, lazy loading, logging"
+      },
+      "pasaje_origen": "Patrones de diseño GoF",
+      "ubicacion": {},
+      "verificado": false
+    }
+  ],
+  "verificado": false
+}

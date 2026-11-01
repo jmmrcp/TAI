@@ -1,0 +1,112 @@
+{
+  "id": "cuadro-json-rfc8259",
+  "tema_id": "tema-12-tipos-abstractos-y-estructuras-de-datos-algoritmos-organizac",
+  "tipo_dato": "json",
+  "titulo": "Tipos de valor JSON (RFC 8259)",
+  "semilla": false,
+  "n_filas": 7,
+  "n_fuentes_distintas": 1,
+  "columnas": [
+    "tipo_json",
+    "descripcion",
+    "ejemplo"
+  ],
+  "columna_clave": "tipo_json",
+  "columna_respuesta": "descripcion",
+  "columna_contexto": "ejemplo",
+  "columna_fuente": "fuente",
+  "filas": [
+    {
+      "id": "c-json-1",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "tipo_json": "object",
+        "descripcion": "Colección de pares nombre:valor entre llaves",
+        "ejemplo": "{\"clave\":\"valor\"}"
+      },
+      "pasaje_origen": "RFC 8259",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-json-2",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "tipo_json": "array",
+        "descripcion": "Lista ordenada de valores entre corchetes",
+        "ejemplo": "[1,2,3]"
+      },
+      "pasaje_origen": "RFC 8259",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-json-3",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "tipo_json": "string",
+        "descripcion": "Cadena Unicode entre comillas dobles",
+        "ejemplo": "\"texto\""
+      },
+      "pasaje_origen": "RFC 8259",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-json-4",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "tipo_json": "number",
+        "descripcion": "Entero o decimal (sin NaN ni Infinity)",
+        "ejemplo": "42 / 3.14"
+      },
+      "pasaje_origen": "RFC 8259",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-json-5",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "tipo_json": "true",
+        "descripcion": "Literal booleano verdadero",
+        "ejemplo": "true"
+      },
+      "pasaje_origen": "RFC 8259",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-json-6",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "tipo_json": "false",
+        "descripcion": "Literal booleano falso",
+        "ejemplo": "false"
+      },
+      "pasaje_origen": "RFC 8259",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-json-7",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "tipo_json": "null",
+        "descripcion": "Literal nulo",
+        "ejemplo": "null"
+      },
+      "pasaje_origen": "RFC 8259",
+      "ubicacion": {},
+      "verificado": false
+    }
+  ],
+  "verificado": false
+}

@@ -1,0 +1,86 @@
+{
+  "id": "cuadro-jakarta-ee-especificaciones",
+  "tema_id": "tema-19-arquitectura-java-ee-jakarta-ee-y-plataforma-net",
+  "tipo_dato": "especificaciones",
+  "titulo": "Especificaciones clave de Jakarta EE",
+  "semilla": false,
+  "n_filas": 5,
+  "n_fuentes_distintas": 1,
+  "columnas": [
+    "especificacion",
+    "paquete_o_api",
+    "funcion"
+  ],
+  "columna_clave": "especificacion",
+  "columna_respuesta": "paquete_o_api",
+  "columna_contexto": "funcion",
+  "columna_fuente": "fuente",
+  "filas": [
+    {
+      "id": "c-jakarta-1",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "especificacion": "Enterprise JavaBeans (EJB)",
+        "paquete_o_api": "javax.ejb / jakarta.ejb",
+        "funcion": "Componentes de negocio del lado servidor"
+      },
+      "pasaje_origen": "<origen>",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-jakarta-2",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "especificacion": "Jakarta Persistence (JPA)",
+        "paquete_o_api": "jakarta.persistence",
+        "funcion": "Gestión de persistencia / ORM"
+      },
+      "pasaje_origen": "<origen>",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-jakarta-3",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "especificacion": "Jakarta Servlet",
+        "paquete_o_api": "jakarta.servlet",
+        "funcion": "Componentes web (servlets)"
+      },
+      "pasaje_origen": "<origen>",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-jakarta-4",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "especificacion": "JVM (Java Virtual Machine)",
+        "paquete_o_api": "JIT / HotSpot",
+        "funcion": "Compila código intermedio (bytecode) a código máquina en tiempo de ejecución"
+      },
+      "pasaje_origen": "<origen>",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-jakarta-5",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "especificacion": "Spring Boot",
+        "paquete_o_api": "Framework Java",
+        "funcion": "Creación de aplicaciones Spring standalone con auto-configuración"
+      },
+      "pasaje_origen": "<origen>",
+      "ubicacion": {},
+      "verificado": false
+    }
+  ],
+  "verificado": false
+}

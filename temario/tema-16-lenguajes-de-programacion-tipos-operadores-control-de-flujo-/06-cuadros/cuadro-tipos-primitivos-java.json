@@ -1,0 +1,134 @@
+{
+  "id": "cuadro-tipos-primitivos-java",
+  "tema_id": "tema-16-lenguajes-de-programacion-tipos-operadores-control-de-flujo-",
+  "tipo_dato": "tipos",
+  "titulo": "Tipos de datos primitivos de Java",
+  "semilla": false,
+  "n_filas": 8,
+  "n_fuentes_distintas": 1,
+  "columnas": [
+    "tipo",
+    "tamaño_bits",
+    "rango_o_valores",
+    "valor_por_defecto"
+  ],
+  "columna_clave": "tipo",
+  "columna_respuesta": "rango_o_valores",
+  "columna_contexto": "tamaño_bits",
+  "columna_fuente": "fuente",
+  "filas": [
+    {
+      "id": "c-tpj-1",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "tipo": "byte",
+        "tamaño_bits": "8",
+        "rango_o_valores": "-128 a 127",
+        "valor_por_defecto": "0"
+      },
+      "pasaje_origen": "Tipos primitivos Java",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-tpj-2",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "tipo": "short",
+        "tamaño_bits": "16",
+        "rango_o_valores": "-32768 a 32767",
+        "valor_por_defecto": "0"
+      },
+      "pasaje_origen": "Tipos primitivos Java",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-tpj-3",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "tipo": "int",
+        "tamaño_bits": "32",
+        "rango_o_valores": "-2^31 a 2^31-1",
+        "valor_por_defecto": "0"
+      },
+      "pasaje_origen": "Tipos primitivos Java",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-tpj-4",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "tipo": "long",
+        "tamaño_bits": "64",
+        "rango_o_valores": "-2^63 a 2^63-1",
+        "valor_por_defecto": "0L"
+      },
+      "pasaje_origen": "Tipos primitivos Java",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-tpj-5",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "tipo": "float",
+        "tamaño_bits": "32",
+        "rango_o_valores": "IEEE 754 simple precisión",
+        "valor_por_defecto": "0.0f"
+      },
+      "pasaje_origen": "Tipos primitivos Java",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-tpj-6",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "tipo": "double",
+        "tamaño_bits": "64",
+        "rango_o_valores": "IEEE 754 doble precisión",
+        "valor_por_defecto": "0.0d"
+      },
+      "pasaje_origen": "Tipos primitivos Java",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-tpj-7",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "tipo": "char",
+        "tamaño_bits": "16",
+        "rango_o_valores": "Carácter Unicode '\\u0000' a '\\uffff'",
+        "valor_por_defecto": "'\\u0000'"
+      },
+      "pasaje_origen": "Tipos primitivos Java",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-tpj-8",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "tipo": "boolean",
+        "tamaño_bits": "1 (JVM dependiente)",
+        "rango_o_valores": "true / false",
+        "valor_por_defecto": "false"
+      },
+      "pasaje_origen": "Tipos primitivos Java",
+      "ubicacion": {},
+      "verificado": false
+    }
+  ],
+  "verificado": false
+}

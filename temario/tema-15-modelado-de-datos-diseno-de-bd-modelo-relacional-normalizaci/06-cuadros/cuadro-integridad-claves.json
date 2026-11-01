@@ -1,0 +1,151 @@
+{
+  "id": "cuadro-integridad-claves",
+  "tema_id": "tema-15-modelado-de-datos-diseno-de-bd-modelo-relacional-normalizaci",
+  "tipo_dato": "integridad_claves",
+  "titulo": "Integridad y claves en el modelo relacional",
+  "semilla": false,
+  "n_filas": 10,
+  "n_fuentes_distintas": 1,
+  "columnas": [
+    "elemento",
+    "definicion",
+    "regla_asociada"
+  ],
+  "columna_clave": "elemento",
+  "columna_respuesta": "definicion",
+  "columna_contexto": "regla_asociada",
+  "columna_fuente": "fuente",
+  "filas": [
+    {
+      "id": "c-integridad-claves-1",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "elemento": "Clave primaria (PK)",
+        "definicion": "Atributo(s) que identifican unívocamente cada fila de una tabla; no puede ser nula.",
+        "regla_asociada": "Integridad de entidad"
+      },
+      "pasaje_origen": "Clave primaria",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-integridad-claves-2",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "elemento": "Clave candidata",
+        "definicion": "Atributo(s) que podrían ser clave primaria por identificar unívocamente las filas.",
+        "regla_asociada": "Unicidad"
+      },
+      "pasaje_origen": "Clave candidata",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-integridad-claves-3",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "elemento": "Clave alternativa",
+        "definicion": "Clave candidata no elegida como clave primaria.",
+        "regla_asociada": "Unicidad"
+      },
+      "pasaje_origen": "Clave alternativa",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-integridad-claves-4",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "elemento": "Clave foránea (FK)",
+        "definicion": "Columna o grupo de columnas cuyos valores coinciden con la clave primaria de otra tabla (referencia).",
+        "regla_asociada": "Integridad referencial"
+      },
+      "pasaje_origen": "Clave foránea",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-integridad-claves-5",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "elemento": "Clave compuesta",
+        "definicion": "Clave formada por dos o más atributos.",
+        "regla_asociada": "Identificación combinada"
+      },
+      "pasaje_origen": "Clave compuesta",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-integridad-claves-6",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "elemento": "Superclave",
+        "definicion": "Conjunto de atributos que identifica unívocamente las filas (puede incluir atributos extra).",
+        "regla_asociada": "Unicidad"
+      },
+      "pasaje_origen": "Superclave",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-integridad-claves-7",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "elemento": "Regla de integridad de entidad",
+        "definicion": "Los atributos de la clave primaria de una relación no pueden tomar valores nulos.",
+        "regla_asociada": "PK NOT NULL"
+      },
+      "pasaje_origen": "Integridad de entidad",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-integridad-claves-8",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "elemento": "Regla de integridad referencial",
+        "definicion": "Todo valor de FK debe ser nulo o existir como PK en la tabla referenciada.",
+        "regla_asociada": "FK válida o nula"
+      },
+      "pasaje_origen": "Integridad referencial",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-integridad-claves-9",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "elemento": "Dominio",
+        "definicion": "Conjunto de valores válidos que puede tomar un atributo.",
+        "regla_asociada": "Integridad de dominio"
+      },
+      "pasaje_origen": "Dominio",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-integridad-claves-10",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "elemento": "Restricción de usuario",
+        "definicion": "Regla de negocio adicional definida por el diseñador (CHECK, UNIQUE, etc.).",
+        "regla_asociada": "Integridad definida por usuario"
+      },
+      "pasaje_origen": "Restricciones de usuario",
+      "ubicacion": {},
+      "verificado": false
+    }
+  ],
+  "verificado": false
+}

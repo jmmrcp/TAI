@@ -1,0 +1,73 @@
+{
+  "id": "cuadro-equivalencias-java-dotnet",
+  "tema_id": "tema-19-arquitectura-java-ee-jakarta-ee-y-plataforma-net",
+  "tipo_dato": "equivalencias",
+  "titulo": "Equivalencias entre Jakarta EE y plataforma .NET",
+  "semilla": false,
+  "n_filas": 4,
+  "n_fuentes_distintas": 1,
+  "columnas": [
+    "concepto_jakarta_ee",
+    "concepto_dotnet",
+    "descripcion"
+  ],
+  "columna_clave": "concepto_jakarta_ee",
+  "columna_respuesta": "concepto_dotnet",
+  "columna_contexto": "descripcion",
+  "columna_fuente": "fuente",
+  "filas": [
+    {
+      "id": "c-eq-1",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto_jakarta_ee": "JPA (Jakarta Persistence)",
+        "concepto_dotnet": "Entity Framework Core",
+        "descripcion": "Gestión de persistencia / ORM"
+      },
+      "pasaje_origen": "<origen>",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-eq-2",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto_jakarta_ee": "EJB (Enterprise JavaBeans)",
+        "concepto_dotnet": "Servicios / componentes de negocio",
+        "descripcion": "Componentes de negocio del lado servidor"
+      },
+      "pasaje_origen": "<origen>",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-eq-3",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto_jakarta_ee": "Servlets / JSP",
+        "concepto_dotnet": "ASP.NET Core (Razor)",
+        "descripcion": "Componentes web y vistas"
+      },
+      "pasaje_origen": "<origen>",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-eq-4",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto_jakarta_ee": "JVM (JIT)",
+        "concepto_dotnet": "CLR (JIT)",
+        "descripcion": "Compilación JIT de código intermedio a código máquina"
+      },
+      "pasaje_origen": "<origen>",
+      "ubicacion": {},
+      "verificado": false
+    }
+  ],
+  "verificado": false
+}

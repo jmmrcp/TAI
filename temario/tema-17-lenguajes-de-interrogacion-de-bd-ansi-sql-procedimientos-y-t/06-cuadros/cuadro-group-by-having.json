@@ -1,0 +1,73 @@
+{
+  "id": "cuadro-group-by-having",
+  "tema_id": "tema-17-lenguajes-de-interrogacion-de-bd-ansi-sql-procedimientos-y-t",
+  "tipo_dato": "consulta",
+  "titulo": "Agregación SQL: GROUP BY, HAVING y WHERE",
+  "semilla": false,
+  "n_filas": 4,
+  "n_fuentes_distintas": 1,
+  "columnas": [
+    "clausula",
+    "momento",
+    "uso"
+  ],
+  "columna_clave": "clausula",
+  "columna_respuesta": "momento",
+  "columna_contexto": "uso",
+  "columna_fuente": "fuente",
+  "filas": [
+    {
+      "id": "c-gbh-1",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "clausula": "WHERE",
+        "momento": "Antes de agrupar",
+        "uso": "Filtra filas individuales (no permite funciones agregadas)"
+      },
+      "pasaje_origen": "Filtrado de filas",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-gbh-2",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "clausula": "GROUP BY",
+        "momento": "Agrupación",
+        "uso": "Agrupa filas por columnas para aplicar funciones agregadas (COUNT, SUM, AVG, MIN, MAX)"
+      },
+      "pasaje_origen": "GROUP BY SQL",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-gbh-3",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "clausula": "HAVING",
+        "momento": "Después de GROUP BY",
+        "uso": "Filtra grupos; permite condiciones sobre agregados (ej. COUNT(*) > 10)"
+      },
+      "pasaje_origen": "GROUP BY HAVING SQL",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-gbh-4",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "clausula": "Ejemplo",
+        "momento": "Personal(lugar)",
+        "uso": "SELECT lugar, COUNT(*) FROM Personal GROUP BY lugar HAVING COUNT(*) > 10"
+      },
+      "pasaje_origen": "GROUP BY SQL",
+      "ubicacion": {},
+      "verificado": false
+    }
+  ],
+  "verificado": false
+}

@@ -1,0 +1,69 @@
+{
+  "id": "cuadro-mensaje-soap",
+  "tema_id": "tema-20-arquitectura-cliente-servidor-y-multicapas-servicios-web-y-p",
+  "tipo_dato": "composicion",
+  "titulo": "Estructura de un mensaje SOAP 1.2",
+  "semilla": false,
+  "n_filas": 4,
+  "n_fuentes_distintas": 1,
+  "columnas": ["elemento", "obligatorio", "descripcion"],
+  "columna_clave": "elemento",
+  "columna_respuesta": "obligatorio",
+  "columna_contexto": "descripcion",
+  "columna_fuente": "fuente",
+  "filas": [
+    {
+      "id": "c-soap-1",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "elemento": "Envelope",
+        "obligatorio": "Sí",
+        "descripcion": "Elemento raíz del mensaje SOAP; define el espacio de nombres SOAP."
+      },
+      "pasaje_origen": "Mensaje SOAP 1.2",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-soap-2",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "elemento": "Header",
+        "obligatorio": "No",
+        "descripcion": "Metadatos opcionales (seguridad, transacciones, enrutamiento)."
+      },
+      "pasaje_origen": "Mensaje SOAP 1.2",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-soap-3",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "elemento": "Body",
+        "obligatorio": "Sí",
+        "descripcion": "Carga útil del mensaje: petición/respuesta o Fault."
+      },
+      "pasaje_origen": "Mensaje SOAP 1.2",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-soap-4",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "elemento": "Fault",
+        "obligatorio": "No",
+        "descripcion": "Elemento de error dentro de Body (código, motivo, detalle)."
+      },
+      "pasaje_origen": "Mensaje SOAP 1.2",
+      "ubicacion": {},
+      "verificado": false
+    }
+  ],
+  "verificado": false
+}

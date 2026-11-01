@@ -1,0 +1,69 @@
+{
+  "id": "cuadro-sistemas-distribuidos",
+  "tema_id": "tema-20-arquitectura-cliente-servidor-y-multicapas-servicios-web-y-p",
+  "tipo_dato": "conceptos",
+  "titulo": "Características de los sistemas distribuidos",
+  "semilla": false,
+  "n_filas": 4,
+  "n_fuentes_distintas": 1,
+  "columnas": ["caracteristica", "descripcion", "impacto"],
+  "columna_clave": "caracteristica",
+  "columna_respuesta": "descripcion",
+  "columna_contexto": "impacto",
+  "columna_fuente": "fuente",
+  "filas": [
+    {
+      "id": "c-dist-1",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "caracteristica": "Escalabilidad",
+        "descripcion": "La capacidad computacional puede escalarse añadiendo máquinas adicionales.",
+        "impacto": "Crecimiento horizontal"
+      },
+      "pasaje_origen": "Sistemas distribuidos",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-dist-2",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "caracteristica": "Transparencia",
+        "descripcion": "Oculta al usuario la distribución de los recursos y la localización.",
+        "impacto": "Simplicidad de uso"
+      },
+      "pasaje_origen": "Sistemas distribuidos",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-dist-3",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "caracteristica": "Heterogeneidad",
+        "descripcion": "Integración de hardware, SO y lenguajes distintos.",
+        "impacto": "Interoperabilidad"
+      },
+      "pasaje_origen": "Sistemas distribuidos",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-dist-4",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "caracteristica": "Tolerancia a fallos",
+        "descripcion": "El sistema sigue operando ante fallos parciales de nodos.",
+        "impacto": "Alta disponibilidad"
+      },
+      "pasaje_origen": "Sistemas distribuidos",
+      "ubicacion": {},
+      "verificado": false
+    }
+  ],
+  "verificado": false
+}

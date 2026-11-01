@@ -1,0 +1,112 @@
+{
+  "id": "cuadro-visibilidad-java-uml",
+  "tema_id": "tema-18-diseno-y-programacion-orientada-a-objetos-patrones-de-diseno",
+  "tipo_dato": "uml",
+  "titulo": "Modificadores de visibilidad en Java y UML",
+  "semilla": false,
+  "n_filas": 7,
+  "n_fuentes_distintas": 1,
+  "columnas": [
+    "elemento",
+    "simbodo_uml",
+    "significado"
+  ],
+  "columna_clave": "elemento",
+  "columna_respuesta": "simbodo_uml",
+  "columna_contexto": "significado",
+  "columna_fuente": "fuente",
+  "filas": [
+    {
+      "id": "c-visibilidad-1",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "elemento": "public",
+        "simbodo_uml": "+",
+        "significado": "Accesible desde cualquier clase"
+      },
+      "pasaje_origen": "Java / UML",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-visibilidad-2",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "elemento": "protected",
+        "simbodo_uml": "#",
+        "significado": "Accesible en el mismo paquete y por subclases (incluso en otros paquetes)"
+      },
+      "pasaje_origen": "Java / UML",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-visibilidad-3",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "elemento": "package-private (default)",
+        "simbodo_uml": "~",
+        "significado": "Accesible solo dentro del mismo paquete"
+      },
+      "pasaje_origen": "Java / UML",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-visibilidad-4",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "elemento": "private",
+        "simbodo_uml": "-",
+        "significado": "Accesible solo dentro de la propia clase"
+      },
+      "pasaje_origen": "UML (símbodo de resta)",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-visibilidad-5",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "elemento": "Clase abstracta (abstract)",
+        "simbodo_uml": "nombre en cursiva",
+        "significado": "No puede instanciarse; puede declarar métodos abstractos y concretos, campos y constructores"
+      },
+      "pasaje_origen": "Java",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-visibilidad-6",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "elemento": "implements",
+        "simbodo_uml": "realización (línea discontinua con triángulo hueco)",
+        "significado": "Cláusula para declarar que una clase implementa uno o varios interfaces"
+      },
+      "pasaje_origen": "Java / UML",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-visibilidad-7",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "elemento": "Overriding (sobrescritura)",
+        "simbodo_uml": "mismo nombre y parámetros en subclase",
+        "significado": "Redefinición de un método heredado para especializar el comportamiento"
+      },
+      "pasaje_origen": "Java",
+      "ubicacion": {},
+      "verificado": false
+    }
+  ],
+  "verificado": false
+}

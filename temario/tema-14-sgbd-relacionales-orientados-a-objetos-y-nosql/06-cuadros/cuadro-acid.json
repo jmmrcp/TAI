@@ -1,0 +1,73 @@
+{
+  "id": "cuadro-acid",
+  "tema_id": "tema-14-sgbd-relacionales-orientados-a-objetos-y-nosql",
+  "tipo_dato": "propiedades",
+  "titulo": "Propiedades ACID de las bases de datos relacionales",
+  "semilla": false,
+  "n_filas": 4,
+  "n_fuentes_distintas": 1,
+  "columnas": [
+    "propiedad",
+    "sigla",
+    "garantia"
+  ],
+  "columna_clave": "propiedad",
+  "columna_respuesta": "sigla",
+  "columna_contexto": "garantia",
+  "columna_fuente": "fuente",
+  "filas": [
+    {
+      "id": "c-acid-1",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "propiedad": "Atomicidad",
+        "sigla": "A",
+        "garantia": "Todas las operaciones de la transacción se ejecutan por completo o ninguna (todo o nada)."
+      },
+      "pasaje_origen": "Examen TAI 2023, teórica 33",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-acid-2",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "propiedad": "Consistencia",
+        "sigla": "C",
+        "garantia": "La transacción lleva la base de datos de un estado válido a otro, respetando restricciones e integridad."
+      },
+      "pasaje_origen": "Examen TAI 2023, teórica 33",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-acid-3",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "propiedad": "Aislamiento",
+        "sigla": "I",
+        "garantia": "Las transacciones concurrentes no interfieren entre sí; resultado equivalente a ejecución serial."
+      },
+      "pasaje_origen": "Examen TAI 2023, teórica 33",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-acid-4",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "propiedad": "Durabilidad",
+        "sigla": "D",
+        "garantia": "Una vez confirmada (commit), los cambios persisten ante fallos del sistema."
+      },
+      "pasaje_origen": "Examen TAI 2023, teórica 33",
+      "ubicacion": {},
+      "verificado": false
+    }
+  ],
+  "verificado": false
+}

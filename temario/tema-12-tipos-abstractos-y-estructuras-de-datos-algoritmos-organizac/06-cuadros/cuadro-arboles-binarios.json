@@ -1,0 +1,164 @@
+{
+  "id": "cuadro-arboles-binarios",
+  "tema_id": "tema-12-tipos-abstractos-y-estructuras-de-datos-algoritmos-organizac",
+  "tipo_dato": "arboles",
+  "titulo": "Árboles binarios: propiedades y recorridos",
+  "semilla": false,
+  "n_filas": 11,
+  "n_fuentes_distintas": 1,
+  "columnas": [
+    "concepto",
+    "definicion",
+    "formula_o_ejemplo"
+  ],
+  "columna_clave": "concepto",
+  "columna_respuesta": "formula_o_ejemplo",
+  "columna_contexto": "definicion",
+  "columna_fuente": "fuente",
+  "filas": [
+    {
+      "id": "c-arb-1",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "Árbol binario",
+        "definicion": "Cada nodo tiene como máximo 2 hijos: izquierdo y derecho",
+        "formula_o_ejemplo": "Grado máximo de nodo = 2"
+      },
+      "pasaje_origen": "Árboles binarios",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-arb-2",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "Árbol binario lleno (full)",
+        "definicion": "Cada nodo tiene 0 o 2 hijos",
+        "formula_o_ejemplo": "15 nodos → grado 2"
+      },
+      "pasaje_origen": "Árbol binario lleno",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-arb-3",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "Árbol binario completo (complete)",
+        "definicion": "Todos los niveles llenos salvo el último, que se llena de izquierda a derecha",
+        "formula_o_ejemplo": "Heap binario"
+      },
+      "pasaje_origen": "Árbol binario completo",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-arb-4",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "Árbol binario perfecto",
+        "definicion": "Todos los niveles completamente llenos",
+        "formula_o_ejemplo": "Nodos = 2^h - 1 (h niveles)"
+      },
+      "pasaje_origen": "Árbol binario perfecto",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-arb-5",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "Nodos máximos con h niveles (raíz nivel 1)",
+        "definicion": "Árbol perfecto de altura h",
+        "formula_o_ejemplo": "2^h - 1; h=4 → 15"
+      },
+      "pasaje_origen": "Propiedad de árboles binarios",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-arb-6",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "Árbol 2-3-4",
+        "definicion": "Árbol B de orden 4: cada nodo tiene entre 2 y 4 hijos y entre 1 y 3 claves",
+        "formula_o_ejemplo": "B-tree (m=4)"
+      },
+      "pasaje_origen": "Árboles 2-3-4",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-arb-7",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "Árbol rojo-negro",
+        "definicion": "BST balanceado: nodos rojos/negros; raíz negra; rojos no adyacentes; caminos negros iguales",
+        "formula_o_ejemplo": "Altura ≤ 2 log2(n+1)"
+      },
+      "pasaje_origen": "Árboles rojo-negro",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-arb-8",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "Recorrido preorden",
+        "definicion": "Raíz, subárbol izquierdo, subárbol derecho",
+        "formula_o_ejemplo": "raíz → izq → der"
+      },
+      "pasaje_origen": "Recorridos de árboles",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-arb-9",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "Recorrido inorden",
+        "definicion": "Subárbol izquierdo, raíz, subárbol derecho",
+        "formula_o_ejemplo": "izq → raíz → der"
+      },
+      "pasaje_origen": "Recorridos de árboles",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-arb-10",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "Recorrido postorden",
+        "definicion": "Subárbol izquierdo, subárbol derecho, raíz",
+        "formula_o_ejemplo": "izq → der → raíz"
+      },
+      "pasaje_origen": "Recorridos de árboles",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-arb-11",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "Recorrido por niveles (BFS)",
+        "definicion": "Por anchura, usando cola",
+        "formula_o_ejemplo": "nivel a nivel"
+      },
+      "pasaje_origen": "Recorridos de árboles",
+      "ubicacion": {},
+      "verificado": false
+    }
+  ],
+  "verificado": false
+}

@@ -1,0 +1,73 @@
+{
+  "id": "cuadro-aislamiento",
+  "tema_id": "tema-14-sgbd-relacionales-orientados-a-objetos-y-nosql",
+  "tipo_dato": "niveles_aislamiento",
+  "titulo": "Niveles de aislamiento de transacción (ANSI SQL)",
+  "semilla": false,
+  "n_filas": 4,
+  "n_fuentes_distintas": 1,
+  "columnas": [
+    "nivel",
+    "protege_contra",
+    "no_protege_contra"
+  ],
+  "columna_clave": "nivel",
+  "columna_respuesta": "protege_contra",
+  "columna_contexto": "no_protege_contra",
+  "columna_fuente": "fuente",
+  "filas": [
+    {
+      "id": "c-aisl-1",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "nivel": "READ UNCOMMITTED",
+        "protege_contra": "Ninguna anomalía",
+        "no_protege_contra": "Lectura sucia, lectura no repetible, lectura fantasma"
+      },
+      "pasaje_origen": "Examen TAI 2026 modelo C, teórica 39",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-aisl-2",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "nivel": "READ COMMITTED",
+        "protege_contra": "Lectura sucia",
+        "no_protege_contra": "Lectura no repetible, lectura fantasma"
+      },
+      "pasaje_origen": "Examen TAI 2026 modelo C, teórica 39",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-aisl-3",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "nivel": "REPEATABLE READ",
+        "protege_contra": "Lectura sucia, lectura no repetible",
+        "no_protege_contra": "Lectura fantasma"
+      },
+      "pasaje_origen": "Examen TAI 2026 modelo C, teórica 39",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-aisl-4",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "nivel": "SERIALIZABLE",
+        "protege_contra": "Lectura sucia, lectura no repetible, lectura fantasma",
+        "no_protege_contra": "Ninguna (máximo aislamiento)"
+      },
+      "pasaje_origen": "Examen TAI 2026 modelo C, teórica 39",
+      "ubicacion": {},
+      "verificado": false
+    }
+  ],
+  "verificado": false
+}

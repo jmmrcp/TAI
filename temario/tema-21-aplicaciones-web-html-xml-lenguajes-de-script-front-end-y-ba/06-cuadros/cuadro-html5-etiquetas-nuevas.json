@@ -1,0 +1,177 @@
+{
+  "id": "cuadro-html5-etiquetas-nuevas",
+  "tema_id": "tema-21-aplicaciones-web-html-xml-lenguajes-de-script-front-end-y-ba",
+  "tipo_dato": "etiquetas",
+  "titulo": "Nuevas etiquetas introducidas por HTML5",
+  "semilla": false,
+  "n_filas": 12,
+  "n_fuentes_distintas": 1,
+  "columnas": [
+    "categoria",
+    "etiqueta",
+    "descripcion"
+  ],
+  "columna_clave": "etiqueta",
+  "columna_respuesta": "descripcion",
+  "columna_contexto": "categoria",
+  "columna_fuente": "fuente",
+  "filas": [
+    {
+      "id": "c-html5-1",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "categoria": "Semántica estructural",
+        "etiqueta": "header",
+        "descripcion": "Cabecera de una sección o del documento"
+      },
+      "pasaje_origen": "HTML5 nuevas etiquetas",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-html5-2",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "categoria": "Semántica estructural",
+        "etiqueta": "nav",
+        "descripcion": "Bloque de navegación principal"
+      },
+      "pasaje_origen": "HTML5 nuevas etiquetas",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-html5-3",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "categoria": "Semántica estructural",
+        "etiqueta": "main",
+        "descripcion": "Contenido principal del documento"
+      },
+      "pasaje_origen": "HTML5 nuevas etiquetas",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-html5-4",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "categoria": "Semántica estructural",
+        "etiqueta": "article",
+        "descripcion": "Contenido independiente y reutilizable"
+      },
+      "pasaje_origen": "HTML5 nuevas etiquetas",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-html5-5",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "categoria": "Semántica estructural",
+        "etiqueta": "section",
+        "descripcion": "Sección temática del documento"
+      },
+      "pasaje_origen": "HTML5 nuevas etiquetas",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-html5-6",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "categoria": "Semántica estructural",
+        "etiqueta": "aside",
+        "descripcion": "Contenido tangencial o complementario"
+      },
+      "pasaje_origen": "HTML5 nuevas etiquetas",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-html5-7",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "categoria": "Semántica estructural",
+        "etiqueta": "footer",
+        "descripcion": "Pie de una sección o del documento"
+      },
+      "pasaje_origen": "HTML5 nuevas etiquetas",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-html5-8",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "categoria": "Semántica estructural",
+        "etiqueta": "figure / figcaption",
+        "descripcion": "Ilustración con pie de figura"
+      },
+      "pasaje_origen": "HTML5 nuevas etiquetas",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-html5-9",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "categoria": "Multimedia",
+        "etiqueta": "video / audio",
+        "descripcion": "Incrustación de vídeo y audio nativos"
+      },
+      "pasaje_origen": "HTML5 nuevas etiquetas",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-html5-10",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "categoria": "Gráficos",
+        "etiqueta": "canvas",
+        "descripcion": "Superficie de dibujo mediante JavaScript"
+      },
+      "pasaje_origen": "HTML5 nuevas etiquetas",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-html5-11",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "categoria": "Formularios",
+        "etiqueta": "datalist / output / progress / meter",
+        "descripcion": "Nuevos elementos para formularios y progreso"
+      },
+      "pasaje_origen": "HTML5 nuevas etiquetas",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-html5-12",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "categoria": "Declaración",
+        "etiqueta": "<!DOCTYPE html>",
+        "descripcion": "Debe aparecer en la primera línea del documento (HTML Living Standard WHATWG)"
+      },
+      "pasaje_origen": "HTML DOCTYPE",
+      "ubicacion": {},
+      "verificado": false
+    }
+  ],
+  "verificado": false
+}

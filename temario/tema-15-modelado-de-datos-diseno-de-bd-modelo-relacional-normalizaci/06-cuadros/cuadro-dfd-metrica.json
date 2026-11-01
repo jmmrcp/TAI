@@ -1,0 +1,112 @@
+{
+  "id": "cuadro-dfd-metrica",
+  "tema_id": "tema-15-modelado-de-datos-diseno-de-bd-modelo-relacional-normalizaci",
+  "tipo_dato": "dfd_metrica",
+  "titulo": "Diagrama de Flujo de Datos (DFD) según Métrica v3",
+  "semilla": false,
+  "n_filas": 7,
+  "n_fuentes_distintas": 1,
+  "columnas": [
+    "elemento",
+    "definicion",
+    "simbodo_dfd"
+  ],
+  "columna_clave": "elemento",
+  "columna_respuesta": "definicion",
+  "columna_contexto": "simbodo_dfd",
+  "columna_fuente": "fuente",
+  "filas": [
+    {
+      "id": "c-dfd-metrica-1",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "elemento": "Proceso",
+        "definicion": "Transformación de datos de entrada en salida; se representa con burbuja/círculo.",
+        "simbodo_dfd": "Burbuja"
+      },
+      "pasaje_origen": "Proceso DFD",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-dfd-metrica-2",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "elemento": "Almacén de datos",
+        "definicion": "Repositorio de datos en reposo (fichero, tabla).",
+        "simbodo_dfd": "Rectángulo abierto"
+      },
+      "pasaje_origen": "Almacén de datos",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-dfd-metrica-3",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "elemento": "Entidad externa",
+        "definicion": "Fuente o sumidero de datos fuera del sistema (usuario, otro sistema).",
+        "simbodo_dfd": "Rectángulo"
+      },
+      "pasaje_origen": "Entidad externa",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-dfd-metrica-4",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "elemento": "Flujo de datos",
+        "definicion": "Movimiento de datos entre procesos, almacenes y entidades externas.",
+        "simbodo_dfd": "Flecha etiquetada"
+      },
+      "pasaje_origen": "Flujo de datos",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-dfd-metrica-5",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "elemento": "Explosión (descomposición)",
+        "definicion": "Refinamiento de un proceso en un DFD de nivel inferior con mayor detalle.",
+        "simbodo_dfd": "DFD hijo"
+      },
+      "pasaje_origen": "Explosión de proceso",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-dfd-metrica-6",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "elemento": "Equilibrio (balance)",
+        "definicion": "Los flujos de entrada/salida de un proceso padre deben coincidir con los del DFD hijo.",
+        "simbodo_dfd": "Consistencia"
+      },
+      "pasaje_origen": "Equilibrio DFD",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-dfd-metrica-7",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "elemento": "Conservación de datos",
+        "definicion": "No se crean ni destruyen datos en la explosión; solo se transforman.",
+        "simbodo_dfd": "Consistencia"
+      },
+      "pasaje_origen": "Conservación",
+      "ubicacion": {},
+      "verificado": false
+    }
+  ],
+  "verificado": false
+}

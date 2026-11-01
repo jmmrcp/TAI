@@ -1,0 +1,99 @@
+{
+  "id": "cuadro-procedimientos-almacenados",
+  "tema_id": "tema-17-lenguajes-de-interrogacion-de-bd-ansi-sql-procedimientos-y-t",
+  "tipo_dato": "procedimientos",
+  "titulo": "Procedimientos almacenados en SQL Server",
+  "semilla": false,
+  "n_filas": 6,
+  "n_fuentes_distintas": 1,
+  "columnas": [
+    "tipo",
+    "descripcion",
+    "ejecucion"
+  ],
+  "columna_clave": "tipo",
+  "columna_respuesta": "descripcion",
+  "columna_contexto": "ejecucion",
+  "columna_fuente": "fuente",
+  "filas": [
+    {
+      "id": "c-proc-1",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "tipo": "Sistema",
+        "descripcion": "Procedimientos sp_* para administración y metadatos",
+        "ejecucion": "EXEC sp_help"
+      },
+      "pasaje_origen": "Procedimientos almacenados SQL Server",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-proc-2",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "tipo": "Usuario (T-SQL)",
+        "descripcion": "Creados con CREATE PROCEDURE",
+        "ejecucion": "EXEC/EXECUTE nombre @param=valor"
+      },
+      "pasaje_origen": "CREATE PROCEDURE",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-proc-3",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "tipo": "CLR",
+        "descripcion": "Código .NET integrado en el motor",
+        "ejecucion": "EXEC nombre"
+      },
+      "pasaje_origen": "Procedimientos CLR",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-proc-4",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "tipo": "Temporales",
+        "descripcion": "Locales (#) y globales (##)",
+        "ejecucion": "EXEC #nombre"
+      },
+      "pasaje_origen": "Procedimientos temporales",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-proc-5",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "tipo": "Ejecución válida",
+        "descripcion": "Parámetros posicionales o nombrados",
+        "ejecucion": "EXEC getEmployees @LastName='Smith', @FirstName='John'"
+      },
+      "pasaje_origen": "Ejecución de procedimientos",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-proc-6",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "tipo": "Ejecución no válida en T-SQL",
+        "descripcion": "CALL es estándar ANSI, no se usa en SQL Server",
+        "ejecucion": "Usar EXEC/EXECUTE en lugar de CALL"
+      },
+      "pasaje_origen": "ANSI SQL CALL",
+      "ubicacion": {},
+      "verificado": false
+    }
+  ],
+  "verificado": false
+}

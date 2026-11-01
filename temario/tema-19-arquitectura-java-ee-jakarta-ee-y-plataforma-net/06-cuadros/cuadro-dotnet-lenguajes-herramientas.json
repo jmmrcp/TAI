@@ -1,0 +1,99 @@
+{
+  "id": "cuadro-dotnet-lenguajes-herramientas",
+  "tema_id": "tema-19-arquitectura-java-ee-jakarta-ee-y-plataforma-net",
+  "tipo_dato": "lenguajes_herramientas",
+  "titulo": "Lenguajes y herramientas del ecosistema .NET",
+  "semilla": false,
+  "n_filas": 6,
+  "n_fuentes_distintas": 1,
+  "columnas": [
+    "elemento",
+    "tipo",
+    "descripcion"
+  ],
+  "columna_clave": "elemento",
+  "columna_respuesta": "tipo",
+  "columna_contexto": "descripcion",
+  "columna_fuente": "fuente",
+  "filas": [
+    {
+      "id": "c-dotnet-lh-1",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "elemento": "C#",
+        "tipo": "Lenguaje",
+        "descripcion": "Lenguaje principal de .NET"
+      },
+      "pasaje_origen": "<origen>",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-dotnet-lh-2",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "elemento": "F#",
+        "tipo": "Lenguaje",
+        "descripcion": "Lenguaje funcional de .NET"
+      },
+      "pasaje_origen": "<origen>",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-dotnet-lh-3",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "elemento": "VB.NET",
+        "tipo": "Lenguaje",
+        "descripcion": "Visual Basic para .NET"
+      },
+      "pasaje_origen": "<origen>",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-dotnet-lh-4",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "elemento": "NuGet",
+        "tipo": "Gestor de paquetes",
+        "descripcion": "Sistema de gestión de paquetes para .NET"
+      },
+      "pasaje_origen": "<origen>",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-dotnet-lh-5",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "elemento": "Razor",
+        "tipo": "Motor de vistas",
+        "descripcion": "Combina HTML con código C# en ASP.NET Core"
+      },
+      "pasaje_origen": "<origen>",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-dotnet-lh-6",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "elemento": ".NET MAUI",
+        "tipo": "Framework multiplataforma",
+        "descripcion": "Apps nativas para Android, iOS, macOS y Windows"
+      },
+      "pasaje_origen": "<origen>",
+      "ubicacion": {},
+      "verificado": false
+    }
+  ],
+  "verificado": false
+}

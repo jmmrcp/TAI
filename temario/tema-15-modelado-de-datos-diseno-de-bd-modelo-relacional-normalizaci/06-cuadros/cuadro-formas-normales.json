@@ -1,0 +1,99 @@
+{
+  "id": "cuadro-formas-normales",
+  "tema_id": "tema-15-modelado-de-datos-diseno-de-bd-modelo-relacional-normalizaci",
+  "tipo_dato": "formas_normales",
+  "titulo": "Formas normales del modelo relacional",
+  "semilla": false,
+  "n_filas": 6,
+  "n_fuentes_distintas": 1,
+  "columnas": [
+    "forma_normal",
+    "condicion",
+    "anomalia_evitada"
+  ],
+  "columna_clave": "forma_normal",
+  "columna_respuesta": "condicion",
+  "columna_contexto": "anomalia_evitada",
+  "columna_fuente": "fuente",
+  "filas": [
+    {
+      "id": "c-formas-normales-1",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "forma_normal": "1FN",
+        "condicion": "Todos los atributos son atómicos (indivisibles); no hay grupos repetitivos ni atributos multivaluados.",
+        "anomalia_evitada": "Redundancia por columnas repetidas"
+      },
+      "pasaje_origen": "Primera Forma Normal",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-formas-normales-2",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "forma_normal": "2FN",
+        "condicion": "Está en 1FN y todo atributo no clave depende funcionalmente de la totalidad de la clave primaria (no dependencias parciales).",
+        "anomalia_evitada": "Anomalías de inserción/actualización por dependencias parciales"
+      },
+      "pasaje_origen": "Segunda Forma Normal",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-formas-normales-3",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "forma_normal": "3FN",
+        "condicion": "Está en 2FN y no hay dependencias transitivas: todo atributo no clave depende directamente de la clave primaria.",
+        "anomalia_evitada": "Redundancia por dependencias transitivas"
+      },
+      "pasaje_origen": "Tercera Forma Normal",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-formas-normales-4",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "forma_normal": "BCNF",
+        "condicion": "Para toda dependencia funcional X→Y no trivial, X es superclave de la relación.",
+        "anomalia_evitada": "Anomalías residuales de 3FN con claves candidatas múltiples"
+      },
+      "pasaje_origen": "Forma Normal de Boyce-Codd",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-formas-normales-5",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "forma_normal": "4FN",
+        "condicion": "Está en BCNF y no tiene dependencias multivaluadas no triviales.",
+        "anomalia_evitada": "Redundancia por dependencias multivaluadas"
+      },
+      "pasaje_origen": "Cuarta Forma Normal",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-formas-normales-6",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "forma_normal": "5FN",
+        "condicion": "Está en 4FN y no tiene dependencias de join (toda proyección sin pérdida es reversible).",
+        "anomalia_evitada": "Anomalías por dependencias de join"
+      },
+      "pasaje_origen": "Quinta Forma Normal",
+      "ubicacion": {},
+      "verificado": false
+    }
+  ],
+  "verificado": false
+}

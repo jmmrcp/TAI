@@ -1,0 +1,69 @@
+{
+  "id": "cuadro-operaciones-wsdl",
+  "tema_id": "tema-20-arquitectura-cliente-servidor-y-multicapas-servicios-web-y-p",
+  "tipo_dato": "clasificacion",
+  "titulo": "Operaciones en un documento WSDL",
+  "semilla": false,
+  "n_filas": 4,
+  "n_fuentes_distintas": 1,
+  "columnas": ["operacion", "patron", "descripcion"],
+  "columna_clave": "operacion",
+  "columna_respuesta": "patron",
+  "columna_contexto": "descripcion",
+  "columna_fuente": "fuente",
+  "filas": [
+    {
+      "id": "c-wsdl-1",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "operacion": "One-way",
+        "patron": "Entrada únicamente",
+        "descripcion": "El servicio recibe un mensaje pero no responde (ej. notificación)."
+      },
+      "pasaje_origen": "Operación WSDL one-way",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-wsdl-2",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "operacion": "Request-Response",
+        "patron": "Entrada + Salida",
+        "descripcion": "El cliente envía una petición y el servicio responde."
+      },
+      "pasaje_origen": "WSDL",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-wsdl-3",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "operacion": "Solicit-Response",
+        "patron": "Salida + Entrada",
+        "descripcion": "El servicio inicia la comunicación y el cliente responde."
+      },
+      "pasaje_origen": "WSDL",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-wsdl-4",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "operacion": "Notification",
+        "patron": "Salida únicamente",
+        "descripcion": "El servicio envía un mensaje sin esperar respuesta."
+      },
+      "pasaje_origen": "WSDL",
+      "ubicacion": {},
+      "verificado": false
+    }
+  ],
+  "verificado": false
+}

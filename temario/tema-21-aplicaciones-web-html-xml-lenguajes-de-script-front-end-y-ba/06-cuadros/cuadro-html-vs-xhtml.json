@@ -1,0 +1,112 @@
+{
+  "id": "cuadro-html-vs-xhtml",
+  "tema_id": "tema-21-aplicaciones-web-html-xml-lenguajes-de-script-front-end-y-ba",
+  "tipo_dato": "comparativa",
+  "titulo": "HTML vs XHTML: diferencias clave",
+  "semilla": false,
+  "n_filas": 7,
+  "n_fuentes_distintas": 1,
+  "columnas": [
+    "aspecto",
+    "html",
+    "xhtml"
+  ],
+  "columna_clave": "aspecto",
+  "columna_respuesta": "html",
+  "columna_contexto": "xhtml",
+  "columna_fuente": "fuente",
+  "filas": [
+    {
+      "id": "c-hx-1",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "aspecto": "Base",
+        "html": "SGML",
+        "xhtml": "XML (reformulación de HTML en XML)"
+      },
+      "pasaje_origen": "HTML vs XHTML",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-hx-2",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "aspecto": "Etiquetas vacías",
+        "html": "Opcionales de cierre (<br>, <img>)",
+        "xhtml": "Deben cerrarse (<br />, <img />)"
+      },
+      "pasaje_origen": "HTML vs XHTML",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-hx-3",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "aspecto": "Minúsculas/mayúsculas",
+        "html": "Etiquetas y atributos case-insensitive",
+        "xhtml": "Etiquetas y atributos en minúsculas obligatorio"
+      },
+      "pasaje_origen": "HTML vs XHTML",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-hx-4",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "aspecto": "Atributos",
+        "html": "Valores sin comillas permitidos",
+        "xhtml": "Valores entre comillas obligatorio"
+      },
+      "pasaje_origen": "HTML vs XHTML",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-hx-5",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "aspecto": "Anidamiento",
+        "html": "Más permisivo",
+        "xhtml": "Correctamente anidado y bien formado"
+      },
+      "pasaje_origen": "HTML vs XHTML",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-hx-6",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "aspecto": "DOCTYPE",
+        "html": "<!DOCTYPE html>",
+        "xhtml": "DTD XHTML (Strict/Transitional/Frameset)"
+      },
+      "pasaje_origen": "HTML vs XHTML",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-hx-7",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "aspecto": "MIME",
+        "html": "text/html",
+        "xhtml": "application/xhtml+xml"
+      },
+      "pasaje_origen": "HTML vs XHTML",
+      "ubicacion": {},
+      "verificado": false
+    }
+  ],
+  "verificado": false
+}

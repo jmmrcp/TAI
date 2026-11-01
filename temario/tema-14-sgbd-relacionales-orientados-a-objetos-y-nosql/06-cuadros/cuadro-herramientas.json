@@ -1,0 +1,99 @@
+{
+  "id": "cuadro-herramientas",
+  "tema_id": "tema-14-sgbd-relacionales-orientados-a-objetos-y-nosql",
+  "tipo_dato": "herramientas_servicios",
+  "titulo": "Herramientas y servicios asociados a SGBD (ORM y SQL Server ML)",
+  "semilla": false,
+  "n_filas": 6,
+  "n_fuentes_distintas": 1,
+  "columnas": [
+    "elemento",
+    "categoria",
+    "descripcion"
+  ],
+  "columna_clave": "elemento",
+  "columna_respuesta": "categoria",
+  "columna_contexto": "descripcion",
+  "columna_fuente": "fuente",
+  "filas": [
+    {
+      "id": "c-her-1",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "elemento": "ADO.NET Entity Framework",
+        "categoria": "ORM",
+        "descripcion": "ORM de Microsoft para .NET"
+      },
+      "pasaje_origen": "Examen TAI 2021, teórica 33",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-her-2",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "elemento": "NHibernate",
+        "categoria": "ORM",
+        "descripcion": "ORM para .NET (port de Hibernate)"
+      },
+      "pasaje_origen": "Examen TAI 2021, teórica 33",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-her-3",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "elemento": "Hibernate",
+        "categoria": "ORM",
+        "descripcion": "ORM para Java"
+      },
+      "pasaje_origen": "Examen TAI 2021, teórica 33",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-her-4",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "elemento": "Ruby Hibernation",
+        "categoria": "No es ORM",
+        "descripcion": "Distractor del examen; no es un ORM real"
+      },
+      "pasaje_origen": "Examen TAI 2021, teórica 33",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-her-5",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "elemento": "Machine Learning Services (SQL Server)",
+        "categoria": "Servicio SQL Server",
+        "descripcion": "Ejecuta scripts de Python y R con datos relacionales"
+      },
+      "pasaje_origen": "Examen TAI 2023, teórica 35",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-her-6",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "elemento": "Revoscaler",
+        "categoria": "Paquete R",
+        "descripcion": "Transformaciones y manipulaciones de datos, resúmenes estadísticos, visualizaciones y modelado"
+      },
+      "pasaje_origen": "Examen TAI 2023, reserva 3",
+      "ubicacion": {},
+      "verificado": false
+    }
+  ],
+  "verificado": false
+}

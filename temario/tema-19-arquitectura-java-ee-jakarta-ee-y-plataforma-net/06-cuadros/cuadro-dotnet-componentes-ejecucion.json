@@ -1,0 +1,86 @@
+{
+  "id": "cuadro-dotnet-componentes-ejecucion",
+  "tema_id": "tema-19-arquitectura-java-ee-jakarta-ee-y-plataforma-net",
+  "tipo_dato": "componentes",
+  "titulo": "Componentes de ejecución de la plataforma .NET (CLR)",
+  "semilla": false,
+  "n_filas": 5,
+  "n_fuentes_distintas": 1,
+  "columnas": [
+    "componente",
+    "responsabilidad",
+    "detalle"
+  ],
+  "columna_clave": "componente",
+  "columna_respuesta": "responsabilidad",
+  "columna_contexto": "detalle",
+  "columna_fuente": "fuente",
+  "filas": [
+    {
+      "id": "c-dotnet-comp-1",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "componente": "CLR (Common Language Runtime)",
+        "responsabilidad": "Ejecutar manejo de excepciones y recolección de basura",
+        "detalle": "Entorno de ejecución gestionado de .NET"
+      },
+      "pasaje_origen": "<origen>",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-dotnet-comp-2",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "componente": "JIT (Just-In-Time Compiler)",
+        "responsabilidad": "Compilar código intermedio (CIL/MSIL) a código máquina en tiempo de ejecución",
+        "detalle": "Dentro del CLR"
+      },
+      "pasaje_origen": "<origen>",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-dotnet-comp-3",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "componente": "GC (Garbage Collector)",
+        "responsabilidad": "Recolección automática de basura (memoria)",
+        "detalle": "Gestión de memoria del CLR"
+      },
+      "pasaje_origen": "<origen>",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-dotnet-comp-4",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "componente": "CIL/MSIL",
+        "responsabilidad": "Código intermedio independiente del lenguaje y la plataforma",
+        "detalle": "Lenguaje intermedio común"
+      },
+      "pasaje_origen": "<origen>",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-dotnet-comp-5",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "componente": "Ensamblado (Assembly)",
+        "responsabilidad": "Unidad fundamental de implementación",
+        "detalle": "Contiene manifiesto, metadatos y CIL"
+      },
+      "pasaje_origen": "<origen>",
+      "ubicacion": {},
+      "verificado": false
+    }
+  ],
+  "verificado": false
+}

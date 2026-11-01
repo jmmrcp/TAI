@@ -1,0 +1,99 @@
+{
+  "id": "cuadro-jdbc-drivers",
+  "tema_id": "tema-17-lenguajes-de-interrogacion-de-bd-ansi-sql-procedimientos-y-t",
+  "tipo_dato": "jdbc",
+  "titulo": "Controladores JDBC y PreparedStatement",
+  "semilla": false,
+  "n_filas": 6,
+  "n_fuentes_distintas": 1,
+  "columnas": [
+    "elemento",
+    "tipo",
+    "descripcion"
+  ],
+  "columna_clave": "elemento",
+  "columna_respuesta": "tipo",
+  "columna_contexto": "descripcion",
+  "columna_fuente": "fuente",
+  "filas": [
+    {
+      "id": "c-jdbc-1",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "elemento": "Type 1",
+        "tipo": "JDBC-ODBC bridge",
+        "descripcion": "Puente a ODBC (obsoleto)"
+      },
+      "pasaje_origen": "Drivers JDBC",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-jdbc-2",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "elemento": "Type 2",
+        "tipo": "Native-API",
+        "descripcion": "Llamadas nativas al SGBD"
+      },
+      "pasaje_origen": "Drivers JDBC",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-jdbc-3",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "elemento": "Type 3",
+        "tipo": "Network protocol",
+        "descripcion": "Middleware puro Java"
+      },
+      "pasaje_origen": "Drivers JDBC",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-jdbc-4",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "elemento": "Type 4",
+        "tipo": "Thin / Pure Java",
+        "descripcion": "Puro Java, conexión directa al SGBD (el más usado)"
+      },
+      "pasaje_origen": "Drivers JDBC",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-jdbc-5",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "elemento": "PreparedStatement",
+        "tipo": "SQL precompilado",
+        "descripcion": "Parámetros (?) reutilizables; previene inyección SQL"
+      },
+      "pasaje_origen": "PreparedStatement Java",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-jdbc-6",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "elemento": "CallableStatement",
+        "tipo": "Procedimientos almacenados",
+        "descripcion": "Invoca procedimientos almacenados en la BD"
+      },
+      "pasaje_origen": "JDBC CallableStatement",
+      "ubicacion": {},
+      "verificado": false
+    }
+  ],
+  "verificado": false
+}

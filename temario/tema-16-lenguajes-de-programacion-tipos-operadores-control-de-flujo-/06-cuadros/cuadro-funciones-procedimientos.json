@@ -1,0 +1,120 @@
+{
+  "id": "cuadro-funciones-procedimientos",
+  "tema_id": "tema-16-lenguajes-de-programacion-tipos-operadores-control-de-flujo-",
+  "tipo_dato": "funciones",
+  "titulo": "Funciones y procedimientos",
+  "semilla": false,
+  "n_filas": 7,
+  "n_fuentes_distintas": 1,
+  "columnas": [
+    "concepto",
+    "caracteristica",
+    "valor_retorno",
+    "ejemplo"
+  ],
+  "columna_clave": "concepto",
+  "columna_respuesta": "caracteristica",
+  "columna_contexto": "valor_retorno",
+  "columna_fuente": "fuente",
+  "filas": [
+    {
+      "id": "c-fp-1",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "Función",
+        "caracteristica": "Devuelve un valor al llamador",
+        "valor_retorno": "Sí",
+        "ejemplo": "int sumar(int a, int b) { return a+b; }"
+      },
+      "pasaje_origen": "Funciones y procedimientos",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-fp-2",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "Procedimiento",
+        "caracteristica": "No devuelve valor (void/sub)",
+        "valor_retorno": "No",
+        "ejemplo": "void imprimir(String s) { System.out.println(s); }"
+      },
+      "pasaje_origen": "Funciones y procedimientos",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-fp-3",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "Sobrecarga (overloading)",
+        "caracteristica": "Mismo nombre, distintos parámetros en el mismo ámbito",
+        "valor_retorno": "Puede variar",
+        "ejemplo": "C++: sumar(int,int) y sumar(double,double)"
+      },
+      "pasaje_origen": "Sobrecarga de funciones en C++",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-fp-4",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "Recursión",
+        "caracteristica": "La función se llama a sí misma",
+        "valor_retorno": "Sí",
+        "ejemplo": "factorial(n) = n * factorial(n-1)"
+      },
+      "pasaje_origen": "Funciones",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-fp-5",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "Parámetros por valor",
+        "caracteristica": "Se copia el valor; no afecta al original",
+        "valor_retorno": "No aplica",
+        "ejemplo": "Java: tipos primitivos"
+      },
+      "pasaje_origen": "Paso de parámetros",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-fp-6",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "Parámetros por referencia",
+        "caracteristica": "Se pasa la dirección; modifica el original",
+        "valor_retorno": "No aplica",
+        "ejemplo": "C++: int& x"
+      },
+      "pasaje_origen": "Paso de parámetros",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-fp-7",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "Función lambda / anónima",
+        "caracteristica": "Función sin nombre, definida inline",
+        "valor_retorno": "Sí",
+        "ejemplo": "JS: (x) => x*2"
+      },
+      "pasaje_origen": "Funciones en JS",
+      "ubicacion": {},
+      "verificado": false
+    }
+  ],
+  "verificado": false
+}

@@ -1,0 +1,99 @@
+{
+  "id": "cuadro-sgbdoo",
+  "tema_id": "tema-14-sgbd-relacionales-orientados-a-objetos-y-nosql",
+  "tipo_dato": "conceptos_oo",
+  "titulo": "Conceptos clave de bases de datos orientadas a objetos",
+  "semilla": false,
+  "n_filas": 6,
+  "n_fuentes_distintas": 1,
+  "columnas": [
+    "concepto",
+    "detalle",
+    "valor_correcto"
+  ],
+  "columna_clave": "concepto",
+  "columna_respuesta": "detalle",
+  "columna_contexto": "valor_correcto",
+  "columna_fuente": "fuente",
+  "filas": [
+    {
+      "id": "c-oo-1",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "OID",
+        "detalle": "Identificador de objeto único",
+        "valor_correcto": "Generado por el sistema; invisible al usuario externo; independiente de los valores de los atributos"
+      },
+      "pasaje_origen": "Examen TAI 2026 modelos A/B, teórica 35/34",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-oo-2",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "Constructores de colección",
+        "detalle": "Array, Lista, Bolsa (y Conjunto)",
+        "valor_correcto": "Son constructores válidos de tipo de colección"
+      },
+      "pasaje_origen": "Examen TAI 2026 modelos A/B, teórica 34/35",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-oo-3",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "No constructor de colección",
+        "detalle": "Columna",
+        "valor_correcto": "NO es considerado constructor de tipo de colección"
+      },
+      "pasaje_origen": "Examen TAI 2026 modelos A/B, teórica 34/35",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-oo-4",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "OQL",
+        "detalle": "Object Query Language",
+        "valor_correcto": "Lenguaje de consulta de datos en BDOO"
+      },
+      "pasaje_origen": "Examen TAI 2024/2025 modelos A/B",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-oo-5",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "SGBDOO de ejemplo",
+        "detalle": "Matisse",
+        "valor_correcto": "Es un Sistema de Gestión de Bases de Datos Orientadas a Objetos"
+      },
+      "pasaje_origen": "Examen TAI 2024/2025 modelos A/B, teórica 29",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-oo-6",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "Característica NO obligatoria",
+        "detalle": "Conjunto fijo de tipos de datos",
+        "valor_correcto": "NO es obligatorio en un SGBDOO (mayor eficiencia en búsquedas es falso)"
+      },
+      "pasaje_origen": "Examen TAI 2023, teórica 34",
+      "ubicacion": {},
+      "verificado": false
+    }
+  ],
+  "verificado": false
+}

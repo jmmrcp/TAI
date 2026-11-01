@@ -1,0 +1,73 @@
+{
+  "id": "cuadro-nosql",
+  "tema_id": "tema-14-sgbd-relacionales-orientados-a-objetos-y-nosql",
+  "tipo_dato": "tipos_nosql",
+  "titulo": "Tipos de bases de datos NoSQL y ejemplos",
+  "semilla": false,
+  "n_filas": 4,
+  "n_fuentes_distintas": 1,
+  "columnas": [
+    "tipo_nosql",
+    "modelo_datos",
+    "ejemplos"
+  ],
+  "columna_clave": "tipo_nosql",
+  "columna_respuesta": "modelo_datos",
+  "columna_contexto": "ejemplos",
+  "columna_fuente": "fuente",
+  "filas": [
+    {
+      "id": "c-nosql-1",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "tipo_nosql": "Clave-valor",
+        "modelo_datos": "Pares clave-valor",
+        "ejemplos": "Redis, Riak, DynamoDB"
+      },
+      "pasaje_origen": "Examen TAI 2018, teórica 38; Examen TAI 2026 modelos A/B, teórica 36/33",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-nosql-2",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "tipo_nosql": "Documental",
+        "modelo_datos": "Documentos JSON/BSON",
+        "ejemplos": "MongoDB, CouchDB"
+      },
+      "pasaje_origen": "Examen TAI 2026 modelos A/B, teórica 36/33",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-nosql-3",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "tipo_nosql": "Grafos",
+        "modelo_datos": "Nodos y aristas",
+        "ejemplos": "Neo4j, JanusGraph"
+      },
+      "pasaje_origen": "Examen TAI 2026 modelo C, teórica 34",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-nosql-4",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "tipo_nosql": "Columnar (wide-column)",
+        "modelo_datos": "Familias de columnas",
+        "ejemplos": "HBase, Cassandra"
+      },
+      "pasaje_origen": "Tipos NoSQL estándar",
+      "ubicacion": {},
+      "verificado": false
+    }
+  ],
+  "verificado": false
+}

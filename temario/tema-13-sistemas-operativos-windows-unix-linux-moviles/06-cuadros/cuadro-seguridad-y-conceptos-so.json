@@ -1,0 +1,151 @@
+{
+  "id": "cuadro-seguridad-y-conceptos-so",
+  "tema_id": "tema-13-sistemas-operativos-windows-unix-linux-moviles",
+  "tipo_dato": "conceptos",
+  "titulo": "Seguridad, kernel y conceptos clave de sistemas operativos",
+  "semilla": false,
+  "n_filas": 10,
+  "n_fuentes_distintas": 1,
+  "columnas": [
+    "concepto",
+    "descripcion",
+    "sistema"
+  ],
+  "columna_clave": "concepto",
+  "columna_respuesta": "descripcion",
+  "columna_contexto": "sistema",
+  "columna_fuente": "fuente",
+  "filas": [
+    {
+      "id": "c-seguridad-y-conceptos-so-1",
+      "fuente": "examenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "BitLocker",
+        "descripcion": "Cifrado de volumen completo en Windows; usa TPM y clave de recuperacion",
+        "sistema": "Windows"
+      },
+      "pasaje_origen": "Preguntas oficiales TAI tema 13",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-seguridad-y-conceptos-so-2",
+      "fuente": "examenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "Sandboxing (iOS)",
+        "descripcion": "Aislamiento que garantiza que las apps solo accedan a sus propios recursos y datos",
+        "sistema": "iOS"
+      },
+      "pasaje_origen": "Preguntas oficiales TAI tema 13",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-seguridad-y-conceptos-so-3",
+      "fuente": "examenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "Sandbox de aplicaciones",
+        "descripcion": "Cada app ejecuta con UID propio y permisos limitados",
+        "sistema": "Android/Linux"
+      },
+      "pasaje_origen": "Preguntas oficiales TAI tema 13",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-seguridad-y-conceptos-so-4",
+      "fuente": "examenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "Android NDK",
+        "descripcion": "Kit de desarrollo nativo para C/C++; no sustituye al SDK ni es obligatorio",
+        "sistema": "Android"
+      },
+      "pasaje_origen": "Preguntas oficiales TAI tema 13",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-seguridad-y-conceptos-so-5",
+      "fuente": "examenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "Kernel (Unix/Linux)",
+        "descripcion": "Gestiona procesos, memoria, sistema de archivos, drivers e IPC",
+        "sistema": "Unix/Linux"
+      },
+      "pasaje_origen": "Preguntas oficiales TAI tema 13",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-seguridad-y-conceptos-so-6",
+      "fuente": "examenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "Android (base)",
+        "descripcion": "Sistema operativo movil basado en el kernel de Linux",
+        "sistema": "Android"
+      },
+      "pasaje_origen": "Preguntas oficiales TAI tema 13",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-seguridad-y-conceptos-so-7",
+      "fuente": "examenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "Archivos ejecutables Dalvik/ART",
+        "descripcion": "Extension .dex (Dalvik Executable)",
+        "sistema": "Android"
+      },
+      "pasaje_origen": "Preguntas oficiales TAI tema 13",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-seguridad-y-conceptos-so-8",
+      "fuente": "examenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "Comando tar (listar)",
+        "descripcion": "tar -tf fichero.tar lista el contenido del archivo",
+        "sistema": "Linux/Unix"
+      },
+      "pasaje_origen": "Preguntas oficiales TAI tema 13",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-seguridad-y-conceptos-so-9",
+      "fuente": "examenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "macOS (version reciente)",
+        "descripcion": "macOS 27 Golden Gate (2026), anterior Tahoe 26",
+        "sistema": "macOS"
+      },
+      "pasaje_origen": "Preguntas oficiales TAI tema 13",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-seguridad-y-conceptos-so-10",
+      "fuente": "examenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "concepto": "Capas de personalizacion Android",
+        "descripcion": "Capa de fabricante/ROM (no todas son iguales); no es una capa del SO base",
+        "sistema": "Android"
+      },
+      "pasaje_origen": "Preguntas oficiales TAI tema 13",
+      "ubicacion": {},
+      "verificado": false
+    }
+  ],
+  "verificado": false
+}

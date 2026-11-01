@@ -1,0 +1,59 @@
+{
+  "id": "cuadro-arquitectura-multicapas",
+  "tema_id": "tema-20-arquitectura-cliente-servidor-y-multicapas-servicios-web-y-p",
+  "tipo_dato": "comparativa",
+  "titulo": "Modelos de arquitectura cliente/servidor y multicapas",
+  "semilla": false,
+  "n_filas": 3,
+  "n_fuentes_distintas": 1,
+  "columnas": ["modelo", "capas", "descripcion", "ventaja_principal"],
+  "columna_clave": "modelo",
+  "columna_respuesta": "capas",
+  "columna_contexto": "descripcion",
+  "columna_fuente": "fuente",
+  "filas": [
+    {
+      "id": "c-multicapas-1",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "modelo": "2 capas (cliente/servidor)",
+        "capas": "Presentación + Datos",
+        "descripcion": "El cliente contiene la interfaz y parte de la lógica; el servidor gestiona los datos y la lógica restante.",
+        "ventaja_principal": "Simplicidad de despliegue"
+      },
+      "pasaje_origen": "Arquitectura cliente/servidor",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-multicapas-2",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "modelo": "3 capas",
+        "capas": "Presentación / Lógica de negocio / Datos",
+        "descripcion": "Separación en cliente (UI), servidor de aplicaciones (negocio) y servidor de datos (BD).",
+        "ventaja_principal": "Escalabilidad y mantenimiento"
+      },
+      "pasaje_origen": "Arquitectura multicapas",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-multicapas-3",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "modelo": "n capas (multicapas)",
+        "capas": "Presentación / Web / Negocio / Integración / Datos",
+        "descripcion": "Descomposición en múltiples capas especializadas (web, servicios, persistencia) con balanceo y caché.",
+        "ventaja_principal": "Flexibilidad y reutilización"
+      },
+      "pasaje_origen": "Arquitectura multicapas",
+      "ubicacion": {},
+      "verificado": false
+    }
+  ],
+  "verificado": false
+}

@@ -1,0 +1,177 @@
+{
+  "id": "cuadro-front-back-tecnologias",
+  "tema_id": "tema-21-aplicaciones-web-html-xml-lenguajes-de-script-front-end-y-ba",
+  "tipo_dato": "tecnologias",
+  "titulo": "Front-end vs Back-end y opciones de app móvil",
+  "semilla": false,
+  "n_filas": 12,
+  "n_fuentes_distintas": 1,
+  "columnas": [
+    "tecnologia",
+    "capa",
+    "descripcion"
+  ],
+  "columna_clave": "tecnologia",
+  "columna_respuesta": "descripcion",
+  "columna_contexto": "capa",
+  "columna_fuente": "fuente",
+  "filas": [
+    {
+      "id": "c-fb-1",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "tecnologia": "HTML / CSS / JavaScript",
+        "capa": "Front-end",
+        "descripcion": "Maquetación, estilo e interacción en el navegador"
+      },
+      "pasaje_origen": "Front-end",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-fb-2",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "tecnologia": "React / Angular / Vue",
+        "capa": "Front-end",
+        "descripcion": "Frameworks SPA de componentes"
+      },
+      "pasaje_origen": "Front-end",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-fb-3",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "tecnologia": "Java / Spring",
+        "capa": "Back-end",
+        "descripcion": "Lenguaje y framework de servidor"
+      },
+      "pasaje_origen": "Back-end",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-fb-4",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "tecnologia": "Python / Django",
+        "capa": "Back-end",
+        "descripcion": "Lenguaje y framework de servidor"
+      },
+      "pasaje_origen": "Back-end",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-fb-5",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "tecnologia": "PHP / Laravel",
+        "capa": "Back-end",
+        "descripcion": "Lenguaje y framework de servidor"
+      },
+      "pasaje_origen": "Back-end",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-fb-6",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "tecnologia": "Ruby on Rails",
+        "capa": "Back-end",
+        "descripcion": "Framework MVC para Ruby en servidor"
+      },
+      "pasaje_origen": "Ruby on Rails",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-fb-7",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "tecnologia": "Node.js / Express",
+        "capa": "Back-end",
+        "descripcion": "JavaScript en servidor"
+      },
+      "pasaje_origen": "Back-end",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-fb-8",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "tecnologia": "App nativa",
+        "capa": "Móvil",
+        "descripcion": "Desarrollo específico por plataforma (iOS/Android)"
+      },
+      "pasaje_origen": "Opciones app móvil",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-fb-9",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "tecnologia": "App híbrida",
+        "capa": "Móvil",
+        "descripcion": "WebView + tecnologías web (Ionic, Cordova)"
+      },
+      "pasaje_origen": "Opciones app móvil",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-fb-10",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "tecnologia": "PWA",
+        "capa": "Móvil/Web",
+        "descripcion": "Progressive Web App instalable"
+      },
+      "pasaje_origen": "Opciones app móvil",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-fb-11",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "tecnologia": "Cross-platform (Flutter/React Native)",
+        "capa": "Móvil",
+        "descripcion": "Código compartido compilado a nativo"
+      },
+      "pasaje_origen": "Opciones app móvil",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-fb-12",
+      "fuente": "exámenes oficiales",
+      "fuente_tipo": "examen",
+      "valores": {
+        "tecnologia": "Aplicación de escritorio",
+        "capa": "NO móvil",
+        "descripcion": "NO es opción para desarrollar una aplicación móvil"
+      },
+      "pasaje_origen": "Opciones app móvil",
+      "ubicacion": {},
+      "verificado": false
+    }
+  ],
+  "verificado": false
+}
