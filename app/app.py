@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """
-app_v3.py — TAI Oposición (Streamlit). Rediseño de UX/UI con modo claro y oscuro.
+app_v4.py — TAI Oposición (Streamlit). Adaptada a la nueva estructura de la BD
+(supuestos, exámenes, fichas gemelas sup:, cupo de nuevos, procedencia de preguntas).
 
 Arranque:
     cd ~/oposicion
@@ -24,9 +25,9 @@ import streamlit as st
 # ============================================================
 # CONFIGURACIÓN
 # ============================================================
-ROOT = Path(__file__).resolve().parent.parent
+
+ROOT = Path.home() / "oposicion"
 DB_PATH = Path(os.environ.get("OPOSICION_DB", ROOT / "oposicion.db"))
-TEMARIO_DIR = ROOT / "temario"
 
 # Constantes SM-2 (duplicadas de srs.py)
 INTERVALOS_HUMANOS = [1, 2, 3, 5, 7, 10, 14, 21, 30, 45, 60, 90, 120, 180, 270, 365]
@@ -39,7 +40,7 @@ FACTORES = {
 EASE_MIN = 1.3
 EASE_MAX = 3.0
 
-PAGINAS = ["🏠  Hoy", "🎯  Practicar", "📚  Temario", "🗂️  Material", "📈  Progreso", "📊  Análisis"]
+PAGINAS = ["🏠  Hoy", "🎯  Practicar", "📚  Temario", "🗂️  Material", "📈  Progreso"]
 DIAS = ["lunes", "martes", "miércoles", "jueves", "viernes", "sábado", "domingo"]
 MESES = ["enero", "febrero", "marzo", "abril", "mayo", "junio", "julio",
          "agosto", "septiembre", "octubre", "noviembre", "diciembre"]
@@ -439,6 +440,15 @@ def consulta(sql, params=()):
     return get_conn().execute(sql, params).fetchall()
 
 
+def en_lote(sql, ids, extra=()):
+    """Ejecuta `sql` (con el marcador {ids}) por trozos para no pasarse del límite de variables."""
+    ids, filas = list(ids), []
+    for i in range(0, len(ids), 500):
+        trozo = ids[i:i + 500]
+        filas += consulta(sql.replace("{ids}", ",".join("?" * len(trozo))), list(extra) + trozo)
+    return filas
+
+
 def hoy_iso():
     return date.today().isoformat()
 
@@ -462,8 +472,12 @@ def calcular_estado(intervalo, respuesta):
     return "dominado"
 
 
-def actualizar_srs(item_key, respuesta):
-    """Actualiza un ítem del SRS. Devuelve dict con el resultado."""
+def actualizar_srs(item_key, respuesta, espejos=()):
+    """Actualiza un ítem del SRS. Devuelve dict con el resultado.
+
+    `espejos`: claves de fichas gemelas (p. ej. `sup:<pregunta>` de una pregunta que también
+    tiene su ficha `test:`). Reciben el mismo estado, sin duplicar el historial.
+    """
     conn = get_conn()
     row = conn.execute(
         "SELECT ease, intervalo_dias FROM srs_items WHERE item_key = ?", (item_key,)
@@ -484,20 +498,21 @@ def actualizar_srs(item_key, respuesta):
     nuevo_estado = calcular_estado(nuevo_intervalo, respuesta)
     nuevo_due = (date.today() + timedelta(days=nuevo_intervalo)).isoformat()
 
-    conn.execute("""
-        UPDATE srs_items SET
-            ease = ?, intervalo_dias = ?, estado = ?, due = ?,
-            ultima_respuesta = ?,
-            veces_fallada = veces_fallada + ?,
-            veces_acertada = veces_acertada + ?
-        WHERE item_key = ?
-    """, (
-        nuevo_ease, nuevo_intervalo, nuevo_estado, nuevo_due,
-        respuesta,
-        1 if respuesta in ("otra_vez", "dificil") else 0,
-        1 if respuesta in ("bien", "facil") else 0,
-        item_key,
-    ))
+    for clave in (item_key, *espejos):
+        conn.execute("""
+            UPDATE srs_items SET
+                ease = ?, intervalo_dias = ?, estado = ?, due = ?,
+                ultima_respuesta = ?,
+                veces_fallada = veces_fallada + ?,
+                veces_acertada = veces_acertada + ?
+            WHERE item_key = ?
+        """, (
+            nuevo_ease, nuevo_intervalo, nuevo_estado, nuevo_due,
+            respuesta,
+            1 if respuesta in ("otra_vez", "dificil") else 0,
+            1 if respuesta in ("bien", "facil") else 0,
+            clave,
+        ))
     conn.execute("""
         INSERT INTO srs_historial (item_key, fecha, respuesta, intervalo)
         VALUES (?, ?, ?, ?)
@@ -507,24 +522,68 @@ def actualizar_srs(item_key, respuesta):
 
 
 # ============================================================
+# AJUSTES Y FILTROS DEL SRS
+# ============================================================
+#
+# Formatos de item_key en srs_items:
+#   test:<tema>:<pregunta>   card:<tema>:<flashcard>   cloze:<tema>:<flashcard>
+#   cuadro:<tema>:<fila>     sup:<pregunta>  (ficha gemela de una pregunta de supuesto; sin tema)
+# Las preguntas de supuesto tienen DOS fichas (test: y sup:). Se trabaja con la test: y la sup:
+# se mantiene sincronizada, así que las estadísticas ignoran las sup: para no contar doble.
+
+def solo_verificadas():
+    return bool(st.session_state.get("solo_verif", True))
+
+
+def nuevos_por_dia():
+    return int(st.session_state.get("nuevos_dia", 20))
+
+
+PID_SQL = ("CASE s.tipo WHEN 'test' THEN substr(s.item_key, 7 + length(s.tema_id)) "
+           "WHEN 'sup' THEN substr(s.item_key, 5) END")
+SRS_FROM = f"FROM srs_items s LEFT JOIN preguntas pv ON pv.id = {PID_SQL}"
+
+
+def srs_filtro():
+    f = " AND s.tipo != 'sup'"
+    if solo_verificadas():
+        f += " AND (pv.id IS NULL OR pv.verificado = 1)"
+    return f
+
+
+def srs_filtrado():
+    """Subconsulta con los ítems del SRS que cuentan (sin gemelas y respetando 'solo verificadas')."""
+    return f"(SELECT s.* {SRS_FROM} WHERE 1 = 1 {srs_filtro()})"
+
+
+def nuevos_introducidos_hoy():
+    """Ítems cuya primera respuesta de la historia es de hoy."""
+    return consulta("""SELECT COUNT(*) FROM (SELECT item_key FROM srs_historial
+                       GROUP BY item_key HAVING MIN(fecha) = ?)""", (hoy_iso(),))[0][0]
+
+
+# ============================================================
 # CONSULTAS DE ESTADÍSTICAS
 # ============================================================
 
 def stats_globales():
     hoy = hoy_iso()
-    r = consulta("""
+    s = dict(consulta(f"""
         SELECT COUNT(*) AS n,
-               COALESCE(SUM(estado = 'dominado'), 0) AS dom,
-               COALESCE(SUM(estado = 'en-progreso'), 0) AS prog,
-               COALESCE(SUM(estado = 'por-aprender'), 0) AS porap,
-               COALESCE(SUM(estado = 'sin-empezar'), 0) AS nuevo,
-               COALESCE(SUM(due <= ? AND estado != 'dominado'), 0) AS hoy,
-               COALESCE(SUM(veces_acertada), 0) AS ac,
-               COALESCE(SUM(veces_fallada), 0) AS fa
-        FROM srs_items
-    """, (hoy,))[0]
-    s = dict(r)
+               COALESCE(SUM(s.estado = 'dominado'), 0) AS dom,
+               COALESCE(SUM(s.estado = 'en-progreso'), 0) AS prog,
+               COALESCE(SUM(s.estado = 'por-aprender'), 0) AS porap,
+               COALESCE(SUM(s.estado = 'sin-empezar'), 0) AS nuevo,
+               COALESCE(SUM(s.estado IN ('por-aprender', 'en-progreso') AND s.due <= ?), 0) AS repasos,
+               COALESCE(SUM(s.veces_acertada), 0) AS ac,
+               COALESCE(SUM(s.veces_fallada), 0) AS fa
+        {SRS_FROM} WHERE 1 = 1 {srs_filtro()}
+    """, (hoy,))[0])
     s["hechas_hoy"] = consulta("SELECT COUNT(*) FROM srs_historial WHERE fecha = ?", (hoy,))[0][0]
+    s["nuevos_hechos"] = nuevos_introducidos_hoy()
+    s["cupo_nuevos"] = max(0, nuevos_por_dia() - s["nuevos_hechos"])
+    s["nuevos_hoy"] = min(s["cupo_nuevos"], s["nuevo"])
+    s["hoy"] = s["repasos"] + s["nuevos_hoy"]
     resp = s["ac"] + s["fa"]
     s["precision"] = (s["ac"] / resp * 100) if resp else None
     s["racha"] = racha()
@@ -551,30 +610,36 @@ def actividad(dias=14):
             for i in range(dias - 1, -1, -1)]
 
 
-def pendientes_por_tipo():
-    filas = consulta("""
-        SELECT tipo, COUNT(*) AS n FROM srs_items
-        WHERE due <= ? AND estado != 'dominado' GROUP BY tipo
-    """, (hoy_iso(),))
-    return {f["tipo"]: f["n"] for f in filas}
-
-
 def listar_bloques_temas():
     bloques = [dict(b) for b in consulta("SELECT * FROM bloques ORDER BY numero")]
-    temas = consulta("""
+    temas = consulta(f"""
         SELECT t.id, t.numero, t.titulo, t.bloque_id, t.estado_ingesta,
                COUNT(s.item_key) AS n_items,
                COALESCE(SUM(s.estado = 'dominado'), 0) AS n_dom,
                COALESCE(SUM(s.estado = 'en-progreso'), 0) AS n_prog,
                COALESCE(SUM(s.estado = 'por-aprender'), 0) AS n_porap,
                COALESCE(SUM(s.estado = 'sin-empezar'), 0) AS n_nuevo,
-               COALESCE(SUM(s.due <= ? AND s.estado != 'dominado'), 0) AS n_hoy
-        FROM temas t LEFT JOIN srs_items s ON s.tema_id = t.id
+               COALESCE(SUM(s.estado IN ('por-aprender', 'en-progreso') AND s.due <= ?), 0) AS n_hoy
+        FROM temas t LEFT JOIN {srs_filtrado()} s ON s.tema_id = t.id
         GROUP BY t.id ORDER BY t.numero
     """, (hoy_iso(),))
+    preg = {r["tema_id"]: r for r in consulta(
+        "SELECT tema_id, COUNT(*) AS total, COALESCE(SUM(verificado = 0), 0) AS sin_verif "
+        "FROM preguntas GROUP BY tema_id")}
+    examen = {r["tema_id"]: r for r in consulta(
+        "SELECT tema_id, n_examenes, media_preg, max_preg FROM v_tendencia_temas")}
+    fuentes = {r["tema_id"]: r for r in consulta(
+        "SELECT tema_id, n_fuentes, n_fragmentos FROM v_cobertura_fuentes")}
     por_bloque = {}
     for t in temas:
-        por_bloque.setdefault(t["bloque_id"], []).append(dict(t))
+        d = dict(t)
+        p, e, f = preg.get(d["id"]), examen.get(d["id"]), fuentes.get(d["id"])
+        d["n_preg"] = p["total"] if p else 0
+        d["sin_verif"] = p["sin_verif"] if p else 0
+        d["n_examenes"] = (e["n_examenes"] or 0) if e else 0
+        d["media_preg"] = e["media_preg"] if e else None
+        d["n_fuentes"] = f["n_fuentes"] if f else 0
+        por_bloque.setdefault(d["bloque_id"], []).append(d)
     for b in bloques:
         b["temas"] = por_bloque.get(b["id"], [])
     return bloques
@@ -582,6 +647,10 @@ def listar_bloques_temas():
 
 def romano(n):
     return {1: "I", 2: "II", 3: "III", 4: "IV", 5: "V", 6: "VI"}.get(n, str(n))
+
+
+def etiqueta_examen(anio, modelo):
+    return f"{anio}" + (f" · modelo {modelo}" if modelo and modelo != "Único" else "")
 
 
 # ============================================================
@@ -597,10 +666,51 @@ def _parse_json(valor, default):
         return default
 
 
-def _item_test(f, item_key=None):
+SQL_PREG = """
+    SELECT p.id AS pregunta_id, p.tema_id, p.concepto_id, p.enunciado, p.opciones, p.correcta,
+           p.explicacion, p.referencia, p.dificultad, p.verificado, p.origen
+    FROM preguntas p
+"""
+
+SQL_CUADRO = """
+    SELECT cf.id AS fila_id, cf.valores, cf.fuente, cu.titulo, cu.tema_id,
+           cu.columna_clave, cu.columna_respuesta, cu.columna_contexto
+    FROM cuadro_filas cf JOIN cuadros cu ON cu.id = cf.cuadro_id
+"""
+
+
+def _meta_preguntas(pids):
+    """Procedencia de cada pregunta: veces que ha salido en examen, examen, supuesto."""
+    pids = list(set(pids))
+    meta = {p: {} for p in pids}
+    for r in en_lote("SELECT pregunta_id, n_examenes FROM pregunta_reuso WHERE pregunta_id IN ({ids})", pids):
+        meta[r["pregunta_id"]]["reuso"] = r["n_examenes"]
+    for r in en_lote("""SELECT ep.pregunta_id, ep.seccion, ep.numero, e.anio, e.modelo
+                        FROM examen_preguntas ep JOIN examenes e ON e.id = ep.examen_id
+                        WHERE ep.pregunta_id IN ({ids})""", pids):
+        meta[r["pregunta_id"]]["examen"] = {
+            "label": etiqueta_examen(r["anio"], r["modelo"]), "seccion": r["seccion"], "numero": r["numero"]}
+    for r in en_lote("""SELECT sp.pregunta_id, sp.es_reserva, sp.numero_en_supuesto, s.id, s.titulo,
+                               s.contexto_texto, e.anio, e.modelo
+                        FROM supuesto_preguntas sp
+                        JOIN supuestos s ON s.id = sp.supuesto_id
+                        LEFT JOIN examenes e ON e.id = s.examen_id
+                        WHERE sp.pregunta_id IN ({ids})""", pids):
+        meta[r["pregunta_id"]]["supuesto"] = {
+            "id": r["id"], "titulo": r["titulo"], "texto": r["contexto_texto"] or "",
+            "examen": etiqueta_examen(r["anio"], r["modelo"]) if r["anio"] else "",
+            "numero": r["numero_en_supuesto"], "reserva": bool(r["es_reserva"])}
+    return meta
+
+
+def _item_test(f, meta):
+    pid = f["pregunta_id"]
+    m = meta.get(pid, {})
     return {
         "tipo": "test",
-        "item_key": item_key or f"test:{f['tema_id']}:{f['pregunta_id']}",
+        "pregunta_id": pid,
+        "item_key": f"test:{f['tema_id']}:{pid}",
+        "espejos": [f"sup:{pid}"] if m.get("supuesto") else [],
         "tema_id": f["tema_id"],
         "concepto_id": f["concepto_id"],
         "enunciado": f["enunciado"],
@@ -608,74 +718,113 @@ def _item_test(f, item_key=None):
         "correcta": f["correcta"],
         "explicacion": f["explicacion"],
         "referencia": f["referencia"],
-        "dificultad": f["dificultad"] if "dificultad" in f.keys() else None,
+        "dificultad": f["dificultad"],
+        "verificado": bool(f["verificado"]),
+        "reuso": m.get("reuso"),
+        "examen": m.get("examen"),
+        "supuesto": m.get("supuesto"),
     }
 
 
-def _item_card(f, item_key):
+def _items_tests(filas):
+    meta = _meta_preguntas([f["pregunta_id"] for f in filas])
+    return [_item_test(f, meta) for f in filas]
+
+
+def _item_flash(f, item_key):
+    if f["modo"] == "cloze":
+        return {"tipo": "cloze", "item_key": item_key, "tema_id": f["tema_id"],
+                "texto": f["texto"], "respuestas": _parse_json(f["respuestas"], [])}
     return {"tipo": "card", "item_key": item_key, "tema_id": f["tema_id"],
             "anverso": f["anverso"], "reverso": f["reverso"]}
 
 
-def _item_cloze(f, item_key):
-    return {"tipo": "cloze", "item_key": item_key, "tema_id": f["tema_id"],
-            "texto": f["texto"], "respuestas": _parse_json(f["respuestas"], [])}
-
-
-def _item_cuadro(valores, fuente, titulo, col_clave, col_resp, tema_id, item_key):
-    v = _parse_json(valores, {})
+def _item_cuadro(f):
+    v = _parse_json(f["valores"], {})
+    ctx = f["columna_contexto"]
     return {
-        "tipo": "cuadro", "item_key": item_key, "tema_id": tema_id, "titulo": titulo,
-        "clave_nombre": col_clave, "clave": v.get(col_clave, ""),
-        "resp_nombre": col_resp, "respuesta": v.get(col_resp, ""), "fuente": fuente,
+        "tipo": "cuadro", "item_key": f"cuadro:{f['tema_id']}:{f['fila_id']}", "tema_id": f["tema_id"],
+        "titulo": f["titulo"],
+        "clave_nombre": f["columna_clave"], "clave": v.get(f["columna_clave"], ""),
+        "ctx_nombre": ctx, "ctx": v.get(ctx, "") if ctx else "",
+        "resp_nombre": f["columna_respuesta"], "respuesta": v.get(f["columna_respuesta"], ""),
+        "fuente": f["fuente"],
     }
 
 
-def _fila_a_item(f):
-    """Convierte una fila de la consulta del SRS a un dict de ítem."""
-    tipo = f["tipo"]
-    if tipo == "test" and f["enunciado"]:
-        return _item_test({**dict(f), "pregunta_id": None}, f["item_key"])
-    if tipo == "card" and f["anverso"] is not None:
-        return _item_card(f, f["item_key"])
-    if tipo == "cloze" and f["fc_texto"]:
-        return _item_cloze({"tema_id": f["tema_id"], "texto": f["fc_texto"],
-                            "respuestas": f["fc_respuestas"]}, f["item_key"])
-    if tipo == "cuadro" and f["cf_valores"]:
-        return _item_cuadro(f["cf_valores"], f["cf_fuente"], f["cu_titulo"],
-                            f["columna_clave"], f["columna_respuesta"], f["tema_id"], f["item_key"])
-    return None
-
-
-SQL_SRS = """
-    SELECT s.item_key, s.tipo, s.tema_id, s.concepto_id, s.estado,
-           s.veces_fallada, s.veces_acertada, s.ultima_respuesta,
-           p.enunciado, p.opciones, p.correcta, p.explicacion, p.referencia, p.dificultad,
-           f.anverso, f.reverso, f.texto AS fc_texto, f.respuestas AS fc_respuestas,
-           cf.valores AS cf_valores, cf.fuente AS cf_fuente,
-           cu.titulo AS cu_titulo, cu.columna_clave, cu.columna_respuesta
-    FROM srs_items s
-    LEFT JOIN preguntas p ON s.item_key = 'test:' || s.tema_id || ':' || p.id
-    LEFT JOIN flashcards f ON s.item_key IN ('card:' || s.tema_id || ':' || f.id,
-                                             'cloze:' || s.tema_id || ':' || f.id)
-    LEFT JOIN cuadro_filas cf ON s.item_key = 'cuadro:' || s.tema_id || ':' || cf.id
-    LEFT JOIN cuadros cu ON cu.id = cf.cuadro_id
-"""
+def resolver_items(keys):
+    """Convierte claves de srs_items en ítems listos para mostrar (respeta el orden; omite huérfanos)."""
+    keys = list(keys)
+    pids, fids, rids = [], [], []
+    for k in keys:
+        tipo = k.split(":", 1)[0]
+        if tipo == "test":
+            pids.append(k.split(":", 2)[2])
+        elif tipo == "sup":
+            pids.append(k.split(":", 1)[1])
+        elif tipo in ("card", "cloze"):
+            fids.append(k.split(":", 2)[2])
+        elif tipo == "cuadro":
+            rids.append(k.split(":", 2)[2])
+    pregs = {r["pregunta_id"]: r for r in en_lote(SQL_PREG + " WHERE p.id IN ({ids})", pids)}
+    meta = _meta_preguntas(pregs)
+    fcs = {r["id"]: r for r in en_lote(
+        "SELECT id, modo, anverso, reverso, texto, respuestas, tema_id FROM flashcards WHERE id IN ({ids})", fids)}
+    cfs = {r["fila_id"]: r for r in en_lote(SQL_CUADRO + " WHERE cf.id IN ({ids})", rids)}
+    items = []
+    for k in keys:
+        tipo = k.split(":", 1)[0]
+        it = None
+        if tipo in ("test", "sup"):
+            r = pregs.get(k.split(":", 2)[2] if tipo == "test" else k.split(":", 1)[1])
+            it = _item_test(r, meta) if r else None
+        elif tipo in ("card", "cloze"):
+            r = fcs.get(k.split(":", 2)[2])
+            it = _item_flash(r, k) if r else None
+        elif tipo == "cuadro":
+            r = cfs.get(k.split(":", 2)[2])
+            it = _item_cuadro(r) if r else None
+        if it:
+            items.append(it)
+    return items
 
 
 def cargar_items_srs_hoy(limite=30):
-    filas = consulta(SQL_SRS + """
-        WHERE s.due <= ? AND s.estado != 'dominado' ORDER BY RANDOM() LIMIT ?
-    """, (hoy_iso(), limite))
-    return [i for i in (_fila_a_item(f) for f in filas) if i]
+    """Repasos vencidos primero; el hueco que quede se rellena con nuevos, respetando el cupo diario."""
+    claves = [r[0] for r in consulta(f"""
+        SELECT s.item_key {SRS_FROM}
+        WHERE s.estado IN ('por-aprender', 'en-progreso') AND s.due <= ? {srs_filtro()}
+        ORDER BY s.due, RANDOM() LIMIT ?""", (hoy_iso(), limite))]
+    hueco = min(limite - len(claves), max(0, nuevos_por_dia() - nuevos_introducidos_hoy()))
+    if hueco > 0:
+        claves += [r[0] for r in consulta(f"""
+            SELECT s.item_key {SRS_FROM}
+            WHERE s.estado = 'sin-empezar' {srs_filtro()} ORDER BY RANDOM() LIMIT ?""", (hueco,))]
+    items = resolver_items(claves)
+    random.shuffle(items)
+    return items
+
+
+def cargar_items_nuevos(limite=10):
+    """Ítems sin empezar, ignorando el cupo diario (para cuando ya has hecho el de hoy)."""
+    claves = [r[0] for r in consulta(f"""
+        SELECT s.item_key {SRS_FROM}
+        WHERE s.estado = 'sin-empezar' {srs_filtro()} ORDER BY RANDOM() LIMIT ?""", (limite,))]
+    return resolver_items(claves)
+
+
+SQL_DEBILES = "(s.veces_fallada > 0 OR s.ultima_respuesta IN ('otra_vez', 'dificil'))"
+
+
+def contar_debiles():
+    return consulta(f"SELECT COUNT(*) {SRS_FROM} WHERE {SQL_DEBILES} {srs_filtro()}")[0][0]
 
 
 def cargar_items_debiles(limite=30):
-    filas = consulta(SQL_SRS + """
-        WHERE s.veces_fallada > 0 OR s.ultima_respuesta IN ('otra_vez', 'dificil')
-        ORDER BY s.veces_fallada DESC, RANDOM() LIMIT ?
-    """, (limite,))
-    return [i for i in (_fila_a_item(f) for f in filas) if i]
+    claves = [r[0] for r in consulta(f"""
+        SELECT s.item_key {SRS_FROM} WHERE {SQL_DEBILES} {srs_filtro()}
+        ORDER BY s.veces_fallada DESC, RANDOM() LIMIT ?""", (limite,))]
+    return resolver_items(claves)
 
 
 def scope_sql(col, ambito):
@@ -688,19 +837,25 @@ def scope_sql(col, ambito):
     return "", []
 
 
-def cargar_tests(ambito, dificultad, limite):
-    sc, pr = scope_sql("p.tema_id", ambito)
-    dif = ""
+def filtro_preguntas(ambito, dificultad=None, procedencia=None):
+    """procedencia: None (todas) | 'examen' (de convocatorias reales) | 'elaborada' (generadas del temario)."""
+    sql, pr = scope_sql("p.tema_id", ambito)
+    if solo_verificadas():
+        sql += " AND p.verificado = 1"
     if dificultad:
-        dif = " AND p.dificultad = ?"
+        sql += " AND p.dificultad = ?"
         pr.append(dificultad)
-    filas = consulta(f"""
-        SELECT p.id AS pregunta_id, p.enunciado, p.opciones, p.correcta, p.explicacion,
-               p.referencia, p.tema_id, p.concepto_id, p.dificultad
-        FROM preguntas p WHERE p.verificado = 1 {sc} {dif}
-        ORDER BY RANDOM() LIMIT ?
-    """, pr + [limite])
-    return [_item_test(f) for f in filas]
+    if procedencia == "elaborada":
+        sql += " AND p.origen = 'ingesta-inicial'"
+    elif procedencia == "examen":
+        sql += " AND COALESCE(p.origen, '') != 'ingesta-inicial'"
+    return sql, pr
+
+
+def cargar_tests(ambito, dificultad, limite, procedencia=None):
+    sql, pr = filtro_preguntas(ambito, dificultad, procedencia)
+    filas = consulta(SQL_PREG + f" WHERE 1 = 1 {sql} ORDER BY RANDOM() LIMIT ?", pr + [limite])
+    return _items_tests(filas)
 
 
 def cargar_flashcards(ambito, limite):
@@ -709,13 +864,8 @@ def cargar_flashcards(ambito, limite):
         SELECT f.id, f.modo, f.anverso, f.reverso, f.texto, f.respuestas, f.tema_id
         FROM flashcards f WHERE 1 = 1 {sc} ORDER BY RANDOM() LIMIT ?
     """, pr + [limite])
-    items = []
-    for f in filas:
-        if f["modo"] == "cloze":
-            items.append(_item_cloze(f, f"cloze:{f['tema_id']}:{f['id']}"))
-        else:
-            items.append(_item_card(f, f"card:{f['tema_id']}:{f['id']}"))
-    return items
+    return [_item_flash(f, f"{'cloze' if f['modo'] == 'cloze' else 'card'}:{f['tema_id']}:{f['id']}")
+            for f in filas]
 
 
 def cargar_cuadros(ambito, limite, cuadro_id=None):
@@ -724,39 +874,71 @@ def cargar_cuadros(ambito, limite, cuadro_id=None):
     if cuadro_id:
         extra = " AND cu.id = ?"
         pr.append(cuadro_id)
-    filas = consulta(f"""
-        SELECT cf.id AS fila_id, cf.valores, cf.fuente, cu.titulo, cu.tema_id,
-               cu.columna_clave, cu.columna_respuesta
-        FROM cuadro_filas cf JOIN cuadros cu ON cu.id = cf.cuadro_id
-        WHERE 1 = 1 {sc} {extra} ORDER BY RANDOM() LIMIT ?
-    """, pr + [limite])
-    return [_item_cuadro(f["valores"], f["fuente"], f["titulo"], f["columna_clave"],
-                         f["columna_respuesta"], f["tema_id"],
-                         f"cuadro:{f['tema_id']}:{f['fila_id']}") for f in filas]
+    filas = consulta(SQL_CUADRO + f" WHERE 1 = 1 {sc} {extra} ORDER BY RANDOM() LIMIT ?", pr + [limite])
+    return [_item_cuadro(f) for f in filas]
 
 
 def cargar_test_preparado(test_id):
-    filas = consulta("""
-        SELECT p.id AS pregunta_id, p.enunciado, p.opciones, p.correcta, p.explicacion,
-               p.referencia, p.tema_id, p.concepto_id, p.dificultad
-        FROM test_practica_preguntas tp JOIN preguntas p ON p.id = tp.pregunta_id
+    filas = consulta(SQL_PREG + """
+        JOIN test_practica_preguntas tp ON tp.pregunta_id = p.id
         WHERE tp.test_id = ? ORDER BY tp.numero
     """, (test_id,))
-    return [_item_test(f) for f in filas]
+    return _items_tests(filas)
 
 
-def contar_disponibles(tipo, ambito, dificultad):
-    def n(sql, col, extra=()):
-        sc, pr = scope_sql(col, ambito)
-        return consulta(sql.format(sc=sc), list(pr) + list(extra))[0][0]
-
-    tests = n("SELECT COUNT(*) FROM preguntas p WHERE p.verificado = 1 {sc}"
-              + (" AND p.dificultad = ?" if dificultad else ""), "p.tema_id",
-              [dificultad] if dificultad else [])
-    flash = n("SELECT COUNT(*) FROM flashcards f WHERE 1 = 1 {sc}", "f.tema_id")
-    cuad = n("SELECT COUNT(*) FROM cuadro_filas cf JOIN cuadros cu ON cu.id = cf.cuadro_id "
-             "WHERE 1 = 1 {sc}", "cu.tema_id")
+def contar_disponibles(tipo, ambito, dificultad, procedencia=None):
+    sql, pr = filtro_preguntas(ambito, dificultad, procedencia)
+    tests = consulta(f"SELECT COUNT(*) FROM preguntas p WHERE 1 = 1 {sql}", pr)[0][0]
+    sc, pr = scope_sql("f.tema_id", ambito)
+    flash = consulta(f"SELECT COUNT(*) FROM flashcards f WHERE 1 = 1 {sc}", pr)[0][0]
+    sc, pr = scope_sql("cu.tema_id", ambito)
+    cuad = consulta("SELECT COUNT(*) FROM cuadro_filas cf JOIN cuadros cu ON cu.id = cf.cuadro_id "
+                    f"WHERE 1 = 1 {sc}", pr)[0][0]
     return {"test": tests, "flash": flash, "cuadros": cuad, "mixto": tests + flash + cuad}.get(tipo, 0)
+
+
+# ---------- Exámenes oficiales y supuestos ----------
+
+def listar_examenes():
+    return [dict(r) for r in consulta("""
+        SELECT e.id, e.anio, e.modelo, e.convocatoria,
+               (SELECT COUNT(*) FROM examen_preguntas ep WHERE ep.examen_id = e.id AND ep.seccion = 'teorica') AS n_teo,
+               (SELECT COUNT(*) FROM examen_preguntas ep WHERE ep.examen_id = e.id AND ep.seccion = 'reserva') AS n_res
+        FROM examenes e ORDER BY e.anio DESC, e.modelo""")]
+
+
+def listar_supuestos(examen_id=None):
+    sql = """SELECT s.id, s.examen_id, s.numero, s.titulo, s.bloque_id, e.anio, e.modelo,
+                    (SELECT COUNT(*) FROM supuesto_preguntas sp WHERE sp.supuesto_id = s.id AND sp.es_reserva = 0) AS n,
+                    (SELECT COUNT(*) FROM supuesto_preguntas sp WHERE sp.supuesto_id = s.id AND sp.es_reserva = 1) AS n_res
+             FROM supuestos s LEFT JOIN examenes e ON e.id = s.examen_id"""
+    pr = []
+    if examen_id:
+        sql += " WHERE s.examen_id = ?"
+        pr.append(examen_id)
+    return [dict(r) for r in consulta(sql + " ORDER BY e.anio DESC, e.modelo, s.numero", pr)]
+
+
+def cargar_examen_seccion(examen_id, seccion):
+    filas = consulta(SQL_PREG + """
+        JOIN examen_preguntas ep ON ep.pregunta_id = p.id
+        WHERE ep.examen_id = ? AND ep.seccion = ? ORDER BY ep.numero""", (examen_id, seccion))
+    return _items_tests(filas)
+
+
+def cargar_supuesto(supuesto_id, incluir_reserva=False):
+    filas = consulta(SQL_PREG + f"""
+        JOIN supuesto_preguntas sp ON sp.pregunta_id = p.id
+        WHERE sp.supuesto_id = ? {'' if incluir_reserva else 'AND sp.es_reserva = 0'}
+        ORDER BY sp.es_reserva, sp.numero_en_supuesto""", (supuesto_id,))
+    return _items_tests(filas)
+
+
+def cargar_examen_completo(examen_id):
+    items = cargar_examen_seccion(examen_id, "teorica")
+    for s in listar_supuestos(examen_id):
+        items += cargar_supuesto(s["id"])
+    return items
 
 
 # ============================================================
@@ -778,8 +960,8 @@ def validar_respuesta_cloze(entrada, respuestas_correctas):
     return any(normalizar(c) == entrada_norm for c in respuestas_correctas)
 
 
-# Admite {c1::texto} y {{c1::texto}}
-CLOZE_RE = re.compile(r"\{\{?c(\d+)::(.+?)\}\}?")
+# Admite {{c1::texto}}, {c1::texto} y {{texto}}
+CLOZE_RE = re.compile(r"\{\{c\d+::(.+?)\}\}|\{c\d+::(.+?)\}|\{\{(.+?)\}\}")
 
 
 def partes_cloze(texto):
@@ -788,7 +970,7 @@ def partes_cloze(texto):
     for m in CLOZE_RE.finditer(texto or ""):
         if m.start() > pos:
             partes.append(("t", texto[pos:m.start()]))
-        partes.append(("b", m.group(2)))
+        partes.append(("b", next(g for g in m.groups() if g is not None)))
         pos = m.end()
     if pos < len(texto or ""):
         partes.append(("t", texto[pos:]))
@@ -827,7 +1009,7 @@ def iniciar(items, titulo):
 
 def responder(item, respuesta):
     """Registra la respuesta en el SRS y en los contadores de la sesión."""
-    res = actualizar_srs(item["item_key"], respuesta)
+    res = actualizar_srs(item["item_key"], respuesta, item.get("espejos", ()))
     if respuesta == "otra_vez":
         st.session_state["fallos"] = st.session_state.get("fallos", 0) + 1
     else:
@@ -872,11 +1054,82 @@ def _nav_cambiada():
 # WIDGETS DE ÍTEM
 # ============================================================
 
+SIGLAS = {"tls", "ssl", "ip", "tcp", "udp", "http", "https", "dns", "smtp", "imap", "pop3", "url", "api",
+          "sql", "cpd", "vpn", "lan", "wan", "dhcp", "ftp", "ssh", "rest", "xml", "html", "css", "ens", "eni"}
+
+
+ACENTOS = {"descripcion": "descripción", "organo": "órgano", "composicion": "composición",
+           "mayoria": "mayoría", "estandar": "estándar", "configuracion": "configuración"}
+
+
+def nombre_columna(nombre):
+    """'puerto_seguro_tls' -> 'Puerto seguro TLS'."""
+    palabras = str(nombre).replace("_", " ").split()
+    palabras = [p.upper() if p.lower() in SIGLAS else ACENTOS.get(p.lower(), p) for p in palabras]
+    texto = " ".join(palabras)
+    return texto[:1].upper() + texto[1:]
+
+
+def reflujo_texto(texto):
+    """Une las líneas cortadas por el PDF: un salto solo se mantiene tras un punto/dos puntos
+    o antes de un elemento de lista."""
+    lineas = [l.strip() for l in str(texto or "").splitlines()]
+    salida = []
+    for l in lineas:
+        if not l:
+            salida.append("")
+        elif (salida and salida[-1] and not re.search(r"[.:;?!]$", salida[-1])
+              and not re.match(r"^([-•+*]|\d+[.)])\s?", l)):
+            salida[-1] += " " + l
+        else:
+            salida.append(l)
+    return "\n".join(salida)
+
+
+def primera_del_supuesto(item, index):
+    items = st.session_state.get("items", [])
+    if index <= 0 or index >= len(items):
+        return True
+    previo = items[index - 1].get("supuesto")
+    return not previo or previo["id"] != item["supuesto"]["id"]
+
+
+ESTILO_CHIP_SUAVE = "background:var(--surface2);color:var(--muted)"
+ESTILO_CHIP_AVISO = "background:var(--warn_bg);color:var(--warn)"
+
+
+def md_escape(texto):
+    """Escapa Markdown para etiquetas de botón (LaTeX con $, cursivas con _ y *, HTML, :emoji:)."""
+    return re.sub(r"([\\`*_\[\]$~<>:])", r"\\\1", str(texto))
+
+
+def chips_pregunta(item):
+    chips = [("Test", "")]
+    if item.get("dificultad"):
+        chips.append((item["dificultad"], ESTILO_CHIP_SUAVE))
+    ex, sup = item.get("examen"), item.get("supuesto")
+    if ex:
+        parte = "Teórica" if ex["seccion"] == "teorica" else "Reserva"
+        chips.append((f"Examen {ex['label']} · {parte} {ex['numero']}", ESTILO_CHIP_SUAVE))
+    if sup:
+        pos = "Reserva" if sup["reserva"] else f"P{sup['numero']}"
+        chips.append((f"{sup['titulo']} {sup['examen']} · {pos}".replace("  ", " "), ESTILO_CHIP_SUAVE))
+    if (item.get("reuso") or 0) > 1:
+        chips.append((f"Repetida en {item['reuso']} exámenes", ESTILO_CHIP_SUAVE))
+    if not item.get("verificado", True):
+        chips.append(("Sin verificar", ESTILO_CHIP_AVISO))
+    return "".join(f'<span class="tag" style="{e}">{esc(t)}</span>' if e else f'<span class="tag">{esc(t)}</span>'
+                   for t, e in chips)
+
+
 def render_pregunta_test(item, index, total):
-    dif = item.get("dificultad")
-    chip_dif = f'<span class="tag" style="background:var(--surface2);color:var(--muted)">{esc(dif)}</span>' if dif else ""
+    sup = item.get("supuesto")
+    if sup and sup["texto"]:
+        with st.expander(f"📄 {sup['titulo']} · enunciado", expanded=primera_del_supuesto(item, index)):
+            st.markdown(f'<div class="expl" style="margin:0;max-height:22rem;overflow:auto">'
+                        f'{esc(reflujo_texto(sup["texto"]))}</div>', unsafe_allow_html=True)
     st.markdown(
-        f'<div class="card"><div><span class="tag">Test</span>{chip_dif}</div>'
+        f'<div class="card"><div>{chips_pregunta(item)}</div>'
         f'<div class="q">{esc(item["enunciado"])}</div></div>',
         unsafe_allow_html=True,
     )
@@ -900,7 +1153,7 @@ def render_pregunta_test(item, index, total):
                 f'<div class="{clase}"><span class="letter">{letra}</span>'
                 f'<span>{esc(opcion)}</span>{nota_html}</div>', unsafe_allow_html=True)
         else:
-            if st.button(f"{letra})  {opcion}", key=f"opt_{item['item_key']}_{i}", use_container_width=True):
+            if st.button(f"{letra})  {md_escape(opcion)}", key=f"opt_{item['item_key']}_{i}", use_container_width=True):
                 st.session_state["respuesta_actual"] = i
                 responder(item, "bien" if i == correcta else "otra_vez")
                 st.rerun()
@@ -925,9 +1178,11 @@ def render_pregunta_test(item, index, total):
 def _frente_dorso(item):
     """HTML de la cara y del reverso de una flashcard o cuadro."""
     if item["tipo"] == "cuadro":
-        pista = str(item["resp_nombre"]).replace("_", " ").capitalize()
+        pista = nombre_columna(item["resp_nombre"])
+        ctx = (f'{esc(nombre_columna(item["ctx_nombre"]))}: <b>{esc(item["ctx"])}</b> · '
+               if item.get("ctx") else "")
         frente = (f'<div class="q">{esc(item["clave"])}</div>'
-                  f'<div class="hint">¿{esc(pista)}?</div>')
+                  f'<div class="hint">{ctx}¿{esc(pista)}?</div>')
         ref = f'<div class="ref">📖 {esc(item["fuente"])}</div>' if item.get("fuente") else ""
         dorso = f'<div class="back"><b>{esc(item["respuesta"])}</b></div>{ref}'
         etiqueta = f"Cuadro · {item['titulo']}"
@@ -1084,7 +1339,8 @@ def resumen_item(item):
     if t == "card":
         return item["anverso"], item["reverso"]
     if t == "cuadro":
-        return f"{item['titulo']}: {item['clave']}", item["respuesta"]
+        ctx = f" ({item['ctx_nombre']}: {item['ctx']})" if item.get("ctx") else ""
+        return f"{item['titulo']}: {item['clave']}{ctx}", item["respuesta"]
     if t == "cloze":
         q = "".join(v if k == "t" else "____" for k, v in partes_cloze(item["texto"])) or item["texto"]
         return q, " · ".join(respuestas_cloze(item))
@@ -1138,10 +1394,10 @@ def pantalla_hoy():
 
     with card("hero_hoy"):
         if s["hoy"] > 0:
-            tipos = pendientes_por_tipo()
-            etiquetas = {"test": "📝 tests", "card": "🎴 flashcards", "cloze": "✏️ huecos", "cuadro": "🗂️ cuadros"}
-            chips = "".join(f'<span class="chip">{etiquetas.get(t, t)} · {n}</span>' for t, n in tipos.items())
-            st.markdown(f'<div class="big">{s["hoy"]}<small>ítems para repasar hoy</small></div>'
+            chips = (f'<span class="chip">🔁 {s["repasos"]} repasos</span>'
+                     f'<span class="chip">✨ {s["nuevos_hoy"]} nuevos</span>'
+                     f'<span class="chip">cupo de nuevos {s["nuevos_hechos"]}/{nuevos_por_dia()}</span>')
+            st.markdown(f'<div class="big">{s["hoy"]}<small>ítems para hoy</small></div>'
                         f'<div class="chips">{chips}</div>', unsafe_allow_html=True)
             st.caption("Tamaño de la sesión")
             n = st.radio("Tamaño", [10, 20, 30, 50], index=1, horizontal=True,
@@ -1154,10 +1410,17 @@ def pantalla_hoy():
                 else:
                     st.warning("No hay ítems disponibles ahora mismo.")
         else:
+            extra = (f'<span class="chip">cupo de nuevos {s["nuevos_hechos"]}/{nuevos_por_dia()}</span>'
+                     if s["nuevo"] else "")
             st.markdown('<div class="big" style="font-size:2rem">🎉 Todo al día</div>'
-                        '<div class="chips"><span class="chip">No quedan repasos pendientes hoy</span></div>',
+                        f'<div class="chips"><span class="chip">No quedan repasos pendientes hoy</span>{extra}</div>',
                         unsafe_allow_html=True)
-            st.button("🎯  Practicar algo más", type="primary", use_container_width=True, key="go_practicar_extra",
+            if s["nuevo"]:
+                if st.button(f"✨  Aprender 10 nuevos más ({s['nuevo']} sin empezar)", type="primary",
+                             use_container_width=True, key="go_mas_nuevos"):
+                    if iniciar(cargar_items_nuevos(10), "Ítems nuevos"):
+                        st.rerun()
+            st.button("🎯  Practicar algo más", use_container_width=True, key="go_practicar_extra",
                       on_click=_ir_a, args=(PAGINAS[1],))
 
     c1, c2, c3, c4 = st.columns(4)
@@ -1181,8 +1444,7 @@ def pantalla_hoy():
         prog = sum(t["n_prog"] for t in b["temas"])
         porap = sum(t["n_porap"] for t in b["temas"])
         nuevo = sum(t["n_nuevo"] for t in b["temas"])
-        listos = sum(1 for t in b["temas"] if t["estado_ingesta"] != "pendiente")
-        meta = f"{listos} de {len(b['temas'])} temas con contenido" + (f" · {n} ítems" if n else "")
+        meta = f"{len(b['temas'])} temas · {n} ítems" + (f" · {round(dom / n * 100)}% dominado" if n else "")
         st.markdown(
             f'<div class="row {"" if n else "muted"}" style="margin-bottom:.5rem">'
             f'<div class="t">Bloque {romano(b["numero"])} · {esc(b["nombre"])}</div>'
@@ -1195,26 +1457,44 @@ def pantalla_hoy():
 # ============================================================
 
 TIPOS_PRACTICA = {
-    "test": "📝  Test · preguntas tipo oposición (A–D)",
+    "test": "📝  Test · preguntas tipo oposición",
     "flash": "🎴  Flashcards · anverso/reverso y huecos",
-    "cuadros": "🗂️  Cuadros · plazos, mayorías, composiciones",
+    "cuadros": "🗂️  Cuadros · plazos, puertos, composiciones",
     "mixto": "🔀  Mixto · un poco de todo",
-    "preparado": "📋  Tests preparados · simulacros ya generados",
+    "examen": "📜  Exámenes oficiales · convocatorias anteriores",
+    "supuesto": "🧩  Supuestos prácticos · con su enunciado",
+    "preparado": "📋  Tests preparados · ya generados",
     "debiles": "🎯  Puntos débiles · lo que más fallas",
 }
 
 
 def opciones_ambito():
     """Lista de (etiqueta, ambito) con contenido disponible."""
+    bloques = listar_bloques_temas()
     opciones = [("Todo el temario", ("todo", None))]
-    for b in listar_bloques_temas():
+    for b in bloques:
         if any(t["n_items"] for t in b["temas"]):
             opciones.append((f"Bloque {romano(b['numero'])} · {b['nombre']}", ("bloque", b["id"])))
-    for b in listar_bloques_temas():
+    for b in bloques:
         for t in b["temas"]:
             if t["n_items"]:
                 opciones.append((f"Tema {t['numero']}: {t['titulo']}", ("tema", t["id"])))
     return opciones
+
+
+def etiqueta_scope(scope):
+    """Nombre legible del ámbito de un test preparado (examen, tema o nada)."""
+    if not scope:
+        return ""
+    if scope.startswith("examen-"):
+        e = next((x for x in listar_examenes() if x["id"] == scope), None)
+        return f"TAI {etiqueta_examen(e['anio'], e['modelo'])}" if e else scope
+    m = re.match(r"tema-(\d+)", scope)
+    return f"Tema {int(m.group(1))}" if m else scope
+
+
+def bloque_de(bloque_id):
+    return (bloque_id or "").split("-")[-1].upper()
 
 
 def pantalla_practicar():
@@ -1229,24 +1509,65 @@ def pantalla_practicar():
     if st.session_state.get("prac_ambito") not in etiquetas:
         st.session_state["prac_ambito"] = etiquetas[0]
 
-    items_fn, titulo, disponibles = None, "", 0
+    items_fn, titulo, disponibles, ordenado = None, "", 0, False
     with card("card_lanzador"):
-        ambito, dificultad = ("todo", None), None
+        ambito, dificultad, procedencia = ("todo", None), None, None
         if tipo == "preparado":
-            tests = consulta("SELECT * FROM tests_practica ORDER BY fecha_generacion DESC, id DESC")
+            tests = consulta("""SELECT t.*, (SELECT COUNT(*) FROM test_practica_preguntas tp
+                                              JOIN preguntas p ON p.id = tp.pregunta_id
+                                              WHERE tp.test_id = t.id) AS n_real
+                                FROM tests_practica t ORDER BY t.fecha_generacion DESC, t.id DESC""")
             if not tests:
                 st.info("Todavía no hay tests preparados.")
                 return
-            mapa = {f"{t['tipo'].capitalize()} · {t['fecha_generacion']} · {t['n_preguntas']} preguntas": t["id"]
-                    for t in tests}
+            mapa = {}
+            for t in tests:
+                ambito_t = etiqueta_scope(t["scope"])
+                mapa[f"{t['tipo'].capitalize()} · {t['fecha_generacion']} · {t['n_real']} preguntas"
+                     + (f" · {ambito_t}" if ambito_t else "") + f" ({t['id'][-6:]})"] = t["id"]
             sel = st.selectbox("Test", list(mapa))
             test_id = mapa[sel]
-            disponibles = consulta("SELECT COUNT(*) FROM test_practica_preguntas WHERE test_id = ?", (test_id,))[0][0]
+            disponibles = next(t["n_real"] for t in tests if t["id"] == test_id)
             items_fn = lambda n: cargar_test_preparado(test_id)
-            titulo = "Test preparado"
+            titulo, ordenado = "Test preparado", True
+        elif tipo == "examen":
+            examenes = listar_examenes()
+            mapa = {f"TAI {etiqueta_examen(e['anio'], e['modelo'])}": e for e in examenes}
+            ex = mapa[st.selectbox("Convocatoria", list(mapa), key="prac_examen")]
+            sups = listar_supuestos(ex["id"])
+            partes = {f"Parte teórica · {ex['n_teo']} preguntas": ("teorica", None, ex["n_teo"])}
+            if ex["n_res"]:
+                partes[f"Reserva teórica · {ex['n_res']} preguntas"] = ("reserva", None, ex["n_res"])
+            for sp in sups:
+                partes[f"{sp['titulo']} (bloque {bloque_de(sp['bloque_id'])}) · {sp['n']} preguntas"] = \
+                    ("supuesto", sp["id"], sp["n"])
+            partes["Examen completo · teórica + supuestos, sin reserva"] = \
+                ("completo", None, ex["n_teo"] + sum(sp["n"] for sp in sups))
+            parte, ref, disponibles = partes[st.selectbox("Parte", list(partes), key="prac_parte")]
+            titulo = f"TAI {etiqueta_examen(ex['anio'], ex['modelo'])}"
+            ordenado = True
+            if parte in ("teorica", "reserva"):
+                items_fn = lambda n: cargar_examen_seccion(ex["id"], parte)
+            elif parte == "supuesto":
+                items_fn = lambda n: cargar_supuesto(ref)
+            else:
+                items_fn = lambda n: cargar_examen_completo(ex["id"])
+            st.caption("Se hacen en el orden del examen. Las preguntas sin verificar también se incluyen.")
+        elif tipo == "supuesto":
+            sups = listar_supuestos()
+            if not sups:
+                st.info("Todavía no hay supuestos.")
+                return
+            mapa = {f"{sp['titulo']} · {etiqueta_examen(sp['anio'], sp['modelo'])} · bloque "
+                    f"{bloque_de(sp['bloque_id'])}": sp for sp in sups}
+            sp = mapa[st.selectbox("Supuesto", list(mapa), key="prac_supuesto")]
+            reserva = st.toggle("Incluir las preguntas de reserva", key="prac_reserva")
+            disponibles = sp["n"] + (sp["n_res"] if reserva else 0)
+            items_fn = lambda n: cargar_supuesto(sp["id"], reserva)
+            titulo, ordenado = sp["titulo"], True
+            st.caption("El enunciado del supuesto se muestra encima de cada pregunta.")
         elif tipo == "debiles":
-            disponibles = consulta("""SELECT COUNT(*) FROM srs_items
-                WHERE veces_fallada > 0 OR ultima_respuesta IN ('otra_vez', 'dificil')""")[0][0]
+            disponibles = contar_debiles()
             items_fn = lambda n: cargar_items_debiles(n)
             titulo = "Puntos débiles"
             st.caption("Ítems que has fallado o marcado como difíciles, los más fallados primero.")
@@ -1254,21 +1575,25 @@ def pantalla_practicar():
             etiqueta_a = st.selectbox("Ámbito", etiquetas, key="prac_ambito")
             ambito = dict(ambitos)[etiqueta_a]
             if tipo in ("test", "mixto"):
-                st.caption("Dificultad")
+                st.caption("Procedencia de las preguntas")
+                p = st.radio("Procedencia", ["Todas", "De examen", "Elaboradas"], horizontal=True,
+                             label_visibility="collapsed", key="pill_procedencia")
+                procedencia = {"De examen": "examen", "Elaboradas": "elaborada"}.get(p)
+                st.caption("Dificultad (las preguntas de examen no la tienen)")
                 d = st.radio("Dificultad", ["Todas", "Baja", "Media", "Alta"], horizontal=True,
                              label_visibility="collapsed", key="pill_dificultad")
                 dificultad = None if d == "Todas" else d.lower()
-            disponibles = contar_disponibles(tipo, ambito, dificultad)
+            disponibles = contar_disponibles(tipo, ambito, dificultad, procedencia)
             titulo = {"test": "Test", "flash": "Flashcards", "cuadros": "Cuadros", "mixto": "Mixto"}[tipo]
 
-            def items_fn(n, tipo=tipo, ambito=ambito, dificultad=dificultad):
+            def items_fn(n, tipo=tipo, ambito=ambito, dificultad=dificultad, procedencia=procedencia):
                 if tipo == "test":
-                    return cargar_tests(ambito, dificultad, n)
+                    return cargar_tests(ambito, dificultad, n, procedencia)
                 if tipo == "flash":
                     return cargar_flashcards(ambito, n)
                 if tipo == "cuadros":
                     return cargar_cuadros(ambito, n)
-                mezcla = (cargar_tests(ambito, dificultad, n) + cargar_flashcards(ambito, n)
+                mezcla = (cargar_tests(ambito, dificultad, n, procedencia) + cargar_flashcards(ambito, n)
                           + cargar_cuadros(ambito, n))
                 random.shuffle(mezcla)
                 return mezcla[:n]
@@ -1277,16 +1602,18 @@ def pantalla_practicar():
             st.warning("No hay ítems con esos filtros.")
             return
 
-        if tipo == "preparado":
+        if ordenado:
             n = disponibles
-            st.caption(f"{disponibles} preguntas en este test, en el orden original.")
+            st.caption(f"{disponibles} preguntas, en el orden original.")
         else:
             tope = min(50, disponibles)
             if tope > 5:
                 n = st.slider("Número de ítems", 5, tope, min(20, tope), 5)
             else:
                 n = tope
-            st.caption(f"{disponibles} ítems disponibles.")
+            st.caption(f"{disponibles} ítems disponibles."
+                       + (" Solo preguntas verificadas (se cambia en Ajustes)."
+                          if tipo in ("test", "mixto", "debiles") and solo_verificadas() else ""))
 
         if st.button(f"▶  Empezar · {n} ítems", type="primary", use_container_width=True, key="go_practica"):
             if iniciar(items_fn(n), titulo):
@@ -1298,37 +1625,64 @@ def pantalla_practicar():
 # PÁGINA: TEMARIO
 # ============================================================
 
+def fila_tema(t, bloque=None):
+    """Una fila del temario: progreso, peso en examen, fuentes y estado de verificación."""
+    chips = []
+    if t["estado_ingesta"] == "completo":
+        chips.append('<span class="chip ok">✔ temario completo</span>')
+    else:
+        chips.append('<span class="chip">solo preguntas de examen</span>')
+    if t["n_examenes"]:
+        chips.append(f'<span class="chip">📊 ~{t["media_preg"]:.1f} preguntas/examen · {t["n_examenes"]} convocatorias</span>')
+    if t["n_fuentes"]:
+        chips.append(f'<span class="chip">📄 {t["n_fuentes"]} fuente{"s" if t["n_fuentes"] != 1 else ""}</span>')
+    if t["sin_verif"]:
+        chips.append(f'<span class="chip dif-media">⚠ {t["sin_verif"]} sin verificar</span>')
+    if bloque:
+        chips.insert(0, f'<span class="chip">Bloque {romano(bloque["numero"])}</span>')
+    if t["n_items"] == 0:
+        meta = "Sin ítems disponibles con los filtros actuales"
+        barra = ""
+    else:
+        pct = round(t["n_dom"] / t["n_items"] * 100)
+        meta = f'{t["n_items"]} ítems · {pct}% dominado · {t["n_hoy"]} repaso{"s" if t["n_hoy"] != 1 else ""} para hoy · {t["n_nuevo"]} nuevos'
+        barra = barra_estados(t["n_dom"], t["n_prog"], t["n_porap"], t["n_nuevo"])
+    c1, c2 = st.columns([5, 1.5], vertical_alignment="center")
+    with c1:
+        st.markdown(
+            f'<div class="row {"muted" if t["n_items"] == 0 else ""}" style="margin-bottom:.4rem">'
+            f'<div class="t">Tema {t["numero"]} · {esc(t["titulo"])}</div>'
+            f'<div class="m">{esc(meta)}</div>'
+            f'<div class="chips" style="margin:.1rem 0 .6rem 0">{"".join(chips)}</div>{barra}</div>',
+            unsafe_allow_html=True)
+    with c2:
+        if t["n_items"]:
+            st.button("Practicar", key=f"prac_{t['id']}", use_container_width=True,
+                      on_click=_ir_a, args=(PAGINAS[1],),
+                      kwargs={"tipo_practica": "mixto",
+                              "prac_ambito": f"Tema {t['numero']}: {t['titulo']}"})
+
+
 def pantalla_temario():
     cabecera("Temario", "Tu progreso tema a tema.", "Programa")
-    for b in listar_bloques_temas():
+    st.caption("Ordenar por")
+    orden = st.radio("Orden", ["Temario", "Peso en examen"], horizontal=True,
+                     label_visibility="collapsed", key="pill_orden_temario")
+    bloques = listar_bloques_temas()
+    if orden == "Peso en examen":
+        st.caption("Media de preguntas por examen en las convocatorias cargadas: dónde se juega más puntuación.")
+        todos = [(t, b) for b in bloques for t in b["temas"]]
+        for t, b in sorted(todos, key=lambda x: (-(x[0]["media_preg"] or 0), x[0]["numero"])):
+            fila_tema(t, b)
+        return
+    for b in bloques:
         st.markdown(
             f'<div class="bloque"><span class="n">{romano(b["numero"])}</span>'
             f'<span class="t">{esc(b["nombre"])}</span></div>'
             f'<div class="d" style="color:var(--muted);font-size:.82rem;margin:-.4rem 0 .7rem 0">{esc(b["descripcion"] or "")}</div>',
             unsafe_allow_html=True)
-        pendientes = []
         for t in b["temas"]:
-            if t["n_items"] == 0:
-                pendientes.append(t)
-                continue
-            pct = round(t["n_dom"] / t["n_items"] * 100)
-            c1, c2 = st.columns([5, 1.5], vertical_alignment="center")
-            with c1:
-                st.markdown(
-                    f'<div class="row"><div class="t">Tema {t["numero"]} · {esc(t["titulo"])}</div>'
-                    f'<div class="m">{t["n_items"]} ítems · {pct}% dominado · {t["n_hoy"]} para hoy</div>'
-                    f'{barra_estados(t["n_dom"], t["n_prog"], t["n_porap"], t["n_nuevo"])}</div>',
-                    unsafe_allow_html=True)
-            with c2:
-                st.button("Practicar", key=f"prac_{t['id']}", use_container_width=True,
-                          on_click=_ir_a, args=(PAGINAS[1],),
-                          kwargs={"tipo_practica": "mixto",
-                                  "prac_ambito": f"Tema {t['numero']}: {t['titulo']}"})
-        if pendientes:
-            with st.expander(f"Temas pendientes de incorporar ({len(pendientes)})"):
-                for t in pendientes:
-                    st.markdown(f'<div class="m" style="color:var(--muted);padding:.15rem 0">'
-                                f'Tema {t["numero"]} · {esc(t["titulo"])}</div>', unsafe_allow_html=True)
+            fila_tema(t)
 
 
 # ============================================================
@@ -1359,13 +1713,15 @@ def pantalla_material():
         for cu in cuadros:
             cols = _parse_json(cu["columnas"], [])
             filas = consulta("SELECT * FROM cuadro_filas WHERE cuadro_id = ? ORDER BY id", (cu["id"],))
-            cab = "".join(f"<th>{esc(str(c).replace('_', ' '))}</th>" for c in cols) + "<th>Fuente</th>"
+            cab = "".join(f"<th>{esc(nombre_columna(c))}</th>" for c in cols) + "<th>Fuente</th>"
             cuerpo = ""
             for f in filas:
                 v = _parse_json(f["valores"], {})
                 cuerpo += "<tr>" + "".join(f"<td>{esc(v.get(c, ''))}</td>" for c in cols) \
                           + f'<td class="f">{esc(f["fuente"] or "")}</td></tr>'
             st.markdown(f"### {cu['titulo']}")
+            if cu["tema_numero"]:
+                st.caption(f"Tema {cu['tema_numero']}")
             st.markdown(f'<table class="tabla"><thead><tr>{cab}</tr></thead><tbody>{cuerpo}</tbody></table>',
                         unsafe_allow_html=True)
             st.write("")
@@ -1415,10 +1771,11 @@ def pantalla_progreso():
         st.markdown(f'<div class="spark">{barras}</div>', unsafe_allow_html=True)
 
     st.markdown("### Puntos débiles")
-    filas = consulta(SQL_SRS + """
-        WHERE s.veces_fallada > 0 ORDER BY s.veces_fallada DESC LIMIT 8""")
-    debiles = [(f, _fila_a_item(f)) for f in filas]
-    debiles = [(f, i) for f, i in debiles if i]
+    filas = consulta(f"""
+        SELECT s.item_key, s.veces_fallada, s.veces_acertada {SRS_FROM}
+        WHERE s.veces_fallada > 0 {srs_filtro()} ORDER BY s.veces_fallada DESC LIMIT 8""")
+    conteo = {f["item_key"]: f for f in filas}
+    debiles = [(conteo[i["item_key"]], i) for i in resolver_items(list(conteo))]
     if not debiles:
         st.markdown('<div class="row muted">Todavía no hay fallos registrados. ¡Buen comienzo!</div>',
                     unsafe_allow_html=True)
@@ -1453,7 +1810,13 @@ def sidebar():
 
     st.sidebar.divider()
     st.sidebar.toggle("🌙  Modo oscuro", key="oscuro")
-    st.sidebar.caption(f"Versión 0.3 · BD: {DB_PATH.name}")
+    with st.sidebar.expander("⚙️  Ajustes"):
+        st.toggle("Solo preguntas verificadas", key="solo_verif",
+                  help="Oculta del repaso y de la práctica libre las preguntas sin verificar. "
+                       "Los exámenes y supuestos oficiales las incluyen siempre.")
+        st.number_input("Ítems nuevos por día", min_value=0, max_value=500, step=5, key="nuevos_dia",
+                        help="Máximo de ítems sin empezar que se añaden al repaso diario.")
+    st.sidebar.caption(f"Versión 0.4 · BD: {DB_PATH.name}")
 
 
 # ============================================================
@@ -1472,86 +1835,6 @@ def tema_inicial():
     st.session_state["oscuro"] = oscuro
 
 
-def pantalla_analisis():
-    st.markdown("## 📊 Análisis de exámenes oficiales")
-    st.caption("Frecuencia por tema, reutilización de preguntas y tendencia entre convocatorias.")
-    conn = sqlite3.connect(DB_PATH)
-    conn.row_factory = sqlite3.Row
-
-    # Métricas globales
-    n_exam = conn.execute("SELECT COUNT(*) FROM examenes").fetchone()[0]
-    n_apar = conn.execute("SELECT COUNT(*) FROM examen_preguntas").fetchone()[0]
-    n_dist = conn.execute("SELECT COUNT(DISTINCT enunciado) FROM preguntas WHERE id LIKE 'pendiente-examen-%'").fetchone()[0]
-    n_reused = conn.execute("SELECT COUNT(*) FROM pregunta_reuso WHERE n_examenes > 1").fetchone()[0]
-    c1,c2,c3,c4 = st.columns(4)
-    c1.metric("Exámenes", n_exam)
-    c2.metric("Apariciones", n_apar)
-    c3.metric("Enunciados distintos", n_dist)
-    c4.metric("Reutilización", f"{round(100*(n_apar-n_dist)/n_apar,1)}%")
-
-    # Top temas
-    st.markdown("### Top 15 temas por media de preguntas/examen")
-    rows = conn.execute("""
-        SELECT numero, titulo, media_preg, min_preg, max_preg, n_examenes
-        FROM v_tendencia_temas ORDER BY media_preg DESC LIMIT 15
-    """).fetchall()
-    if rows:
-        data = [{"Tema": r["numero"], "Media": r["media_preg"], "Min": r["min_preg"],
-                 "Max": r["max_preg"], "Exámenes": r["n_examenes"],
-                 "Título": (r["titulo"] or "")[:50]} for r in rows]
-        st.dataframe(data, use_container_width=True, hide_index=True)
-
-    # Tendencia
-    st.markdown("### Tendencia (últimos 3 exámenes vs anteriores)")
-    exam_ids = [r[0] for r in conn.execute("SELECT id FROM examenes ORDER BY anio, modelo").fetchall()]
-    recent = set(exam_ids[-3:]) if len(exam_ids) >= 3 else set(exam_ids)
-    older = set(exam_ids[:-3]) if len(exam_ids) > 3 else set()
-    trend = []
-    for tid, num, tit in conn.execute("SELECT id, numero, titulo FROM temas ORDER BY numero").fetchall():
-        mr = conn.execute("SELECT AVG(n_preguntas) FROM examen_stats_tema WHERE tema_id=? AND examen_id IN (%s)" % ",".join("'%s'"%e for e in recent), (tid,)).fetchone()[0] or 0
-        mo = 0
-        if older:
-            mo = conn.execute("SELECT AVG(n_preguntas) FROM examen_stats_tema WHERE tema_id=? AND examen_id IN (%s)" % ",".join("'%s'"%e for e in older), (tid,)).fetchone()[0] or 0
-        delta = ((mr-mo)/mo*100) if mo else 0
-        tend = "⬆️ Subiendo" if delta >= 20 else ("⬇️ Bajando" if delta <= -20 else "➡️ Estable")
-        trend.append({"Tema": num, "Reciente": round(mr,1), "Anterior": round(mo,1),
-                      "Δ%": round(delta,1), "Tendencia": tend, "Título": (tit or "")[:45]})
-    # mostrar solo cambios + top estable
-    changed = [t for t in trend if t["Tendencia"] != "➡️ Estable"]
-    if changed:
-        st.dataframe(sorted(changed, key=lambda x: -abs(x["Δ%"])), use_container_width=True, hide_index=True)
-    else:
-        st.info("Sin cambios significativos (>20%) entre periodos.")
-
-    # Top conceptos
-    st.markdown("### Top 20 conceptos por número de exámenes")
-    crows = conn.execute("""
-        SELECT c.nombre, COUNT(DISTINCT esc.examen_id) n_exam, SUM(esc.n_preguntas) n_preg
-        FROM examen_stats_concepto esc JOIN conceptos c ON c.id=esc.concepto_id
-        GROUP BY esc.concepto_id ORDER BY n_exam DESC, n_preg DESC LIMIT 20
-    """).fetchall()
-    if crows:
-        st.dataframe([{"Concepto": r["nombre"], "Exámenes": r["n_exam"], "Preguntas": r["n_preg"]} for r in crows],
-                     use_container_width=True, hide_index=True)
-
-    # Reuso detalle
-    st.markdown("### Preguntas más reutilizadas")
-    rrows = conn.execute("""
-        SELECT p.id, p.enunciado, pr.n_examenes, pr.opciones_identical
-        FROM pregunta_reuso pr JOIN preguntas p ON p.id=pr.pregunta_id
-        WHERE pr.n_examenes > 1
-        GROUP BY p.enunciado
-        ORDER BY pr.n_examenes DESC, p.id
-        LIMIT 15
-    """).fetchall()
-    if rrows:
-        st.dataframe([{"Enunciado": (r["enunciado"] or "")[:90], "Exámenes": r["n_examenes"],
-                       "Opciones idénticas": "✅" if r["opciones_identical"] else "⚠️"} for r in rrows],
-                     use_container_width=True, hide_index=True)
-
-    conn.close()
-
-
 def main():
     if not DB_PATH.exists():
         st.error(f"No se encuentra la base de datos en `{DB_PATH}`.")
@@ -1559,6 +1842,8 @@ def main():
 
     tema_inicial()
     st.session_state.setdefault("pagina", PAGINAS[0])
+    st.session_state.setdefault("solo_verif", True)
+    st.session_state.setdefault("nuevos_dia", 20)
     sidebar()
     inyectar_tema()
 
@@ -1574,7 +1859,6 @@ def main():
             PAGINAS[2]: pantalla_temario,
             PAGINAS[3]: pantalla_material,
             PAGINAS[4]: pantalla_progreso,
-            PAGINAS[5]: pantalla_analisis,
         }[st.session_state["pagina"]]()
 
 
