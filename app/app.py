@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
-app_v4.py — TAI Oposición (Streamlit). Adaptada a la nueva estructura de la BD
-(supuestos, exámenes, fichas gemelas sup:, cupo de nuevos, procedencia de preguntas).
+app_v5.py — TAI Oposición (Streamlit). Interfaz nueva: barra superior, hoja de examen con óvalos,
+subrayador amarillo como único acento. Misma lógica de datos que la v4.
 
 Arranque:
     cd ~/oposicion
@@ -40,266 +40,302 @@ FACTORES = {
 EASE_MIN = 1.3
 EASE_MAX = 3.0
 
-PAGINAS = ["🏠  Hoy", "🎯  Practicar", "📚  Temario", "🗂️  Material", "📈  Progreso"]
+PAGINAS = ["Hoy", "Practicar", "Temario", "Material", "Progreso"]
 DIAS = ["lunes", "martes", "miércoles", "jueves", "viernes", "sábado", "domingo"]
 MESES = ["enero", "febrero", "marzo", "abril", "mayo", "junio", "julio",
          "agosto", "septiembre", "octubre", "noviembre", "diciembre"]
 
 st.set_page_config(
     page_title="TAI Oposición",
-    page_icon="🎓",
-    layout="centered",
-    initial_sidebar_state="expanded",
+    page_icon="✏️",
+    layout="wide",
+    initial_sidebar_state="collapsed",
 )
 
 # ============================================================
 # TEMA (CLARO / OSCURO)
+#   claro  = papel de cuaderno con subrayador amarillo
+#   oscuro = pizarra verde con tiza y el mismo subrayador
 # ============================================================
 
 PALETAS = {
     "claro": {
-        "bg": "#F5F6FA", "surface": "#FFFFFF", "surface2": "#EEF0F7",
-        "text": "#1A1D2B", "muted": "#677089", "border": "#E1E4EE",
-        "accent": "#4F46E5", "accent_hover": "#4338CA", "accent_soft": "#EEF0FF",
-        "on_accent": "#FFFFFF",
-        "ok": "#16A34A", "ok_bg": "#E8F7EE", "ok_text": "#15803D",
-        "bad": "#DC2626", "bad_bg": "#FDECEC", "bad_text": "#B91C1C",
-        "warn": "#D97706", "warn_bg": "#FEF3E2",
-        "shadow": "0 1px 2px rgba(20,24,40,.05), 0 6px 18px rgba(20,24,40,.05)",
+        "bg": "#F1F3EF", "surface": "#FFFFFF", "surface2": "#E6EAE5",
+        "text": "#14201B", "muted": "#58675F", "border": "#CDD5CF",
+        "mark": "#FFD43B", "mark_soft": "#FFF0AD", "on_mark": "#14201B",
+        "ok": "#1E8E4E", "ok_bg": "#DDF3E6", "ok_text": "#146B3A",
+        "bad": "#C93A2E", "bad_bg": "#FBE3E0", "bad_text": "#A12A20",
+        "warn": "#B26A00", "warn_bg": "#FFEACB",
+        "margen": "#E9B7B1",
         "scheme": "light",
     },
     "oscuro": {
-        "bg": "#0D1020", "surface": "#161A2D", "surface2": "#20253F",
-        "text": "#E8EAF5", "muted": "#98A1BB", "border": "#2A3050",
-        "accent": "#818CF8", "accent_hover": "#A5B0FF", "accent_soft": "#252A4D",
-        "on_accent": "#0D1020",
-        "ok": "#4ADE80", "ok_bg": "#12301F", "ok_text": "#4ADE80",
-        "bad": "#F87171", "bad_bg": "#361719", "bad_text": "#F87171",
-        "warn": "#FBBF24", "warn_bg": "#35290F",
-        "shadow": "0 1px 2px rgba(0,0,0,.4), 0 8px 22px rgba(0,0,0,.35)",
+        "bg": "#14211C", "surface": "#1C2D26", "surface2": "#263A31",
+        "text": "#EBF1ED", "muted": "#9FB3A9", "border": "#34493F",
+        "mark": "#FFD43B", "mark_soft": "#4A4519", "on_mark": "#14201B",
+        "ok": "#62D48D", "ok_bg": "#1A3A28", "ok_text": "#7FE0A3",
+        "bad": "#FF8F80", "bad_bg": "#432220", "bad_text": "#FF9F92",
+        "warn": "#FFC45C", "warn_bg": "#43361A",
+        "margen": "#5B3A38",
         "scheme": "dark",
     },
 }
 
 CSS_BASE = """
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,500..900&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&display=swap');
+
+:root { --display: "Archivo", "Arial Narrow", system-ui, sans-serif;
+        --cuerpo: "Atkinson Hyperlegible", "Segoe UI", system-ui, -apple-system, sans-serif; }
 
 /* ---------- Base ---------- */
 html, body, .stApp, [data-testid="stAppViewContainer"], [data-testid="stMain"] {
     background: var(--bg) !important; color: var(--text); color-scheme: var(--scheme);
 }
-.stApp, .stApp p, .stApp label, .stApp li, .stApp button, .stApp input, .stApp textarea {
-    font-family: "Inter", "Segoe UI", system-ui, -apple-system, sans-serif;
+.stApp, .stApp p, .stApp label, .stApp li, .stApp button, .stApp input, .stApp textarea, .stApp td, .stApp th {
+    font-family: var(--cuerpo);
 }
-[data-testid="stHeader"] { background: transparent !important; }
-[data-testid="stDecoration"], [data-testid="stAppDeployButton"], footer { display: none !important; }
+[data-testid="stHeader"], [data-testid="stDecoration"], [data-testid="stAppDeployButton"],
+[data-testid="stSidebar"], [data-testid="stSidebarCollapsedControl"], footer { display: none !important; }
 [data-testid="stElementContainer"]:has(> [data-testid="stMarkdown"] style),
 [data-testid="stElementContainer"]:has(> [data-testid="stHtml"] style) { display: none; }
-.block-container { padding-top: 4.2rem; padding-bottom: 5rem; max-width: 780px; }
-.stApp h1, .stApp h2, .stApp h3, .stApp h4 { color: var(--text) !important; letter-spacing: -0.01em; }
+.block-container { padding-top: 1.1rem; padding-bottom: 5rem; max-width: 1120px; }
 .stApp p, .stApp li, .stMarkdown { color: var(--text); }
 [data-testid="stCaptionContainer"], .stApp small { color: var(--muted) !important; }
 hr { border-color: var(--border) !important; opacity: 1 !important; }
-h3 { font-size: 1.15rem !important; font-weight: 700 !important; margin-top: .6rem !important; }
+.stApp h1, .stApp h2, .stApp h3, .stApp h4 { font-family: var(--display); color: var(--text) !important;
+    font-stretch: 112%; font-variation-settings: "wdth" 112; letter-spacing: -.01em; }
+h3 { font-size: 1.25rem !important; font-weight: 800 !important; margin: 1.6rem 0 .5rem 0 !important; padding: 0 !important; }
+:focus-visible { outline: 3px solid var(--mark) !important; outline-offset: 2px; }
+@media (prefers-reduced-motion: reduce) { * { transition: none !important; animation: none !important; } }
 
-/* ---------- Sidebar ---------- */
-[data-testid="stSidebar"] { background: var(--surface) !important; border-right: 1px solid var(--border); }
-[data-testid="stSidebar"] * { color: var(--text); }
-[data-testid="stSidebar"] [data-testid="stCaptionContainer"] * { color: var(--muted) !important; }
-.brand { display:flex; align-items:center; gap:.7rem; margin: .2rem 0 1.1rem 0; }
-.brand .logo { width: 40px; height: 40px; border-radius: 12px; display:flex; align-items:center;
-    justify-content:center; font-size:1.25rem; background: linear-gradient(135deg, var(--accent), #A78BFA); }
-.brand .name { font-weight: 800; font-size: 1.1rem; line-height: 1.1; }
-.brand .sub { color: var(--muted); font-size: .78rem; }
-.side-stats { display:flex; gap:.5rem; margin: 1rem 0 .4rem 0; }
-.side-stats div { flex:1; background: var(--surface2); border-radius: 12px; padding: .55rem .7rem; }
-.side-stats b { display:block; font-size: 1.15rem; }
-.side-stats small { color: var(--muted) !important; font-size: .7rem; text-transform: uppercase; letter-spacing: .05em; }
+/* ---------- Barra superior ---------- */
+.st-key-topbar { border-bottom: 2px solid var(--text); padding-bottom: .55rem; margin-bottom: 1.8rem; }
+.marca { font-family: var(--display); font-weight: 900; font-stretch: 125%; font-variation-settings: "wdth" 125;
+    font-size: 1.35rem; line-height: 1; letter-spacing: -.01em; white-space: nowrap; }
+.marca b { background: var(--mark); color: var(--on_mark); padding: .12em .32em .1em; border-radius: 3px; margin-right: .3em; }
+.marca span { font-weight: 600; font-stretch: 100%; font-variation-settings: "wdth" 100; }
+.sesion-titulo { font-weight: 700; color: var(--muted); }
 
-/* Radios: ocultan el círculo y se ven como píldoras / tarjetas */
+/* radios sin círculo: navegación, segmentos y menú */
 [class*="st-key-nav"] label[data-testid="stRadioOption"] > div > div:first-child,
 [class*="st-key-pill_"] label[data-testid="stRadioOption"] > div > div:first-child,
 [class*="st-key-tipo"] label[data-testid="stRadioOption"] > div > div:first-child,
 [class*="st-key-nav"] [data-baseweb="radio"] > div:first-child,
 [class*="st-key-pill_"] [data-baseweb="radio"] > div:first-child,
 [class*="st-key-tipo"] [data-baseweb="radio"] > div:first-child { display: none; }
-[class*="st-key-nav"] div[role="radiogroup"] { gap: .25rem; }
-[class*="st-key-nav"] label { padding: .6rem .8rem; border-radius: 12px; width: 100%; cursor: pointer; transition: background .15s; }
-[class*="st-key-nav"] label:hover { background: var(--surface2); }
-[class*="st-key-nav"] label:has(input:checked) { background: var(--accent_soft); }
-[class*="st-key-nav"] label:has(input:checked) p { color: var(--accent) !important; font-weight: 700; }
-[class*="st-key-pill_"] div[role="radiogroup"] { gap: .4rem; flex-wrap: wrap; }
-[class*="st-key-pill_"] label { padding: .35rem .95rem; border-radius: 999px; border: 1px solid var(--border);
-    background: var(--surface); cursor: pointer; transition: all .15s; }
-[class*="st-key-pill_"] label:hover { border-color: var(--accent); }
-[class*="st-key-pill_"] label:has(input:checked) { background: var(--accent); border-color: var(--accent); }
-[class*="st-key-pill_"] label:has(input:checked) p { color: var(--on_accent) !important; font-weight: 700; }
-[class*="st-key-tipo"] div[role="radiogroup"] { display: grid !important; grid-template-columns: 1fr 1fr; gap: .55rem; }
-[class*="st-key-tipo"] div[role="radiogroup"] { width: 100%; }
-[class*="st-key-tipo"] div[role="radiogroup"] > div { width: 100%; }
-@media (max-width: 640px) { [class*="st-key-tipo"] div[role="radiogroup"] { grid-template-columns: 1fr; } }
-[class*="st-key-tipo"] label { padding: .8rem 1rem; border-radius: 14px; border: 1px solid var(--border);
-    background: var(--surface); width: 100%; cursor: pointer; transition: all .15s; }
-[class*="st-key-tipo"] label:hover { border-color: var(--accent); }
-[class*="st-key-tipo"] label:has(input:checked) { border-color: var(--accent); background: var(--accent_soft); box-shadow: 0 0 0 1px var(--accent); }
 
-/* ---------- Cabeceras de página ---------- */
-.hero { margin-bottom: 1.2rem; }
-.hero .eyebrow { color: var(--muted); font-size: .85rem; font-weight: 600; }
-.hero .eyebrow::first-letter { text-transform: uppercase; }
-.hero h1 { font-size: 2rem; margin: .1rem 0 .25rem 0; font-weight: 800; }
-.hero p { color: var(--muted) !important; margin: 0; }
+[class*="st-key-nav"] div[role="radiogroup"] { gap: .1rem; flex-wrap: wrap; }
+[class*="st-key-nav"] label { padding: .35rem .8rem; border-radius: 4px; cursor: pointer; }
+[class*="st-key-nav"] label p { font-weight: 700; font-size: 1rem; color: var(--muted) !important; }
+[class*="st-key-nav"] label:hover p { color: var(--text) !important; }
+[class*="st-key-nav"] label:has(input:checked) { background: linear-gradient(transparent 58%, var(--mark) 58%, var(--mark) 92%, transparent 92%); }
+[class*="st-key-nav"] label:has(input:checked) p { color: var(--text) !important; }
 
-/* ---------- Tarjetas ---------- */
-[class*="st-key-card_"], [class*="st-key-hero_"] {
-    background: var(--surface); border: 1px solid var(--border); border-radius: 18px;
-    padding: 1.2rem 1.3rem; box-shadow: var(--shadow); margin-bottom: .9rem;
-}
-[class*="st-key-hero_"] { border-left: 5px solid var(--accent); }
-.big { font-size: 2.8rem; font-weight: 800; line-height: 1; color: var(--accent); }
-.big small { font-size: 1rem; font-weight: 600; color: var(--muted) !important; margin-left: .4rem; }
-.chips { display:flex; flex-wrap:wrap; gap:.4rem; margin: .7rem 0 .9rem 0; }
-.chip { font-size: .78rem; font-weight: 600; padding: .22rem .65rem; border-radius: 999px;
-    background: var(--surface2); color: var(--muted); }
-.chip.dif-baja { background: var(--ok_bg); color: var(--ok_text); }
-.chip.dif-media { background: var(--warn_bg); color: var(--warn); }
-.chip.dif-alta { background: var(--bad_bg); color: var(--bad_text); }
-.card { background: var(--surface); border: 1px solid var(--border); border-radius: 18px;
-    padding: 1.4rem 1.5rem; box-shadow: var(--shadow); margin-bottom: 1rem; }
-.card .tag { display:inline-block; font-size:.72rem; font-weight:700; letter-spacing:.06em; text-transform:uppercase;
-    color: var(--accent); background: var(--accent_soft); padding: .2rem .65rem; border-radius: 999px; margin: 0 .4rem .8rem 0; }
-.card .q { font-size: 1.2rem; font-weight: 650; line-height: 1.55; color: var(--text); }
-.card .hint { color: var(--muted); margin-top: .5rem; }
-.card .back { font-size: 1.05rem; line-height: 1.6; color: var(--text); }
-.card .divider { height:1px; background: var(--border); margin: 1.1rem 0; }
-.card .ref { color: var(--muted); font-size: .85rem; margin-top: .6rem; }
-.blank { display:inline-block; min-width: 2.2rem; text-align:center; font-weight:700; color: var(--accent);
-    background: var(--accent_soft); border-bottom: 2px solid var(--accent); border-radius: 6px 6px 0 0; padding: 0 .5rem; margin: 0 .15rem; }
-.fill { display:inline-block; font-weight:700; padding: 0 .5rem; border-radius: 6px; margin: 0 .1rem; }
+/* segmentos (tamaño, procedencia, dificultad, orden) */
+[class*="st-key-pill_"] div[role="radiogroup"] { gap: 0; flex-wrap: wrap; }
+[class*="st-key-pill_"] label { padding: .4rem 1rem; border: 1.5px solid var(--text); margin-left: -1.5px; cursor: pointer;
+    background: var(--surface); }
+[class*="st-key-pill_"] label:first-of-type { border-radius: 6px 0 0 6px; margin-left: 0; }
+[class*="st-key-pill_"] label:last-of-type { border-radius: 0 6px 6px 0; }
+[class*="st-key-pill_"] label:hover { background: var(--mark_soft); }
+[class*="st-key-pill_"] label:has(input:checked) { background: var(--mark); }
+[class*="st-key-pill_"] label p { font-weight: 700; color: var(--text) !important; }
+[class*="st-key-pill_"] label:has(input:checked) p { color: var(--on_mark) !important; }
+
+/* menú de tipos de práctica */
+[class*="st-key-tipo"] div[role="radiogroup"] { gap: 0; width: 100%; flex-direction: column; align-items: stretch; }
+[class*="st-key-tipo"] label[data-testid="stRadioOption"] { display: flex; width: 100%; box-sizing: border-box; padding: .72rem 1rem; cursor: pointer;
+    border-left: 5px solid transparent; border-bottom: 1px solid var(--border); border-radius: 0; }
+[class*="st-key-tipo"] label p { font-weight: 700; font-size: 1.02rem; }
+[class*="st-key-tipo"] label[data-testid="stRadioOption"]:hover { background: var(--surface2); }
+[class*="st-key-tipo"] label[data-testid="stRadioOption"]:has(input:checked) { background: var(--surface); border-left-color: var(--mark); }
+
+/* ---------- Titulares y paneles ---------- */
+.titular { font-family: var(--display); font-weight: 800; font-stretch: 118%; font-variation-settings: "wdth" 118;
+    font-size: clamp(1.9rem, 4.6vw, 3.1rem); line-height: 1.04; letter-spacing: -.02em; margin: 0 0 .5rem 0; text-wrap: balance; }
+.titular.menor { font-size: clamp(1.6rem, 3.4vw, 2.3rem); }
+.fecha { color: var(--muted); font-weight: 700; margin: 0 0 .5rem 0; }
+.fecha::first-letter { text-transform: uppercase; }
+.lead { color: var(--muted); font-size: 1.08rem; margin: 0 0 1.4rem 0; max-width: 46ch; }
+
+[class*="st-key-panel_"] { background: var(--surface); border: 1px solid var(--border); border-radius: 8px;
+    padding: 1.3rem 1.4rem; margin-bottom: 1.1rem; }
+[class*="st-key-panel_"] > div { gap: .7rem; }
+.sub { font-family: var(--display); font-weight: 800; font-stretch: 112%; font-variation-settings: "wdth" 112;
+    font-size: 1.05rem; margin: 0 0 .1rem 0; }
+.nota { color: var(--muted); font-size: .92rem; }
+
+.cifras { display: flex; flex-wrap: wrap; margin: .4rem 0 1.4rem 0; }
+.cifras > div { padding: 0 1.6rem 0 0; margin-right: 1.6rem; border-right: 1.5px solid var(--border); }
+.cifras > div:last-child { border-right: 0; }
+.cifras b { display: block; font-family: var(--display); font-size: 1.9rem; font-weight: 800; line-height: 1.1;
+    font-stretch: 112%; font-variation-settings: "wdth" 112; font-variant-numeric: tabular-nums; }
+.cifras span { color: var(--muted); font-size: .9rem; }
+
+.tag { display: inline-block; font-size: .82rem; font-weight: 700; padding: .12rem .55rem; border: 1.5px solid var(--border);
+    border-radius: 4px; color: var(--muted); margin: 0 .35rem .45rem 0; }
+.tag.fuerte { background: var(--mark); border-color: var(--mark); color: var(--on_mark); }
+.tag.aviso { background: var(--warn_bg); border-color: var(--warn_bg); color: var(--warn); }
+.chips { display: flex; flex-wrap: wrap; gap: .3rem .9rem; margin: .3rem 0 .6rem 0; color: var(--muted); font-size: .9rem; }
+.chips .aviso { color: var(--warn); font-weight: 700; }
+
+/* ---------- Hoja de examen ---------- */
+.hoja { position: relative; background: var(--surface); border: 1.5px solid var(--text); border-radius: 10px;
+    padding: 1.5rem 1.7rem 1.5rem 3.2rem; margin-bottom: 1rem;
+    background-image: linear-gradient(90deg, transparent 2.2rem, var(--margen) 2.2rem, var(--margen) calc(2.2rem + 2px), transparent calc(2.2rem + 2px));
+    box-shadow: 4px 4px 0 var(--text); }
+.hoja .q { font-size: 1.28rem; font-weight: 700; line-height: 1.5; }
+.hoja .hint { color: var(--muted); margin-top: .5rem; }
+.hoja .back { font-size: 1.12rem; line-height: 1.6; }
+.hoja .divider { height: 0; border-top: 2px dashed var(--border); margin: 1.1rem 0; }
+.hoja .ref { color: var(--muted); font-size: .9rem; margin-top: .6rem; }
+.blank { display: inline-block; min-width: 2.2rem; text-align: center; font-weight: 800; color: var(--on_mark);
+    background: var(--mark); border-radius: 3px; padding: 0 .5rem; margin: 0 .15rem; }
+.fill { display: inline-block; font-weight: 700; padding: 0 .45rem; border-radius: 3px; margin: 0 .1rem; }
 .fill.ok { background: var(--ok_bg); color: var(--ok_text); }
 .fill.bad { background: var(--bad_bg); color: var(--bad_text); }
-.fill s { opacity: .7; font-weight: 500; margin-right: .3rem; }
+.fill s { opacity: .7; font-weight: 400; margin-right: .3rem; }
 
-/* ---------- Estadísticas ---------- */
-.stat { background: var(--surface); border: 1px solid var(--border); border-radius: 16px; padding: .95rem 1.05rem;
-    box-shadow: var(--shadow); height: 100%; }
-.stat .v { font-size: 1.65rem; font-weight: 800; color: var(--text); line-height: 1.1; }
-.stat .l { font-size: .74rem; color: var(--muted); text-transform: uppercase; letter-spacing: .05em; margin-top: .3rem; }
-.stat.accent .v { color: var(--accent); }
-.stat.ok .v { color: var(--ok_text); }
+/* texto del supuesto */
+.enunciado { background: var(--mark_soft); border-radius: 8px; padding: 1rem 1.2rem; line-height: 1.6; max-height: 70vh; overflow: auto; }
+.enunciado-t { font-family: var(--display); font-weight: 800; margin: 0 0 .4rem 0; }
 
-/* ---------- Barras ---------- */
-.pbar { height: 8px; background: var(--surface2); border-radius: 999px; overflow: hidden; }
-.pbar > div { height: 100%; background: linear-gradient(90deg, var(--accent), #A78BFA); border-radius: 999px; transition: width .3s; }
-.sbar { display:flex; height: 10px; border-radius: 999px; overflow:hidden; background: var(--surface2); }
-.sbar span { display:block; height:100%; }
-.legend { display:flex; flex-wrap:wrap; gap:.9rem; margin-top: .7rem; font-size: .8rem; color: var(--muted); }
-.legend i { display:inline-block; width:.6rem; height:.6rem; border-radius:50%; margin-right:.35rem; }
-.ptop { display:flex; align-items:center; gap:.8rem; }
-.ptop .pbar { flex: 1; }
-.ptop .n { color: var(--muted); font-size: .85rem; font-variant-numeric: tabular-nums; white-space: nowrap; }
-.live { display:flex; gap:.4rem; margin: .5rem 0 1rem 0; }
-.live .chip.ok { background: var(--ok_bg); color: var(--ok_text); }
-.live .chip.bad { background: var(--bad_bg); color: var(--bad_text); }
-
-/* ---------- Filas (temas, bloques) ---------- */
-.row { background: var(--surface); border: 1px solid var(--border); border-radius: 14px; padding: .8rem 1rem; }
-.row .t { font-weight: 650; line-height: 1.35; }
-.row .m { color: var(--muted); font-size: .8rem; margin: .15rem 0 .5rem 0; }
-.row.muted { opacity: .65; }
-.bloque { display:flex; align-items:baseline; gap:.6rem; margin: 1.6rem 0 .6rem 0; }
-.bloque .n { font-weight: 800; color: var(--accent); }
-.bloque .t { font-weight: 700; font-size: 1.05rem; }
-.bloque .d { color: var(--muted); font-size: .82rem; }
-
-/* ---------- Opciones del test ---------- */
-.opt { display:flex; gap:.75rem; align-items:flex-start; padding: .8rem 1rem; margin-bottom:.5rem;
-    border: 1px solid var(--border); border-radius: 14px; background: var(--surface); color: var(--text); line-height: 1.45; }
-.opt .letter { flex: 0 0 auto; width: 1.8rem; height: 1.8rem; border-radius: 9px; display:flex; align-items:center;
-    justify-content:center; font-weight:700; font-size:.85rem; background: var(--surface2); color: var(--muted); }
-.opt.ok { background: var(--ok_bg); border-color: var(--ok); }
-.opt.ok .letter { background: var(--ok); color: var(--bg); }
-.opt.bad { background: var(--bad_bg); border-color: var(--bad); }
-.opt.bad .letter { background: var(--bad); color: var(--bg); }
-.opt .note { margin-left:auto; font-size:.76rem; font-weight:700; white-space:nowrap; }
+/* ---------- Opciones ---------- */
+.opt { display: flex; gap: .85rem; align-items: flex-start; padding: .75rem 1rem; margin-bottom: .5rem;
+    border: 1.5px solid var(--border); border-radius: 8px; background: var(--surface); line-height: 1.45; }
+.opt .letter { flex: 0 0 auto; width: 2.1rem; height: 1.5rem; border-radius: 999px; border: 1.5px solid var(--muted);
+    display: flex; align-items: center; justify-content: center; font-weight: 800; font-size: .88rem; color: var(--muted); margin-top: .05rem; }
+.opt.ok { border-color: var(--ok); background: var(--ok_bg); }
+.opt.ok .letter { background: var(--ok); border-color: var(--ok); color: var(--bg); }
+.opt.bad { border-color: var(--bad); background: var(--bad_bg); }
+.opt.bad .letter { background: var(--bad); border-color: var(--bad); color: var(--bg); }
+.opt .note { margin-left: auto; font-size: .85rem; font-weight: 700; white-space: nowrap; }
 .opt.ok .note { color: var(--ok_text); }
 .opt.bad .note { color: var(--bad_text); }
 .opt.dim { opacity: .55; }
-.verdict { border-radius: 14px; padding: .8rem 1rem; font-weight: 700; margin: .9rem 0 .7rem 0; }
-.verdict small { font-weight: 500; opacity: .85; margin-left: .5rem; }
-.verdict.ok { background: var(--ok_bg); color: var(--ok_text); }
-.verdict.bad { background: var(--bad_bg); color: var(--bad_text); }
-.expl { background: var(--surface); border: 1px solid var(--border); border-left: 4px solid var(--accent);
-    border-radius: 14px; padding: .9rem 1.1rem; color: var(--text); line-height: 1.55; margin-bottom: .8rem; }
-.expl .ref { color: var(--muted); font-size: .85rem; margin-top: .5rem; }
-.keys { color: var(--muted); font-size: .78rem; text-align:center; margin-top: 1rem; }
-.keys kbd { background: var(--surface2); border: 1px solid var(--border); border-radius: 5px; padding: 0 .4rem; font-size: .75rem; }
+.veredicto { font-family: var(--display); font-weight: 800; font-size: 1.2rem; margin: 1rem 0 .6rem 0; }
+.veredicto small { font-family: var(--cuerpo); font-weight: 400; margin-left: .6rem; }
+.veredicto.ok { color: var(--ok_text); }
+.veredicto.bad { color: var(--bad_text); }
+.expl { border-left: 4px solid var(--mark); padding: .3rem 0 .3rem 1rem; line-height: 1.6; margin: 0 0 1rem 0; }
+.expl .ref { color: var(--muted); font-size: .9rem; margin-top: .4rem; }
+.atajos { color: var(--muted); font-size: .85rem; margin-top: 1rem; }
+.atajos kbd { background: var(--surface); border: 1.5px solid var(--border); border-bottom-width: 3px; border-radius: 4px;
+    padding: 0 .4rem; font-family: var(--cuerpo); font-size: .82rem; }
 
-/* ---------- Resumen ---------- */
-.ring { --p: 0; width: 132px; height: 132px; border-radius: 50%; margin: 0 auto 1rem auto; display:grid; place-items:center;
-    background: conic-gradient(var(--ok) calc(var(--p) * 1%), var(--surface2) 0); }
-.ring div { width: 100px; height: 100px; border-radius: 50%; background: var(--bg); display:grid; place-items:center;
-    font-size: 1.7rem; font-weight: 800; color: var(--text); }
-.center { text-align:center; }
+/* ---------- Sesión: tira de marcas ---------- */
+.tira { display: flex; gap: 2px; align-items: center; overflow: hidden; }
+.tira i { flex: 1 1 0; height: 12px; min-width: 0; border-radius: 2px; background: var(--surface2); }
+.tira i.ok { background: var(--ok); }
+.tira i.bad { background: var(--bad); }
+.tira i.ahora { background: var(--mark); box-shadow: 0 0 0 2px var(--text); }
+.cuenta { font-variant-numeric: tabular-nums; color: var(--muted); font-weight: 700; white-space: nowrap; }
+.cuenta b { color: var(--text); }
 
-/* ---------- Gráfico de actividad ---------- */
-.spark { display:flex; align-items:flex-end; gap:.35rem; height: 130px; }
-.spark .c { flex:1; display:flex; flex-direction:column; align-items:center; justify-content:flex-end; height:100%; gap:.3rem; }
-.spark .b { width:100%; border-radius: 6px 6px 2px 2px; background: linear-gradient(180deg, var(--accent), #A78BFA); min-height: 3px; }
-.spark .b.zero { background: var(--surface2); }
-.spark span { font-size:.68rem; color: var(--muted); }
+/* ---------- Barras y mapa ---------- */
+.sbar { display: flex; height: 12px; border-radius: 3px; overflow: hidden; background: var(--surface2); gap: 2px; }
+.sbar span { display: block; height: 100%; }
+.sbar.fina { height: 6px; }
+.legend { display: flex; flex-wrap: wrap; gap: .3rem 1.2rem; margin-top: .7rem; font-size: .9rem; color: var(--muted); }
+.legend i { display: inline-block; width: .8rem; height: .8rem; border-radius: 2px; margin-right: .4rem; vertical-align: -1px; }
+.mapa { display: grid; grid-template-columns: repeat(7, 1fr); gap: 5px; }
+.mapa i { aspect-ratio: 1; border-radius: 4px; display: flex; align-items: center; justify-content: center;
+    font-style: normal; font-size: .78rem; font-weight: 700; color: var(--muted); }
+.mapa i.hoy { outline: 2px solid var(--text); outline-offset: 1px; }
+.mapa i.n { color: var(--on_mark); }
+
+/* ---------- Listas (bloques, temas, fallos) ---------- */
+.fila-bloque { display: grid; grid-template-columns: minmax(10rem, 17rem) 1fr 5rem; gap: 1rem; align-items: center;
+    padding: .65rem 0; border-bottom: 1px solid var(--border); }
+.fila-bloque .t { font-weight: 700; }
+.fila-bloque .m { color: var(--muted); font-size: .88rem; }
+.fila-bloque .p { text-align: right; font-weight: 800; font-family: var(--display); font-variant-numeric: tabular-nums; }
+@media (max-width: 640px) { .fila-bloque { grid-template-columns: 1fr 3.5rem; } .fila-bloque .barra { grid-column: 1 / -1; order: 3; } }
+.bloque { display: flex; align-items: baseline; gap: .8rem; margin: 2rem 0 .2rem 0; }
+.bloque .n { font-family: var(--display); font-weight: 900; font-size: 1.6rem; background: var(--mark); color: var(--on_mark);
+    padding: 0 .5rem; border-radius: 3px; }
+.bloque .t { font-family: var(--display); font-weight: 800; font-stretch: 112%; font-variation-settings: "wdth" 112; font-size: 1.2rem; }
+.tema { padding: .7rem 0 .8rem 0; border-bottom: 1px solid var(--border); }
+.tema.vacio { opacity: .6; }
+.tema .t { font-weight: 700; line-height: 1.35; }
+.tema .t b { font-family: var(--display); font-weight: 900; margin-right: .5rem; }
+.tema .m { color: var(--muted); font-size: .9rem; margin: .15rem 0 .45rem 0; }
+.peso { height: 4px; background: var(--surface2); border-radius: 2px; margin: .1rem 0 .5rem 0; max-width: 14rem; }
+.peso > div { height: 100%; background: var(--text); border-radius: 2px; }
+.fallo { padding: .7rem 0; border-bottom: 1px solid var(--border); }
+.fallo .t { font-weight: 700; }
+.fallo .m { color: var(--muted); font-size: .9rem; margin-top: .2rem; }
+.fallo .m b { color: var(--ok_text); }
+.grande { font-family: var(--display); font-weight: 900; font-stretch: 125%; font-variation-settings: "wdth" 125;
+    font-size: clamp(4rem, 12vw, 7rem); line-height: .95; letter-spacing: -.03em; }
+.grande small { font-size: 1.6rem; }
 
 /* ---------- Tablas (cuadros) ---------- */
-table.tabla { width:100%; border-collapse: separate; border-spacing: 0; border: 1px solid var(--border);
-    border-radius: 14px; overflow:hidden; background: var(--surface); font-size: .92rem; }
-table.tabla th { text-align:left; background: var(--surface2); color: var(--muted); font-size:.74rem;
-    text-transform: uppercase; letter-spacing:.05em; padding: .6rem .9rem; }
-table.tabla td { padding: .6rem .9rem; border-top: 1px solid var(--border); color: var(--text); }
-table.tabla td.f { color: var(--muted); font-size: .82rem; white-space: nowrap; }
+.tabla-wrap { overflow-x: auto; }
+table.tabla { width: 100%; border-collapse: collapse; font-size: .96rem; }
+table.tabla th { text-align: left; font-weight: 800; padding: .55rem .8rem; border-bottom: 2px solid var(--text); white-space: nowrap; }
+table.tabla td { padding: .55rem .8rem; border-bottom: 1px solid var(--border); vertical-align: top; }
+table.tabla tr:nth-child(even) td { background: color-mix(in srgb, var(--surface2) 45%, transparent); }
+table.tabla td.f { color: var(--muted); font-size: .84rem; white-space: nowrap; }
 
 /* ---------- Botones ---------- */
-.stButton > button, [data-testid="stFormSubmitButton"] > button {
-    border-radius: 12px; border: 1px solid var(--border); background: var(--surface); color: var(--text);
-    padding: .6rem 1rem; font-weight: 600; transition: all .15s ease; box-shadow: none; }
-.stButton > button:hover, [data-testid="stFormSubmitButton"] > button:hover {
-    border-color: var(--accent); color: var(--accent); background: var(--accent_soft); }
-.stButton > button:focus:not(:active) { border-color: var(--accent); color: var(--accent); }
-.stButton > button p, [data-testid="stFormSubmitButton"] > button p { color: inherit !important; }
+.stButton > button, [data-testid="stFormSubmitButton"] > button, [data-testid="stPopover"] > button {
+    border-radius: 6px; border: 1.5px solid var(--text); background: var(--surface); color: var(--text);
+    padding: .55rem 1.1rem; font-weight: 700; transition: background .12s; box-shadow: none; min-height: 2.6rem; }
+.stButton > button:hover, [data-testid="stFormSubmitButton"] > button:hover, [data-testid="stPopover"] > button:hover {
+    background: var(--mark_soft); border-color: var(--text); color: var(--text); }
+.stButton > button p, [data-testid="stFormSubmitButton"] > button p, [data-testid="stPopover"] > button p { color: inherit !important; font-weight: 700; }
 .stButton > button[kind="primary"], [data-testid="stFormSubmitButton"] > button[kind="primaryFormSubmit"] {
-    background: var(--accent); color: var(--on_accent); border-color: var(--accent); }
+    background: var(--mark); color: var(--on_mark); border-color: var(--text); box-shadow: 0 3px 0 var(--text); }
 .stButton > button[kind="primary"]:hover, [data-testid="stFormSubmitButton"] > button[kind="primaryFormSubmit"]:hover {
-    background: var(--accent_hover); border-color: var(--accent_hover); color: var(--on_accent); }
-.stButton > button:disabled { opacity: .5; }
-[class*="st-key-opt_"] button { justify-content: flex-start; text-align: left; padding: .8rem 1rem; }
-[class*="st-key-opt_"] button p { text-align: left; }
-[class*="st-key-salir"] button { border-color: transparent; background: transparent; color: var(--muted); }
+    background: var(--mark); filter: brightness(1.05); }
+.stButton > button[kind="primary"]:active { transform: translateY(3px); box-shadow: none; }
+.stButton > button:disabled { opacity: .45; }
+[class*="st-key-opt_"] button { justify-content: flex-start; text-align: left; padding: .75rem 1rem; border-color: var(--border);
+    border-width: 1.5px; min-height: 3rem; }
+[class*="st-key-opt_"] button:hover { border-color: var(--text); }
+[class*="st-key-opt_"] button > div, [class*="st-key-opt_"] button span { justify-content: flex-start !important; width: 100%; text-align: left; }
+[class*="st-key-opt_"] button [data-testid="stMarkdownContainer"], [class*="st-key-opt_"] button p {
+    display: block !important; white-space: normal !important; overflow: visible !important; text-overflow: clip !important;
+    -webkit-line-clamp: unset !important; -webkit-box-orient: initial !important; width: 100%; }
+[class*="st-key-opt_"] button p { text-align: left; font-weight: 400; font-size: 1.03rem; line-height: 1.45; }
+[class*="st-key-opt_"] button p::first-letter { font-weight: 800; font-size: .9rem; border: 1.5px solid var(--muted); border-radius: 999px;
+    padding: .05rem .7rem; margin-right: .5rem; color: var(--muted); }
+[class*="st-key-opt_"] button:hover p::first-letter { background: var(--mark); border-color: var(--text); color: var(--on_mark); }
+[class*="st-key-salir"] button { border-color: transparent; background: transparent; color: var(--muted); text-decoration: underline; }
+[class*="st-key-go_"] button, [class*="st-key-sig_"] button, [class*="st-key-sigc_"] button, [class*="st-key-rev_"] button { min-height: 3.1rem; font-size: 1.05rem; }
 
 /* ---------- Inputs ---------- */
-.stTextInput input, [data-baseweb="select"] > div, [data-baseweb="input"] {
-    background: var(--surface) !important; color: var(--text) !important;
-    border-color: var(--border) !important; border-radius: 12px !important; }
-[data-baseweb="select"] svg { fill: var(--muted); }
+.stTextInput input, [data-baseweb="select"] > div, [data-baseweb="input"], [data-baseweb="base-input"] {
+    background: var(--surface) !important; color: var(--text) !important; border-color: var(--text) !important; border-radius: 6px !important; }
+.stTextInput input { border: 1.5px solid var(--text) !important; }
+[data-baseweb="select"] svg { fill: var(--text); }
 [data-baseweb="popover"] *, ul[role="listbox"] { background: var(--surface) !important; color: var(--text) !important; }
-li[role="option"]:hover, li[aria-selected="true"] { background: var(--accent_soft) !important; }
-.stTextInput input:focus { border-color: var(--accent) !important; box-shadow: 0 0 0 1px var(--accent) !important; }
-[data-testid="stSlider"] [role="slider"] { background: var(--accent) !important; }
+[data-testid="stPopoverBody"], [data-testid="stPopoverBody"] > div { background: var(--surface) !important; color: var(--text) !important; }
+[data-testid="stPopoverBody"] { border: 1.5px solid var(--text); border-radius: 8px; }
+[data-testid="stPopoverBody"] label, [data-testid="stPopoverBody"] p, [data-testid="stPopoverBody"] [data-testid="stWidgetLabel"] * { color: var(--text) !important; }
+[data-testid="stPopoverBody"] [data-testid="stCaptionContainer"] * { color: var(--muted) !important; }
+[data-testid="stNumberInput"] input { color: var(--text) !important; background: var(--surface2) !important; }
+::placeholder { color: var(--muted) !important; opacity: 1 !important; }
+li[role="option"]:hover, li[aria-selected="true"] { background: var(--mark_soft) !important; }
+[data-testid="stSlider"] { filter: hue-rotate(48deg) saturate(1.4); }
+[data-testid="stSlider"] [data-testid="stSliderThumbValue"] { color: var(--text) !important; font-weight: 800; }
 [data-testid="stForm"] { border: none !important; padding: 0 !important; background: transparent !important; }
 [data-testid="stCheckbox"] label p { color: var(--text) !important; }
-[data-testid="stCheckbox"] label:has(input:checked) > div:nth-of-type(1) { background: var(--accent) !important; }
+[data-testid="stCheckbox"] label:has(input:checked) > div:nth-of-type(1) { background: var(--text) !important; }
+[data-testid="stWidgetLabel"] p { font-weight: 700; color: var(--text) !important; }
 
 /* ---------- Pestañas / expanders / alertas ---------- */
-[data-baseweb="tab-list"] { gap: .4rem; border-bottom: 1px solid var(--border); }
-[data-baseweb="tab"] { background: transparent !important; }
-[data-baseweb="tab"] p { color: var(--muted) !important; font-weight: 600; }
-[data-baseweb="tab"][aria-selected="true"] p { color: var(--accent) !important; }
-[data-baseweb="tab-highlight"], .react-aria-SelectionIndicator { background: var(--accent) !important; }
-[data-testid="stTab"][aria-selected="true"], [data-testid="stTab"][aria-selected="true"] p { color: var(--accent) !important; }
-[data-testid="stSlider"] [role="group"] { filter: hue-rotate(243deg) saturate(.8); }
+[data-baseweb="tab-list"] { gap: .3rem; border-bottom: 2px solid var(--text); }
+[data-baseweb="tab"], [data-testid="stTab"] { background: transparent !important; }
+[data-baseweb="tab"] p, [data-testid="stTab"] p { color: var(--muted) !important; font-weight: 800; font-size: 1rem; }
+[data-baseweb="tab"][aria-selected="true"] p, [data-testid="stTab"][aria-selected="true"] p { color: var(--text) !important; }
+[data-baseweb="tab-highlight"], .react-aria-SelectionIndicator { background: var(--mark) !important; height: 5px !important; }
 [data-baseweb="tab-border"] { background: transparent !important; }
-[data-testid="stExpander"] { background: var(--surface); border: 1px solid var(--border) !important; border-radius: 14px; box-shadow: none; }
-[data-testid="stExpander"] summary, [data-testid="stExpander"] summary * { color: var(--text) !important; }
-[data-testid="stAlert"] { border-radius: 14px; border: 1px solid var(--border); background: var(--surface); }
+[data-testid="stExpander"] { background: var(--surface); border: 1px solid var(--border) !important; border-radius: 8px; box-shadow: none; }
+[data-testid="stExpander"] summary, [data-testid="stExpander"] summary * { color: var(--text) !important; font-weight: 700; }
+[data-testid="stAlert"] { border-radius: 8px; border: 1.5px solid var(--text); background: var(--mark_soft); }
 [data-testid="stAlert"] * { color: var(--text) !important; }
 </style>
 """
@@ -316,7 +352,7 @@ JS_ATAJOS = """
       var btns = Array.prototype.slice.call(d.querySelectorAll('button'));
       var txt = function (b) { return (b.innerText || '').trim(); };
       var k = e.key.toLowerCase(), target = null;
-      var opts = btns.filter(function (b) { return /^[A-D]\\)/.test(txt(b)); });
+      var opts = btns.filter(function (b) { return /^[A-D]\\s/.test(txt(b)); });
       if (opts.length && /^[a-d1-4]$/.test(k)) {
         var i = isNaN(parseInt(k)) ? k.charCodeAt(0) - 97 : parseInt(k) - 1;
         target = opts[i];
@@ -363,40 +399,37 @@ def embed_html(codigo, height):
         components.html(codigo, height=height)
 
 
-def card(key):
-    """Contenedor con aspecto de tarjeta (usa la clave para el estilo)."""
+def panel(key):
+    """Contenedor con aspecto de panel (la clave aplica el estilo)."""
     try:
-        return st.container(key=key)
+        return st.container(key=f"panel_{key}")
     except TypeError:
         return st.container(border=True)
 
 
-def stat_card(label, valor, clase=""):
-    return f'<div class="stat {clase}"><div class="v">{esc(valor)}</div><div class="l">{esc(label)}</div></div>'
+def num(x, dec=1):
+    """Número con coma decimal."""
+    return f"{x:.{dec}f}".replace(".", ",")
 
 
-def barra_progreso(pct):
-    pct = max(0, min(100, pct))
-    return f'<div class="pbar"><div style="width:{pct:.1f}%"></div></div>'
-
-
-def barra_estados(dom, prog, porap, nuevo):
+def barra_estados(dom, prog, porap, nuevo, fina=False):
     total = dom + prog + porap + nuevo
+    cls = "sbar fina" if fina else "sbar"
     if total == 0:
-        return '<div class="sbar"></div>'
+        return f'<div class="{cls}"></div>'
 
     def seg(n, c):
         return f'<span style="width:{n / total * 100:.2f}%;background:var(--{c})"></span>' if n else ""
 
-    return f'<div class="sbar">{seg(dom, "ok")}{seg(prog, "accent")}{seg(porap, "warn")}{seg(nuevo, "border")}</div>'
+    return f'<div class="{cls}">{seg(dom, "ok")}{seg(prog, "text")}{seg(porap, "mark")}{seg(nuevo, "border")}</div>'
 
 
 def leyenda(dom, prog, porap, nuevo):
     def it(c, n, t):
         return f'<span><i style="background:var(--{c})"></i>{n} {t}</span>'
 
-    return ('<div class="legend">' + it("ok", dom, "dominados") + it("accent", prog, "en progreso")
-            + it("warn", porap, "por aprender") + it("border", nuevo, "sin empezar") + "</div>")
+    return ('<div class="legend">' + it("ok", dom, "dominados") + it("text", prog, "en progreso")
+            + it("mark", porap, "por aprender") + it("border", nuevo, "sin empezar") + "</div>")
 
 
 def texto_intervalo(n):
@@ -419,10 +452,8 @@ def saludo():
     return "Buenos días" if h < 14 else ("Buenas tardes" if h < 21 else "Buenas noches")
 
 
-def cabecera(titulo, sub="", eyebrow=""):
-    eb = f'<div class="eyebrow">{esc(eyebrow)}</div>' if eyebrow else ""
-    sb = f"<p>{esc(sub)}</p>" if sub else ""
-    st.markdown(f'<div class="hero">{eb}<h1>{esc(titulo)}</h1>{sb}</div>', unsafe_allow_html=True)
+def plural(n, uno, varios):
+    return f"{n} {uno if n == 1 else varios}"
 
 
 # ============================================================
@@ -987,7 +1018,7 @@ def respuestas_cloze(item):
 # ============================================================
 
 CLAVES_SESION = ["items", "index", "modo", "aciertos", "fallos", "errores", "titulo_sesion",
-                 "respuesta_actual", "mostrar_reverso", "cloze_res", "ultimo_intervalo"]
+                 "respuesta_actual", "mostrar_reverso", "cloze_res", "ultimo_intervalo", "marcas"]
 
 
 def limpiar_sesion():
@@ -1002,7 +1033,7 @@ def iniciar(items, titulo):
     limpiar_sesion()
     st.session_state.update({
         "items": items, "index": 0, "aciertos": 0, "fallos": 0, "errores": [],
-        "modo": "sesion", "titulo_sesion": titulo,
+        "modo": "sesion", "titulo_sesion": titulo, "marcas": [],
     })
     return True
 
@@ -1018,6 +1049,7 @@ def responder(item, respuesta):
         errores = st.session_state.setdefault("errores", [])
         if not any(e["item_key"] == item["item_key"] for e in errores):
             errores.append(item)
+    st.session_state.setdefault("marcas", []).append("bad" if respuesta == "otra_vez" else "ok")
     st.session_state["ultimo_intervalo"] = res["intervalo"] if res else None
     return res
 
@@ -1050,13 +1082,14 @@ def _nav_cambiada():
     limpiar_sesion()
 
 
+
+
 # ============================================================
 # WIDGETS DE ÍTEM
 # ============================================================
 
 SIGLAS = {"tls", "ssl", "ip", "tcp", "udp", "http", "https", "dns", "smtp", "imap", "pop3", "url", "api",
           "sql", "cpd", "vpn", "lan", "wan", "dhcp", "ftp", "ssh", "rest", "xml", "html", "css", "ens", "eni"}
-
 
 ACENTOS = {"descripcion": "descripción", "organo": "órgano", "composicion": "composición",
            "mayoria": "mayoría", "estandar": "estándar", "configuracion": "configuración"}
@@ -1086,50 +1119,32 @@ def reflujo_texto(texto):
     return "\n".join(salida)
 
 
-def primera_del_supuesto(item, index):
-    items = st.session_state.get("items", [])
-    if index <= 0 or index >= len(items):
-        return True
-    previo = items[index - 1].get("supuesto")
-    return not previo or previo["id"] != item["supuesto"]["id"]
-
-
-ESTILO_CHIP_SUAVE = "background:var(--surface2);color:var(--muted)"
-ESTILO_CHIP_AVISO = "background:var(--warn_bg);color:var(--warn)"
-
-
 def md_escape(texto):
     """Escapa Markdown para etiquetas de botón (LaTeX con $, cursivas con _ y *, HTML, :emoji:)."""
     return re.sub(r"([\\`*_\[\]$~<>:])", r"\\\1", str(texto))
 
 
-def chips_pregunta(item):
-    chips = [("Test", "")]
+def tags_pregunta(item):
+    tags = [("Test", "")]
     if item.get("dificultad"):
-        chips.append((item["dificultad"], ESTILO_CHIP_SUAVE))
+        tags.append((f"Dificultad {item['dificultad']}", ""))
     ex, sup = item.get("examen"), item.get("supuesto")
     if ex:
-        parte = "Teórica" if ex["seccion"] == "teorica" else "Reserva"
-        chips.append((f"Examen {ex['label']} · {parte} {ex['numero']}", ESTILO_CHIP_SUAVE))
+        parte = "teórica" if ex["seccion"] == "teorica" else "reserva"
+        tags.append((f"Examen {ex['label']}, {parte} {ex['numero']}", ""))
     if sup:
-        pos = "Reserva" if sup["reserva"] else f"P{sup['numero']}"
-        chips.append((f"{sup['titulo']} {sup['examen']} · {pos}".replace("  ", " "), ESTILO_CHIP_SUAVE))
+        pos = "reserva" if sup["reserva"] else f"pregunta {sup['numero']}"
+        tags.append((f"{sup['titulo']} {sup['examen']}, {pos}".replace("  ", " "), ""))
     if (item.get("reuso") or 0) > 1:
-        chips.append((f"Repetida en {item['reuso']} exámenes", ESTILO_CHIP_SUAVE))
+        tags.append((f"Repetida en {item['reuso']} exámenes", ""))
     if not item.get("verificado", True):
-        chips.append(("Sin verificar", ESTILO_CHIP_AVISO))
-    return "".join(f'<span class="tag" style="{e}">{esc(t)}</span>' if e else f'<span class="tag">{esc(t)}</span>'
-                   for t, e in chips)
+        tags.append(("Sin verificar", "aviso"))
+    return "".join(f'<span class="tag {c}">{esc(t)}</span>' for t, c in tags)
 
 
-def render_pregunta_test(item, index, total):
-    sup = item.get("supuesto")
-    if sup and sup["texto"]:
-        with st.expander(f"📄 {sup['titulo']} · enunciado", expanded=primera_del_supuesto(item, index)):
-            st.markdown(f'<div class="expl" style="margin:0;max-height:22rem;overflow:auto">'
-                        f'{esc(reflujo_texto(sup["texto"]))}</div>', unsafe_allow_html=True)
+def render_pregunta_test(item):
     st.markdown(
-        f'<div class="card"><div>{chips_pregunta(item)}</div>'
+        f'<div class="hoja"><div>{tags_pregunta(item)}</div>'
         f'<div class="q">{esc(item["enunciado"])}</div></div>',
         unsafe_allow_html=True,
     )
@@ -1153,25 +1168,27 @@ def render_pregunta_test(item, index, total):
                 f'<div class="{clase}"><span class="letter">{letra}</span>'
                 f'<span>{esc(opcion)}</span>{nota_html}</div>', unsafe_allow_html=True)
         else:
-            if st.button(f"{letra})  {md_escape(opcion)}", key=f"opt_{item['item_key']}_{i}", use_container_width=True):
+            # "A" + espacio largo: el CSS dibuja la letra como un óvalo de hoja de respuestas
+            if st.button(f"{letra} {md_escape(opcion)}", key=f"opt_{item['item_key']}_{i}",
+                         use_container_width=True):
                 st.session_state["respuesta_actual"] = i
                 responder(item, "bien" if i == correcta else "otra_vez")
                 st.rerun()
 
     if ya:
         prox = texto_intervalo(st.session_state.get("ultimo_intervalo"))
-        sub = f"<small>Lo volverás a ver {prox}</small>" if prox else ""
+        sub = f"<small>La verás de nuevo {prox}.</small>" if prox else ""
         if elegida == correcta:
-            st.markdown(f'<div class="verdict ok">✅ ¡Correcto!{sub}</div>', unsafe_allow_html=True)
+            st.markdown(f'<div class="veredicto ok">Correcto{sub}</div>', unsafe_allow_html=True)
         else:
-            st.markdown(f'<div class="verdict bad">❌ Incorrecto{sub}</div>', unsafe_allow_html=True)
+            st.markdown(f'<div class="veredicto bad">Incorrecto{sub}</div>', unsafe_allow_html=True)
 
         if item.get("explicacion") or item.get("referencia"):
-            ref = f'<div class="ref">📖 {esc(item["referencia"])}</div>' if item.get("referencia") else ""
+            ref = f'<div class="ref">{esc(item["referencia"])}</div>' if item.get("referencia") else ""
             expl = esc(item["explicacion"]) if item.get("explicacion") else ""
             st.markdown(f'<div class="expl">{expl}{ref}</div>', unsafe_allow_html=True)
 
-        if st.button("Siguiente →", type="primary", use_container_width=True, key=f"sig_{item['item_key']}"):
+        if st.button("Siguiente", type="primary", use_container_width=True, key=f"sig_{item['item_key']}"):
             _avanzar()
 
 
@@ -1179,13 +1196,13 @@ def _frente_dorso(item):
     """HTML de la cara y del reverso de una flashcard o cuadro."""
     if item["tipo"] == "cuadro":
         pista = nombre_columna(item["resp_nombre"])
-        ctx = (f'{esc(nombre_columna(item["ctx_nombre"]))}: <b>{esc(item["ctx"])}</b> · '
+        ctx = (f'{esc(nombre_columna(item["ctx_nombre"]))}: <b>{esc(item["ctx"])}</b>. '
                if item.get("ctx") else "")
         frente = (f'<div class="q">{esc(item["clave"])}</div>'
                   f'<div class="hint">{ctx}¿{esc(pista)}?</div>')
-        ref = f'<div class="ref">📖 {esc(item["fuente"])}</div>' if item.get("fuente") else ""
+        ref = f'<div class="ref">{esc(item["fuente"])}</div>' if item.get("fuente") else ""
         dorso = f'<div class="back"><b>{esc(item["respuesta"])}</b></div>{ref}'
-        etiqueta = f"Cuadro · {item['titulo']}"
+        etiqueta = f"Cuadro: {item['titulo']}"
     else:
         frente = f'<div class="q">{esc(item["anverso"])}</div>'
         dorso = f'<div class="back">{esc(item["reverso"])}</div>'
@@ -1193,11 +1210,11 @@ def _frente_dorso(item):
     return etiqueta, frente, dorso
 
 
-def render_card(item, index, total):
+def render_card(item):
     etiqueta, frente, dorso = _frente_dorso(item)
     visible = "mostrar_reverso" in st.session_state
     st.markdown(
-        f'<div class="card"><div><span class="tag">{esc(etiqueta)}</span></div>{frente}'
+        f'<div class="hoja"><div><span class="tag">{esc(etiqueta)}</span></div>{frente}'
         + (f'<div class="divider"></div>{dorso}' if visible else "") + "</div>",
         unsafe_allow_html=True,
     )
@@ -1208,10 +1225,9 @@ def render_card(item, index, total):
             st.session_state["mostrar_reverso"] = True
             st.rerun()
     else:
-        st.caption("¿Cómo lo recordaste?")
+        st.caption("¿Cómo lo has recordado?")
         cols = st.columns(4)
-        opciones = [("🔁 Otra vez", "otra_vez"), ("😞 Difícil", "dificil"),
-                    ("🙂 Bien", "bien"), ("😎 Fácil", "facil")]
+        opciones = [("Otra vez", "otra_vez"), ("Difícil", "dificil"), ("Bien", "bien"), ("Fácil", "facil")]
         for col, (etiqueta_b, clave) in zip(cols, opciones):
             with col:
                 if st.button(etiqueta_b, key=f"rate_{clave}_{item['item_key']}",
@@ -1221,7 +1237,7 @@ def render_card(item, index, total):
                     _avanzar()
 
 
-def render_cloze(item, index, total):
+def render_cloze(item):
     partes = partes_cloze(item["texto"])
     respuestas = respuestas_cloze(item)
     res = st.session_state.get("cloze_res")
@@ -1237,7 +1253,7 @@ def render_cloze(item, index, total):
         if not n_huecos:
             html_q = esc(item["texto"])
         st.markdown(
-            f'<div class="card"><div><span class="tag">Rellenar huecos</span></div>'
+            f'<div class="hoja"><div><span class="tag">Rellenar huecos</span></div>'
             f'<div class="q">{html_q}</div></div>', unsafe_allow_html=True)
 
         with st.form(f"form_{item['item_key']}", clear_on_submit=False):
@@ -1245,7 +1261,7 @@ def render_cloze(item, index, total):
             for i in range(len(respuestas)):
                 etiqueta = "Tu respuesta" if len(respuestas) == 1 else f"Hueco {i + 1}"
                 entradas.append(st.text_input(etiqueta, key=f"cz_{item['item_key']}_{i}",
-                                              placeholder="Escribe lo que falta…"))
+                                              placeholder="Escribe lo que falta"))
             if st.form_submit_button("Comprobar", type="primary", use_container_width=True):
                 oks = [validar_respuesta_cloze(e, [r]) for e, r in zip(entradas, respuestas)]
                 st.session_state["cloze_res"] = {"entradas": entradas, "oks": oks, "ok": all(oks)}
@@ -1269,24 +1285,24 @@ def render_cloze(item, index, total):
         html_q = esc(item["texto"]) + "<br>" + "".join(
             f'<span class="fill {"ok" if ok else "bad"}">{esc(r)}</span> ' for ok, r in zip(res["oks"], respuestas))
     st.markdown(
-        f'<div class="card"><div><span class="tag">Rellenar huecos</span></div>'
+        f'<div class="hoja"><div><span class="tag">Rellenar huecos</span></div>'
         f'<div class="q">{html_q}</div></div>', unsafe_allow_html=True)
 
     if res["ok"]:
-        st.markdown('<div class="verdict ok">✅ ¡Correcto!</div>', unsafe_allow_html=True)
-        if st.button("Siguiente →", type="primary", use_container_width=True, key=f"sigc_{item['item_key']}"):
+        st.markdown('<div class="veredicto ok">Correcto</div>', unsafe_allow_html=True)
+        if st.button("Siguiente", type="primary", use_container_width=True, key=f"sigc_{item['item_key']}"):
             responder(item, "bien")
             _avanzar()
     else:
-        st.markdown('<div class="verdict bad">❌ Revisa las respuestas marcadas<small>'
-                    '¿Era correcta la tuya? Puedes validarla.</small></div>', unsafe_allow_html=True)
+        st.markdown('<div class="veredicto bad">Revisa los huecos marcados'
+                    '<small>¿Era correcta la tuya? Puedes validarla.</small></div>', unsafe_allow_html=True)
         c1, c2 = st.columns([3, 2])
         with c1:
-            if st.button("Siguiente →", type="primary", use_container_width=True, key=f"sigc_{item['item_key']}"):
+            if st.button("Siguiente", type="primary", use_container_width=True, key=f"sigc_{item['item_key']}"):
                 responder(item, "otra_vez")
                 _avanzar()
         with c2:
-            if st.button("✓ Era correcta", use_container_width=True, key=f"valc_{item['item_key']}"):
+            if st.button("Era correcta", use_container_width=True, key=f"valc_{item['item_key']}"):
                 responder(item, "bien")
                 _avanzar()
 
@@ -1294,6 +1310,20 @@ def render_cloze(item, index, total):
 # ============================================================
 # PANTALLAS: SESIÓN Y RESUMEN
 # ============================================================
+
+def tira_marcas(index, total, marcas):
+    """Una marca por ítem: verde acierto, rojo fallo, amarillo el actual."""
+    celdas = []
+    for i in range(total):
+        if i < len(marcas):
+            clase = marcas[i]
+        elif i == index:
+            clase = "ahora"
+        else:
+            clase = ""
+        celdas.append(f'<i class="{clase}"></i>')
+    return f'<div class="tira">{"".join(celdas)}</div>'
+
 
 def pantalla_sesion():
     items = st.session_state["items"]
@@ -1303,30 +1333,44 @@ def pantalla_sesion():
         st.session_state["modo"] = "resumen"
         st.rerun()
     item = items[index]
+    marcas = st.session_state.get("marcas", [])
 
-    c1, c2 = st.columns([6, 1.3], vertical_alignment="center")
+    c1, c2, c3 = st.columns([7, 2.2, 1.2], vertical_alignment="center")
     with c1:
-        st.markdown(f'<div class="ptop">{barra_progreso(index / total * 100)}'
-                    f'<span class="n">{index + 1} / {total}</span></div>', unsafe_allow_html=True)
+        st.markdown(tira_marcas(index, total, marcas), unsafe_allow_html=True)
     with c2:
-        st.button("✕ Salir", key="salir_sesion", on_click=_terminar, use_container_width=True)
-
-    st.markdown(
-        f'<div class="live"><span class="chip ok">✓ {st.session_state.get("aciertos", 0)}</span>'
-        f'<span class="chip bad">✗ {st.session_state.get("fallos", 0)}</span>'
-        f'<span class="chip">{esc(st.session_state.get("titulo_sesion", ""))}</span></div>',
-        unsafe_allow_html=True)
+        st.markdown(f'<div class="cuenta"><b>{index + 1}</b> de {total}, '
+                    f'{st.session_state.get("aciertos", 0)} bien, {st.session_state.get("fallos", 0)} mal</div>',
+                    unsafe_allow_html=True)
+    with c3:
+        st.button("Salir", key="salir_sesion", on_click=_terminar, use_container_width=True)
+    st.write("")
 
     tipo = item["tipo"]
-    if tipo == "test":
-        render_pregunta_test(item, index, total)
-    elif tipo in ("card", "cuadro"):
-        render_card(item, index, total)
-    elif tipo == "cloze":
-        render_cloze(item, index, total)
+    sup = item.get("supuesto") if tipo == "test" else None
 
-    st.markdown('<div class="keys"><kbd>A</kbd>–<kbd>D</kbd> o <kbd>1</kbd>–<kbd>4</kbd> para responder · '
-                '<kbd>Intro</kbd> para continuar</div>', unsafe_allow_html=True)
+    def cuerpo():
+        if tipo == "test":
+            render_pregunta_test(item)
+        elif tipo in ("card", "cuadro"):
+            render_card(item)
+        elif tipo == "cloze":
+            render_cloze(item)
+
+    if sup and sup["texto"]:
+        izq, der = st.columns([5, 6], gap="large")
+        with izq:
+            st.markdown(f'<div class="enunciado-t">{esc(sup["titulo"])}: enunciado</div>'
+                        f'<div class="enunciado">{esc(reflujo_texto(sup["texto"]))}</div>', unsafe_allow_html=True)
+        with der:
+            cuerpo()
+    else:
+        _, centro, _ = st.columns([1, 3.2, 1])
+        with centro:
+            cuerpo()
+
+    st.markdown('<div class="atajos" style="text-align:center"><kbd>A</kbd> a <kbd>D</kbd> o <kbd>1</kbd> a <kbd>4</kbd> '
+                'responden, <kbd>Intro</kbd> continúa.</div>', unsafe_allow_html=True)
     embed_html(JS_ATAJOS, 1)
 
 
@@ -1343,8 +1387,13 @@ def resumen_item(item):
         return f"{item['titulo']}: {item['clave']}{ctx}", item["respuesta"]
     if t == "cloze":
         q = "".join(v if k == "t" else "____" for k, v in partes_cloze(item["texto"])) or item["texto"]
-        return q, " · ".join(respuestas_cloze(item))
+        return q, ", ".join(respuestas_cloze(item))
     return "", ""
+
+
+def cabecera(titulo, sub=""):
+    st.markdown(f'<h1 class="titular menor">{esc(titulo)}</h1>'
+                + (f'<p class="lead">{esc(sub)}</p>' if sub else ""), unsafe_allow_html=True)
 
 
 def pantalla_resumen():
@@ -1354,102 +1403,131 @@ def pantalla_resumen():
     respondidos = aciertos + fallos
     pct = round(aciertos / respondidos * 100) if respondidos else 0
     errores = ss.get("errores", [])
+    marcas = ss.get("marcas", [])
 
-    cabecera("Sesión completada" if respondidos >= total else "Sesión terminada",
-             "Tus respuestas ya están registradas en el repaso espaciado.", "Resumen")
-
-    with card("card_resumen"):
-        st.markdown(f'<div class="ring" style="--p:{pct}"><div>{pct if respondidos else "—"}{"%" if respondidos else ""}</div></div>'
-                    f'<div class="center" style="color:var(--muted)">precisión de la sesión</div>',
+    izq, der = st.columns([2, 3], gap="large")
+    with izq:
+        st.markdown(f'<p class="fecha">{esc(ss.get("titulo_sesion", ""))}</p>'
+                    f'<div class="grande">{pct if respondidos else "—"}<small>{"%" if respondidos else ""}</small></div>'
+                    f'<p class="lead" style="margin-top:.6rem">'
+                    f'{"Sesión completada" if respondidos >= total else "Sesión terminada"}: '
+                    f'{aciertos} de {respondidos} bien. Tus respuestas ya están en el repaso espaciado.</p>',
                     unsafe_allow_html=True)
+        if marcas:
+            st.markdown(tira_marcas(-1, len(marcas), marcas), unsafe_allow_html=True)
+            st.write("")
+        st.button("Volver al inicio", use_container_width=True, key="volver_inicio", on_click=_salir)
 
-    c1, c2, c3 = st.columns(3)
-    c1.markdown(stat_card("Respondidas", f"{respondidos}/{total}"), unsafe_allow_html=True)
-    c2.markdown(stat_card("Aciertos", aciertos, "ok"), unsafe_allow_html=True)
-    c3.markdown(stat_card("Fallos", fallos), unsafe_allow_html=True)
-    st.write("")
-
-    if errores:
-        st.markdown(f"### A repasar ({len(errores)})")
-        for e in errores:
-            q, a = resumen_item(e)
-            st.markdown(f'<div class="row" style="margin-bottom:.5rem"><div class="t">{esc(q)}</div>'
-                        f'<div class="m" style="margin:.35rem 0 0 0">✔ {esc(a)}</div></div>', unsafe_allow_html=True)
-        st.write("")
-        if st.button(f"🔁  Repasar estos {len(errores)} ahora", type="primary", use_container_width=True,
-                     key="repasar_errores"):
-            iniciar(list(errores), "Repaso de fallos")
-            st.rerun()
-
-    st.button("Volver al inicio", use_container_width=True, key="volver_inicio", on_click=_salir)
+    with der:
+        if errores:
+            st.markdown(f'<h3 style="margin-top:0 !important">Para repasar ({len(errores)})</h3>', unsafe_allow_html=True)
+            for e in errores:
+                q, a = resumen_item(e)
+                st.markdown(f'<div class="fallo"><div class="t">{esc(q)}</div>'
+                            f'<div class="m"><b>{esc(a)}</b></div></div>', unsafe_allow_html=True)
+            st.write("")
+            if st.button(f"Repasar estos {len(errores)} ahora", type="primary", use_container_width=True,
+                         key="repasar_errores"):
+                iniciar(list(errores), "Repaso de fallos")
+                st.rerun()
+        else:
+            st.markdown('<h3 style="margin-top:0 !important">Sin fallos</h3>'
+                        '<p class="lead">No has fallado nada en esta sesión.</p>', unsafe_allow_html=True)
 
 
 # ============================================================
 # PÁGINA: HOY
 # ============================================================
 
+def mapa_actividad(datos):
+    """Cuadrícula de días: más respuestas, más amarillo."""
+    mx = max((n for _, n in datos), default=0) or 1
+    hoy = date.today()
+    celdas = ""
+    for d, n in datos:
+        p = round(n / mx * 100)
+        fondo = f"color-mix(in srgb, var(--mark) {max(p, 18)}%, var(--surface2))" if n else "var(--surface2)"
+        color = "var(--on_mark)" if n and p >= 45 else "var(--muted)"
+        celdas += (f'<i class="{"hoy" if d == hoy else ""}" title="{d.day} de {MESES[d.month - 1]}: {n} respuestas" '
+                   f'style="background:{fondo};color:{color}">{d.day}</i>')
+    return f'<div class="mapa">{celdas}</div>'
+
+
 def pantalla_hoy():
     s = stats_globales()
-    cabecera(f"{saludo()} 👋", "Esto es lo que toca hoy.", fecha_larga(date.today()))
+    izq, der = st.columns([3, 2], gap="large")
 
-    with card("hero_hoy"):
+    with izq:
+        st.markdown(f'<p class="fecha">{fecha_larga(date.today())}</p>', unsafe_allow_html=True)
         if s["hoy"] > 0:
-            chips = (f'<span class="chip">🔁 {s["repasos"]} repasos</span>'
-                     f'<span class="chip">✨ {s["nuevos_hoy"]} nuevos</span>'
-                     f'<span class="chip">cupo de nuevos {s["nuevos_hechos"]}/{nuevos_por_dia()}</span>')
-            st.markdown(f'<div class="big">{s["hoy"]}<small>ítems para hoy</small></div>'
-                        f'<div class="chips">{chips}</div>', unsafe_allow_html=True)
-            st.caption("Tamaño de la sesión")
-            n = st.radio("Tamaño", [10, 20, 30, 50], index=1, horizontal=True,
-                         label_visibility="collapsed", key="pill_n_rep")
-            n_real = min(n, s["hoy"])
-            if st.button(f"▶  Empezar repaso · {n_real} ítems", type="primary",
-                         use_container_width=True, key="go_repaso"):
-                if iniciar(cargar_items_srs_hoy(limite=n), "Repaso de hoy"):
-                    st.rerun()
-                else:
-                    st.warning("No hay ítems disponibles ahora mismo.")
-        else:
-            extra = (f'<span class="chip">cupo de nuevos {s["nuevos_hechos"]}/{nuevos_por_dia()}</span>'
-                     if s["nuevo"] else "")
-            st.markdown('<div class="big" style="font-size:2rem">🎉 Todo al día</div>'
-                        f'<div class="chips"><span class="chip">No quedan repasos pendientes hoy</span>{extra}</div>',
+            if s["repasos"] == 0:
+                titular = f"Hoy toca estrenar {plural(s['nuevos_hoy'], 'ítem', 'ítems')}."
+            elif s["nuevos_hoy"] == 0:
+                titular = f"Hoy tocan {plural(s['repasos'], 'repaso', 'repasos')}."
+            else:
+                titular = (f"Hoy tocan {plural(s['repasos'], 'repaso', 'repasos')} "
+                           f"y {plural(s['nuevos_hoy'], 'ítem nuevo', 'ítems nuevos')}.")
+            st.markdown(f'<h1 class="titular">{titular}</h1>'
+                        f'<p class="lead">Cupo de nuevos: {s["nuevos_hechos"]} de {nuevos_por_dia()} hoy.</p>',
                         unsafe_allow_html=True)
-            if s["nuevo"]:
-                if st.button(f"✨  Aprender 10 nuevos más ({s['nuevo']} sin empezar)", type="primary",
-                             use_container_width=True, key="go_mas_nuevos"):
-                    if iniciar(cargar_items_nuevos(10), "Ítems nuevos"):
+            with panel("hoy"):
+                st.markdown('<div class="sub">Tamaño de la sesión</div>', unsafe_allow_html=True)
+                n = st.radio("Tamaño", [10, 20, 30, 50], index=1, horizontal=True,
+                             label_visibility="collapsed", key="pill_n_rep")
+                n_real = min(n, s["hoy"])
+                if st.button(f"Empezar repaso de {n_real} ítems", type="primary",
+                             use_container_width=True, key="go_repaso"):
+                    if iniciar(cargar_items_srs_hoy(limite=n), "Repaso de hoy"):
                         st.rerun()
-            st.button("🎯  Practicar algo más", use_container_width=True, key="go_practicar_extra",
-                      on_click=_ir_a, args=(PAGINAS[1],))
+                    else:
+                        st.warning("No hay ítems disponibles ahora mismo.")
+        else:
+            st.markdown('<h1 class="titular">Todo al día.</h1>'
+                        '<p class="lead">No quedan repasos pendientes para hoy.</p>', unsafe_allow_html=True)
+            with panel("hoy"):
+                if s["nuevo"]:
+                    st.markdown(f'<div class="nota">Cupo de nuevos: {s["nuevos_hechos"]} de {nuevos_por_dia()}. '
+                                f'Quedan {s["nuevo"]} sin empezar.</div>', unsafe_allow_html=True)
+                    if st.button("Aprender 10 ítems nuevos más", type="primary",
+                                 use_container_width=True, key="go_mas_nuevos"):
+                        if iniciar(cargar_items_nuevos(10), "Ítems nuevos"):
+                            st.rerun()
+                st.button("Practicar algo más", use_container_width=True, key="go_practicar_extra",
+                          on_click=_ir_a, args=(PAGINAS[1],))
 
-    c1, c2, c3, c4 = st.columns(4)
-    c1.markdown(stat_card("Racha", f"🔥 {s['racha']}", "accent" if s["racha"] else ""), unsafe_allow_html=True)
-    c2.markdown(stat_card("Hechas hoy", s["hechas_hoy"]), unsafe_allow_html=True)
-    dom_pct = round(s["dom"] / s["n"] * 100) if s["n"] else 0
-    c3.markdown(stat_card("Dominado", f"{dom_pct}%"), unsafe_allow_html=True)
-    prec = f"{s['precision']:.0f}%" if s["precision"] is not None else "—"
-    c4.markdown(stat_card("Precisión", prec, "ok"), unsafe_allow_html=True)
-    st.write("")
+        dom_pct = round(s["dom"] / s["n"] * 100) if s["n"] else 0
+        prec = f"{s['precision']:.0f}%" if s["precision"] is not None else "—"
+        st.markdown(
+            f'<div class="cifras"><div><b>{s["racha"]}</b><span>{"día" if s["racha"] == 1 else "días"} de racha</span></div>'
+            f'<div><b>{s["hechas_hoy"]}</b><span>hechas hoy</span></div>'
+            f'<div><b>{dom_pct}%</b><span>dominado</span></div>'
+            f'<div><b>{prec}</b><span>precisión</span></div></div>', unsafe_allow_html=True)
 
-    with card("card_estado"):
-        st.markdown("**Tu progreso global**")
-        st.markdown(barra_estados(s["dom"], s["prog"], s["porap"], s["nuevo"])
-                    + leyenda(s["dom"], s["prog"], s["porap"], s["nuevo"]), unsafe_allow_html=True)
+    with der:
+        datos = actividad(14)
+        with panel("mapa"):
+            st.markdown('<div class="sub">Últimos 14 días</div>'
+                        f'<div class="nota">{sum(n for _, n in datos)} respuestas</div>', unsafe_allow_html=True)
+            st.markdown(mapa_actividad(datos), unsafe_allow_html=True)
+        with panel("estado"):
+            st.markdown('<div class="sub">Estado de tus ítems</div>', unsafe_allow_html=True)
+            st.markdown(barra_estados(s["dom"], s["prog"], s["porap"], s["nuevo"])
+                        + leyenda(s["dom"], s["prog"], s["porap"], s["nuevo"]), unsafe_allow_html=True)
 
     st.markdown("### Por bloque")
+    filas = ""
     for b in listar_bloques_temas():
         n = sum(t["n_items"] for t in b["temas"])
         dom = sum(t["n_dom"] for t in b["temas"])
         prog = sum(t["n_prog"] for t in b["temas"])
         porap = sum(t["n_porap"] for t in b["temas"])
         nuevo = sum(t["n_nuevo"] for t in b["temas"])
-        meta = f"{len(b['temas'])} temas · {n} ítems" + (f" · {round(dom / n * 100)}% dominado" if n else "")
-        st.markdown(
-            f'<div class="row {"" if n else "muted"}" style="margin-bottom:.5rem">'
-            f'<div class="t">Bloque {romano(b["numero"])} · {esc(b["nombre"])}</div>'
-            f'<div class="m">{esc(meta)}</div>{barra_estados(dom, prog, porap, nuevo)}</div>',
-            unsafe_allow_html=True)
+        pct = f"{round(dom / n * 100)}%" if n else "—"
+        filas += (f'<div class="fila-bloque"><div><div class="t">{romano(b["numero"])}. {esc(b["nombre"])}</div>'
+                  f'<div class="m">{plural(len(b["temas"]), "tema", "temas")}, {plural(n, "ítem", "ítems")}</div></div>'
+                  f'<div class="barra">{barra_estados(dom, prog, porap, nuevo, fina=True)}</div>'
+                  f'<div class="p">{pct}</div></div>')
+    st.markdown(filas, unsafe_allow_html=True)
 
 
 # ============================================================
@@ -1457,14 +1535,24 @@ def pantalla_hoy():
 # ============================================================
 
 TIPOS_PRACTICA = {
-    "test": "📝  Test · preguntas tipo oposición",
-    "flash": "🎴  Flashcards · anverso/reverso y huecos",
-    "cuadros": "🗂️  Cuadros · plazos, puertos, composiciones",
-    "mixto": "🔀  Mixto · un poco de todo",
-    "examen": "📜  Exámenes oficiales · convocatorias anteriores",
-    "supuesto": "🧩  Supuestos prácticos · con su enunciado",
-    "preparado": "📋  Tests preparados · ya generados",
-    "debiles": "🎯  Puntos débiles · lo que más fallas",
+    "test": "Test",
+    "flash": "Flashcards",
+    "cuadros": "Cuadros",
+    "mixto": "Mixto",
+    "examen": "Exámenes oficiales",
+    "supuesto": "Supuestos prácticos",
+    "preparado": "Tests preparados",
+    "debiles": "Puntos débiles",
+}
+DESC_PRACTICA = {
+    "test": "Preguntas tipo oposición del ámbito que elijas.",
+    "flash": "Anverso y reverso, y frases con huecos.",
+    "cuadros": "Plazos, puertos y composiciones, fila a fila.",
+    "mixto": "Un poco de todo, en orden aleatorio.",
+    "examen": "Convocatorias anteriores, en el orden original.",
+    "supuesto": "Cada supuesto con su enunciado al lado.",
+    "preparado": "Tests ya generados en la base de datos.",
+    "debiles": "Lo que has fallado o marcado como difícil.",
 }
 
 
@@ -1474,7 +1562,7 @@ def opciones_ambito():
     opciones = [("Todo el temario", ("todo", None))]
     for b in bloques:
         if any(t["n_items"] for t in b["temas"]):
-            opciones.append((f"Bloque {romano(b['numero'])} · {b['nombre']}", ("bloque", b["id"])))
+            opciones.append((f"Bloque {romano(b['numero'])}: {b['nombre']}", ("bloque", b["id"])))
     for b in bloques:
         for t in b["temas"]:
             if t["n_items"]:
@@ -1498,11 +1586,12 @@ def bloque_de(bloque_id):
 
 
 def pantalla_practicar():
-    cabecera("Practicar", "Elige qué quieres entrenar y cuánto.", "Práctica libre")
+    cabecera("Practicar", "Elige qué quieres entrenar y cuánto.")
+    izq, der = st.columns([2, 3], gap="large")
 
-    tipo = st.radio("Tipo", list(TIPOS_PRACTICA), format_func=TIPOS_PRACTICA.get,
-                    key="tipo_practica", label_visibility="collapsed")
-    st.write("")
+    with izq:
+        tipo = st.radio("Tipo", list(TIPOS_PRACTICA), format_func=TIPOS_PRACTICA.get,
+                        key="tipo_practica", label_visibility="collapsed")
 
     ambitos = opciones_ambito()
     etiquetas = [a[0] for a in ambitos]
@@ -1510,7 +1599,9 @@ def pantalla_practicar():
         st.session_state["prac_ambito"] = etiquetas[0]
 
     items_fn, titulo, disponibles, ordenado = None, "", 0, False
-    with card("card_lanzador"):
+    with der, panel("lanzador"):
+        st.markdown(f'<div class="sub">{TIPOS_PRACTICA[tipo]}</div><div class="nota">{DESC_PRACTICA[tipo]}</div>',
+                    unsafe_allow_html=True)
         ambito, dificultad, procedencia = ("todo", None), None, None
         if tipo == "preparado":
             tests = consulta("""SELECT t.*, (SELECT COUNT(*) FROM test_practica_preguntas tp
@@ -1523,8 +1614,8 @@ def pantalla_practicar():
             mapa = {}
             for t in tests:
                 ambito_t = etiqueta_scope(t["scope"])
-                mapa[f"{t['tipo'].capitalize()} · {t['fecha_generacion']} · {t['n_real']} preguntas"
-                     + (f" · {ambito_t}" if ambito_t else "") + f" ({t['id'][-6:]})"] = t["id"]
+                mapa[f"{t['tipo'].capitalize()}, {t['fecha_generacion']}, {t['n_real']} preguntas"
+                     + (f", {ambito_t}" if ambito_t else "") + f" ({t['id'][-6:]})"] = t["id"]
             sel = st.selectbox("Test", list(mapa))
             test_id = mapa[sel]
             disponibles = next(t["n_real"] for t in tests if t["id"] == test_id)
@@ -1535,13 +1626,13 @@ def pantalla_practicar():
             mapa = {f"TAI {etiqueta_examen(e['anio'], e['modelo'])}": e for e in examenes}
             ex = mapa[st.selectbox("Convocatoria", list(mapa), key="prac_examen")]
             sups = listar_supuestos(ex["id"])
-            partes = {f"Parte teórica · {ex['n_teo']} preguntas": ("teorica", None, ex["n_teo"])}
+            partes = {f"Parte teórica, {ex['n_teo']} preguntas": ("teorica", None, ex["n_teo"])}
             if ex["n_res"]:
-                partes[f"Reserva teórica · {ex['n_res']} preguntas"] = ("reserva", None, ex["n_res"])
+                partes[f"Reserva teórica, {ex['n_res']} preguntas"] = ("reserva", None, ex["n_res"])
             for sp in sups:
-                partes[f"{sp['titulo']} (bloque {bloque_de(sp['bloque_id'])}) · {sp['n']} preguntas"] = \
+                partes[f"{sp['titulo']} (bloque {bloque_de(sp['bloque_id'])}), {sp['n']} preguntas"] = \
                     ("supuesto", sp["id"], sp["n"])
-            partes["Examen completo · teórica + supuestos, sin reserva"] = \
+            partes["Examen completo: teórica y supuestos, sin reserva"] = \
                 ("completo", None, ex["n_teo"] + sum(sp["n"] for sp in sups))
             parte, ref, disponibles = partes[st.selectbox("Parte", list(partes), key="prac_parte")]
             titulo = f"TAI {etiqueta_examen(ex['anio'], ex['modelo'])}"
@@ -1552,25 +1643,24 @@ def pantalla_practicar():
                 items_fn = lambda n: cargar_supuesto(ref)
             else:
                 items_fn = lambda n: cargar_examen_completo(ex["id"])
-            st.caption("Se hacen en el orden del examen. Las preguntas sin verificar también se incluyen.")
+            st.caption("Las preguntas sin verificar también se incluyen.")
         elif tipo == "supuesto":
             sups = listar_supuestos()
             if not sups:
                 st.info("Todavía no hay supuestos.")
                 return
-            mapa = {f"{sp['titulo']} · {etiqueta_examen(sp['anio'], sp['modelo'])} · bloque "
+            mapa = {f"{sp['titulo']}, {etiqueta_examen(sp['anio'], sp['modelo'])}, bloque "
                     f"{bloque_de(sp['bloque_id'])}": sp for sp in sups}
             sp = mapa[st.selectbox("Supuesto", list(mapa), key="prac_supuesto")]
             reserva = st.toggle("Incluir las preguntas de reserva", key="prac_reserva")
             disponibles = sp["n"] + (sp["n_res"] if reserva else 0)
             items_fn = lambda n: cargar_supuesto(sp["id"], reserva)
             titulo, ordenado = sp["titulo"], True
-            st.caption("El enunciado del supuesto se muestra encima de cada pregunta.")
         elif tipo == "debiles":
             disponibles = contar_debiles()
             items_fn = lambda n: cargar_items_debiles(n)
             titulo = "Puntos débiles"
-            st.caption("Ítems que has fallado o marcado como difíciles, los más fallados primero.")
+            st.caption("Los más fallados salen primero.")
         else:
             etiqueta_a = st.selectbox("Ámbito", etiquetas, key="prac_ambito")
             ambito = dict(ambitos)[etiqueta_a]
@@ -1615,7 +1705,7 @@ def pantalla_practicar():
                        + (" Solo preguntas verificadas (se cambia en Ajustes)."
                           if tipo in ("test", "mixto", "debiles") and solo_verificadas() else ""))
 
-        if st.button(f"▶  Empezar · {n} ítems", type="primary", use_container_width=True, key="go_practica"):
+        if st.button(f"Empezar con {n} ítems", type="primary", use_container_width=True, key="go_practica"):
             if iniciar(items_fn(n), titulo):
                 st.rerun()
             st.warning("No hay ítems con esos filtros.")
@@ -1625,36 +1715,39 @@ def pantalla_practicar():
 # PÁGINA: TEMARIO
 # ============================================================
 
-def fila_tema(t, bloque=None):
+def fila_tema(t, bloque=None, mx=1.0):
     """Una fila del temario: progreso, peso en examen, fuentes y estado de verificación."""
-    chips = []
-    if t["estado_ingesta"] == "completo":
-        chips.append('<span class="chip ok">✔ temario completo</span>')
-    else:
-        chips.append('<span class="chip">solo preguntas de examen</span>')
-    if t["n_examenes"]:
-        chips.append(f'<span class="chip">📊 ~{t["media_preg"]:.1f} preguntas/examen · {t["n_examenes"]} convocatorias</span>')
-    if t["n_fuentes"]:
-        chips.append(f'<span class="chip">📄 {t["n_fuentes"]} fuente{"s" if t["n_fuentes"] != 1 else ""}</span>')
-    if t["sin_verif"]:
-        chips.append(f'<span class="chip dif-media">⚠ {t["sin_verif"]} sin verificar</span>')
+    datos = []
     if bloque:
-        chips.insert(0, f'<span class="chip">Bloque {romano(bloque["numero"])}</span>')
+        datos.append(f"Bloque {romano(bloque['numero'])}")
+    datos.append("temario completo" if t["estado_ingesta"] == "completo" else "solo preguntas de examen")
+    if t["n_fuentes"]:
+        datos.append(plural(t["n_fuentes"], "fuente", "fuentes"))
+    chips = "".join(f"<span>{esc(d)}</span>" for d in datos)
+    if t["sin_verif"]:
+        chips += f'<span class="aviso">{t["sin_verif"]} sin verificar</span>'
+
+    peso = ""
+    if t["n_examenes"]:
+        peso = (f'<div class="peso" title="Peso en examen"><div style="width:{(t["media_preg"] or 0) / mx * 100:.0f}%"></div></div>'
+                f'<div class="m" style="margin:0 0 .3rem 0">Unas {num(t["media_preg"])} preguntas por examen, '
+                f'en {plural(t["n_examenes"], "convocatoria", "convocatorias")}</div>')
+
     if t["n_items"] == 0:
-        meta = "Sin ítems disponibles con los filtros actuales"
-        barra = ""
+        meta, barra = "Sin ítems con los filtros actuales", ""
     else:
         pct = round(t["n_dom"] / t["n_items"] * 100)
-        meta = f'{t["n_items"]} ítems · {pct}% dominado · {t["n_hoy"]} repaso{"s" if t["n_hoy"] != 1 else ""} para hoy · {t["n_nuevo"]} nuevos'
-        barra = barra_estados(t["n_dom"], t["n_prog"], t["n_porap"], t["n_nuevo"])
-    c1, c2 = st.columns([5, 1.5], vertical_alignment="center")
+        meta = (f'{plural(t["n_items"], "ítem", "ítems")}, {pct}% dominado, '
+                f'{plural(t["n_hoy"], "repaso", "repasos")} para hoy, {t["n_nuevo"]} nuevos')
+        barra = barra_estados(t["n_dom"], t["n_prog"], t["n_porap"], t["n_nuevo"], fina=True)
+
+    c1, c2 = st.columns([5, 1.4], vertical_alignment="center")
     with c1:
         st.markdown(
-            f'<div class="row {"muted" if t["n_items"] == 0 else ""}" style="margin-bottom:.4rem">'
-            f'<div class="t">Tema {t["numero"]} · {esc(t["titulo"])}</div>'
-            f'<div class="m">{esc(meta)}</div>'
-            f'<div class="chips" style="margin:.1rem 0 .6rem 0">{"".join(chips)}</div>{barra}</div>',
-            unsafe_allow_html=True)
+            f'<div class="tema {"vacio" if t["n_items"] == 0 else ""}">'
+            f'<div class="t"><b>{t["numero"]}</b>{esc(t["titulo"])}</div>'
+            f'<div class="m">{esc(meta)}</div>{peso}{barra}'
+            f'<div class="chips">{chips}</div></div>', unsafe_allow_html=True)
     with c2:
         if t["n_items"]:
             st.button("Practicar", key=f"prac_{t['id']}", use_container_width=True,
@@ -1664,25 +1757,26 @@ def fila_tema(t, bloque=None):
 
 
 def pantalla_temario():
-    cabecera("Temario", "Tu progreso tema a tema.", "Programa")
+    cabecera("Temario", "Tu progreso tema a tema.")
     st.caption("Ordenar por")
     orden = st.radio("Orden", ["Temario", "Peso en examen"], horizontal=True,
                      label_visibility="collapsed", key="pill_orden_temario")
     bloques = listar_bloques_temas()
+    todos = [(t, b) for b in bloques for t in b["temas"]]
+    mx = max((t["media_preg"] or 0 for t, _ in todos), default=1) or 1
     if orden == "Peso en examen":
         st.caption("Media de preguntas por examen en las convocatorias cargadas: dónde se juega más puntuación.")
-        todos = [(t, b) for b in bloques for t in b["temas"]]
         for t, b in sorted(todos, key=lambda x: (-(x[0]["media_preg"] or 0), x[0]["numero"])):
-            fila_tema(t, b)
+            fila_tema(t, b, mx)
         return
     for b in bloques:
         st.markdown(
             f'<div class="bloque"><span class="n">{romano(b["numero"])}</span>'
             f'<span class="t">{esc(b["nombre"])}</span></div>'
-            f'<div class="d" style="color:var(--muted);font-size:.82rem;margin:-.4rem 0 .7rem 0">{esc(b["descripcion"] or "")}</div>',
+            f'<div class="nota" style="margin-bottom:.4rem">{esc(b["descripcion"] or "")}</div>',
             unsafe_allow_html=True)
         for t in b["temas"]:
-            fila_tema(t)
+            fila_tema(t, None, mx)
 
 
 # ============================================================
@@ -1693,7 +1787,7 @@ def html_mermaid(codigo, oscuro):
     p = PALETAS["oscuro" if oscuro else "claro"]
     tema = "dark" if oscuro else "neutral"
     return f"""
-    <body style="margin:0;background:{p['surface']};color:{p['text']};font-family:Inter,system-ui,sans-serif">
+    <body style="margin:0;background:{p['surface']};color:{p['text']};font-family:'Atkinson Hyperlegible',system-ui,sans-serif">
     <pre class="mermaid" style="background:{p['surface']}">{html.escape(codigo)}</pre>
     <script type="module">
       import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs';
@@ -1702,8 +1796,8 @@ def html_mermaid(codigo, oscuro):
 
 
 def pantalla_material():
-    cabecera("Material", "Cuadros de datos y esquemas para estudiar con calma.", "Estudio")
-    tab_c, tab_e = st.tabs(["🗂️ Cuadros", "🧠 Esquemas"])
+    cabecera("Material", "Cuadros de datos y esquemas para estudiar con calma.")
+    tab_c, tab_e = st.tabs(["Cuadros", "Esquemas"])
 
     with tab_c:
         cuadros = consulta("""SELECT cu.*, t.numero AS tema_numero FROM cuadros cu
@@ -1722,8 +1816,8 @@ def pantalla_material():
             st.markdown(f"### {cu['titulo']}")
             if cu["tema_numero"]:
                 st.caption(f"Tema {cu['tema_numero']}")
-            st.markdown(f'<table class="tabla"><thead><tr>{cab}</tr></thead><tbody>{cuerpo}</tbody></table>',
-                        unsafe_allow_html=True)
+            st.markdown(f'<div class="tabla-wrap"><table class="tabla"><thead><tr>{cab}</tr></thead>'
+                        f'<tbody>{cuerpo}</tbody></table></div>', unsafe_allow_html=True)
             st.write("")
             if st.button(f"Memorizar este cuadro ({len(filas)} filas)", key=f"mem_{cu['id']}"):
                 if iniciar(cargar_cuadros(("todo", None), 50, cuadro_id=cu["id"]), cu["titulo"]):
@@ -1750,73 +1844,75 @@ def pantalla_material():
 
 def pantalla_progreso():
     s = stats_globales()
-    cabecera("Progreso", "Constancia, precisión y puntos débiles.", "Seguimiento")
+    cabecera("Progreso", "Constancia, precisión y puntos débiles.")
 
-    c1, c2, c3, c4 = st.columns(4)
-    c1.markdown(stat_card("Racha", f"🔥 {s['racha']}", "accent" if s["racha"] else ""), unsafe_allow_html=True)
-    c2.markdown(stat_card("Ítems", s["n"]), unsafe_allow_html=True)
-    c3.markdown(stat_card("Dominados", s["dom"], "ok"), unsafe_allow_html=True)
     prec = f"{s['precision']:.0f}%" if s["precision"] is not None else "—"
-    c4.markdown(stat_card("Precisión", prec), unsafe_allow_html=True)
-    st.write("")
+    st.markdown(
+        f'<div class="cifras"><div><b>{s["racha"]}</b><span>{"día" if s["racha"] == 1 else "días"} de racha</span></div>'
+        f'<div><b>{s["n"]}</b><span>ítems en total</span></div>'
+        f'<div><b>{s["dom"]}</b><span>dominados</span></div>'
+        f'<div><b>{prec}</b><span>precisión</span></div></div>', unsafe_allow_html=True)
 
-    datos = actividad(14)
-    mx = max((n for _, n in datos), default=0) or 1
-    barras = "".join(
-        f'<div class="c" title="{n} respuestas"><div class="b {"zero" if n == 0 else ""}" '
-        f'style="height:{max(n / mx * 100, 2):.0f}%"></div><span>{d.day}</span></div>' for d, n in datos)
-    with card("card_actividad"):
-        st.markdown(f"**Actividad · últimos 14 días** &nbsp; <span style='color:var(--muted)'>"
-                    f"{sum(n for _, n in datos)} respuestas</span>", unsafe_allow_html=True)
-        st.markdown(f'<div class="spark">{barras}</div>', unsafe_allow_html=True)
+    izq, der = st.columns([2, 3], gap="large")
+    with izq:
+        datos = actividad(14)
+        with panel("actividad"):
+            st.markdown('<div class="sub">Últimos 14 días</div>'
+                        f'<div class="nota">{sum(n for _, n in datos)} respuestas</div>', unsafe_allow_html=True)
+            st.markdown(mapa_actividad(datos), unsafe_allow_html=True)
+        with panel("estado_p"):
+            st.markdown('<div class="sub">Estado de tus ítems</div>', unsafe_allow_html=True)
+            st.markdown(barra_estados(s["dom"], s["prog"], s["porap"], s["nuevo"])
+                        + leyenda(s["dom"], s["prog"], s["porap"], s["nuevo"]), unsafe_allow_html=True)
 
-    st.markdown("### Puntos débiles")
-    filas = consulta(f"""
-        SELECT s.item_key, s.veces_fallada, s.veces_acertada {SRS_FROM}
-        WHERE s.veces_fallada > 0 {srs_filtro()} ORDER BY s.veces_fallada DESC LIMIT 8""")
-    conteo = {f["item_key"]: f for f in filas}
-    debiles = [(conteo[i["item_key"]], i) for i in resolver_items(list(conteo))]
-    if not debiles:
-        st.markdown('<div class="row muted">Todavía no hay fallos registrados. ¡Buen comienzo!</div>',
+    with der:
+        st.markdown('<h3 style="margin-top:0 !important">Puntos débiles</h3>', unsafe_allow_html=True)
+        filas = consulta(f"""
+            SELECT s.item_key, s.veces_fallada, s.veces_acertada {SRS_FROM}
+            WHERE s.veces_fallada > 0 {srs_filtro()} ORDER BY s.veces_fallada DESC LIMIT 8""")
+        conteo = {f["item_key"]: f for f in filas}
+        debiles = [(conteo[i["item_key"]], i) for i in resolver_items(list(conteo))]
+        if not debiles:
+            st.markdown('<p class="lead">Todavía no hay fallos registrados.</p>', unsafe_allow_html=True)
+        else:
+            for f, i in debiles:
+                q, a = resumen_item(i)
+                st.markdown(
+                    f'<div class="fallo"><div class="t">{esc(q)}</div>'
+                    f'<div class="m"><b>{esc(a)}</b>. Fallada {f["veces_fallada"]} '
+                    f'{"vez" if f["veces_fallada"] == 1 else "veces"}, acertada {f["veces_acertada"]}.</div></div>',
                     unsafe_allow_html=True)
-    else:
-        for f, i in debiles:
-            q, a = resumen_item(i)
-            st.markdown(
-                f'<div class="row" style="margin-bottom:.5rem"><div class="t">{esc(q)}</div>'
-                f'<div class="m" style="margin:.3rem 0 0 0">✔ {esc(a)} · '
-                f'fallada {f["veces_fallada"]}×, acertada {f["veces_acertada"]}×</div></div>',
-                unsafe_allow_html=True)
-        st.button("🎯  Practicar mis puntos débiles", type="primary", use_container_width=True,
-                  key="go_debiles", on_click=_ir_a, args=(PAGINAS[1],), kwargs={"tipo_practica": "debiles"})
+            st.write("")
+            st.button("Practicar mis puntos débiles", type="primary", use_container_width=True,
+                      key="go_debiles", on_click=_ir_a, args=(PAGINAS[1],), kwargs={"tipo_practica": "debiles"})
 
 
 # ============================================================
-# SIDEBAR
+# BARRA SUPERIOR
 # ============================================================
 
-def sidebar():
-    s = stats_globales()
-    st.sidebar.markdown(
-        '<div class="brand"><div class="logo">🎓</div><div><div class="name">TAI Oposición</div>'
-        '<div class="sub">Sistema de estudio</div></div></div>', unsafe_allow_html=True)
-
-    with st.sidebar.container(key="nav"):
-        st.radio("Navegación", PAGINAS, key="pagina", label_visibility="collapsed", on_change=_nav_cambiada)
-
-    st.sidebar.markdown(
-        f'<div class="side-stats"><div><b>🔥 {s["racha"]}</b><small>racha</small></div>'
-        f'<div><b>{s["hoy"]}</b><small>para hoy</small></div></div>', unsafe_allow_html=True)
-
-    st.sidebar.divider()
-    st.sidebar.toggle("🌙  Modo oscuro", key="oscuro")
-    with st.sidebar.expander("⚙️  Ajustes"):
-        st.toggle("Solo preguntas verificadas", key="solo_verif",
-                  help="Oculta del repaso y de la práctica libre las preguntas sin verificar. "
-                       "Los exámenes y supuestos oficiales las incluyen siempre.")
-        st.number_input("Ítems nuevos por día", min_value=0, max_value=500, step=5, key="nuevos_dia",
-                        help="Máximo de ítems sin empezar que se añaden al repaso diario.")
-    st.sidebar.caption(f"Versión 0.4 · BD: {DB_PATH.name}")
+def barra_superior(en_sesion=False):
+    with st.container(key="topbar"):
+        c1, c2, c3 = st.columns([2.3, 6, 1.5], vertical_alignment="center")
+        with c1:
+            st.markdown('<div class="marca"><b>TAI</b><span>Oposición</span></div>', unsafe_allow_html=True)
+        with c2:
+            if en_sesion:
+                st.markdown(f'<div class="sesion-titulo">{esc(st.session_state.get("titulo_sesion", ""))}</div>',
+                            unsafe_allow_html=True)
+            else:
+                with st.container(key="nav"):
+                    st.radio("Navegación", PAGINAS, key="pagina", horizontal=True,
+                             label_visibility="collapsed", on_change=_nav_cambiada)
+        with c3:
+            with st.popover("Ajustes", use_container_width=True):
+                st.toggle("Modo oscuro", key="oscuro")
+                st.toggle("Solo preguntas verificadas", key="solo_verif",
+                          help="Oculta del repaso y de la práctica libre las preguntas sin verificar. "
+                               "Los exámenes y supuestos oficiales las incluyen siempre.")
+                st.number_input("Ítems nuevos por día", min_value=0, max_value=500, step=5, key="nuevos_dia",
+                                help="Máximo de ítems sin empezar que se añaden al repaso diario.")
+                st.caption(f"Versión 0.5. Base de datos: {DB_PATH.name}")
 
 
 # ============================================================
@@ -1840,14 +1936,19 @@ def main():
         st.error(f"No se encuentra la base de datos en `{DB_PATH}`.")
         st.stop()
 
+    ss = st.session_state
     tema_inicial()
-    st.session_state.setdefault("pagina", PAGINAS[0])
-    st.session_state.setdefault("solo_verif", True)
-    st.session_state.setdefault("nuevos_dia", 20)
-    sidebar()
+    # La navegación no se dibuja durante una sesión; se recuerda aparte para no perder la página.
+    if ss.get("pagina") not in PAGINAS:
+        ss["pagina"] = ss.get("_pagina", PAGINAS[0])
+    ss.setdefault("solo_verif", True)
+    ss.setdefault("nuevos_dia", 20)
+
+    modo = ss.get("modo")
+    barra_superior(en_sesion=modo in ("sesion", "resumen"))
+    ss["_pagina"] = ss["pagina"]
     inyectar_tema()
 
-    modo = st.session_state.get("modo")
     if modo == "sesion":
         pantalla_sesion()
     elif modo == "resumen":
@@ -1859,7 +1960,7 @@ def main():
             PAGINAS[2]: pantalla_temario,
             PAGINAS[3]: pantalla_material,
             PAGINAS[4]: pantalla_progreso,
-        }[st.session_state["pagina"]]()
+        }[ss["pagina"]]()
 
 
 if __name__ == "__main__":
