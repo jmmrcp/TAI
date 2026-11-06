@@ -470,6 +470,54 @@ def get_conn():
 def consulta(sql, params=()):
     return get_conn().execute(sql, params).fetchall()
 
+def asegurar_esquema():
+    """Garantiza que las tablas/vistas auxiliares existan (idempotente).
+    Permite que la app funcione aunque la BD no haya pasado por `db.py analizar`.
+    """
+    c = get_conn()
+    c.executescript("""
+    CREATE TABLE IF NOT EXISTS examen_stats_tema (
+        examen_id TEXT NOT NULL REFERENCES examenes(id),
+        tema_id TEXT NOT NULL REFERENCES temas(id),
+        n_preguntas INTEGER NOT NULL DEFAULT 0,
+        pct_examen REAL NOT NULL DEFAULT 0,
+        n_conceptos INTEGER NOT NULL DEFAULT 0,
+        PRIMARY KEY (examen_id, tema_id)
+    );
+    CREATE TABLE IF NOT EXISTS examen_stats_concepto (
+        examen_id TEXT NOT NULL REFERENCES examenes(id),
+        concepto_id TEXT NOT NULL REFERENCES conceptos(id),
+        n_preguntas INTEGER NOT NULL DEFAULT 0,
+        PRIMARY KEY (examen_id, concepto_id)
+    );
+    CREATE TABLE IF NOT EXISTS pregunta_reuso (
+        pregunta_id TEXT PRIMARY KEY REFERENCES preguntas(id),
+        n_examenes INTEGER NOT NULL DEFAULT 0,
+        examenes_json TEXT,
+        primera_aparicion TEXT,
+        ultima_aparicion TEXT,
+        opciones_identical INTEGER NOT NULL DEFAULT 0,
+        hash_exacto TEXT
+    );
+    CREATE VIEW IF NOT EXISTS v_tendencia_temas AS
+        SELECT t.id AS tema_id, t.numero, t.titulo,
+               COUNT(DISTINCT est.examen_id) AS n_examenes,
+               ROUND(AVG(est.n_preguntas),2) AS media_preg,
+               MIN(est.n_preguntas) AS min_preg,
+               MAX(est.n_preguntas) AS max_preg
+        FROM temas t
+        LEFT JOIN examen_stats_tema est ON est.tema_id = t.id
+        GROUP BY t.id;
+    CREATE VIEW IF NOT EXISTS v_cobertura_fuentes AS
+        SELECT f.tema_id,
+               COUNT(DISTINCT f.fuente_id) AS n_fuentes,
+               COUNT(*) AS n_fragmentos
+        FROM fragmentos f
+        WHERE f.tema_id IS NOT NULL
+        GROUP BY f.tema_id;
+    """)
+    c.commit()
+
 
 def en_lote(sql, ids, extra=()):
     """Ejecuta `sql` (con el marcador {ids}) por trozos para no pasarse del límite de variables."""
@@ -657,10 +705,16 @@ def listar_bloques_temas():
     preg = {r["tema_id"]: r for r in consulta(
         "SELECT tema_id, COUNT(*) AS total, COALESCE(SUM(verificado = 0), 0) AS sin_verif "
         "FROM preguntas GROUP BY tema_id")}
-    examen = {r["tema_id"]: r for r in consulta(
-        "SELECT tema_id, n_examenes, media_preg, max_preg FROM v_tendencia_temas")}
-    fuentes = {r["tema_id"]: r for r in consulta(
-        "SELECT tema_id, n_fuentes, n_fragmentos FROM v_cobertura_fuentes")}
+    try:
+        examen = {r["tema_id"]: r for r in consulta(
+            "SELECT tema_id, n_examenes, media_preg, max_preg FROM v_tendencia_temas")}
+    except Exception:
+        examen = {}
+    try:
+        fuentes = {r["tema_id"]: r for r in consulta(
+            "SELECT tema_id, n_fuentes, n_fragmentos FROM v_cobertura_fuentes")}
+    except Exception:
+        fuentes = {}
     por_bloque = {}
     for t in temas:
         d = dict(t)
@@ -1936,6 +1990,8 @@ def main():
     if not DB_PATH.exists():
         st.error(f"No se encuentra la base de datos en `{DB_PATH}`.")
         st.stop()
+
+    asegurar_esquema()
 
     ss = st.session_state
     tema_inicial()
