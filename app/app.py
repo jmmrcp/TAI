@@ -1832,7 +1832,7 @@ def pantalla_material():
         for e in esquemas:
             st.markdown(f"### {e['tema_titulo'] or e['id']}")
             if e["formato"] in ("mindmap", "mermaid", "flowchart", "graph"):
-                embed_html(html_mermaid(e["contenido"], bool(st.session_state.get("oscuro"))), 520)
+                st.mermaid_chart(e["contenido"])
             else:
                 st.markdown(e["contenido"])
             with st.expander("Ver código fuente"):
