@@ -1788,10 +1788,11 @@ def html_mermaid(codigo, oscuro):
     tema = "dark" if oscuro else "neutral"
     return f"""
     <body style="margin:0;background:{p['surface']};color:{p['text']};font-family:'Atkinson Hyperlegible',system-ui,sans-serif">
-    <pre class="mermaid" style="background:{p['surface']}">{html.escape(codigo)}</pre>
+    <pre class="mermaid" style="background:{p['surface']};white-space:pre">{html.escape(codigo)}</pre>
     <script type="module">
       import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs';
-      mermaid.initialize({{startOnLoad: true, theme: '{tema}'}});
+      mermaid.initialize({{startOnLoad: false, theme: '{tema}'}});
+      await mermaid.run({{ querySelector: '.mermaid' }});
     </script></body>"""
 
 
