@@ -1,5 +1,7 @@
 # Reporte de verificación de preguntas
 
+**Estado final:** 23 preguntas defectuosas corregidas y marcadas `verificado=1`. Solo quedan 34 placeholders `pendiente-*` sin verificar (sin explicación/referencia).
+
 Verificadas (verificado=1): 1785
 Sin verificar por error detectado: 23
 Sin verificar (pendiente-* placeholders): 34
