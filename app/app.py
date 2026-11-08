@@ -26,8 +26,11 @@ import streamlit as st
 # CONFIGURACIÓN
 # ============================================================
 
-ROOT = Path.home() / "oposicion"
-DB_PATH = Path(os.environ.get("OPOSICION_DB", ROOT / "oposicion.db"))
+# Resuelve la ruta basándose en la ubicación del propio script
+BASE_DIR = Path(__file__).resolve().parent
+if BASE_DIR.name == "app":
+    BASE_DIR = BASE_DIR.parent  # Sube un nivel si el script está en la subcarpeta /app
+DB_PATH = Path(os.environ.get("OPOSICION_DB", BASE_DIR / "oposicion.db"))
 
 # Constantes SM-2 (duplicadas de srs.py)
 INTERVALOS_HUMANOS = [1, 2, 3, 5, 7, 10, 14, 21, 30, 45, 60, 90, 120, 180, 270, 365]
