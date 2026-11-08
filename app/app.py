@@ -223,6 +223,9 @@ h3 { font-size: 1.25rem !important; font-weight: 800 !important; margin: 1.6rem 
 .veredicto.bad { color: var(--bad_text); }
 .expl { border-left: 4px solid var(--mark); padding: .3rem 0 .3rem 1rem; line-height: 1.6; margin: 0 0 1rem 0; }
 .expl .ref { color: var(--muted); font-size: .9rem; margin-top: .4rem; }
+.repaso { border-left: 4px solid var(--warn, #d4a017); padding: .3rem 0 .3rem 1rem; line-height: 1.5; margin: 0 0 1rem 0; background: color-mix(in srgb, var(--warn, #d4a017) 8%, transparent); border-radius: 0 6px 6px 0; }
+.repaso .titulo { font-weight: 700; color: var(--warn_text, #7a5a00); margin-bottom: .2rem; }
+.repaso .concepto { font-style: italic; color: var(--muted); font-size: .92rem; margin-top: .3rem; }
 .atajos { color: var(--muted); font-size: .85rem; margin-top: 1rem; }
 .atajos kbd { background: var(--surface); border: 1.5px solid var(--border); border-bottom-width: 3px; border-radius: 4px;
     padding: 0 .4rem; font-family: var(--cuerpo); font-size: .82rem; }
@@ -1244,6 +1247,34 @@ def render_pregunta_test(item):
             ref = f'<div class="ref">{esc(item["referencia"])}</div>' if item.get("referencia") else ""
             expl = esc(item["explicacion"]) if item.get("explicacion") else ""
             st.markdown(f'<div class="expl">{expl}{ref}</div>', unsafe_allow_html=True)
+
+        # Refuerzo: qué repasar del temario (especialmente al fallar)
+        if elegida is not None:
+            fallo = (elegida != correcta)
+            try:
+                trow = consulta("SELECT numero, titulo FROM temas WHERE id = ?", (item.get("tema_id"),))
+                tema_txt = f"Tema {trow[0]['numero']}: {trow[0]['titulo']}" if trow else None
+            except Exception:
+                tema_txt = None
+            concepto_txt = None
+            concepto_resumen = None
+            if item.get("concepto_id"):
+                try:
+                    crow = consulta("SELECT nombre, resumen FROM conceptos WHERE id = ?", (item.get("concepto_id"),))
+                    if crow:
+                        concepto_txt = crow[0]["nombre"]
+                        concepto_resumen = (crow[0]["resumen"] or "").strip()
+                except Exception:
+                    pass
+            if tema_txt:
+                clase_repaso = "repaso" if fallo else "repaso"
+                html = f'<div class="{clase_repaso}"><div class="titulo">Repasa en el temario: {esc(tema_txt)}</div>'
+                if concepto_txt:
+                    html += f'<div class="concepto">Concepto: {esc(concepto_txt)}</div>'
+                if fallo and concepto_resumen:
+                    html += f'<div style="margin-top:.3rem;font-size:.9rem;">{esc(concepto_resumen[:260])}{"…" if len(concepto_resumen) > 260 else ""}</div>'
+                html += '</div>'
+                st.markdown(html, unsafe_allow_html=True)
 
         if st.button("Siguiente", type="primary", use_container_width=True, key=f"sig_{item['item_key']}"):
             _avanzar()
