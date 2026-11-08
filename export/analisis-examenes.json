@@ -1,10 +1,10 @@
 {
-  "generado": "2026-11-06",
-  "n_examenes": 10,
-  "n_apariciones": 870,
-  "n_enunciados_distintos": 529,
-  "tasa_reuso_pct": 39.2,
-  "n_reused_ids": 176,
+  "generado": "2026-11-08",
+  "n_examenes": 11,
+  "n_apariciones": 955,
+  "n_enunciados_distintos": 613,
+  "tasa_reuso_pct": 35.8,
+  "n_reused_ids": 178,
   "examenes": [
     "examen-tai-2018",
     "examen-tai-2021",
@@ -13,6 +13,7 @@
     "examen-tai-2024-modelo-b",
     "examen-tai-2025-modelo-a",
     "examen-tai-2025-modelo-b",
+    "examen-tai-2025-pastilla-violeta",
     "examen-tai-2026-modelo-a",
     "examen-tai-2026-modelo-b",
     "examen-tai-2026-modelo-c"

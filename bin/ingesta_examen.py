@@ -202,7 +202,8 @@ def importar_examen(conn: sqlite3.Connection, examen: dict,
         if respuesta in LETRA_A_INDICE:
             conn.execute("UPDATE preguntas SET correcta=? WHERE id=?", (LETRA_A_INDICE[respuesta], pid))
         elif respuesta == "anulada":
-            conn.execute("UPDATE preguntas SET correcta=-1 WHERE id=?", (pid,))
+            # Pregunta anulada: sin respuesta correcta válida; se deja correcta=0.
+            pass
         stats["preguntas_teoricas"] += 1
 
     # 3. Preguntas de reserva
@@ -242,7 +243,8 @@ def importar_examen(conn: sqlite3.Connection, examen: dict,
         if respuesta in LETRA_A_INDICE:
             conn.execute("UPDATE preguntas SET correcta=? WHERE id=?", (LETRA_A_INDICE[respuesta], pid))
         elif respuesta == "anulada":
-            conn.execute("UPDATE preguntas SET correcta=-1 WHERE id=?", (pid,))
+            # Pregunta anulada: sin respuesta correcta válida; se deja correcta=0.
+            pass
         stats["preguntas_reserva"] += 1
 
     # 4. Supuestos
