@@ -1248,9 +1248,8 @@ def render_pregunta_test(item):
             expl = esc(item["explicacion"]) if item.get("explicacion") else ""
             st.markdown(f'<div class="expl">{expl}{ref}</div>', unsafe_allow_html=True)
 
-        # Refuerzo: qué repasar del temario (especialmente al fallar)
-        if elegida is not None:
-            fallo = (elegida != correcta)
+        # Refuerzo: qué repasar del temario (solo al fallar)
+        if elegida is not None and elegida != correcta:
             try:
                 trow = consulta("SELECT numero, titulo FROM temas WHERE id = ?", (item.get("tema_id"),))
                 tema_txt = f"Tema {trow[0]['numero']}: {trow[0]['titulo']}" if trow else None
@@ -1267,11 +1266,10 @@ def render_pregunta_test(item):
                 except Exception:
                     pass
             if tema_txt:
-                clase_repaso = "repaso" if fallo else "repaso"
-                html = f'<div class="{clase_repaso}"><div class="titulo">Repasa en el temario: {esc(tema_txt)}</div>'
+                html = f'<div class="repaso"><div class="titulo">Repasa en el temario: {esc(tema_txt)}</div>'
                 if concepto_txt:
                     html += f'<div class="concepto">Concepto: {esc(concepto_txt)}</div>'
-                if fallo and concepto_resumen:
+                if concepto_resumen:
                     html += f'<div style="margin-top:.3rem;font-size:.9rem;">{esc(concepto_resumen[:260])}{"…" if len(concepto_resumen) > 260 else ""}</div>'
                 html += '</div>'
                 st.markdown(html, unsafe_allow_html=True)
