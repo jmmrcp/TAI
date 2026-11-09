@@ -1,0 +1,1904 @@
+{
+  "preguntas": [
+    {
+      "id": "p-1-001",
+      "concepto_id": "c-ed866875ef19",
+      "capitulo": "1.1",
+      "tipo": "definicion",
+      "dificultad": "baja",
+      "origen": "ingesta-inicial",
+      "enunciado": "Según ISO-2382, ¿qué es un dato?",
+      "opciones": [
+        "a) Representación simbólica de un atributo o variable cuantitativa o cualitativa; mínima unidad semántica sin significado contextual",
+        "b) Resultado de procesar y contextualizar información para la toma de decisiones",
+        "c) Conjunto de elementos diseñado para el tratamiento de información",
+        "d) Hecho procesado que permite disminuir la incertidumbre"
+      ],
+      "correcta": 0,
+      "explicacion": "Un dato es una representación simbólica de un atributo o variable; por sí solo es irrelevante, sin significado contextual ni orientación para la toma de decisiones.",
+      "referencia": "línea 80-81",
+      "verificado": false
+    },
+    {
+      "id": "p-1-002",
+      "concepto_id": "c-133a27702e2e",
+      "capitulo": "1.2",
+      "tipo": "definicion",
+      "dificultad": "baja",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Cuál es la fórmula conceptual de la información presentada en el texto?",
+      "opciones": [
+        "a) Información = Datos × Procesamiento",
+        "b) Información = Datos + Contexto (añadir valor) + Utilidad (disminuir la incertidumbre)",
+        "c) Información = Contexto - Datos",
+        "d) Información = Datos + Hardware + Software"
+      ],
+      "correcta": 1,
+      "explicacion": "La información resulta de procesar y contextualizar datos, añadiendo valor y utilidad para la toma de decisiones.",
+      "referencia": "línea 92",
+      "verificado": false
+    },
+    {
+      "id": "p-1-003",
+      "concepto_id": "c-c45267e40672",
+      "capitulo": "1.2",
+      "tipo": "regla",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "Los dos requisitos fundamentales que debe cumplir la información son:",
+      "opciones": [
+        "a) Relevancia y precisión",
+        "b) Completitud y actualidad",
+        "c) Integridad e inequivocidad",
+        "d) Disponibilidad y seguridad"
+      ],
+      "correcta": 2,
+      "explicacion": "La información debe cumplir integridad (todos los datos necesarios disponibles) e inequivocidad (una sola interpretación posible); relevancia, precisión, completitud y adecuación son adicionales.",
+      "referencia": "línea 87-90",
+      "verificado": false
+    },
+    {
+      "id": "p-1-004",
+      "concepto_id": "c-d283fe044947",
+      "capitulo": "1.3",
+      "tipo": "clasificacion",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "En la pirámide DIKW, ¿qué nivel responde a la pregunta '¿cómo funciona?'?",
+      "opciones": [
+        "a) Dato",
+        "b) Información",
+        "c) Sabiduría",
+        "d) Conocimiento"
+      ],
+      "correcta": 3,
+      "explicacion": "Los cuatro niveles responden a preguntas distintas: dato (¿qué hay?), información (¿qué es?), conocimiento (¿cómo funciona?) y sabiduría (¿qué hacemos?).",
+      "referencia": "línea 96-100",
+      "verificado": false
+    },
+    {
+      "id": "p-1-005",
+      "concepto_id": "c-f07da262fc0e",
+      "capitulo": "1.4",
+      "tipo": "proceso",
+      "dificultad": "alta",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Cuáles son las seis fases canónicas del ciclo de vida del dato (DLM)?",
+      "opciones": [
+        "a) Captura, almacenamiento, procesamiento, uso, publicación/comunicación y archivo o eliminación",
+        "b) Adquisición, persistencia, cálculo, explotación, distribución y borrado",
+        "c) Entrada, salida, procesamiento, memoria, E/S y archivo",
+        "d) Captura, análisis, transformación, almacenamiento, uso y descarte"
+      ],
+      "correcta": 0,
+      "explicacion": "Las seis fases son captura, almacenamiento, procesamiento, uso, publicación/comunicación y archivo o eliminación.",
+      "referencia": "línea 105-126",
+      "verificado": false
+    },
+    {
+      "id": "p-1-006",
+      "concepto_id": "c-441398d65cb2",
+      "capitulo": "1.5",
+      "tipo": "clasificacion",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Cuál NO es una de las cuatro dimensiones de calidad del dato mencionadas en el texto?",
+      "opciones": [
+        "a) Exactitud",
+        "b) Escalabilidad",
+        "c) Completitud",
+        "d) Consistencia"
+      ],
+      "correcta": 1,
+      "explicacion": "Las cuatro dimensiones son exactitud, completitud, consistencia y oportunidad/actualidad; escalabilidad no figura entre ellas.",
+      "referencia": "línea 130-134",
+      "verificado": false
+    },
+    {
+      "id": "p-1-007",
+      "concepto_id": "c-cc5f24097970",
+      "capitulo": "1.6",
+      "tipo": "definicion",
+      "dificultad": "baja",
+      "origen": "ingesta-inicial",
+      "enunciado": "Los metadatos se clasifican en tres tipos principales:",
+      "opciones": [
+        "a) Numéricos, alfabéticos y alfanuméricos",
+        "b) Entrada, intermedios y de salida",
+        "c) Descriptivos, estructurales y administrativos",
+        "d) Fijos, variables y multimedia"
+      ],
+      "correcta": 2,
+      "explicacion": "Los tres tipos son metadatos descriptivos, estructurales y administrativos.",
+      "referencia": "línea 140-143",
+      "verificado": false
+    },
+    {
+      "id": "p-1-008",
+      "concepto_id": "c-92e71f3302d5",
+      "capitulo": "1.7",
+      "tipo": "clasificacion",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "Los datos intermedios se caracterizan por:",
+      "opciones": [
+        "a) Ser el resultado final del procesamiento",
+        "b) Introducirse en el sistema por usuarios o dispositivos",
+        "c) Almacenarse permanentemente en ROM",
+        "d) Generarse durante el procesamiento, en memoria de trabajo, sin ser visibles al usuario final"
+      ],
+      "correcta": 3,
+      "explicacion": "Los datos intermedios se generan durante el procesamiento y residen en memoria de trabajo, no visibles al usuario final.",
+      "referencia": "línea 156-158",
+      "verificado": false
+    },
+    {
+      "id": "p-1-009",
+      "concepto_id": "c-ce97d02f60f3",
+      "capitulo": "1.7",
+      "tipo": "clasificacion",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Cuál NO es un subtipo de dato según su naturaleza?",
+      "opciones": [
+        "a) Estructurados",
+        "b) Numéricos",
+        "c) Alfabéticos",
+        "d) Booleanos"
+      ],
+      "correcta": 0,
+      "explicacion": "Según la naturaleza, los datos son numéricos, alfabéticos, alfanuméricos, lógicos/booleanos y multimedia; 'estructurados' pertenece a la clasificación por estructura.",
+      "referencia": "línea 163-168",
+      "verificado": false
+    },
+    {
+      "id": "p-1-010",
+      "concepto_id": "c-e7645bd097c7",
+      "capitulo": "1.7",
+      "tipo": "clasificacion",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "Los datos semi-estructurados son autodescriptivos; ejemplos típicos son:",
+      "opciones": [
+        "a) Tablas relacionales con esquema fijo",
+        "b) XML y JSON",
+        "c) Imágenes y correos electrónicos",
+        "d) Documentos PDF sin esquema"
+      ],
+      "correcta": 1,
+      "explicacion": "Los datos semi-estructurados tienen estructura parcial y son autodescriptivos, como XML y JSON.",
+      "referencia": "línea 176",
+      "verificado": false
+    },
+    {
+      "id": "p-1-011",
+      "concepto_id": "c-9e26556ffcea",
+      "capitulo": "1.7",
+      "tipo": "regla",
+      "dificultad": "alta",
+      "origen": "ingesta-inicial",
+      "enunciado": "En el formato IEEE-754, un double de 64 bits se compone de:",
+      "opciones": [
+        "a) 1 bit de signo + 8 bits de exponente + 23 bits de mantisa",
+        "b) 2 bits de signo + 11 bits de exponente + 51 bits de mantisa",
+        "c) 1 bit de signo + 11 bits de exponente + 52 bits de mantisa",
+        "d) 1 bit de signo + 12 bits de exponente + 51 bits de mantisa"
+      ],
+      "correcta": 2,
+      "explicacion": "Float usa 1+8+23 bits (32 bits) y double usa 1+11+52 bits (64 bits).",
+      "referencia": "línea 226",
+      "verificado": false
+    },
+    {
+      "id": "p-1-012",
+      "concepto_id": "c-e2945d71edb0",
+      "capitulo": "1.7",
+      "tipo": "definicion",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "Un Tipo Abstracto de Datos (TAD) se define como:",
+      "opciones": [
+        "a) La implementación física del dato en memoria",
+        "b) Un lenguaje de programación de alto nivel",
+        "c) Un tipo primitivo soportado por el hardware",
+        "d) Un conjunto de valores y operaciones independiente de su implementación"
+      ],
+      "correcta": 3,
+      "explicacion": "Un TAD define valores y operaciones sin depender de la implementación concreta.",
+      "referencia": "línea 242-243",
+      "verificado": false
+    },
+    {
+      "id": "p-1-013",
+      "concepto_id": "c-d29327966a6a",
+      "capitulo": "1.7",
+      "tipo": "clasificacion",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "Los ejes de tipado estático/dinámico y fuerte/débil son:",
+      "opciones": [
+        "a) Independientes entre sí",
+        "b) Dependientes: un lenguaje estático es siempre fuerte",
+        "c) Mutuamente excluyentes",
+        "d) Equivalentes"
+      ],
+      "correcta": 0,
+      "explicacion": "Ambos ejes son independientes: Python es dinámico+fuerte, JavaScript dinámico+débil, C estático+débil, Java estático+fuerte.",
+      "referencia": "línea 334, 361",
+      "verificado": false
+    },
+    {
+      "id": "p-1-014",
+      "concepto_id": "c-e3885432d39e",
+      "capitulo": "1.7",
+      "tipo": "clasificacion",
+      "dificultad": "baja",
+      "origen": "ingesta-inicial",
+      "enunciado": "En SQL:2023, el tipo BOOLEAN admite los valores:",
+      "opciones": [
+        "a) TRUE / FALSE",
+        "b) TRUE / FALSE / UNKNOWN (lógica trivaluada por NULL)",
+        "c) 0 / 1",
+        "d) Sí / No"
+      ],
+      "correcta": 1,
+      "explicacion": "SQL:2023 define BOOLEAN con TRUE, FALSE y UNKNOWN debido a la lógica trivaluada por NULL.",
+      "referencia": "línea 324-325",
+      "verificado": false
+    },
+    {
+      "id": "p-2-001",
+      "concepto_id": "c-2d15b17d5254",
+      "capitulo": "2.1",
+      "tipo": "definicion",
+      "dificultad": "baja",
+      "origen": "ingesta-inicial",
+      "enunciado": "Según el texto, ¿qué NO es sinónimo de 'sistema de información'?",
+      "opciones": [
+        "a) Conjunto de elementos",
+        "b) Tratamiento de información",
+        "c) Sistema informático",
+        "d) Aplicaciones"
+      ],
+      "correcta": 2,
+      "explicacion": "Un sistema de información no requiere necesariamente componentes informáticos; un archivador físico con fichas es un SI válido.",
+      "referencia": "línea 368",
+      "verificado": false
+    },
+    {
+      "id": "p-2-002",
+      "concepto_id": "c-82a38f14eae4",
+      "capitulo": "2.2",
+      "tipo": "clasificacion",
+      "dificultad": "alta",
+      "origen": "ingesta-inicial",
+      "enunciado": "Los siete componentes estructurales de un sistema de información son:",
+      "opciones": [
+        "a) CPU, memoria, E/S, SO, aplicaciones, red y usuarios",
+        "b) Entrada, salida, procesamiento, almacenamiento, control, usuarios y red",
+        "c) Hardware, software, datos, procesos, usuarios, seguridad y backups",
+        "d) Hardware, software, datos, procedimientos, usuarios, red y retroalimentación"
+      ],
+      "correcta": 3,
+      "explicacion": "Los siete componentes son hardware, software, datos, procedimientos, usuarios, red y retroalimentación.",
+      "referencia": "línea 372-387",
+      "verificado": false
+    },
+    {
+      "id": "p-2-003",
+      "concepto_id": "c-410ba594c191",
+      "capitulo": "2.3",
+      "tipo": "clasificacion",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "La tríada CIA se complementa en el ENS con dos dimensiones adicionales:",
+      "opciones": [
+        "a) Trazabilidad y autenticidad",
+        "b) Disponibilidad y confidencialidad",
+        "c) Integridad y fiabilidad",
+        "d) Cifrado y auditoría"
+      ],
+      "correcta": 0,
+      "explicacion": "El ENS extiende la tríada CIA (confidencialidad, integridad, disponibilidad) con trazabilidad y autenticidad.",
+      "referencia": "línea 491",
+      "verificado": false
+    },
+    {
+      "id": "p-2-004",
+      "concepto_id": "c-d5306cfac6f9",
+      "capitulo": "2.5",
+      "tipo": "proceso",
+      "dificultad": "baja",
+      "origen": "ingesta-inicial",
+      "enunciado": "La regla nemotécnica EAPS corresponde a:",
+      "opciones": [
+        "a) Evaluación, Análisis, Planificación y Seguimiento",
+        "b) Entrada, Almacenamiento, Procesamiento y Salida",
+        "c) Extracción, Almacenamiento, Procesamiento y Sincronización",
+        "d) Entrada, Análisis, Procesamiento y Salida"
+      ],
+      "correcta": 1,
+      "explicacion": "Las cuatro funciones básicas son entrada, almacenamiento, procesamiento y salida de información.",
+      "referencia": "línea 519",
+      "verificado": false
+    },
+    {
+      "id": "p-2-005",
+      "concepto_id": "c-6f11c5f4163f",
+      "capitulo": "2.6",
+      "tipo": "clasificacion",
+      "dificultad": "baja",
+      "origen": "ingesta-inicial",
+      "enunciado": "El sistema TPS (Transaction Processing System) opera en el nivel:",
+      "opciones": [
+        "a) Estratégico",
+        "b) Analítico",
+        "c) Operativo",
+        "d) Gestión/táctico"
+      ],
+      "correcta": 2,
+      "explicacion": "TPS gestiona transacciones individuales en tiempo real en el nivel operativo.",
+      "referencia": "línea 542-546",
+      "verificado": false
+    },
+    {
+      "id": "p-2-006",
+      "concepto_id": "c-efa175226545",
+      "capitulo": "2.7",
+      "tipo": "definicion",
+      "dificultad": "alta",
+      "origen": "ingesta-inicial",
+      "enunciado": "Un ERP integra procesos de negocio en un único sistema; ejemplo en el sector público:",
+      "opciones": [
+        "a) Salesforce",
+        "b) CAU",
+        "c) datos.madrid.es",
+        "d) Sorolla2 (SEC) o GEISER"
+      ],
+      "correcta": 3,
+      "explicacion": "En el sector público, los ERP se materializan en Sorolla2 (SEC) o GEISER.",
+      "referencia": "línea 566",
+      "verificado": false
+    },
+    {
+      "id": "p-2-007",
+      "concepto_id": "c-9f0e358ee0bb",
+      "capitulo": "2.9",
+      "tipo": "clasificacion",
+      "dificultad": "baja",
+      "origen": "ingesta-inicial",
+      "enunciado": "La metodología oficial de la Administración Pública española para el desarrollo de SI es:",
+      "opciones": [
+        "a) Métrica v3",
+        "b) ITIL v4",
+        "c) COBIT 2019",
+        "d) Scrum"
+      ],
+      "correcta": 0,
+      "explicacion": "Métrica v3 (MAP, 2001) es la metodología oficial de la Administración Pública española.",
+      "referencia": "línea 581",
+      "verificado": false
+    },
+    {
+      "id": "p-2-008",
+      "concepto_id": "c-1e6d8dc2d9d1",
+      "capitulo": "2.4",
+      "tipo": "regla",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "Según los elementos funcionales del SI, ¿quién nunca tiene acceso directo a la base de datos?",
+      "opciones": [
+        "a) El administrador del sistema",
+        "b) El usuario (siempre a través de transacciones autorizadas)",
+        "c) El auditor",
+        "d) La dirección ejecutiva"
+      ],
+      "correcta": 1,
+      "explicacion": "Nunca un usuario tiene acceso directo a la base de datos; siempre a través de transacciones autorizadas.",
+      "referencia": "línea 500",
+      "verificado": false
+    },
+    {
+      "id": "p-2-009",
+      "concepto_id": "c-efa175226545",
+      "capitulo": "2.8",
+      "tipo": "comparativa",
+      "dificultad": "alta",
+      "origen": "ingesta-inicial",
+      "enunciado": "La arquitectura Data Lakehouse (Databricks, 2020) combina:",
+      "opciones": [
+        "a) OLTP con OLAP",
+        "b) BI con CRM",
+        "c) Garantías transaccionales del DWH con flexibilidad del Data Lake",
+        "d) ERP con SCM"
+      ],
+      "correcta": 2,
+      "explicacion": "El Data Lakehouse combina las garantías transaccionales del DWH con la flexibilidad del Data Lake.",
+      "referencia": "línea 577",
+      "verificado": false
+    },
+    {
+      "id": "p-2-010",
+      "concepto_id": "c-410ba594c191",
+      "capitulo": "2.3",
+      "tipo": "cifra",
+      "dificultad": "alta",
+      "origen": "ingesta-inicial",
+      "enunciado": "El SLA de 'tres nueves' (99,9%) admite aproximadamente:",
+      "opciones": [
+        "a) 5,26 minutos de caída al año",
+        "b) 1 día de caída al año",
+        "c) 1 hora de caída al mes",
+        "d) 8,76 horas de caída al año"
+      ],
+      "correcta": 3,
+      "explicacion": "El SLA de 'tres nueves' (99,9%) admite 8,76 horas de caída al año; 'cinco nueves' (99,999%) solo 5,26 minutos.",
+      "referencia": "línea 481",
+      "verificado": false
+    },
+    {
+      "id": "p-3-001",
+      "concepto_id": "c-007b70c6c02e",
+      "capitulo": "3",
+      "tipo": "definicion",
+      "dificultad": "baja",
+      "origen": "ingesta-inicial",
+      "enunciado": "La arquitectura (ISA) de un ordenador es la visión de:",
+      "opciones": [
+        "a) El programador",
+        "b) El ingeniero",
+        "c) El usuario final",
+        "d) El fabricante"
+      ],
+      "correcta": 0,
+      "explicacion": "La arquitectura (ISA) es la visión del programador; la organización es la visión del ingeniero.",
+      "referencia": "línea 589-591",
+      "verificado": false
+    },
+    {
+      "id": "p-3-002",
+      "concepto_id": "c-32e7caf5199d",
+      "capitulo": "3",
+      "tipo": "comparativa",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "Dos procesadores con la misma arquitectura pero organizaciones distintas son:",
+      "opciones": [
+        "a) Incompatibles a nivel de código",
+        "b) Compatibles a nivel de código",
+        "c) Siempre de distinto fabricante",
+        "d) Imposibles de fabricar"
+      ],
+      "correcta": 1,
+      "explicacion": "Procesadores con la misma ISA (p.ej. Intel i9 e i3) son compatibles a nivel de código aunque tengan organizaciones distintas.",
+      "referencia": "línea 592",
+      "verificado": false
+    },
+    {
+      "id": "p-3-003",
+      "concepto_id": "c-56c22b3c2736",
+      "capitulo": "3.1",
+      "tipo": "definicion",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "La característica definitoria de la arquitectura Von Neumann es:",
+      "opciones": [
+        "a) Memoria de instrucciones y datos separadas con buses independientes",
+        "b) Caché L1 unificada para datos e instrucciones",
+        "c) Memoria única compartida para datos e instrucciones (programa almacenado)",
+        "d) Ausencia de cuello de botella"
+      ],
+      "correcta": 2,
+      "explicacion": "Von Neumann almacena datos e instrucciones en un único espacio de memoria, habilitando el programa almacenado.",
+      "referencia": "línea 598, 601",
+      "verificado": false
+    },
+    {
+      "id": "p-3-004",
+      "concepto_id": "c-82cd1f3035e5",
+      "capitulo": "3.2",
+      "tipo": "definicion",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "La arquitectura Harvard se caracteriza por:",
+      "opciones": [
+        "a) Memoria única y bus compartido",
+        "b) Programa almacenado en memoria única",
+        "c) Caché L1 unificada",
+        "d) Memoria de instrucciones y datos separadas con buses independientes"
+      ],
+      "correcta": 3,
+      "explicacion": "Harvard divide la memoria principal en memoria de instrucciones y memoria de datos, cada una con su propio bus.",
+      "referencia": "línea 605",
+      "verificado": false
+    },
+    {
+      "id": "p-3-005",
+      "concepto_id": "c-6168f3c02efd",
+      "capitulo": "3.2",
+      "tipo": "comparativa",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Qué arquitectura elimina el cuello de botella de Von Neumann mediante buses separados?",
+      "opciones": [
+        "a) Harvard",
+        "b) Von Neumann",
+        "c) CISC",
+        "d) Harvard modificada"
+      ],
+      "correcta": 0,
+      "explicacion": "Harvard, al tener buses separados, permite simultanear operaciones sobre datos e instrucciones.",
+      "referencia": "línea 606",
+      "verificado": false
+    },
+    {
+      "id": "p-3-006",
+      "concepto_id": "c-d4305ce65f85",
+      "capitulo": "3.3",
+      "tipo": "definicion",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "En la arquitectura Harvard modificada, la caché L1 está:",
+      "opciones": [
+        "a) Unificada para datos e instrucciones",
+        "b) Separada en L1i (instrucciones) y L1d (datos)",
+        "c) Eliminada",
+        "d) Solo de instrucciones"
+      ],
+      "correcta": 1,
+      "explicacion": "La Harvard modificada separa la caché L1 en L1i y L1d para ganar paralelismo en el nivel más cercano a la CPU.",
+      "referencia": "línea 632",
+      "verificado": false
+    },
+    {
+      "id": "p-3-007",
+      "concepto_id": "c-d4305ce65f85",
+      "capitulo": "3.3",
+      "tipo": "definicion",
+      "dificultad": "alta",
+      "origen": "ingesta-inicial",
+      "enunciado": "En la Harvard modificada, ¿qué niveles de caché son unificados (datos + instrucciones)?",
+      "opciones": [
+        "a) L1",
+        "b) L1 y L2",
+        "c) L2 y L3",
+        "d) Ninguno"
+      ],
+      "correcta": 2,
+      "explicacion": "En la Harvard modificada, la caché L1 está separada, mientras que L2 y L3 vuelven a ser unificadas.",
+      "referencia": "línea 633",
+      "verificado": false
+    },
+    {
+      "id": "p-3-008",
+      "concepto_id": "c-56c22b3c2736",
+      "capitulo": "3.1",
+      "tipo": "definicion",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "El concepto de programa almacenado en Von Neumann permite:",
+      "opciones": [
+        "a) Separar la memoria de datos e instrucciones",
+        "b) Eliminar el bus compartido",
+        "c) Ejecutar instrucciones en paralelo",
+        "d) Modificar las instrucciones como si fueran datos"
+      ],
+      "correcta": 3,
+      "explicacion": "Al compartir memoria, las instrucciones pueden modificarse como si fueran datos, base de compiladores y sistemas operativos.",
+      "referencia": "línea 601",
+      "verificado": false
+    },
+    {
+      "id": "p-3-009",
+      "concepto_id": "c-82cd1f3035e5",
+      "capitulo": "3.2",
+      "tipo": "clasificacion",
+      "dificultad": "baja",
+      "origen": "ingesta-inicial",
+      "enunciado": "La arquitectura Harvard se aplica típicamente en:",
+      "opciones": [
+        "a) DSPs y microcontroladores (AVR, PIC)",
+        "b) PCs de propósito general",
+        "c) Mainframes",
+        "d) Supercomputadores"
+      ],
+      "correcta": 0,
+      "explicacion": "Harvard se usa en DSPs y microcontroladores como AVR y PIC; los PCs de propósito general usan Von Neumann/Harvard modificada.",
+      "referencia": "línea 627",
+      "verificado": false
+    },
+    {
+      "id": "p-3-010",
+      "concepto_id": "c-6168f3c02efd",
+      "capitulo": "3.2",
+      "tipo": "comparativa",
+      "dificultad": "baja",
+      "origen": "ingesta-inicial",
+      "enunciado": "Según la tabla comparativa, ¿qué arquitectura tiene mayor complejidad?",
+      "opciones": [
+        "a) Von Neumann",
+        "b) Harvard",
+        "c) Ambas igual",
+        "d) Depende del sistema operativo"
+      ],
+      "correcta": 1,
+      "explicacion": "La tabla indica complejidad menor para Von Neumann y mayor para Harvard.",
+      "referencia": "línea 623-624",
+      "verificado": false
+    },
+    {
+      "id": "p-3-011",
+      "concepto_id": "c-56c22b3c2736",
+      "capitulo": "3.1",
+      "tipo": "clasificacion",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "Los cuatro elementos canónicos de la arquitectura Von Neumann son:",
+      "opciones": [
+        "a) ALU, registros, UC y caché",
+        "b) Memoria, disco, red y sistema operativo",
+        "c) CPU, memoria, mecanismos de E/S y buses",
+        "d) Programa, datos, instrucciones y buses"
+      ],
+      "correcta": 2,
+      "explicacion": "Los cuatro elementos son unidad de proceso (CPU), memoria, mecanismos de E/S y buses.",
+      "referencia": "línea 596-600",
+      "verificado": false
+    },
+    {
+      "id": "p-4-001",
+      "concepto_id": "c-d1dd4a6463f9",
+      "capitulo": "4",
+      "tipo": "definicion",
+      "dificultad": "baja",
+      "origen": "ingesta-inicial",
+      "enunciado": "Las generaciones de ordenadores se definen principalmente por tres aspectos:",
+      "opciones": [
+        "a) Tecnología vigente, técnicas de programación e impacto en la sociedad",
+        "b) Velocidad de cálculo, tamaño físico y consumo eléctrico",
+        "c) Lenguaje de programación, sistema operativo y periféricos",
+        "d) Precio, disponibilidad y facilidad de uso"
+      ],
+      "correcta": 0,
+      "explicacion": "Según el texto, las generaciones se definen por la tecnología vigente (componente electrónico principal), las técnicas de programación y el impacto en la sociedad.",
+      "referencia": "línea 641",
+      "verificado": false
+    },
+    {
+      "id": "p-4-002",
+      "concepto_id": "c-fab96d39a7b9",
+      "capitulo": "4.1",
+      "tipo": "clasificacion",
+      "dificultad": "baja",
+      "origen": "ingesta-inicial",
+      "enunciado": "La primera generación de ordenadores (1940-1952) se basó en:",
+      "opciones": [
+        "a) Transistores y núcleos de ferrita",
+        "b) Válvulas de vacío y relés electromagnéticos",
+        "c) Circuitos integrados SSI/MSI",
+        "d) Microprocesadores LSI/VLSI"
+      ],
+      "correcta": 1,
+      "explicacion": "La primera generación empleó relés electromagnéticos, válvulas y tubos de vacío como tecnología principal.",
+      "referencia": "línea 647",
+      "verificado": false
+    },
+    {
+      "id": "p-4-003",
+      "concepto_id": "c-fab96d39a7b9",
+      "capitulo": "4.1",
+      "tipo": "memorizacion",
+      "dificultad": "baja",
+      "origen": "ingesta-inicial",
+      "enunciado": "El ENIAC (primera generación) ocupaba y consumía aproximadamente:",
+      "opciones": [
+        "a) 50 m² y 2 kW",
+        "b) 1.000 m² y 1 MW",
+        "c) 167 m² y 150 kW",
+        "d) 30 m² y 15 kW"
+      ],
+      "correcta": 2,
+      "explicacion": "El texto indica que el ENIAC ocupaba 167 m² y consumía 150 kW, con un peso de 30 toneladas.",
+      "referencia": "líneas 653, 655",
+      "verificado": false
+    },
+    {
+      "id": "p-4-004",
+      "concepto_id": "c-dbe2adee451b",
+      "capitulo": "4.2",
+      "tipo": "clasificacion",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "Los lenguajes de alto nivel Fortran, Cobol y Algol aparecieron en:",
+      "opciones": [
+        "a) Primera generación",
+        "b) Tercera generación",
+        "c) Cuarta generación",
+        "d) Segunda generación"
+      ],
+      "correcta": 3,
+      "explicacion": "La segunda generación (1952-1964) introdujo lenguajes de alto nivel como Fortran (1957), Cobol (1959) y Algol (1960).",
+      "referencia": "línea 675",
+      "verificado": false
+    },
+    {
+      "id": "p-4-005",
+      "concepto_id": "c-9cbf645f23f2",
+      "capitulo": "4.3",
+      "tipo": "clasificacion",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "La multiprogramación y el time-sharing (tiempo compartido) se introdujeron en:",
+      "opciones": [
+        "a) Tercera generación",
+        "b) Segunda generación",
+        "c) Cuarta generación",
+        "d) Quinta generación"
+      ],
+      "correcta": 0,
+      "explicacion": "La tercera generación (1964-1970) incorporó sistemas operativos con multiprogramación, tiempo real y modo interactivo (time-sharing).",
+      "referencia": "línea 692",
+      "verificado": false
+    },
+    {
+      "id": "p-4-006",
+      "concepto_id": "c-dca6c6efda63",
+      "capitulo": "4.4",
+      "tipo": "memorizacion",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "El Intel 4004 (1971), primer microprocesador comercial, tenía:",
+      "opciones": [
+        "a) 10.000 transistores, 8 bits y 1 MHz",
+        "b) 2.300 transistores, 4 bits y 740 kHz",
+        "c) 29.000 transistores, 16 bits y 5 MHz",
+        "d) 100.000 transistores, 32 bits y 10 MHz"
+      ],
+      "correcta": 1,
+      "explicacion": "El texto señala que el Intel 4004 tenía 2.300 transistores, era de 4 bits y funcionaba a 740 kHz.",
+      "referencia": "línea 704",
+      "verificado": false
+    },
+    {
+      "id": "p-4-007",
+      "concepto_id": "c-fe911564797b",
+      "capitulo": "4.6",
+      "tipo": "memorizacion",
+      "dificultad": "baja",
+      "origen": "ingesta-inicial",
+      "enunciado": "Desde aproximadamente 2005 todos los procesadores de propósito general son:",
+      "opciones": [
+        "a) Mononúcleo de alta frecuencia",
+        "b) Cuánticos",
+        "c) Multinúcleo",
+        "d) Neuromórficos"
+      ],
+      "correcta": 2,
+      "explicacion": "La sexta generación se caracteriza, entre otros aspectos, porque desde ~2005 todos los procesadores de propósito general son multinúcleo.",
+      "referencia": "línea 734",
+      "verificado": false
+    },
+    {
+      "id": "p-5-001",
+      "concepto_id": "c-7028fb3c2a0e",
+      "capitulo": "5.1",
+      "tipo": "definicion",
+      "dificultad": "baja",
+      "origen": "ingesta-inicial",
+      "enunciado": "De los tres buses clásicos, el único bidireccional es:",
+      "opciones": [
+        "a) Bus de control",
+        "b) Bus de direcciones",
+        "c) Bus de sistema",
+        "d) Bus de datos"
+      ],
+      "correcta": 3,
+      "explicacion": "El bus de datos es bidireccional y traslada datos hacia y desde la memoria y otros dispositivos; los buses de control y direcciones son unidireccionales.",
+      "referencia": "líneas 761-763",
+      "verificado": false
+    },
+    {
+      "id": "p-5-002",
+      "concepto_id": "c-bcd1247e9ef8",
+      "capitulo": "5.1",
+      "tipo": "regla",
+      "dificultad": "alta",
+      "origen": "ingesta-inicial",
+      "enunciado": "El ancho de banda de un bus se calcula como:",
+      "opciones": [
+        "a) Anchura (bits) × Frecuencia (Hz) / 8",
+        "b) Anchura (bits) + Frecuencia (Hz)",
+        "c) Frecuencia (Hz) / Anchura (bits)",
+        "d) Anchura (bytes) × Frecuencia (Hz)"
+      ],
+      "correcta": 0,
+      "explicacion": "El texto indica que el ancho de banda (MB/s o GB/s) = anchura × frecuencia / 8.",
+      "referencia": "línea 767",
+      "verificado": false
+    },
+    {
+      "id": "p-5-003",
+      "concepto_id": "c-b650df0fc439",
+      "capitulo": "5.2.1",
+      "tipo": "proceso",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "Los sistemas CISC modernos convierten internamente las instrucciones complejas en:",
+      "opciones": [
+        "a) Instrucciones de alto nivel",
+        "b) Microoperaciones tipo RISC (micro-ops/uops)",
+        "c) Código máquina directo",
+        "d) Microcódigo de 1 bit"
+      ],
+      "correcta": 1,
+      "explicacion": "Los sistemas CISC modernos convierten instrucciones complejas en microoperaciones tipo RISC (micro-ops, uops) internamente antes de ejecutarlas.",
+      "referencia": "línea 786",
+      "verificado": false
+    },
+    {
+      "id": "p-5-004",
+      "concepto_id": "c-a92fd3b0e669",
+      "capitulo": "5.2.1",
+      "tipo": "definicion",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "En una arquitectura RISC, solo las instrucciones de carga/almacenamiento (LOAD/STORE) acceden a memoria. Esto se denomina:",
+      "opciones": [
+        "a) Arquitectura de memoria unificada",
+        "b) Arquitectura Harvard",
+        "c) Arquitectura load-store",
+        "d) Arquitectura Von Neumann"
+      ],
+      "correcta": 2,
+      "explicacion": "La arquitectura load-store es característica fundamental de RISC: solo LOAD/STORE acceden a memoria.",
+      "referencia": "línea 797",
+      "verificado": false
+    },
+    {
+      "id": "p-5-005",
+      "concepto_id": "c-b650df0fc439",
+      "capitulo": "5.2.1",
+      "tipo": "comparativa",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "Según la tabla comparativa, las instrucciones RISC son:",
+      "opciones": [
+        "a) Complejas y de tamaño variable",
+        "b) De tamaño variable y complejas",
+        "c) De acceso directo a memoria",
+        "d) Simples y de tamaño fijo"
+      ],
+      "correcta": 3,
+      "explicacion": "La tabla comparativa indica que RISC tiene instrucciones simples y de tamaño fijo, frente a las complejas y de tamaño variable de CISC.",
+      "referencia": "líneas 809-811",
+      "verificado": false
+    },
+    {
+      "id": "p-5-006",
+      "concepto_id": "c-7bc66dc69614",
+      "capitulo": "5.2.2",
+      "tipo": "definicion",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "La métrica MIPS (Millions of Instructions Per Second):",
+      "opciones": [
+        "a) Solo es comparable entre CPUs con el mismo conjunto de instrucciones",
+        "b) Es comparable entre cualquier par de procesadores",
+        "c) Mide operaciones de coma flotante",
+        "d) Indica la potencia térmica del procesador"
+      ],
+      "correcta": 0,
+      "explicacion": "El texto señala que MIPS solo es comparable entre CPUs con el mismo conjunto de instrucciones; no se puede comparar MIPS de x86 con MIPS de ARM directamente.",
+      "referencia": "línea 837",
+      "verificado": false
+    },
+    {
+      "id": "p-5-007",
+      "concepto_id": "c-80e6ff4be123",
+      "capitulo": "5.2.3",
+      "tipo": "definicion",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "La tecnología SMT/Hyper-Threading, que permite a un núcleo ejecutar dos hilos simultáneos, tiene su patente original en:",
+      "opciones": [
+        "a) Intel (1999)",
+        "b) Sun Microsystems (1994)",
+        "c) AMD (2003)",
+        "d) IBM (1985)"
+      ],
+      "correcta": 1,
+      "explicacion": "El texto indica que la patente original de multithreading (SMT/Hyper-Threading) es de Sun Microsystems (1994).",
+      "referencia": "línea 846",
+      "verificado": false
+    },
+    {
+      "id": "p-5-008",
+      "concepto_id": "c-80e6ff4be123",
+      "capitulo": "5.2.3",
+      "tipo": "calculo",
+      "dificultad": "alta",
+      "origen": "ingesta-inicial",
+      "enunciado": "Un Intel Core i9-14900K (24 núcleos: 8 P con HyperThreading y 16 E sin HT) presenta al SO:",
+      "opciones": [
+        "a) 24 hilos lógicos",
+        "b) 40 hilos lógicos",
+        "c) 32 hilos lógicos",
+        "d) 48 hilos lógicos"
+      ],
+      "correcta": 2,
+      "explicacion": "Según el texto, un i9-14900K presenta al sistema operativo 32 hilos lógicos (8 núcleos-P con HT×2 + 16 núcleos-E sin HT = 16 + 16 = 32).",
+      "referencia": "línea 850",
+      "verificado": false
+    },
+    {
+      "id": "p-5-009",
+      "concepto_id": "c-86439a7c5f66",
+      "capitulo": "5.2.4",
+      "tipo": "proceso",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "En el cauce segmentado clásico de 5 etapas (modelo MIPS), la etapa EX (Execute) corresponde a:",
+      "opciones": [
+        "a) Búsqueda de la instrucción en memoria",
+        "b) Decodificación y lectura de operandos",
+        "c) Escritura del resultado en el registro destino",
+        "d) Ejecución de la operación por la ALU"
+      ],
+      "correcta": 3,
+      "explicacion": "El cauce clásico de 5 etapas es IF (búsqueda), ID (decodificación), EX (ejecución por la ALU), MEM (acceso a memoria) y WB (escritura).",
+      "referencia": "líneas 855-859",
+      "verificado": false
+    },
+    {
+      "id": "p-5-010",
+      "concepto_id": "c-86439a7c5f66",
+      "capitulo": "5.2.4",
+      "tipo": "definicion",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "Un hazard de control en un cauce segmentado se produce cuando:",
+      "opciones": [
+        "a) Un salto obliga a descartar instrucciones ya buscadas",
+        "b) Dos instrucciones compiten por el mismo recurso hardware",
+        "c) Una instrucción necesita el resultado de otra aún no terminada",
+        "d) El reloj no sincroniza las etapas"
+      ],
+      "correcta": 0,
+      "explicacion": "Los hazards de control se producen cuando un salto (branch) obliga a descartar instrucciones ya buscadas que no se van a ejecutar.",
+      "referencia": "línea 868",
+      "verificado": false
+    },
+    {
+      "id": "p-5-011",
+      "concepto_id": "c-86439a7c5f66",
+      "capitulo": "5.2.4",
+      "tipo": "proceso",
+      "dificultad": "alta",
+      "origen": "ingesta-inicial",
+      "enunciado": "Las vulnerabilidades Spectre y Meltdown (2018) aprovechan:",
+      "opciones": [
+        "a) Errores en la memoria ECC",
+        "b) La ejecución especulativa y sus rastros en caché",
+        "c) Fallos en el bus de datos",
+        "d) Defectos en la ALU"
+      ],
+      "correcta": 1,
+      "explicacion": "Spectre y Meltdown aprovechan la ejecución especulativa: los efectos de instrucciones especulativas no se deshacen del todo (quedan rastros en caché), permitiendo leer memoria protegida.",
+      "referencia": "línea 874",
+      "verificado": false
+    },
+    {
+      "id": "p-5-012",
+      "concepto_id": "c-e41adead973a",
+      "capitulo": "5.2.5",
+      "tipo": "definicion",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "Una CPU superescalar se caracteriza por:",
+      "opciones": [
+        "a) Ejecutar una sola instrucción por ciclo",
+        "b) No usar segmentación",
+        "c) Ejecutar varias instrucciones por ciclo replicando unidades funcionales",
+        "d) Usar solo instrucciones de 1 byte"
+      ],
+      "correcta": 2,
+      "explicacion": "Una CPU superescalar ejecuta varias instrucciones por ciclo replicando unidades funcionales (múltiples ALUs, etc.).",
+      "referencia": "línea 877",
+      "verificado": false
+    },
+    {
+      "id": "p-5-013",
+      "concepto_id": "c-dc032cf71b2c",
+      "capitulo": "5.2.6",
+      "tipo": "definicion",
+      "dificultad": "baja",
+      "origen": "ingesta-inicial",
+      "enunciado": "La Ley de Moore (1965) observaba que el número de transistores en un chip:",
+      "opciones": [
+        "a) Se triplicaba cada año",
+        "b) Se reducía a la mitad cada 2 años",
+        "c) Permanecía constante",
+        "d) Se duplicaba cada 18-24 meses a coste constante"
+      ],
+      "correcta": 3,
+      "explicacion": "La Ley de Moore observaba que el número de transistores en un chip se duplicaba cada ~18-24 meses a coste constante, cumpliéndose hasta ~2015.",
+      "referencia": "línea 882",
+      "verificado": false
+    },
+    {
+      "id": "p-5-014",
+      "concepto_id": "c-01d9b5231f74",
+      "capitulo": "5.3.1",
+      "tipo": "regla",
+      "dificultad": "alta",
+      "origen": "ingesta-inicial",
+      "enunciado": "Si el MAR tiene 32 bits, la capacidad máxima de direccionamiento es:",
+      "opciones": [
+        "a) 4 GB",
+        "b) 2 GB",
+        "c) 8 GB",
+        "d) 16 GB"
+      ],
+      "correcta": 0,
+      "explicacion": "Con MAR de 32 bits se pueden direccionar 2^32 = 4.294.967.296 bytes, es decir, 4 GB.",
+      "referencia": "línea 971",
+      "verificado": false
+    },
+    {
+      "id": "p-5-015",
+      "concepto_id": "c-393eef864075",
+      "capitulo": "5.3.1.1",
+      "tipo": "memorizacion",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "En el registro FLAGS (x86), el bit ZF (Zero Flag) se activa cuando:",
+      "opciones": [
+        "a) Hay acarreo en la operación",
+        "b) El resultado de la operación es cero",
+        "c) El resultado es negativo",
+        "d) Hay desbordamiento con signo"
+      ],
+      "correcta": 1,
+      "explicacion": "El bit ZF (Zero Flag) se activa (valor 1) si el resultado de la operación es cero.",
+      "referencia": "línea 1012",
+      "verificado": false
+    },
+    {
+      "id": "p-6-001",
+      "concepto_id": "c-556be6bb3f6d",
+      "capitulo": "6.1",
+      "tipo": "clasificacion",
+      "dificultad": "baja",
+      "origen": "ingesta-inicial",
+      "enunciado": "La memoria RAM, los registros y la caché son ejemplos de memoria:",
+      "opciones": [
+        "a) No volátil",
+        "b) Secundaria",
+        "c) Volátil",
+        "d) De solo lectura"
+      ],
+      "correcta": 2,
+      "explicacion": "La memoria volátil se borra al perder alimentación eléctrica; RAM, registros y caché son volátiles.",
+      "referencia": "línea 1217",
+      "verificado": false
+    },
+    {
+      "id": "p-6-002",
+      "concepto_id": "c-624e80df9080",
+      "capitulo": "6.2.1",
+      "tipo": "comparativa",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "La DRAM, a diferencia de la SRAM, requiere:",
+      "opciones": [
+        "a) Biestables de 6 transistores por bit",
+        "b) Memoria caché L1",
+        "c) No volatilidad",
+        "d) Refresco periódico (~64 ms) porque los condensadores pierden carga"
+      ],
+      "correcta": 3,
+      "explicacion": "La DRAM está basada en condensador + transistor y requiere refresco periódico (~64 ms) porque los condensadores pierden carga; la SRAM no necesita refresco.",
+      "referencia": "líneas 1234-1235",
+      "verificado": false
+    },
+    {
+      "id": "p-6-003",
+      "concepto_id": "c-64a411b99dcc",
+      "capitulo": "6.2.3",
+      "tipo": "comparativa",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "DDR4 y DDR5 tienen el mismo número de pines (288) pero son incompatibles porque:",
+      "opciones": [
+        "a) Usan distinto voltaje y la muesca está en distinta posición",
+        "b) Tienen distinto número de contactos",
+        "c) Uno es para portátiles y otro para sobremesa",
+        "d) Solo difieren en la frecuencia"
+      ],
+      "correcta": 0,
+      "explicacion": "DDR4 (1,2 V) y DDR5 (1,1 V) tienen 288 pines pero son física y eléctricamente incompatibles: voltajes distintos y muesca en distinta posición.",
+      "referencia": "línea 1303",
+      "verificado": false
+    },
+    {
+      "id": "p-6-004",
+      "concepto_id": "c-64a411b99dcc",
+      "capitulo": "6.2.5",
+      "tipo": "definicion",
+      "dificultad": "alta",
+      "origen": "ingesta-inicial",
+      "enunciado": "La memoria ECC (Error Checking and Correction):",
+      "opciones": [
+        "a) Corrige cualquier número de bits",
+        "b) Detecta y corrige errores de 1 bit; detecta (sin corregir) errores de 2 bits",
+        "c) No detecta errores de 2 bits",
+        "d) Es la memoria de los PCs domésticos por defecto"
+      ],
+      "correcta": 1,
+      "explicacion": "La memoria ECC detecta y corrige errores de 1 bit y detecta (sin corregir) los de 2 bits; se usa en servidores y estaciones de trabajo.",
+      "referencia": "línea 1333",
+      "verificado": false
+    },
+    {
+      "id": "p-6-005",
+      "concepto_id": "c-a23b4b0da435",
+      "capitulo": "6.2.8",
+      "tipo": "memorizacion",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "En memoria virtual, el tamaño típico de una página es:",
+      "opciones": [
+        "a) 1 KB",
+        "b) 64 KB",
+        "c) 4 KB",
+        "d) 1 MB"
+      ],
+      "correcta": 2,
+      "explicacion": "El texto indica que una página es un bloque de tamaño fijo de memoria virtual, típicamente 4 KB.",
+      "referencia": "línea 1360",
+      "verificado": false
+    },
+    {
+      "id": "p-6-006",
+      "concepto_id": "c-00dd55db171a",
+      "capitulo": "6.3",
+      "tipo": "definicion",
+      "dificultad": "baja",
+      "origen": "ingesta-inicial",
+      "enunciado": "La memoria ROM es:",
+      "opciones": [
+        "a) Volátil y de acceso aleatorio",
+        "b) De solo escritura",
+        "c) Exclusiva de la CPU",
+        "d) No volátil y conserva la información al apagar"
+      ],
+      "correcta": 3,
+      "explicacion": "La memoria ROM es de tipo no volátil: conserva la información almacenada al apagar el sistema.",
+      "referencia": "línea 1370",
+      "verificado": false
+    },
+    {
+      "id": "p-6-007",
+      "concepto_id": "c-652098f2fb84",
+      "capitulo": "6.3",
+      "tipo": "clasificacion",
+      "dificultad": "baja",
+      "origen": "ingesta-inicial",
+      "enunciado": "De los tipos de memoria ROM, la única programable una sola vez por el usuario mediante fusibles es:",
+      "opciones": [
+        "a) PROM",
+        "b) ROM (mask ROM)",
+        "c) EPROM",
+        "d) EEPROM"
+      ],
+      "correcta": 0,
+      "explicacion": "La PROM es programable una única vez por el usuario mediante un programador PROM, dependiendo de fusibles que se queman una sola vez.",
+      "referencia": "línea 1381",
+      "verificado": false
+    },
+    {
+      "id": "p-6-008",
+      "concepto_id": "c-01e0706f098f",
+      "capitulo": "6.3.1",
+      "tipo": "clasificacion",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "La NAND Flash se utiliza principalmente en:",
+      "opciones": [
+        "a) Firmware y código ejecutable (BIOS)",
+        "b) SSD, pendrives, móviles y tarjetas SD",
+        "c) Memoria caché L1",
+        "d) Registros de CPU"
+      ],
+      "correcta": 1,
+      "explicacion": "La NAND Flash domina el almacenamiento masivo: SSD, pendrives, móviles y tarjetas SD; la NOR se usa para firmware.",
+      "referencia": "línea 1418",
+      "verificado": false
+    },
+    {
+      "id": "p-6-009",
+      "concepto_id": "c-01e0706f098f",
+      "capitulo": "6.3.1",
+      "tipo": "comparativa",
+      "dificultad": "alta",
+      "origen": "ingesta-inicial",
+      "enunciado": "TLC (Triple-Level Cell) en NAND Flash ofrece mayor densidad que SLC/MLC a cambio de:",
+      "opciones": [
+        "a) Mayor velocidad de lectura aleatoria",
+        "b) Compatibilidad con BIOS",
+        "c) Menor resistencia a la escritura (~1.000-3.000 ciclos P/E)",
+        "d) Menor coste por bit nulo"
+      ],
+      "correcta": 2,
+      "explicacion": "TLC (3 bits/celda) ofrece mayor densidad y menor coste por GB, a cambio de menor resistencia a la escritura (~1.000-3.000 ciclos P/E).",
+      "referencia": "línea 1422",
+      "verificado": false
+    },
+    {
+      "id": "p-6-010",
+      "concepto_id": "c-6006883dc204",
+      "capitulo": "6.4",
+      "tipo": "definicion",
+      "dificultad": "alta",
+      "origen": "ingesta-inicial",
+      "enunciado": "Secure Boot en UEFI:",
+      "opciones": [
+        "a) Cifra el disco duro completo",
+        "b) Requiere desactivar el TPM",
+        "c) Solo funciona con BIOS legacy",
+        "d) Verifica la firma digital de los componentes de arranque antes de ejecutarlos"
+      ],
+      "correcta": 3,
+      "explicacion": "Secure Boot verifica la firma digital de cada componente de arranque antes de ejecutarlo, de modo que solo arranca software de confianza.",
+      "referencia": "línea 1467",
+      "verificado": false
+    },
+    {
+      "id": "p-6-011",
+      "concepto_id": "c-6006883dc204",
+      "capitulo": "6.4",
+      "tipo": "comparativa",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "UEFI arranca de forma nativa desde discos con esquema de particionado:",
+      "opciones": [
+        "a) GPT",
+        "b) MBR exclusivamente",
+        "c) FAT16",
+        "d) NTFS"
+      ],
+      "correcta": 0,
+      "explicacion": "UEFI arranca de forma nativa desde discos GPT; la BIOS tradicional arranca desde MBR.",
+      "referencia": "línea 1462",
+      "verificado": false
+    },
+    {
+      "id": "p-6-012",
+      "concepto_id": "c-8e53f1cdffcf",
+      "capitulo": "7",
+      "tipo": "definicion",
+      "dificultad": "baja",
+      "origen": "ingesta-inicial",
+      "enunciado": "Un nibble equivale a:",
+      "opciones": [
+        "a) 8 bits",
+        "b) 4 bits",
+        "c) 2 bits",
+        "d) 16 bits"
+      ],
+      "correcta": 1,
+      "explicacion": "Un nibble es un grupo de 4 bits, base del dígito hexadecimal.",
+      "referencia": "línea 1479",
+      "verificado": false
+    },
+    {
+      "id": "p-6-013",
+      "concepto_id": "c-b05d85bc9933",
+      "capitulo": "7.1",
+      "tipo": "regla",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "Según las convenciones actuales, los discos duros y SSD se miden en:",
+      "opciones": [
+        "a) Potencias de 2 (binario)",
+        "b) Potencias de 16",
+        "c) Potencias de 10 (decimal)",
+        "d) Potencias de 8"
+      ],
+      "correcta": 2,
+      "explicacion": "Los discos duros y SSD se miden en potencias de 10 (decimal); la RAM en potencias de 2 (binario).",
+      "referencia": "línea 1550",
+      "verificado": false
+    },
+    {
+      "id": "p-7-001",
+      "concepto_id": "c-6cf43c518e65",
+      "capitulo": "7",
+      "tipo": "definicion",
+      "dificultad": "baja",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Qué es un bit?",
+      "opciones": [
+        "a) Grupo de 8 bits que representa un carácter",
+        "b) Dígito binario (0 o 1); unidad mínima de información",
+        "c) Grupo de 4 bits, base del dígito hexadecimal",
+        "d) Conjunto de bits procesados como unidad por la CPU"
+      ],
+      "correcta": 1,
+      "explicacion": "El bit es el dígito binario (0 o 1) y la unidad mínima de información.",
+      "referencia": "línea 1474-1477",
+      "verificado": false
+    },
+    {
+      "id": "p-7-002",
+      "concepto_id": "c-9033f51c9e56",
+      "capitulo": "7",
+      "tipo": "definicion",
+      "dificultad": "baja",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Cuántos bits forman un nibble?",
+      "opciones": [
+        "a) 2 bits",
+        "b) 8 bits",
+        "c) 4 bits",
+        "d) 16 bits"
+      ],
+      "correcta": 2,
+      "explicacion": "Un nibble agrupa 4 bits y es la base del dígito hexadecimal.",
+      "referencia": "línea 1478-1481",
+      "verificado": false
+    },
+    {
+      "id": "p-7-003",
+      "concepto_id": "c-9c3be0161fcd",
+      "capitulo": "7",
+      "tipo": "definicion",
+      "dificultad": "baja",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Qué es un byte?",
+      "opciones": [
+        "a) 8 bits; unidad más pequeña que representa un carácter",
+        "b) 4 bits",
+        "c) 16 bits",
+        "d) 32 bits"
+      ],
+      "correcta": 0,
+      "explicacion": "El byte agrupa 8 bits y es la unidad más pequeña que representa un carácter.",
+      "referencia": "línea 1482-1485",
+      "verificado": false
+    },
+    {
+      "id": "p-7-004",
+      "concepto_id": "c-c39c8059b254",
+      "capitulo": "7",
+      "tipo": "definicion",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Qué caracteriza a la palabra (word)?",
+      "opciones": [
+        "a) Siempre 8 bits",
+        "b) Siempre 16 bits",
+        "c) Siempre 64 bits",
+        "d) Grupo fijo de bits procesados como unidad, variable por arquitectura (16, 32 o 64 bits)"
+      ],
+      "correcta": 3,
+      "explicacion": "La palabra es un grupo fijo de bits procesados como unidad, que varía según la arquitectura (16, 32 o 64 bits).",
+      "referencia": "línea 1486-1489",
+      "verificado": false
+    },
+    {
+      "id": "p-7-005",
+      "concepto_id": "c-759e408d8060",
+      "capitulo": "7.1",
+      "tipo": "clasificacion",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "Según la norma IEC 60027-2, ¿cuántos bytes tiene un kibibyte (KiB)?",
+      "opciones": [
+        "a) 1.000 bytes",
+        "b) 1.024 bytes (2^10)",
+        "c) 1.048.576 bytes (2^20)",
+        "d) 1.000.000 bytes"
+      ],
+      "correcta": 1,
+      "explicacion": "La norma IEC 60027-2 define el kibibyte (KiB) como 2^10 = 1.024 bytes.",
+      "referencia": "línea 1524-1529",
+      "verificado": false
+    },
+    {
+      "id": "p-7-006",
+      "concepto_id": "c-b05d85bc9933",
+      "capitulo": "7.1",
+      "tipo": "regla",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿En qué potencias se mide habitualmente la capacidad de la RAM?",
+      "opciones": [
+        "a) Potencias de 10 (decimal)",
+        "b) Potencias de 2 y 10 indistintamente",
+        "c) Potencias de 2 (binario)",
+        "d) Según el sistema operativo"
+      ],
+      "correcta": 2,
+      "explicacion": "La RAM se mide siempre en potencias de 2.",
+      "referencia": "línea 1549",
+      "verificado": false
+    },
+    {
+      "id": "p-7-007",
+      "concepto_id": "c-e16c3d9f27a1",
+      "capitulo": "7.1",
+      "tipo": "comparativa",
+      "dificultad": "alta",
+      "origen": "ingesta-inicial",
+      "enunciado": "Un disco de 1 TB (10^12 bytes) en Windows se muestra aproximadamente como:",
+      "opciones": [
+        "a) 931 GB",
+        "b) 1.000 GB",
+        "c) 1.024 GB",
+        "d) 953 GB"
+      ],
+      "correcta": 0,
+      "explicacion": "Windows interpreta la capacidad en binario, por lo que un disco de 1 TB se muestra como unos 931 GB.",
+      "referencia": "línea 1551",
+      "verificado": false
+    },
+    {
+      "id": "p-7-008",
+      "concepto_id": "c-398c400ff67b",
+      "capitulo": "7.1",
+      "tipo": "cifra",
+      "dificultad": "alta",
+      "origen": "ingesta-inicial",
+      "enunciado": "Un SSD de 2 TB (2×10^12 bytes) mostrará en Windows aproximadamente:",
+      "opciones": [
+        "a) 2,00 TiB",
+        "b) 1,91 TiB",
+        "c) 2,18 TiB",
+        "d) 1,82 TiB"
+      ],
+      "correcta": 3,
+      "explicacion": "Un SSD de 2 TB equivale a unos 1,82 TiB mostrados en Windows por la diferencia de convenciones.",
+      "referencia": "línea 1553-1554",
+      "verificado": false
+    },
+    {
+      "id": "p-7-009",
+      "concepto_id": "c-9204a58b8451",
+      "capitulo": "7.2",
+      "tipo": "cifra",
+      "dificultad": "baja",
+      "origen": "ingesta-inicial",
+      "enunciado": "Según las magnitudes de referencia, ¿cuál es la estimación del volumen total de datos en el mundo en 2025?",
+      "opciones": [
+        "a) ~400 EB",
+        "b) ~181 ZB",
+        "c) ~5 TB",
+        "d) ~80 GB"
+      ],
+      "correcta": 1,
+      "explicacion": "La estimación del volumen total de datos en el mundo en 2025 es de unos 181 ZB (IDC).",
+      "referencia": "línea 1565",
+      "verificado": false
+    },
+    {
+      "id": "p-7-010",
+      "concepto_id": "c-b05d85bc9933",
+      "capitulo": "7.1",
+      "tipo": "regla",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "En redes, la medida es siempre decimal. Por tanto, 100 Mbps equivalen a:",
+      "opciones": [
+        "a) 2^20 bits/s",
+        "b) 10^6 bits/s",
+        "c) 10^8 bits/s",
+        "d) 2^10 bits/s"
+      ],
+      "correcta": 2,
+      "explicacion": "Las redes usan siempre medida decimal, de modo que 100 Mbps = 10^8 bits/s.",
+      "referencia": "línea 1552",
+      "verificado": false
+    },
+    {
+      "id": "p-8-001",
+      "concepto_id": "c-6a8b0c8d9c1c",
+      "capitulo": "8",
+      "tipo": "definicion",
+      "dificultad": "baja",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Cuál es el sistema de numeración utilizado internamente por los ordenadores?",
+      "opciones": [
+        "a) Binario (base 2, símbolos 0 y 1)",
+        "b) Decimal (base 10)",
+        "c) Octal (base 8)",
+        "d) Hexadecimal (base 16)"
+      ],
+      "correcta": 0,
+      "explicacion": "El sistema binario de base 2 es el utilizado internamente por los ordenadores.",
+      "referencia": "línea 1577-1580",
+      "verificado": false
+    },
+    {
+      "id": "p-8-002",
+      "concepto_id": "c-51d9fea868e3",
+      "capitulo": "8",
+      "tipo": "definicion",
+      "dificultad": "baja",
+      "origen": "ingesta-inicial",
+      "enunciado": "En hexadecimal, ¿qué valor decimal representa el dígito A?",
+      "opciones": [
+        "a) 9",
+        "b) 11",
+        "c) 15",
+        "d) 10"
+      ],
+      "correcta": 3,
+      "explicacion": "En hexadecimal los símbolos son 0-9 y A-F; A equivale a 10 en decimal.",
+      "referencia": "línea 1585-1588",
+      "verificado": false
+    },
+    {
+      "id": "p-8-003",
+      "concepto_id": "c-7f8ab2f90a79",
+      "capitulo": "8",
+      "tipo": "definicion",
+      "dificultad": "baja",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Para qué se utiliza principalmente el sistema octal?",
+      "opciones": [
+        "a) Direcciones de memoria y colores",
+        "b) Representación compacta de binario (permisos Unix)",
+        "c) Uso humano cotidiano",
+        "d) Código máquina"
+      ],
+      "correcta": 1,
+      "explicacion": "El sistema octal de base 8 se usa como representación compacta de binario, por ejemplo en permisos Unix.",
+      "referencia": "línea 1581-1584",
+      "verificado": false
+    },
+    {
+      "id": "p-8-004",
+      "concepto_id": "c-73b46913c322",
+      "capitulo": "8.1",
+      "tipo": "proceso",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "Convertir 25 decimal a binario da como resultado:",
+      "opciones": [
+        "a) 11010",
+        "b) 10110",
+        "c) 11001",
+        "d) 11100"
+      ],
+      "correcta": 2,
+      "explicacion": "25 decimal equivale a 11001 en binario (verificación: 1·16 + 1·8 + 0·4 + 0·2 + 1·1 = 25).",
+      "referencia": "línea 1593-1595",
+      "verificado": false
+    },
+    {
+      "id": "p-8-005",
+      "concepto_id": "c-c0df006ad170",
+      "capitulo": "8.1",
+      "tipo": "proceso",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "El número binario 10110 equivale en decimal a:",
+      "opciones": [
+        "a) 22",
+        "b) 20",
+        "c) 24",
+        "d) 26"
+      ],
+      "correcta": 0,
+      "explicacion": "10110 binario = 1·2^4 + 0·2^3 + 1·2^2 + 1·2^1 + 0·2^0 = 16 + 0 + 4 + 2 + 0 = 22 decimal.",
+      "referencia": "línea 1598-1599",
+      "verificado": false
+    },
+    {
+      "id": "p-8-006",
+      "concepto_id": "c-394ff9022eb5",
+      "capitulo": "8.1",
+      "tipo": "proceso",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "Convertir 11010111 binario a hexadecimal da:",
+      "opciones": [
+        "a) C7",
+        "b) B7",
+        "c) E7",
+        "d) D7"
+      ],
+      "correcta": 3,
+      "explicacion": "Agrupando en nibbles: 1101 0111 → D 7, es decir D7 en hexadecimal.",
+      "referencia": "línea 1600-1602",
+      "verificado": false
+    },
+    {
+      "id": "p-8-007",
+      "concepto_id": "c-adcd1b586d35",
+      "capitulo": "8.1",
+      "tipo": "sintaxis",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "El dígito hexadecimal D en binario es:",
+      "opciones": [
+        "a) 1100",
+        "b) 1111",
+        "c) 1101",
+        "d) 1110"
+      ],
+      "correcta": 2,
+      "explicacion": "Cada dígito hexadecimal se expande a 4 bits; D corresponde a 1101.",
+      "referencia": "línea 1603-1604",
+      "verificado": false
+    },
+    {
+      "id": "p-8-008",
+      "concepto_id": "c-2d49f1317329",
+      "capitulo": "8.2",
+      "tipo": "regla",
+      "dificultad": "alta",
+      "origen": "ingesta-inicial",
+      "enunciado": "Representar -5 en 8 bits mediante complemento a 2 da:",
+      "opciones": [
+        "a) 1111 1010",
+        "b) 1111 1011",
+        "c) 0000 0101",
+        "d) 1000 0101"
+      ],
+      "correcta": 1,
+      "explicacion": "Para -5: 5 = 00000101; complemento a 1 = 11111010; sumar 1 = 11111011. El bit más significativo a 1 indica negativo.",
+      "referencia": "línea 1611-1615",
+      "verificado": false
+    },
+    {
+      "id": "p-8-009",
+      "concepto_id": "c-d3343c97feeb",
+      "capitulo": "8.2",
+      "tipo": "cifra",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "Con 8 bits en complemento a 2 se puede representar el rango:",
+      "opciones": [
+        "a) -128 a +127",
+        "b) -127 a +127",
+        "c) -128 a +128",
+        "d) 0 a 255"
+      ],
+      "correcta": 0,
+      "explicacion": "Con 8 bits en complemento a 2 se representa el rango -128 a +127, con única representación del 0.",
+      "referencia": "línea 1616",
+      "verificado": false
+    },
+    {
+      "id": "p-8-010",
+      "concepto_id": "c-3a4b43530f10",
+      "capitulo": "8.3",
+      "tipo": "cifra",
+      "dificultad": "alta",
+      "origen": "ingesta-inicial",
+      "enunciado": "En IEEE 754 de precisión simple (FP32, 32 bits), la distribución de bits es:",
+      "opciones": [
+        "a) 1 signo + 5 exponente + 10 mantisa",
+        "b) 1 signo + 11 exponente + 52 mantisa",
+        "c) 1 signo + 15 exponente + 112 mantisa",
+        "d) 1 signo + 8 exponente + 23 mantisa"
+      ],
+      "correcta": 3,
+      "explicacion": "La precisión simple (single, FP32) usa 1 bit de signo, 8 de exponente y 23 de mantisa, con rango ±3,4×10^38.",
+      "referencia": "línea 1635-1640",
+      "verificado": false
+    },
+    {
+      "id": "p-9-001",
+      "concepto_id": "c-416669386e86",
+      "capitulo": "9.1",
+      "tipo": "definicion",
+      "dificultad": "baja",
+      "origen": "ingesta-inicial",
+      "enunciado": "ASCII utiliza 7 bits. ¿Cuántos caracteres define en total?",
+      "opciones": [
+        "a) 95",
+        "b) 256",
+        "c) 128",
+        "d) 33"
+      ],
+      "correcta": 2,
+      "explicacion": "ASCII define 128 caracteres en total (2^7): 33 de control y 95 imprimibles.",
+      "referencia": "línea 1659-1662",
+      "verificado": false
+    },
+    {
+      "id": "p-9-002",
+      "concepto_id": "c-e4ce7d3c7fa5",
+      "capitulo": "9.1",
+      "tipo": "sintaxis",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Qué código ASCII tiene la letra mayúscula 'A'?",
+      "opciones": [
+        "a) 65",
+        "b) 97",
+        "c) 64",
+        "d) 90"
+      ],
+      "correcta": 0,
+      "explicacion": "En ASCII, las mayúsculas A-Z ocupan los códigos 65 a 90, por lo que 'A' es 65.",
+      "referencia": "línea 1683-1685",
+      "verificado": false
+    },
+    {
+      "id": "p-9-003",
+      "concepto_id": "c-663855e986f0",
+      "capitulo": "9.2",
+      "tipo": "definicion",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Cuál es el problema fundamental del ASCII extendido?",
+      "opciones": [
+        "a) Solo define 128 caracteres",
+        "b) No permite combinar múltiples idiomas en un mismo documento",
+        "c) Es incompatible con UTF-8",
+        "d) Usa 7 bits"
+      ],
+      "correcta": 1,
+      "explicacion": "El ASCII extendido no permite combinar múltiples idiomas en un mismo documento.",
+      "referencia": "línea 1701",
+      "verificado": false
+    },
+    {
+      "id": "p-9-004",
+      "concepto_id": "c-53ab5cef82bc",
+      "capitulo": "9.3",
+      "tipo": "definicion",
+      "dificultad": "baja",
+      "origen": "ingesta-inicial",
+      "enunciado": "Unicode 15.1 (2023) define aproximadamente:",
+      "opciones": [
+        "a) 128 caracteres",
+        "b) 256 caracteres",
+        "c) 65.536 caracteres",
+        "d) 149.186 caracteres"
+      ],
+      "correcta": 3,
+      "explicacion": "Unicode define 149.186 caracteres (2024) repartidos en 17 planos de 65.536 caracteres cada uno.",
+      "referencia": "línea 1706-1707",
+      "verificado": false
+    },
+    {
+      "id": "p-9-005",
+      "concepto_id": "c-9f87952c473c",
+      "capitulo": "9.3",
+      "tipo": "definicion",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "UTF-8 es una codificación de longitud variable de:",
+      "opciones": [
+        "a) 2 a 4 bytes",
+        "b) Siempre 4 bytes",
+        "c) 1 a 4 bytes por carácter",
+        "d) Siempre 1 byte"
+      ],
+      "correcta": 2,
+      "explicacion": "UTF-8 es una codificación de longitud variable de 1 a 4 bytes por carácter.",
+      "referencia": "línea 1709",
+      "verificado": false
+    },
+    {
+      "id": "p-9-006",
+      "concepto_id": "c-68f3e9b83cd9",
+      "capitulo": "9.3",
+      "tipo": "sintaxis",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "En UTF-8, los caracteres del rango U+0080 a U+07FF se codifican en:",
+      "opciones": [
+        "a) 2 bytes",
+        "b) 1 byte",
+        "c) 3 bytes",
+        "d) 4 bytes"
+      ],
+      "correcta": 0,
+      "explicacion": "En UTF-8, el rango U+0080 a U+07FF se codifica en 2 bytes.",
+      "referencia": "línea 1716-1718",
+      "verificado": false
+    },
+    {
+      "id": "p-9-007",
+      "concepto_id": "c-557e05a12c34",
+      "capitulo": "9.4",
+      "tipo": "definicion",
+      "dificultad": "alta",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Qué característica distingue a UTF-16?",
+      "opciones": [
+        "a) Longitud fija de 4 bytes",
+        "b) Longitud variable 2 o 4 bytes; usado por Windows NT, Java y JavaScript",
+        "c) Compatible 100% con US-ASCII",
+        "d) Dominante en la web (~98%)"
+      ],
+      "correcta": 1,
+      "explicacion": "UTF-16 es de longitud variable (2 o 4 bytes) y se usa internamente por Windows NT, Java y JavaScript.",
+      "referencia": "línea 1737",
+      "verificado": false
+    },
+    {
+      "id": "p-9-008",
+      "concepto_id": "c-6b23e5d2c965",
+      "capitulo": "9.5",
+      "tipo": "sintaxis",
+      "dificultad": "alta",
+      "origen": "ingesta-inicial",
+      "enunciado": "El BOM de un fichero UTF-8 es la secuencia de bytes:",
+      "opciones": [
+        "a) FE FF",
+        "b) FF FE",
+        "c) 00 00 FE FF",
+        "d) EF BB BF"
+      ],
+      "correcta": 3,
+      "explicacion": "El BOM para UTF-8 es la secuencia EF BB BF (U+FEFF).",
+      "referencia": "línea 1743",
+      "verificado": false
+    },
+    {
+      "id": "p-9-009",
+      "concepto_id": "c-fc4ac0858afa",
+      "capitulo": "9.6",
+      "tipo": "clasificacion",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "En la normalización Unicode, la forma NFC (Canonical Composition) es:",
+      "opciones": [
+        "a) Forma descompuesta",
+        "b) Descompuesta con equivalencias de compatibilidad",
+        "c) Forma compuesta (preferida en web)",
+        "d) Compuesta con equivalencias de compatibilidad"
+      ],
+      "correcta": 2,
+      "explicacion": "NFC es la forma compuesta canónica, preferida en la web.",
+      "referencia": "línea 1757-1759",
+      "verificado": false
+    },
+    {
+      "id": "p-9-010",
+      "concepto_id": "c-9b45194f802a",
+      "capitulo": "9.7",
+      "tipo": "definicion",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "EBCDIC es un código de caracteres de 8 bits desarrollado por IBM. ¿Cuál es su principal incompatibilidad con ASCII?",
+      "opciones": [
+        "a) Las letras no están ordenadas de forma contigua",
+        "b) Usa 7 bits",
+        "c) Es idéntico a ASCII",
+        "d) Solo soporta inglés"
+      ],
+      "correcta": 0,
+      "explicacion": "EBCDIC es incompatible con ASCII porque las letras no están ordenadas de forma contigua (A=193, B=194, pero I=201 y J=209).",
+      "referencia": "línea 1771-1775",
+      "verificado": false
+    }
+  ]
+}

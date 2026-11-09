@@ -1,0 +1,113 @@
+{
+  "id": "cuadro-generaciones",
+  "tema_id": "tema-10-informatica-basica-representacion-de-la-informacion-arquitec",
+  "tipo_dato": "clasificacion",
+  "titulo": "Generaciones de ordenadores",
+  "semilla": true,
+  "n_filas": 6,
+  "n_fuentes_distintas": 1,
+  "columnas": [
+    "Generación",
+    "Periodo",
+    "Tecnología principal",
+    "Memoria/almacenamiento",
+    "Ejemplos"
+  ],
+  "columna_clave": "Generación",
+  "columna_respuesta": "Tecnología principal",
+  "columna_contexto": "Periodo",
+  "columna_fuente": "fuente",
+  "filas": [
+    {
+      "id": "f-tema10-001",
+      "fuente": "Ayuntamiento de Madrid temario TAI",
+      "fuente_tipo": "temario",
+      "valores": {
+        "Generación": "1ª",
+        "Periodo": "1940-1952",
+        "Tecnología principal": "Válvulas de vacío y relés",
+        "Memoria/almacenamiento": "Tarjetas/cintas perforadas, tambores magnéticos",
+        "Ejemplos": "ENIAC, Mark I, UNIVAC I, Colossus"
+      },
+      "pasaje_origen": "cap. 4",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "f-tema10-002",
+      "fuente": "Ayuntamiento de Madrid temario TAI",
+      "fuente_tipo": "temario",
+      "valores": {
+        "Generación": "2ª",
+        "Periodo": "1952-1964",
+        "Tecnología principal": "Transistores",
+        "Memoria/almacenamiento": "Núcleos de ferrita, soportes magnéticos",
+        "Ejemplos": "TRADIC, IBM 1401, IBM 7090"
+      },
+      "pasaje_origen": "cap. 4",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "f-tema10-003",
+      "fuente": "Ayuntamiento de Madrid temario TAI",
+      "fuente_tipo": "temario",
+      "valores": {
+        "Generación": "3ª",
+        "Periodo": "1964-1970",
+        "Tecnología principal": "Circuitos integrados SSI/MSI",
+        "Memoria/almacenamiento": "Semiconductores DRAM, discos",
+        "Ejemplos": "IBM System/360, PDP-11, CDC-6600"
+      },
+      "pasaje_origen": "cap. 4",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "f-tema10-004",
+      "fuente": "Ayuntamiento de Madrid temario TAI",
+      "fuente_tipo": "temario",
+      "valores": {
+        "Generación": "4ª",
+        "Periodo": "1971-1981",
+        "Tecnología principal": "Microprocesador (LSI/VLSI)",
+        "Memoria/almacenamiento": "Disquetes",
+        "Ejemplos": "Altair 8800, Apple I, IBM PC 5150"
+      },
+      "pasaje_origen": "cap. 4",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "f-tema10-005",
+      "fuente": "Ayuntamiento de Madrid temario TAI",
+      "fuente_tipo": "temario",
+      "valores": {
+        "Generación": "5ª",
+        "Periodo": "1981-1991",
+        "Tecnología principal": "VLSI masivos, ULSI",
+        "Memoria/almacenamiento": "Disquetes, discos duros",
+        "Ejemplos": "Mac, Windows, X Window"
+      },
+      "pasaje_origen": "cap. 4",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "f-tema10-006",
+      "fuente": "Ayuntamiento de Madrid temario TAI",
+      "fuente_tipo": "temario",
+      "valores": {
+        "Generación": "6ª",
+        "Periodo": "1991-actualidad",
+        "Tecnología principal": "Multinúcleo, GPU, cloud",
+        "Memoria/almacenamiento": "SSD, flash, nube",
+        "Ejemplos": "Smartphones, IoT, computación cuántica"
+      },
+      "pasaje_origen": "cap. 4",
+      "ubicacion": {},
+      "verificado": false
+    }
+  ],
+  "verificado": false
+}

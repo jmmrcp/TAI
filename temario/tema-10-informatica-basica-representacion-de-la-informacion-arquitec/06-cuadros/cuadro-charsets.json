@@ -1,0 +1,106 @@
+{
+  "id": "cuadro-charsets",
+  "tema_id": "tema-10-informatica-basica-representacion-de-la-informacion-arquitec",
+  "tipo_dato": "clasificacion",
+  "titulo": "Juegos de caracteres",
+  "semilla": true,
+  "n_filas": 6,
+  "n_fuentes_distintas": 1,
+  "columnas": [
+    "Juego de caracteres",
+    "Bits",
+    "Caracteres",
+    "Uso"
+  ],
+  "columna_clave": "Juego de caracteres",
+  "columna_respuesta": "Bits",
+  "columna_contexto": "Uso",
+  "columna_fuente": "fuente",
+  "filas": [
+    {
+      "id": "f-tema10-013",
+      "fuente": "Ayuntamiento de Madrid temario TAI",
+      "fuente_tipo": "temario",
+      "valores": {
+        "Juego de caracteres": "ASCII",
+        "Bits": "7 bits",
+        "Caracteres": "128",
+        "Uso": "Inglés básico, control"
+      },
+      "pasaje_origen": "cap. 9",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "f-tema10-014",
+      "fuente": "Ayuntamiento de Madrid temario TAI",
+      "fuente_tipo": "temario",
+      "valores": {
+        "Juego de caracteres": "ASCII extendido",
+        "Bits": "8 bits",
+        "Caracteres": "256",
+        "Uso": "Europa occidental (ISO-8859-1)"
+      },
+      "pasaje_origen": "cap. 9",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "f-tema10-015",
+      "fuente": "Ayuntamiento de Madrid temario TAI",
+      "fuente_tipo": "temario",
+      "valores": {
+        "Juego de caracteres": "Unicode/UTF-8",
+        "Bits": "8-32 bits",
+        "Caracteres": "149.186",
+        "Uso": "Estándar universal web"
+      },
+      "pasaje_origen": "cap. 9",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "f-tema10-016",
+      "fuente": "Ayuntamiento de Madrid temario TAI",
+      "fuente_tipo": "temario",
+      "valores": {
+        "Juego de caracteres": "UTF-16",
+        "Bits": "16 bits (mín.)",
+        "Caracteres": "149.186",
+        "Uso": "Windows, Java, JavaScript"
+      },
+      "pasaje_origen": "cap. 9",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "f-tema10-017",
+      "fuente": "Ayuntamiento de Madrid temario TAI",
+      "fuente_tipo": "temario",
+      "valores": {
+        "Juego de caracteres": "UTF-32",
+        "Bits": "32 bits",
+        "Caracteres": "149.186",
+        "Uso": "Procesamiento interno"
+      },
+      "pasaje_origen": "cap. 9",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "f-tema10-018",
+      "fuente": "Ayuntamiento de Madrid temario TAI",
+      "fuente_tipo": "temario",
+      "valores": {
+        "Juego de caracteres": "EBCDIC",
+        "Bits": "8 bits",
+        "Caracteres": "256",
+        "Uso": "Mainframes IBM"
+      },
+      "pasaje_origen": "cap. 9",
+      "ubicacion": {},
+      "verificado": false
+    }
+  ],
+  "verificado": false
+}

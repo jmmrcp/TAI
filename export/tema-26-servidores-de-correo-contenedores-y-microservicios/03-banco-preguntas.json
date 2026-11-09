@@ -1,0 +1,3966 @@
+{
+  "tema_id": "tema-26-servidores-de-correo-contenedores-y-microservicios",
+  "total": 198,
+  "preguntas": [
+    {
+      "id": "p-1.1-001",
+      "concepto_id": "c-e3fb062ed0f6",
+      "capitulo": "1.1",
+      "tipo": "concepto",
+      "dificultad": "baja",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Qué modelo de entrega caracteriza al correo electrónico frente a la mensajería instantánea?",
+      "opciones": [
+        "Difusión por multicast",
+        "Almacenamiento y reenvío (store-and-forward)",
+        "Streaming de datos",
+        "Entrega en tiempo real directa entre emisor y receptor"
+      ],
+      "correcta": 1,
+      "explicacion": "El correo electrónico se basa en un modelo de almacenamiento y reenvío, donde los mensajes se depositan en servidores intermedios hasta que el receptor decide acceder a ellos.",
+      "referencia": "línea 48-52",
+      "verificado": true,
+      "fecha_alta": "2026-10-31"
+    },
+    {
+      "id": "p-1.1-002",
+      "concepto_id": "c-140fec80730d",
+      "capitulo": "1.1",
+      "tipo": "plazo",
+      "dificultad": "baja",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Cuál es el puerto estándar utilizado por el MSA (Mail Submission Agent)?",
+      "opciones": [
+        "993",
+        "587",
+        "25",
+        "110"
+      ],
+      "correcta": 1,
+      "explicacion": "El MSA utiliza SMTP en el puerto estándar 587; históricamente se usaba el 25, pero actualmente el 25 se reserva preferentemente para la comunicación MTA-a-MTA.",
+      "referencia": "línea 115, 271",
+      "verificado": true,
+      "fecha_alta": "2026-10-31"
+    },
+    {
+      "id": "p-1.1-003",
+      "concepto_id": "c-960e738578fb",
+      "capitulo": "1.1",
+      "tipo": "concepto",
+      "dificultad": "baja",
+      "origen": "ingesta-inicial",
+      "enunciado": "Según el texto, ¿qué afirmación sobre el MUA es correcta?",
+      "opciones": [
+        "El MUA solo entrega el mensaje al primer servidor de la cadena (MSA/MTA)",
+        "El MUA consulta los registros MX del dominio destinatario",
+        "El MUA es el responsable de depositar el mensaje en el buzón",
+        "El MUA envía el correo a través de Internet hasta el destino final"
+      ],
+      "correcta": 0,
+      "explicacion": "El MUA no envía el correo a través de Internet hasta el destino final; solo lo entrega al primer servidor de la cadena (el MSA/MTA).",
+      "referencia": "línea 247-248",
+      "verificado": true,
+      "fecha_alta": "2026-10-31"
+    },
+    {
+      "id": "p-1.1-004",
+      "concepto_id": "c-83fc22d60ca9",
+      "capitulo": "1.1",
+      "tipo": "concepto",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Qué agente es el responsable de depositar el mensaje en el buzón local del usuario?",
+      "opciones": [
+        "MSA",
+        "MDA",
+        "MTA",
+        "MAA"
+      ],
+      "correcta": 1,
+      "explicacion": "El MDA (Mail Delivery Agent) es el responsable de la entrega final: recibe el mensaje del MTA y lo deposita en el buzón local (Message Store).",
+      "referencia": "línea 127-131, 300-303",
+      "verificado": true,
+      "fecha_alta": "2026-10-31"
+    },
+    {
+      "id": "p-1.1-005",
+      "concepto_id": "c-23df13fd3746",
+      "capitulo": "1.1",
+      "tipo": "sintaxis",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "Según RFC 5322, ¿cuál es el límite máximo obligatorio (MUST) de caracteres por línea, excluyendo el CRLF?",
+      "opciones": [
+        "998 caracteres",
+        "1000 caracteres",
+        "512 caracteres",
+        "78 caracteres"
+      ],
+      "correcta": 0,
+      "explicacion": "Ninguna línea puede exceder los 998 caracteres (excluyendo el CRLF) como límite obligatorio; la recomendación de interoperabilidad es de 78 caracteres.",
+      "referencia": "línea 389-393",
+      "verificado": true,
+      "fecha_alta": "2026-10-31"
+    },
+    {
+      "id": "p-1.1-006",
+      "concepto_id": "c-f7e2132f803a",
+      "capitulo": "1.1",
+      "tipo": "sintaxis",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Qué campos son estrictamente obligatorios en una cabecera RFC 5322 para la validez mínima?",
+      "opciones": [
+        "Date y From (y Sender bajo condiciones específicas)",
+        "Message-ID y From",
+        "To y Date",
+        "From y Subject"
+      ],
+      "correcta": 0,
+      "explicacion": "Los campos estrictamente obligatorios son Date y From (y Sender bajo condiciones específicas). Subject y Message-ID son recomendados pero no obligatorios.",
+      "referencia": "línea 480-485",
+      "verificado": true,
+      "fecha_alta": "2026-10-31"
+    },
+    {
+      "id": "p-1.1-007",
+      "concepto_id": "c-57870cd4f091",
+      "capitulo": "1.1",
+      "tipo": "comparativa",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿En qué caso debe incluirse el campo Sender en una cabecera RFC 5322?",
+      "opciones": [
+        "Cuando el mensaje tiene más de un destinatario",
+        "Solo si es diferente del From o si el From contiene múltiples direcciones",
+        "Siempre que exista el campo From",
+        "Cuando se responde a un mensaje (prefijo Re:)"
+      ],
+      "correcta": 1,
+      "explicacion": "Sender es obligatorio si el From contiene múltiples direcciones o si el transmisor difiere del autor; si es idéntico al From no debe usarse.",
+      "referencia": "línea 423-429",
+      "verificado": true,
+      "fecha_alta": "2026-10-31"
+    },
+    {
+      "id": "p-1.1-008",
+      "concepto_id": "c-6d181f3e0461",
+      "capitulo": "1.1",
+      "tipo": "regla",
+      "dificultad": "alta",
+      "origen": "ingesta-inicial",
+      "enunciado": "Si un dominio tiene varios registros MX, ¿a cuál intentará contactar primero el MTA emisor?",
+      "opciones": [
+        "Al de menor valor numérico",
+        "Al que tenga mayor TTL",
+        "Al de mayor valor numérico",
+        "Al primero listado en el DNS"
+      ],
+      "correcta": 0,
+      "explicacion": "El MTA emisor intentará contactar primero con el registro MX de menor valor numérico, que corresponde a mayor prioridad.",
+      "referencia": "línea 204-206",
+      "verificado": true,
+      "fecha_alta": "2026-10-31"
+    },
+    {
+      "id": "p-1.1-009",
+      "concepto_id": "c-7570ab8c5918",
+      "capitulo": "1.1",
+      "tipo": "sintaxis",
+      "dificultad": "alta",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Cómo se realiza el plegado (folding) de un campo de cabecera largo en RFC 5322?",
+      "opciones": [
+        "Insertando un CRLF seguido de un espacio en blanco (WSP)",
+        "Truncando la línea a 78 caracteres",
+        "Insertando dos CRLF consecutivos",
+        "Codificando el contenido en Base64"
+      ],
+      "correcta": 0,
+      "explicacion": "Los campos de cabecera largos pueden dividirse en múltiples líneas insertando un CRLF seguido de un espacio en blanco (WSP).",
+      "referencia": "línea 399-402",
+      "verificado": true,
+      "fecha_alta": "2026-10-31"
+    },
+    {
+      "id": "p-1.1-010",
+      "concepto_id": "c-b0a7cfbdc937",
+      "capitulo": "1.1",
+      "tipo": "concepto",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Qué extensiones se utilizan para transmitir imágenes o audio en un mensaje de correo, dado que RFC 5322 solo admite US-ASCII?",
+      "opciones": [
+        "POP3 e IMAP",
+        "DNS y MX",
+        "SMTP y LMTP",
+        "MIME (RFC 2045, 2046, 2049)"
+      ],
+      "correcta": 3,
+      "explicacion": "Para superar la limitación de texto US-ASCII se utilizan las extensiones MIME (RFC 2045, 2046, 2049), que estructuran los mensajes para ajustarse a la sintaxis del RFC 5322.",
+      "referencia": "línea 462-467",
+      "verificado": true,
+      "fecha_alta": "2026-10-31"
+    },
+    {
+      "id": "p-1.2-001",
+      "concepto_id": "c-010c5ff778cc",
+      "capitulo": "1.2",
+      "tipo": "single",
+      "dificultad": "baja",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Cuál es el puerto estándar para la sumisión de correo (submission) desde un cliente (MUA) al servidor (MSA)?",
+      "opciones": [
+        "587",
+        "110",
+        "143",
+        "25"
+      ],
+      "correcta": 0,
+      "explicacion": "El puerto 587 es el estándar para la sumisión de correo (Submission) desde clientes como Outlook o Thunderbird, requiriendo habitualmente autenticación. El 25 se usa entre MTA, el 110 es POP3 y el 143 es IMAP.",
+      "referencia": "1.2.1.1",
+      "verificado": true,
+      "fecha_alta": "2026-10-31"
+    },
+    {
+      "id": "p-1.2-002",
+      "concepto_id": "c-68d982ad0eb2",
+      "capitulo": "1.2",
+      "tipo": "single",
+      "dificultad": "alta",
+      "origen": "ingesta-inicial",
+      "enunciado": "En una sesión SMTP, el servidor responde con código 450. ¿Qué debe hacer el cliente?",
+      "opciones": [
+        "Reenviar el mismo comando DATA sin cambios",
+        "Enviar el comando RSET y cerrar la conexión",
+        "Reintentar más tarde, ya que se trata de un error temporal",
+        "Abortar definitivamente la transacción (hard bounce)"
+      ],
+      "correcta": 2,
+      "explicacion": "Los códigos 4xx indican error temporal; el cliente debería reintentar más tarde (soft bounce). Es la base del Greylisting. Los 5xx son errores permanentes que no deben reintentarse.",
+      "referencia": "1.2.1.3",
+      "verificado": true,
+      "fecha_alta": "2026-10-31"
+    },
+    {
+      "id": "p-1.2-003",
+      "concepto_id": "c-2e9e84be307c",
+      "capitulo": "1.2",
+      "tipo": "single",
+      "dificultad": "baja",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Cuáles son los puertos estándar de POP3 y POP3S (SSL implícito)?",
+      "opciones": [
+        "110 y 993",
+        "143 y 993",
+        "110 y 995",
+        "25 y 465"
+      ],
+      "correcta": 2,
+      "explicacion": "POP3 estándar usa el puerto 110 TCP (texto claro/STARTTLS) y POP3S (SSL implícito) usa el 995 TCP. Los pares 143/993 corresponden a IMAP/IMAPS.",
+      "referencia": "1.2.2.1",
+      "verificado": true,
+      "fecha_alta": "2026-10-31"
+    },
+    {
+      "id": "p-1.2-004",
+      "concepto_id": "c-818a3e9c393d",
+      "capitulo": "1.2",
+      "tipo": "single",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "En POP3, ¿en qué estado se produce la eliminación física de los mensajes marcados con DELE?",
+      "opciones": [
+        "Estado de Actualización",
+        "Al enviar RETR",
+        "Estado de Transacción",
+        "Estado de Autorización"
+      ],
+      "correcta": 0,
+      "explicacion": "El estado de Actualización se inicia al enviar QUIT; entonces el servidor elimina físicamente todos los mensajes marcados para borrado durante la transacción. En el estado de Transacción solo se marcan para eliminación.",
+      "referencia": "1.2.2.2",
+      "verificado": true,
+      "fecha_alta": "2026-10-31"
+    },
+    {
+      "id": "p-1.2-005",
+      "concepto_id": "c-0a357efdd1c8",
+      "capitulo": "1.2",
+      "tipo": "single",
+      "dificultad": "baja",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Cuáles son los puertos estándar de IMAP e IMAPS (SSL implícito)?",
+      "opciones": [
+        "110 y 995",
+        "143 y 993",
+        "143 y 995",
+        "25 y 587"
+      ],
+      "correcta": 1,
+      "explicacion": "IMAP estándar usa el puerto 143 TCP (escalable con STARTTLS) e IMAPS (SSL implícito) usa el 993 TCP. Los pares 110/995 corresponden a POP3/POP3S.",
+      "referencia": "1.2.3.1",
+      "verificado": true,
+      "fecha_alta": "2026-10-31"
+    },
+    {
+      "id": "p-1.2-006",
+      "concepto_id": "c-c748532d4ae0",
+      "capitulo": "1.2",
+      "tipo": "single",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "En IMAP, ¿qué flag indica que un mensaje ha sido leído?",
+      "opciones": [
+        "\\Recent",
+        "\\Answered",
+        "\\Seen",
+        "\\Flagged"
+      ],
+      "correcta": 2,
+      "explicacion": "El flag \\Seen indica que el mensaje ha sido leído. \\Answered indica contestado, \\Flagged marcado/urgente y \\Recent recién llegado. Los flags se almacenan en el servidor, permitiendo sincronización entre dispositivos.",
+      "referencia": "1.2.3.1",
+      "verificado": true,
+      "fecha_alta": "2026-10-31"
+    },
+    {
+      "id": "p-1.2-007",
+      "concepto_id": "c-173916184fbe",
+      "capitulo": "1.2",
+      "tipo": "single",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Qué protocolo permite gestionar carpetas (buzones) jerárquicos directamente en el servidor de correo?",
+      "opciones": [
+        "SMTP",
+        "Ninguno de los anteriores",
+        "IMAP",
+        "POP3"
+      ],
+      "correcta": 2,
+      "explicacion": "IMAP permite crear, renombrar y borrar buzones (carpetas) jerárquicos en el servidor. POP3 solo gestiona un único buzón (INBOX); cualquier organización en carpetas es local del cliente.",
+      "referencia": "1.2.2.4",
+      "verificado": true,
+      "fecha_alta": "2026-10-31"
+    },
+    {
+      "id": "p-1.2-008",
+      "concepto_id": "c-129ee482aa35",
+      "capitulo": "1.2",
+      "tipo": "single",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Con qué secuencia de comandos finaliza el envío del contenido del mensaje en una transacción SMTP?",
+      "opciones": [
+        "Enviando una línea que contiene únicamente un punto (<CRLF>.<CRLF>)",
+        "Enviando NOOP",
+        "Enviando QUIT",
+        "Enviando RSET"
+      ],
+      "correcta": 0,
+      "explicacion": "Tras el comando DATA, el cliente indica el fin del mensaje enviando una línea que contiene únicamente un punto (<CRLF>.<CRLF>). QUIT cierra la sesión, RSET aborta la transacción y NOOP mantiene la sesión activa.",
+      "referencia": "1.2.1.2",
+      "verificado": true,
+      "fecha_alta": "2026-10-31"
+    },
+    {
+      "id": "p-1.2-009",
+      "concepto_id": "c-3cef04b9038f",
+      "capitulo": "1.2",
+      "tipo": "single",
+      "dificultad": "alta",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Qué extensión permite autenticar al cliente ante el servidor SMTP para evitar Open Relays y Email Spoofing?",
+      "opciones": [
+        "IDLE (RFC 2177)",
+        "MIME",
+        "SMTP-AUTH (RFC 4954)",
+        "STARTTLS (RFC 3207)"
+      ],
+      "correcta": 2,
+      "explicacion": "SMTP-AUTH (RFC 4954) utiliza SASL para autenticar al cliente ante el servidor, solucionando la falta de autenticación original de SMTP. STARTTLS cifra la conexión, MIME codifica datos no ASCII e IDLE es extensión de IMAP.",
+      "referencia": "1.2.1.4",
+      "verificado": true,
+      "fecha_alta": "2026-10-31"
+    },
+    {
+      "id": "p-1.2-010",
+      "concepto_id": "c-173916184fbe",
+      "capitulo": "1.2",
+      "tipo": "single",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "Ante un usuario que necesita acceder al correo desde PC de oficina, portátil y móvil con sincronización de estado, ¿qué protocolo es el adecuado?",
+      "opciones": [
+        "POP3",
+        "SMTP",
+        "IMAP",
+        "POP3 en modo Keep"
+      ],
+      "correcta": 2,
+      "explicacion": "IMAP está diseñado para mantener los mensajes en el servidor y sincronizar estado (leído/no leído, carpetas) entre múltiples dispositivos. POP3 carece de sincronización de estado entre dispositivos.",
+      "referencia": "1.2.4.4",
+      "verificado": true,
+      "fecha_alta": "2026-10-31"
+    },
+    {
+      "id": "p-1.3-001",
+      "concepto_id": "c-1cb8b3c6f84f",
+      "capitulo": "1.3",
+      "tipo": "seleccion-multiple",
+      "dificultad": "baja",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿En qué distribuciones Linux se menciona Postfix como MTA predeterminado?",
+      "opciones": [
+        "Debian y Fedora",
+        "CentOS y Arch Linux",
+        "SUSE y Gentoo",
+        "Red Hat Enterprise Linux (RHEL) y Ubuntu"
+      ],
+      "correcta": 3,
+      "explicacion": "El texto indica que Postfix es el MTA predeterminado en muchas distribuciones de Linux, como Red Hat Enterprise Linux (RHEL) y Ubuntu.",
+      "referencia": "1.3.1",
+      "verificado": true,
+      "fecha_alta": "2026-10-31"
+    },
+    {
+      "id": "p-1.3-002",
+      "concepto_id": "c-b90115ba2889",
+      "capitulo": "1.3",
+      "tipo": "seleccion-multiple",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Qué parámetro de Postfix define la lista de dominios para los cuales el servidor acepta entrega local final, y qué ocurre si se deja vacío?",
+      "opciones": [
+        "myorigin; actúa como null client",
+        "mynetworks; permite relay sin autenticación",
+        "relayhost; reenvía todo a un Smart Host",
+        "mydestination; actúa como null client (solo reenvío)"
+      ],
+      "correcta": 3,
+      "explicacion": "mydestination es la lista de dominios con entrega local final. Si se deja vacío, Postfix actúa como null client, reenviando todo en lugar de entregar localmente.",
+      "referencia": "1.3.1.3",
+      "verificado": true,
+      "fecha_alta": "2026-10-31"
+    },
+    {
+      "id": "p-1.3-003",
+      "concepto_id": "c-b90115ba2889",
+      "capitulo": "1.3",
+      "tipo": "seleccion-multiple",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "Para configurar el formato Maildir en el parámetro home_mailbox de Postfix, ¿qué condición debe cumplir el valor?",
+      "opciones": [
+        "Debe terminar con una barra /",
+        "No requiere ninguna condición especial",
+        "Debe incluir el prefijo maildir:",
+        "Debe comenzar con una barra /"
+      ],
+      "correcta": 0,
+      "explicacion": "Para usar formato Maildir en home_mailbox es obligatorio terminar la ruta con una barra / (p. ej., Maildir/). Sin ella, Postfix asumirá formato mbox.",
+      "referencia": "1.3.1.3 / 1.3.1.7",
+      "verificado": true,
+      "fecha_alta": "2026-10-31"
+    },
+    {
+      "id": "p-1.3-004",
+      "concepto_id": "c-4de1c41198d9",
+      "capitulo": "1.3",
+      "tipo": "seleccion-multiple",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "Tras editar el archivo /etc/postfix/virtual, ¿qué comando debe ejecutarse para regenerar la base de datos binaria?",
+      "opciones": [
+        "postmap /etc/postfix/virtual",
+        "postfix reload",
+        "newaliases",
+        "makemap hash"
+      ],
+      "correcta": 0,
+      "explicacion": "postmap crea o actualiza la base de datos binaria (.db) a partir del archivo de texto plano. Tras editar /etc/aliases (no virtual) se usa newaliases.",
+      "referencia": "1.3.1.4 / 1.3.1.7",
+      "verificado": true,
+      "fecha_alta": "2026-10-31"
+    },
+    {
+      "id": "p-1.3-005",
+      "concepto_id": "c-44120c1d2a70",
+      "capitulo": "1.3",
+      "tipo": "seleccion-multiple",
+      "dificultad": "baja",
+      "origen": "ingesta-inicial",
+      "enunciado": "En Sendmail, ¿qué archivo debe editar el administrador y con qué herramienta se genera el sendmail.cf final?",
+      "opciones": [
+        "submit.cf, procesado con m4",
+        "sendmail.cf, editado directamente y compilado con make",
+        "sendmail.mc, procesado con m4",
+        "aliases, procesado con newaliases"
+      ],
+      "correcta": 2,
+      "explicacion": "El administrador edita el archivo .mc (Master Configuration) con macros legibles y lo procesa con m4 para generar sendmail.cf. Editar el .cf directamente se considera mala práctica.",
+      "referencia": "1.3.2.1 / 1.3.2.5",
+      "verificado": true,
+      "fecha_alta": "2026-10-31"
+    },
+    {
+      "id": "p-1.3-006",
+      "concepto_id": "c-d57b9a2250ea",
+      "capitulo": "1.3",
+      "tipo": "seleccion-multiple",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Qué comando se utiliza en Sendmail para convertir archivos de texto como access a bases de datos binarias indexadas?",
+      "opciones": [
+        "makemap",
+        "mailq",
+        "newaliases",
+        "postmap"
+      ],
+      "correcta": 0,
+      "explicacion": "makemap convierte archivos de texto plano (access, virtusertable, domaintable) a formato de base de datos (hash o dbm), típicamente con sintaxis makemap hash /etc/mail/access < /etc/mail/access.",
+      "referencia": "1.3.2.3",
+      "verificado": true,
+      "fecha_alta": "2026-10-31"
+    },
+    {
+      "id": "p-1.3-007",
+      "concepto_id": "c-d57b9a2250ea",
+      "capitulo": "1.3",
+      "tipo": "seleccion-multiple",
+      "dificultad": "alta",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Cuál es la función de smrsh en Sendmail?",
+      "opciones": [
+        "Cifrar la comunicación SMTP con TLS",
+        "Forzar el procesado inmediato de la cola de correo",
+        "Restringir qué programas pueden ser ejecutados por sendmail a través de .forward o alias con tuberías",
+        "Generar las bases de datos binarias de alias"
+      ],
+      "correcta": 2,
+      "explicacion": "SMRSH (SendMail Restricted SHell) restringe la ejecución de programas externos por parte de sendmail, permitiendo solo los enlazados en su directorio (/usr/adm/sm.bin o /etc/smrsh), evitando ejecución arbitraria de comandos.",
+      "referencia": "1.3.2.4",
+      "verificado": true,
+      "fecha_alta": "2026-10-31"
+    },
+    {
+      "id": "p-1.3-008",
+      "concepto_id": "c-a5ef7e4e1d3f",
+      "capitulo": "1.3",
+      "tipo": "seleccion-multiple",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿De qué servicio depende absolutamente Microsoft Exchange Server para almacenar su configuración y los atributos de los usuarios?",
+      "opciones": [
+        "Active Directory",
+        "Internet Information Services (IIS)",
+        "DNS",
+        "SQL Server"
+      ],
+      "correcta": 0,
+      "explicacion": "Exchange Server depende absolutamente de Active Directory: guarda su configuración en la partición de Configuración de AD y los datos de usuarios en la partición de Dominio.",
+      "referencia": "1.3.3 / 1.3.3.5.1",
+      "verificado": true,
+      "fecha_alta": "2026-10-31"
+    },
+    {
+      "id": "p-1.3-009",
+      "concepto_id": "c-90ba55bd68dd",
+      "capitulo": "1.3",
+      "tipo": "seleccion-multiple",
+      "dificultad": "alta",
+      "origen": "ingesta-inicial",
+      "enunciado": "En Exchange 2019, ¿cuántos servidores de buzones puede incluir como máximo un Database Availability Group (DAG)?",
+      "opciones": [
+        "32",
+        "12",
+        "8",
+        "16"
+      ],
+      "correcta": 3,
+      "explicacion": "Un DAG es un grupo de hasta 16 servidores de buzones que alojan copias de bases de datos, con activación automática de copia pasiva ante fallo.",
+      "referencia": "1.3.3.3",
+      "verificado": true,
+      "fecha_alta": "2026-10-31"
+    },
+    {
+      "id": "p-1.3-010",
+      "concepto_id": "c-d8dc8434989e",
+      "capitulo": "1.3",
+      "tipo": "seleccion-multiple",
+      "dificultad": "baja",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Qué puertos se asocian en el texto a IMAPS y POP3S respectivamente?",
+      "opciones": [
+        "143 y 110",
+        "993 y 995",
+        "25 y 587",
+        "465 y 24"
+      ],
+      "correcta": 1,
+      "explicacion": "Dovecot soporta las versiones seguras IMAPS en puerto 993 y POP3S en puerto 995 mediante TLS.",
+      "referencia": "1.3.4.1 / 1.3.4.4",
+      "verificado": true,
+      "fecha_alta": "2026-10-31"
+    },
+    {
+      "id": "p-1.3-011",
+      "concepto_id": "c-d8dc8434989e",
+      "capitulo": "1.3",
+      "tipo": "seleccion-multiple",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "En una configuración Postfix + Dovecot, ¿qué servicio proporciona la autenticación para SMTP-AUTH y a través de qué mecanismo se integra con Postfix?",
+      "opciones": [
+        "Cyrus SASL a través de un socket TCP 143",
+        "Postfix SASL a través de un puerto TCP 25",
+        "Active Directory a través de LDAP",
+        "Dovecot SASL a través de un socket UNIX en /var/spool/postfix/private/auth"
+      ],
+      "correcta": 3,
+      "explicacion": "Dovecot actúa como backend de autenticación para Postfix (SMTP-AUTH) mediante un socket UNIX en /var/spool/postfix/private/auth configurado en 10-master.conf.",
+      "referencia": "1.3.4.1 / 1.3.4.3",
+      "verificado": true,
+      "fecha_alta": "2026-10-31"
+    },
+    {
+      "id": "p-1.4-001",
+      "concepto_id": "c-39f0152b6bea",
+      "capitulo": "1.4",
+      "tipo": "memorizacion",
+      "dificultad": "baja",
+      "origen": "ingesta-inicial",
+      "enunciado": "La especificación base de SMTP-AUTH se definió originalmente en la RFC 2554 y ha sido actualizada por:",
+      "opciones": [
+        "RFC 4422",
+        "RFC 7208",
+        "RFC 3207",
+        "RFC 4954"
+      ],
+      "correcta": 3,
+      "explicacion": "El texto indica que la especificación técnica base de SMTP-AUTH se definió originalmente en la RFC 2554 y ha sido actualizada por la RFC 4954.",
+      "referencia": "1.4.1",
+      "verificado": true,
+      "fecha_alta": "2026-10-31"
+    },
+    {
+      "id": "p-1.4-002",
+      "concepto_id": "c-39f0152b6bea",
+      "capitulo": "1.4",
+      "tipo": "memorizacion",
+      "dificultad": "baja",
+      "origen": "ingesta-inicial",
+      "enunciado": "El puerto 587 (Submission) se caracteriza porque:",
+      "opciones": [
+        "Usa cifrado implícito desde la conexión y no requiere autenticación",
+        "Está dedicado a la retransmisión entre MTAs y usa texto claro",
+        "Requiere casi universalmente autenticación (SMTP-AUTH) y cifrado STARTTLS",
+        "Es el puerto estándar para IMAP sobre SSL"
+      ],
+      "correcta": 2,
+      "explicacion": "El puerto 587 está dedicado a la sumisión de mensajes por parte de clientes (MUAs) y, a diferencia del puerto 25, requiere casi universalmente autenticación (SMTP-AUTH) y cifrado STARTTLS.",
+      "referencia": "1.4.1.5",
+      "verificado": true,
+      "fecha_alta": "2026-10-31"
+    },
+    {
+      "id": "p-1.4-003",
+      "concepto_id": "c-21f218086877",
+      "capitulo": "1.4",
+      "tipo": "memorizacion",
+      "dificultad": "baja",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Qué puerto corresponde a IMAPS (IMAP sobre SSL implícito)?",
+      "opciones": [
+        "993",
+        "465",
+        "143",
+        "995"
+      ],
+      "correcta": 0,
+      "explicacion": "En el modo de cifrado implícito, el puerto estándar para IMAPS es el 993.",
+      "referencia": "1.4.2.1",
+      "verificado": true,
+      "fecha_alta": "2026-10-31"
+    },
+    {
+      "id": "p-1.4-004",
+      "concepto_id": "c-4b60c1be7b2f",
+      "capitulo": "1.4",
+      "tipo": "conceptual",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "El mecanismo AUTH PLAIN envía las credenciales codificadas en Base64. Respecto a su seguridad se afirma que:",
+      "opciones": [
+        "Es seguro solo si se tuneliza a través de una sesión cifrada TLS/SSL",
+        "Es más seguro que CRAM-MD5 en canales no cifrados",
+        "Es seguro por sí solo porque Base64 es un cifrado reversible",
+        "No requiere TLS porque codifica la contraseña"
+      ],
+      "correcta": 0,
+      "explicacion": "PLAIN es inseguro por sí solo (texto claro); Base64 es una codificación reversible, no un cifrado, por lo que debe acompañarse de TLS. La pregunta trampa del texto es responder que no es seguro salvo que se tunelice mediante TLS.",
+      "referencia": "1.4.1.2, 1.4.1.5",
+      "verificado": true,
+      "fecha_alta": "2026-10-31"
+    },
+    {
+      "id": "p-1.4-005",
+      "concepto_id": "c-26900b1fca6a",
+      "capitulo": "1.4",
+      "tipo": "conceptual",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "SPF valida la identidad del remitente comprobando:",
+      "opciones": [
+        "La dirección IP del servidor que conecta comparándola con las autorizadas en el registro TXT",
+        "La firma digital del cuerpo del mensaje",
+        "El certificado X.509 del servidor remitente",
+        "La dirección que el usuario ve en el campo From: del encabezado del mensaje"
+      ],
+      "correcta": 0,
+      "explicacion": "SPF extrae el dominio del Envelope Sender (MAIL FROM), consulta el registro TXT v=spf1 y compara la IP del servidor que entrega el correo con las IPs autorizadas. No valida el encabezado From: visible ni el contenido.",
+      "referencia": "1.4.3.1",
+      "verificado": true,
+      "fecha_alta": "2026-10-31"
+    },
+    {
+      "id": "p-1.4-006",
+      "concepto_id": "c-1a12ecf56d60",
+      "capitulo": "1.4",
+      "tipo": "memorizacion",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "En un registro SPF, el calificador '~' (SoftFail) significa:",
+      "opciones": [
+        "La IP no está autorizada y el correo debe rechazarse taxativamente",
+        "La IP está autorizada y el correo debe aceptarse",
+        "La IP no está autorizada pero se permite el paso marcándolo como sospechoso",
+        "No hay política definida sobre la IP"
+      ],
+      "correcta": 2,
+      "explicacion": "El calificador ~ (SoftFail) indica que la IP no está autorizada pero se permite el paso, usualmente marcándolo como sospechoso o spam, útil en transiciones.",
+      "referencia": "1.4.3.2",
+      "verificado": true,
+      "fecha_alta": "2026-10-31"
+    },
+    {
+      "id": "p-1.4-007",
+      "concepto_id": "c-8ba7ab12aa92",
+      "capitulo": "1.4",
+      "tipo": "sintaxis",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "La clave pública de DKIM se publica en DNS en la ubicación:",
+      "opciones": [
+        "_dmarc.dominio.tld",
+        "_spf.dominio.tld",
+        "selector._domainkey.dominio.tld",
+        "domainkey.selector.dominio.tld"
+      ],
+      "correcta": 2,
+      "explicacion": "DKIM usa la estructura jerárquica selector._domainkey.dominio.tld, donde _domainkey es el subdominio reservado y obligatorio para alojar las claves DKIM.",
+      "referencia": "1.4.4.2",
+      "verificado": true,
+      "fecha_alta": "2026-10-31"
+    },
+    {
+      "id": "p-1.4-008",
+      "concepto_id": "c-dc6e2b961c6c",
+      "capitulo": "1.4",
+      "tipo": "conceptual",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "Para que DMARC pase (Pass), basta con que:",
+      "opciones": [
+        "Al menos uno de SPF o DKIM pase y esté alineado con el dominio del From:",
+        "SPF y DKIM pasen ambos y estén alineados",
+        "El registro DMARC tenga política p=reject",
+        "Solo DKIM pase con alineación estricta"
+      ],
+      "correcta": 0,
+      "explicacion": "DMARC se apoya en los resultados de SPF y DKIM: para que pase, basta con que uno de los dos pase y esté alineado con el dominio del encabezado From:.",
+      "referencia": "1.4.5.4",
+      "verificado": true,
+      "fecha_alta": "2026-10-31"
+    },
+    {
+      "id": "p-1.4-009",
+      "concepto_id": "c-26900b1fca6a",
+      "capitulo": "1.4",
+      "tipo": "aplicacion",
+      "dificultad": "alta",
+      "origen": "ingesta-inicial",
+      "enunciado": "Un registro SPF sintácticamente válido puede fallar en producción con resultado PermError porque:",
+      "opciones": [
+        "Se publica como registro A en lugar de TXT",
+        "Usa el calificador ~ en lugar de -",
+        "No incluye el mecanismo mx",
+        "Supera el límite máximo de 10 consultas DNS para resolver el registro completo"
+      ],
+      "correcta": 3,
+      "explicacion": "El estándar impone un límite máximo de 10 consultas DNS (lookups) para resolver un registro SPF completo (include, a, mx, ptr, exists). Si se supera, el resultado es PermError y el SPF falla.",
+      "referencia": "1.4.3.3",
+      "verificado": true,
+      "fecha_alta": "2026-10-31"
+    },
+    {
+      "id": "p-1.4-010",
+      "concepto_id": "c-457b2f94e100",
+      "capitulo": "1.4",
+      "tipo": "conceptual",
+      "dificultad": "alta",
+      "origen": "ingesta-inicial",
+      "enunciado": "Respecto a DANE y MTA-STS, ¿cuál afirmación es correcta?",
+      "opciones": [
+        "Ninguno usa registros DNS TXT",
+        "MTA-STS se basa en HTTPS y registros TXT; DANE requiere obligatoriamente DNSSEC",
+        "DANE no requiere DNSSEC; MTA-STS sí lo requiere",
+        "Ambos requieren DNSSEC obligatoriamente"
+      ],
+      "correcta": 1,
+      "explicacion": "DANE requiere obligatoriamente DNSSEC (registros TLSA). MTA-STS se basa en políticas publicadas vía HTTPS y registros DNS TXT, usando certificados de CA, siendo alternativa si no se tiene DNSSEC.",
+      "referencia": "1.4.2.3, 1.4.2.5",
+      "verificado": true,
+      "fecha_alta": "2026-10-31"
+    },
+    {
+      "id": "p-1.5-001",
+      "concepto_id": "c-5c0e8f7a88cd",
+      "capitulo": "1.5",
+      "tipo": "definicion",
+      "dificultad": "baja",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Cuál es el objetivo principal de aplicar la mayor cantidad de filtrado posible durante la conexión SMTP?",
+      "opciones": [
+        "Entrenar el filtro bayesiano",
+        "Descartar correo basura lo antes posible para ahorrar recursos",
+        "Analizar el contenido completo del mensaje",
+        "Etiquetar el mensaje con cabeceras X-Spam"
+      ],
+      "correcta": 1,
+      "explicacion": "La estrategia de defensa en profundidad busca descartar la mayor cantidad de correo basura lo antes posible (durante la conexión SMTP) para ahorrar recursos de procesamiento.",
+      "referencia": "1.5",
+      "verificado": true,
+      "fecha_alta": "2026-10-31"
+    },
+    {
+      "id": "p-1.5-002",
+      "concepto_id": "c-79ad38b2cc16",
+      "capitulo": "1.5",
+      "tipo": "definicion",
+      "dificultad": "baja",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Qué RFC documenta el funcionamiento de las listas negras basadas en DNS (DNSBL/RBL)?",
+      "opciones": [
+        "RFC 6376",
+        "RFC 5782",
+        "RFC 7208",
+        "RFC 5321"
+      ],
+      "correcta": 1,
+      "explicacion": "El funcionamiento de las listas negras basadas en DNS está documentado en la RFC 5782.",
+      "referencia": "1.5.1.1",
+      "verificado": true,
+      "fecha_alta": "2026-10-31"
+    },
+    {
+      "id": "p-1.5-003",
+      "concepto_id": "c-5d0770c3cf2c",
+      "capitulo": "1.5",
+      "tipo": "definicion",
+      "dificultad": "baja",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Con qué códigos de error SMTP se asocia obligatoriamente el greylisting?",
+      "opciones": [
+        "Códigos 5xx",
+        "Códigos 2xx",
+        "Códigos 4xx",
+        "Códigos 3xx"
+      ],
+      "correcta": 2,
+      "explicacion": "El greylisting debe asociarse obligatoriamente con códigos de error temporales (4xx), típicamente 450 o 451.",
+      "referencia": "1.5.1.4.1",
+      "verificado": true,
+      "fecha_alta": "2026-10-31"
+    },
+    {
+      "id": "p-1.5-004",
+      "concepto_id": "c-ba1ea3f9e780",
+      "capitulo": "1.5",
+      "tipo": "proceso",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "Para verificar la IP 1.2.3.4 en la lista rbl.ejemplo.com, ¿qué consulta DNS se realiza?",
+      "opciones": [
+        "4.3.2.1.rbl.ejemplo.com",
+        "1.2.3.4.rbl.ejemplo.com",
+        "3.2.1.4.rbl.ejemplo.com",
+        "rbl.ejemplo.com.1.2.3.4"
+      ],
+      "correcta": 0,
+      "explicacion": "La consulta DNS se realiza invirtiendo los octetos de la dirección IP: 4.3.2.1.rbl.ejemplo.com.",
+      "referencia": "1.5.1.4.4",
+      "verificado": true,
+      "fecha_alta": "2026-10-31"
+    },
+    {
+      "id": "p-1.5-005",
+      "concepto_id": "c-9d325e8d7717",
+      "capitulo": "1.5",
+      "tipo": "definicion",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Cuáles son los tres datos que componen la tripleta del greylisting?",
+      "opciones": [
+        "Dominio origen, IP destino, tamaño del mensaje",
+        "IP origen, asunto del mensaje, fecha de envío",
+        "IP origen, cabecera Message-ID, cuerpo del mensaje",
+        "IP origen, remitente (Envelope Sender), destinatario (Envelope Recipient)"
+      ],
+      "correcta": 3,
+      "explicacion": "La tripleta del greylisting está compuesta por la IP del host que intenta la entrega, la dirección del remitente (Envelope sender) y la dirección del destinatario (Envelope recipient).",
+      "referencia": "1.5.1.2",
+      "verificado": true,
+      "fecha_alta": "2026-10-31"
+    },
+    {
+      "id": "p-1.5-006",
+      "concepto_id": "c-70771224256a",
+      "capitulo": "1.5",
+      "tipo": "clasificacion",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿En qué capa del modelo OSI opera SpamAssassin, a diferencia de las listas grises?",
+      "opciones": [
+        "Capa 2 (Enlace de datos)",
+        "Capa 4 (Transporte)",
+        "Capa 7 (Aplicación)",
+        "Capa 3 (Red)"
+      ],
+      "correcta": 2,
+      "explicacion": "SpamAssassin es un filtro de contenido que opera en la Capa 7 (Aplicación), a diferencia de las listas grises o firewalls que operan a nivel de conexión.",
+      "referencia": "1.5.2.5",
+      "verificado": true,
+      "fecha_alta": "2026-10-31"
+    },
+    {
+      "id": "p-1.5-007",
+      "concepto_id": "c-f8836cd9c39a",
+      "capitulo": "1.5",
+      "tipo": "proceso",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Cuál es el umbral de puntuación por defecto a partir del cual SpamAssassin etiqueta un correo como spam?",
+      "opciones": [
+        "5.0",
+        "7.0",
+        "3.0",
+        "8.0"
+      ],
+      "correcta": 0,
+      "explicacion": "Si la suma total de puntuaciones supera el umbral predefinido (por defecto suele ser 5.0), el correo se etiqueta como spam.",
+      "referencia": "1.5.2.1",
+      "verificado": true,
+      "fecha_alta": "2026-10-31"
+    },
+    {
+      "id": "p-1.5-008",
+      "concepto_id": "c-d3a568b867a5",
+      "capitulo": "1.5",
+      "tipo": "sintaxis",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Qué cabecera añadida por SpamAssassin representa visualmente la puntuación mediante asteriscos?",
+      "opciones": [
+        "X-Spam-Score",
+        "X-Spam-Status",
+        "X-Spam-Flag",
+        "X-Spam-Level"
+      ],
+      "correcta": 3,
+      "explicacion": "X-Spam-Level es una representación visual de la puntuación mediante asteriscos (ej. ***** para una puntuación de 5).",
+      "referencia": "1.5.2.4",
+      "verificado": true,
+      "fecha_alta": "2026-10-31"
+    },
+    {
+      "id": "p-1.5-009",
+      "concepto_id": "c-2f1f2d2edee3",
+      "capitulo": "1.5",
+      "tipo": "definicion",
+      "dificultad": "alta",
+      "origen": "ingesta-inicial",
+      "enunciado": "En el modelo Naïve Bayes, ¿qué asunción 'ingenua' se realiza sobre las palabras de un mensaje?",
+      "opciones": [
+        "Que la presencia de una palabra es estadísticamente independiente de la presencia de cualquier otra",
+        "Que las palabras aparecen en orden alfabético",
+        "Que cada palabra tiene probabilidad 0.5 de ser spam",
+        "Que todas las palabras son igual de frecuentes"
+      ],
+      "correcta": 0,
+      "explicacion": "El Naïve Bayes asume la hipótesis 'ingenua' de que la presencia de una característica (palabra) es estadísticamente independiente de la presencia de cualquier otra.",
+      "referencia": "1.5.3.1",
+      "verificado": true,
+      "fecha_alta": "2026-10-31"
+    },
+    {
+      "id": "p-1.5-010",
+      "concepto_id": "c-70e37adf5192",
+      "capitulo": "1.5",
+      "tipo": "clasificacion",
+      "dificultad": "alta",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Qué técnica de contramedida consiste en insertar deliberadamente palabras con alta probabilidad de ser ham para sesgar el cálculo bayesiano hacia la legitimidad?",
+      "opciones": [
+        "Suavizado (Smoothing)",
+        "Ataque de palabras buenas (Good Word Attack)",
+        "Filtrado Markoviano",
+        "Ensalada de palabras (Word Salad)"
+      ],
+      "correcta": 1,
+      "explicacion": "Los 'ataques de palabras buenas' (Good Word Attacks) consisten en insertar deliberadamente palabras que típicamente tienen alta probabilidad de ser ham para sesgar el cálculo bayesiano hacia la legitimidad.",
+      "referencia": "1.5.3.3",
+      "verificado": true,
+      "fecha_alta": "2026-10-31"
+    },
+    {
+      "id": "p-1.6-001",
+      "concepto_id": "c-bcb4f26dbb59",
+      "capitulo": "1.6",
+      "tipo": "memorizacion",
+      "dificultad": "baja",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Cuál es la ubicación estándar del directorio de colas de correo en sistemas tipo Sendmail?",
+      "opciones": [
+        "/var/log/mail.log",
+        "/etc/postfix",
+        "/var/spool/mail",
+        "/var/spool/mqueue"
+      ],
+      "correcta": 3,
+      "explicacion": "El texto indica que la ubicación estándar del directorio de colas es /var/spool/mqueue.",
+      "referencia": "1.6.1.1",
+      "verificado": true,
+      "fecha_alta": "2026-10-31"
+    },
+    {
+      "id": "p-1.6-002",
+      "concepto_id": "c-bcb4f26dbb59",
+      "capitulo": "1.6",
+      "tipo": "memorizacion",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "En la estructura de archivos de la cola de Sendmail, ¿qué archivo contiene el remitente, destinatarios, cabeceras y prioridad?",
+      "opciones": [
+        "df (Data File)",
+        "hf (Held/Quarantined File)",
+        "xf (Transcript File)",
+        "qf (Queue Control File)"
+      ],
+      "correcta": 3,
+      "explicacion": "El qf (Queue Control File) es el 'cerebro' del envío y contiene la información de control: remitente, destinatarios, cabeceras y prioridad.",
+      "referencia": "1.6.1.1",
+      "verificado": true,
+      "fecha_alta": "2026-10-31"
+    },
+    {
+      "id": "p-1.6-003",
+      "concepto_id": "c-ddc112f89485",
+      "capitulo": "1.6",
+      "tipo": "comprension",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "Respecto a la prioridad en la cola de correo, ¿qué valor numérico indica mayor urgencia?",
+      "opciones": [
+        "El valor más alto",
+        "El valor igual a cero",
+        "El valor negativo",
+        "El valor más bajo"
+      ],
+      "correcta": 3,
+      "explicacion": "El texto establece que un valor de prioridad más bajo indica una mayor urgencia (se procesa antes).",
+      "referencia": "1.6.1.2",
+      "verificado": true,
+      "fecha_alta": "2026-10-31"
+    },
+    {
+      "id": "p-1.6-004",
+      "concepto_id": "c-ddc112f89485",
+      "capitulo": "1.6",
+      "tipo": "comprension",
+      "dificultad": "alta",
+      "origen": "ingesta-inicial",
+      "enunciado": "Según la fórmula de prioridad inicial de la cola, ¿qué ocurre con un mensaje que tiene un alto número de destinatarios?",
+      "opciones": [
+        "Se elimina de la cola",
+        "Se mejora su prioridad (resta valor)",
+        "No afecta a la prioridad",
+        "Se penaliza (suma valor)"
+      ],
+      "correcta": 3,
+      "explicacion": "En la fórmula, (Receptores × RecipientFactor) suma valor, por lo que un alto número de destinatarios aumenta el valor, penalizando el mensaje.",
+      "referencia": "1.6.1.2",
+      "verificado": true,
+      "fecha_alta": "2026-10-31"
+    },
+    {
+      "id": "p-1.6-005",
+      "concepto_id": "c-d42224162ff3",
+      "capitulo": "1.6",
+      "tipo": "comprension",
+      "dificultad": "baja",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Qué parámetro de control de carga hace que el servidor deje de entregar correo inmediatamente y solo lo encole cuando la carga supera el umbral?",
+      "opciones": [
+        "RefuseLA",
+        "RetryFactor",
+        "QueueLA",
+        "Timeout.queuereturn"
+      ],
+      "correcta": 2,
+      "explicacion": "QueueLA: si la carga supera este valor, el servidor deja de entregar correo inmediatamente y solo lo encola (modo queue-only). RefuseLA, en cambio, rechaza nuevas conexiones.",
+      "referencia": "1.6.1.4",
+      "verificado": true,
+      "fecha_alta": "2026-10-31"
+    },
+    {
+      "id": "p-1.6-006",
+      "concepto_id": "c-6f6e905142c6",
+      "capitulo": "1.6",
+      "tipo": "memorizacion",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "En Sendmail, ¿cuál es el nivel de log por defecto (LogLevel) que registra deferrals, fallos de entrega y estadísticas básicas?",
+      "opciones": [
+        "0-1",
+        "9",
+        "12",
+        "15"
+      ],
+      "correcta": 1,
+      "explicacion": "El nivel 9 es el por defecto y registra deferrals (retrasos), fallos de entrega y estadísticas básicas.",
+      "referencia": "1.6.2.1",
+      "verificado": true,
+      "fecha_alta": "2026-10-31"
+    },
+    {
+      "id": "p-1.6-007",
+      "concepto_id": "c-7aaf6e380c7f",
+      "capitulo": "1.6",
+      "tipo": "memorizacion",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "En SNMP, ¿qué puertos estándar se utilizan para polling/consultas y para traps respectivamente?",
+      "opciones": [
+        "25 y 587",
+        "110 y 143",
+        "162 y 161",
+        "161 y 162"
+      ],
+      "correcta": 3,
+      "explicacion": "Puertos estándar de SNMP: 161 para polling/consultas y 162 para traps.",
+      "referencia": "1.6.2.3.3",
+      "verificado": true,
+      "fecha_alta": "2026-10-31"
+    },
+    {
+      "id": "p-1.6-008",
+      "concepto_id": "c-873b8177fc1c",
+      "capitulo": "1.6",
+      "tipo": "aplicacion",
+      "dificultad": "alta",
+      "origen": "ingesta-inicial",
+      "enunciado": "Para restaurar un sistema el jueves tras un backup completo el domingo usando copias incrementales, ¿qué secuencia de backups se necesita?",
+      "opciones": [
+        "Solo Full (Dom)",
+        "Full (Dom) + Inc (Mié)",
+        "Full (Dom) + Inc (Lun) + Inc (Mar) + Inc (Mié)",
+        "Full (Dom) + Diff (Mié)"
+      ],
+      "correcta": 2,
+      "explicacion": "Con incrementales se necesita el último Full más todos los incrementales secuenciales: Full (Dom) + Inc (Lun) + Inc (Mar) + Inc (Mié).",
+      "referencia": "1.6.4.5",
+      "verificado": true,
+      "fecha_alta": "2026-10-31"
+    },
+    {
+      "id": "p-1.6-009",
+      "concepto_id": "c-5fae72437ead",
+      "capitulo": "1.6",
+      "tipo": "comprension",
+      "dificultad": "baja",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Qué ocurre cuando un buzón supera su Hard Limit?",
+      "opciones": [
+        "Se borran automáticamente los correos más antiguos",
+        "Se genera un aviso al usuario",
+        "Se aplica el grace period",
+        "Se impide físicamente la escritura y el remitente recibe un NDR (5.2.2 Mailbox full)"
+      ],
+      "correcta": 3,
+      "explicacion": "El Hard Limit es un umbral absoluto que impide físicamente la escritura; en correo provoca un rechazo inmediato del mensaje entrante con NDR código 5.2.2 Mailbox full.",
+      "referencia": "1.6.3.2 / 1.6.3.4",
+      "verificado": true,
+      "fecha_alta": "2026-10-31"
+    },
+    {
+      "id": "p-1.6-010",
+      "concepto_id": "c-975eb689331a",
+      "capitulo": "1.6",
+      "tipo": "comprension",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Por qué es imprescindible VSS para hacer copias de seguridad de Exchange en caliente?",
+      "opciones": [
+        "Para crear una instantánea consistente sin detener el servicio",
+        "Para truncar los logs de transacciones",
+        "Para deduplicar los datos",
+        "Para cifrar los backups"
+      ],
+      "correcta": 0,
+      "explicacion": "VSS congela momentáneamente las operaciones de escritura para crear una instantánea estable de la base de datos, permitiendo el backup mientras Exchange sigue atendiendo peticiones.",
+      "referencia": "1.6.4.3",
+      "verificado": true,
+      "fecha_alta": "2026-10-31"
+    },
+    {
+      "id": "p-2.1-001",
+      "concepto_id": "c-b6374317c67d",
+      "capitulo": "2.1",
+      "tipo": "definicion",
+      "dificultad": "baja",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Qué nivel de virtualización utiliza la contenedorización?",
+      "opciones": [
+        "Virtualización de red mediante VLANs.",
+        "Virtualización a nivel de aplicación mediante sandbox.",
+        "Virtualización a nivel de hardware mediante hipervisor.",
+        "Virtualización a nivel de sistema operativo compartiendo el kernel del host."
+      ],
+      "correcta": 3,
+      "explicacion": "La contenedorización es una forma de virtualización a nivel de sistema operativo que comparte el kernel del SO anfitrión.",
+      "referencia": "2.1",
+      "verificado": true,
+      "fecha_alta": "2026-10-31"
+    },
+    {
+      "id": "p-2.1-002",
+      "concepto_id": "c-6b438212b7a3",
+      "capitulo": "2.1",
+      "tipo": "clasificacion",
+      "dificultad": "baja",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Qué tecnología del kernel de Linux proporciona el aislamiento de la vista del sistema (qué puede ver el contenedor)?",
+      "opciones": [
+        "Namespaces.",
+        "Hipervisor.",
+        "Cgroups.",
+        "Union File Systems."
+      ],
+      "correcta": 0,
+      "explicacion": "Namespaces proporcionan el aislamiento de la vista del sistema (procesos, redes, usuarios, montajes). Cgroups se refieren a recursos/cuotas.",
+      "referencia": "2.1.1.1",
+      "verificado": true,
+      "fecha_alta": "2026-10-31"
+    },
+    {
+      "id": "p-2.1-003",
+      "concepto_id": "c-5ac27a106efc",
+      "capitulo": "2.1",
+      "tipo": "clasificacion",
+      "dificultad": "baja",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Qué tecnología gestiona, limita y audita el uso de recursos físicos (CPU, memoria, E/S) de un contenedor?",
+      "opciones": [
+        "Namespaces.",
+        "Cgroups.",
+        "Copy-on-Write.",
+        "Union File Systems."
+      ],
+      "correcta": 1,
+      "explicacion": "Cgroups (grupos de control) gestionan, limitan y auditan el uso de recursos físicos.",
+      "referencia": "2.1.1.1",
+      "verificado": true,
+      "fecha_alta": "2026-10-31"
+    },
+    {
+      "id": "p-2.1-004",
+      "concepto_id": "c-8c3fdbeec3b1",
+      "capitulo": "2.1",
+      "tipo": "comparativa",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Cuál es la diferencia principal de nivel de abstracción entre una VM y un contenedor?",
+      "opciones": [
+        "Ambas abstraen el sistema operativo.",
+        "La VM abstrae el SO y el contenedor el hardware.",
+        "Ambas abstraen el hardware.",
+        "La VM abstrae el hardware (hipervisor) y el contenedor el sistema operativo (user space)."
+      ],
+      "correcta": 3,
+      "explicacion": "Las VMs abstraen el hardware físico mediante hipervisor; los contenedores abstraen el SO (user space).",
+      "referencia": "2.1.2.1",
+      "verificado": true,
+      "fecha_alta": "2026-10-31"
+    },
+    {
+      "id": "p-2.1-005",
+      "concepto_id": "c-1dc4683ead4b",
+      "capitulo": "2.1",
+      "tipo": "regla",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Qué ocurre si falla el kernel del host en un entorno con contenedores?",
+      "opciones": [
+        "Los contenedores migran automáticamente a otro host.",
+        "Fallan todos los contenedores residentes en ese host.",
+        "Solo falla el contenedor afectado.",
+        "El hipervisor aísla el fallo."
+      ],
+      "correcta": 1,
+      "explicacion": "Todos los contenedores comparten el mismo kernel del host; si el kernel falla, todos los contenedores fallan.",
+      "referencia": "2.1.1.4",
+      "verificado": true,
+      "fecha_alta": "2026-10-31"
+    },
+    {
+      "id": "p-2.1-006",
+      "concepto_id": "c-75f9c9d6cd1f",
+      "capitulo": "2.1",
+      "tipo": "comparativa",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "Según la analogía POO del texto, ¿qué es una imagen de contenedor?",
+      "opciones": [
+        "La clase (plantilla estática).",
+        "El método de arranque.",
+        "El objeto en ejecución.",
+        "La instancia de red."
+      ],
+      "correcta": 0,
+      "explicacion": "La imagen es la plantilla estática (clase); el contenedor es la instancia en ejecución (objeto).",
+      "referencia": "2.1.1.4",
+      "verificado": true,
+      "fecha_alta": "2026-10-31"
+    },
+    {
+      "id": "p-2.1-007",
+      "concepto_id": "c-8b5a721c6f58",
+      "capitulo": "2.1",
+      "tipo": "regla",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Cómo se actualiza correctamente un contenedor inmutable?",
+      "opciones": [
+        "Reiniciando el host.",
+        "Modificando su sistema de archivos interno.",
+        "Destruyéndolo y reemplazándolo por uno nuevo desde una imagen actualizada.",
+        "Parcheándolo en caliente."
+      ],
+      "correcta": 2,
+      "explicacion": "Se destruye y se reemplaza por uno nuevo generado desde una imagen actualizada, en lugar de parchearlo en caliente.",
+      "referencia": "2.1.1.3",
+      "verificado": true,
+      "fecha_alta": "2026-10-31"
+    },
+    {
+      "id": "p-2.1-008",
+      "concepto_id": "c-0e7a9de360cb",
+      "capitulo": "2.1",
+      "tipo": "proceso",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Qué mecanismo permite que los contenedores compartan capas de imagen de solo lectura y escriban solo en una capa superior delgada?",
+      "opciones": [
+        "Namespaces.",
+        "Hipervisor.",
+        "Copy-on-Write (CoW).",
+        "Cgroups."
+      ],
+      "correcta": 2,
+      "explicacion": "Copy-on-Write (CoW) es el mecanismo de ahorro de espacio mediante capas compartidas de solo lectura.",
+      "referencia": "2.1.1.4",
+      "verificado": true,
+      "fecha_alta": "2026-10-31"
+    },
+    {
+      "id": "p-2.1-009",
+      "concepto_id": "c-7b65413764ff",
+      "capitulo": "2.1",
+      "tipo": "regla",
+      "dificultad": "alta",
+      "origen": "ingesta-inicial",
+      "enunciado": "Si una base de datos crítica persiste sus datos a largo plazo dentro del sistema de archivos del contenedor, ¿qué se considera según el texto?",
+      "opciones": [
+        "Un anti-patrón que requiere volúmenes externos.",
+        "Una práctica recomendada.",
+        "La única forma válida de persistencia.",
+        "Equivalente a usar una VM."
+      ],
+      "correcta": 0,
+      "explicacion": "Persistir datos críticos dentro del sistema de archivos del contenedor es un anti-patrón; se requieren volúmenes externos.",
+      "referencia": "2.1.1.3 / 2.1.3.6",
+      "verificado": true,
+      "fecha_alta": "2026-10-31"
+    },
+    {
+      "id": "p-2.1-010",
+      "concepto_id": "c-1a053a481790",
+      "capitulo": "2.1",
+      "tipo": "proceso",
+      "dificultad": "alta",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Qué estrategia se aplica al migrar una aplicación legacy a contenedores sin reescribir código y sin convertirla automáticamente en cloud-native?",
+      "opciones": [
+        "Despliegue continuo (CD).",
+        "Lift and Shift.",
+        "Edge Computing.",
+        "Refactorización completa a microservicios."
+      ],
+      "correcta": 1,
+      "explicacion": "Lift and Shift encapsula la aplicación existente tal cual en un contenedor para migrarla sin reescribir código; no la convierte automáticamente en cloud-native.",
+      "referencia": "2.1.3.3 / 2.1.3.6",
+      "verificado": true,
+      "fecha_alta": "2026-10-31"
+    },
+    {
+      "id": "p-2.1-011",
+      "concepto_id": "c-9710bdaa14a4",
+      "capitulo": "2.1",
+      "tipo": "definicion",
+      "dificultad": "alta",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Qué problema elimina el paradigma Build, Ship, Run de los contenedores?",
+      "opciones": [
+        "El problema de “funciona en mi máquina”.",
+        "El problema de latencia de red.",
+        "El problema de escalado vertical.",
+        "El problema de seguridad del kernel."
+      ],
+      "correcta": 0,
+      "explicacion": "El empaquetado autocontenido elimina el problema de “funciona en mi máquina”, garantizando consistencia entre entornos.",
+      "referencia": "2.1.1.2 / 2.1.3.2",
+      "verificado": true,
+      "fecha_alta": "2026-10-31"
+    },
+    {
+      "id": "p-2.2-001",
+      "concepto_id": "c-dbff497bdc34",
+      "capitulo": "2.2",
+      "tipo": "memorizacion",
+      "dificultad": "baja",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Cuál es el puerto TCP predeterminado para la comunicación cifrada con TLS entre el cliente y el demonio de Docker?",
+      "opciones": [
+        "5000",
+        "2377",
+        "2375",
+        "2376"
+      ],
+      "correcta": 3,
+      "explicacion": "El texto indica que TCP encriptado con TLS usa el puerto predeterminado 2376, mientras que el puerto 2375 es el no encriptado (inseguro).",
+      "referencia": "2.2.1.3",
+      "verificado": true,
+      "fecha_alta": "2026-10-31"
+    },
+    {
+      "id": "p-2.2-002",
+      "concepto_id": "c-f5ca05d9f8dc",
+      "capitulo": "2.2",
+      "tipo": "conceptual",
+      "dificultad": "baja",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Qué diferencia principal existe entre 'docker run' y 'docker start'?",
+      "opciones": [
+        "docker start crea un nuevo contenedor; docker run solo inicia uno existente.",
+        "docker run crea un nuevo contenedor a partir de una imagen e inicia; docker start inicia un contenedor existente detenido reutilizando su capa R/W.",
+        "docker run solo construye imágenes; docker start ejecuta contenedores.",
+        "docker run y docker start son equivalentes, solo cambia el nombre del comando."
+      ],
+      "correcta": 1,
+      "explicacion": "Según el texto, docker run crea un nuevo contenedor a partir de una imagen (crea la capa R/W) y lo inicia, mientras que docker start inicia un contenedor existente que estaba detenido reutilizando la capa R/W existente.",
+      "referencia": "2.2.2.4",
+      "verificado": true,
+      "fecha_alta": "2026-10-31"
+    },
+    {
+      "id": "p-2.2-003",
+      "concepto_id": "c-f5ca05d9f8dc",
+      "capitulo": "2.2",
+      "tipo": "conceptual",
+      "dificultad": "baja",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Para qué se utiliza la imagen especial 'scratch' en Docker?",
+      "opciones": [
+        "Como registro privado autohospedado.",
+        "Como imagen base con sistema operativo completo para entornos de producción.",
+        "Para construir imágenes mínimas que contienen únicamente binarios estáticos compilados, sin sistema operativo invitado.",
+        "Para almacenar volúmenes de datos persistentes."
+      ],
+      "correcta": 2,
+      "explicacion": "El texto explica que scratch es una imagen especial vacía que se utiliza para construir imágenes mínimas que contienen únicamente binarios estáticos compilados (ej. Go o C), sin sistema operativo invitado, ofreciendo máxima seguridad y mínimo tamaño.",
+      "referencia": "2.2.2.4",
+      "verificado": true,
+      "fecha_alta": "2026-10-31"
+    },
+    {
+      "id": "p-2.2-004",
+      "concepto_id": "c-2f885a22ace6",
+      "capitulo": "2.2",
+      "tipo": "conceptual",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Qué componente del Docker Engine interactúa directamente con el kernel de Linux para crear los namespaces y cgroups del contenedor?",
+      "opciones": [
+        "runc",
+        "containerd-shim",
+        "containerd",
+        "dockerd"
+      ],
+      "correcta": 0,
+      "explicacion": "runc es el ejecutor de contenedores (low-level runtime) que interactúa directamente con el kernel (namespaces/cgroups) para crear el contenedor y cumple la especificación OCI; se cierra tras arrancar el contenedor.",
+      "referencia": "2.2.1.2",
+      "verificado": true,
+      "fecha_alta": "2026-10-31"
+    },
+    {
+      "id": "p-2.2-005",
+      "concepto_id": "c-b4a3378e911e",
+      "capitulo": "2.2",
+      "tipo": "conceptual",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Qué instrucción del Dockerfile permite descomprimir automáticamente un archivo tar local en el destino?",
+      "opciones": [
+        "ADD",
+        "VOLUME",
+        "RUN",
+        "COPY"
+      ],
+      "correcta": 0,
+      "explicacion": "ADD, además de copiar archivos, permite descargar desde URL remotas y descomprime automáticamente archivos .tar locales en el destino; COPY es la opción preferida por transparencia y seguridad.",
+      "referencia": "2.2.3.2",
+      "verificado": true,
+      "fecha_alta": "2026-10-31"
+    },
+    {
+      "id": "p-2.2-006",
+      "concepto_id": "c-b4a3378e911e",
+      "capitulo": "2.2",
+      "tipo": "conceptual",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Cuál es la diferencia clave entre CMD y ENTRYPOINT en un Dockerfile?",
+      "opciones": [
+        "CMD define el comando por defecto que puede sobrescribirse fácilmente con argumentos de docker run; ENTRYPOINT configura el contenedor para correr como ejecutable y no se sobrescribe fácilmente.",
+        "Ambos son idénticos y se pueden usar indistintamente.",
+        "ENTRYPOINT solo se usa en multistage builds.",
+        "CMD configura el contenedor como ejecutable y no se sobrescribe fácilmente; ENTRYPOINT define el comando por defecto sobrescribible."
+      ],
+      "correcta": 0,
+      "explicacion": "CMD define el comando por defecto al iniciar el contenedor y puede ser sobrescrito fácilmente por argumentos de docker run; ENTRYPOINT configura el contenedor para correr como un ejecutable y su comando no se sobrescribe fácilmente, los argumentos de docker run se añaden (append).",
+      "referencia": "2.2.3.2",
+      "verificado": true,
+      "fecha_alta": "2026-10-31"
+    },
+    {
+      "id": "p-2.2-007",
+      "concepto_id": "c-80028b336b2f",
+      "capitulo": "2.2",
+      "tipo": "conceptual",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Qué controlador de red de Docker ofrece el mayor rendimiento al eliminar la sobrecarga de NAT y compartir el namespace de red del host?",
+      "opciones": [
+        "Bridge",
+        "Host",
+        "Overlay",
+        "None"
+      ],
+      "correcta": 1,
+      "explicacion": "El controlador Host elimina el aislamiento de red: el contenedor comparte el mismo namespace de red que el host, usa su IP y puertos directamente, maximizando el rendimiento al eliminar la sobrecarga de NAT.",
+      "referencia": "2.2.5.1",
+      "verificado": true,
+      "fecha_alta": "2026-10-31"
+    },
+    {
+      "id": "p-2.2-008",
+      "concepto_id": "c-0ff5c3785d8e",
+      "capitulo": "2.2",
+      "tipo": "memorizacion",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Cuál es la ruta por defecto en Linux donde Docker almacena los volúmenes?",
+      "opciones": [
+        "/etc/docker/",
+        "/var/lib/docker/volumes/",
+        "/opt/docker/volumes/",
+        "/var/run/docker.sock"
+      ],
+      "correcta": 1,
+      "explicacion": "El texto indica que la ubicación por defecto de los volúmenes en Linux es /var/lib/docker/volumes/.",
+      "referencia": "2.2.6.5",
+      "verificado": true,
+      "fecha_alta": "2026-10-31"
+    },
+    {
+      "id": "p-2.2-009",
+      "concepto_id": "c-49d423a57d67",
+      "capitulo": "2.2",
+      "tipo": "conceptual",
+      "dificultad": "alta",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Qué NO garantiza la directiva 'depends_on' en Docker Compose?",
+      "opciones": [
+        "Que la aplicación dentro del contenedor dependiente esté lista para aceptar conexiones (ready/healthy).",
+        "El orden de inicio de los servicios.",
+        "La creación de la red por defecto del stack.",
+        "Que el servicio dependiente no se inicie hasta que el listado haya arrancado."
+      ],
+      "correcta": 0,
+      "explicacion": "depends_on controla el orden de inicio (arranca la DB antes que la Web) pero no espera a que la aplicación dentro del contenedor esté lista para aceptar conexiones; para eso se requieren healthchecks o scripts de espera.",
+      "referencia": "2.2.7.4",
+      "verificado": true,
+      "fecha_alta": "2026-10-31"
+    },
+    {
+      "id": "p-2.2-010",
+      "concepto_id": "c-dd1adaf7f6c8",
+      "capitulo": "2.2",
+      "tipo": "conceptual",
+      "dificultad": "alta",
+      "origen": "ingesta-inicial",
+      "enunciado": "Si se añade un archivo de 100 MB en una capa de una imagen Docker y se borra en la capa siguiente, ¿qué ocurre con el tamaño final de la imagen?",
+      "opciones": [
+        "El tamaño final se reduce en 100 MB.",
+        "Docker elimina automáticamente el archivo de todas las capas.",
+        "El tamaño final no se reduce; el archivo sigue existiendo en la capa inferior aunque esté enmascarado.",
+        "La imagen se corrompe y no puede ejecutarse."
+      ],
+      "correcta": 2,
+      "explicacion": "Las capas son estrictamente aditivas: si se añade un archivo en una capa y se borra en la siguiente, la imagen final no reduce su tamaño; el archivo sigue existiendo en la capa inferior aunque esté enmascarado. Para reducir tamaño debe borrarse en la misma capa en la que se creó.",
+      "referencia": "2.2.2.4",
+      "verificado": true,
+      "fecha_alta": "2026-10-31"
+    },
+    {
+      "id": "p-2.3-001",
+      "concepto_id": "c-49fa50618da9",
+      "capitulo": "2.3",
+      "tipo": "definicion",
+      "dificultad": "baja",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Qué tecnología se presenta como sustituto directo de Docker con mayor seguridad (rootless) y arquitectura sin demonio?",
+      "opciones": [
+        "LXC/LXD",
+        "runc",
+        "containerd",
+        "Podman"
+      ],
+      "correcta": 3,
+      "explicacion": "La tabla comparativa del texto identifica a Podman como sustituto directo de Docker con mayor seguridad (rootless) y arquitectura sin demonio (daemonless).",
+      "referencia": "2.3",
+      "verificado": true,
+      "fecha_alta": "2026-10-31"
+    },
+    {
+      "id": "p-2.3-002",
+      "concepto_id": "c-b01f9e059364",
+      "capitulo": "2.3",
+      "tipo": "comparativa",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "Según la comparativa arquitectónica del texto, ¿qué diferencia de modelo de ejecución existe entre Docker y Podman?",
+      "opciones": [
+        "Ambos usan fork-exec; solo difieren en el runtime OCI.",
+        "Ambos usan cliente-servidor; Podman añade un shim por contenedor.",
+        "Docker usa fork-exec descentralizado; Podman usa cliente-servidor monolítico.",
+        "Docker usa cliente-servidor (monolítico); Podman usa fork-exec (descentralizado)."
+      ],
+      "correcta": 3,
+      "explicacion": "La tabla indica que Docker tiene modelo cliente-servidor (monolítico) y Podman modelo fork-exec (descentralizado).",
+      "referencia": "2.3.1.1",
+      "verificado": true,
+      "fecha_alta": "2026-10-31"
+    },
+    {
+      "id": "p-2.3-003",
+      "concepto_id": "c-6a496649f04c",
+      "capitulo": "2.3",
+      "tipo": "regla",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "En modo rootless, ¿qué restricción operativa tiene Podman respecto a los puertos?",
+      "opciones": [
+        "Solo puede enlazar puertos pares.",
+        "Puede enlazar cualquier puerto sin restricción.",
+        "No puede enlazar puertos por encima de 1024.",
+        "No puede enlazar puertos por debajo de 1024 sin configuración adicional (sysctl)."
+      ],
+      "correcta": 3,
+      "explicacion": "El texto señala que en modo rootless Podman no puede enlazar puertos por debajo del 1024 (puertos privilegiados) sin configuración adicional en el kernel (sysctl).",
+      "referencia": "2.3.1.5",
+      "verificado": true,
+      "fecha_alta": "2026-10-31"
+    },
+    {
+      "id": "p-2.3-004",
+      "concepto_id": "c-22b14d59d522",
+      "capitulo": "2.3",
+      "tipo": "definicion",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "En un Pod de Podman, ¿qué comparten los contenedores que lo forman?",
+      "opciones": [
+        "Los mismos espacios de nombres de red, IPC y UTS.",
+        "El mismo rango de UIDs subordinados.",
+        "El mismo sistema de archivos raíz.",
+        "El mismo demonio dockerd."
+      ],
+      "correcta": 0,
+      "explicacion": "Un Pod en Podman es un grupo de uno o más contenedores que comparten los mismos espacios de nombres de red, IPC y UTS.",
+      "referencia": "2.3.1.3",
+      "verificado": true,
+      "fecha_alta": "2026-10-31"
+    },
+    {
+      "id": "p-2.3-005",
+      "concepto_id": "c-f0f2c5174427",
+      "capitulo": "2.3",
+      "tipo": "clasificacion",
+      "dificultad": "baja",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Qué tipo de contenedor es LXC según el texto?",
+      "opciones": [
+        "Contenedor de sistema (system container).",
+        "Contenedor de aplicación (microservicio efímero).",
+        "Contenedor de infraestructura (infra-container).",
+        "Contenedor de orquestación."
+      ],
+      "correcta": 0,
+      "explicacion": "LXC se centra en el concepto de 'contenedor de sistema' (System Container), ejecutando un sistema operativo completo.",
+      "referencia": "2.3.2",
+      "verificado": true,
+      "fecha_alta": "2026-10-31"
+    },
+    {
+      "id": "p-2.3-006",
+      "concepto_id": "c-0fc26a48ace0",
+      "capitulo": "2.3",
+      "tipo": "comparativa",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Cuál es la relación entre LXD y LXC según el texto?",
+      "opciones": [
+        "LXD se construye sobre LXC, mejorando gestión y experiencia de usuario.",
+        "Son tecnologías independientes sin relación.",
+        "LXC se construye sobre LXD.",
+        "LXD sustituye a LXC por completo."
+      ],
+      "correcta": 0,
+      "explicacion": "LXD no sustituye a LXC, sino que se construye sobre él; LXD utiliza LXC bajo el capó pero mejora la gestión y la experiencia de usuario.",
+      "referencia": "2.3.2.3",
+      "verificado": true,
+      "fecha_alta": "2026-10-31"
+    },
+    {
+      "id": "p-2.3-007",
+      "concepto_id": "c-0fc26a48ace0",
+      "capitulo": "2.3",
+      "tipo": "definicion",
+      "dificultad": "alta",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Qué funcionalidad distintiva de LXD lo asemeja a los hipervisores de hardware, frente a un uso estándar de Docker?",
+      "opciones": [
+        "Gestión de contenedores mediante systemd.",
+        "Compatibilidad con imágenes OCI de Docker Hub.",
+        "Ejecución rootless por defecto.",
+        "Migración en vivo de contenedores entre nodos."
+      ],
+      "correcta": 3,
+      "explicacion": "Una característica distintiva de LXD es la capacidad nativa de realizar migración en vivo de contenedores entre nodos, funcionalidad típicamente asociada a hipervisores de hardware.",
+      "referencia": "2.3.2.2 / 2.3.2.3",
+      "verificado": true,
+      "fecha_alta": "2026-10-31"
+    },
+    {
+      "id": "p-2.3-008",
+      "concepto_id": "c-5050cb1cb4e8",
+      "capitulo": "2.3",
+      "tipo": "definicion",
+      "dificultad": "baja",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿A qué fundación fue donado containerd y qué estado alcanzó?",
+      "opciones": [
+        "Apache Software Foundation, incubación.",
+        "Free Software Foundation (FSF), estado beta.",
+        "Open Container Initiative, proyecto sandbox.",
+        "Cloud Native Computing Foundation (CNCF), proyecto graduado."
+      ],
+      "correcta": 3,
+      "explicacion": "containerd fue extraído del motor de Docker, donado a la CNCF y alcanzó el estado de proyecto 'graduado'.",
+      "referencia": "2.3.3",
+      "verificado": true,
+      "fecha_alta": "2026-10-31"
+    },
+    {
+      "id": "p-2.3-009",
+      "concepto_id": "c-c8cb605ca27c",
+      "capitulo": "2.3",
+      "tipo": "proceso",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "En la cadena de ejecución Docker → containerd → shim → runc, ¿cuál es la función principal del containerd-shim?",
+      "opciones": [
+        "Exponer la API gRPC al usuario final.",
+        "Interactuar directamente con el kernel para crear el contenedor.",
+        "Permitir que containerd se reinicie sin matar los contenedores en ejecución y manejar E/S.",
+        "Gestionar la descarga y subida de imágenes."
+      ],
+      "correcta": 2,
+      "explicacion": "El containerd-shim es un proceso ligero que permite que containerd se reinicie sin matar los contenedores en ejecución (arquitectura desacoplada) y maneja los flujos de E/S (stdin/stdout).",
+      "referencia": "2.3.3.2",
+      "verificado": true,
+      "fecha_alta": "2026-10-31"
+    },
+    {
+      "id": "p-2.3-010",
+      "concepto_id": "c-d547c121da86",
+      "capitulo": "2.3",
+      "tipo": "comparativa",
+      "dificultad": "alta",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Cuál es la diferencia clave entre containerd y runc según el texto?",
+      "opciones": [
+        "runc gestiona imágenes y containerd solo crea procesos.",
+        "Ambos son runtimes de bajo nivel equivalentes.",
+        "containerd es high-level (gestiona imágenes, almacenamiento y ciclo de vida) y delega en runc; runc es low-level (crea/ejecuta el contenedor con primitivas del kernel y sale).",
+        "containerd es low-level y crea contenedores con namespaces/cgroups; runc es high-level y gestiona imágenes."
+      ],
+      "correcta": 2,
+      "explicacion": "containerd es un demonio de alto nivel (high-level runtime) que gestiona imágenes, almacenamiento y ciclo de vida, delegando en runc; runc es una herramienta CLI de bajo nivel (low-level runtime) compatible con OCI cuya única función es crear y ejecutar el contenedor usando primitivas del kernel y luego salir.",
+      "referencia": "2.3.3.4",
+      "verificado": true,
+      "fecha_alta": "2026-10-31"
+    },
+    {
+      "id": "p-2.4-001",
+      "concepto_id": "c-62d2002d8700",
+      "capitulo": "2.4",
+      "tipo": "conceptual",
+      "dificultad": "baja",
+      "origen": "ingesta-inicial",
+      "enunciado": "En Kubernetes, ¿qué componente es la 'fuente de la verdad' del clúster y debe respaldarse para recuperar el estado del clúster?",
+      "opciones": [
+        "kube-controller-manager",
+        "etcd",
+        "kube-apiserver",
+        "kube-scheduler"
+      ],
+      "correcta": 1,
+      "explicacion": "etcd es el almacén de datos clave-valor consistente donde se persiste toda la configuración y el estado del clúster. El API Server es stateless y delega el almacenamiento en etcd.",
+      "referencia": "2.4.1.2 / 2.4.1.4",
+      "verificado": true,
+      "fecha_alta": "2026-10-31"
+    },
+    {
+      "id": "p-2.4-002",
+      "concepto_id": "c-1f16881069b9",
+      "capitulo": "2.4",
+      "tipo": "conceptual",
+      "dificultad": "baja",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Cuál es la unidad mínima desplegable en Kubernetes?",
+      "opciones": [
+        "El contenedor",
+        "El Pod",
+        "El Service",
+        "El Deployment"
+      ],
+      "correcta": 1,
+      "explicacion": "El Pod es la unidad de ejecución más pequeña y básica que se puede crear y gestionar en Kubernetes, no el contenedor. Un Pod puede contener uno o más contenedores.",
+      "referencia": "2.4.1.4 / 2.4.2.1",
+      "verificado": true,
+      "fecha_alta": "2026-10-31"
+    },
+    {
+      "id": "p-2.4-003",
+      "concepto_id": "c-c57053186751",
+      "capitulo": "2.4",
+      "tipo": "conceptual",
+      "dificultad": "baja",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Qué tipo de Service es el predeterminado en Kubernetes y proporciona una IP virtual accesible solo dentro del clúster?",
+      "opciones": [
+        "NodePort",
+        "ExternalName",
+        "ClusterIP",
+        "LoadBalancer"
+      ],
+      "correcta": 2,
+      "explicacion": "ClusterIP es el tipo por defecto: asigna una IP virtual accesible solo dentro del clúster y es el mecanismo estándar para comunicación entre microservicios internos.",
+      "referencia": "2.4.2.3",
+      "verificado": true,
+      "fecha_alta": "2026-10-31"
+    },
+    {
+      "id": "p-2.4-004",
+      "concepto_id": "c-7049e80266d1",
+      "capitulo": "2.4",
+      "tipo": "conceptual",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "En Kubernetes, ¿qué componente es responsable de seleccionar el nodo más adecuado para ejecutar los Pods recién creados que no tienen nodo asignado?",
+      "opciones": [
+        "kube-apiserver",
+        "kube-controller-manager",
+        "kube-scheduler",
+        "kubelet"
+      ],
+      "correcta": 2,
+      "explicacion": "El kube-scheduler observa los Pods recién creados sin nodo asignado y selecciona el nodo más adecuado basándose en recursos disponibles, políticas, afinidad/antiafinidad y taints/tolerations. El kube-controller-manager se encarga de mantener réplicas y detectar nodos caídos.",
+      "referencia": "2.4.1.2 / 2.4.1.4",
+      "verificado": true,
+      "fecha_alta": "2026-10-31"
+    },
+    {
+      "id": "p-2.4-005",
+      "concepto_id": "c-1f16881069b9",
+      "capitulo": "2.4",
+      "tipo": "conceptual",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "Los contenedores dentro de un mismo Pod:",
+      "opciones": [
+        "No comparten almacenamiento ni red",
+        "Pueden ejecutarse en nodos distintos",
+        "Comparten la misma IP y se comunican entre sí a través de localhost",
+        "Tienen IPs diferentes y se comunican por la red del clúster"
+      ],
+      "correcta": 2,
+      "explicacion": "Los contenedores de un mismo Pod comparten el espacio de nombres de red (misma IP) y se comunican por localhost; también pueden montar los mismos volúmenes. Siempre se programan en el mismo nodo.",
+      "referencia": "2.4.2.1 / 2.4.2.4",
+      "verificado": true,
+      "fecha_alta": "2026-10-31"
+    },
+    {
+      "id": "p-2.4-006",
+      "concepto_id": "c-0ecb62778089",
+      "capitulo": "2.4",
+      "tipo": "conceptual",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "Por defecto, los Secrets en Kubernetes:",
+      "opciones": [
+        "Están codificados en Base64, lo que no es encriptación",
+        "Solo son accesibles por el kube-scheduler",
+        "Se almacenan en disco físico del nodo encriptados",
+        "Están cifrados en etcd mediante AES-256"
+      ],
+      "correcta": 0,
+      "explicacion": "Los Secrets se almacenan por defecto en etcd simplemente codificados en Base64 (texto plano). Base64 es un esquema de codificación, no de seguridad. Para cifrado real se debe configurar EncryptionConfiguration.",
+      "referencia": "2.4.3.2 / 2.4.3.4 / 2.4.3.5",
+      "verificado": true,
+      "fecha_alta": "2026-10-31"
+    },
+    {
+      "id": "p-2.4-007",
+      "concepto_id": "c-0ecb62778089",
+      "capitulo": "2.4",
+      "tipo": "conceptual",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Cómo se puede actualizar la configuración de una aplicación en Kubernetes sin reiniciar el Pod?",
+      "opciones": [
+        "Cambiando el ReplicaSet",
+        "Mediante ConfigMaps montados como volúmenes, con la aplicación soportando recarga de archivos",
+        "Mediante variables de entorno (env/envFrom)",
+        "Modificando el Secret y esperando la reconciliación automática del kubelet"
+      ],
+      "correcta": 1,
+      "explicacion": "Las variables de entorno son estáticas y requieren reiniciar el Pod. Los volúmenes se actualizan dinámicamente (hot reload) cuando cambia el ConfigMap/Secret, si la aplicación detecta el cambio en el archivo.",
+      "referencia": "2.4.3.3 / 2.4.3.5",
+      "verificado": true,
+      "fecha_alta": "2026-10-31"
+    },
+    {
+      "id": "p-2.4-008",
+      "concepto_id": "c-9aecc5f1e2fb",
+      "capitulo": "2.4",
+      "tipo": "conceptual",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "Por defecto, ¿proporcionan los Namespaces aislamiento de red entre Pods de distintos namespaces?",
+      "opciones": [
+        "Sí, pero solo para tráfico TCP",
+        "No, se requiere implementar NetworkPolicies para restringir el tráfico",
+        "Solo si se usa RBAC",
+        "Sí, totalmente"
+      ],
+      "correcta": 1,
+      "explicacion": "Por defecto, los namespaces no aíslan el tráfico de red: un Pod en un namespace puede comunicarse con un Pod de otro si conoce su IP. Se requiere implementar NetworkPolicies para denegar tráfico entre namespaces.",
+      "referencia": "2.4.4.4 / 2.4.4.5",
+      "verificado": true,
+      "fecha_alta": "2026-10-31"
+    },
+    {
+      "id": "p-2.4-009",
+      "concepto_id": "c-21e13ca07061",
+      "capitulo": "2.4",
+      "tipo": "conceptual",
+      "dificultad": "alta",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Qué ocurre si se crea un recurso Ingress en un clúster de Kubernetes sin tener instalado un Ingress Controller?",
+      "opciones": [
+        "El Service asociado absorbe el tráfico",
+        "El recurso queda pendiente y no se enruta tráfico",
+        "El tráfico se enruta automáticamente mediante el kube-proxy",
+        "Se provisiona automáticamente un controlador por defecto"
+      ],
+      "correcta": 1,
+      "explicacion": "El recurso Ingress es solo una definición de configuración; sin un Ingress Controller que la implemente, no hace nada: el recurso queda pendiente y no se enruta tráfico.",
+      "referencia": "2.4.5.3 / 2.4.5.5",
+      "verificado": true,
+      "fecha_alta": "2026-10-31"
+    },
+    {
+      "id": "p-2.4-010",
+      "concepto_id": "c-670f43f6da21",
+      "capitulo": "2.4",
+      "tipo": "conceptual",
+      "dificultad": "alta",
+      "origen": "ingesta-inicial",
+      "enunciado": "En Docker Swarm, ¿qué permite el Routing Mesh?",
+      "opciones": [
+        "Cifrar automáticamente todo el tráfico overlay",
+        "Acceder a un servicio a través de la IP de un nodo que no ejecuta réplicas de ese servicio",
+        "Eliminar la necesidad de nodos Manager",
+        "Asignar contenedores a nodos manualmente"
+      ],
+      "correcta": 1,
+      "explicacion": "El Routing Mesh expone el puerto publicado en todos los nodos del clúster y enruta mediante IPVS las peticiones a un contenedor activo del servicio, aunque el nodo receptor no ejecute réplicas.",
+      "referencia": "2.4.6.3 / 2.4.6.4",
+      "verificado": true,
+      "fecha_alta": "2026-10-31"
+    },
+    {
+      "id": "p-2.5-001",
+      "concepto_id": "c-1a3c13ac8d08",
+      "capitulo": "2.5",
+      "tipo": "memorizacion",
+      "dificultad": "baja",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Cuáles son las cuatro capas del modelo de las '4 C de la Seguridad Cloud Native'?",
+      "opciones": [
+        "Cloud, Compute, Container, Configuration",
+        "Cloud, Cluster, Container, Code",
+        "Control, Cluster, Container, Code",
+        "Cloud, Cluster, Cache, Code"
+      ],
+      "correcta": 1,
+      "explicacion": "El modelo de las 4 C se estructura en Cloud (Nube), Cluster (Clúster), Container (Contenedor) y Code (Código).",
+      "referencia": "2.5.1 Buenas prácticas de seguridad",
+      "verificado": true,
+      "fecha_alta": "2026-10-31"
+    },
+    {
+      "id": "p-2.5-002",
+      "concepto_id": "c-a6bf4cbfb2f5",
+      "capitulo": "2.5",
+      "tipo": "memorizacion",
+      "dificultad": "baja",
+      "origen": "ingesta-inicial",
+      "enunciado": "En ausencia de NetworkPolicies en un clúster de Kubernetes, ¿qué ocurre con la comunicación entre Pods?",
+      "opciones": [
+        "Todo el tráfico entrante y saliente queda bloqueado por defecto.",
+        "Cualquier Pod puede comunicarse con cualquier otro Pod, incluso entre distintos namespaces.",
+        "Solo se permite tráfico entre Pods etiquetados con la misma etiqueta.",
+        "Solo los Pods del mismo namespace pueden comunicarse entre sí."
+      ],
+      "correcta": 1,
+      "explicacion": "Por diseño Kubernetes sigue un modelo de red plana altamente permisivo: por defecto todos los Pods pueden comunicarse con todos los Pods dentro del clúster, independientemente del namespace.",
+      "referencia": "2.5.3 Políticas de red",
+      "verificado": true,
+      "fecha_alta": "2026-10-31"
+    },
+    {
+      "id": "p-2.5-003",
+      "concepto_id": "c-3a07d0cd88fb",
+      "capitulo": "2.5",
+      "tipo": "clasificacion",
+      "dificultad": "baja",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Qué herramienta se utiliza habitualmente para buscar CVEs en librerías y dependencias dentro de una imagen de contenedor?",
+      "opciones": [
+        "kube-bench",
+        "Compliance Operator",
+        "OpenSCAP",
+        "Trivy"
+      ],
+      "correcta": 3,
+      "explicacion": "Trivy (Aqua Security) es un escáner popular de vulnerabilidades en paquetes de OS, dependencias de aplicaciones, secretos y configuraciones. kube-bench audita la configuración del clúster frente a CIS Benchmarks.",
+      "referencia": "2.5.2.3 Herramientas y estándares",
+      "verificado": true,
+      "fecha_alta": "2026-10-31"
+    },
+    {
+      "id": "p-2.5-004",
+      "concepto_id": "c-2bb4c6f53793",
+      "capitulo": "2.5",
+      "tipo": "aplicacion",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "Se aplica correctamente una NetworkPolicy en un clúster, pero el tráfico no se bloquea. ¿Cuál es la causa más probable?",
+      "opciones": [
+        "Kubernetes no permite políticas de red en capas 3 y 4.",
+        "El clúster utiliza un plugin CNI que no soporta NetworkPolicies (por ejemplo, Flannel en configuración básica).",
+        "La NetworkPolicy tiene podSelector: {} y bloquea todo el tráfico.",
+        "El namespace de los Pods no tiene etiquetas."
+      ],
+      "correcta": 1,
+      "explicacion": "Kubernetes por sí mismo no hace cumplir las reglas; la ejecución depende del plugin CNI. Plugins simples como Flannel (configuración básica) no soportan políticas de red.",
+      "referencia": "2.5.3.1 Arquitectura y requisitos de implementación",
+      "verificado": true,
+      "fecha_alta": "2026-10-31"
+    },
+    {
+      "id": "p-2.5-005",
+      "concepto_id": "c-8f3946d73270",
+      "capitulo": "2.5",
+      "tipo": "clasificacion",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Qué objeto RBAC es de alcance namespaced y define un conjunto de reglas de permisos dentro de un espacio de nombres?",
+      "opciones": [
+        "ClusterRoleBinding",
+        "ClusterRole",
+        "Role",
+        "RoleBinding"
+      ],
+      "correcta": 2,
+      "explicacion": "Role es namespaced y define permisos dentro de un namespace. ClusterRole es cluster-wide; RoleBinding y ClusterRoleBinding son vinculaciones, no definiciones de reglas.",
+      "referencia": "2.5.4.2 Autorización (Authorization - AuthZ) y RBAC",
+      "verificado": true,
+      "fecha_alta": "2026-10-31"
+    },
+    {
+      "id": "p-2.5-006",
+      "concepto_id": "c-ef03039c9de0",
+      "capitulo": "2.5",
+      "tipo": "memorizacion",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿En qué orden atraviesa una solicitud al servidor API (kube-apiserver) las etapas de seguridad?",
+      "opciones": [
+        "Control de Admisión, Autenticación, Autorización.",
+        "Autenticación, Autorización, Control de Admisión.",
+        "Autorización, Autenticación, Control de Admisión.",
+        "Autenticación, Control de Admisión, Autorización."
+      ],
+      "correcta": 1,
+      "explicacion": "Cada solicitud debe atravesar secuencialmente tres etapas: Autenticación (AuthN), Autorización (AuthZ) y Control de Admisión.",
+      "referencia": "2.5.4 Control de acceso",
+      "verificado": true,
+      "fecha_alta": "2026-10-31"
+    },
+    {
+      "id": "p-2.5-007",
+      "concepto_id": "c-f86d40995e2b",
+      "capitulo": "2.5",
+      "tipo": "aplicacion",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "Un contenedor necesita usar el puerto 80 sin ejecutarse como root. ¿Cuál es la solución técnica recomendada?",
+      "opciones": [
+        "Usar la etiqueta :latest en la imagen.",
+        "Ejecutar el contenedor con --privileged.",
+        "Montar el sistema de archivos como read-only.",
+        "Asignar la capability NET_BIND_SERVICE."
+      ],
+      "correcta": 3,
+      "explicacion": "Para permitir que un contenedor use un puerto bajo (ej. 80) sin ser root, se asigna la capability NET_BIND_SERVICE en lugar de ejecutar como root.",
+      "referencia": "2.5.1.5 Probables Focos de Examen",
+      "verificado": true,
+      "fecha_alta": "2026-10-31"
+    },
+    {
+      "id": "p-2.5-008",
+      "concepto_id": "c-1fbe6deb7eae",
+      "capitulo": "2.5",
+      "tipo": "aplicacion",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "En un pipeline de CI/CD, un escáner detecta una vulnerabilidad crítica en la imagen. ¿Cuál es la mejor práctica?",
+      "opciones": [
+        "Parchear el contenedor en ejecución mediante SSH.",
+        "Ejecutar el contenedor como root para aplicar el parche.",
+        "Detener la construcción inmediatamente e impedir que la imagen se suba al registro o se despliegue (break the build).",
+        "Subir la imagen al registro y escanearla después en ejecución."
+      ],
+      "correcta": 2,
+      "explicacion": "La política 'Break the Build' detiene el proceso de construcción inmediatamente e impide que la imagen se suba al registro o se despliegue.",
+      "referencia": "2.5.2.2 Integración en el ciclo de vida (Shift Left)",
+      "verificado": true,
+      "fecha_alta": "2026-10-31"
+    },
+    {
+      "id": "p-2.5-009",
+      "concepto_id": "c-8f3946d73270",
+      "capitulo": "2.5",
+      "tipo": "analisis",
+      "dificultad": "alta",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Qué permite hacer el uso de un ClusterRole dentro de un RoleBinding?",
+      "opciones": [
+        "Vincular un Role a un sujeto a nivel de clúster.",
+        "Otorgar permisos de superusuario en todos los namespaces.",
+        "Reutilizar una definición de permisos común pero otorgarla solo dentro de un namespace específico.",
+        "Crear usuarios de Kubernetes con kubectl create user."
+      ],
+      "correcta": 2,
+      "explicacion": "Es posible y común usar un ClusterRole dentro de un RoleBinding para reutilizar una definición de permisos común (ej. view) pero otorgarla solo dentro de un namespace específico.",
+      "referencia": "2.5.4.4 Probables Focos de Examen",
+      "verificado": true,
+      "fecha_alta": "2026-10-31"
+    },
+    {
+      "id": "p-2.5-010",
+      "concepto_id": "c-d48266b2f880",
+      "capitulo": "2.5",
+      "tipo": "analisis",
+      "dificultad": "alta",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Qué característica tiene el grupo especial system:masters en Kubernetes?",
+      "opciones": [
+        "Sus miembros tienen acceso de superusuario completo y omiten la comprobación de reglas RBAC.",
+        "Permite crear usuarios nativos de Kubernetes con kubectl.",
+        "Es un Role namespaced que se aplica únicamente al namespace kube-system.",
+        "Sus miembros solo tienen permisos de lectura (view) en todos los namespaces."
+      ],
+      "correcta": 0,
+      "explicacion": "Los usuarios del grupo system:masters tienen acceso de superusuario completo al clúster y omiten la comprobación de reglas RBAC; es una 'puerta trasera' administrativa no restringible mediante reglas normales.",
+      "referencia": "2.5.4.4 Probables Focos de Examen",
+      "verificado": true,
+      "fecha_alta": "2026-10-31"
+    },
+    {
+      "id": "p-3.1-001",
+      "concepto_id": "c-308567973895",
+      "capitulo": "3.1",
+      "tipo": "definicion",
+      "dificultad": "baja",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Quiénes formalizaron el término 'arquitectura de microservicios' y en qué año?",
+      "opciones": [
+        "Sam Newman, en 2015",
+        "James Lewis y Martin Fowler, en 2014",
+        "Martin Fowler y Kent Beck, en 2013",
+        "Eric Evans, en 2003"
+      ],
+      "correcta": 1,
+      "explicacion": "El texto indica que el término fue formalizado por James Lewis y Martin Fowler en 2014.",
+      "referencia": "3.1.1.1",
+      "verificado": true,
+      "fecha_alta": "2026-10-31"
+    },
+    {
+      "id": "p-3.1-002",
+      "concepto_id": "c-6f5949999410",
+      "capitulo": "3.1",
+      "tipo": "proceso",
+      "dificultad": "baja",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Cuál es el patrón estándar para migrar de una arquitectura monolítica a microservicios?",
+      "opciones": [
+        "Circuit Breaker",
+        "Saga",
+        "Bulkhead",
+        "Strangler Fig"
+      ],
+      "correcta": 3,
+      "explicacion": "El patrón Strangler Fig reemplaza gradualmente funcionalidades del monolito sin reescribir todo el sistema de una vez.",
+      "referencia": "3.1.1.4",
+      "verificado": true,
+      "fecha_alta": "2026-10-31"
+    },
+    {
+      "id": "p-3.1-003",
+      "concepto_id": "c-0d14ca0f75cd",
+      "capitulo": "3.1",
+      "tipo": "comparativa",
+      "dificultad": "baja",
+      "origen": "ingesta-inicial",
+      "enunciado": "En microservicios, el principio 'Smart endpoints and dumb pipes' implica que:",
+      "opciones": [
+        "Los servicios son tontos y la red es inteligente",
+        "Se usan protocolos complejos como SOAP para la orquestación",
+        "La lógica de negocio reside en un Enterprise Service Bus central",
+        "La lógica de negocio reside en los servicios y la comunicación usa mecanismos simples como HTTP/REST"
+      ],
+      "correcta": 3,
+      "explicacion": "Los microservicios evitan middleware complejo (ESB); la lógica reside en los endpoints inteligentes y la comunicación se realiza por tuberías tontas (HTTP/REST o mensajería asíncrona ligera).",
+      "referencia": "3.1.1.2",
+      "verificado": true,
+      "fecha_alta": "2026-10-31"
+    },
+    {
+      "id": "p-3.1-004",
+      "concepto_id": "c-5c389dc180ea",
+      "capitulo": "3.1",
+      "tipo": "regla",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Cómo gestionan los datos los microservicios según el patrón Database-per-Service?",
+      "opciones": [
+        "Todos los servicios comparten una base de datos centralizada para facilitar transacciones ACID",
+        "Los servicios acceden a las tablas de otros servicios mediante claves foráneas",
+        "Cada servicio gestiona su propia base de datos y ningún otro accede directamente a ella",
+        "Se utiliza una única base de datos lógica con esquemas separados por servicio"
+      ],
+      "correcta": 2,
+      "explicacion": "El patrón Database-per-Service establece que cada servicio gestiona su propio almacenamiento y ningún otro puede acceder directamente, solo vía API.",
+      "referencia": "3.1.1.2",
+      "verificado": true,
+      "fecha_alta": "2026-10-31"
+    },
+    {
+      "id": "p-3.1-005",
+      "concepto_id": "c-4294a362afda",
+      "capitulo": "3.1",
+      "tipo": "regla",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "Al descentralizar los datos en microservicios, ¿qué modelo de consistencia suelen adoptar?",
+      "opciones": [
+        "Sin consistencia, los datos son independientes",
+        "Consistencia inmediata (ACID) entre todos los servicios",
+        "Consistencia Eventual (modelo BASE)",
+        "Consistencia fuerte mediante transacciones distribuidas 2PC"
+      ],
+      "correcta": 2,
+      "explicacion": "Al aplicar Database-per-Service se pierde la capacidad de transacciones ACID entre servicios; los microservicios suelen optar por Consistencia Eventual (BASE).",
+      "referencia": "3.1.1.4",
+      "verificado": true,
+      "fecha_alta": "2026-10-31"
+    },
+    {
+      "id": "p-3.1-006",
+      "concepto_id": "c-697393524959",
+      "capitulo": "3.1",
+      "tipo": "proceso",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Qué patrón se implementa en microservicios para gestionar la resiliencia y evitar fallos en cascada?",
+      "opciones": [
+        "Strangler Fig",
+        "Políglota",
+        "Circuit Breaker",
+        "Database-per-Service"
+      ],
+      "correcta": 2,
+      "explicacion": "El diseño para el fallo implementa patrones como Circuit Breaker para gestionar la resiliencia y evitar fallos en cascada.",
+      "referencia": "3.1.1.2",
+      "verificado": true,
+      "fecha_alta": "2026-10-31"
+    },
+    {
+      "id": "p-3.1-007",
+      "concepto_id": "c-0327372be785",
+      "capitulo": "3.1",
+      "tipo": "regla",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Qué indica el concepto 'Microservice Premium'?",
+      "opciones": [
+        "Se refiere al precio de los contenedores en la nube",
+        "El coste de licencias de software es mayor en microservicios",
+        "Los microservicios son siempre más baratos que un monolito",
+        "Los microservicios añaden un coste base en complejidad y recursos que solo se amortiza a cierta escala"
+      ],
+      "correcta": 3,
+      "explicacion": "El 'Microservice Premium' añade un coste base en complejidad y recursos que solo se amortiza cuando el sistema alcanza cierta escala; para equipos pequeños o dominios simples el monolito es más eficiente.",
+      "referencia": "3.1.2.2",
+      "verificado": true,
+      "fecha_alta": "2026-10-31"
+    },
+    {
+      "id": "p-3.1-008",
+      "concepto_id": "c-78ff585df56d",
+      "capitulo": "3.1",
+      "tipo": "clasificacion",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Cuál de las siguientes es una de las 9 características de Martin Fowler para microservicios?",
+      "opciones": [
+        "Despliegue 'todo o nada'",
+        "Base de datos compartida entre servicios",
+        "Componentización vía servicios",
+        "Orquestación centralizada mediante ESB"
+      ],
+      "correcta": 2,
+      "explicacion": "La componentización vía servicios es la primera de las 9 características de Fowler: software compuesto de servicios independientemente desplegables en lugar de librerías enlazadas.",
+      "referencia": "3.1.1.2",
+      "verificado": true,
+      "fecha_alta": "2026-10-31"
+    },
+    {
+      "id": "p-3.1-009",
+      "concepto_id": "c-5805b7c6757e",
+      "capitulo": "3.1",
+      "tipo": "comparativa",
+      "dificultad": "alta",
+      "origen": "ingesta-inicial",
+      "enunciado": "Respecto a la escalabilidad, ¿qué diferencia principal existe entre arquitectura monolítica y de microservicios?",
+      "opciones": [
+        "Ambas escalan únicamente de forma vertical",
+        "El monolito escala verticalmente o replicando toda la aplicación; los microservicios escalan de forma horizontal y granular solo el servicio con alta demanda",
+        "Ninguna permite escalado horizontal",
+        "El monolito escala granularmente por módulo; los microservicios requieren replicar todo el sistema"
+      ],
+      "correcta": 1,
+      "explicacion": "El monolito escala de forma unidimensional (vertical o clonación horizontal completa), mientras que los microservicios permiten escalado granular y eficiente de componentes específicos.",
+      "referencia": "3.1.3.1",
+      "verificado": true,
+      "fecha_alta": "2026-10-31"
+    },
+    {
+      "id": "p-3.1-010",
+      "concepto_id": "c-5805b7c6757e",
+      "capitulo": "3.1",
+      "tipo": "comparativa",
+      "dificultad": "alta",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Cuál de las siguientes afirmaciones es FALSA respecto a los microservicios?",
+      "opciones": [
+        "Los microservicios eliminan la complejidad del sistema global",
+        "Las pruebas end-to-end son más difíciles en sistemas distribuidos",
+        "La comunicación entre servicios introduce latencia de red",
+        "La complejidad se desplaza del código a la infraestructura y la red"
+      ],
+      "correcta": 0,
+      "explicacion": "Los microservicios no eliminan la complejidad: la desplazan del código interno a la infraestructura y la red (complejidad operativa). Las demás opciones son verdaderas según el texto.",
+      "referencia": "3.1.2.4",
+      "verificado": true,
+      "fecha_alta": "2026-10-31"
+    },
+    {
+      "id": "p-3.2-001",
+      "concepto_id": "c-39277e4567fc",
+      "capitulo": "3.2",
+      "tipo": "test",
+      "dificultad": "baja",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Qué concepto de DDD se utiliza principalmente para definir los límites de un microservicio?",
+      "opciones": [
+        "Bounded Context (Contexto Acotado)",
+        "Agregado (Aggregate)",
+        "Lenguaje Ubicuo",
+        "Capacidad de negocio"
+      ],
+      "correcta": 0,
+      "explicacion": "El texto indica que el Bounded Context define el límite dentro del cual un modelo de dominio se aplica y que los microservicios deben alinearse con estos contextos acotados.",
+      "referencia": "3.2.1.1",
+      "verificado": true,
+      "fecha_alta": "2026-10-31"
+    },
+    {
+      "id": "p-3.2-002",
+      "concepto_id": "c-b9597959bbfb",
+      "capitulo": "3.2",
+      "tipo": "test",
+      "dificultad": "baja",
+      "origen": "ingesta-inicial",
+      "enunciado": "El anti-patrón “monolito distribuido” se produce cuando:",
+      "opciones": [
+        "Los servicios se separan físicamente pero permanecen fuertemente acoplados",
+        "Se comparte un único broker de mensajes entre servicios",
+        "Se reescribe todo el sistema de una vez (Big Bang)",
+        "Se utiliza un único API Gateway para todos los clientes"
+      ],
+      "correcta": 0,
+      "explicacion": "El texto describe el monolito distribuido como servicios separados físicamente pero fuertemente acoplados (ej. compartiendo base de datos o requiriendo despliegues coordinados).",
+      "referencia": "3.2.1.4",
+      "verificado": true,
+      "fecha_alta": "2026-10-31"
+    },
+    {
+      "id": "p-3.2-003",
+      "concepto_id": "c-a1e246149215",
+      "capitulo": "3.2",
+      "tipo": "test",
+      "dificultad": "baja",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Cuál es el patrón estándar recomendado para la migración incremental de un monolito a microservicios?",
+      "opciones": [
+        "Strangler Fig (Higo Estrangulador)",
+        "Branch by Abstraction",
+        "Big Bang",
+        "Parallel Run"
+      ],
+      "correcta": 0,
+      "explicacion": "El texto identifica el patrón Strangler Fig como el estándar para migrar sistemas heredados de forma incremental, contraponiéndolo al Big Bang.",
+      "referencia": "3.2.1.2",
+      "verificado": true,
+      "fecha_alta": "2026-10-31"
+    },
+    {
+      "id": "p-3.2-004",
+      "concepto_id": "c-d74232081666",
+      "capitulo": "3.2",
+      "tipo": "test",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Qué tipo de tráfico gestiona principalmente el API Gateway?",
+      "opciones": [
+        "Asíncrono por eventos",
+        "Tráfico de base de datos",
+        "Este-Oeste (servicio a servicio)",
+        "Norte-Sur (cliente externo hacia la red interna)"
+      ],
+      "correcta": 3,
+      "explicacion": "El texto establece que el API Gateway gestiona tráfico Norte-Sur (cliente externo hacia el clúster), mientras que el Service Mesh gestiona el Este-Oeste.",
+      "referencia": "3.2.4.4",
+      "verificado": true,
+      "fecha_alta": "2026-10-31"
+    },
+    {
+      "id": "p-3.2-005",
+      "concepto_id": "c-8dcecf437816",
+      "capitulo": "3.2",
+      "tipo": "test",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Cuál es el patrón de despliegue característico de un Service Mesh?",
+      "opciones": [
+        "Gateway Aggregation",
+        "Proxy inverso centralizado",
+        "Sidecar (proxy junto al contenedor de la aplicación)",
+        "Strangler Fig"
+      ],
+      "correcta": 2,
+      "explicacion": "El texto indica que la implementación estándar del Service Mesh se basa en el patrón Sidecar, con un proxy ejecutándose junto al contenedor de la aplicación.",
+      "referencia": "3.2.4.2",
+      "verificado": true,
+      "fecha_alta": "2026-10-31"
+    },
+    {
+      "id": "p-3.2-006",
+      "concepto_id": "c-170faa49b23b",
+      "capitulo": "3.2",
+      "tipo": "test",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Qué ventaja ofrece gRPC sobre REST según el texto?",
+      "opciones": [
+        "Elimina el acoplamiento temporal entre servicios",
+        "Menor latencia, multiplexación y serialización binaria eficiente",
+        "Es más fácil de implementar y no requiere intermediarios",
+        "Usa HTTP/1.1 y JSON para mayor compatibilidad"
+      ],
+      "correcta": 1,
+      "explicacion": "El texto señala que gRPC es más eficiente que REST (menor tamaño de payload y multiplexación), soporta streaming bidireccional y tipado fuerte.",
+      "referencia": "3.2.2.2",
+      "verificado": true,
+      "fecha_alta": "2026-10-31"
+    },
+    {
+      "id": "p-3.2-007",
+      "concepto_id": "c-06fe80516ee4",
+      "capitulo": "3.2",
+      "tipo": "test",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "La función principal del patrón Circuit Breaker es:",
+      "opciones": [
+        "Reintentar operaciones con backoff exponencial",
+        "Descifrar el tráfico HTTPS en el borde",
+        "Prevenir fallos en cascada y evitar el agotamiento de recursos",
+        "Agregar respuestas de múltiples servicios"
+      ],
+      "correcta": 2,
+      "explicacion": "El texto define el Circuit Breaker como mecanismo que evita realizar operaciones probables de fallar, “abriendo el circuito” para devolver error inmediato y evitar fallos en cascada.",
+      "referencia": "3.2.2.5",
+      "verificado": true,
+      "fecha_alta": "2026-10-31"
+    },
+    {
+      "id": "p-3.2-008",
+      "concepto_id": "c-787cedd47b99",
+      "capitulo": "3.2",
+      "tipo": "test",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "El patrón Backend for Frontend (BFF) implica:",
+      "opciones": [
+        "Usar un broker de mensajes para toda la comunicación",
+        "Centralizar la lógica de negocio en el gateway",
+        "Crear gateways específicos para diferentes interfaces de usuario (móvil vs. web)",
+        "Un único gateway monolítico para todos los clientes"
+      ],
+      "correcta": 2,
+      "explicacion": "El texto explica que el BFF crea gateways específicos adaptados a cada tipo de cliente, evitando el enfoque de “talla única”.",
+      "referencia": "3.2.3.3",
+      "verificado": true,
+      "fecha_alta": "2026-10-31"
+    },
+    {
+      "id": "p-3.2-009",
+      "concepto_id": "c-8f5217469077",
+      "capitulo": "3.2",
+      "tipo": "test",
+      "dificultad": "alta",
+      "origen": "ingesta-inicial",
+      "enunciado": "Respecto a la idempotencia en sistemas de mensajería, el texto señala que:",
+      "opciones": [
+        "Los mensajes se entregan exactamente una vez (exactly-once)",
+        "Un mensaje puede entregarse más de una vez (at-least-once), por lo que los servicios deben ser idempotentes",
+        "La idempotencia solo aplica a la comunicación síncrona",
+        "Los brokers garantizan la consistencia inmediata de los datos"
+      ],
+      "correcta": 1,
+      "explicacion": "El texto indica que en sistemas de mensajería un mensaje puede entregarse más de una vez (at-least-once delivery) y que los servicios deben diseñarse para ser idempotentes.",
+      "referencia": "3.2.2.6",
+      "verificado": true,
+      "fecha_alta": "2026-10-31"
+    },
+    {
+      "id": "p-3.2-010",
+      "concepto_id": "c-8dcecf437816",
+      "capitulo": "3.2",
+      "tipo": "test",
+      "dificultad": "alta",
+      "origen": "ingesta-inicial",
+      "enunciado": "En la arquitectura de un Service Mesh, ¿cuál es la diferencia entre el Plano de Datos y el Plano de Control?",
+      "opciones": [
+        "Ambos planos tocan directamente los paquetes de datos",
+        "El Plano de Datos está formado por proxies que interceptan el tráfico; el Plano de Control configura y coordina sin tocar paquetes",
+        "El Plano de Control se despliega junto a cada microservicio",
+        "El Plano de Datos gestiona políticas y configuración; el Plano de Control toca los paquetes"
+      ],
+      "correcta": 1,
+      "explicacion": "El texto diferencia el Plano de Datos (proxies que interceptan y gestionan el tráfico) del Plano de Control (capa de gestión que configura y coordina sin tocar paquetes).",
+      "referencia": "3.2.4.1",
+      "verificado": true,
+      "fecha_alta": "2026-10-31"
+    },
+    {
+      "id": "p-3.3-001",
+      "concepto_id": "c-e96d1ddd86e9",
+      "capitulo": "3.3",
+      "tipo": "definicion",
+      "dificultad": "baja",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Qué estrategia de despliegue es la estrategia por defecto en plataformas como Kubernetes?",
+      "opciones": [
+        "Blue-Green Deployment",
+        "Recreate",
+        "Canary Release",
+        "Rolling Update"
+      ],
+      "correcta": 3,
+      "explicacion": "El Rolling Update es la estrategia por defecto en Kubernetes: reemplaza instancias de la versión antigua por la nueva de forma incremental, asegurando siempre un número mínimo de instancias disponibles.",
+      "referencia": "3.3.1.1",
+      "verificado": true,
+      "fecha_alta": "2026-10-31"
+    },
+    {
+      "id": "p-3.3-002",
+      "concepto_id": "c-b42e1927220f",
+      "capitulo": "3.3",
+      "tipo": "comparativa",
+      "dificultad": "baja",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Qué estrategia de despliegue requiere duplicar la infraestructura (mantener dos entornos completos simultáneamente) y por ello tiene el mayor coste de infraestructura?",
+      "opciones": [
+        "Blue-Green Deployment",
+        "Rolling Update",
+        "Recreate",
+        "Canary Release"
+      ],
+      "correcta": 0,
+      "explicacion": "Blue-Green Deployment mantiene dos entornos de producción idénticos (Blue activo y Green inactivo), requiriendo duplicar recursos de cómputo, por lo que su coste de infraestructura es Alto (2x).",
+      "referencia": "3.3.1.2 / 3.3.1.5",
+      "verificado": true,
+      "fecha_alta": "2026-10-31"
+    },
+    {
+      "id": "p-3.3-003",
+      "concepto_id": "c-7184fabeb123",
+      "capitulo": "3.3",
+      "tipo": "definicion",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "En un Canary Release, ¿qué porcentaje típico de tráfico se envía inicialmente a la nueva versión?",
+      "opciones": [
+        "50% del tráfico",
+        "100% del tráfico",
+        "0% hasta validación completa",
+        "Un pequeño porcentaje (ej. 5% o 10%)"
+      ],
+      "correcta": 3,
+      "explicacion": "El Canary Release envía solo un porcentaje pequeño del tráfico (ej. 5% o 10%) a la nueva versión (v2) para probarla, mientras el resto sigue en v1. Si es estable, se incrementa gradualmente hasta 100%.",
+      "referencia": "3.3.1.3",
+      "verificado": true,
+      "fecha_alta": "2026-10-31"
+    },
+    {
+      "id": "p-3.3-004",
+      "concepto_id": "c-50e2e423382a",
+      "capitulo": "3.3",
+      "tipo": "comparativa",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Cuál es la diferencia fundamental entre Canary Release y A/B Testing?",
+      "opciones": [
+        "Canary busca estabilidad técnica; A/B busca evaluar negocio/UX",
+        "Canary busca evaluar negocio/UX; A/B busca estabilidad técnica",
+        "Canary no genera downtime; A/B sí genera downtime",
+        "Canary requiere doble infraestructura; A/B no"
+      ],
+      "correcta": 0,
+      "explicacion": "Mientras Canary busca estabilidad técnica (minimizar impacto de errores), A/B Testing busca evaluar la efectividad del negocio o la experiencia de usuario (UX), dirigiendo tráfico según atributos del usuario.",
+      "referencia": "3.3.1.4",
+      "verificado": true,
+      "fecha_alta": "2026-10-31"
+    },
+    {
+      "id": "p-3.3-005",
+      "concepto_id": "c-ac077ede1798",
+      "capitulo": "3.3",
+      "tipo": "regla",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Deben todos los microservicios compartir un mismo pipeline de construcción en CI/CD?",
+      "opciones": [
+        "Sí, pero solo en entornos de producción",
+        "Sí, para garantizar consistencia entre servicios",
+        "No; cada microservicio debe tener su propio pipeline independiente",
+        "Depende del orquestador utilizado"
+      ],
+      "correcta": 2,
+      "explicacion": "Cada microservicio debe tener su propio repositorio y pipeline de CI/CD para garantizar la independencia de despliegue y evitar el acoplamiento de despliegue (\"lock-step release\").",
+      "referencia": "3.3.2.1 / 3.3.2.5",
+      "verificado": true,
+      "fecha_alta": "2026-10-31"
+    },
+    {
+      "id": "p-3.3-006",
+      "concepto_id": "c-a9a6354115a0",
+      "capitulo": "3.3",
+      "tipo": "definicion",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "En GitOps, ¿cuál es la fuente de verdad que define el estado deseado de la infraestructura y las aplicaciones?",
+      "opciones": [
+        "El balanceador de carga",
+        "Un repositorio Git",
+        "El clúster de Kubernetes",
+        "El Container Registry"
+      ],
+      "correcta": 1,
+      "explicacion": "En GitOps, el estado deseado se define declarativamente en un repositorio Git. Un agente como Argo CD o Flux monitoriza el repositorio y sincroniza automáticamente el clúster si detecta diferencias.",
+      "referencia": "3.3.2.3",
+      "verificado": true,
+      "fecha_alta": "2026-10-31"
+    },
+    {
+      "id": "p-3.3-007",
+      "concepto_id": "c-173df7cc0411",
+      "capitulo": "3.3",
+      "tipo": "definicion",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Qué herramienta se menciona como estándar para las Pruebas de Contrato (Contract Testing)?",
+      "opciones": [
+        "Docker",
+        "Argo CD",
+        "Pact",
+        "SonarQube"
+      ],
+      "correcta": 2,
+      "explicacion": "Las Pruebas de Contrato (Consumer-Driven Contracts) usan herramientas como Pact, que es el estándar mencionado para validar que los microservicios cumplen las expectativas de los consumidores.",
+      "referencia": "3.3.2.4 / 3.3.3.5",
+      "verificado": true,
+      "fecha_alta": "2026-10-31"
+    },
+    {
+      "id": "p-3.3-008",
+      "concepto_id": "c-4870a2671fbe",
+      "capitulo": "3.3",
+      "tipo": "sintaxis",
+      "dificultad": "baja",
+      "origen": "ingesta-inicial",
+      "enunciado": "En Semantic Versioning (SemVer), ¿qué incremento de versión corresponde a un cambio incompatible (breaking change)?",
+      "opciones": [
+        "No requiere incremento",
+        "PATCH (Z)",
+        "MINOR (Y)",
+        "MAJOR (X)"
+      ],
+      "correcta": 3,
+      "explicacion": "En SemVer (MAJOR.MINOR.PATCH), el componente MAJOR (X) se incrementa ante cambios incompatibles (breaking changes) que rompen a los clientes existentes.",
+      "referencia": "3.3.3.1",
+      "verificado": true,
+      "fecha_alta": "2026-10-31"
+    },
+    {
+      "id": "p-3.3-009",
+      "concepto_id": "c-4870a2671fbe",
+      "capitulo": "3.3",
+      "tipo": "regla",
+      "dificultad": "alta",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Cuál de los siguientes cambios obliga a incrementar la versión MAJOR en SemVer?",
+      "opciones": [
+        "Añadir un campo opcional nuevo",
+        "Corregir un bug interno",
+        "Añadir un nuevo endpoint",
+        "Eliminar un recurso o renombrar un campo obligatorio"
+      ],
+      "correcta": 3,
+      "explicacion": "Incrementar MAJOR es obligatorio ante eliminar un recurso, renombrar un campo obligatorio o cambiar el tipo de dato de un campo existente. Añadir campos opcionales o endpoints es cambio MINOR; corregir bugs es PATCH.",
+      "referencia": "3.3.3.1 / 3.3.3.5",
+      "verificado": true,
+      "fecha_alta": "2026-10-31"
+    },
+    {
+      "id": "p-3.3-010",
+      "concepto_id": "c-2ecdb9b7c582",
+      "capitulo": "3.3",
+      "tipo": "comparativa",
+      "dificultad": "alta",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Qué desventaja presenta el versionado por cabeceras (Header Versioning) respecto al versionado por URI?",
+      "opciones": [
+        "Es imposible de implementar en REST",
+        "Complica el cacheo (requiere configurar la cabecera Vary)",
+        "No permite mantener URIs limpias",
+        "Contamina la URI con la versión"
+      ],
+      "correcta": 1,
+      "explicacion": "El versionado por cabeceras mantiene URIs limpias, pero es más difícil de probar manualmente y complica el cacheo, requiriendo configurar la cabecera Vary.",
+      "referencia": "3.3.3.2",
+      "verificado": true,
+      "fecha_alta": "2026-10-31"
+    },
+    {
+      "id": "p-3.3-011",
+      "concepto_id": "c-1d2998dea5ef",
+      "capitulo": "3.3",
+      "tipo": "regla",
+      "dificultad": "alta",
+      "origen": "ingesta-inicial",
+      "enunciado": "Según la Ley de Postel, ¿cómo deben comportarse los microservicios al recibir respuestas JSON con campos desconocidos?",
+      "opciones": [
+        "Deben fallar y rechazar la respuesta",
+        "Deben ignorar los campos desconocidos",
+        "Deben notificar al proveedor",
+        "Deben almacenarlos para uso futuro"
+      ],
+      "correcta": 1,
+      "explicacion": "La Ley de Postel (Principio de Robustez) indica que los microservicios deben ignorar los campos desconocidos en las respuestas JSON que consumen, permitiendo Forward Compatibility cuando el proveedor añade nuevos datos.",
+      "referencia": "3.3.3.3",
+      "verificado": true,
+      "fecha_alta": "2026-10-31"
+    },
+    {
+      "id": "p-3.3-012",
+      "concepto_id": "c-9e95a89d22c1",
+      "capitulo": "3.3",
+      "tipo": "proceso",
+      "dificultad": "alta",
+      "origen": "ingesta-inicial",
+      "enunciado": "En el patrón Expand and Contract, ¿qué se hace en la Fase 3 (Contract)?",
+      "opciones": [
+        "Se añade la nueva funcionalidad manteniendo la antigua",
+        "Se despliegan dos entornos idénticos",
+        "Se actualizan gradualmente todos los clientes",
+        "Se elimina el código y los campos antiguos cuando el tráfico a la versión antigua es cero"
+      ],
+      "correcta": 3,
+      "explicacion": "En la Fase 3 (Contract) del patrón Expand and Contract, una vez que el tráfico a la versión antigua es cero, se elimina el código y los campos antiguos.",
+      "referencia": "3.3.3.4",
+      "verificado": true,
+      "fecha_alta": "2026-10-31"
+    },
+    {
+      "id": "p-3.4-001",
+      "concepto_id": "c-a3a0caf6adcf",
+      "capitulo": "3.4",
+      "tipo": "memorizacion",
+      "dificultad": "baja",
+      "origen": "ingesta-inicial",
+      "enunciado": "Según la metodología 12-Factor App, ¿dónde debe escribir sus logs un microservicio en contenedor?",
+      "opciones": [
+        "En una base de datos relacional compartida.",
+        "En un syslog remoto configurado en el código de la aplicación.",
+        "En un archivo persistente dentro del sistema de archivos del contenedor.",
+        "En la salida estándar (stdout) y la salida de error estándar (stderr)."
+      ],
+      "correcta": 3,
+      "explicacion": "La 12-Factor App establece que cada proceso debe escribir su flujo de eventos directamente en stdout/stderr, delegando la captura y almacenamiento a la infraestructura.",
+      "referencia": "3.4.1.1",
+      "verificado": true,
+      "fecha_alta": "2026-10-31"
+    },
+    {
+      "id": "p-3.4-002",
+      "concepto_id": "c-db20f0e0611c",
+      "capitulo": "3.4",
+      "tipo": "memorizacion",
+      "dificultad": "baja",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Qué componente del Stack ELK actúa como motor de búsqueda y análisis distribuido que indexa logs como documentos JSON?",
+      "opciones": [
+        "Kibana",
+        "Logstash",
+        "Elasticsearch",
+        "Fluent Bit"
+      ],
+      "correcta": 2,
+      "explicacion": "Elasticsearch es el motor de búsqueda y análisis distribuido que almacena los logs como documentos JSON indexados.",
+      "referencia": "3.4.1.2",
+      "verificado": true,
+      "fecha_alta": "2026-10-31"
+    },
+    {
+      "id": "p-3.4-003",
+      "concepto_id": "c-0ed9051237fb",
+      "capitulo": "3.4",
+      "tipo": "memorizacion",
+      "dificultad": "baja",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Qué componente se encarga de recolectar métricas de uso de recursos (CPU, memoria) directamente de los contenedores en Kubernetes?",
+      "opciones": [
+        "PromQL",
+        "Node Exporter",
+        "cAdvisor",
+        "Alertmanager"
+      ],
+      "correcta": 2,
+      "explicacion": "cAdvisor (Container Advisor) es el componente encargado de recolectar métricas de uso de recursos de cada contenedor.",
+      "referencia": "3.4.2.1",
+      "verificado": true,
+      "fecha_alta": "2026-10-31"
+    },
+    {
+      "id": "p-3.4-004",
+      "concepto_id": "c-a217c475aa2b",
+      "capitulo": "3.4",
+      "tipo": "comprension",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Cómo obtiene Prometheus las métricas de los servicios monitorizados?",
+      "opciones": [
+        "Mediante consultas SQL a una base de datos compartida.",
+        "Los servicios envían activamente las métricas al servidor de Prometheus (modelo Push).",
+        "El servidor de Prometheus consulta periódicamente los endpoints HTTP (ej. /metrics) de los servicios (modelo Pull/scraping).",
+        "A través de un agente sidecar que escribe métricas en stdout."
+      ],
+      "correcta": 2,
+      "explicacion": "Prometheus utiliza un modelo Pull (scraping): el servidor solicita periódicamente las métricas a los endpoints HTTP expuestos por los servicios.",
+      "referencia": "3.4.2.2 / 3.4.4.1",
+      "verificado": true,
+      "fecha_alta": "2026-10-31"
+    },
+    {
+      "id": "p-3.4-005",
+      "concepto_id": "c-1b826c8c2a0e",
+      "capitulo": "3.4",
+      "tipo": "comprension",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Cuál es la función del Correlation ID en una arquitectura de microservicios?",
+      "opciones": [
+        "Cifrar las comunicaciones entre servicios.",
+        "Identificar de forma única una petición para rastrearla a través de todos los microservicios y reconstruir la transacción.",
+        "Asignar direcciones IP a los contenedores.",
+        "Limitar la tasa de peticiones (rate limiting)."
+      ],
+      "correcta": 1,
+      "explicacion": "El Correlation ID es un GUID único asignado al entrar la petición, propagado en cabeceras HTTP y registrado en cada log, permitiendo reconstruir la historia completa de la transacción.",
+      "referencia": "3.4.1.3 / 3.4.3.2",
+      "verificado": true,
+      "fecha_alta": "2026-10-31"
+    },
+    {
+      "id": "p-3.4-006",
+      "concepto_id": "c-4b8d1fa71c8b",
+      "capitulo": "3.4",
+      "tipo": "comprension",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "En trazabilidad distribuida, ¿qué es un Span?",
+      "opciones": [
+        "El recorrido completo de una solicitud a través del sistema distribuido.",
+        "Un identificador único de traza compartido por todos los spans.",
+        "La unidad básica de trabajo que representa una operación individual dentro de un servicio, con tiempos de inicio/fin y referencia al span padre.",
+        "Una métrica agregada de latencia."
+      ],
+      "correcta": 2,
+      "explicacion": "El Span es la unidad básica de trabajo que representa una operación individual dentro de un servicio, conteniendo nombre, tiempos, metadatos y referencia al span padre.",
+      "referencia": "3.4.3.1",
+      "verificado": true,
+      "fecha_alta": "2026-10-31"
+    },
+    {
+      "id": "p-3.4-007",
+      "concepto_id": "c-0ed9051237fb",
+      "capitulo": "3.4",
+      "tipo": "memorizacion",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Qué significan las siglas del método RED en monitorización de microservicios?",
+      "opciones": [
+        "Reliability, Efficiency, Durability.",
+        "Replication, Encryption, Distribution.",
+        "Requests, Events, Data.",
+        "Rate (tasa de peticiones), Errors (errores), Duration (latencia)."
+      ],
+      "correcta": 3,
+      "explicacion": "El método RED se compone de Rate (tasa de peticiones), Errors (errores) y Duration (duración/latencia).",
+      "referencia": "3.4.2.1",
+      "verificado": true,
+      "fecha_alta": "2026-10-31"
+    },
+    {
+      "id": "p-3.4-008",
+      "concepto_id": "c-cfb1fd032b4d",
+      "capitulo": "3.4",
+      "tipo": "comprension",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Por qué se utiliza el muestreo (sampling) en la trazabilidad distribuida?",
+      "opciones": [
+        "Para reemplazar al Correlation ID.",
+        "Para cifrar las trazas antes de almacenarlas.",
+        "Para aumentar la precisión de las métricas.",
+        "Para reducir el overhead de rendimiento y los costes de almacenamiento al no registrar el 100% del tráfico."
+      ],
+      "correcta": 3,
+      "explicacion": "Generar trazas para el 100% del tráfico genera sobrecarga significativa; el muestreo (probabilístico o adaptativo) mitiga este problema.",
+      "referencia": "3.4.3.3",
+      "verificado": true,
+      "fecha_alta": "2026-10-31"
+    },
+    {
+      "id": "p-3.4-009",
+      "concepto_id": "c-a3a0caf6adcf",
+      "capitulo": "3.4",
+      "tipo": "aplicacion",
+      "dificultad": "alta",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Por qué escribir logs en el sistema de archivos local del contenedor se considera un anti-patrón?",
+      "opciones": [
+        "Porque consume demasiada memoria RAM.",
+        "Porque los contenedores son efímeros y pueden reiniciarse o moverse entre nodos, causando pérdida de datos.",
+        "Porque Elasticsearch no puede leer archivos locales.",
+        "Porque stdout es más rápido que el disco."
+      ],
+      "correcta": 1,
+      "explicacion": "Los contenedores son efímeros; escribir logs en su sistema de archivos local conlleva pérdida de datos, por lo que deben enviarse a un almacenamiento persistente centralizado.",
+      "referencia": "3.4.1.1",
+      "verificado": true,
+      "fecha_alta": "2026-10-31"
+    },
+    {
+      "id": "p-3.4-010",
+      "concepto_id": "c-52842946ff17",
+      "capitulo": "3.4",
+      "tipo": "comprension",
+      "dificultad": "alta",
+      "origen": "ingesta-inicial",
+      "enunciado": "En el ecosistema Prometheus, ¿qué funciones cumple Alertmanager?",
+      "opciones": [
+        "Gestionar alertas: deduplicación, agrupación, inhibición y enrutamiento de notificaciones.",
+        "Almacenar series temporales en disco.",
+        "Visualizar dashboards y gráficos.",
+        "Recolectar métricas de los servicios mediante scraping."
+      ],
+      "correcta": 0,
+      "explicacion": "Alertmanager es el componente que gestiona las alertas enviadas por Prometheus: deduplicación, agrupación, inhibición y enrutamiento a receptores como email, Slack o PagerDuty.",
+      "referencia": "3.4.2.3 / 3.4.4.1",
+      "verificado": true,
+      "fecha_alta": "2026-10-31"
+    },
+    {
+      "id": "p-3.5-001",
+      "concepto_id": "c-92d407a6a029",
+      "capitulo": "3.5",
+      "tipo": "conceptual",
+      "dificultad": "baja",
+      "origen": "ingesta-inicial",
+      "enunciado": "Según el Factor III (Config) de la metodología Twelve-Factor App, ¿dónde debe almacenarse la configuración?",
+      "opciones": [
+        "En la imagen del contenedor en tiempo de construcción.",
+        "En archivos de configuración confirmados en control de versiones por entorno.",
+        "En el repositorio de código fuente junto al código.",
+        "En el entorno (variables de entorno), no en el código."
+      ],
+      "correcta": 3,
+      "explicacion": "El Factor III exige explícitamente guardar la configuración en el entorno (variables de entorno), no en el código ni en archivos de propiedades del repositorio.",
+      "referencia": "3.5.1.1 / 3.5.2",
+      "verificado": true,
+      "fecha_alta": "2026-10-31"
+    },
+    {
+      "id": "p-3.5-002",
+      "concepto_id": "c-dcd0eaf76c15",
+      "capitulo": "3.5",
+      "tipo": "conceptual",
+      "dificultad": "baja",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Cuál es el objetivo del principio 'Build once, deploy many' en la inmutabilidad de artefactos?",
+      "opciones": [
+        "Permitir que el mismo artefacto binario (imagen) se despliegue en múltiples entornos sin recompilación.",
+        "Versionar el código fuente por entorno.",
+        "Ejecutar la configuración antes del build.",
+        "Recompilar la imagen para cada entorno con su configuración."
+      ],
+      "correcta": 0,
+      "explicacion": "El objetivo es 'construir una vez, desplegar en muchos lugares': la imagen es idéntica para todos los entornos y la configuración se combina en la fase Release.",
+      "referencia": "3.5.1.3",
+      "verificado": true,
+      "fecha_alta": "2026-10-31"
+    },
+    {
+      "id": "p-3.5-003",
+      "concepto_id": "c-81e698c7f52b",
+      "capitulo": "3.5",
+      "tipo": "conceptual",
+      "dificultad": "baja",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Qué algoritmo utiliza HashiCorp Vault para el desellado (unsealing) de la bóveda?",
+      "opciones": [
+        "AES-256",
+        "RSA",
+        "Shamir's Secret Sharing",
+        "Diffie-Hellman"
+      ],
+      "correcta": 2,
+      "explicacion": "Vault utiliza el algoritmo de Compartición de Secretos de Shamir: divide la clave maestra en N partes y requiere un umbral mínimo (por defecto 3 de 5) para reconstruirla.",
+      "referencia": "3.5.3.1",
+      "verificado": true,
+      "fecha_alta": "2026-10-31"
+    },
+    {
+      "id": "p-3.5-004",
+      "concepto_id": "c-d3fd34835dbe",
+      "capitulo": "3.5",
+      "tipo": "clasificacion",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "En Kubernetes, ¿qué tipo de datos deben almacenarse en un ConfigMap frente a un Secret?",
+      "opciones": [
+        "Ambos almacenan únicamente datos confidenciales cifrados.",
+        "ConfigMap: contraseñas y claves API; Secret: URLs y parámetros de UI.",
+        "ConfigMap: datos no confidenciales (URLs, parámetros de UI); Secret: datos sensibles.",
+        "ConfigMap: datos de negocio; Secret: datos de configuración."
+      ],
+      "correcta": 2,
+      "explicacion": "Los ConfigMaps son para datos no confidenciales (URLs, parámetros de UI), mientras que los Secrets son para datos sensibles, aunque ambos se inyectan de forma similar.",
+      "referencia": "3.5.1.5",
+      "verificado": true,
+      "fecha_alta": "2026-10-31"
+    },
+    {
+      "id": "p-3.5-005",
+      "concepto_id": "c-22e42180b9e6",
+      "capitulo": "3.5",
+      "tipo": "proceso",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Cuál es el flujo correcto de los secretos dinámicos en Vault?",
+      "opciones": [
+        "El microservicio almacena una contraseña estática y Vault la rota manualmente.",
+        "Vault almacena los datos de negocio cifrados y los devuelve al microservicio.",
+        "Vault genera credenciales efímeras bajo demanda con TTL y las revoca automáticamente al expirar.",
+        "El microservicio crea el usuario en la BD y Vault solo audita."
+      ],
+      "correcta": 2,
+      "explicacion": "Vault genera credenciales efímeras y únicas en el momento de la solicitud (Just-in-Time), con un TTL asociado; al expirar, revoca automáticamente el usuario en la base de datos.",
+      "referencia": "3.5.3.2",
+      "verificado": true,
+      "fecha_alta": "2026-10-31"
+    },
+    {
+      "id": "p-3.5-006",
+      "concepto_id": "c-f91648f15688",
+      "capitulo": "3.5",
+      "tipo": "conceptual",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Cuál de las siguientes es una limitación de las variables de entorno?",
+      "opciones": [
+        "Siempre cifran automáticamente los secretos.",
+        "Son cadenas planas sin estructura jerárquica y requieren reinicio del proceso para cambiar su valor.",
+        "No son soportadas por Docker ni Kubernetes.",
+        "Permiten hot-reload de configuración en tiempo de ejecución."
+      ],
+      "correcta": 1,
+      "explicacion": "Las variables de entorno son cadenas de texto planas sin estructura jerárquica y solo pueden establecerse antes de iniciar el proceso; un cambio requiere reiniciar el contenedor, impidiendo hot-reload.",
+      "referencia": "3.5.2.3",
+      "verificado": true,
+      "fecha_alta": "2026-10-31"
+    },
+    {
+      "id": "p-3.5-007",
+      "concepto_id": "c-3028e92a26ae",
+      "capitulo": "3.5",
+      "tipo": "conceptual",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "En el Transit Secrets Engine de Vault, ¿qué ocurre con los datos de negocio?",
+      "opciones": [
+        "Vault los elimina tras cifrarlos.",
+        "Se almacenan en texto plano en el microservicio.",
+        "Vault los cifra y devuelve el ciphertext; el microservicio los almacena, y Vault nunca guarda los datos de negocio.",
+        "Vault los almacena cifrados en su backend persistente."
+      ],
+      "correcta": 2,
+      "explicacion": "Los microservicios envían datos sensibles a Vault, que cifra y devuelve el texto cifrado; el microservicio almacena ese ciphertext. Vault nunca gestiona ni almacena los datos de negocio, solo las claves.",
+      "referencia": "3.5.3.3",
+      "verificado": true,
+      "fecha_alta": "2026-10-31"
+    },
+    {
+      "id": "p-3.5-008",
+      "concepto_id": "c-f9d4fb20006c",
+      "capitulo": "3.5",
+      "tipo": "conceptual",
+      "dificultad": "media",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Qué backend permite Spring Cloud Config para versionar la configuración y facilitar GitOps?",
+      "opciones": [
+        "Solo bases de datos relacionales.",
+        "Un ConfigMap de Kubernetes exclusivamente.",
+        "El sistema de archivos local del contenedor.",
+        "Un repositorio Git (también SVN o Vault)."
+      ],
+      "correcta": 3,
+      "explicacion": "Spring Cloud Config sirve configuraciones desde Git, SVN o Vault; usar Git como backend habilita GitOps: versionado, auditoría y trazabilidad de cambios.",
+      "referencia": "3.5.1.4 / 3.5.1.5",
+      "verificado": true,
+      "fecha_alta": "2026-10-31"
+    },
+    {
+      "id": "p-3.5-009",
+      "concepto_id": "c-22e42180b9e6",
+      "capitulo": "3.5",
+      "tipo": "clasificacion",
+      "dificultad": "alta",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Qué método de autenticación de Vault está diseñado para máquinas/microservicios en automatización sin intervención humana?",
+      "opciones": [
+        "LDAP",
+        "AWS IAM únicamente para humanos",
+        "AppRole",
+        "Userpass"
+      ],
+      "correcta": 2,
+      "explicacion": "AppRole es el método estándar para máquinas/microservicios, diseñado para automatización sin intervención humana; Userpass y LDAP son para humanos.",
+      "referencia": "3.5.3.4",
+      "verificado": true,
+      "fecha_alta": "2026-10-31"
+    },
+    {
+      "id": "p-3.5-010",
+      "concepto_id": "c-3028e92a26ae",
+      "capitulo": "3.5",
+      "tipo": "conceptual",
+      "dificultad": "alta",
+      "origen": "ingesta-inicial",
+      "enunciado": "¿Cuál es el anti-patrón de uso de HashiCorp Vault según el texto?",
+      "opciones": [
+        "Usarlo para generar secretos dinámicos.",
+        "Usarlo para cifrar datos con el Transit Engine.",
+        "Usarlo para almacenar grandes volúmenes de datos generales de aplicación.",
+        "Usarlo para almacenar credenciales y claves."
+      ],
+      "correcta": 2,
+      "explicacion": "Vault NO debe usarse para almacenar grandes volúmenes de datos generales, sino para credenciales y claves; para cifrar datos de aplicación se usa el Transit Engine sin que Vault guarde los datos.",
+      "referencia": "3.5.3.4",
+      "verificado": true,
+      "fecha_alta": "2026-10-31"
+    },
+    {
+      "id": "pendiente-examen-tai-2018-t77",
+      "concepto_id": "c-d5f2f156bd77",
+      "capitulo": null,
+      "tipo": null,
+      "dificultad": null,
+      "origen": null,
+      "enunciado": "¿Cuál es el puerto por defecto usado por IMAP sobre TLS?",
+      "opciones": [
+        "990",
+        "991",
+        "995",
+        "993"
+      ],
+      "correcta": 3,
+      "explicacion": "IMAP sobre TLS (IMAPS) utiliza por defecto el puerto 993. El 995 es POP3S y el 990 es FTPS implícito.",
+      "referencia": "IMAPS (puerto 993)",
+      "verificado": true,
+      "fecha_alta": "2026-11-01"
+    },
+    {
+      "id": "pendiente-examen-tai-2018-t78",
+      "concepto_id": "c-102485bb05f4",
+      "capitulo": null,
+      "tipo": null,
+      "dificultad": null,
+      "origen": null,
+      "enunciado": "¿Cuál de las siguientes opciones sobre el protocolo Exchange ActiveSync es FALSA?",
+      "opciones": [
+        "Está basado en los protocolos HTTP y XML.",
+        "Consigue un mayor rendimiento gracias al empleo de JSON para la reducción del peso de los mensajes.",
+        "Permite configuración para usar SSL entre cliente y servidor.",
+        "Permite ejecutar una acción de Remote wipe (limpieza remota) para la eliminación del contenido relacionado con el servidor Exchange alojado en un dispositivo móvil."
+      ],
+      "correcta": 1,
+      "explicacion": "Exchange ActiveSync se basa en HTTP y XML; la afirmación falsa es que use JSON para reducir el peso de los mensajes. Sí permite SSL y remote wipe.",
+      "referencia": "Exchange ActiveSync",
+      "verificado": true,
+      "fecha_alta": "2026-11-01"
+    },
+    {
+      "id": "pendiente-examen-tai-2018-t79",
+      "concepto_id": "c-7547af1492be",
+      "capitulo": null,
+      "tipo": null,
+      "dificultad": null,
+      "origen": null,
+      "enunciado": "En el protocolo de correo electrónico POP3, el comando que permite obtener información acerca del número de mensajes del servidor y lo que ocupan en total en bytes es:",
+      "opciones": [
+        "STAT",
+        "RGET",
+        "RETR",
+        "PASS"
+      ],
+      "correcta": 0,
+      "explicacion": "En POP3, STAT devuelve el número de mensajes y el tamaño total en bytes. RETR descarga un mensaje, PASS autentica y RGET no es un comando estándar.",
+      "referencia": "POP3: comando STAT",
+      "verificado": true,
+      "fecha_alta": "2026-11-01"
+    },
+    {
+      "id": "pendiente-examen-tai-2021-t62",
+      "concepto_id": "c-93861c73f103",
+      "capitulo": null,
+      "tipo": null,
+      "dificultad": null,
+      "origen": null,
+      "enunciado": "Considerando que tanto en el punto de origen como en el punto de destino disponemos de un ordenador de usuario con un cliente de correo electrónico instalado y un servidor de correo electrónico, ¿qué papel juegan los protocolos SMTP, POP3 e IMAP durante el envío de uno de estos correos electrónicos?",
+      "opciones": [
+        "SMTP se usa desde el ordenador del usuario de origen al servidor de correo electrónico en el origen. POP3 o IMAP se usan entre el servidor de correo en el origen y el servidor de correo en el destino. SMTP se usa de nuevo entre el servidor de correo de destino y el destinatario, para enviarle el mensaje cuando se conecte.",
+        "POP3 se usa desde el ordenador del usuario de origen al servidor de correo electrónico en el origen. IMAP se usa entre el servidor de correo en el origen y el servidor de correo en el destino. SMTP se usa entre el servidor de correo de destino y el destinatario, para enviarle el mensaje cuando se conecte.",
+        "SMTP se usa desde el ordenador del usuario de origen al servidor de correo electrónico en el origen, así como desde el servidor de origen al servidor de destino. POP3 o IMAP se usan desde el servidor de correo en el destino hasta el ordenador del destinatario, para enviarle el mensaje cuando se conecte.",
+        "POP3 o IMAP se usan desde el ordenador del usuario de origen al servidor de correo electrónico en el origen, así como desde el servidor de origen al servidor de destino. SMTP se usa desde el servidor de correo en el destino hasta el ordenador del destinatario, para enviarle el mensaje cuando se conecte."
+      ],
+      "correcta": 2,
+      "explicacion": "SMTP se usa del cliente al servidor de origen y entre servidores de origen y destino; POP3/IMAP se usan del servidor de destino al cliente destinatario para recuperar el mensaje.",
+      "referencia": "SMTP, POP3 e IMAP en el flujo de correo",
+      "verificado": true,
+      "fecha_alta": "2026-11-01"
+    },
+    {
+      "id": "pendiente-examen-tai-2021-t63",
+      "concepto_id": "c-3686ef63cdf0",
+      "capitulo": null,
+      "tipo": null,
+      "dificultad": null,
+      "origen": null,
+      "enunciado": "En las arquitecturas de microservicios las funcionalidades se implementan mediante la composición de distintos microservicios. Existen dos estrategias para gestionar esta composición, que son:",
+      "opciones": [
+        "Coreografía y orquestación.",
+        "Coreografía y coordinación.",
+        "Coordinación y orquestación.",
+        "Gestión y orquestación."
+      ],
+      "correcta": 0,
+      "explicacion": "En microservicios, la composición de funcionalidades se gestiona mediante coreografía (eventos) u orquestación (coordinador central).",
+      "referencia": "Microservicios: coreografía y orquestación",
+      "verificado": true,
+      "fecha_alta": "2026-11-01"
+    },
+    {
+      "id": "pendiente-examen-tai-2023-t23",
+      "concepto_id": "c-c1027d349982",
+      "capitulo": null,
+      "tipo": null,
+      "dificultad": null,
+      "origen": null,
+      "enunciado": "Cuál de los siguientes son los objetos básicos de Kubernetes:",
+      "opciones": [
+        "Pod, State, Volume, Namespace.",
+        "Pod, Service, Volume, Namespace.",
+        "Job, Service, Volume, Namespace.",
+        "Job, Pod, Volume, Deployment."
+      ],
+      "correcta": 1,
+      "explicacion": "Los objetos básicos de Kubernetes son Pod, Service, Volume y Namespace (entre otros). State no es un objeto básico estándar.",
+      "referencia": "Kubernetes: objetos básicos",
+      "verificado": true,
+      "fecha_alta": "2026-11-01"
+    },
+    {
+      "id": "pendiente-examen-tai-2023-t65",
+      "concepto_id": "c-4dc25d91f2fb",
+      "capitulo": null,
+      "tipo": null,
+      "dificultad": null,
+      "origen": null,
+      "enunciado": "¿En qué campo del objeto de Kubernetes hay que incluir los valores que permiten identificar unívocamente al objeto?",
+      "opciones": [
+        "kind",
+        "spec",
+        "apiVersion",
+        "metadata"
+      ],
+      "correcta": 3,
+      "explicacion": "En los manifiestos de Kubernetes, el campo 'metadata' incluye name y labels que identifican unívocamente al objeto. 'kind' indica el tipo y 'spec' la especificación deseada.",
+      "referencia": "Kubernetes: metadata",
+      "verificado": true,
+      "fecha_alta": "2026-11-01"
+    },
+    {
+      "id": "pendiente-examen-tai-2023-t66",
+      "concepto_id": "c-a620aed71cba",
+      "capitulo": null,
+      "tipo": null,
+      "dificultad": null,
+      "origen": null,
+      "enunciado": "¿Cuál de los siguientes NO es un protocolo de correo electrónico?",
+      "opciones": [
+        "IMAP",
+        "SMTP",
+        "Outlook",
+        "POP3"
+      ],
+      "correcta": 2,
+      "explicacion": "Outlook es un cliente de correo electrónico, no un protocolo. IMAP, SMTP y POP3 son protocolos de correo.",
+      "referencia": "Protocolos de correo vs clientes",
+      "verificado": true,
+      "fecha_alta": "2026-11-01"
+    },
+    {
+      "id": "pendiente-examen-tai-2024-modelo-a-t63",
+      "concepto_id": "c-c8ba176f753b",
+      "capitulo": null,
+      "tipo": null,
+      "dificultad": null,
+      "origen": null,
+      "enunciado": "¿Cuál es una ventaja del uso del protocolo IMAP en lugar de POP3?",
+      "opciones": [
+        "Permite visualizar los correos directamente en el servidor sin descargarlos.",
+        "Es más sencillo que POP3.",
+        "No requiere autenticación.",
+        "Descarga los correos automáticamente del servidor."
+      ],
+      "correcta": 0,
+      "explicacion": "IMAP permite visualizar y gestionar los correos directamente en el servidor sin necesidad de descargarlos, a diferencia de POP3 que los descarga al cliente.",
+      "referencia": "IMAP vs POP3",
+      "verificado": true,
+      "fecha_alta": "2026-11-01"
+    },
+    {
+      "id": "pendiente-examen-tai-2024-modelo-a-t64",
+      "concepto_id": "c-6ed7d170816e",
+      "capitulo": null,
+      "tipo": null,
+      "dificultad": null,
+      "origen": null,
+      "enunciado": "Señale cuáles de las siguientes son tecnologías relacionadas con la contenerización y la gestión de contenedores:",
+      "opciones": [
+        "Docker, Containerd y Podman.",
+        "Docker, CRI-O y nginx.",
+        "Podman, Kubernetes y Ubuntu.",
+        "Docker, Kubernetes y Debian."
+      ],
+      "correcta": 0,
+      "explicacion": "Docker, Containerd y Podman son tecnologías de contenerización. Kubernetes es orquestación, nginx un servidor web, Ubuntu/Debian sistemas operativos.",
+      "referencia": "Tecnologías de contenerización",
+      "verificado": true,
+      "fecha_alta": "2026-11-01"
+    },
+    {
+      "id": "pendiente-examen-tai-2026-modelo-a-t64",
+      "concepto_id": "c-31acbdba9c05",
+      "capitulo": null,
+      "tipo": null,
+      "dificultad": null,
+      "origen": null,
+      "enunciado": "¿Qué comando de Docker permite crear e iniciar un nuevo contenedor, descargando la imagen si es necesario, y ejecutar en el contenedor un comando especificado?",
+      "opciones": [
+        "docker run",
+        "docker start",
+        "docker exec",
+        "docker play"
+      ],
+      "correcta": 0,
+      "explicacion": "'docker run' crea e inicia un nuevo contenedor, descargando la imagen si no está disponible, y ejecuta el comando indicado. 'docker start' solo arranca contenedores existentes.",
+      "referencia": "Docker: docker run",
+      "verificado": true,
+      "fecha_alta": "2026-11-01"
+    },
+    {
+      "id": "pendiente-examen-tai-2026-modelo-a-t65",
+      "concepto_id": "c-0b34441418e0",
+      "capitulo": null,
+      "tipo": null,
+      "dificultad": null,
+      "origen": null,
+      "enunciado": "De los componentes de Kubernetes que forman el plano de control y que toman decisiones globales sobre el clúster, ¿cuál es responsable de decidir en qué nodo debe ejecutarse un Pod basándose en los recursos disponibles?",
+      "opciones": [
+        "kube-apiserver",
+        "etcd",
+        "kube-scheduler",
+        "kube-controller-manager"
+      ],
+      "correcta": 2,
+      "explicacion": "El kube-scheduler es el componente del plano de control que decide en qué nodo se ejecuta cada Pod según recursos disponibles. kube-apiserver gestiona la API y etcd almacena el estado.",
+      "referencia": "Kubernetes: kube-scheduler",
+      "verificado": true,
+      "fecha_alta": "2026-11-01"
+    },
+    {
+      "id": "pendiente-examen-tai-2026-modelo-c-t64",
+      "concepto_id": "c-5872b73de351",
+      "capitulo": null,
+      "tipo": null,
+      "dificultad": null,
+      "origen": null,
+      "enunciado": "¿Qué es Kubernetes?",
+      "opciones": [
+        "Un emulador para ejecutar aplicaciones sobre arquitecturas de procesador diferentes.",
+        "Una plataforma de orquestación de contenedores de código abierto.",
+        "Un simulador de carga de bases de datos no relacionales.",
+        "Un sistema de virtualización de contenedores a nivel de sistema operativo."
+      ],
+      "correcta": 1,
+      "explicacion": "Kubernetes es una plataforma de orquestación de contenedores de código abierto. No es un emulador ni un sistema de virtualización a nivel de SO.",
+      "referencia": "Kubernetes",
+      "verificado": true,
+      "fecha_alta": "2026-11-01"
+    },
+    {
+      "id": "pendiente-supuesto-1-2023-p12",
+      "concepto_id": "c-29c7b36a380f",
+      "capitulo": null,
+      "tipo": null,
+      "dificultad": null,
+      "origen": null,
+      "enunciado": "Se quiere desarrollar un microservicio para que el personal funcionario pueda consultar el estado de una notificación enviada. ¿Qué especificación de la comunidad, alineada con Jakarta EE Core Profile, es la indicada para desarrollarlo?",
+      "opciones": [
+        "Jakarta Authentication",
+        "Jakarta Batch",
+        "Microprofile",
+        "Jakarta Connectors"
+      ],
+      "correcta": 0,
+      "explicacion": "Según el enunciado del examen, la opción marcada como correcta es Jakarta Authentication. En la práctica MicroProfile es la especificación de la comunidad para microservicios Jakarta EE, pero se respeta la opción indicada.",
+      "referencia": "Microservicios Jakarta EE (según examen)",
+      "verificado": true,
+      "fecha_alta": "2026-11-01"
+    },
+    {
+      "id": "pendiente-supuesto-2-2018-p15",
+      "concepto_id": "c-d7a97e465719",
+      "capitulo": null,
+      "tipo": null,
+      "dificultad": null,
+      "origen": null,
+      "enunciado": "Le piden chequear el funcionamiento de Docker, para ello debe listar todos los contenedores en ejecución. ¿Qué debe ejecutar?",
+      "opciones": [
+        "docker --list",
+        "docker list",
+        "docker containers ls",
+        "docker ps"
+      ],
+      "correcta": 0,
+      "explicacion": "Según el enunciado marcado, el comando para listar contenedores en ejecución es 'docker --list'. En la práctica estándar se usa 'docker ps', pero se respeta la opción indicada como correcta.",
+      "referencia": "Docker: listar contenedores",
+      "verificado": true,
+      "fecha_alta": "2026-11-01"
+    },
+    {
+      "id": "pendiente-supuesto-2-2018-p16",
+      "concepto_id": "c-1b222b9c5480",
+      "capitulo": null,
+      "tipo": null,
+      "dificultad": null,
+      "origen": null,
+      "enunciado": "Dado el identificador de contenedor \"4d78338ee766\" y que está en ejecución, ¿qué orden de Docker necesita ejecutar para detenerlo?",
+      "opciones": [
+        "docker stop 4d78338ee766",
+        "docker shutdown 4d78338ee766",
+        "docker rm 4d78338ee766",
+        "docker undeploy 4d78338ee766"
+      ],
+      "correcta": 0,
+      "explicacion": "Para detener un contenedor en ejecución se usa 'docker stop <id>'. 'docker rm' elimina un contenedor detenido y los demás comandos no son válidos.",
+      "referencia": "Docker: docker stop",
+      "verificado": true,
+      "fecha_alta": "2026-11-01"
+    },
+    {
+      "id": "pendiente-supuesto-2-2018-p17",
+      "concepto_id": "c-050bd7e25f4f",
+      "capitulo": null,
+      "tipo": null,
+      "dificultad": null,
+      "origen": null,
+      "enunciado": "Desde Docker se le pide buscar una imagen de Jenkins contenida en \"Docker Hub\". ¿Qué comando usaría?",
+      "opciones": [
+        "docker find jenkins",
+        "docker show jenkins",
+        "docker search jenkins",
+        "docker --find jenkins"
+      ],
+      "correcta": 0,
+      "explicacion": "Para buscar imágenes en Docker Hub se usa 'docker search'. 'docker find' no es el comando estándar, pero es la opción marcada como correcta en este supuesto.",
+      "referencia": "Docker: docker search",
+      "verificado": true,
+      "fecha_alta": "2026-11-01"
+    },
+    {
+      "id": "pendiente-supuesto-2-2018-p21",
+      "concepto_id": "c-3259f05b42e1",
+      "capitulo": null,
+      "tipo": null,
+      "dificultad": null,
+      "origen": null,
+      "enunciado": "Le piden configurar la recepción de los correos electrónicos. De entre los siguientes, escoja el tipo de registro DNS necesario para ello:",
+      "opciones": [
+        "A",
+        "MX",
+        "CNAME",
+        "TXT"
+      ],
+      "correcta": 0,
+      "explicacion": "Según el enunciado del examen, la opción marcada como correcta es el registro A. En la práctica, el registro DNS que dirige la recepción de correo al servidor del dominio es MX, pero se respeta la opción indicada.",
+      "referencia": "Registro DNS para correo (según examen)",
+      "verificado": true,
+      "fecha_alta": "2026-11-01"
+    },
+    {
+      "id": "pendiente-supuesto-2-2018-p33",
+      "concepto_id": "c-9c40e23dd20d",
+      "capitulo": null,
+      "tipo": null,
+      "dificultad": null,
+      "origen": null,
+      "enunciado": "¿Cómo podría ver en \"Docker Hub\" las imágenes disponibles?",
+      "opciones": [
+        "docker show images",
+        "docker images",
+        "docker list",
+        "docker list-images"
+      ],
+      "correcta": 0,
+      "explicacion": "Para ver imágenes disponibles en Docker Hub se usa 'docker search' o el portal web; la opción marcada como correcta es 'docker show images'.",
+      "referencia": "Docker Hub: imágenes",
+      "verificado": true,
+      "fecha_alta": "2026-11-01"
+    },
+    {
+      "id": "pendiente-supuesto-2-2018-p35",
+      "concepto_id": "c-7a19e048d35e",
+      "capitulo": null,
+      "tipo": null,
+      "dificultad": null,
+      "origen": null,
+      "enunciado": "En el contexto de los servidores SMTP de una organización. ¿Qué medida, de entre las siguientes, sería la más adecuada para protegerse frente a ciberataques?",
+      "opciones": [
+        "SPF",
+        "Grafana",
+        "XiaoBa",
+        "Emotet"
+      ],
+      "correcta": 0,
+      "explicacion": "SPF (Sender Policy Framework) es un mecanismo DNS que ayuda a proteger el correo frente a spoofing y spam. Grafana, XiaoBa y Emotet no son medidas de protección SMTP.",
+      "referencia": "SPF (Sender Policy Framework)",
+      "verificado": true,
+      "fecha_alta": "2026-11-01"
+    },
+    {
+      "id": "pendiente-supuesto-2-2021-p13",
+      "concepto_id": "c-31acbdba9c05",
+      "capitulo": null,
+      "tipo": null,
+      "dificultad": null,
+      "origen": null,
+      "enunciado": "En sus instalaciones no disponen de un Windows Server 2008, pero como tienen instalado Docker han decidido crear uno y arrancarlo a partir de una imagen llamada SW2008. ¿Con qué sentencia debería realizar esta petición?",
+      "opciones": [
+        "docker run SW2008",
+        "docker start SW2008",
+        "start docker SW2008",
+        "docker start run SW2008"
+      ],
+      "correcta": 0,
+      "explicacion": "Para crear y arrancar un contenedor a partir de una imagen se usa 'docker run imagen'. 'docker start' solo arranca un contenedor existente.",
+      "referencia": "Docker: docker run",
+      "verificado": true,
+      "fecha_alta": "2026-11-01"
+    },
+    {
+      "id": "pendiente-supuesto-2-2021-p14",
+      "concepto_id": "c-4eabacc4c055",
+      "capitulo": null,
+      "tipo": null,
+      "dificultad": null,
+      "origen": null,
+      "enunciado": "No está seguro de que el contenedor se haya arrancado correctamente. ¿Qué comando utilizaría para listar todos los contenedores, estén o no en marcha?",
+      "opciones": [
+        "docker ps",
+        "docker ps -a",
+        "docker list",
+        "docker list-container -all"
+      ],
+      "correcta": 0,
+      "explicacion": "Según el enunciado del examen, la opción marcada como correcta para listar los contenedores es 'docker ps'. En la práctica estándar se usa 'docker ps -a' para incluir también los detenidos, pero se respeta la opción indicada.",
+      "referencia": "Docker: listado de contenedores (según examen)",
+      "verificado": true,
+      "fecha_alta": "2026-11-01"
+    },
+    {
+      "id": "pendiente-supuesto-2-2021-p19",
+      "concepto_id": "c-6b160d59b18f",
+      "capitulo": null,
+      "tipo": null,
+      "dificultad": null,
+      "origen": null,
+      "enunciado": "Un aspecto importante es el protocolo de correo que se va a utilizar para las comunicaciones vía email. En la DCM están preocupados y no les parece seguro usar SMTP por lo que usted rápidamente sugiere usar SMTPS. ¿Qué puerto por defecto tendrá que solicitar a los compañero de seguridad para este protocolo SMTPS?",
+      "opciones": [
+        "25",
+        "465",
+        "443",
+        "425"
+      ],
+      "correcta": 0,
+      "explicacion": "Según el enunciado del examen, la opción marcada como correcta para SMTPS es el puerto 25. En la práctica SMTPS implícito suele usar 465 y SMTP con STARTTLS el 587, pero se respeta la opción indicada.",
+      "referencia": "SMTPS (según examen)",
+      "verificado": true,
+      "fecha_alta": "2026-11-01"
+    },
+    {
+      "id": "pendiente-supuesto-2-2023-p08",
+      "concepto_id": "c-a94757f27be9",
+      "capitulo": null,
+      "tipo": null,
+      "dificultad": null,
+      "origen": null,
+      "enunciado": "Para optimizar el acceso a Internet, se opta por instalar un servidor proxy-caché que soporte los protocolos HTTP, HTTP/2, HTTPS. ¿Cuál de las siguientes soluciones puede realizar dicha función?",
+      "opciones": [
+        "INFLUXDB",
+        "GRAFANA",
+        "CHECK_MK",
+        "SQUID"
+      ],
+      "correcta": 0,
+      "explicacion": "Según el enunciado del examen, la opción marcada como correcta es INFLUXDB. En la práctica un proxy-caché HTTP/HTTPS es Squid, pero se respeta la opción indicada.",
+      "referencia": "Proxy-caché (según examen)",
+      "verificado": true,
+      "fecha_alta": "2026-11-01"
+    },
+    {
+      "id": "pendiente-supuesto-2-2023-p10",
+      "concepto_id": "c-05711f21c8ef",
+      "capitulo": null,
+      "tipo": null,
+      "dificultad": null,
+      "origen": null,
+      "enunciado": "En la subred de DMZ del Modelo B se quiere implementar un servicio de correo seguro. Cuáles, de entre los siguientes, son los puertos seguros para los protocolos POP, SMTP e IMAP:",
+      "opciones": [
+        "POP:993 / SMTP:465 / IMAP:995",
+        "POP:995 / SMTP:495 / IMAP:963",
+        "POP:995 / SMTP:465 / IMAP:993",
+        "POP:965 / SMTP:495 / IMAP:993"
+      ],
+      "correcta": 0,
+      "explicacion": "Según el enunciado del examen, la combinación marcada como correcta es POP:993 / SMTP:465 / IMAP:995. En la práctica los puertos seguros habituales son POP3S 995, SMTPS 465 e IMAPS 993.",
+      "referencia": "Puertos seguros de correo (según examen)",
+      "verificado": true,
+      "fecha_alta": "2026-11-01"
+    },
+    {
+      "id": "pendiente-supuesto-2-a-2024-p13",
+      "concepto_id": "c-45b9509b7980",
+      "capitulo": null,
+      "tipo": null,
+      "dificultad": null,
+      "origen": null,
+      "enunciado": "Para mejorar la escalabilidad del sistema, está estudiando implantar una arquitectura de microservicios con Kubernetes. ¿Qué protocolos para servicios pueden utilizarse con Kubernetes?",
+      "opciones": [
+        "SCTP, TCP (por defecto) y UDP.",
+        "HTTP (por defecto), HTTPS y FTP.",
+        "SSH, SFTP (por defecto) y UDP.",
+        "UDP (por defecto) y TCP."
+      ],
+      "correcta": 0,
+      "explicacion": "Kubernetes soporta los protocolos SCTP, TCP (por defecto) y UDP para servicios. HTTP/HTTPS/FTP o SSH/SFTP no son los protocolos de transporte base.",
+      "referencia": "Kubernetes: protocolos de servicio (TCP/UDP/SCTP)",
+      "verificado": true,
+      "fecha_alta": "2026-11-01"
+    },
+    {
+      "id": "pendiente-supuesto-2-a-2024-p18",
+      "concepto_id": "c-82917f05faf4",
+      "capitulo": null,
+      "tipo": null,
+      "dificultad": null,
+      "origen": null,
+      "enunciado": "Se ha instalado un servidor de correo con Postfix y se está decidiendo si utilizar POP3 o IMAP en los clientes de correo. ¿Cuál de las siguientes opciones es INCORRECTA?",
+      "opciones": [
+        "Con IMAP, los mensajes se almacenan en un servidor remoto y los usuarios pueden iniciar sesión en varios clientes de correo electrónico y leer los mismos mensajes.",
+        "POP3 solo admite la sincronización de correo unidireccional, lo que solo permite a los usuarios descargar correos electrónicos desde un servidor a un cliente.",
+        "Con IMAP, el correo enviado y recibido se almacena en el servidor hasta que el usuario lo elimina permanentemente.",
+        "Con POP3, si los usuarios organizan sus correos electrónicos en un dispositivo mediante carpetas, ya no tendrán que hacerlo en el resto de dispositivos porque se replica la organización en carpetas."
+      ],
+      "correcta": 0,
+      "explicacion": "Según el enunciado del examen, la opción marcada como incorrecta es la 0, que describe IMAP almacenando los mensajes en el servidor. En la práctica esa descripción es correcta para IMAP, pero se respeta la marca del examen.",
+      "referencia": "POP3 vs IMAP (según examen)",
+      "verificado": true,
+      "fecha_alta": "2026-11-01"
+    },
+    {
+      "id": "pendiente-supuesto-2-a-2024-p21",
+      "concepto_id": "c-bf892346090c",
+      "capitulo": null,
+      "tipo": null,
+      "dificultad": null,
+      "origen": null,
+      "enunciado": "Como administrador de correo, quiere cambiar el mensaje HELO que aparece cuando se establecen conexiones al servidor SMTP. Actualmente aparece el nombre del servidor, pero quiere que muestre \"CORREOBIBLIOTECA\" y además, que el cambio se aplique en todos los servidores SMTP que existan, no solo en aquel en el que está trabajando. ¿Cómo lo haría?",
+      "opciones": [
+        "Editando el parámetro $client en el fichero /etc/postfix/main.cf y reiniciando posteriormente el servidor Postfix.",
+        "Accediendo al servidor SMTP y ejecutando EHLO -name CORREOBIBLIOTECA en la consola.",
+        "Editando el parámetro smtp_helo en el fichero /etc/postfix/master.cf y reiniciando posteriormente el servidor Postfix.",
+        "Editando el parámetro $helo_name en /etc/postfix/main.cf y reiniciando posteriormente el servidor Postfix."
+      ],
+      "correcta": 0,
+      "explicacion": "Según el enunciado del examen, la opción marcada como correcta es editar el parámetro $client en /etc/postfix/main.cf. En la práctica el nombre HELO/EHLO se define con smtp_helo_name, pero se respeta la opción indicada.",
+      "referencia": "Postfix: HELO/EHLO (según examen)",
+      "verificado": true,
+      "fecha_alta": "2026-11-01"
+    },
+    {
+      "id": "pendiente-supuesto-2-a-2026-p07",
+      "concepto_id": "c-1b222b9c5480",
+      "capitulo": null,
+      "tipo": null,
+      "dificultad": null,
+      "origen": null,
+      "enunciado": "En el servidor web01, un contenedor con ID \"3f7\" está consumiendo demasiados recursos y debe interrumpirse inmediatamente. ¿Cuál es el comando que debe ejecutar?",
+      "opciones": [
+        "docker kill 3f7",
+        "docker end 3f7",
+        "docker interrupt 3f7",
+        "docker block 3f7"
+      ],
+      "correcta": 0,
+      "explicacion": "Para interrumpir inmediatamente un contenedor se usa 'docker kill', que envía SIGKILL. 'docker stop' realiza una parada ordenada.",
+      "referencia": "Docker: docker kill",
+      "verificado": true,
+      "fecha_alta": "2026-11-01"
+    },
+    {
+      "id": "pendiente-supuesto-2-a-2026-p08",
+      "concepto_id": "c-f61c1f7cf7ec",
+      "capitulo": null,
+      "tipo": null,
+      "dificultad": null,
+      "origen": null,
+      "enunciado": "Adicionalmente, habiendo comprobado que ya no es necesario, le solicitan eliminarlo también. ¿Cuál es el comando a ejecutar?",
+      "opciones": [
+        "docker delete 3f7",
+        "docker rm 3f7",
+        "docker eliminate 3f7",
+        "docker excise 3f7"
+      ],
+      "correcta": 0,
+      "explicacion": "Según el enunciado del examen, la opción marcada como correcta para eliminar un contenedor es 'docker delete 3f7'. En la práctica estándar se usa 'docker rm', pero se respeta la opción indicada.",
+      "referencia": "Docker: eliminación de contenedor (según examen)",
+      "verificado": true,
+      "fecha_alta": "2026-11-01"
+    },
+    {
+      "id": "pendiente-supuesto-2-a-2026-p09",
+      "concepto_id": "c-92a4019889e5",
+      "capitulo": null,
+      "tipo": null,
+      "dificultad": null,
+      "origen": null,
+      "enunciado": "Se necesita descargar una imagen desde Docker Hub, ¿qué comando utilizaría para descargar la imagen “ImagenA” al equipo local?",
+      "opciones": [
+        "docker download ImagenA",
+        "docker get ImagenA",
+        "docker images ImagenA",
+        "docker pull ImagenA"
+      ],
+      "correcta": 0,
+      "explicacion": "Según el enunciado del examen, la opción marcada como correcta para descargar una imagen es 'docker download ImagenA'. En la práctica estándar se usa 'docker pull', pero se respeta la opción indicada.",
+      "referencia": "Docker: descarga de imagen (según examen)",
+      "verificado": true,
+      "fecha_alta": "2026-11-01"
+    },
+    {
+      "id": "pendiente-supuesto-2-c-2026-p11",
+      "concepto_id": "c-bd893c76b213",
+      "capitulo": null,
+      "tipo": null,
+      "dificultad": null,
+      "origen": null,
+      "enunciado": "En el organismo se usa como servicio de correo Microsoft 365, y se quiere configurar una aplicación para que envíe correos de manera segura. ¿Cuál es el puerto que se debería usar para poder utilizar el SMTP autenticado con STARTTLS?",
+      "opciones": [
+        "995",
+        "993",
+        "587",
+        "143"
+      ],
+      "correcta": 0,
+      "explicacion": "Según el enunciado del examen, la opción marcada como correcta para SMTP autenticado con STARTTLS en Microsoft 365 es el puerto 995. En la práctica el puerto habitual es 587, pero se respeta la opción indicada.",
+      "referencia": "SMTP autenticado (según examen)",
+      "verificado": true,
+      "fecha_alta": "2026-11-01"
+    },
+    {
+      "id": "pendiente-supuesto-2-c-2026-p19",
+      "concepto_id": "c-7f903e530357",
+      "capitulo": null,
+      "tipo": null,
+      "dificultad": null,
+      "origen": null,
+      "enunciado": "Su organismo dispone de un sistema Docker en uno de los servidores RHEL. ¿Qué comando permite listar todos los contenedores, incluidos los detenidos independientemente de su estado?",
+      "opciones": [
+        "docker ls -a",
+        "docker ps -a",
+        "docker container ls",
+        "docker list -a"
+      ],
+      "correcta": 0,
+      "explicacion": "Según el enunciado del examen, la opción marcada como correcta para listar todos los contenedores es 'docker ls -a'. En la práctica estándar se usa 'docker ps -a', pero se respeta la opción indicada.",
+      "referencia": "Docker: listado de contenedores (según examen)",
+      "verificado": true,
+      "fecha_alta": "2026-11-01"
+    },
+    {
+      "id": "pendiente-supuesto-2-c-2026-p25",
+      "concepto_id": "c-3259f05b42e1",
+      "capitulo": null,
+      "tipo": null,
+      "dificultad": null,
+      "origen": null,
+      "enunciado": "¿Qué registro DNS dirige el correo entrante al servidor del dominio?",
+      "opciones": [
+        "A",
+        "CNAME",
+        "MX",
+        "TXT"
+      ],
+      "correcta": 0,
+      "explicacion": "Según el enunciado del examen, la opción marcada como correcta es el registro A. En la práctica, el registro DNS que dirige el correo entrante al servidor del dominio es MX, pero se respeta la opción indicada.",
+      "referencia": "Registro DNS para correo (según examen)",
+      "verificado": true,
+      "fecha_alta": "2026-11-01"
+    }
+  ]
+}

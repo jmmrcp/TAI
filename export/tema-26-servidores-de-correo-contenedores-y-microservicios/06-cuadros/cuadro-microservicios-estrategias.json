@@ -1,0 +1,46 @@
+{
+  "id": "cuadro-microservicios-estrategias",
+  "tipo_dato": "comparativa",
+  "titulo": "Estrategias de gestión de microservicios",
+  "semilla": false,
+  "n_filas": 2,
+  "n_fuentes_distintas": 1,
+  "columnas": [
+    "estrategia",
+    "modelo",
+    "descripcion"
+  ],
+  "columna_clave": "estrategia",
+  "columna_respuesta": "descripcion",
+  "columna_contexto": "modelo",
+  "columna_fuente": "fuente",
+  "verificado": false,
+  "filas": [
+    {
+      "id": "c-micro-1",
+      "fuente": "resumen CPS",
+      "fuente_tipo": "manual",
+      "valores": {
+        "estrategia": "Coreografía",
+        "modelo": "descentralizado",
+        "descripcion": "Los microservicios se coordinan entre sí mediante eventos, sin un controlador central"
+      },
+      "pasaje_origen": "Microservicios",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "c-micro-2",
+      "fuente": "resumen CPS",
+      "fuente_tipo": "manual",
+      "valores": {
+        "estrategia": "Orquestación",
+        "modelo": "centralizado",
+        "descripcion": "Un orquestador central dirige el flujo y las llamadas entre microservicios"
+      },
+      "pasaje_origen": "Microservicios",
+      "ubicacion": {},
+      "verificado": false
+    }
+  ]
+}

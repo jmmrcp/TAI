@@ -1,0 +1,1283 @@
+{
+  "tema_id": "tema-10-informatica-basica-representacion-de-la-informacion-arquitec",
+  "total": 99,
+  "flashcards": [
+    {
+      "concepto_id": "c-ed866875ef19",
+      "modo": "anverso-reverso",
+      "anverso": "¿Qué es un dato según ISO-2382?",
+      "reverso": "Representación simbólica de un atributo o variable cuantitativa/cualitativa; mínima unidad semántica, sin significado contextual por sí solo.",
+      "texto": null,
+      "respuestas": [],
+      "tags": [
+        "dato",
+        "informacion",
+        "ISO-2382"
+      ],
+      "verificado": false
+    },
+    {
+      "concepto_id": "c-133a27702e2e",
+      "modo": "anverso-reverso",
+      "anverso": "¿Qué es la información?",
+      "reverso": "Resultado de procesar, contextualizar y organizar datos, adquiriendo significado útil para el receptor y permitiendo la toma de decisiones.",
+      "texto": null,
+      "respuestas": [],
+      "tags": [
+        "informacion",
+        "dato",
+        "contexto"
+      ],
+      "verificado": false
+    },
+    {
+      "concepto_id": "c-c45267e40672",
+      "modo": "anverso-reverso",
+      "anverso": "¿Cuáles son los dos requisitos fundamentales de la información?",
+      "reverso": "Integridad (todos los datos necesarios disponibles) e inequivocidad (una sola interpretación posible); además relevante, precisa, completa y adecuada.",
+      "texto": null,
+      "respuestas": [],
+      "tags": [
+        "integridad",
+        "inequivocidad",
+        "calidad"
+      ],
+      "verificado": false
+    },
+    {
+      "concepto_id": "c-d283fe044947",
+      "modo": "anverso-reverso",
+      "anverso": "¿Qué niveles componen la pirámide DIKW y a quién se atribuye?",
+      "reverso": "Cuatro niveles: dato, información, conocimiento y sabiduría. Atribuida a Russell Ackoff (1989), adoptada por ONU y OCDE.",
+      "texto": null,
+      "respuestas": [],
+      "tags": [
+        "dato",
+        "informacion",
+        "conocimiento",
+        "sabiduria"
+      ],
+      "verificado": false
+    },
+    {
+      "concepto_id": "c-f07da262fc0e",
+      "modo": "anverso-reverso",
+      "anverso": "¿Cuáles son las seis fases del ciclo de vida del dato (DLM)?",
+      "reverso": "Captura, almacenamiento, procesamiento, uso, publicación/comunicación y archivo o eliminación.",
+      "texto": null,
+      "respuestas": [],
+      "tags": [
+        "DLM",
+        "captura",
+        "almacenamiento",
+        "procesamiento"
+      ],
+      "verificado": false
+    },
+    {
+      "concepto_id": "c-441398d65cb2",
+      "modo": "anverso-reverso",
+      "anverso": "¿Cuáles son las cuatro dimensiones de calidad del dato y la norma de referencia?",
+      "reverso": "Exactitud, completitud, consistencia y oportunidad (actualidad). Modelo ISO/IEC 25012; ISO 8000 para datos maestros.",
+      "texto": null,
+      "respuestas": [],
+      "tags": [
+        "exactitud",
+        "completitud",
+        "consistencia",
+        "actualidad"
+      ],
+      "verificado": false
+    },
+    {
+      "concepto_id": "c-cc5f24097970",
+      "modo": "anverso-reverso",
+      "anverso": "¿Qué son los metadatos y cuáles son sus tres tipos?",
+      "reverso": "\"Datos sobre los datos\" que describen contexto, contenido y estructura. Tipos: descriptivos, estructurales y administrativos.",
+      "texto": null,
+      "respuestas": [],
+      "tags": [
+        "metadatos",
+        "descriptivos",
+        "estructurales",
+        "administrativos"
+      ],
+      "verificado": false
+    },
+    {
+      "concepto_id": "c-92e71f3302d5",
+      "modo": "anverso-reverso",
+      "anverso": "¿Cómo se clasifican los datos según su función en el SI?",
+      "reverso": "Datos de entrada (introducidos para tratamiento), intermedios (generados en procesamiento) y de salida (resultado final).",
+      "texto": null,
+      "respuestas": [],
+      "tags": [
+        "entrada",
+        "intermedios",
+        "salida"
+      ],
+      "verificado": false
+    },
+    {
+      "concepto_id": "c-ce97d02f60f3",
+      "modo": "anverso-reverso",
+      "anverso": "¿Cómo se clasifican los datos según su naturaleza?",
+      "reverso": "Numéricos (enteros, reales, complejos), alfabéticos, alfanuméricos, lógicos/booleanos y multimedia.",
+      "texto": null,
+      "respuestas": [],
+      "tags": [
+        "numerico",
+        "alfabetico",
+        "alfanumerico",
+        "booleano",
+        "multimedia"
+      ],
+      "verificado": false
+    },
+    {
+      "concepto_id": "c-aab1289e1843",
+      "modo": "anverso-reverso",
+      "anverso": "¿Cómo se clasifican los datos según su variabilidad?",
+      "reverso": "Datos fijos o constantes (π, velocidad de la luz) frente a datos variables (pueden modificarse durante el proceso).",
+      "texto": null,
+      "respuestas": [],
+      "tags": [
+        "fijo",
+        "variable"
+      ],
+      "verificado": false
+    },
+    {
+      "concepto_id": "c-e7645bd097c7",
+      "modo": "anverso-reverso",
+      "anverso": "¿Cómo se clasifican los datos según su estructura?",
+      "reverso": "Estructurados (tablas con esquema fijo), semi-estructurados (XML, JSON) y no estructurados (documentos, imágenes).",
+      "texto": null,
+      "respuestas": [],
+      "tags": [
+        "estructurado",
+        "semi-estructurado",
+        "no estructurado"
+      ],
+      "verificado": false
+    },
+    {
+      "concepto_id": "c-e532492ff13c",
+      "modo": "anverso-reverso",
+      "anverso": "¿Cuáles son las cuatro familias de tipos primitivos según ISO/IEC 11404?",
+      "reverso": "Enteros, reales, lógicos (booleanos) y carácter.",
+      "texto": null,
+      "respuestas": [],
+      "tags": [
+        "enteros",
+        "reales",
+        "booleanos",
+        "caracter"
+      ],
+      "verificado": false
+    },
+    {
+      "concepto_id": "c-9e26556ffcea",
+      "modo": "anverso-reverso",
+      "anverso": "¿Cómo se representan los reales en IEEE-754?",
+      "reverso": "Float: 1+8+23 bits = 32 bits; Double: 1+11+52 bits = 64 bits. Estándar de coma flotante.",
+      "texto": null,
+      "respuestas": [],
+      "tags": [
+        "coma flotante",
+        "float",
+        "double"
+      ],
+      "verificado": false
+    },
+    {
+      "concepto_id": "c-b2902e4f3460",
+      "modo": "anverso-reverso",
+      "anverso": "¿Cuáles son los tipos de datos compuestos?",
+      "reverso": "Array, struct/registro, union, enumeración (enum) y cadena de caracteres (string).",
+      "texto": null,
+      "respuestas": [],
+      "tags": [
+        "array",
+        "struct",
+        "union",
+        "enum",
+        "string"
+      ],
+      "verificado": false
+    },
+    {
+      "concepto_id": "c-e2945d71edb0",
+      "modo": "anverso-reverso",
+      "anverso": "¿Qué es un Tipo Abstracto de Datos (TAD)?",
+      "reverso": "Conjunto de valores y operaciones sobre ellos, independiente de su implementación (pila, cola, lista, conjunto, mapa, árbol, grafo, cola de prioridad).",
+      "texto": null,
+      "respuestas": [],
+      "tags": [
+        "TAD",
+        "pila",
+        "cola",
+        "lista",
+        "arbol",
+        "grafo"
+      ],
+      "verificado": false
+    },
+    {
+      "concepto_id": "c-e3885432d39e",
+      "modo": "anverso-reverso",
+      "anverso": "¿Qué estándar define los tipos de datos en SQL y qué categorías incluye?",
+      "reverso": "SQL:2023 (ISO/IEC 9075:2023). Categorías: numéricos exactos/aproximados, cadenas, binarios, temporales, booleanos, colecciones y documentos (JSON/XML).",
+      "texto": null,
+      "respuestas": [],
+      "tags": [
+        "SQL",
+        "INTEGER",
+        "VARCHAR",
+        "BLOB",
+        "DATE"
+      ],
+      "verificado": false
+    },
+    {
+      "concepto_id": "c-d29327966a6a",
+      "modo": "anverso-reverso",
+      "anverso": "¿Cuáles son los dos ejes del tipado en lenguajes de programación?",
+      "reverso": "Estático/dinámico (cuándo se verifica) y fuerte/débil (conversiones implícitas). Son ejes independientes.",
+      "texto": null,
+      "respuestas": [],
+      "tags": [
+        "estatico",
+        "dinamico",
+        "fuerte",
+        "debil"
+      ],
+      "verificado": false
+    },
+    {
+      "concepto_id": "c-2d15b17d5254",
+      "modo": "anverso-reverso",
+      "anverso": "¿Qué es un sistema de información (SI) según ISO-2382?",
+      "reverso": "Conjunto de elementos (aplicaciones, maquinaria, usuarios, procedimientos) para el tratamiento de información, disponible de forma eficiente. No es sinónimo de sistema informático.",
+      "texto": null,
+      "respuestas": [],
+      "tags": [
+        "SI",
+        "ISO-2382",
+        "informacion"
+      ],
+      "verificado": false
+    },
+    {
+      "concepto_id": "c-82a38f14eae4",
+      "modo": "anverso-reverso",
+      "anverso": "¿Cuáles son los siete componentes estructurales de un SI?",
+      "reverso": "Hardware, software, datos, procedimientos, usuarios, red y retroalimentación (feedback).",
+      "texto": null,
+      "respuestas": [],
+      "tags": [
+        "hardware",
+        "software",
+        "datos",
+        "procedimientos",
+        "usuarios",
+        "red",
+        "feedback"
+      ],
+      "verificado": false
+    },
+    {
+      "concepto_id": "c-410ba594c191",
+      "modo": "anverso-reverso",
+      "anverso": "¿Cuáles son las diez características de un SI (ISO/IEC 25010)?",
+      "reverso": "Disponibilidad, selección adecuada, adaptabilidad, capacidad de relación, tiempo de respuesta, exactitud/calidad, flexibilidad, fiabilidad, seguridad y copias de seguridad.",
+      "texto": null,
+      "respuestas": [],
+      "tags": [
+        "disponibilidad",
+        "fiabilidad",
+        "seguridad",
+        "backup"
+      ],
+      "verificado": false
+    },
+    {
+      "concepto_id": "c-1e6d8dc2d9d1",
+      "modo": "anverso-reverso",
+      "anverso": "¿Cuáles son los elementos funcionales de un SI?",
+      "reverso": "Base de datos, transacciones, informes, procesos, usuario, procedimientos administrativos y módulos funcionales (definición, entrada, análisis, búsqueda, difusión, evaluación).",
+      "texto": null,
+      "respuestas": [],
+      "tags": [
+        "base datos",
+        "transacciones",
+        "informes",
+        "procesos"
+      ],
+      "verificado": false
+    },
+    {
+      "concepto_id": "c-d5306cfac6f9",
+      "modo": "anverso-reverso",
+      "anverso": "¿Cuáles son las cuatro funciones básicas de un SI (EAPS)?",
+      "reverso": "Entrada, almacenamiento, procesamiento y salida de información.",
+      "texto": null,
+      "respuestas": [],
+      "tags": [
+        "EAPS",
+        "entrada",
+        "almacenamiento",
+        "procesamiento",
+        "salida"
+      ],
+      "verificado": false
+    },
+    {
+      "concepto_id": "c-6f11c5f4163f",
+      "modo": "anverso-reverso",
+      "anverso": "¿Qué tipos de SI corresponden a los cuatro niveles organizacionales?",
+      "reverso": "TPS (operativo), MIS (gestión/táctico), DSS (analítico) y EIS (estratégico).",
+      "texto": null,
+      "respuestas": [],
+      "tags": [
+        "TPS",
+        "MIS",
+        "DSS",
+        "EIS"
+      ],
+      "verificado": false
+    },
+    {
+      "concepto_id": "c-efa175226545",
+      "modo": "anverso-reverso",
+      "anverso": "¿Qué sistemas empresariales atraviesan todos los niveles organizacionales?",
+      "reverso": "ERP, CRM, SCM, BPM, BI y DWH.",
+      "texto": null,
+      "respuestas": [],
+      "tags": [
+        "ERP",
+        "CRM",
+        "SCM",
+        "BPM",
+        "BI",
+        "DWH"
+      ],
+      "verificado": false
+    },
+    {
+      "concepto_id": "c-9f0e358ee0bb",
+      "modo": "anverso-reverso",
+      "anverso": "¿Cuáles son las principales metodologías de implantación de SI?",
+      "reverso": "Métrica v3, ITIL v4, COBIT 2019 y metodologías ágiles (Scrum, Kanban, SAFe).",
+      "texto": null,
+      "respuestas": [],
+      "tags": [
+        "Metrica v3",
+        "ITIL",
+        "COBIT",
+        "agiles"
+      ],
+      "verificado": false
+    },
+    {
+      "concepto_id": "c-007b70c6c02e",
+      "modo": "anverso-reverso",
+      "anverso": "¿Qué es la arquitectura de ordenadores?",
+      "reverso": "Conjunto de reglas, normas y procedimientos que especifican las interrelaciones entre los componentes lógicos y físicos de un sistema informático.",
+      "texto": null,
+      "respuestas": [],
+      "tags": [
+        "arquitectura",
+        "ISA",
+        "organizacion"
+      ],
+      "verificado": false
+    },
+    {
+      "concepto_id": "c-32e7caf5199d",
+      "modo": "anverso-reverso",
+      "anverso": "¿En qué se diferencian arquitectura y organización?",
+      "reverso": "La arquitectura (ISA) es la visión del programador; la organización es la visión del ingeniero sobre cómo se implementa la ISA en hardware.",
+      "texto": null,
+      "respuestas": [],
+      "tags": [
+        "ISA",
+        "organizacion",
+        "compatibilidad"
+      ],
+      "verificado": false
+    },
+    {
+      "concepto_id": "c-56c22b3c2736",
+      "modo": "anverso-reverso",
+      "anverso": "¿Cuál es la característica definitoria de la arquitectura Von Neumann?",
+      "reverso": "Memoria única para datos e instrucciones (programa almacenado) y bus compartido, lo que provoca el cuello de botella de Von Neumann.",
+      "texto": null,
+      "respuestas": [],
+      "tags": [
+        "Von Neumann",
+        "memoria unica",
+        "programa almacenado"
+      ],
+      "verificado": false
+    },
+    {
+      "concepto_id": "c-82cd1f3035e5",
+      "modo": "anverso-reverso",
+      "anverso": "¿En qué se basa la arquitectura Harvard?",
+      "reverso": "Memoria de instrucciones y datos separadas, cada una con su propio bus exclusivo, permitiendo acceso simultáneo.",
+      "texto": null,
+      "respuestas": [],
+      "tags": [
+        "Harvard",
+        "memoria separada",
+        "buses independientes"
+      ],
+      "verificado": false
+    },
+    {
+      "concepto_id": "c-d4305ce65f85",
+      "modo": "anverso-reverso",
+      "anverso": "¿Qué combina la arquitectura Harvard modificada?",
+      "reverso": "Memoria principal única (como Von Neumann) con caché L1 separada en instrucciones y datos (como Harvard); L2 y L3 unificadas.",
+      "texto": null,
+      "respuestas": [],
+      "tags": [
+        "Harvard modificada",
+        "cache L1",
+        "PCs"
+      ],
+      "verificado": false
+    },
+    {
+      "concepto_id": "c-6168f3c02efd",
+      "modo": "anverso-reverso",
+      "anverso": "¿Cuál es la diferencia clave entre Von Neumann y Harvard?",
+      "reverso": "Von Neumann usa memoria única y bus compartido (cuello de botella); Harvard usa memorias separadas y buses independientes (acceso simultáneo).",
+      "texto": null,
+      "respuestas": [],
+      "tags": [
+        "memoria",
+        "buses",
+        "cuello de botella"
+      ],
+      "verificado": false
+    },
+    {
+      "concepto_id": "c-d1dd4a6463f9",
+      "modo": "anverso-reverso",
+      "anverso": "¿Por qué aspectos se definen las generaciones de ordenadores?",
+      "reverso": "Por la tecnología vigente (componente electrónico principal), las técnicas de programación y el impacto en la sociedad.",
+      "texto": null,
+      "respuestas": [],
+      "tags": [],
+      "verificado": false
+    },
+    {
+      "concepto_id": "c-fab96d39a7b9",
+      "modo": "anverso-reverso",
+      "anverso": "¿Qué tecnología, memoria y velocidad caracterizan la primera generación (1940-1952)?",
+      "reverso": "Válvulas de vacío; memoria en tarjetas/cintas perforadas, líneas de demora de mercurio y tambores magnéticos; velocidad en milisegundos; ENIAC 30 t y 150 kW.",
+      "texto": null,
+      "respuestas": [],
+      "tags": [],
+      "verificado": false
+    },
+    {
+      "concepto_id": "c-dbe2adee451b",
+      "modo": "anverso-reverso",
+      "anverso": "¿Qué innovación tecnológica define la segunda generación y qué lenguajes aparecen?",
+      "reverso": "Transistor (Bell Labs 1947); núcleos de ferrita y soportes magnéticos; lenguajes Fortran (1957), Cobol (1959) y Algol (1960); reducción de tamaño, consumo y coste.",
+      "texto": null,
+      "respuestas": [],
+      "tags": [],
+      "verificado": false
+    },
+    {
+      "concepto_id": "c-9cbf645f23f2",
+      "modo": "anverso-reverso",
+      "anverso": "¿Qué aporta la tercera generación (1964-1970)?",
+      "reverso": "Circuitos integrados SSI/MSI; memoria semiconductor (DRAM IBM 1966); multiprogramación, tiempo real y time-sharing; aparece BASIC (1964); IBM System/360.",
+      "texto": null,
+      "respuestas": [],
+      "tags": [],
+      "verificado": false
+    },
+    {
+      "concepto_id": "c-dca6c6efda63",
+      "modo": "anverso-reverso",
+      "anverso": "¿Cuál es el hito de la cuarta generación y qué almacena?",
+      "reverso": "LSI/VLSI; Intel 4004 (1971), primer microprocesador (2.300 transistores, 4 bits, 740 kHz); disquete; primeros PC (Altair, Apple I, IBM PC); Ethernet y TCP/IP.",
+      "texto": null,
+      "respuestas": [],
+      "tags": [],
+      "verificado": false
+    },
+    {
+      "concepto_id": "c-ce2a2edfedf2",
+      "modo": "anverso-reverso",
+      "anverso": "¿Qué avances destacan en la quinta generación?",
+      "reverso": "VLSI/ULSI; inteligencia artificial (MYCIN, DENDRAL); GUI (Xerox Star, Mac, Windows); Internet/WWW (Berners-Lee 1989-1991); lenguajes Prolog, Lisp, C++, Smalltalk.",
+      "texto": null,
+      "respuestas": [],
+      "tags": [],
+      "verificado": false
+    },
+    {
+      "concepto_id": "c-fe911564797b",
+      "modo": "anverso-reverso",
+      "anverso": "¿Qué caracteriza la sexta generación (1991-actualidad)?",
+      "reverso": "Multinúcleo y paralelismo; computación en nube (AWS, Azure, GCP); dispositivos ubicuos; IA moderna; computación cuántica (IBM Q, Google Sycamore); neuromórfica (Loihi, TrueNorth).",
+      "texto": null,
+      "respuestas": [],
+      "tags": [],
+      "verificado": false
+    },
+    {
+      "concepto_id": "c-00ca004e495e",
+      "modo": "anverso-reverso",
+      "anverso": "¿Qué es un bus en un ordenador?",
+      "reverso": "Conjunto de circuitos que conecta y comunica los componentes del ordenador mediante líneas eléctricas paralelas o en serie (PCIe).",
+      "texto": null,
+      "respuestas": [],
+      "tags": [],
+      "verificado": false
+    },
+    {
+      "concepto_id": "c-a01e66de77e2",
+      "modo": "anverso-reverso",
+      "anverso": "¿Qué función y direccionalidad tiene el bus de control?",
+      "reverso": "Unidireccional de la Unidad de Control a los componentes; transmite señales interpretadas como órdenes.",
+      "texto": null,
+      "respuestas": [],
+      "tags": [],
+      "verificado": false
+    },
+    {
+      "concepto_id": "c-08cc53f9606d",
+      "modo": "anverso-reverso",
+      "anverso": "¿Qué transporta el bus de direcciones?",
+      "reverso": "Unidireccional de la CPU a memoria; transporta las direcciones de memoria sobre las que se va a actuar (lectura/escritura).",
+      "texto": null,
+      "respuestas": [],
+      "tags": [],
+      "verificado": false
+    },
+    {
+      "concepto_id": "c-7028fb3c2a0e",
+      "modo": "anverso-reverso",
+      "anverso": "¿Qué caracteriza al bus de datos?",
+      "reverso": "Es bidireccional; traslada datos hacia y desde la memoria y otros dispositivos.",
+      "texto": null,
+      "respuestas": [],
+      "tags": [],
+      "verificado": false
+    },
+    {
+      "concepto_id": "c-bcd1247e9ef8",
+      "modo": "anverso-reverso",
+      "anverso": "¿Qué parámetros definen un bus?",
+      "reverso": "Anchura en bits, frecuencia, ancho de banda (anchura×frecuencia/8) y protocolo síncrono o asíncrono.",
+      "texto": null,
+      "respuestas": [],
+      "tags": [],
+      "verificado": false
+    },
+    {
+      "concepto_id": "c-703ead5a1577",
+      "modo": "anverso-reverso",
+      "anverso": "¿Qué es la CPU y qué hace?",
+      "reverso": "Unidad Central de Proceso; cerebro que coordina, supervisa y ejecuta instrucciones de programas; integrada en un microprocesador sobre socket con disipador.",
+      "texto": null,
+      "respuestas": [],
+      "tags": [],
+      "verificado": false
+    },
+    {
+      "concepto_id": "c-b650df0fc439",
+      "modo": "anverso-reverso",
+      "anverso": "¿Qué es CISC y cómo ejecuta internamente?",
+      "reverso": "Complex Instruction Set Computer; conjunto amplio de instrucciones complejas (x86-64 ~1.500); traduce instrucciones complejas a microoperaciones RISC (uops) internamente.",
+      "texto": null,
+      "respuestas": [],
+      "tags": [],
+      "verificado": false
+    },
+    {
+      "concepto_id": "c-a92fd3b0e669",
+      "modo": "anverso-reverso",
+      "anverso": "¿Qué es RISC y qué acceso a memoria tiene?",
+      "reverso": "Reduced Instruction Set Computer; instrucciones simples y tamaño fijo; solo LOAD/STORE acceden a memoria (arquitectura load-store); ~400 (ARMv9) o ~50 (RISC-V) instrucciones.",
+      "texto": null,
+      "respuestas": [],
+      "tags": [],
+      "verificado": false
+    },
+    {
+      "concepto_id": "c-7bc66dc69614",
+      "modo": "anverso-reverso",
+      "anverso": "¿Qué medidas expresan la potencia de una CPU?",
+      "reverso": "FLOPS, MIPS, IPC, frecuencia en GHz y TDP en vatios; superordenador El Capitan 1,74 ExaFLOPS.",
+      "texto": null,
+      "respuestas": [],
+      "tags": [],
+      "verificado": false
+    },
+    {
+      "concepto_id": "c-80e6ff4be123",
+      "modo": "anverso-reverso",
+      "anverso": "¿En qué se diferencian multiprocesamiento, multinúcleo y multithreading?",
+      "reverso": "Multi-CPU: varias CPUs físicas (SMP/NUMA). Multi-core: varios núcleos en un chip. Multithreading/SMT: un núcleo ejecuta dos hilos simultáneos (HyperThreading, SMT).",
+      "texto": null,
+      "respuestas": [],
+      "tags": [],
+      "verificado": false
+    },
+    {
+      "concepto_id": "c-86439a7c5f66",
+      "modo": "anverso-reverso",
+      "anverso": "¿Qué es el pipelining y cuántas etapas tiene el cauce clásico?",
+      "reverso": "Ejecución solapada de instrucciones en etapas; cauce clásico RISC de 5 etapas: IF, ID, EX, MEM, WB; en estado estacionario una instrucción por ciclo.",
+      "texto": null,
+      "respuestas": [],
+      "tags": [],
+      "verificado": false
+    },
+    {
+      "concepto_id": "c-e41adead973a",
+      "modo": "anverso-reverso",
+      "anverso": "¿Qué es una CPU superescalar?",
+      "reverso": "Ejecuta varias instrucciones por ciclo replicando unidades funcionales; despacha instrucciones en paralelo respetando dependencias; Intel Golden Cove hasta 6, Apple M3 hasta 8.",
+      "texto": null,
+      "respuestas": [],
+      "tags": [],
+      "verificado": false
+    },
+    {
+      "concepto_id": "c-dc032cf71b2c",
+      "modo": "anverso-reverso",
+      "anverso": "¿Qué afirma la Ley de Moore y su estado actual?",
+      "reverso": "Transistores se duplican cada ~18-24 meses a coste constante (1965); ralentizada desde ~2015 por límites físicos por debajo de 5 nm.",
+      "texto": null,
+      "respuestas": [],
+      "tags": [],
+      "verificado": false
+    },
+    {
+      "concepto_id": "c-01d9b5231f74",
+      "modo": "anverso-reverso",
+      "anverso": "¿Qué son los registros de la CPU y cuál es su capacidad de direccionamiento?",
+      "reverso": "Memoria rápida de la CPU para datos, direcciones, instrucción y estado; con MAR de n bits se direccionan 2^n palabras (32 bits → 4 GB; 64 bits → 16 EB).",
+      "texto": null,
+      "respuestas": [],
+      "tags": [],
+      "verificado": false
+    },
+    {
+      "concepto_id": "c-393eef864075",
+      "modo": "anverso-reverso",
+      "anverso": "¿Qué son FLAGS/EFLAGS/RFLAGS y qué flags principales incluyen?",
+      "reverso": "Registro de estado x86 de 16/32/64 bits; incluye CF (acarreo), ZF (cero), SF (signo) y OF (desbordamiento); retrocompatibles.",
+      "texto": null,
+      "respuestas": [],
+      "tags": [],
+      "verificado": false
+    },
+    {
+      "concepto_id": "c-e75f46853bee",
+      "modo": "anverso-reverso",
+      "anverso": "¿Qué es la Unidad de Control y sus componentes?",
+      "reverso": "Controla el funcionamiento del procesador excepto la aritmética; incluye reloj, contador de programa, registro de instrucción, decodificador y secuenciador.",
+      "texto": null,
+      "respuestas": [],
+      "tags": [],
+      "verificado": false
+    },
+    {
+      "concepto_id": "c-f5f609e0657b",
+      "modo": "anverso-reverso",
+      "anverso": "¿Qué hace la ALU y qué componentes tiene?",
+      "reverso": "Ejecuta operaciones aritméticas y lógicas; incluye circuito operacional (COP), registros de entrada, acumulador y registro de estado (FLAGS).",
+      "texto": null,
+      "respuestas": [],
+      "tags": [],
+      "verificado": false
+    },
+    {
+      "concepto_id": "c-3fe152342db5",
+      "modo": "anverso-reverso",
+      "anverso": "¿Cuáles son las dos fases del ciclo de instrucción?",
+      "reverso": "Fase de búsqueda (FETCH): localiza y transfiere instrucción a la UC, incrementa CP. Fase de ejecución (EXECUTE): decodifica, activa circuitos y ejecuta, actualizando FLAGS.",
+      "texto": null,
+      "respuestas": [],
+      "tags": [],
+      "verificado": false
+    },
+    {
+      "concepto_id": "c-e84891d83eea",
+      "modo": "anverso-reverso",
+      "anverso": "¿Cómo se clasifican los modos de direccionamiento?",
+      "reverso": "Impropios (implícito, inmediato) con operando fuera de memoria; propios (directo, indirecto, base, índice) con operando en memoria.",
+      "texto": null,
+      "respuestas": [],
+      "tags": [],
+      "verificado": false
+    },
+    {
+      "concepto_id": "c-556be6bb3f6d",
+      "modo": "anverso-reverso",
+      "anverso": "¿Cómo se clasifica la memoria?",
+      "reverso": "Por ubicación (interna/externa), volatilidad (volátil/no volátil), tipo de acceso (aleatorio/secuencial/directo) y jerarquía; a mayor velocidad, menor capacidad y mayor coste.",
+      "texto": null,
+      "respuestas": [],
+      "tags": [],
+      "verificado": false
+    },
+    {
+      "concepto_id": "c-64a411b99dcc",
+      "modo": "anverso-reverso",
+      "anverso": "¿Qué es la memoria RAM?",
+      "reverso": "Memoria principal volátil de acceso aleatorio; almacena temporalmente datos e instrucciones en uso; espacio de trabajo entre CPU y memoria secundaria.",
+      "texto": null,
+      "respuestas": [],
+      "tags": [],
+      "verificado": false
+    },
+    {
+      "concepto_id": "c-624e80df9080",
+      "modo": "anverso-reverso",
+      "anverso": "¿En qué se diferencian SRAM y DRAM?",
+      "reverso": "SRAM: biestables, rápida, cara, sin refresco, para caché. DRAM: condensador+transistor, lenta, barata, requiere refresco (~64 ms), para memoria principal.",
+      "texto": null,
+      "respuestas": [],
+      "tags": [],
+      "verificado": false
+    },
+    {
+      "concepto_id": "c-a23b4b0da435",
+      "modo": "anverso-reverso",
+      "anverso": "¿Qué es la memoria virtual y la paginación?",
+      "reverso": "Permite usar más memoria que la física combinando RAM con disco; páginas de 4 KB, tabla de páginas, TLB y fallo de página cargado desde disco por la MMU.",
+      "texto": null,
+      "respuestas": [],
+      "tags": [],
+      "verificado": false
+    },
+    {
+      "concepto_id": "c-00dd55db171a",
+      "modo": "anverso-reverso",
+      "anverso": "¿Qué es la memoria ROM?",
+      "reverso": "Memoria principal no volátil; almacena permanentemente firmware y rutinas de arranque como BIOS/UEFI.",
+      "texto": null,
+      "respuestas": [],
+      "tags": [],
+      "verificado": false
+    },
+    {
+      "concepto_id": "c-652098f2fb84",
+      "modo": "anverso-reverso",
+      "anverso": "¿Qué tipos de memoria ROM existen?",
+      "reverso": "ROM (mask), PROM (programable una vez), EPROM (borrable por UV), EEPROM (eléctrica byte a byte) y Flash (borrado/escritura por bloques).",
+      "texto": null,
+      "respuestas": [],
+      "tags": [],
+      "verificado": false
+    },
+    {
+      "concepto_id": "c-01e0706f098f",
+      "modo": "anverso-reverso",
+      "anverso": "¿En qué se diferencian NAND y NOR Flash?",
+      "reverso": "NOR: acceso aleatorio byte a byte, lectura rápida, para firmware. NAND: acceso por bloques, alta densidad, bajo coste, para SSD y dispositivos masivos.",
+      "texto": null,
+      "respuestas": [],
+      "tags": [],
+      "verificado": false
+    },
+    {
+      "concepto_id": "c-6006883dc204",
+      "modo": "anverso-reverso",
+      "anverso": "¿Qué son BIOS y UEFI?",
+      "reverso": "Firmware de la placa base; BIOS inicializa hardware y arranca (POST, MBR). UEFI sucesor en C, con GUI, red, Secure Boot y arranque más rápido.",
+      "texto": null,
+      "respuestas": [],
+      "tags": [],
+      "verificado": false
+    },
+    {
+      "concepto_id": "c-6cf43c518e65",
+      "modo": "anverso-reverso",
+      "anverso": "¿Qué es un bit?",
+      "reverso": "Dígito binario que solo puede valer 0 o 1; es la unidad mínima de información.",
+      "texto": null,
+      "respuestas": [],
+      "tags": [
+        "bit",
+        "memoria",
+        "numeracion"
+      ],
+      "verificado": false
+    },
+    {
+      "concepto_id": "c-9033f51c9e56",
+      "modo": "anverso-reverso",
+      "anverso": "¿Qué es un nibble?",
+      "reverso": "Grupo de 4 bits; corresponde exactamente a un dígito hexadecimal.",
+      "texto": null,
+      "respuestas": [],
+      "tags": [
+        "nibble",
+        "bits",
+        "hexadecimal"
+      ],
+      "verificado": false
+    },
+    {
+      "concepto_id": "c-9c3be0161fcd",
+      "modo": "anverso-reverso",
+      "anverso": "¿Qué es un byte?",
+      "reverso": "Grupo de 8 bits; es la unidad mínima que representa un carácter.",
+      "texto": null,
+      "respuestas": [],
+      "tags": [
+        "byte",
+        "memoria",
+        "codificacion"
+      ],
+      "verificado": false
+    },
+    {
+      "concepto_id": "c-c39c8059b254",
+      "modo": "anverso-reverso",
+      "anverso": "¿Qué es una palabra (word) en informática?",
+      "reverso": "Bloque fijo de bits que la CPU procesa como unidad; su tamaño varía por arquitectura (16, 32 o 64 bits).",
+      "texto": null,
+      "respuestas": [],
+      "tags": [
+        "word",
+        "cpu",
+        "arquitectura"
+      ],
+      "verificado": false
+    },
+    {
+      "concepto_id": "c-759e408d8060",
+      "modo": "anverso-reverso",
+      "anverso": "¿Para qué se crearon los prefijos binarios IEC (KiB, MiB...)?",
+      "reverso": "La IEC 60027-2 (2000) creó prefijos binarios (KiB, MiB, GiB...) para distinguirlos de los decimales del SI (KB, MB, GB): KiB=2^10, KB=10^3.",
+      "texto": null,
+      "respuestas": [],
+      "tags": [
+        "IEC",
+        "SI",
+        "memoria"
+      ],
+      "verificado": false
+    },
+    {
+      "concepto_id": "c-b05d85bc9933",
+      "modo": "anverso-reverso",
+      "anverso": "¿Cómo se mide la capacidad según el componente (RAM, disco, red)?",
+      "reverso": "RAM se mide en potencias de 2; discos duros y SSD en potencias de 10; redes siempre en decimal (bits por segundo).",
+      "texto": null,
+      "respuestas": [],
+      "tags": [
+        "RAM",
+        "disco",
+        "red"
+      ],
+      "verificado": false
+    },
+    {
+      "concepto_id": "c-e16c3d9f27a1",
+      "modo": "anverso-reverso",
+      "anverso": "¿Cómo muestra la capacidad un disco de 1 TB cada sistema operativo?",
+      "reverso": "Windows interpreta la capacidad en binario (muestra 931 GB en un disco de 1 TB); macOS y Linux la muestran en decimal (1 TB).",
+      "texto": null,
+      "respuestas": [],
+      "tags": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "verificado": false
+    },
+    {
+      "concepto_id": "c-398c400ff67b",
+      "modo": "anverso-reverso",
+      "anverso": "¿Cuánto espacio disponible muestra Windows para un SSD de 2 TB?",
+      "reverso": "Un SSD de 2 TB (2×10^12 B) se muestra en Windows como unos 1,82 TiB; 'faltan' unos 181 GB por la diferencia binario/decimal.",
+      "texto": null,
+      "respuestas": [],
+      "tags": [
+        "SSD",
+        "capacidad",
+        "Windows"
+      ],
+      "verificado": false
+    },
+    {
+      "concepto_id": "c-9204a58b8451",
+      "modo": "anverso-reverso",
+      "anverso": "¿Qué magnitudes de referencia se dan para volúmenes de datos?",
+      "reverso": "Referencias: Biblia ~5 MB; foto 48 MP ~12 MB; película 4K 2 h ~60 GB; Wikipedia ES ~80 GB; libros España ~5 TB; mundo ~400 EB/día y ~181 ZB en 2025.",
+      "texto": null,
+      "respuestas": [],
+      "tags": [
+        "volumenes",
+        "referencia",
+        "datos"
+      ],
+      "verificado": false
+    },
+    {
+      "concepto_id": "c-6a8b0c8d9c1c",
+      "modo": "anverso-reverso",
+      "anverso": "¿Qué es el sistema binario y dónde se usa?",
+      "reverso": "Sistema de base 2 con símbolos 0 y 1; es el utilizado internamente por los ordenadores para todos los procesos.",
+      "texto": null,
+      "respuestas": [],
+      "tags": [
+        "binario",
+        "base2",
+        "ordenador"
+      ],
+      "verificado": false
+    },
+    {
+      "concepto_id": "c-51d9fea868e3",
+      "modo": "anverso-reverso",
+      "anverso": "¿Qué es el sistema hexadecimal y para qué se usa?",
+      "reverso": "Sistema de base 16 (0-9, A-F) usado como notación corta del binario: cada dígito hex equivale a 4 bits.",
+      "texto": null,
+      "respuestas": [],
+      "tags": [
+        "hexadecimal",
+        "base16",
+        "notacion"
+      ],
+      "verificado": false
+    },
+    {
+      "concepto_id": "c-7f8ab2f90a79",
+      "modo": "anverso-reverso",
+      "anverso": "¿Qué es el sistema octal y dónde se usa?",
+      "reverso": "Sistema de base 8 (símbolos 0-7) usado como representación compacta del binario, por ejemplo en permisos Unix.",
+      "texto": null,
+      "respuestas": [],
+      "tags": [
+        "octal",
+        "base8",
+        "permisos"
+      ],
+      "verificado": false
+    },
+    {
+      "concepto_id": "c-73b46913c322",
+      "modo": "anverso-reverso",
+      "anverso": "¿Cómo se convierte un número decimal a binario?",
+      "reverso": "Se divide el número entre 2 sucesivamente y se leen los restos de abajo arriba; ejemplo: 25₁₀ = 11001₂.",
+      "texto": null,
+      "respuestas": [],
+      "tags": [
+        "conversion",
+        "decimal",
+        "binario"
+      ],
+      "verificado": false
+    },
+    {
+      "concepto_id": "c-c0df006ad170",
+      "modo": "anverso-reverso",
+      "anverso": "¿Cómo se convierte un número binario a decimal?",
+      "reverso": "Se suman las potencias de 2 correspondientes a los bits en 1; ejemplo: 10110₂ = 16+4+2 = 22₁₀.",
+      "texto": null,
+      "respuestas": [],
+      "tags": [
+        "conversion",
+        "binario",
+        "decimal"
+      ],
+      "verificado": false
+    },
+    {
+      "concepto_id": "c-394ff9022eb5",
+      "modo": "anverso-reverso",
+      "anverso": "¿Cómo se convierte binario a hexadecimal?",
+      "reverso": "Se agrupan los bits en nibbles de 4 y se convierte cada grupo; ejemplo: 11010111₂ = D7₁₆.",
+      "texto": null,
+      "respuestas": [],
+      "tags": [
+        "conversion",
+        "binario",
+        "hexadecimal"
+      ],
+      "verificado": false
+    },
+    {
+      "concepto_id": "c-adcd1b586d35",
+      "modo": "anverso-reverso",
+      "anverso": "¿Cómo se convierte hexadecimal a binario?",
+      "reverso": "Cada dígito hexadecimal se expande a 4 bits: 0→0000, ..., 9→1001, A→1010, ..., F→1111.",
+      "texto": null,
+      "respuestas": [],
+      "tags": [
+        "conversion",
+        "hexadecimal",
+        "binario"
+      ],
+      "verificado": false
+    },
+    {
+      "concepto_id": "c-2d49f1317329",
+      "modo": "anverso-reverso",
+      "anverso": "¿Cómo se representa un número negativo en complemento a 2?",
+      "reverso": "Para representar negativos se invierten todos los bits (complemento a 1) y se suma 1; el bit más significativo a 1 indica negativo.",
+      "texto": null,
+      "respuestas": [],
+      "tags": [
+        "complemento2",
+        "negativos",
+        "binario"
+      ],
+      "verificado": false
+    },
+    {
+      "concepto_id": "c-d3343c97feeb",
+      "modo": "anverso-reverso",
+      "anverso": "¿Qué rango de enteros permite 8 bits en complemento a 2?",
+      "reverso": "Con 8 bits en complemento a 2 se representan los enteros de -128 a +127, con una única representación del cero.",
+      "texto": null,
+      "respuestas": [],
+      "tags": [
+        "rango",
+        "8bits",
+        "complemento2"
+      ],
+      "verificado": false
+    },
+    {
+      "concepto_id": "c-b9fea041b7cb",
+      "modo": "anverso-reverso",
+      "anverso": "¿Qué es IEEE 754?",
+      "reverso": "Estándar de coma flotante (1985, rev. 2008/2019): valor = (-1)^signo × mantisa × 2^exponente.",
+      "texto": null,
+      "respuestas": [],
+      "tags": [
+        "IEEE754",
+        "flotante",
+        "real"
+      ],
+      "verificado": false
+    },
+    {
+      "concepto_id": "c-3a4b43530f10",
+      "modo": "anverso-reverso",
+      "anverso": "¿Cómo se compone un float de 32 bits (IEEE 754)?",
+      "reverso": "Precisión simple (float, 32 bits): 1 bit de signo, 8 de exponente y 23 de mantisa; rango aproximado ±3,4×10^38.",
+      "texto": null,
+      "respuestas": [],
+      "tags": [
+        "FP32",
+        "single",
+        "32bits"
+      ],
+      "verificado": false
+    },
+    {
+      "concepto_id": "c-484b0e323e97",
+      "modo": "anverso-reverso",
+      "anverso": "¿Cómo se compone un double de 64 bits (IEEE 754)?",
+      "reverso": "Precisión doble (double, 64 bits): 1 bit de signo, 11 de exponente y 52 de mantisa; rango aproximado ±1,8×10^308.",
+      "texto": null,
+      "respuestas": [],
+      "tags": [
+        "FP64",
+        "double",
+        "64bits"
+      ],
+      "verificado": false
+    },
+    {
+      "concepto_id": "c-109c267796b5",
+      "modo": "anverso-reverso",
+      "anverso": "¿Qué valores especiales define IEEE 754?",
+      "reverso": "IEEE 754 define los valores especiales +0, -0, +∞, -∞ y NaN (Not a Number).",
+      "texto": null,
+      "respuestas": [],
+      "tags": [
+        "NaN",
+        "infinito",
+        "cero"
+      ],
+      "verificado": false
+    },
+    {
+      "concepto_id": "c-416669386e86",
+      "modo": "anverso-reverso",
+      "anverso": "¿Qué es ASCII?",
+      "reverso": "Código de 7 bits (128 caracteres: 33 de control y 95 imprimibles), creado en 1963 por ASA/ANSI; RFC-20.",
+      "texto": null,
+      "respuestas": [],
+      "tags": [
+        "ASCII",
+        "7bits",
+        "caracteres"
+      ],
+      "verificado": false
+    },
+    {
+      "concepto_id": "c-e4ce7d3c7fa5",
+      "modo": "anverso-reverso",
+      "anverso": "¿Cuáles son los code points ASCII notables?",
+      "reverso": "Code points notables: NUL 0, LF 10, CR 13, espacio 32, dígitos 0-9 en 48-57, A-Z en 65-90, a-z en 97-122, DEL 127.",
+      "texto": null,
+      "respuestas": [],
+      "tags": [
+        "ASCII",
+        "codepoints",
+        "letras"
+      ],
+      "verificado": false
+    },
+    {
+      "concepto_id": "c-663855e986f0",
+      "modo": "anverso-reverso",
+      "anverso": "¿Qué es el ASCII extendido?",
+      "reverso": "Juegos de 8 bits cuyos códigos 32-126 coinciden con ASCII y 128-255 añaden caracteres; codepages (437, 850, ISO 8859-1, Windows-1252, ISO 8859-15). No permite combinar idiomas.",
+      "texto": null,
+      "respuestas": [],
+      "tags": [
+        "ASCII",
+        "8bits",
+        "codepage"
+      ],
+      "verificado": false
+    },
+    {
+      "concepto_id": "c-53ab5cef82bc",
+      "modo": "anverso-reverso",
+      "anverso": "¿Qué es Unicode?",
+      "reverso": "Estándar universal de codificación (versión 15.1, 2023) que asigna un code point único a cada carácter; 149.186 caracteres en 17 planos de 65.536, >160 scripts.",
+      "texto": null,
+      "respuestas": [],
+      "tags": [
+        "Unicode",
+        "codepoint",
+        "universal"
+      ],
+      "verificado": false
+    },
+    {
+      "concepto_id": "c-9f87952c473c",
+      "modo": "anverso-reverso",
+      "anverso": "¿Qué es UTF-8?",
+      "reverso": "Codificación de longitud variable de 1 a 4 bytes por carácter; es la dominante en la web (~98% de páginas en 2024).",
+      "texto": null,
+      "respuestas": [],
+      "tags": [
+        "UTF8",
+        "codificacion",
+        "web"
+      ],
+      "verificado": false
+    },
+    {
+      "concepto_id": "c-68f3e9b83cd9",
+      "modo": "anverso-reverso",
+      "anverso": "¿Cuántos bytes usa UTF-8 según el rango Unicode?",
+      "reverso": "1 byte para U+0000–U+007F (ASCII), 2 para U+0080–U+07FF, 3 para U+0800–U+FFFF y 4 para U+10000–U+10FFFF.",
+      "texto": null,
+      "respuestas": [],
+      "tags": [
+        "UTF8",
+        "bytes",
+        "rango"
+      ],
+      "verificado": false
+    },
+    {
+      "concepto_id": "c-557e05a12c34",
+      "modo": "anverso-reverso",
+      "anverso": "¿Qué es UTF-16?",
+      "reverso": "Codificación de longitud variable de 2 o 4 bytes; usada por Windows NT, Java y JavaScript; BMP en 2 bytes y suplementarios en 4 (surrogate pairs).",
+      "texto": null,
+      "respuestas": [],
+      "tags": [
+        "UTF16",
+        "Windows",
+        "Java"
+      ],
+      "verificado": false
+    },
+    {
+      "concepto_id": "c-c9572ec308c1",
+      "modo": "anverso-reverso",
+      "anverso": "¿Qué es UTF-32?",
+      "reverso": "Codificación de longitud fija de 4 bytes por carácter; permite acceso O(1) por índice, pero ocupa 4× más espacio y es rara en práctica.",
+      "texto": null,
+      "respuestas": [],
+      "tags": [
+        "UTF32",
+        "4bytes",
+        "O1"
+      ],
+      "verificado": false
+    },
+    {
+      "concepto_id": "c-6b23e5d2c965",
+      "modo": "anverso-reverso",
+      "anverso": "¿Qué es el BOM y qué bytes lo identifican?",
+      "reverso": "Marca U+FEFF al inicio del fichero: UTF-8 EF BB BF; UTF-16 BE FE FF; UTF-16 LE FF FE; UTF-32 BE 00 00 FE FF.",
+      "texto": null,
+      "respuestas": [],
+      "tags": [
+        "BOM",
+        "U+FEFF",
+        "codificacion"
+      ],
+      "verificado": false
+    },
+    {
+      "concepto_id": "c-fc4ac0858afa",
+      "modo": "anverso-reverso",
+      "anverso": "¿Cuáles son las formas de normalización Unicode?",
+      "reverso": "Formas de normalización Unicode: NFC (composición canónica, preferida en web), NFD (descomposición), NFKC y NFKD (compatibilidad).",
+      "texto": null,
+      "respuestas": [],
+      "tags": [
+        "normalizacion",
+        "NFC",
+        "NFD"
+      ],
+      "verificado": false
+    },
+    {
+      "concepto_id": "c-9b45194f802a",
+      "modo": "anverso-reverso",
+      "anverso": "¿Qué es EBCDIC?",
+      "reverso": "Código de 8 bits de IBM (1963, System/360), usado en mainframe z/OS; incompatible con ASCII porque las letras no son contiguas.",
+      "texto": null,
+      "respuestas": [],
+      "tags": [
+        "EBCDIC",
+        "IBM",
+        "mainframe"
+      ],
+      "verificado": false
+    },
+    {
+      "concepto_id": "c-985d2131aaa8",
+      "modo": "anverso-reverso",
+      "anverso": "¿Qué es ISO/IEC 10646?",
+      "reverso": "Norma internacional equivalente a Unicode en repertorio; ISO (1984) y Unicode Consortium (1987) se fusionaron en 1991; Unicode es implementación más rica.",
+      "texto": null,
+      "respuestas": [],
+      "tags": [
+        "ISO10646",
+        "Unicode",
+        "norma"
+      ],
+      "verificado": false
+    }
+  ]
+}

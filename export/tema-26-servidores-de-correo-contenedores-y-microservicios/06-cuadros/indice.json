@@ -1,0 +1,23 @@
+{
+  "tema_id": "tema-26-servidores-de-correo-contenedores-y-microservicios",
+  "cuadros": [
+    {
+      "id": "cuadro-puertos-correo",
+      "tipo_dato": "puertos",
+      "n_filas": 4,
+      "semilla": false
+    },
+    {
+      "id": "cuadro-k8s-objetos",
+      "tipo_dato": "kubernetes",
+      "n_filas": 9,
+      "semilla": false
+    },
+    {
+      "id": "cuadro-microservicios-estrategias",
+      "tipo_dato": "comparativa",
+      "n_filas": 2,
+      "semilla": false
+    }
+  ]
+}

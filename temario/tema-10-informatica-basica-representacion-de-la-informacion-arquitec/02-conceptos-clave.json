@@ -1,0 +1,1850 @@
+{
+  "tema_id": "tema-10-informatica-basica-representacion-de-la-informacion-arquitec",
+  "total": 100,
+  "conceptos": [
+    {
+      "id": "c-ed866875ef19",
+      "nombre": "Dato",
+      "tipo": "definicion",
+      "valor": null,
+      "norma": "ISO-2382",
+      "articulo": null,
+      "tags": [
+        "dato",
+        "informacion",
+        "ISO-2382"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": [],
+      "resumen": "Representación simbólica de un atributo; mínima unidad semántica sin significado contextual."
+    },
+    {
+      "id": "c-133a27702e2e",
+      "nombre": "Información",
+      "tipo": "definicion",
+      "valor": null,
+      "norma": "ISO-2382",
+      "articulo": null,
+      "tags": [
+        "informacion",
+        "dato",
+        "contexto"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": [],
+      "resumen": "Datos procesados y contextualizados con significado útil para la toma de decisiones."
+    },
+    {
+      "id": "c-c45267e40672",
+      "nombre": "Requisitos de la información",
+      "tipo": "clasificacion",
+      "valor": null,
+      "norma": "Tema 10 §1.2",
+      "articulo": null,
+      "tags": [
+        "integridad",
+        "inequivocidad",
+        "calidad"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": [],
+      "resumen": "Integridad e inequivocidad; además relevante, precisa, completa y adecuada."
+    },
+    {
+      "id": "c-d283fe044947",
+      "nombre": "Pirámide DIKW",
+      "tipo": "clasificacion",
+      "valor": null,
+      "norma": "Tema 10 §1.3",
+      "articulo": null,
+      "tags": [
+        "dato",
+        "informacion",
+        "conocimiento",
+        "sabiduria"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": [],
+      "resumen": "Cuatro niveles: dato, información, conocimiento y sabiduría, atribuida a Ackoff."
+    },
+    {
+      "id": "c-f07da262fc0e",
+      "nombre": "Ciclo de vida del dato",
+      "tipo": "proceso",
+      "valor": null,
+      "norma": "Tema 10 §1.4",
+      "articulo": null,
+      "tags": [
+        "DLM",
+        "captura",
+        "almacenamiento",
+        "procesamiento"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": [],
+      "resumen": "Seis fases: captura, almacenamiento, procesamiento, uso, publicación, archivo/eliminación."
+    },
+    {
+      "id": "c-441398d65cb2",
+      "nombre": "Calidad del dato",
+      "tipo": "clasificacion",
+      "valor": null,
+      "norma": "ISO/IEC 25012",
+      "articulo": null,
+      "tags": [
+        "exactitud",
+        "completitud",
+        "consistencia",
+        "actualidad"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": [],
+      "resumen": "Dimensiones: exactitud, completitud, consistencia y oportunidad; modelo ISO/IEC 25012."
+    },
+    {
+      "id": "c-cc5f24097970",
+      "nombre": "Metadatos",
+      "tipo": "definicion",
+      "valor": null,
+      "norma": "ISO-11179",
+      "articulo": null,
+      "tags": [
+        "metadatos",
+        "descriptivos",
+        "estructurales",
+        "administrativos"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": [],
+      "resumen": "Datos sobre los datos: descriptivos, estructurales y administrativos."
+    },
+    {
+      "id": "c-92e71f3302d5",
+      "nombre": "Clasificación de datos por función",
+      "tipo": "clasificacion",
+      "valor": null,
+      "norma": "Tema 10 §1.7.1",
+      "articulo": null,
+      "tags": [
+        "entrada",
+        "intermedios",
+        "salida"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": [],
+      "resumen": "Datos de entrada, intermedios y de salida según su función en el SI."
+    },
+    {
+      "id": "c-ce97d02f60f3",
+      "nombre": "Clasificación de datos por naturaleza",
+      "tipo": "clasificacion",
+      "valor": null,
+      "norma": "Tema 10 §1.7.2",
+      "articulo": null,
+      "tags": [
+        "numerico",
+        "alfabetico",
+        "alfanumerico",
+        "booleano",
+        "multimedia"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": [],
+      "resumen": "Numéricos, alfabéticos, alfanuméricos, lógicos y multimedia."
+    },
+    {
+      "id": "c-aab1289e1843",
+      "nombre": "Clasificación de datos por variabilidad",
+      "tipo": "clasificacion",
+      "valor": null,
+      "norma": "Tema 10 §1.7.3",
+      "articulo": null,
+      "tags": [
+        "fijo",
+        "variable"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": [],
+      "resumen": "Datos fijos o constantes frente a datos variables."
+    },
+    {
+      "id": "c-e7645bd097c7",
+      "nombre": "Clasificación de datos por estructura",
+      "tipo": "clasificacion",
+      "valor": null,
+      "norma": "Tema 10 §1.7.4",
+      "articulo": null,
+      "tags": [
+        "estructurado",
+        "semi-estructurado",
+        "no estructurado"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": [],
+      "resumen": "Estructurados, semi-estructurados y no estructurados."
+    },
+    {
+      "id": "c-e532492ff13c",
+      "nombre": "Tipos primitivos de datos",
+      "tipo": "clasificacion",
+      "valor": null,
+      "norma": "ISO/IEC 11404",
+      "articulo": null,
+      "tags": [
+        "enteros",
+        "reales",
+        "booleanos",
+        "caracter"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": [],
+      "resumen": "Familias ISO/IEC 11404: enteros, reales, lógicos y carácter."
+    },
+    {
+      "id": "c-9e26556ffcea",
+      "nombre": "Formato IEEE-754",
+      "tipo": "cifra",
+      "valor": "Float 32 bits; Double 64 bits",
+      "norma": "IEEE-754",
+      "articulo": null,
+      "tags": [
+        "coma flotante",
+        "float",
+        "double"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": [],
+      "resumen": "Reales en coma flotante: float 1+8+23 bits; double 1+11+52 bits."
+    },
+    {
+      "id": "c-b2902e4f3460",
+      "nombre": "Tipos de datos compuestos",
+      "tipo": "clasificacion",
+      "valor": null,
+      "norma": "Tema 10 §1.7.6",
+      "articulo": null,
+      "tags": [
+        "array",
+        "struct",
+        "union",
+        "enum",
+        "string"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": [],
+      "resumen": "Array, struct, union, enumeración y cadena de caracteres."
+    },
+    {
+      "id": "c-e2945d71edb0",
+      "nombre": "Tipo Abstracto de Datos (TAD)",
+      "tipo": "definicion",
+      "valor": null,
+      "norma": "Tema 10 §1.7.7",
+      "articulo": null,
+      "tags": [
+        "TAD",
+        "pila",
+        "cola",
+        "lista",
+        "arbol",
+        "grafo"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": [],
+      "resumen": "Conjunto de valores y operaciones independiente de la implementación."
+    },
+    {
+      "id": "c-e3885432d39e",
+      "nombre": "Tipos de datos en SQL",
+      "tipo": "clasificacion",
+      "valor": null,
+      "norma": "ISO/IEC 9075:2023",
+      "articulo": null,
+      "tags": [
+        "SQL",
+        "INTEGER",
+        "VARCHAR",
+        "BLOB",
+        "DATE"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": [],
+      "resumen": "Catálogo SQL:2023: numéricos, cadenas, binarios, temporales, booleanos."
+    },
+    {
+      "id": "c-d29327966a6a",
+      "nombre": "Tipado en lenguajes de programación",
+      "tipo": "clasificacion",
+      "valor": null,
+      "norma": "Tema 10 §1.7.9",
+      "articulo": null,
+      "tags": [
+        "estatico",
+        "dinamico",
+        "fuerte",
+        "debil"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": [],
+      "resumen": "Ejes independientes: estático/dinámico y fuerte/débil."
+    },
+    {
+      "id": "c-2d15b17d5254",
+      "nombre": "Sistema de información",
+      "tipo": "definicion",
+      "valor": null,
+      "norma": "ISO-2382",
+      "articulo": null,
+      "tags": [
+        "SI",
+        "ISO-2382",
+        "informacion"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": [],
+      "resumen": "Conjunto de elementos para tratamiento de información disponible eficientemente."
+    },
+    {
+      "id": "c-82a38f14eae4",
+      "nombre": "Componentes de un sistema de información",
+      "tipo": "clasificacion",
+      "valor": null,
+      "norma": "Tema 10 §2.2",
+      "articulo": null,
+      "tags": [
+        "hardware",
+        "software",
+        "datos",
+        "procedimientos",
+        "usuarios",
+        "red",
+        "feedback"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": [],
+      "resumen": "Siete componentes: hardware, software, datos, procedimientos, usuarios, red, feedback."
+    },
+    {
+      "id": "c-410ba594c191",
+      "nombre": "Características de un sistema de información",
+      "tipo": "clasificacion",
+      "valor": null,
+      "norma": "ISO/IEC 25010",
+      "articulo": null,
+      "tags": [
+        "disponibilidad",
+        "fiabilidad",
+        "seguridad",
+        "backup"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": [],
+      "resumen": "Diez características: disponibilidad, selección, adaptabilidad, relación, tiempo, exactitud, flexibilidad, fiabilidad, seguridad, backups."
+    },
+    {
+      "id": "c-1e6d8dc2d9d1",
+      "nombre": "Elementos funcionales del SI",
+      "tipo": "clasificacion",
+      "valor": null,
+      "norma": "Tema 10 §2.4",
+      "articulo": null,
+      "tags": [
+        "base datos",
+        "transacciones",
+        "informes",
+        "procesos"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": [],
+      "resumen": "Base de datos, transacciones, informes, procesos, usuario, procedimientos y módulos."
+    },
+    {
+      "id": "c-d5306cfac6f9",
+      "nombre": "Funciones principales del SI",
+      "tipo": "clasificacion",
+      "valor": null,
+      "norma": "Tema 10 §2.5",
+      "articulo": null,
+      "tags": [
+        "EAPS",
+        "entrada",
+        "almacenamiento",
+        "procesamiento",
+        "salida"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": [],
+      "resumen": "EAPS: entrada, almacenamiento, procesamiento y salida de información."
+    },
+    {
+      "id": "c-6f11c5f4163f",
+      "nombre": "Tipos de SI por nivel organizacional",
+      "tipo": "clasificacion",
+      "valor": null,
+      "norma": "Tema 10 §2.6",
+      "articulo": null,
+      "tags": [
+        "TPS",
+        "MIS",
+        "DSS",
+        "EIS"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": [],
+      "resumen": "TPS, MIS, DSS y EIS según nivel operativo a estratégico."
+    },
+    {
+      "id": "c-efa175226545",
+      "nombre": "Sistemas empresariales transversales",
+      "tipo": "clasificacion",
+      "valor": null,
+      "norma": "Tema 10 §2.7",
+      "articulo": null,
+      "tags": [
+        "ERP",
+        "CRM",
+        "SCM",
+        "BPM",
+        "BI",
+        "DWH"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": [],
+      "resumen": "ERP, CRM, SCM, BPM, BI y DWH atraviesan todos los niveles."
+    },
+    {
+      "id": "c-9f0e358ee0bb",
+      "nombre": "Metodologías de implantación de SI",
+      "tipo": "clasificacion",
+      "valor": null,
+      "norma": "Tema 10 §2.9",
+      "articulo": null,
+      "tags": [
+        "Metrica v3",
+        "ITIL",
+        "COBIT",
+        "agiles"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": [],
+      "resumen": "Métrica v3, ITIL v4, COBIT 2019 y metodologías ágiles."
+    },
+    {
+      "id": "c-007b70c6c02e",
+      "nombre": "Arquitectura de ordenadores",
+      "tipo": "definicion",
+      "valor": null,
+      "norma": "STALLINGS-COA",
+      "articulo": null,
+      "tags": [
+        "arquitectura",
+        "ISA",
+        "organizacion"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": [],
+      "resumen": "Conjunto de reglas que especifican interrelaciones entre componentes lógicos y físicos."
+    },
+    {
+      "id": "c-32e7caf5199d",
+      "nombre": "Arquitectura vs organización",
+      "tipo": "comparativa",
+      "valor": null,
+      "norma": "Tema 10 §3",
+      "articulo": null,
+      "tags": [
+        "ISA",
+        "organizacion",
+        "compatibilidad"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": [],
+      "resumen": "Arquitectura es visión del programador; organización visión del ingeniero."
+    },
+    {
+      "id": "c-56c22b3c2736",
+      "nombre": "Arquitectura Von Neumann",
+      "tipo": "definicion",
+      "valor": null,
+      "norma": "STALLINGS-COA",
+      "articulo": null,
+      "tags": [
+        "Von Neumann",
+        "memoria unica",
+        "programa almacenado"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": [],
+      "resumen": "Memoria única para datos e instrucciones; programa almacenado; cuello de botella."
+    },
+    {
+      "id": "c-82cd1f3035e5",
+      "nombre": "Arquitectura Harvard",
+      "tipo": "definicion",
+      "valor": null,
+      "norma": "Tema 10 §3.2",
+      "articulo": null,
+      "tags": [
+        "Harvard",
+        "memoria separada",
+        "buses independientes"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": [],
+      "resumen": "Memoria de instrucciones y datos separadas con buses independientes."
+    },
+    {
+      "id": "c-d4305ce65f85",
+      "nombre": "Arquitectura Harvard modificada",
+      "tipo": "definicion",
+      "valor": null,
+      "norma": "Tema 10 §3.3",
+      "articulo": null,
+      "tags": [
+        "Harvard modificada",
+        "cache L1",
+        "PCs"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": [],
+      "resumen": "Memoria principal única y caché L1 separada en instrucciones y datos."
+    },
+    {
+      "id": "c-6168f3c02efd",
+      "nombre": "Comparativa Von Neumann vs Harvard",
+      "tipo": "comparativa",
+      "valor": null,
+      "norma": "Tema 10 §3.2",
+      "articulo": null,
+      "tags": [
+        "memoria",
+        "buses",
+        "cuello de botella"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": [],
+      "resumen": "Von Neumann memoria única y bus compartido; Harvard separada y simultánea."
+    },
+    {
+      "id": "c-d1dd4a6463f9",
+      "nombre": "Generaciones de ordenadores",
+      "tipo": "definicion",
+      "valor": null,
+      "norma": "Tema 10 §4",
+      "articulo": null,
+      "tags": [
+        "generaciones",
+        "tecnologia",
+        "programacion",
+        "sociedad"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": [],
+      "resumen": "Definidas por tecnología vigente, técnicas de programación e impacto en la sociedad."
+    },
+    {
+      "id": "c-fab96d39a7b9",
+      "nombre": "Primera generación (1940-1952)",
+      "tipo": "clasificacion",
+      "valor": null,
+      "norma": "Tema 10 §4.1",
+      "articulo": null,
+      "tags": [
+        "valvulas",
+        "vacío",
+        "ENIAC",
+        "milisegundos"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": [],
+      "resumen": "Válvulas de vacío; memoria tarjetas y cintas perforadas; milisegundos; ENIAC."
+    },
+    {
+      "id": "c-dbe2adee451b",
+      "nombre": "Segunda generación (1952-1964)",
+      "tipo": "clasificacion",
+      "valor": null,
+      "norma": "Tema 10 §4.2",
+      "articulo": null,
+      "tags": [
+        "transistor",
+        "ferrita",
+        "Fortran",
+        "Cobol"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": [],
+      "resumen": "Transistores; núcleos de ferrita; lenguajes Fortran, Cobol y Algol."
+    },
+    {
+      "id": "c-9cbf645f23f2",
+      "nombre": "Tercera generación (1964-1970)",
+      "tipo": "clasificacion",
+      "valor": null,
+      "norma": "Tema 10 §4.3",
+      "articulo": null,
+      "tags": [
+        "circuitos integrados",
+        "SSI",
+        "MSI",
+        "multiprogramacion"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": [],
+      "resumen": "Circuitos integrados SSI/MSI; DRAM; multiprogramación y time-sharing."
+    },
+    {
+      "id": "c-dca6c6efda63",
+      "nombre": "Cuarta generación (1971-1981)",
+      "tipo": "clasificacion",
+      "valor": null,
+      "norma": "Tema 10 §4.4",
+      "articulo": null,
+      "tags": [
+        "LSI",
+        "VLSI",
+        "microprocesador",
+        "Intel 4004"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": [],
+      "resumen": "LSI/VLSI; Intel 4004; disquete; primeros ordenadores personales."
+    },
+    {
+      "id": "c-ce2a2edfedf2",
+      "nombre": "Quinta generación (1981-1991)",
+      "tipo": "clasificacion",
+      "valor": null,
+      "norma": "Tema 10 §4.5",
+      "articulo": null,
+      "tags": [
+        "VLSI",
+        "ULSI",
+        "IA",
+        "GUI",
+        "Internet"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": [],
+      "resumen": "VLSI/ULSI; inteligencia artificial; interfaces gráficas; Internet y Web."
+    },
+    {
+      "id": "c-fe911564797b",
+      "nombre": "Sexta generación (1991-actualidad)",
+      "tipo": "clasificacion",
+      "valor": null,
+      "norma": "Tema 10 §4.6",
+      "articulo": null,
+      "tags": [
+        "multinucleo",
+        "nube",
+        "cuantica",
+        "neuromorfica"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": [],
+      "resumen": "Multinúcleo, nube, dispositivos ubicuos, IA moderna, cuántica y neuromórfica."
+    },
+    {
+      "id": "c-00ca004e495e",
+      "nombre": "Bus",
+      "tipo": "definicion",
+      "valor": null,
+      "norma": "STALLINGS-COA, Cap. 3",
+      "articulo": null,
+      "tags": [
+        "bus",
+        "comunicacion",
+        "componentes"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": [],
+      "resumen": "Conjunto de circuitos que conecta y comunica componentes del ordenador."
+    },
+    {
+      "id": "c-a01e66de77e2",
+      "nombre": "Bus de control",
+      "tipo": "definicion",
+      "valor": null,
+      "norma": "Tema 10 §5.1",
+      "articulo": null,
+      "tags": [
+        "control",
+        "unidireccional",
+        "ordenes"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": [],
+      "resumen": "Unidireccional UC a componentes; transmite señales interpretadas como órdenes."
+    },
+    {
+      "id": "c-08cc53f9606d",
+      "nombre": "Bus de direcciones",
+      "tipo": "definicion",
+      "valor": null,
+      "norma": "Tema 10 §5.1",
+      "articulo": null,
+      "tags": [
+        "direcciones",
+        "memoria",
+        "unidireccional"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": [],
+      "resumen": "Unidireccional CPU a memoria; transporta direcciones de lectura y escritura."
+    },
+    {
+      "id": "c-7028fb3c2a0e",
+      "nombre": "Bus de datos",
+      "tipo": "definicion",
+      "valor": null,
+      "norma": "Tema 10 §5.1",
+      "articulo": null,
+      "tags": [
+        "datos",
+        "bidireccional",
+        "transferencia"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": [],
+      "resumen": "Bidireccional; traslada datos hacia y desde memoria y dispositivos."
+    },
+    {
+      "id": "c-bcd1247e9ef8",
+      "nombre": "Parámetros de un bus",
+      "tipo": "clasificacion",
+      "valor": null,
+      "norma": "Tema 10 §5.1",
+      "articulo": null,
+      "tags": [
+        "anchura",
+        "frecuencia",
+        "ancho banda",
+        "protocolo"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": [],
+      "resumen": "Anchura en bits, frecuencia, ancho de banda y protocolo síncrono o asíncrono."
+    },
+    {
+      "id": "c-703ead5a1577",
+      "nombre": "CPU",
+      "tipo": "definicion",
+      "valor": null,
+      "norma": "STALLINGS-COA, Cap. 3",
+      "articulo": null,
+      "tags": [
+        "CPU",
+        "procesador",
+        "UCP",
+        "microprocesador"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": [],
+      "resumen": "Unidad central de proceso; cerebro que coordina y ejecuta instrucciones."
+    },
+    {
+      "id": "c-b650df0fc439",
+      "nombre": "CISC",
+      "tipo": "tecnologia",
+      "valor": null,
+      "norma": "INTEL-SDM",
+      "articulo": null,
+      "tags": [
+        "CISC",
+        "x86-64",
+        "instrucciones complejas",
+        "uops"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": [],
+      "resumen": "Conjunto amplio de instrucciones complejas; traduce a microoperaciones RISC."
+    },
+    {
+      "id": "c-a92fd3b0e669",
+      "nombre": "RISC",
+      "tipo": "tecnologia",
+      "valor": null,
+      "norma": "STALLINGS-COA, Cap. 15",
+      "articulo": null,
+      "tags": [
+        "RISC",
+        "load-store",
+        "ARM",
+        "RISC-V"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": [],
+      "resumen": "Conjunto reducido de instrucciones simples; solo LOAD/STORE acceden a memoria."
+    },
+    {
+      "id": "c-7bc66dc69614",
+      "nombre": "Medidas de potencia de la CPU",
+      "tipo": "clasificacion",
+      "valor": null,
+      "norma": "Tema 10 §5.2.2",
+      "articulo": null,
+      "tags": [
+        "FLOPS",
+        "MIPS",
+        "IPC",
+        "frecuencia",
+        "TDP"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": [],
+      "resumen": "FLOPS, MIPS, IPC, frecuencia en GHz y TDP en vatios."
+    },
+    {
+      "id": "c-80e6ff4be123",
+      "nombre": "Multiprocesamiento, multinúcleo y multithreading",
+      "tipo": "clasificacion",
+      "valor": null,
+      "norma": "Tema 10 §5.2.3",
+      "articulo": null,
+      "tags": [
+        "multi-CPU",
+        "multi-core",
+        "SMT",
+        "HyperThreading"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": [],
+      "resumen": "Multi-CPU físico, multi-core en un chip y SMT/Hyper-Threading por núcleo."
+    },
+    {
+      "id": "c-86439a7c5f66",
+      "nombre": "Segmentación de instrucciones",
+      "tipo": "proceso",
+      "valor": null,
+      "norma": "Tema 10 §5.2.4",
+      "articulo": null,
+      "tags": [
+        "pipelining",
+        "etapas",
+        "IF",
+        "ID",
+        "EX",
+        "MEM",
+        "WB"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": [],
+      "resumen": "Ejecución solapada en etapas; cauce clásico de cinco etapas."
+    },
+    {
+      "id": "c-e41adead973a",
+      "nombre": "CPU superescalar",
+      "tipo": "tecnologia",
+      "valor": null,
+      "norma": "Tema 10 §5.2.5",
+      "articulo": null,
+      "tags": [
+        "superescalar",
+        "ILP",
+        "unidades funcionales"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": [],
+      "resumen": "Ejecuta varias instrucciones por ciclo replicando unidades funcionales."
+    },
+    {
+      "id": "c-dc032cf71b2c",
+      "nombre": "Ley de Moore",
+      "tipo": "definicion",
+      "valor": null,
+      "norma": "Tema 10 §5.2.6",
+      "articulo": null,
+      "tags": [
+        "transistores",
+        "miniaturizacion",
+        "chiplets",
+        "heterogeneo"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": [],
+      "resumen": "Transistores se duplican cada 18-24 meses; ralentizada desde 2015."
+    },
+    {
+      "id": "c-01d9b5231f74",
+      "nombre": "Registros de CPU",
+      "tipo": "definicion",
+      "valor": null,
+      "norma": "STALLINGS-COA, Cap. 12",
+      "articulo": null,
+      "tags": [
+        "registros",
+        "MAR",
+        "MBR",
+        "CP",
+        "RI",
+        "GPR"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": [],
+      "resumen": "Memoria rápida de la CPU para datos, direcciones, instrucción y estado."
+    },
+    {
+      "id": "c-393eef864075",
+      "nombre": "FLAGS, EFLAGS y RFLAGS",
+      "tipo": "definicion",
+      "valor": null,
+      "norma": "Tema 10 §5.3.1.1",
+      "articulo": null,
+      "tags": [
+        "FLAGS",
+        "EFLAGS",
+        "RFLAGS",
+        "CF",
+        "ZF",
+        "SF",
+        "OF"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": [],
+      "resumen": "Registro de estado x86 de 16, 32 o 64 bits; incluye CF, ZF, SF y OF."
+    },
+    {
+      "id": "c-e75f46853bee",
+      "nombre": "Unidad de Control",
+      "tipo": "definicion",
+      "valor": null,
+      "norma": "STALLINGS-COA, Cap. 20",
+      "articulo": null,
+      "tags": [
+        "UC",
+        "reloj",
+        "decodificador",
+        "secuenciador"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": [],
+      "resumen": "Controla el funcionamiento del procesador excepto la aritmética."
+    },
+    {
+      "id": "c-f5f609e0657b",
+      "nombre": "Unidad Aritmético-Lógica",
+      "tipo": "definicion",
+      "valor": null,
+      "norma": "STALLINGS-COA, Cap. 9",
+      "articulo": null,
+      "tags": [
+        "ALU",
+        "aritmetica",
+        "logica",
+        "COP",
+        "acumulador"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": [],
+      "resumen": "Ejecuta operaciones aritméticas y lógicas; incluye COP y acumulador."
+    },
+    {
+      "id": "c-3fe152342db5",
+      "nombre": "Ciclo de instrucción",
+      "tipo": "proceso",
+      "valor": null,
+      "norma": "STALLINGS-COA, Cap. 12",
+      "articulo": null,
+      "tags": [
+        "fetch",
+        "execute",
+        "CP",
+        "MAR",
+        "MBR",
+        "RI"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": [],
+      "resumen": "Fases de búsqueda y ejecución para cada instrucción."
+    },
+    {
+      "id": "c-e84891d83eea",
+      "nombre": "Modos de direccionamiento",
+      "tipo": "clasificacion",
+      "valor": null,
+      "norma": "STALLINGS-COA, Cap. 13",
+      "articulo": null,
+      "tags": [
+        "implícito",
+        "inmediato",
+        "directo",
+        "indirecto",
+        "base",
+        "índice"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": [],
+      "resumen": "Impropios: implícito e inmediato; propios: directo, indirecto, base e índice."
+    },
+    {
+      "id": "c-556be6bb3f6d",
+      "nombre": "Clasificación de memoria",
+      "tipo": "clasificacion",
+      "valor": null,
+      "norma": "Tema 10 §6.1",
+      "articulo": null,
+      "tags": [
+        "ubicacion",
+        "volatilidad",
+        "acceso",
+        "jerarquia"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": [],
+      "resumen": "Por ubicación, volatilidad, tipo de acceso y jerarquía."
+    },
+    {
+      "id": "c-64a411b99dcc",
+      "nombre": "Memoria RAM",
+      "tipo": "definicion",
+      "valor": null,
+      "norma": "JEDEC-DDR",
+      "articulo": null,
+      "tags": [
+        "RAM",
+        "volatil",
+        "acceso aleatorio",
+        "principal"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": [],
+      "resumen": "Memoria principal volátil de acceso aleatorio."
+    },
+    {
+      "id": "c-624e80df9080",
+      "nombre": "SRAM vs DRAM",
+      "tipo": "comparativa",
+      "valor": null,
+      "norma": "Tema 10 §6.2.1",
+      "articulo": null,
+      "tags": [
+        "SRAM",
+        "DRAM",
+        "refresco",
+        "cache"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": [],
+      "resumen": "SRAM biestables rápida para caché; DRAM condensador y refresco para principal."
+    },
+    {
+      "id": "c-a23b4b0da435",
+      "nombre": "Memoria virtual y paginación",
+      "tipo": "proceso",
+      "valor": null,
+      "norma": "TANENBAUM-SO, Cap. 3",
+      "articulo": null,
+      "tags": [
+        "virtual",
+        "pagina",
+        "TLB",
+        "MMU",
+        "fallo de pagina"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": [],
+      "resumen": "Páginas, tabla de páginas, TLB y fallo de página con disco."
+    },
+    {
+      "id": "c-00dd55db171a",
+      "nombre": "Memoria ROM",
+      "tipo": "definicion",
+      "valor": null,
+      "norma": "Tema 10 §6.3",
+      "articulo": null,
+      "tags": [
+        "ROM",
+        "no volatil",
+        "firmware",
+        "BIOS"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": [],
+      "resumen": "Memoria no volátil para firmware y rutinas de arranque."
+    },
+    {
+      "id": "c-652098f2fb84",
+      "nombre": "Tipos de memoria ROM",
+      "tipo": "clasificacion",
+      "valor": null,
+      "norma": "Tema 10 §6.3",
+      "articulo": null,
+      "tags": [
+        "PROM",
+        "EPROM",
+        "EEPROM",
+        "Flash"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": [],
+      "resumen": "ROM, PROM, EPROM, EEPROM y Flash."
+    },
+    {
+      "id": "c-01e0706f098f",
+      "nombre": "NAND vs NOR Flash",
+      "tipo": "comparativa",
+      "valor": null,
+      "norma": "Tema 10 §6.3.1",
+      "articulo": null,
+      "tags": [
+        "NAND",
+        "NOR",
+        "firmware",
+        "SSD"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": [],
+      "resumen": "NOR acceso aleatorio para firmware; NAND alta densidad para SSD."
+    },
+    {
+      "id": "c-6006883dc204",
+      "nombre": "BIOS y UEFI",
+      "tipo": "definicion",
+      "valor": null,
+      "norma": "UEFI-SPEC",
+      "articulo": null,
+      "tags": [
+        "BIOS",
+        "UEFI",
+        "firmware",
+        "Secure Boot",
+        "POST"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": [],
+      "resumen": "Firmware de arranque; UEFI sucede a BIOS con Secure Boot."
+    },
+    {
+      "id": "c-8e53f1cdffcf",
+      "nombre": "Medidas de capacidad de memoria",
+      "tipo": "clasificacion",
+      "valor": null,
+      "norma": "Tema 10 §7",
+      "articulo": null,
+      "tags": [
+        "bit",
+        "byte",
+        "KiB",
+        "MiB",
+        "prefijos"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": [],
+      "resumen": "Bit, byte, palabra y múltiplos binarios versus decimales."
+    },
+    {
+      "id": "c-6cf43c518e65",
+      "nombre": "Bit",
+      "tipo": "definicion",
+      "valor": "Dígito binario (0 o 1); unidad mínima de información.",
+      "norma": "Ayuntamiento de Madrid temario TAI (BOAM 10.032/2025)",
+      "articulo": null,
+      "tags": [
+        "definicion",
+        "numeracion"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": [],
+      "resumen": "El bit es la unidad mínima de información, tomando valores 0 o 1."
+    },
+    {
+      "id": "c-9033f51c9e56",
+      "nombre": "Nibble",
+      "tipo": "definicion",
+      "valor": "Grupo de 4 bits.",
+      "norma": "Ayuntamiento de Madrid temario TAI (BOAM 10.032/2025)",
+      "articulo": null,
+      "tags": [
+        "definicion",
+        "numeracion"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": [],
+      "resumen": "Un nibble agrupa 4 bits, base del dígito hexadecimal."
+    },
+    {
+      "id": "c-9c3be0161fcd",
+      "nombre": "Byte",
+      "tipo": "definicion",
+      "valor": "Grupo de 8 bits; unidad más pequeña que representa un carácter.",
+      "norma": "Ayuntamiento de Madrid temario TAI (BOAM 10.032/2025)",
+      "articulo": null,
+      "tags": [
+        "definicion",
+        "memoria",
+        "codificacion"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": [],
+      "resumen": "El byte agrupa 8 bits y es la unidad mínima de un carácter."
+    },
+    {
+      "id": "c-c39c8059b254",
+      "nombre": "Palabra (word)",
+      "tipo": "definicion",
+      "valor": "Grupo fijo de bits procesados como unidad, variable por arquitectura (16, 32 o 64 bits).",
+      "norma": "Ayuntamiento de Madrid temario TAI (BOAM 10.032/2025)",
+      "articulo": null,
+      "tags": [
+        "definicion",
+        "cpu",
+        "arquitectura"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": [],
+      "resumen": "La palabra es el grupo de bits que la CPU procesa como unidad."
+    },
+    {
+      "id": "c-759e408d8060",
+      "nombre": "Prefijos IEC binarios vs SI",
+      "tipo": "clasificacion",
+      "valor": "IEC 60027-2: KiB=2^10, MiB=2^20, GiB=2^30, TiB=2^40 (binario); SI: KB=10^3, MB=10^6, GB=10^9, TB=10^12 (decimal).",
+      "norma": "Ayuntamiento de Madrid temario TAI (BOAM 10.032/2025)",
+      "articulo": null,
+      "tags": [
+        "clasificacion",
+        "memoria",
+        "numeracion"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": [],
+      "resumen": "La norma IEC 60027-2 define prefijos binarios para evitar ambigüedad con SI."
+    },
+    {
+      "id": "c-b05d85bc9933",
+      "nombre": "Convenciones de medida por componente",
+      "tipo": "regla",
+      "valor": "RAM se mide en potencias de 2; discos y SSD en potencias de 10; redes siempre en decimal.",
+      "norma": "Ayuntamiento de Madrid temario TAI (BOAM 10.032/2025)",
+      "articulo": null,
+      "tags": [
+        "regla",
+        "memoria"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": [],
+      "resumen": "RAM usa binario, discos usan decimal y redes siempre decimal."
+    },
+    {
+      "id": "c-e16c3d9f27a1",
+      "nombre": "Visualización de capacidad por SO",
+      "tipo": "comparativa",
+      "valor": "Windows muestra capacidad en binario (931 GB en un disco de 1 TB); macOS y Linux en decimal (1 TB).",
+      "norma": "Ayuntamiento de Madrid temario TAI (BOAM 10.032/2025)",
+      "articulo": null,
+      "tags": [
+        "comparativa",
+        "memoria"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": [],
+      "resumen": "Windows interpreta capacidad en binario y macOS/Linux en decimal."
+    },
+    {
+      "id": "c-398c400ff67b",
+      "nombre": "Capacidad real de SSD de 2 TB en Windows",
+      "tipo": "cifra",
+      "valor": "Un SSD de 2 TB = 2×10^12 B ≈ 1,82 TiB mostrados en Windows.",
+      "norma": "Ayuntamiento de Madrid temario TAI (BOAM 10.032/2025)",
+      "articulo": null,
+      "tags": [
+        "cifra",
+        "memoria"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": [],
+      "resumen": "Un SSD de 2 TB muestra unos 1,82 TiB en Windows por diferencia de convenciones."
+    },
+    {
+      "id": "c-9204a58b8451",
+      "nombre": "Magnitudes de referencia de datos",
+      "tipo": "cifra",
+      "valor": "Biblia texto ~5 MB; foto 48 MP ~12 MB; película 4K 2h ~60 GB; Wikipedia ES ~80 GB; todos los libros de España ~5 TB; datos diarios mundo 2025 ~400 EB; total mundial 2025 ~181 ZB.",
+      "norma": "Ayuntamiento de Madrid temario TAI (BOAM 10.032/2025)",
+      "articulo": null,
+      "tags": [
+        "cifra",
+        "dato"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": [],
+      "resumen": "Magnitudes de referencia: Biblia ~5 MB, Wikipedia ES ~80 GB, total mundial ~181 ZB."
+    },
+    {
+      "id": "c-6a8b0c8d9c1c",
+      "nombre": "Sistema binario",
+      "tipo": "definicion",
+      "valor": "Sistema de numeración base 2 con símbolos 0 y 1; usado internamente por los ordenadores.",
+      "norma": "Ayuntamiento de Madrid temario TAI (BOAM 10.032/2025)",
+      "articulo": null,
+      "tags": [
+        "definicion",
+        "numeracion"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": [],
+      "resumen": "El sistema binario de base 2 es el usado internamente por los ordenadores."
+    },
+    {
+      "id": "c-51d9fea868e3",
+      "nombre": "Sistema hexadecimal",
+      "tipo": "definicion",
+      "valor": "Base 16 con símbolos 0-9 y A-F; cada dígito hex equivale a 4 bits (un nibble).",
+      "norma": "Ayuntamiento de Madrid temario TAI (BOAM 10.032/2025)",
+      "articulo": null,
+      "tags": [
+        "definicion",
+        "numeracion"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": [],
+      "resumen": "Hexadecimal es notación corta del binario: un dígito hex = 4 bits."
+    },
+    {
+      "id": "c-7f8ab2f90a79",
+      "nombre": "Sistema octal",
+      "tipo": "definicion",
+      "valor": "Base 8 con símbolos 0-7; representación compacta de binario (permisos Unix).",
+      "norma": "Ayuntamiento de Madrid temario TAI (BOAM 10.032/2025)",
+      "articulo": null,
+      "tags": [
+        "definicion",
+        "numeracion"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": [],
+      "resumen": "El sistema octal de base 8 se usa para permisos Unix."
+    },
+    {
+      "id": "c-73b46913c322",
+      "nombre": "Conversión decimal a binario",
+      "tipo": "proceso",
+      "valor": "Divisiones sucesivas por 2 leyendo restos de abajo a arriba; ejemplo 25₁₀ = 11001₂.",
+      "norma": "Ayuntamiento de Madrid temario TAI (BOAM 10.032/2025)",
+      "articulo": null,
+      "tags": [
+        "proceso",
+        "numeracion"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": [],
+      "resumen": "Decimal a binario por divisiones sucesivas leyendo restos de abajo arriba."
+    },
+    {
+      "id": "c-c0df006ad170",
+      "nombre": "Conversión binario a decimal",
+      "tipo": "proceso",
+      "valor": "Suma ponderada de potencias de 2; ejemplo 10110₂ = 22₁₀.",
+      "norma": "Ayuntamiento de Madrid temario TAI (BOAM 10.032/2025)",
+      "articulo": null,
+      "tags": [
+        "proceso",
+        "numeracion"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": [],
+      "resumen": "Binario a decimal mediante suma ponderada de potencias de 2."
+    },
+    {
+      "id": "c-394ff9022eb5",
+      "nombre": "Conversión binario a hexadecimal",
+      "tipo": "proceso",
+      "valor": "Agrupar bits en nibbles de 4 y convertir cada uno a hex; ejemplo 11010111₂ = D7₁₆.",
+      "norma": "Ayuntamiento de Madrid temario TAI (BOAM 10.032/2025)",
+      "articulo": null,
+      "tags": [
+        "proceso",
+        "numeracion"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": [],
+      "resumen": "Binario a hex agrupando en nibbles de 4 bits."
+    },
+    {
+      "id": "c-adcd1b586d35",
+      "nombre": "Conversión hexadecimal a binario",
+      "tipo": "sintaxis",
+      "valor": "Cada dígito hex se expande a 4 bits: 0→0000 ... 9→1001, A→1010, ..., F→1111.",
+      "norma": "Ayuntamiento de Madrid temario TAI (BOAM 10.032/2025)",
+      "articulo": null,
+      "tags": [
+        "sintaxis",
+        "numeracion"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": [],
+      "resumen": "Hexadecimal a binario expandiendo cada dígito a 4 bits."
+    },
+    {
+      "id": "c-2d49f1317329",
+      "nombre": "Complemento a 2",
+      "tipo": "regla",
+      "valor": "Para negativos: invertir bits (C1) y sumar 1; el MSB a 1 indica negativo. Ejemplo -5 en 8 bits = 11111011₂.",
+      "norma": "Ayuntamiento de Madrid temario TAI (BOAM 10.032/2025)",
+      "articulo": null,
+      "tags": [
+        "regla",
+        "numeracion"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": [],
+      "resumen": "Complemento a 2: invertir bits y sumar 1 para representar negativos."
+    },
+    {
+      "id": "c-d3343c97feeb",
+      "nombre": "Rango de 8 bits en complemento a 2",
+      "tipo": "cifra",
+      "valor": "Con 8 bits en complemento a 2 se representa de -128 a +127; el 0 tiene única representación.",
+      "norma": "Ayuntamiento de Madrid temario TAI (BOAM 10.032/2025)",
+      "articulo": null,
+      "tags": [
+        "cifra",
+        "numeracion"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": [],
+      "resumen": "Ocho bits en complemento a 2 representan de -128 a +127."
+    },
+    {
+      "id": "c-b9fea041b7cb",
+      "nombre": "IEEE 754 (coma flotante)",
+      "tipo": "definicion",
+      "valor": "Estándar para coma flotante (1985, rev. 2008/2019): valor = (-1)^signo × mantisa × 2^exponente.",
+      "norma": "Ayuntamiento de Madrid temario TAI (BOAM 10.032/2025)",
+      "articulo": null,
+      "tags": [
+        "definicion",
+        "numeracion"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": [],
+      "resumen": "IEEE 754 es el estándar de representación en coma flotante."
+    },
+    {
+      "id": "c-3a4b43530f10",
+      "nombre": "Precisión simple (FP32)",
+      "tipo": "cifra",
+      "valor": "Precisión simple (single, float): 32 bits = 1 signo + 8 exponente + 23 mantisa; rango ±3,4×10^38.",
+      "norma": "Ayuntamiento de Madrid temario TAI (BOAM 10.032/2025)",
+      "articulo": null,
+      "tags": [
+        "cifra",
+        "numeracion"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": [],
+      "resumen": "FP32 usa 1 bit signo, 8 exponente y 23 mantisa."
+    },
+    {
+      "id": "c-484b0e323e97",
+      "nombre": "Precisión doble (FP64)",
+      "tipo": "cifra",
+      "valor": "Precisión doble (double): 64 bits = 1 signo + 11 exponente + 52 mantisa; rango ±1,8×10^308.",
+      "norma": "Ayuntamiento de Madrid temario TAI (BOAM 10.032/2025)",
+      "articulo": null,
+      "tags": [
+        "cifra",
+        "numeracion"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": [],
+      "resumen": "FP64 usa 1 bit signo, 11 exponente y 52 mantisa."
+    },
+    {
+      "id": "c-109c267796b5",
+      "nombre": "Valores especiales IEEE 754",
+      "tipo": "clasificacion",
+      "valor": "Valores especiales: +0, -0, +∞, -∞, NaN (Not a Number).",
+      "norma": "Ayuntamiento de Madrid temario TAI (BOAM 10.032/2025)",
+      "articulo": null,
+      "tags": [
+        "clasificacion",
+        "numeracion"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": [],
+      "resumen": "IEEE 754 define +0, -0, ±∞ y NaN como valores especiales."
+    },
+    {
+      "id": "c-416669386e86",
+      "nombre": "ASCII",
+      "tipo": "definicion",
+      "valor": "Código de 7 bits (ASA/ANSI, 1963): 33 caracteres de control + 95 imprimibles = 128 caracteres (2^7).",
+      "norma": "Ayuntamiento de Madrid temario TAI (BOAM 10.032/2025)",
+      "articulo": null,
+      "tags": [
+        "definicion",
+        "codificacion"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": [],
+      "resumen": "ASCII usa 7 bits para 128 caracteres (control e imprimibles)."
+    },
+    {
+      "id": "c-e4ce7d3c7fa5",
+      "nombre": "Code points ASCII notables",
+      "tipo": "sintaxis",
+      "valor": "ASCII: dígitos 48-57, mayúsculas 65-90, minúsculas 97-122, espacio 32, LF 10, CR 13, DEL 127.",
+      "norma": "Ayuntamiento de Madrid temario TAI (BOAM 10.032/2025)",
+      "articulo": null,
+      "tags": [
+        "sintaxis",
+        "codificacion"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": [],
+      "resumen": "Code points ASCII notables: A-Z 65-90, a-z 97-122, 0-9 48-57."
+    },
+    {
+      "id": "c-663855e986f0",
+      "nombre": "ASCII extendido",
+      "tipo": "definicion",
+      "valor": "Juego de 8 bits donde 32-126 coinciden con ASCII imprimibles; 128-255 caracteres adicionales (acentos). Variantes: CP437, CP850, ISO-8859-1, Windows-1252, ISO-8859-15.",
+      "norma": "Ayuntamiento de Madrid temario TAI (BOAM 10.032/2025)",
+      "articulo": null,
+      "tags": [
+        "definicion",
+        "codificacion"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": [],
+      "resumen": "ASCII extendido usa 8 bits añadiendo caracteres en 128-255."
+    },
+    {
+      "id": "c-53ab5cef82bc",
+      "nombre": "Unicode",
+      "tipo": "definicion",
+      "valor": "Estándar universal (universalidad, uniformidad, unicidad): code point único por carácter; versión 15.1 (2023), 149.186 caracteres (2024) en 17 planos de 65.536.",
+      "norma": "Ayuntamiento de Madrid temario TAI (BOAM 10.032/2025)",
+      "articulo": null,
+      "tags": [
+        "definicion",
+        "codificacion"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": [],
+      "resumen": "Unicode asigna un code point único a cada carácter de todos los lenguajes."
+    },
+    {
+      "id": "c-9f87952c473c",
+      "nombre": "UTF-8",
+      "tipo": "definicion",
+      "valor": "Codificación de longitud variable 1-4 bytes por carácter; dominante en web (~98% de páginas en 2024); compatible 100% con US-ASCII.",
+      "norma": "Ayuntamiento de Madrid temario TAI (BOAM 10.032/2025)",
+      "articulo": null,
+      "tags": [
+        "definicion",
+        "codificacion"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": [],
+      "resumen": "UTF-8 es codificación de longitud variable 1-4 bytes, dominante en web."
+    },
+    {
+      "id": "c-68f3e9b83cd9",
+      "nombre": "Tabla de bytes UTF-8 por rango",
+      "tipo": "sintaxis",
+      "valor": "UTF-8: 1 byte U+0000-U+007F; 2 bytes U+0080-U+07FF; 3 bytes U+0800-U+FFFF; 4 bytes U+10000-U+10FFFF.",
+      "norma": "Ayuntamiento de Madrid temario TAI (BOAM 10.032/2025)",
+      "articulo": null,
+      "tags": [
+        "sintaxis",
+        "codificacion"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": [],
+      "resumen": "UTF-8 usa 1 a 4 bytes según el rango Unicode del carácter."
+    },
+    {
+      "id": "c-557e05a12c34",
+      "nombre": "UTF-16",
+      "tipo": "definicion",
+      "valor": "Longitud variable 2 o 4 bytes; BMP en 2 bytes, suplementarios en 4 (surrogate pairs); usado por Windows NT, Java, JavaScript.",
+      "norma": "Ayuntamiento de Madrid temario TAI (BOAM 10.032/2025)",
+      "articulo": null,
+      "tags": [
+        "definicion",
+        "codificacion"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": [],
+      "resumen": "UTF-16 usa 2 o 4 bytes y se usa en Windows, Java y JavaScript."
+    },
+    {
+      "id": "c-c9572ec308c1",
+      "nombre": "UTF-32",
+      "tipo": "definicion",
+      "valor": "Longitud fija de 4 bytes por carácter; acceso O(1) por índice; ocupa 4× más espacio; raro en práctica.",
+      "norma": "Ayuntamiento de Madrid temario TAI (BOAM 10.032/2025)",
+      "articulo": null,
+      "tags": [
+        "definicion",
+        "codificacion"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": [],
+      "resumen": "UTF-32 usa 4 bytes fijos por carácter, acceso O(1)."
+    },
+    {
+      "id": "c-6b23e5d2c965",
+      "nombre": "BOM (Byte Order Mark)",
+      "tipo": "sintaxis",
+      "valor": "U+FEFF al inicio del fichero: UTF-8 EF BB BF; UTF-16 BE FE FF; UTF-16 LE FF FE; UTF-32 BE 00 00 FE FF.",
+      "norma": "Ayuntamiento de Madrid temario TAI (BOAM 10.032/2025)",
+      "articulo": null,
+      "tags": [
+        "sintaxis",
+        "codificacion"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": [],
+      "resumen": "BOM (U+FEFF) marca la codificación al inicio del fichero."
+    },
+    {
+      "id": "c-fc4ac0858afa",
+      "nombre": "Normalización Unicode",
+      "tipo": "clasificacion",
+      "valor": "Formas: NFC (composición canónica), NFD (descomposición), NFKC (compatibilidad compuesta), NFKD (compatibilidad descompuesta).",
+      "norma": "Ayuntamiento de Madrid temario TAI (BOAM 10.032/2025)",
+      "articulo": null,
+      "tags": [
+        "clasificacion",
+        "codificacion"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": [],
+      "resumen": "Normalización Unicode: NFC, NFD, NFKC y NFKD."
+    },
+    {
+      "id": "c-9b45194f802a",
+      "nombre": "EBCDIC",
+      "tipo": "definicion",
+      "valor": "Código de 8 bits de IBM (1963) para System/360/mainframe z/OS; 256 combinaciones; incompatible con ASCII (letras no contiguas).",
+      "norma": "Ayuntamiento de Madrid temario TAI (BOAM 10.032/2025)",
+      "articulo": null,
+      "tags": [
+        "definicion",
+        "codificacion"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": [],
+      "resumen": "EBCDIC es código de 8 bits de IBM, incompatible con ASCII."
+    },
+    {
+      "id": "c-985d2131aaa8",
+      "nombre": "ISO/IEC 10646",
+      "tipo": "definicion",
+      "valor": "Norma internacional equivalente a Unicode en repertorio; proyectos separados fusionados en 1991; Unicode es implementación más rica.",
+      "norma": "Ayuntamiento de Madrid temario TAI (BOAM 10.032/2025)",
+      "articulo": null,
+      "tags": [
+        "definicion",
+        "codificacion"
+      ],
+      "verificado": false,
+      "es_semilla": true,
+      "es_principal": true,
+      "otros_temas": [],
+      "resumen": "ISO/IEC 10646 es la norma internacional equivalente a Unicode."
+    }
+  ]
+}

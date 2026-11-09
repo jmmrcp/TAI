@@ -1,0 +1,106 @@
+{
+  "id": "cuadro-memoria-tipos",
+  "tema_id": "tema-10-informatica-basica-representacion-de-la-informacion-arquitec",
+  "tipo_dato": "clasificacion",
+  "titulo": "Tipos de memoria",
+  "semilla": true,
+  "n_filas": 6,
+  "n_fuentes_distintas": 1,
+  "columnas": [
+    "Tipo",
+    "Volatilidad",
+    "Acceso",
+    "Uso típico"
+  ],
+  "columna_clave": "Tipo",
+  "columna_respuesta": "Volatilidad",
+  "columna_contexto": "Uso típico",
+  "columna_fuente": "fuente",
+  "filas": [
+    {
+      "id": "f-tema10-007",
+      "fuente": "Ayuntamiento de Madrid temario TAI",
+      "fuente_tipo": "temario",
+      "valores": {
+        "Tipo": "RAM",
+        "Volatilidad": "Volátil",
+        "Acceso": "Aleatorio",
+        "Uso típico": "Espacio de trabajo CPU-memoria secundaria"
+      },
+      "pasaje_origen": "cap. 6",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "f-tema10-008",
+      "fuente": "Ayuntamiento de Madrid temario TAI",
+      "fuente_tipo": "temario",
+      "valores": {
+        "Tipo": "ROM",
+        "Volatilidad": "No volátil",
+        "Acceso": "Aleatorio",
+        "Uso típico": "Firmware permanente (BIOS/UEFI)"
+      },
+      "pasaje_origen": "cap. 6",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "f-tema10-009",
+      "fuente": "Ayuntamiento de Madrid temario TAI",
+      "fuente_tipo": "temario",
+      "valores": {
+        "Tipo": "Flash NAND",
+        "Volatilidad": "No volátil",
+        "Acceso": "Por bloques",
+        "Uso típico": "SSD, pendrives, móviles, SD"
+      },
+      "pasaje_origen": "cap. 6",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "f-tema10-010",
+      "fuente": "Ayuntamiento de Madrid temario TAI",
+      "fuente_tipo": "temario",
+      "valores": {
+        "Tipo": "Flash NOR",
+        "Volatilidad": "No volátil",
+        "Acceso": "Aleatorio byte a byte",
+        "Uso típico": "Firmware/código (BIOS)"
+      },
+      "pasaje_origen": "cap. 6",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "f-tema10-011",
+      "fuente": "Ayuntamiento de Madrid temario TAI",
+      "fuente_tipo": "temario",
+      "valores": {
+        "Tipo": "Caché SRAM",
+        "Volatilidad": "Volátil",
+        "Acceso": "Aleatorio",
+        "Uso típico": "Caché L1/L2/L3 del procesador"
+      },
+      "pasaje_origen": "cap. 6",
+      "ubicacion": {},
+      "verificado": false
+    },
+    {
+      "id": "f-tema10-012",
+      "fuente": "Ayuntamiento de Madrid temario TAI",
+      "fuente_tipo": "temario",
+      "valores": {
+        "Tipo": "Memoria virtual",
+        "Volatilidad": "No volátil (disco)",
+        "Acceso": "Paginación",
+        "Uso típico": "Extensión de RAM con disco"
+      },
+      "pasaje_origen": "cap. 6",
+      "ubicacion": {},
+      "verificado": false
+    }
+  ],
+  "verificado": false
+}
