@@ -1,6 +1,3 @@
-Tu progreso se guarda solo en este navegador. No hace falta registrarse y no se recoge ningún dato personal. Si cambias de navegador o de dispositivo, o borras los datos de navegación, el progreso no se conserva; puedes imprimir cada tema con tu avance.
-Temario Técnico/a Auxiliar TICTema 11 · Bloque II25 preguntas de test
-
 # Informática básica. Representación y comunicación de la información
 Elementos constitutivos de un sistema de información · Arquitectura de ordenadores · Componentes internos de los equipos microinformáticos
 Enunciado oficial del programa (BOAM n.º 10.032, de 23 de diciembre de 2025): Informática básica. Representación y comunicación de la información: elementos constitutivos de un sistema de información. Características y funciones. Arquitectura de ordenadores. Componentes internos de los equipos microinformáticos.Extensión~14.000 palabras · 12 diagramas · 25 preguntas de testTiempo estimado de estudio12-14 horas (primera vuelta completa, sin contar repasos) Examen de este tema Casos (1)
